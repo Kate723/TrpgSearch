@@ -1,9 +1,9 @@
 package search;
 
 public class Const {
-    public static final String SAVE_PATH = "/home/user/trpgsearch/src/main/resources/lucene_db";
-    public static final String HTML_PATH = "/home/user/trpgsearch/src/main/resources/save";
-    public static final String INDEX_PATH = "/home/user/lucene_db";
+    public static final String SAVE_PATH = "~/trpgsearch/src/main/resources/lucene_db";
+    public static final String HTML_PATH = "~/lucene_db/save";
+    public static final String INDEX_PATH = "~/lucene_db";
 
     public static final String PATH_FIELD_NAME = "docPath";
     public static final String URL_FIELD_NAME = "docUrl";
