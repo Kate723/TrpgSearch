@@ -1,0 +1,1254 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[停坑合稿中]剑世界2.0 规则书1"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[停坑合稿中]剑世界2.0 规则书1</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e1988d2cbd3553672340dc04637127c3');">
+<div class="info">请 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">登录</a> 或 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="52638"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f17810e16',
+sSessionId: 'e1988d2cbd3553672340dc04637127c3'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0"><span>[停坑合稿中]剑世界2.0 规则书1</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg485410"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=52638.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.20">2</a> <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.20">&#187;</a>   &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [停坑合稿中]剑世界2.0 规则书1 &nbsp;(阅读 33990 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 无责任填坑，渣翻随意喷</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=quickmod2;topic=52638.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e1988d2cbd3553672340dc04637127c3', 'f17810e16') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485410_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485410">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485410#msg485410" rel="nofollow">[停坑合稿中]剑世界2.0 规则书1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485410'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485410'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2012-11-02, 周五 02:08:17 &#187;</div>
+<div id="msg_485410_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485410">跟其他人合稿，整合第一卷内容中<br>================================================<br>2014.02.15 第三章第二节第6-7小节（第二节完）<br>2014.02.13 第三章第二节第4-5小节<br>2014.02.12 第三章第二节第1-3小节<br>2014.02.11 第二章第三节第16-18小节/第二章第四节（第二章完）/第三章第一节<br>2014.02.10 第二章第三节第15小节<br>2014.01.22 第二章第三节第12-14小节/格式调整<br>2014.01.19 第二章第三节第8-11小节/添加索引<br>2014.01.18 第二章第三节第1-7小节<br>2013.01.15 第二章第二节<br>2013.01.10 第二章第一节<br>2012.12.04 第一章第四节<br>2012.11.02 第一章第三节第2-9小节<br>================================================<br>顺便一提，所有（※待补）都是原文中的页数索引，完工后没准会改了，可是能完工么？ <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/><br>================================================<br>每次想起来就翻一小段，无责任无保障，渣翻见谅<br>没准过些日子会把下一章翻完，也没准ShinyFesta刷太高兴就拖到不知道什么时候了 <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/><br>================================================<br>拖满1年后，死坑复燃了 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/><br>================================================<br>一团乱麻的乱战规则，强烈建议去nico找replay看（<br>================================================<br>第二章，完！<br>后面该到魔法、战斗特技、道具资料了（头疼<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>2．决定属性值</strong></span><br><br>决定出身后，依照下表掷骰，并将结果分别加到「技」「体」「心」上。「1d」指投1个六面骰，「2d」指投2个六面骰。「2d+6」指在投2个六面骰的结果上加6。<br><br><strong>属性值的决定</strong><br>&nbsp;&nbsp;&nbsp;&nbsp; 人类&nbsp; &nbsp; 精灵&nbsp; &nbsp; 矮人&nbsp; &nbsp; 塔比特&nbsp; &nbsp; 符文之民&nbsp; &nbsp; &nbsp; 梦魇&nbsp; &nbsp; &nbsp; &nbsp;暗影<br>A&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp; &nbsp; &nbsp; 2d+6&nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d<br>B&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d<br>C&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; 1d&nbsp; &nbsp; &nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d<br>D&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp; &nbsp; &nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d<br>E&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp; &nbsp; &nbsp;2d&nbsp; &nbsp; &nbsp; 1d&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;2d+6&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d<br>F&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp;&nbsp;&nbsp;&nbsp; 2d&nbsp; &nbsp; &nbsp; 2d+6&nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2d<br><br>以下为各属性值的说明和计算方法。<br><br><strong>「灵巧」=技+A</strong><br>代表手指灵巧程度和操作道具技巧高低。高灵巧意味着可以更好的操作道具，攻击也更容易命中。<br><br><strong>「敏捷」=技+B</strong><br>代表动作快慢和身形轻巧程度。高敏捷意味着更远的移动距离，也更容易回避敌人的攻击。<br><br><strong>「力量」=体+C</strong><br>代表人物的力量强弱。高力量意味着可以装备更重的武器和铠甲，给予敌人的伤害也会更高。<br><br><strong>「生命」=体+D</strong><br>代表肉体强韧程度。高生命意味着对毒和疾病更强的抵抗力，HP上限也会更高。<br><br><strong>「智力」=心+E</strong><br>代表头脑好坏和学识深浅。高智力意味着掌握的知识更多，使用魔法时的魔力也会更高。<br><br><strong>「精神」=心+F</strong><br>代表精神强韧程度。高精神意味着对魔法更强的抵抗力，MP上限也会更高。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>属性调整值</strong></span><br>决定能力值后，就要算出「属性调整值」了。调整值是将实际在判定中使用的值。其计算方法是将各属性值分别除以6，然后取舍去小数的商。<br><br><strong>属性值和属性调整值</strong><br>属性值&nbsp;&nbsp;&nbsp;属性调整值<br>0~5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0<br>6~11&nbsp; &nbsp; &nbsp; &nbsp; 1<br>12~17&nbsp; &nbsp; &nbsp; 2<br>18~23&nbsp; &nbsp; &nbsp; 3<br>24~29&nbsp; &nbsp; &nbsp; 4<br>30~35&nbsp; &nbsp; &nbsp; 5<br><br><strong>小贴士！属性值重掷</strong><br>决定属性值时，可以在得到GM的允许后重掷所有属性值。但过多的重掷会使角色制作时间过长，所以请尽量把重掷次数限制在3次以内。<br>※例子略</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485410">
+&#171; <em>上次编辑: 2014-02-20, 周四 02:34:00 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg485411"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485411_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485411">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485411#msg485411" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485411'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485411'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2012-11-02, 周五 02:10:11 &#187;</div>
+<div id="msg_485411_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485411"><span style="font-size: 18pt;" class="bbc_size"><strong>3. 学习技能</strong></span><br><br>技能大体上可分为战士类技能、魔法使类技能和杂类技能三种。决定好种族和出身后，就可以使用初始经验点学习新技能，或提升已有技能了。<br><br>学习技能所需要的经验值的量，根据技能不同有经验表A和经验表B两种标准。学习技能时消费的经验值，应与此技能所对应的经验值表上的记述相符。如学习轻战士Lv1时，应消费500点经验值，然后在技能栏上记入「轻战士1」。<br><br>上升已有技能的等级时，应消费与当前等级相对应的量的经验值。如前述的角色欲将轻战士等级提升至Lv2时，就应消费1000点经验值。在提升等级时，每上升一个等级都需消费一次经验值。<br><br>经验值表和可用经验值学习的技能请参照下文。技能名称右边的字母代表其所属的经验值表。<br><br><strong>初期经验值表</strong><br>学习后的等级&nbsp;&nbsp;&nbsp;经验表A&nbsp;&nbsp;&nbsp;经验表B<br>1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 500<br>2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1000<br>3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1000<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>战士类技能</strong></span><br><br><strong>战士&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br>熟练运用所有近身武器和防具的技能。<br><br><strong>格斗家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br>不使用武器，用拳脚来攻击的技能。<br>学习了格斗家技能的角色，可自动习得战斗特技《追加攻击》和《绊摔攻击》。<br><br><strong>轻战士&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br>使用轻巧的武器和铠甲，轻盈地战斗的技能。<br><br><strong>射手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br>使用弓或枪射击的技能。虽然射手技能也可以操作枪械，但射出子弹需要魔动机师技能。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔法使类技能</strong></span><br><br><strong>魔术师&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br>掌握、运用真语魔法知识的技能。真语魔法的使用者被称为魔术师，是可以一个接一个地学习攻击魔法的攻击系魔法使。使用真语魔法时需要手持＜魔法发动体（⇛13楼）＞。装备重铠时魔法的行使判定将受惩罚（⇛12楼）。<br><br><strong>操灵术师&nbsp;&nbsp;&nbsp;经验表A</strong><br>掌握、运用操灵魔法知识的技能。操灵魔法的使用者被称为操灵术师，可以学到很多以援护、辅助队友为目的的魔法。操灵术师也可以操纵人偶和傀儡。使用操灵魔法时需要手持＜魔法发动体（⇛13楼）＞。装备重铠时魔法的行使判定将受惩罚（⇛12楼）。<br><br><strong>神官&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br>掌握神话和与神相关的知识，使用神圣魔法的技能。神圣魔法的使用者被称为神官，可以学到很多借助神的力量来给予队友回复或防御性援护的魔法。<br>使用神圣魔法时需要在身上装着＜圣印（⇛13楼）＞。<br><br><strong>妖精使&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br>掌握和妖精相关的知识，使用妖精魔法的技能。妖精魔法的使用者被称为妖精使，可以呼唤出妖精，并借助它们的力量使用各种各样的魔法。由于妖精存在「火」「水」「土」「风」「光」「暗」六种属性，妖精使可以使用很多具有属性效果的魔法。<br>使用妖精魔法时需要在身上装着与妖精契约过的＜宝石（⇛13楼）＞。装备重铠时魔法的行使判定将受惩罚（⇛12楼）。<br><br><strong>魔动机师&nbsp;&nbsp;&nbsp;经验表A</strong><br>掌握和魔动机与＜魔动制御球（⇛13楼）＞相关的知识，使用魔动机术的技能。魔动机术的使用者被称为魔动机师，可以学到很多往子弹内灌注魔力、制作炸弹等与其他魔法种类完全不同的魔法。<br>使用魔动机术需要在身上装着＜魔动制御球＞。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>杂类技能</strong></span><br><br><strong>斥候&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br>用于暗中侦查、跟踪、追踪、探索的技能。在开锁和解除陷阱时也会被用到。在战斗开始时决定先手的「先制判定（⇛10楼）」中更会被作为基准值。<br>在某些使用斥候技能的行为判定中，如果未持有＜斥候工具（※待补）＞或装备了金属铠的话，会受到减值惩罚。<br><br><strong>巡林客&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br>用于野外活动的技能。擅长方位和天气的判断，以及登攀和跳跃。由于熟知有关天候和药物的知识，在使用＜救命草（※待补）＞和＜治疗药水（※待补）＞等物品时，可以得到更高的回复量。<br>在某些使用巡林客技能的行为判定中，如果装备了金属铠的话，会受到减值惩罚。<br><br><strong>学者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br>调查文献，掌握学识的技能。可以额外习得与技能等级相同数量的语言的会话或阅读。<br>更在决定角色是否知晓魔物情报的「魔物知识判定（⇛10楼）」中，有看破魔物弱点的可能性。<br><br><strong>小贴士！技能学习向导</strong><br><br>如果不知道学习什么技能好的话，就先提升出身的初始技能的等级吧。提升到Lv2后，在刚制作完角色时就算是擅长这种技能了。<br><br>另外，在制作角色时，最好学习一种战士类或魔法使类技能。这样就可以在战斗时进行援护或攻击，从而增加角色的活跃程度。<br><br>不推荐只学习杂类技能。<br><br>※例子略</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485411">
+&#171; <em>上次编辑: 2014-02-11, 周二 22:19:07 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg485419"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485419_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485419">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485419#msg485419" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485419'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485419'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2012-11-02, 周五 02:16:56 &#187;</div>
+<div id="msg_485419_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485419"><span style="font-size: 14pt;" class="bbc_size"><strong>4.学习语言</strong></span><br><br>下面就要决定角色所会的语言了。角色可以使用同种语言来交流彼此的想法。<br><br>所有PC都可以在建立时学会交易共通语的会话和阅读。<br><br>在此之外，也可以由种族或魔法使类技能学会语言。由种族或魔法使类技能而学会语言时，可同时习得会话和阅读。（但所学习语言只存在会话和阅读中的一种时，不可习得另一种）<br><br>习得学者技能的角色，其每一个学者等级都可使其多习得一门语言的会话和阅读中的一种。选择想学习的语言时请参照下表。<br><br><strong>由种族学习的语言</strong><br>种族&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 习得语言<br>人类&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 任意的地方语（如扎尔茨语）<br>精灵&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 精灵语<br>矮人&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 矮人语<br>塔比特&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;神纪文明语（只有阅读）<br>符文之民&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔动机文明语<br>梦魇&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 父母的语言<br>暗影&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 暗影语<br>※所有PC都会交易共通语的会话和阅读<br><br><strong>由魔法使类技能学习的语言</strong><br>技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 习得语言<br>魔术师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;魔法文明语<br>操灵术师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔法文明语<br>神官&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 无<br>妖精使&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;妖精语（只有会话）<br>魔动机师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔动机文明语<br><br><strong>语言表</strong><br>名称&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 会话&nbsp; &nbsp; 阅读&nbsp; &nbsp; &nbsp; &nbsp; 主要使用的角色<br>精灵语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 精灵、人鱼<br>巨人语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 巨人、巨魔<br>交易共通语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 全体人族<br>暗影语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 暗影<br>神纪文明语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;×&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 塔比特（用于记述称号等）<br>地方语（任意）&nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 多种多样（如扎尔茨语）<br>龙语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; ×&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 龙人、龙<br>飞龙语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 飞龙、拉米娅、食人魔<br>矮人语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 矮人<br>泛用蛮族语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 全体蛮族<br>魔神语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ×&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔神<br>魔动机文明语&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 符文之民、魔动机师<br>魔法文明语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔术师、操灵术师<br>妖精语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ×&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 妖精、妖精使<br>妖魔语&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ×&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 哥布林、博格特<br>各种族语言&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;○&nbsp; &nbsp; &nbsp; &nbsp; ○&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 各种各样<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>各语言的解说</strong></span><br><br><strong>精灵语</strong><br>精灵和人鱼使用的语言。虽然有着流丽的发音和悦耳的听感，但被认为是其他种族很难学习的语言。<br><br><strong>巨人语</strong><br>巨人和巨魔使用的语言。特点是简洁的文体和清楚的发音。<br><br><strong>交易共通语</strong><br>魔动机文明崩坏后，在各地巡游的商队和冒险者间传播开的语言。在魔动机文明语基础上发展而来，特点是简便易识和多用较为直接的表现。<br><br><strong>暗影语</strong><br>暗影族使用的语言。由于是一门有众多同音异义词和同义词的复杂语言，习得这门语言的异种族极其稀少。在暗影族间的暗号或秘密文书中也会被使用。<br><br><strong>神纪文明语</strong><br>只残存在石碑等载体上，发音方法已经遗失了的语言。塔比特们出于喜好将其用于记述自己的称号。据说这种语言曾是古代诸神们的语言。<br><br><strong>地方语</strong><br>各地的方言。各地各有自己的特点。<br><br><strong>龙语</strong><br>龙和其眷属所使用的语言。由于龙有着强大的记忆力，所以其文字并不发达。发音中有许多呻吟和齿音，是非常难以发音的语言。<br><br><strong>飞龙语</strong><br>可被称为是蛮族之首领的飞龙所使用的语言。由于在蛮族的支配阶级中被作为共通语，因此也被称作上位蛮族语。有着非常复杂的语法和丰富的表现力，特征是强有力的发音。<br><br><strong>矮人语</strong><br>矮人使用的语言。由于较短的句节和清晰的发音，单词往往会变得很长。念快了的话会听上去就像在发怒一样。<br><br><strong>泛用蛮族语</strong><br>为了让各个种族的蛮族都能理解而创造的语言（认为其是被飞龙所创造的学说十分有力）。只有非常简短而直接的单词，句法也只有2词长度左右（如「杀了敌人」「肚子饿了」之类）。比起语言更像是符号。无法传达复杂的内容。<br><br><strong>魔神语</strong><br>魔神使用的语言。是一门像咒语一样，非常难听清楚的语言。没有任何文献，也没有文字流传。<br><br><strong>魔动机文明语</strong><br>在约300年前灭亡的阿尔•梅纳斯文明时被广泛使用的语言。是一门简洁明了的语言，在启动＜魔动制御球＞时也会被用到。<br><br><strong>魔法文明语</strong><br>约3000年前灭亡的杜兰迪尔文明的语言。其极为难解的发音只被作为咒语而流传下来。虽然用于日常对话十分困难，但并不是不可能。<br><br><strong>妖精语</strong><br>用来和妖精沟通的语言，有着活泼的发音。单词量的贫乏和时态概念的缺失使这门语言有些难以理解。这门语言也不存在文字。<br><br><strong>妖魔语</strong><br>哥布林、博格特、狗头人等群居性蛮族日常使用的语言。是一门单词量和表现力都十分贫乏，表达方式也十分直接的语言。有很多威吓性的发音，人族去听的话会感到十分刺耳。<br><br><strong>各种族语</strong><br>蛮族和其他种族中都有许多拥有独自语言的魔物。以下是几个例子。<br>食人魔、鱼人、牛头人、半人马等。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485419">
+&#171; <em>上次编辑: 2014-02-17, 周一 23:45:52 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg485421"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485421_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485421">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485421#msg485421" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485421'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485421'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2012-11-02, 周五 02:22:01 &#187;</div>
+<div id="msg_485421_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485421"><span style="font-size: 14pt;" class="bbc_size"><strong>5.确定冒险者等级</strong></span><br><br>结束语言的学习后，要确定冒险者等级。冒险者等级是强弱的大概基准，也是表现角色对冒险的熟练程度的指标。冒险者等级的数值与角色目前所掌握技能中等级最高者相同。<br><br>今后，若因升级等原因，技能的最高等级出现变化时，冒险者等级也应随之变化。无论是原来技能的等级继续上升，还是其他技能的等级超过了原来技能，冒险者等级都应随技能等级最高者变化。<br><br>冒险者等级也有与各属性调整值相加，被用于「冒险者判定（⇛10楼）」的时候。另外，每一个冒险者等级都会提升3点HP上限。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>6.确定HP和MP</strong></span><br><br>HP表示角色的耐久力和强韧程度，高HP意味着更强韧的肉体，从而能承受更多的伤害。<br><br>MP表示角色的mana容量。高MP意味着更高的mana容量，从而能使用更多的魔法。<br><br>角色的HP和MP由以下方式决定。<br><br>HP = 生命力+（冒险者等级*3）<br><br>MP = 精神力+（各魔法使技能等级的合计值*3）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485421">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:06:18 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg485423"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485423_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485423">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485423#msg485423" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485423'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485423'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2012-11-02, 周五 02:33:30 &#187;</div>
+<div id="msg_485423_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485423"><span style="font-size: 14pt;" class="bbc_size"><strong>7.学习战斗特技</strong></span><br><br>战斗特技是角色可以在战斗中使用的特殊技巧。战斗特技可以给属性和技能带来加值，或扩展战术的选择范围。战斗特技的种类众多，而即使是同种技能的使用者，其战斗方式也可能由于所掌握的战斗特技不同而产生很大区别。<br><br>制作PC时，若角色冒险者等级为1或2时，可从以下战斗特技中选择一种学习。制作时冒险者等级若在3以上时，则可额外选择更多战斗特技。学习战斗特技时，请参考「战斗特技（※待补）」章节。不可学习未满足前提条件的战斗特技。<br><br>战斗特技分为不需宣言的常驻效果型和不宣言就没有效果（或不能使用）的类型。使用需要宣言的战斗特技时，要到自身行动时才可进行宣言。习得了格斗家技能的角色，可额外自动习得《追加攻击（※待补）》和《绊摔攻击（※待补）》这两个战斗特技。<br><br>不可重复学习同名战斗特技。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>角色制作时可学习的战斗特技</strong></span><br><br><strong>常驻效果的战斗特技</strong><br>名称&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 参照页&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 效果<br>《精密射击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射击攻击不会误射<br>《狙击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 可以使用狙击<br>《武器熟练/**》&nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 追加伤害+1，可以装备A级武器<br>《防具熟练/**》&nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 防护点+1，可以装备A级防具<br>《魔法诱导》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射击系魔法不会误射<br>《双武器》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 可以双持单手武器进行两次攻击<br><br><strong>需要宣言的战斗特技</strong><br>名称&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 参照页&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 效果<br>《守护》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 代替他人承受攻击<br>《牵制攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 命中力+1<br>《全力攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 追加伤害+4<br>《挑拨攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 吸引敌人的攻击<br>《必杀攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 容易打出重击的攻击<br>《魔法扩大/确实化》&nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 提高魔法的确实性<br>《魔法扩大/数》&nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 增加魔法的对象数<br>《魔法扩大/距离》&nbsp; &nbsp; &nbsp;※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 延展魔法的射程<br>《魔法扩大/时间》&nbsp; &nbsp; &nbsp;※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 延长魔法的持续时间<br>《魔法扩大/范围》&nbsp; &nbsp; &nbsp;※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 扩大魔法的作用范围<br>《魔法收束》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 将广范围魔法的作用范围收束为1体<br>《魔力击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 附加等同于魔力的追加伤害<br><br><strong>格斗家自动习得的战斗特技</strong><br>名称&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 参照页&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 效果<br>《追加攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 可以追加1次攻击<br>《绊摔攻击》&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 绊摔对方使其倒地<br><br><strong>小贴士！推荐的战斗特技</strong><br><br>虽然PC可以学习前页中任一种战斗特技，但根据主技能的不同，对自己更有效的战斗技能也会不同。下面简单介绍一下推荐的战斗特技。<br><br><strong>推荐战斗特技</strong><br>技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 目的&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 推荐的战斗特技<br>战士&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想给予更多伤害&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《全力攻击》<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想要保护同伴&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《守护》<br>格斗家&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;想保证让攻击命中敌人&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《牵制攻击》<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想稳健提高伤害&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《武器熟练/格斗》<br>轻战士&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;专心想打出重击&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《必杀攻击》<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想成为强力的魔法战士&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《魔力击》<br>射手&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想在各种条件下都能放心的射击&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《精密射击》<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想使用两把手枪&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《双武器》<br>魔术师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;想更准确地使用攻击魔法&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《魔法诱导》<br>操灵术师&nbsp; &nbsp; &nbsp; 想同时援护多个目标&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 《魔法扩大/数》<br>神官&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 想同时为多个目标回复&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《魔法扩大/数》<br>妖精使&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;想让攻击魔法准确命中目标&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《魔法诱导》<br>魔动机师&nbsp; &nbsp; &nbsp; 想有效的使用枪械&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;《精密射击》</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485423">
+&#171; <em>上次编辑: 2014-02-12, 周三 17:32:34 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg485424"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_485424_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_485424">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg485424#msg485424" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_485424'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_485424'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2012-11-02, 周五 02:49:10 &#187;</div>
+<div id="msg_485424_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_485424"><span style="font-size: 14pt;" class="bbc_size"><strong>8.购买装备</strong></span><br><br>装备指PC装着的武具、魔法的发动体等为技能所需的物品，和生活必需品、便利的小道具、装饰品之类的物品的总称。PC若没有装备，就既无法使用学习的技能和战斗特技，也无法外出冒险。有一身适合自身能力和技能的装备，可以说是成为独当一面的冒险者的必须条件。<br><br>角色在制作时有1200伽美尔的初始所持金。可以消费这笔所持金来购买装备，为冒险做好必要的准备。<br><br>制作角色时，应由GM决定是否许可角色间互相借贷金钱。<br><br>在参考武器、防具等各装备表购买了适合自己的装备后，请将购买的物品记录到角色卡上。所持金不足以购买适合自己的装备时，请考虑以更便宜的同类装备代替，或放弃购买其他装备以凑足资金。对装备的进一步完善请在PC于任务中大显身手，拿到报酬后再继续进行。<br><br>部分技能不持有特定装备的话，会出现一些无法被使用的情况，下面是这些技能的列表。<br><br><strong>技能所需装备</strong><br>技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 装备&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;价格&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;参照页<br>魔术师、操灵术师&nbsp;&nbsp;&nbsp;〈魔法发动体〉&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;100或武器价格+100&nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>神官&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈圣印〉&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;100&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>妖精使&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈宝石〉&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 每个50 ※1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>魔动机师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈魔动制御球（小）〉&nbsp; &nbsp; &nbsp; &nbsp;200&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈魔动制御球（中）〉&nbsp; &nbsp; &nbsp; &nbsp; 500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈魔动制御球（大）〉&nbsp; &nbsp; &nbsp; &nbsp; 1000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;※待补<br>斥候&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈斥候工具〉&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;100&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈救命草〉※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;※待补<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈魔香草〉※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈治疗药水〉※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 〈复苏药水〉※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※待补<br><br>※1：妖精使技能1级需要2个宝石，2级需要4个，3级以上需要6个。<br>※2：消费道具在使用后会消失。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>装备的装备部位</strong></span><br><br>购买装备后，要决定将其装备在自身的哪个装备部位上。请参照角色卡上的「部位表」，为合理的部位购买可以装着的装备。每个部位只能装着一个装备。部位「其他」可作为任意的部位使用（例：在其上装备第3个戒指或第2条腰带）。<br><br>另外，武器和防具不需要占用装备部位（例：右手持剑并不影响在其上装备戒指）<br><br>装备无法被全部装着时，也可以将其放入背包等地方储存，但被储存的装备不能在战斗中直接被使用。<br><br>各装备的说明请参照（※待补）页。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>9.常规制作完成</strong></span><br><br>最后，如简单制作一样决定好经历（※待补）、姓名、年龄、性别等内容后，PC制作就完成了。请扮演制作完成的PC，在崭新的世界——拉克西亚中大展身手吧。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_485424">
+&#171; <em>上次编辑: 2014-02-11, 周二 22:20:43 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg493440"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=43172" title="检视会员资料:  眼球抉子">眼球抉子</a>
+</h4>
+<ul class="reset smalltext" id="msg_493440_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_493440">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg493440#msg493440" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_493440'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_493440'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2012-11-28, 周三 13:56:14 &#187;</div>
+<div id="msg_493440_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_493440">前几天去书店买了第一本规则书，没有这个的交流群吗...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_493440">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg494595"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_494595_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_494595">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg494595#msg494595" rel="nofollow">Re: 剑世界2.0 规则书1 第一章 玩家角色 第三节 常规制作 第2-9小节</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_494595'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_494595'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2012-12-04, 周二 02:18:45 &#187;</div>
+<div id="msg_494595_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_494595"><strong><del>第一部，完！</del></strong><br>今天偷闲赶紧把坑补了，<del>所以翻的不像人话也是有理由的</del>……第二章要开始干起码也得元旦以后了 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/><br><del>但过了元旦先让咱nicom@s刷个痛再说</del><br>===========================================<br><span style="font-size: 24pt;" class="bbc_size"><strong>四、PC的成长</strong></span><br><br>所谓成长，即是PC消费从冒险中获得的经验值和报酬，来使自己变得更强的行为。<br><br>Session结束时，PC们会获得经验值并进行成长。PC的属性值和技能等级可以通过反复的成长来得到提高，从而得以挑战更强大的敌人，并拥有更强的危机处理能力。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>经验值的获得和消费</strong></span><br><br>Session结束时，PC可以从GM处获得经验值。一般情况下，每次Session可以获得的经验值的量，若任务成功则可获得1000点，失败则是500。在此之外，通过自动失败（⇛9楼）和打倒魔物（※待补）也可以获得经验值。<br><br>PC可以通过消费已获得的经验值来学习新的技能，或提升原有技能的等级。学习、提升技能时，请依照下表消费经验值。<br><br>成长可在经验值允许的范围内任意的进行。但是在提升技能等级时，必须为每一等级的提升支付经验。例如，将Lv3的神官技能提升至Lv5虽然可以在一次成长中完成，但必须先支付1500点经验提升到Lv4，再支付2000点经验提升到Lv5。<br><br>在成长中，也可以不使用经验点，而将其留到以后使用。但是，已经消费了的经验点，是用任何手段都不可以追回的。技能等级的降低也不会使PC获得经验值。因此，请慎重的进行成长。<br><br><strong>经验值表与技能</strong><br>等级&nbsp;&nbsp;&nbsp;经验值表A&nbsp;&nbsp;&nbsp;经验值表B<br>1&nbsp; &nbsp; &nbsp; &nbsp; 1000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;500<br>2&nbsp; &nbsp; &nbsp; &nbsp; 1000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1000<br>3&nbsp; &nbsp; &nbsp; &nbsp; 1500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1000<br>4&nbsp; &nbsp; &nbsp; &nbsp; 1500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1500<br>5&nbsp; &nbsp; &nbsp; &nbsp; 2000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1500<br>6&nbsp; &nbsp; &nbsp; &nbsp; 2500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2000<br><br><strong>经验值表A的技能</strong><br>战士、格斗家、魔术师、操灵术师、神官、妖精使、魔动机师<br><br><strong>经验值表B的技能</strong><br>轻战士、射手、斥候、巡林客、学者<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>冒险者等级的提升与新战斗特技的学习</strong></span><br><br>提升技能等级时，也会出现需要提升冒险者等级的情况。在这时，不要忘记随之提升冒险者等级。在冒险者等级提升时，HP、生命抵抗力、精神抵抗力也会得到提升。<br><br>另外，在冒险者等级提升到奇数级别（1、3、5……）时，可以学习新的战斗特技。这时，请参照「战斗特技（※待补）」来挑选喜欢的战斗特技。学习时，请注意满足战斗特技的前提条件。<br><br>同名战斗特技不可重复学习。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>属性值的成长</strong></span><br><br>PC在Session结束时，可以进行属性值的成长。属性值成长的进行无关于获得的经验值和任务的达成情况。<br><br>属性值的成长通过掷骰决定。掷两个六面骰，并依照角色卡上的「成长」栏检视其结果。之后，在得到的两个结果中选择一种想要成长的属性值，再在对应的「成长」栏中加1。原来的属性值加上新的成长值的结果，将成为新的属性值。<br><br>能力值的成长，在1回中只能增加1点。（译注：此处“回”指每次掷骰，单次成长中可以进行复数回能力成长）。在掷骰结果中，只可选择1种（若两个骰子结果一样，则没有选择余地）。另外，属性值没有成长上限。<br><br><strong>成长中掷骰结果与属性值的对应</strong><br>结果&nbsp; 对应属性值<br>1&nbsp; &nbsp; &nbsp; &nbsp; 灵巧<br>2&nbsp; &nbsp; &nbsp; &nbsp; 敏捷<br>3&nbsp; &nbsp; &nbsp; &nbsp; 力量<br>结果&nbsp; 对应属性值<br>4&nbsp; &nbsp; &nbsp; &nbsp; 生命<br>5&nbsp; &nbsp; &nbsp; &nbsp; 智力<br>6&nbsp; &nbsp; &nbsp; &nbsp; 精神<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>属性值提升所导致的数值改变</strong></span><br><br>属性值提升的话，各数值也会因此改变。敏捷成长的话移动距离会增加，生命提升的话最大HP会增加，精神提升的话最大MP会增加。由于HP和MP也会根据冒险者等级的上升而改变，因此，请在每次成长后重新计算各个数值。<br><br>另外，属性值的提升使属性调整值也得到提升时，使用该项调整值的数值（如命中力和魔力）也会改变。请及时更正各个数值，以避免发生错误。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>名誉点的获得</strong></span><br><br>名誉点是表示PC的风评和名声高低的数值。持有名誉点，即意味着拥有对应程度的名声。拥有高名誉点会使PC变的有名，会出现被以特殊的绰号称呼，或不论去哪都会被人认出身份的情况。<br><br>名誉点可以通过把在Session中获得的＜剑之碎片（※待补）＞交给国家或冒险者之店来获得。另外，完成有名誉的任务或受让某些道具，也可以获得名誉点。<br><br>由＜剑之碎片＞获得的名誉点，要在上交后再进行结算。上交时，为每个上交的碎片掷一个六面骰，将结果相加后的数值即为所得的名誉点。例如在上交5个碎片时，需掷5次六面骰，5次结果相加即为获得的名誉点。获得的名誉点将同时给予所有获得碎片的PC（不进行拆分，而是将这个数值同等的给予每个PC）。名誉点超过100的话，就会被视为能够独当一面的冒险者了。<br><br>另外，可以通过消费名誉点来获得一些特殊物品、爵位或建筑。关于这部分的规则并未收录在规则书1中。现在请先留存手中＜剑之碎片（※待补）＞和名誉点，待参照『规则书2』中的有关规则后再进行消费。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_494595">
+&#171; <em>上次编辑: 2014-02-11, 周二 22:19:43 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg504224"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_504224_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_504224">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg504224#msg504224" rel="nofollow">Re: [1204更新第四节]剑世界2.0 规则书1 第一章 玩家角色 第三节+第四节 PC的成长</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_504224'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_504224'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2013-01-10, 周四 13:52:16 &#187;</div>
+<div id="msg_504224_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_504224"><span style="font-size: 36pt;" class="bbc_size"><strong>第二章 规则</strong></span><br><br>本章记叙了使SW2.0世界中的角色们运转起来的各种规则。<br>GM对规则与行为判定的适用拥有最终决定权。<br><br><span style="font-size: 24pt;" class="bbc_size"><strong>行为判定</strong></span><br><br>捡起石子、奔跑一小段距离之类的行动，无论谁都能做到。但举起巨岩、跃过深沟之类的行动，就不是人人都能做到的了。<br>而行为判定，即是通过掷骰，决定角色行动的成败。<br><br>角色进行某种行动时，GM可以决定该行动是否需要进行行为判定，并根据判定结果判断该行动的成败。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>行为判定的方法</strong></span><br><br>进行行为判定，会用到技能等级、属性调整值和两个骰子。在判定中使用的技能和调整值的种类，由行为判定的类型决定。GM可以决定PC在判定中使用何种行为判定。<br><br>在行为判定中，将技能等级与属性调整值相加的数值称作「基准值」。而基准值与PC掷2d的结果相加后的数值称为「达成值」。达成值在表示判定难度的「目标值」以上时，该行为判定成功，反之则失败。<br><br>行为判定可用以下公式表示：<br><strong>[ 基准值 + 2d = 达成值 ]<br>[ 达成值 ≧ 目标值 ] 时，行为判定成功<br>[ 达成值 ＜ 目标值 ] 时，行为判定失败</strong><br><br>行为判定成功后，角色就可以如愿完成动作。失败时，则无法完成此宣言的动作。此后根据情况不同，或有再次尝试的机会，也或会出现无可挽回的事态。<br><br><strong>行为判定流程图</strong><br><img src="http://ww1.sinaimg.cn/large/9592acf1gw1ecss8mvf8mj20gy0cl75h.jpg" alt="" class="bbc_img"/><br><br><span style="font-size: 18pt;" class="bbc_size"><strong>行为判定时</strong></span><br><br>PC并不需要在进行任何行动时都做行为判定。在平坦的地面上行走、正常进食之类的简单动作，可以认为是不需判定也能成功的动作，因此不需进行行为判定。而举起50吨的巨岩、跳过100米宽的河等明显没有可行性的行为，则不可进行行为判定。<br><br>换而言之，行为判定只需要在GM判断为「不做判定便不知道结果」的情况时进行。在事态结果会被PC的能力、运气以及「达成值比较（⇛9楼）」左右时，需要进行行为判定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>目标值的决定</strong></span><br><br>目标值基本上由GM决定。请GM根据该行为本身的难度，和大概需求的技能等级高低来决定目标值。<br><br>以下是行为难度与其目标值的大致对应表。请GM参照此表制定目标值。但根据具体情况，目标值也可出现一定变化。<br><br>难度&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;目标值<br>即使没有技能，也基本都能成功&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5<br>即使没有技能，也有一半的成功率&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7<br>有技能的话基本可以成功，但对门外汉则很困难&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9<br>技能等级较低的话，大概有一半成功率&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;11<br>技能等级较低的话，若想成功只能依靠运气&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13<br>不在一定程度上熟练掌握该项技能则无法成功&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15<br>同时需要较高的技能等级和能力属性&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 17<br>不精通该项技能则无法成功&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;19<br>在高度的技能、能力属性之上，还需要运气的辅助&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 21<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>无调整</strong></span><br><br>在行为判定时，即使没有所指定的技能，也可以进行行为判定。但此时，不仅应将其技能等级视为「0」，其对应的属性调整值也视为「0」。总而言之，就是将此次判定的基准值视为「0」，只根据掷2d的结果决定达成值。<br><br>这种在判定中不使用技能等级和属性调整值的状况，称为「无调整」。无调整时也会出现自动成功和自动失败（⇛9楼）。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_504224">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:26:54 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg504228"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_504228_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_504228">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg504228#msg504228" rel="nofollow">Re: [0110更新第2章第1节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_504228'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_504228'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2013-01-10, 周四 13:55:05 &#187;</div>
+<div id="msg_504228_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_504228"><span style="font-size: 18pt;" class="bbc_size"><strong>自动成功和自动失败</strong></span><br><br>在行为判定中掷骰时，2d结果出现两个「6」或两个「1」的情况，分别称为自动成功和自动失败。<br><br>掷骰结果出现两个「6」时，行为判定结果无视于目标值、达成值、加减值，必定成功。这称为自动成功，意味着角色在行动时出现了非常幸运的情况，并只依靠这种偶然的幸运完成了行动。<br><br>反之，掷骰结果出现两个「1」时，行为判定结果无视于目标值、达成值、调整值，必定失败。这称为自动失败，意味着角色在行动时遇到噩运，出现了滑倒或突然忘记必要知识等意外的事故。<br><br>每次掷出自动失败，角色都可获得50点经验，而这视作角色在失败中为以后的行动积累了经验。在自动失败中消费的MP和道具被视作正常消费，不会返还。<br>（※例子略）<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>达成值比较</strong></span><br><br>达成值比较，指复数的PC或NPC进行同一行为判定时，比较其优劣的行为（例如赛跑时决定谁第一个跑到终点）。<br><br>进行达成值比较时，所有参与的角色需同时进行行为判定，并比较其达成值，最后出现有利于达成值最高者的行为判定结果。存在复数的最高达成值时，会出现对其同等有利的结果（例如赛跑中的同时到达终点）。<br><br>希望在行为判定中分出明确优劣时，若出现复数的最高达成值，可在其之间反复进行行为判定，直至分出结果（例如5人同时起跑，抢夺同一面旗子等情况）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>被动方优先法则</strong></span><br><br>进行达成值比较时，有时会出现主动进行动作和被动承受动作的两方（例如用武器攻击的一方，和试图躲避的另一方）。<br><br>此时，积极行动的一方称为「主动方」，被动承受的一方称为「被动方」。<br><br>当两者进行达成值比较时，若达成值相同，则判定为被动方的胜利。<br><br>此法则也适用于使用魔法、尝试说服等其他多种情况。<br><br>无法明确分出主动、被动方时，请反复在相同条件下进行行为判定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>不同的基准值</strong></span><br><br>进行达成值比较时，使用的基准值的种类可能会有所不同（例如攻击命中与否由命中力和回避力的比较决定）。<br><br><strong>由不同基准值进行的达成值比较的代表性例子</strong><br>主动方的行为判定&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; 被动方的行为判定<br>命中力判定（⇛10楼）&nbsp;&nbsp;&nbsp;回避力判定（⇛10楼）<br>行使判定（⇛10楼）&nbsp; &nbsp;&nbsp;&nbsp; 精神抵抗力判定（⇛10楼）<br>潜行判定（⇛10楼）&nbsp; &nbsp;&nbsp;&nbsp; 危险感知判定（⇛10楼）<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>同时出现自动成功时的处理</strong></span><br><br>在进行达成值比较时，若双方都自动成功，基本上会出现对被动方有利的结果。例如在命中力判定和回避力判定中，若双方都掷出双6，则无视于行为判定的达成值，而视为攻击被回避。<br><br>在无法明确分出主动方和被动方，和双方都是主动或能动一方的情况时，请在同等条件下反复进行行为判定直至分出高低。<br>（※例子略）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_504228">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:28:08 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg504231"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_504231_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_504231">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg504231#msg504231" rel="nofollow">Re: [0110更新第2章第1节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_504231'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_504231'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2013-01-10, 周四 14:03:13 &#187;</div>
+<div id="msg_504231_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_504231"><span style="font-size: 18pt;" class="bbc_size"><strong>行为判定的种类</strong></span><br><br>行为判定中会使用到技能等级和属性调整值。下面将就各种行为判定的种类进行详细的解说。<br><br>行为判定中也存在不使用技能等级，而以冒险者等级作为基准的种类。其判定方法同其他行为判定。<br><br>没必要一次将行为判定的种类全部背记下来。可以先只简单过目，以后在判定中使用时再重新确认。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行为判定的种类和基准值一览</strong></span><br><br>行为判定存在以下的种类。各基准值的说明请见后述。<br><br><strong>使用灵巧调整值的行为判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; &nbsp; 技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>隐蔽判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>急救判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br>解除判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>偷窃判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>变装判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>命中力判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 命中力&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;战士、格斗家、轻战士、射手&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>陷阱设置判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br><br><strong>使用敏捷调整值的行为判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; &nbsp; 技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>受身判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>潜行判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>回避力判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;回避力&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;战士、格斗家、轻战士&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>轻身判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>先制判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 先制力&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>跟踪判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br><br><strong>使用智力调整值的行为判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; &nbsp; 技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>足迹追踪判定&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>聆听判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>危险感知判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>见识判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>行使判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔力&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔术师、操灵术师、神官、妖精使、魔动机师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>构造解析判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>探索判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>地图制作判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客、贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br>天气预测判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>疾病知识判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 贤者、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>文献判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>宝物鉴定判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br>魔物知识判定&nbsp; &nbsp; &nbsp; &nbsp; 魔物知识&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>药物学判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 巡林客、贤者&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>陷阱感知判定&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 斥候、巡林客&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br><br><strong>使用生命调整值的行为判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; &nbsp;技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>生死判定&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;生命抵抗力&nbsp; &nbsp; &nbsp; &nbsp;冒险者等级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br>生命抵抗力判定&nbsp; &nbsp; &nbsp;生命抵抗力&nbsp; &nbsp; &nbsp; &nbsp;冒险者等级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br><br><strong>使用精神调整值的行为判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; &nbsp;技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>精神抵抗力判定&nbsp; &nbsp; &nbsp;精神抵抗力&nbsp; &nbsp; &nbsp; &nbsp;冒险者等级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⇛本楼<br><br><strong>其它判定</strong><br>行为判定种类&nbsp; &nbsp; &nbsp; &nbsp; 基准值名称&nbsp; &nbsp; &nbsp; 技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;参照页<br>冒险者判定※&nbsp; &nbsp; &nbsp; &nbsp; \&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;冒险者等级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⇛本楼<br>※根据状况不同，会使用不同的属性调整值<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用灵巧调整值的行为判定的解说</strong></span><br><br><strong>隐蔽判定</strong><br>基准值：斥候/巡林客技能等级 + 灵巧调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可将足迹或道具巧妙地隐藏起来。失败则仍很容易被发现。<br>解说：实行掩盖自己和同伴的行动痕迹、藏起道具或物品等行为时的判定。达成值越高，所掩藏的东西越不容易被发现。<br><br><strong>急救判定</strong><br>基准值：巡林客技能等级 + 灵巧调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以使昏迷角色的HP回复至1，并恢复意识。失败则没有效果。<br>解说：用来使HP降到0以下的昏迷角色恢复意识的行为判定。虽然该判定的目标值是0，但会受到与昏迷角色的HP数值相等的减值修正（例如对HP为-5的昏迷角色使用的话，其实际难度等于进行目标值为5的判定）。<br>判定成功的话，角色HP回复至1并恢复意识。<br><br><strong>解除判定</strong><br>基准值：斥候/巡林客技能等级 + 灵巧调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可以打开上锁的门和宝箱、或拆除设置的陷阱。失败则没有效果。<br>解说：用来在没有钥匙的情况下打开上锁的门和宝箱，或解除陷阱的行为判定。达成值越高，能解除的锁或陷阱的复杂程度就越高。该判定的目标值由目标的复杂程度决定。<br>在室内的解除判定只能使用斥候技能，且若没有＜斥候工具＞，达成值会受到-4的减值修正。连续两次解除失败的话，会触发陷阱（⇛11楼）。<br><br><strong>偷窃判定</strong><br>基准值：斥候技能等级 + 灵巧调整值<br>所需时间：10秒（1回合）<br>结果：成功后，可以偷到目标身上的物品。失败则无法偷到，并会被对方发现。<br>解说：用来不被对方察觉的，偷取其身上的物品和金钱的行为判定。基本上会与对方的「危险感知判定（⇛本楼）」进行达成值比较。此时，进行偷窃判定的一方被视为主动方，进行危险感知判定的一方被视为被动方。<br><br><strong>变装判定</strong><br>基准值：斥候技能等级 + 灵巧调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以通过变装掩盖角色身份，或伪装成他人。失败则很容易就会被识破。<br>解说：用来通过化妆和换装，扮成他人样子的行为判定。达成值越高，变装的完成度就越高，越难被别人识破。<br>为他人进行变装的时候，达成值需受-4的减值修正。要看破变装，需做目标值为变装判定之达成值的「冒险者等级 + 智力调整值」的行为判定。<br><br><strong>命中力判定</strong><br>基准值：命中力（战士/格斗家/轻战士/射手技能等级 + 灵巧调整值）<br>所需时间：一瞬<br>结果：成功后，宣言的攻击顺利命中目标。失败的话，宣言的攻击落空。<br>解说：用来使攻击命中的行为判定。其达成值表示该次攻击的准确程度。根据使用的武器和技能不同，命中力也会有所不同。<br><br><strong>陷阱设置判定</strong><br>基准值：斥候/巡林客技能等级 + 灵巧调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，宣言的陷阱设置成功。失败则设置失败。<br>解说：用来在门、通路、宝箱等地方设置简单陷阱的行为判定。设置的陷阱可能会在「探索判定（⇛本楼）」「陷阱感知判定（⇛本楼）」与陷阱达成值进行的达成值比较后被发现。<br>巡林客技能无法在室内设置有效的陷阱（斥候技能不论室内室外都可以设置）。在室内的设置陷阱时，若没有＜斥候工具＞，达成值需受-4的减值修正。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用敏捷调整值的行为判定的解说</strong></span><br><br><strong>受身判定</strong><br>基准值：斥候/巡林客技能等级 + 敏捷调整值<br>所需时间：一瞬<br>结果：减少坠落伤害。<br>解说：用来在从深坑或高处坠落时进行受身，减少坠落伤害（⇛29楼）的行为判定。角色受到的坠落伤害会减少与该判定达成值相同的数值。该判定的达成值不会小于0。自动失败（⇛9楼）时，达成值按0计算。<br>在进行受身判定时若身着金属铠，达成值需受-4的减值修正。<br><br><strong>潜行判定</strong><br>基准值：斥候/巡林客技能等级 + 敏捷调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以无声无息的移动或藏身于阴影之中，而不被他人察觉。失败则会被发现。<br>解说：用来无声无息地移动的行为判定。达成值越高，行动越无声无息，从而更好的将身形隐藏起来。基本上会与对方的「危险感知判定（⇛本楼）」进行达成值比较。<br>进行潜行判定时若身着金属铠，达成值需受-4的减值修正。<br><br><strong>回避力判定</strong><br>基准值：回避力（战士/格斗家/轻战士技能等级 + 敏捷调整值）<br>所需时间：一瞬<br>结果：成功后，可回避攻击。失败则会被攻击命中，受到伤害。<br>解说：用来回避攻击的行为判定。其达成值表示该次回避动作的准确程度。<br>该判定相对于「命中力判定（⇛本楼）」而存在，在未受到攻击时不能进行。根据使用的武器、防具和技能不同，回避力也会有所变化。<br><br><strong>轻身判定</strong><br>基准值：斥候/巡林客技能等级 + 敏捷调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可在恶劣的地形上轻巧的移动。失败的话则会因摔倒或失去平衡而无法移动。<br>解说：用来通过敏捷的动作和优秀的平衡感，在恶劣的地形上移动的行为判定。达成值足够高的话，即使是复杂的险关或凌空的悬索也可以轻松的通过。<br><br><strong>先制判定</strong><br>基准值：先制力（斥候技能等级 + 敏捷调整值）<br>所需时间：一瞬<br>结果：成功后，角色所属阵营可以取得战斗的先手。失败的话阵营会落于后手。<br>解说：用来在战斗开始时，取得先手的行为判定。其达成值表示角色制敌机先的程度（⇛16楼）。该判定即可以魔物的先制值（※待补）作为目标值，也可与敌对阵营进行先制判定的达成值比较。<br><br><strong>跟踪判定</strong><br>基准值：斥候/巡林客技能等级 + 敏捷调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可不被对方发现的进行跟踪。失败则会被对方察觉。<br>解说：用来不被发现的，跟踪移动目标的行为判定。达成值足够高的话，即使是在跟踪有警戒的目标，也可以顺利的不被发现。基本上会与跟踪对象的「危险感知判定（⇛本楼）」进行达成值比较。<br>在进行跟踪判定时身着金属铠的话，达成值需受-4的减值修正。同时，巡林客技能不可在室内或喧闹的场所进行跟踪判定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用智力调整值的行为判定的解说</strong></span><br><br><strong>足迹追踪判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可从残留的足迹或痕迹中，得到痕迹留下的时间、目标前往的方向之类的情报。失败的话则没有收获。<br>解说：用来寻找足迹或线索，调查目标去向的行为判定。达成值越高，能察觉的线索就越细微。<br><br><strong>聆听判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：10秒（1回合）<br>结果：成功后，可以在一定程度上听清指定场所处传来的声音。失败的话则什么都无法听到。<br>解说：用来听取墙后或远处的声音的行为判定。达成值越高，能听清的距离就越远、能听清的声音就越细微。在此之上，还可以了解到声音的特征、发声源等细节。<br><br><strong>危险感知判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：一瞬<br>结果：成功后，可以察觉到迫近的危险、敌人的偷袭、隐藏的事物等。失败则无法察觉。<br>解说：用来在事前感知即将发生的危险和不利事态的行为判定。达成值越高，越能更早并更确切的感知到危险。<br>种族为塔比特的PC具有种族特性［第六感］（※待补），可以使用「冒险者等级 + 智力调整值」进行危险感知判定。<br><br><strong>见识判定</strong><br>基准值：贤者技能等级 + 智力调整值<br>所需时间：10秒（1回合）<br>结果：成功后，即视为持有进行判定的事物的知识。失败的话则视为不知道，或回想不起相关的知识。<br>解说：利用持有的知识来理解事物时进行的行为判定。达成值越高，对该事物的知识就越详细。<br><br><strong>行使判定</strong><br>基准值：魔力（魔术师/操灵术师/神官/妖精使/魔动机师技能等级 + 智力调整值）<br>所需时间：10秒（1回合）<br>结果：成功后，使用的魔法可发挥完全的效果。失败的话，魔法则会发挥不完全的效果，或完全无效。<br>解说：使用魔法时进行的行为判定。其达成值表示魔法的强力程度。拥有复数的魔法使技能时，会根据各技能等级的不同，拥有各自对应的魔力值。<br>魔术师技能、操灵术师技能和妖精使技能的行为判定会出现因身着的铠甲类型而受减值修正（⇛12楼）的情况。<br>再次尝试行使失败的魔法，不属于重试行为判定（⇛11楼）。<br><br><strong>构造解析判定</strong><br>基准值：贤者技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以判断出目标建筑或物体的材质、原材料、制造时期或年代。失败则没有收获。<br>解说：用来调查建筑和道具的材质，得到其详细情报的行为判定。达成值越高，所能了解的构造情况和制造时期就越详细。<br><br><strong>探索判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以发现隐藏的陷阱或事物。失败则无法察觉。<br>解说：用来寻找陷阱或暗门等隐藏事物的行为判定。达成值足够高的话，即使是被巧妙隐藏的事物，也可以被顺利发现。<br>使用巡林客技能的探索判定只能在野外进行。<br><br><strong>地图制作判定</strong><br>基准值：斥候/巡林客/贤者技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以制作出目前已探索过的地域或范围的地图。失败的话则没有成果。<br>解说：用来制作特定地域或建筑内的地图，记录范围内地形和周边情况的行为判定。达成值越高，制作出的地图精度就越高，也越容易被他人理解。<br>巡林客技能只能用来制作野外的地图。<br><br><strong>天气预测判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可以预测出之后一小段时期的天气状况。失败则没有成果。<br>解说：用来观察风和云的动向，预测之后一小段时期的天气的行为判定。达成值越高，能预测的时间就越长，预测也更为准确。<br>天气预测判定只能在野外进行。<br><br><strong>疾病知识判定</strong><br>基准值：巡林客/贤者技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以了解到所调查的疾病的详细症状、发展过程、治疗方法等情报。失败则没有收获。<br>解说：利用对疾病的理解，获知其症状和疗法的行为判定。达成值足够高的话，即使是罕见的疾病也可以知晓，对于其症状与疗法也能有具体的了解。<br><br><strong>文献判定</strong><br>基准值：贤者技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以从文献中获得必要的知识，或找出需要的文献。失败则没有收获。<br>解说：用来调查文献，从恰当的来源中获取必要的知识的行为判定。达成值越高，所得到的知识就越准确。<br><br><strong>宝物鉴定判定</strong><br>基准值：斥候/贤者技能等级 + 智力调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以获知所调查物品的价值、制作时期、用法、用途、效果等情报。失败则没有收获。<br>解说：用来鉴定魔法物品，获取其制作时期、用法、用途、效果等情报的行为判定。达成值越高，所了解的情报就越详细。<br>用斥候技能进行的宝物鉴定判定，只能了解物品的价值。<br><br><strong>魔物知识判定</strong><br>基准值：魔物知识（贤者技能等级 + 智力调整值）<br>所需时间：一瞬<br>结果：成功后，可将该魔物的资料视为已知情报，并可以随时检视本书或询问GM进行确认。如果达成值在弱点值以上，则可以使用弱点资料。失败的话，则视为对魔物情报一无所知。<br>解说：判断角色是否知晓魔物或未知生物的生态和弱点的行为判定。其达成值表示对该魔物情报的相关知识水平，或能回想起的相关知识的量。该判定的目标值即目标魔物的知名度相同。在听取魔物特殊能力之类的概要描述时，也可以进行魔物知识判定。<br>另外，使用贤者技能进行魔物知识判定时，有可能会知晓魔物的弱点。当魔物知识判定的达成值在魔物的「弱点值（※待补）」以上时，视为知晓该魔物的弱点。通过知晓魔物的弱点，可以取得一些有利的效果或修正，这种效果适用于所有同伴。<br>魔物知识判定在一次冒险中，对同一名称的魔物只需（只能）进行一次。在该次判定中成功的话，在同一次冒险中出现的同种魔物的情报都会视为已知，这也适用于弱点的情报。<br>在以后的冒险中再次遭遇同种魔物的话，可以要求进行重新判定。此时，若在以前冒险中成功通过过该判定，则只需要重新判定是否知晓魔物的弱点（弱点并非都一直能被识破）（译注：指部分弱点即使以前识破过，也需要重新进行判定，具体判断由GM裁量）。<br><br><strong>药物学判定</strong><br>基准值：巡林客/贤者技能等级 + 智力调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可了解所调查的药物或毒物的详细效果、价格等情报。失败则一无所获。<br>解说：利用对药草或药品的理解，获知其效果和价格的行为判定。达成值越高，得到的情报就越详细。如果对象是毒物的话，还可了解到解毒的方法。<br><br><strong>陷阱感知判定</strong><br>基准值：斥候/巡林客技能等级 + 智力调整值<br>所需时间：一瞬<br>结果：成功后，可发现周围设置的陷阱。失败则没有察觉到。<br>解说：决定是否能在一瞬间察觉被巧妙隐藏的陷阱的行为判定。达成值足够高的话，即使是很难被察觉的陷阱也会被发现。<br>该判定的难度很高，其目标值通常是在对同一陷阱进行「探索判定（⇛本楼）」目标值上进行+4调整的结果。<br>使用巡林客技能的陷阱感知判定只能在野外进行。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用生命调整值的行为判定的解说</strong></span><br><br><strong>生死判定</strong><br>基准值：生命抵抗力（冒险者等级 + 生命调整值）<br>所需时间：一瞬<br>结果：成功后，PC进入昏迷状态。失败则立即死亡。<br>解说：在HP下降至0以下时，决定生死的行为判定。其达成值越高，越意味着角色抵抗死亡力量的强大。该判定的目标值虽然是「0」，但会受到与当前HP数值相同的减值修正。例如HP为「0」时判定的目标值是「0」，但当受到更多伤害，在HP为「-8」的状态时昏迷的话，生死判定的达成值就会受到-8的减值修正（实质等于目标值为8的判定）。<br>在上次生死判定的10分钟后，或再次受到伤害时，需要重新做生死判定。经过了10分钟的情况，目标值需上升1点。HP受到伤害的情况，需以当前生命值作为新的减值修正。进行生死判定后，若HP一直没有得到回复，也没有受到新的伤害，则需在之后1小时内反复进行生死判定，直至死亡、自动成功、或1小时后苏醒。对昏迷的角色使用【唤醒术】或＜唤醒药水＞等魔法、物品后，可使其HP立刻回复至1并苏醒。没有使用【唤醒术】等魔法、物品时，即使通过其他物品、魔法将其HP回复至1以上，目标角色也需要等待1小时后才会苏醒。<br>没有得到回复时，只要在之后1小时内没有再次受到伤害，其HP就可自动回复至1并恢复意识（但需要以10分钟为单位进行生死判定）。<br>在生死判定中失败的话，PC立刻死亡。<br>在生死判定掷出自动失败的话，角色无视于目标值，立刻死亡。如果掷出自动成功，角色的当前HP则立刻回复至1并恢复意识。<br><br><strong>生命抵抗力判定</strong><br>基准值：生命抵抗力（冒险者等级 + 生命调整值）<br>所需时间：一瞬<br>结果：成功后，所抵抗的效果只会以不完全的效果生效，或完全无效。失败则需承受其完全效果。<br>解说：用来在承受毒、疾病等肉体性的负面影响时，对其进行抵抗的行为判定。达成值越高，对这些负面影响的抵抗就越强。该判定的目标值为毒、疾病的规定值，或魔法、魔物特殊能力的达成值。<br>在该判定中成功的话，就可以完全或部分抵抗对应的负面影响。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">使用精神调整值的行为判定的解说</span></strong><br><br><strong>精神抵抗力判定</strong><br>基准值：精神抵抗力（冒险者等级 + 精神调整值）<br>所需时间：一瞬<br>结果：成功后，所抵抗的效果只会以不完全的效果生效，或完全无效。失败则需承受其完全效果。<br>解说：用来在承受魔法、魔物特殊能力等带来的精神性的负面影响时，对其进行抵抗的行为判定。达成值越高，对这些负面影响的抵抗就越强。该判定的目标值为魔法、特殊能力的达成值。<br>在该判定中成功的话，就可以完全或部分抵抗对应的负面影响。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>冒险者判定</strong></span><br><br>冒险者判定，指每个冒险者都能进行的一般性行动的行为判定。这些无论是谁都能尝试，但难于精通，不知是否能够成功的判定，称为冒险者判定。<br>以下是主要的冒险者判定。<br><br><strong>游泳</strong><br>基准值：冒险者等级 + 敏捷调整值<br>所需时间：1分钟（6回合）<br>结果：成功后，可以顺利的在水中游泳。失败则会溺水。<br>解说：用自己的手足游泳时进行的行为判定。在平静无波的水中，即使没有落脚点也可以通过游泳来移动。在较缓的水流中，不需要进行判定也可以游泳。<br>在水中移动时，「全力移动（⇛23楼）」和「通常移动（⇛23楼）」的移动距离都会变为陆上的5分之1（小数进位）。「限制移动（⇛23楼）」的距离则会缩减为1米。<br>在湍急的水流或汹涌的波涛中游泳时，需要以1分钟为单位反复进行判定。以下是目标值的大概参考：一般的河流为7、急流为9、波涛汹涌的大海则为13。<br>行为判定成功则可顺利的游泳，但失败的话就会溺水。溺水后，角色除「限制移动」外不能进行任何动作，经过与自身「生命」属性相同的回合数后，无关于当前HP，角色立刻昏迷。<br>在水中行动时，会受到「因身体受限而导致的减值修正（⇛11楼）」中记载的减值修正。<br><br><strong>攀登</strong><br>基准值：冒险者等级 + 力量调整值<br>所需时间：10分钟（60回合）<br>结果：成功后，可以成功爬升宣言的高度。失败则会在中途坠落。<br>解说：用来攀上崖壁或悬索的行为判定。该判定的目标值基准为10，但会受到下表记载内容的修正。<br>行为判定成功则可顺利的爬到安全的地方，但失败的话会中途坠落，并承受「坠落伤害（⇛29楼）」。坠落距离按试图攀登距离的一半（小数进位）计算。<br><br><strong>攀登判定的达成值会受到的加减值修正</strong><br>状况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 修正<br>5米以下&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;±0<br>5米之后，每提高5米&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>没有可抓的支点的陡壁&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -4<br>没有墙壁或崖壁依靠的悬索&nbsp; &nbsp; &nbsp; &nbsp; -4<br>身着金属铠&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -4<br>身处有强风的室外&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-4<br>身上几乎没有负担&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+2<br>有绳索等物的辅助&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+2<br><br><strong>跳远、跳高</strong><br>基准值：冒险者等级 + 敏捷调整值<br>所需时间：10秒（1回合）<br>结果：成功后，可以成功跳过宣言的距离。失败的话则会在达到目标之前落地。<br>解说：用来高跳或跃过障碍的行为判定。其目标值会根据尝试跳跃的距离而改变。该判定的目标值基准为10，但会受到距离和具体情况的修正。具体调整请参考下表。<br>成功后，可以成功跳起或跃过所宣言的距离。但失败的话，则会出现跳跃距离不够，或撞上障碍物等事故。这之后的状况请由GM决定。<br><br><strong>跳远判定的达成值会受到的加减值修正</strong><br>状况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 修正<br>3米以下&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;±0<br>3米之后，每提高1米&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>无法看到目标点&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>身处有强风的室外&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>身着金属铠&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -4<br>身上几乎没有负担&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2<br>助跑5米以上&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2<br><br><strong>跳高判定的达成值会受到的加减值修正</strong><br>状况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 修正<br>1米以下&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;±0<br>1米之后，每提高10公分&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>无法看到目标点&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>身处有强风的室外&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>身着金属铠&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -4<br>身上几乎没有负担&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2<br>助跑5米以上&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2<br><br><strong>其他GM判断需要进行判定的行动</strong><br>基准值：由GM决定<br>所需时间：由GM决定<br>结果：由GM决定<br>解说：任何GM认为冒险者可以做到，并允许使用冒险者等级进行判定的行为判定。使用的调整值种类请GM根据要进行的行为判定的情况决定。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_504231">
+&#171; <em>上次编辑: 2014-02-11, 周二 22:24:36 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg504234"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_504234_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_504234">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg504234#msg504234" rel="nofollow">Re: [0110更新第2章第1节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_504234'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_504234'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2013-01-10, 周四 14:06:33 &#187;</div>
+<div id="msg_504234_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_504234"><span style="font-size: 18pt;" class="bbc_size"><strong>加值修正和减值修正</strong></span><br><br>基本上，只要达成值达到目标值以上，行为判定就会成功。但是，行为判定的达成值会受到周边情况、魔法、战斗特技等因素或有利、或不利的修正。对行为判定有利的修正称为「加值修正」，不利的修正称为「减值修正」。<br><br>无论是加值修正还是减值修正，都会对行为判定的达成值产生影响。加值修正会使达成值上升，减值修正会使达成值下降。复数种类的加值或减值修正同时存在时，需全部使用。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>修正的表示方法和大致标准</strong></span><br><br>加值修正的表示方法如「+1的加值修正」「+3的加值修正」。+1的加值修正，代表行为判定的达成值需上升1。同理，减值修正的表示方法如「-2的减值修正」「-4的减值修正」。-2的减值修正，代表行为判定的达成值需下降2。<br><br>给予何种程度的加值修正和减值修正的最终决定权归于GM。下表是修正数值与有利、不利程度的对应参照。<br><br><strong>加值修正与减值修正的大致标准</strong><br>标准&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 修正数值<br>些许的有利/不利&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+1/-1<br>明确的有利/不利&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+2/-2<br>足以颠复实力的有利/不利&nbsp; &nbsp; &nbsp; +3/-3<br>压倒性的有利/不利&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +4/-4<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>加值修正的例子</strong></span><br><br>行为判定中的加值修正，可因事况而给予，也可因魔法或战斗特技而给予。由魔法和战斗特技等给予的加值修正的相关事项，请参照其说明。<br><br>以下是因事况而给予的加值修正的例子。因事况而给予的加值修正的具体数值应由GM决定。没有GM许可的话，即使是有利的事况也不会给予加值修正。<br><br><strong>加值修正的例子</strong><br>事况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;加值修正<br>使用了使状况变得有利的道具&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +1~+4<br>拥有有利的知识&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+1~+4<br>使用了两倍以上的必要时间来完成该动作&nbsp; &nbsp; &nbsp;+1<br>集中于完成该动作&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>减值修正的例子</strong></span><br><br>行为判定中的减值修正，可因事况而给予，也可因魔法或战斗特技而给予。由魔法和战斗特技等给予的减值修正的相关事项，请参照其说明。<br><br>以下是因视野和身体受限而给予的减值修正的例子。在此之外其他事况也会给予减值修正。GM请参考以下例子，决定是否给予减值修正。<br>生命抵抗力判定和精神抵抗力判定基本上不会受到减值修正。<br>（译注：一般环境因素带来的减值修正不会影响生死判定、生命抵抗力判定和精神抵抗力判定，这些判定只会在受到有特殊注明的魔法、魔物特殊能力等条件影响的情况下才会发生减值修正）<br><br><strong>视野受限导致的减值修正的例子</strong><br>事况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 减值修正<br>近处没有光源的黑暗室外※&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>近处没有光源的黑暗室内或地下※&nbsp; &nbsp; -4<br>浓雾或沙暴中&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>单眼不能视物&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>双眼不能视物&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-4<br>※：由于种族特性、魔法或道具等的效果而拥有黑暗视觉的话，不会受这些减值修正。<br><br><strong>身体受限导致的减值修正的例子</strong><br>事况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 减值修正<br>倒地，或刚刚起身※1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>身处冰上或泥泞之中，立足不稳&nbsp; &nbsp; &nbsp; &nbsp;-2<br>单手或单脚不能使用&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>双手或双脚不能使用&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-4<br>被网、藤蔓或泥泞等物缠身&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-2<br>腰以下浸在水中※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>全身浸在水中※2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-4<br>※1：刚起身的回合会受到减值修正。<br>※2：种族是精灵，或由于魔法、道具的效果拥有在水中自由活动的能力的角色，不受因浸水而导致的减值修正。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>重试行为判定</strong></span><br><br>行为判定失败，基本上意味着PC的行动没有取得成果。<br><br>PC在行为判定中失败后，如果状况与判定前没有发生变化，则可以重试行为判定。这时，无论是同一个PC再次尝试还是换人尝试，都没有关系。<br><br>但是，重试行为判定时，所需时间会比第一次时更长。判定所需时间会依失败次数而成阶段增长。所需时间增长的阶段请参照下表。<br><br>失败的行为判定的最初所需时间若为10秒（1回合），第二次挑战时则会需要1分钟（6回合）。若再次失败，则第三次的所需时间则会变为10分钟（60回合）。但所需时间是一瞬的行为判定在重试行为判定时，所需时间不会增长。<br><br>行为判定的所需时间变为1周后，便不会再增长。<br><br>在进行所需时间很长的行为判定时，角色需要专心于该判定，除此之外只能进行维持基本生计的活动。<br><br>行为判定的基准技能的等级上升后，所需时间恢复原点。<br><br><strong>重试行为判定所需时间</strong><br>10秒（1回合）▶1分钟（6回合）▶10分钟（60回合）▶1小时▶6小时▶24小时▶1周<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>触发陷阱</strong></span><br><br>在重试行为判定时，需要把对陷阱进行的「解除判定（⇛10楼）」加以区别。该种行为判定连续失败两次后，会无关于消耗的时间和达成值而立刻触发陷阱。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_504234">
+&#171; <em>上次编辑: 2014-02-12, 周三 17:34:40 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg505349"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_505349_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_505349">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg505349#msg505349" rel="nofollow">Re: [0110更新第2章第1节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_505349'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_505349'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2013-01-15, 周二 00:20:07 &#187;</div>
+<div id="msg_505349_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_505349"><span style="font-size: 24pt;" class="bbc_size"><strong>魔法的规则</strong></span><br><br>魔法是使用在『SW2.0』世界中存在的“玛娜”之力的不可思议的力量，具有不用手碰触而打开锁具、瞬间治愈同伴的伤势，放出火焰之箭攻击敌人等多种多样的效果。<br><br>魔法可划分为5种技能，效果各自不同。PC可以通过学习这些技能来习得魔法。使用习得的魔法时，需要进行「行使判定（⇛10楼）」。<br><br>下文将对使用魔法时的行使判定、抵抗魔法时的生命抵抗力判定和精神抵抗力判定进行解说。此外，还会对不同技能使用魔法的条件和注意事项进行分别解说。<br><br>[si1.ze=18pt]<strong>使用魔法</strong>[/size]<br><br>使用魔法前，先要习得魔法。使用魔法的技能被总称作「魔法使技能」，包括魔术师技能、操灵术师技能、神官技能、妖精使技能、魔动机师技能5种。各技能使用的魔法分别称为「真语魔法」「操灵魔法」「神圣魔法」「妖精魔法」和「魔动机术」。<br><br>本书收录了这5种种类的魔法直到Lv6的目录。魔法使技能等级提升时，会自动习得对应魔法种类当前等级的所有魔法。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔法行使条件</strong></span><br><br>行使魔法时，依所使用的魔法类别，需要履行一定的手续。没有特别注明的话，其行使判定的所需时间默认为10秒（1回合），需要消耗的MP量请参照各魔法说明。<br><br>以下为各技能的魔法行使条件。梦魇发动种族特性［异貌］后，可以省略发声和手势，同时也不会因身着的铠甲类别而受到减值修正，但仍需要手持或在身上装着＜魔法发动体＞类的物品。<br><br><strong>魔法的行使条件</strong><br>魔术师技能（真语魔法）：需手持＜魔法发动体＞，需要发声和手势。会因铠甲而受到减值修正。<br>操灵术师技能（操灵魔法）：需手持＜魔法发动体＞，需要发声和手势。会因铠甲而受到减值修正。<br>神官技能（神圣魔法）：需在身上装备＜圣印＞，需要发声。<br>妖精使技能（妖精魔法）：需在身上装备＜宝石＞，需要发声。会因铠甲而受到减值修正。<br>魔动机师技能（魔动机术）：需在身上装备＜魔动制御球＞，需要发声。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>MP的消费</strong></span><br><br>宣言使用魔法后，首先要按该魔法「消费」栏中的记叙，消费等量的MP。若当前MP过少，无法支付该魔法的消费的话，则无法使用该魔法。MP可以被消费至0。<br>（译注：SW2.0与SW不同，MP消耗至0也不会产生昏迷等副作用）<br><br>使用《魔法扩大／数》等战斗特技时，MP消费会依其扩大倍数而倍增。<br><br><strong>使用＜魔晶石＞代替MP</strong><br><br>使用魔法时，可以使用名为＜魔晶石（※待补）＞的物品来代替MP消费。<br><br>任何人都可以使用＜魔晶石＞，每1点＜魔晶石＞等同于1点MP。＜魔晶石＞的余量下降至0时，会立刻破碎并无法再次使用。＜魔晶石＞的余量不可回复。使用魔法时，可以同时消费＜魔晶石＞和PC的MP。例如使用消费MP为10的魔法时，可以使用3点＜魔晶石＞，并同时消费7点PC的MP。<br><br>不可同时使用复数枚＜魔晶石＞。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>铠甲造成的行使判定减值修正</strong></span><br><br>部分魔法使技能在身着重铠时，其行使判定的达成值会受到减值修正。具体修正请参照下表。种族为梦魇的PC发动［异貌］时，不受此种减值修正。<br><br><strong>铠甲造成的行使修正减值修正</strong><br>装备的铠甲&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 技能&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;减值修正<br>＜硬皮甲＞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔术师、操灵术师&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -2<br>＜金属铠＞类的铠甲&nbsp; &nbsp; &nbsp; &nbsp;魔术师、操灵术师、妖精使&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-4<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用魔法时的判定</strong></span><br><br>使用魔法时，需要进行行使判定（⇛10楼）。行使判定是决定魔法的达成值的判定。魔法的达成值表示了其强力程度和准确程度。在行使判定中出现自动失败时，魔法不会生效，消费的MP也不会返还。<br><br>各魔法的对象、射程、效果等请参考「各种魔法的资料的查看方法（※待补）」中的记叙。<br><br><strong>无需进行行使判定的魔法</strong><br><br>在魔动机术等魔法类别中存在的，名称后带「☆」标志的魔法的行使，是通过「辅助动作（⇛17楼）」来完成的。这些魔法不需要进行行为判定，只要消费了MP就一定能发挥效果。<br><br>但若未能满足该魔法的使用条件，则不可使用。<br><br><strong>魔法的达成值</strong><br><br>在使用【驱散魔法】等魔法、物品消除进行过行使判定的魔法时，需要进行「达成值比较（⇛9楼）」。<br><br>无需进行行使判定的魔法，若需要其达成值，则视为「0」。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>对魔法的抵抗</strong></span><br><br>成为魔法目标（或被身处魔法范围内）的角色，若不希望受到该魔法影响，可以尝试进行抵抗（若希望受到该魔法影响，则可以不抵抗）。<br><br>抵抗魔法时，需要进行「精神抵抗力判定（⇛10楼）」，然后对行使判定与精神抵抗力判定的达成值进行达成值比较。此时，行使判定方为主动方，精神抵抗力方为被动方。<br><br>精神抵抗力判定失败的话，魔法会发挥完全的效果。精神抵抗力判定成功话，魔法或完全无效，或只发挥部分效果。魔法被抵抗后的效果记载于「各种魔法的资料的查看方法（※待补）」。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔法在需要算出威力时</strong></span><br><br>魔法在给予对象伤害，或回复对象HP时，需要算出威力。威力的计算方法请参照「计算伤害（⇛20楼）」。<br><br>魔法伤害也会造成重击（⇛20楼）。魔法的重击值不受对方防具影响，固定为「10」（2d结果为10以上时按重击处理）。<br><br>回复HP的魔法不会造成重击。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔法效果的重复</strong></span><br><br>同一对象在同一时期只会被一个同名魔法影响。同对象被重复释放同一魔法时，达成值高者优先生效（例如即使对同一PC释放3次【防护术】，能减少的伤害也只有1点）。<br><br>魔法不同时，即使效果相似，也能同时生效（例如同时释放【防护术】和【区域防护术】时，可以减少2点伤害）。<br>（※例子略）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_505349">
+&#171; <em>上次编辑: 2014-02-11, 周二 21:42:43 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg505351"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_505351_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_505351">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg505351#msg505351" rel="nofollow">Re: [0110更新第2章第1节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_505351'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_505351'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2013-01-15, 周二 00:25:22 &#187;</div>
+<div id="msg_505351_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_505351"><span style="font-size: 18pt;" class="bbc_size"><strong>魔法概要和注释</strong></span><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>真语魔法</strong></span><br><br>真语魔法是习得魔术师技能后可使用的魔法种类。真语魔法是古代魔法文明时期开发、使用的，通过文献和口授传承至现代的魔法种类，包含为数众多的攻击用魔法。真语魔法的使用者被称为魔术师。<br><br><strong>真语魔法的行使条件</strong><br><br>使用真语魔法时必须持有＜魔法发动体＞。＜魔法发动体＞可由在手杖、长棍上镶嵌可对玛娜产生反应的宝石或刻印等效的文字而制成，其加工费用为100G。也可以100G的价格购买只可作为＜魔法发动体＞使用的短杖。＜魔法发动体＞可兼供真语魔法和操灵魔法使用，暂借他人的＜魔法发动体＞使用也是可行的。<br><br>使用真语魔法时，需要手持＜魔法发动体＞吟唱咒文并划出手势，才能使魔法生效。不能发声、无法动手或没有＜魔法发动体＞时，不能使用真语魔法。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>操灵魔法</strong></span><br><br>操灵魔法和真语魔法基本上属于同一魔法体系。习得操灵术师技能后，可使用该种类的魔法。操灵魔法的使用者被称为操灵术师。真语魔法和操灵魔法的区别，在于所属魔法的倾向性的差异上。操灵魔法中存在许多援护同伴、向人偶中注入魔力并使之自由行动的魔法。<br><br><strong>操灵魔法的行使条件</strong><br><br>使用操灵魔法时，与真语魔法相同，必须持有＜魔法发动体＞。其所需的＜魔法发动体＞的形状、价格、使用方法都与真语魔法相同，使用操灵魔法的条件也与真语魔法相同。<br><br>同一＜魔法发动体＞可兼供真语魔法和操灵魔法双方使用。同时使用真语魔法和操灵魔法者被称为魔导师，是被魔法使们尊敬和畏惧的对象。<br><br><strong>魔像的素材</strong><br><br>操灵魔法中存在如【创造魔像】之类的，用来制造并操纵魔像的魔法。制作魔像时，需要准备素材（※待补）。制作后，素材会被消费。关于必要素材的种类，请参照各魔法的说明。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>神圣魔法</strong></span><br><br>神圣魔法是通过信仰神明，来借取神的力量引发奇迹、蒙受神恩的魔法。由于众神的性质，神圣魔法中存在许多用来对抗蛮族的魔法，这使神官成为了对蛮族战时值得信赖的伙伴。这些代神行使奇迹的人被称为神官。<br><br>塔比特和符文之民不能习得神官技能，也不能使用神圣魔法。但在承受神圣魔法时，与其他种族没有区别。<br><br><strong>神圣魔法的行使条件</strong><br><br>使用神圣魔法时，必须持有所信仰神明的＜圣印＞。圣印大概是可握于掌中的大小，平时多挂于颈上或收于怀中，售价100G。如果信仰的是同一神明的话，也可以借用他人的圣印（但这并不是值得褒奖之事）。<br><br>使用神圣魔法时不需要手势，但需要在身体某处装着＜圣印＞，并用语言向神祈求奇迹。不能说话、或未装着＜圣印＞时，不能使用神圣魔法。<br><br><strong>信仰与特殊神圣魔法</strong><br>持有神官技能者，必须选定一个神明来信仰，并遵循其的教诲。神官的言行举动，必须注意避免违反神的教诲。<br><br>持有神官技能者，可以习得所信仰神明的「特殊神圣魔法（※待补）」。各神明的特殊神圣魔法效果各不相同，但数量是相同的。<br><br>一个PC不可同时信仰多个神明。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>妖精魔法</strong></span><br><br>妖精魔法是召唤妖精，并使之听从命令，从而使用妖精的力量来操纵魔法的魔法种类。习得妖精使技能后，可使用妖精魔法。妖精魔法的使用者被称为妖精使。<br><br><strong>妖精魔法的行使条件</strong><br><br>使用妖精魔法时，需要准备用来召唤妖精的＜宝石（※待补）＞。需要的＜宝石＞约为拇指大小，市价为50G。可以加工为戒指或项链等装饰品。<br><br>使用妖精魔法时，虽然不需要手势，但需要在身体某处装着＜宝石＞，并通过咏唱唤出妖精并与之对话，因此需要发声。不可发声时，不能使用妖精魔法。<br><br>符文之民不能习得妖精使技能，也不能使用妖精魔法。但在承受妖精魔法时，与其他种族没有不同。<br><br><strong>召唤妖精</strong><br><br>妖精是存在于拉克西亚的，有着各式各样属性和形态的，由玛娜而生的生物。它们说妖精语，在空中浮游移动，有许多的种类。<br><br>妖精魔法通过唤出妖精，并使用妖精的力量构建魔法的方式行使。术者需要与妖精们签订契约，并随身携带作为呼唤契约妖精的「门」的＜宝石＞。<br><br>妖精在妖精使使用魔法时出现，并在使用魔法后立即消失。唤出妖精不需要进行行为判定，妖精魔法进行行使判定并决定达成值的方式与其他魔法种类相同。<br><br><strong>与妖精的契约和＜宝石＞的数量</strong><br><br>妖精使通过与妖精签订契约，并把＜宝石＞作为门而登录，来使用妖精魔法。与妖精的契约需要1小时，是在简单的仪式中研磨＜宝石＞，使妖精记忆下该＜宝石＞的过程。与妖精的契约只要有崭新的＜宝石＞就可以进行，与所处地点无关，但在契约时，妖精使需专心于仪式，不能进行其他动作。契约后的＜宝石＞只能为妖精使本人所使用。<br><br>妖精魔法可以呼唤复数的精灵。每1个妖精使等级的提升，都可与额外2个种类的妖精契约。与新种类的妖精契约时，需要更多＜宝石＞。<br><br>妖精魔法各等级所需的宝石数量如下表。不在身上装备相应数量的＜宝石＞的话，就不能使用对应等级的魔法。将＜宝石＞加工为装饰品后，可以在任一空部位上装备该宝石（加工费用包含在宝石价格内）。购买＜宝石箱（※待补＞后，可以在单一部位上装着复数块＜宝石＞。<br><br><strong>妖精魔法等级与所需宝石数</strong><br>等级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 必要宝石数<br>1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2（风、光）<br>2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4（火、土）<br>3以上&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6（水、暗）<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔动机术</strong></span><br><br>魔动机术是制造和使用以玛娜为动力的机械的技术。其使用者被称为魔动机师。<br><br>虽然为了方便，魔动机术被归为魔法的一种。但正确来说，魔动机术是通过＜魔动制御球＞来制造、使用以玛娜为动力的魔动机的技术。魔动机的基础是建立在约300年前灭亡的魔动机文明的知识和遗产上的。<br><br><strong>魔动机术的行使条件</strong><br><br>魔动机术与其他魔法种类不同，如果没有对应的道具就会无法使用。必要道具虽然多为＜魔动制御球＞，但也有需要子弹等道具的魔法。可以借用他人的＜魔动制御球＞、子弹等道具来使用魔动机术。<br><br>必要道具齐备的情况下，只需发出启动道具的简短口令就可以使用魔动机术，不需要手势。<br><br><strong>＜魔动制御球＞</strong><br><br>＜魔动制御球＞是会对玛娜做出反应而改变形状的，以玛娜为动力的不可思议的圆形银石。魔动机文明时代制造了大量的魔动制御球，留存到现代的数量也相当多。<br><br>＜魔动制御球＞有三种大小。根据大小不同，其价格和能使用的魔法也不同。较大的＜魔动制御球＞兼具较小＜魔动制御球＞的功能。<br><br>（小）大概是可固定于手腕或腰间的大小，（中）为手提箱的大小，（大）则是背囊大小的箱型。<br><br>在＜魔动制御球＞中，只有（小）有浮游能力，（中）和（大）虽然不能浮游，但其重量很轻，不会对行动产生阻碍。<br><br>（小）除了球体，也有（小动物型或各种色彩）的＜魔动制御球＞存在，但其价格要高于一般型号（2倍以上）。<br><br>使用魔动机术时，不需要手持＜魔动制御球＞。＜魔动制御球＞可根据用途变形或保持浮游来对术者进行支援。使用＜魔动制御球＞时，需要将其装备在任意的装饰品栏中。<br><br><strong>向子弹中注入玛娜的魔法的使用方法</strong><br><br>魔动机术中，存在向子弹中注入玛娜后，将子弹射出的魔法。这些魔法是在持＜枪＞时使用的魔法。<br>＜枪＞中装填的子弹可以在使用＜固体弹＞＜治疗弹＞等魔法后被射出。只持有＜枪＞的话，无法射出子弹。<br><br>向子弹中注入魔力的动作是「辅助动作（⇛17楼）」。这些魔法不需要进行判定，只需要进行宣言就可成功。注入魔力后的子弹若未在该回合射出，就会失去效果。若在下回合后想进行射击，则必须重新注入魔力。<br><br>向对象射击时，需要通过「射手技能 + 灵巧调整值」来得出命中力。若对象希望进行回避，则进行回避力判定。回避力判定成功的话，则判定为躲开子弹，不受该魔法影响。对象不进行回避时，除自动失败外都视为命中。命中造成的伤害和效果都视子弹种类而定。重击值依据所使用的＜枪＞决定。<br><br>子弹命中的话，魔法发挥效果，或造成伤害，或回复HP。子弹伤害在魔力基础上决定，并按魔法伤害（⇛20楼）处理（伤害不会因防护点而减少）。<br>（译注：因为是重点所以重复一遍，枪的伤害是魔法伤害，不受防护点影响）<br><br>＜枪＞中没有子弹时，需要以主动作（⇛17楼）进行装填。装填时间为10秒（1回合），每回可将一支＜枪＞装填至最大装填数。每次行动只能装填一支枪。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_505351">
+&#171; <em>上次编辑: 2014-02-12, 周三 17:35:37 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603402"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603402_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603402">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603402#msg603402" rel="nofollow">Re: [0115更新第2章第2节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603402'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603402'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2014-01-18, 周六 01:48:20 &#187;</div>
+<div id="msg_603402_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603402"><span style="font-size: 24pt;" class="bbc_size"><strong>战斗的规则</strong></span><br><br>战斗在『SW2.0』中是非常重要的要素。在应对接踵而至的困难时，PC们会遇到许多需要进行战斗的情况。而在战斗时，需要进行命中力判定、回避力判定、行使判定等许多行为判定。<br><br>本章将主要说明当PC战斗时，需要依怎样的顺序和方式进行处理。<br><br><strong>补足与注释</strong><br><br>在本章中，一部分补足、注释和用语说明将被抽出，放到本章最后进行集中说明。<br><br>战斗规则以及TRPG的所有规则，都并不需要将所有内容完全背诵下来，而只需要把内容大概记下，在困扰的时候参考这种注释部分就可以愉快的进行游戏了。<br><br>在阅读该部分收录的规则前，请先将规则在整体上大致把握，再来确认这些细琐的地方。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>「简易战斗」与「标准战斗」</strong></span><br><br>在战斗规则中，存在「简易战斗」和「标准战斗」这两种不同的规则。<br><br>「简易战斗」是将移动和距离规则大幅削减，为了减轻处理负担而制作出的规则。对『SW2.0』没什么经验的GM和PL请先使用这种规则来熟悉战斗时基本的处理顺序和方法。同时，这种规则也可以在以解谜、RP（角色扮演）、或制作故事等并不重视战斗的游戏中使用。<br><br>「标准战斗」则在「简易战斗」的基础上添加了移动和距离的概念，尽管需要对规则更深刻的理解，但却是可以用更具合理性和战术性的方式进行游戏的规则。请在使用「简易战斗」规则将战斗的基本方式充分掌握了的基础上，再使用「标准战斗」规则。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>战斗的流程</strong></span><br><br>战斗过程中的各种事项，应按下文中的「战斗事项顺序表」进行处理。无论是「简易战斗」还是「标准战斗」，在流程上都是一样的。<br><br><strong>战斗事项顺序表</strong><br><img src="http://ww2.sinaimg.cn/large/9592acf1jw1ecobrhap2gj20a508rmxi.jpg" alt="" class="bbc_img"/><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603402">
+&#171; <em>上次编辑: 2014-02-11, 周二 17:49:02 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603403"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603403_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603403">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603403#msg603403" rel="nofollow">Re: [0115更新第2章第2节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603403'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603403'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #15 于:</strong> 2014-01-18, 周六 01:51:31 &#187;</div>
+<div id="msg_603403_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603403"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：处理顺序</strong></span><br><br>下面将进入战斗规则的具体说明。首先，是「简易战斗」的处理顺序。<br><br><strong>3个区域</strong><br><br>在「简易战斗」中，战场被划分为3个区域，而不存在位于这3个区域之外的位置。这3个区域分别是「前线区域」「己侧后方区域」「敌侧后方区域」。在表现上，大概就是双方的后卫将前线夹在了中间的感觉。「己侧后方区域」「敌侧后方区域」这两个区域会因阵营立场的不同而发生逆转。在之后的说明中，有时会将这两个区域统称为「后方区域」。<br><br>各区域间的距离为10m。在考虑射程等问题时，请将该距离作为基准进行考量。<br><br><strong>简易战斗的区域</strong><br><img src="http://ww3.sinaimg.cn/large/9592acf1jw1ecobri9pw1j20f1081aaa.jpg" alt="" class="bbc_img"/><br><br><strong>乱战与乱战区域</strong><br><br>一个区域内同时存在敌我双方的角色时，则进入乱战状态，此区域也会被称为乱战区域。也就是说，该区域会像「前线乱战区域」一样，在名字中被加入「乱战」。<br><br>而乱战区域，则是区域中角色会以近战等方式进行相互攻击的危险区域。<br><br>「简易战斗」的基本构成，就是双方负责近战的角色都进入前线乱战区域中进行战斗，而负责远距离攻击和支援的角色则留在各自的后方区域中的形式。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>1.战斗开始事项</strong></span><br><br>PC们与敌人遭遇，并确定将进行战斗后，GM将宣言战斗开始，并处理战斗开始事项。<br><br><strong>阵营确认</strong><br><br>基本上，战斗是在PC们的阵营和与其敌对的阵营这两个阵营间进行的。GM需要对战场上所有的角色（PC、NPC、魔物）分别归属于哪个阵营进行确认。<br><br><strong>魔物知识判定</strong><br><br>战斗开始时，敌对阵营中如果存在魔物或不清楚具体情况的角色的话，则需要进行魔物知识判定（⇛10楼）。<br><br><strong>先制判定</strong><br><br>在战斗开始前，为了决定先攻方和后攻方，需要进行先制判定（⇛10楼）。<br><br><strong>战力的初始配置</strong><br><br>决定先攻后攻后，各阵营应根据己方角色的角色担当，将其分配于前线区域或己侧后方区域。角色配置由先攻方先行，后攻方可参考先攻方配置结果进行。<br><br>先攻方可以选择不在前线区域配置角色。而后攻方则需要在前线区域最少配置一名角色，且其在前线区域的角色数不得低于先攻方在前线区域配置人数的一半（小数进位）（不够的时候，则将所有角色都放置于前线区域）。<br><br>无论哪个阵营，都可以不在后方区域配置角色，而将所有角色都放置于前线区域。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>2.先攻方角色依次行动</strong></span><br><br>战斗准备结束后，从先攻方开始进行行动。先攻方阵营可以按任意顺序选择角色并依次行动。<br><br>原则上，在一个角色行动时，其他角色是不可以「插入」自己的行动的。将行动分割开，并只将一部分延后执行也是不可以的。而必须按照顺序，将行动完全结束后，再轮到下一个角色进行行动。<br><br>在角色的回合中可以进行的行动请参照「简易战斗：角色的行动（⇛17楼）」。<br><br>先攻方角色的行动全部结束后，请参考「3.后攻方角色依次行动」进行处理。<br><br><strong>回合（时间）管理</strong><br><br>战斗是由被称作“回合”的时间单位进行管理的。1回合等于10秒，在1回合中，参与战斗的每个角色都有1次行动的机会。<br><br>在计算魔法或特殊效果的持续时间时，是在某一角色本回合的行动开始的同时，视为该角色刚刚经过了1回合（10秒）的时间。而角色产生的效果则应在每次轮到该角色行动时视为经过了1回合的时间，并在超过持续时间上限后，令效果消失。<br><br>另外，希望管理战斗整体的时间经过情况时，可将战场上所有角色的行动都结束一次作为一个时间区划，依此分为第1回合、第2回合……并这样类推下去。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>3.后攻方角色依次行动</strong></span><br><br>先攻方角色的行动都结束后，就轮到后攻方阵营行动。后攻方阵营也可以依任意顺序选择角色依次进行行动。<br><br>后攻方行动的处理方式与先攻方完全相同。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>4.确认战斗是否继续</strong></span><br><br>后攻方角色的行动完全结束后，只要双方阵营都还有角色残留，且双方都还有战斗的意志的话，战斗就会继续进行，并进入下一个回合。<br><br>在游戏的事项处理上，则会回到「2.先攻方角色依次行动」的部分，并再次轮到先攻方阵营行动。此时的角色行动顺序可以任意重新决定。<br><br>在战斗过程中，若一方阵营的角色全部因被打倒、投降等情况而失去战斗能力或意志的话，战斗便立刻结束，并进入「5.战斗后事项」。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>5.战斗后事项</strong></span><br><br>当战斗因某一方阵营全灭或投降而无法继续的时候，则视为战斗结束。某方逃跑，而另一方放弃追赶的话，同样视为战斗结束。<br><br>战斗结束时，除了会长时间（1小时、1天、永久等）持续的魔法或效果外，其余魔法或效果都应全部消除。但是，如果在短时间内发生了下一场战斗的话，GM可根据时间决定是否消失。在这时，GM也必须决定其剩余的持续时间。<br><br><strong>战利品的取得</strong><br><br>如果在战斗中有魔物被打倒的话，战斗后可以在其身上获取战利品。每一只魔物需要10分钟的时间来取得战利品。<br><br><strong>＜救命草＞和＜魔香草＞的使用</strong><br><br>＜救命草＞和＜魔香草＞之类的药草可以恢复角色的HP或MP（※待补）。使用药草需要10分钟的时间。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603403">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:38:10 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603404"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603404_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603404">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603404#msg603404" rel="nofollow">Re: [0115更新第2章第2节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603404'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603404'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #16 于:</strong> 2014-01-18, 周六 01:56:19 &#187;</div>
+<div id="msg_603404_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603404"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：角色的行动</strong></span><br><br>本节将就在角色的行动中，可进行的具体行为进行解说。虽然是以「简易战斗」为前提来说明，但在「标准战斗」中，这部分内容也是大致相通的。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行动的基本</strong></span><br><br>角色的行动由「移动」「主动作」「辅助动作」三个要素组成。<br><br>在行动中，每个角色都要按照<br>1.移动<br>2.主动作<br>的顺序进行处理。角色首先应其需要进行「移动」而转移其位置，然后执行1次其行动中的主要动作，即「主动作」。<br><br>「辅助动作」是非常简单的动作，除非注释中做出规定，否则都视为可在一回行动中执行任意次，并可在移动前、移动后、主动作前、主动作后的任意时间点进行。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>移动</strong></span><br><br>行动角色可在下列三种移动方式内选择一种。根据选择的不同，其可移动的距离和可在行动中执行的动作也不同。<br><br><strong>全力移动</strong><br><br>用目不斜视的全力奔跑进行移动。可以从己侧后方区域一气移动到敌侧后方区域（根据情况也可能反过来）。但是当前线区域存在敌方角色时，则不能这样移动。<br><br>原则上，在进行全力移动后不可以执行主动作。即使是辅助动作，也会有一些不能被执行。同时，在下次行动开始前，角色的回避力判定都会受到-4的惩罚。<br><br><strong>通常移动</strong><br><br>用任何时候都能对攻击做出反应的警戒态势快步移动。可以移动到临近的区域。<br><br>选择通常移动时，主动作和辅助动作受到的限制很小。唯一存在的比较大的限制，则是不能使用魔法或射击武器（无论使用主动作还是辅助动作）。<br><br><strong>制限移动</strong><br><br>不更换区域，留在原区域。<br><br>原则上可以使用所有的主动作和辅助动作行动。<br><br><strong>不能移动的情况</strong><br><br>原则上，角色在自身所处的区域存在敌方角色时（=身处乱战区域），是不能向其他区域移动的。同时，也有因魔法等情况禁止移动的情况。<br>不能移动的角色无需选择移动方式，而可以选择制限移动时可进行的主动作和辅助动作。<br><br><strong>对先攻方前卫在第1回合的限制</strong><br><br>在简易战斗中，未进行区域移动的角色视为执行了制限移动，并可同等的进行主动作和辅助动作。<br><br>但是，先攻方阵营配置在前线区域的角色，在第1回合会被视为执行了通常移动。<br><br>第2回合后，该限制会被解除。此外，该规则不会对后攻方角色产生影响。<br><br><strong>脱离乱战区域</strong><br><br>当角色处在有敌方角色存在的「乱战区域」中时，原则上是无法进行移动的。但如果角色在上一次的行动中进行过「脱离乱战区域」宣言的话，则可以进行后退。也就是可以从前线乱战区域移动至己侧后方区域。<br><br>在「简易战斗」中，角色不能从乱战区域中向前方移动。脱离乱战区域时，只可以向后移动。这在角色受到强制移动的魔法或效果时也一样，即使受到这类魔法或效果的影响，也只能向后移动。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>主动作</strong></span><br><br>角色在结束移动后（包括未进行移动），可以进行主动作。<br><br>使用魔法或使用武器（包括徒手、爪子或牙等）攻击等需要进行行为判定的动作被视为主动作。即使是不用进行行为判定的动作，只要GM认定其需要占用「1回合=10秒」这一时间段的大半，该动作也会被作为主动作处理。<br><br>在原则上，每个角色1回合只能进行1次主动作。<br><br>能进行的主动作会根据之前选择的移动方式而有所不同。特别是进行过全力移动时，原则上是不能进行主动作的。<br><br>代表性的主动作包括下列行为：<br>·使用魔法<br>·使用武器攻击<br>·宣言脱离乱战区域<br>·捡起/收起武器<br>·将武器等物品交给其他人<br>·装备/收起饰品<br>·其他GM认定的行为<br><br>关于具体的解说，请参照「主动作与辅助动作的注释」（⇛28楼）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>辅助动作</strong></span><br><br>辅助动作是几乎不需要时间的，不需要进行行为判定的动作。即使是规则中没有说明的动作，只要GM认定其可以在短时间内几乎毫无悬念的成功，也可以将其视为辅助动作处理。<br><br>只要规则中没有特殊规定，辅助动作就可以在从移动前开始到主动作完成后结束的角色行动中的任意时间点进行。但是，不可以在主动作的行为判定的中间进行。<br><br>辅助动作没有次数限制。<br><br>但是，这些都只是大原则。辅助动作中也存在对行使时间、次数进行了限制的行为。同时，也有一些辅助动作需要进行行为判定。<br><br>代表性的辅助动作如下：<br>·使用☆魔法<br>（译者：可以用辅助动作行使的魔法会标注有☆）<br>·解除自己施放的持续性魔法的效果<br>·宣言型战斗特技的宣言<br>·从倒地状态起身<br>·武器的装备/装备状态变更/归鞘/丢弃/接受<br>·其他GM认定的行为<br><br>关于具体的解说，请参照「主动作与辅助动作的注释」（⇛28楼）。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603404">
+&#171; <em>上次编辑: 2014-02-11, 周二 20:17:41 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603406"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603406_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603406">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603406#msg603406" rel="nofollow">Re: [0115更新第2章第2节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603406'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603406'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #17 于:</strong> 2014-01-18, 周六 02:03:28 &#187;</div>
+<div id="msg_603406_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603406"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：射程距离</strong></span><br><br>角色在进行动作时，往往需要确定自身与动作对象的距离。而在「简易战斗」中，距离是由各自所处的区域决定的。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>近身攻击和「射程：接触」的魔法与效果</strong></span><br><br>以敌人为对象的近身攻击和「射程：接触」的魔法及效果，只能在身处乱战区域的角色和处于同乱战区域的敌方角色间进行。<br><br>以己方角色为对象时，「射程：接触」的魔法及效果则能在任何状态的区域内进行。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>有射程的攻击或魔法、效果</strong></span><br><br>射程在10m以上的射击攻击或魔法、效果可以将临近区域的角色作为对象。<br><br>此外，射程在20m以上的话，则可以在己侧后方区域中把敌侧后方区域的角色设为对象。但此时，如果前线区域中有敌方角色的话，则需要战斗特技《鹰眼》。<br><br>射程不足10m的攻击或魔法、效果在「简易战斗」中不能将身处不同区域的角色作为对象。<br><br><strong>射击攻击和「形状：射击」的魔法及效果</strong><br><br>自身身处乱战区域外，并以身处乱战区域内的角色作为对象使用射击攻击和「形状：射击」的魔法及效果时，会引发误射，动作的作用对象将从乱战区域内的角色中随机决定。<br><br>误射只在由乱战区域外至乱战区域内时发生，而不会在同在乱战区域内的角色间发生。<br><br>此外，拥有战斗特技《精密射击》《魔法诱导》的话，也不会发生误射，而可以将任意角色指定为目标。<br><br>「形状：起点指定」的魔法及效果也不会发生误射。<br><br><strong>以基本构造为前提的射程距离总结图</strong><br><img src="http://ww4.sinaimg.cn/large/9592acf1jw1ecobrj4jvhj20h60aqgml.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603406">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:39:36 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603407"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603407_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603407">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603407#msg603407" rel="nofollow">Re: [0115更新第2章第2节]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603407'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603407'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #18 于:</strong> 2014-01-18, 周六 02:04:37 &#187;</div>
+<div id="msg_603407_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603407"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：武器攻击</strong></span><br><br>本节将说明关于武器（包括徒手、爪子、牙齿等）攻击的规则和事项。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>武器攻击的分类</strong></span><br><br>武器攻击可依下表分类。<br><br><strong>武器攻击分类</strong><br><img src="http://ww4.sinaimg.cn/large/9592acf1jw1ecobrj8sahj20h904sq32.jpg" alt="" class="bbc_img"/><br><br><strong>近身攻击</strong><br><br>使用近身武器对敌人进行攻击。可使用战士技能/格斗家技能/轻战士技能。<br><br>近身攻击可以在通常移动和制限移动后进行。只能选择处于同乱战区域的角色作为攻击对象。<br><br><strong>射击攻击</strong><br><br>拥有射程的攻击统称为射击攻击。其射程决定了其攻击对象的选择范围（⇛18楼）。<br><br>处于乱战区域外的角色对乱战区域内的角色进行射击攻击时，如果没有战斗特技《精密射击》的话，则会发生误射。<br><br><strong>射击武器攻击</strong><br><br>在射击攻击中，使用类别为＜弓＞＜弩＞＜枪＞的武器发射箭矢、弩矢、子弹等＜矢弹＞的攻击，被称作射击武器攻击。<br><br>在进行射击武器攻击时，角色在当回合只能进行制限移动。本类攻击使用射手技能。<br><br><strong>投掷攻击</strong><br><br>投掷攻击在原则上，是将手中的类别为＜投掷＞的武器直接投向目标的射击攻击。<br><br>投掷攻击可在通常移动或制限移动后进行，使用战士/轻战士/射手技能。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>命中力判定</strong></span><br><br>角色宣言武器攻击后，需要进行命中力判定来决定攻击命中与否。更正确的说，则是进行命中力判定和回避力判定的达成值比较。<br><br>攻击方（命中力判定）的达成值较高的话，攻击则会命中。而在同点，或防御方（回避力判定）的达成值较高时，攻击则会落空。<br><br><strong>命中力/命中力判定的基准值</strong><br><br>命中力，也就是命中力判定的基准值，基于该攻击所使用的「战士系技能等级+灵巧调整值」。<br><br>根据攻击的种类，所能使用的战士系技能会受到限制。<br><br>近身攻击：战士技能、格斗家技能、轻战士技能<br>射击攻击：射手技能<br>投掷攻击：战士技能、轻战士技能、射手技能<br><br><strong>回避力/回避力判定的基准值</strong><br><br>回避力，也就是回避力判定的基准值，使用「战士/格斗家/轻战士技能之一的等级+灵巧调整值」。<br><br>命中力判定和回避力判定并不必须使用同一技能进行判定。<br><br><strong>武器攻击流程图</strong><br><img src="http://ww3.sinaimg.cn/large/9592acf1jw1ecobrjn8ckj20gj0eljsx.jpg" alt="" class="bbc_img"/><br><br><strong>魔物的固定值</strong><br><br>使用魔物数据的角色在进行命中或回避判定时，既可以和PC一样投2d取达成值，也可以使用被称为「固定值」的数值。GM可以不投骰子，而将此固定值作为命中力判定或回避力判定的达成值。<br><br>是投骰子还是使用固定值由GM决定。在想省事、快速的进行战斗时，使用固定值是比较合适的。<br><br>在不重要的战斗或杂兵战时使用固定值，并在重要的战斗或与强力魔物的战斗时投骰子也是可行的方法。但在同一场战斗中，针对同一只魔物，最好还是避免变更使用的方法。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603407">
+&#171; <em>上次编辑: 2014-02-11, 周二 14:14:16 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg603689"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603689_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603689">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603689#msg603689" rel="nofollow">Re: [死坑复燃][140118更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603689'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603689'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #19 于:</strong> 2014-01-19, 周日 18:01:17 &#187;</div>
+<div id="msg_603689_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603689"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：伤害</strong></span><br><br>命中力判定的达成值超过对方回避力判定的达成值的话，攻击就会命中。之后便要进行伤害的计算。<br><br>所谓伤害，是指使HP（偶尔也会是MP）减少的效果和减少量的总称。给予伤害，就是指是HP（MP）减少。受到伤害，则是受到这种效果。「X点的伤害」则表示使HP（MP）减少X点。<br><br>总而言之，这一概念就是指HP（MP）减少，是之后的说明中的各项目的总称。<br><br><strong>伤害决定流程图</strong><br><img src="http://ww1.sinaimg.cn/large/9592acf1gw1ecp032zzy2j20fl0de3zi.jpg" alt="" class="bbc_img"/><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>确认是物理伤害还是魔法伤害</strong></span><br>决定伤害时，首先要确认该伤害属于物理伤害还是魔法伤害。大致上，由武器的打击、与墙壁或地面的冲撞等力学上的因素造成的伤害属于物理伤害，而由火焰、寒冷、电击等特殊效果造成的伤害则属于魔法伤害。这两种伤害间的最大差别，则是物理伤害可由通过穿戴铠甲等而具有的防护点所减少，而魔法伤害则不会因防护点而减少。<br><br>大多数的武器造成的伤害都属于物理伤害，会因防护点而减少。但种类为＜枪＞的武器的伤害算做魔法伤害，不会因防护点而减少。<br><br>即使是魔法或魔物的特殊能力造成的伤害，也不都属于魔法伤害。因此，不管叙述中是如何描述的，都请根据规定的数据资料，仔细分清物理·魔法伤害，并加以遵守。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用威力表查出结果</strong></span><br><br>威力，是武器、魔法所具有的，表明其给予伤害能力强弱的数据。每种武器都有被规定的威力数据。这些数据被记载在威力表中。<br><br>威力表的基本使用方法是「投2d，按结果查询表中对应数值」。比如使用下面的「威力20的威力表」时，掷骰结果是「5」的话，结果就是「3」。<br><br>使用威力表时，有时会发生「重击」这种特殊效果，而造成非常大的伤害。关于重击的记叙请参见后文（⇛本楼）。<br><br><strong>威力20的威力表</strong><br>结果&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; ②&nbsp;&nbsp;&nbsp;③&nbsp;&nbsp;&nbsp;④&nbsp;&nbsp;&nbsp;⑤&nbsp;&nbsp;&nbsp;⑥&nbsp;&nbsp;&nbsp;⑦&nbsp;&nbsp;&nbsp;⑧&nbsp;&nbsp;&nbsp;⑨&nbsp;&nbsp;&nbsp;⑩&nbsp;&nbsp;&nbsp;⑪&nbsp;&nbsp;&nbsp;⑫<br>威力20 &nbsp;&nbsp;&nbsp;※&nbsp; &nbsp; &nbsp;1&nbsp; &nbsp; &nbsp;2&nbsp; &nbsp; &nbsp; 3&nbsp; &nbsp; &nbsp;4&nbsp; &nbsp; &nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp; &nbsp; &nbsp; 7&nbsp; &nbsp; &nbsp;8&nbsp; &nbsp; &nbsp; 9&nbsp;&nbsp;&nbsp;&nbsp; 10<br><br><strong>魔法与威力表</strong><br><br>各种给予伤害的魔法也都具有各自的威力，但在其数据中，并未附有其所使用的威力表。<br><br>这是因为魔法的威力只会是10的倍数。而在标准角色卡中，已经附有了0-50范围内的10的倍数的威力表。请直接使用这些威力表。<br><br><strong>回复效果</strong><br><br>不仅是伤害会使用威力表，使HP/MP回复的效果也同样会使用威力表。其使用方法与决定伤害时相同。但在原则上，回复效果不会发生重击（⇛本楼）。<br><br><strong>威力表的自动失败（双1）</strong><br><br>使用威力表时，如果投2d时出现双1，则该行动会被算为自动失败（⇛9楼），而不会造成任何伤害或回复效果，但在该行动中消费的MP和物品仍会被正常消耗。<br><br>出现自动失败时，角色获得50经验点。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>加上追加伤害（算出伤害）</strong></span><br><br>确定威力表的结果后，还需要加上「追加伤害」。而追加伤害，是指与该行为相关的技能和属性带来的伤害加成。<br><br>以武器攻击为例，追加伤害就应是其在命中力判定中使用的战士系技能的等级+力量调整值。如果是魔法的话，就是其在行使判定中使用的魔法使系技能的魔力。使用类别为＜枪＞的武器攻击时，追加伤害是为本次攻击中使用的子弹付与【~弹】（~ Bullet）魔法的施术者的魔动机术魔力。<br><br>（译者：注意，根据扩展规则书3『ウィザーズトゥーム』的规定，不允许一名魔动机师碰触枪并为子弹付与魔法后，再由另一名射手使用该枪）<br><br>而魔法或药草·药水的回复效果，也有同样的追加效果。如果是魔法的话，追加的就是魔力。而药草系是「巡林客技能等级+灵巧调整值」，药水系则是「巡林客技能等级+智力调整值」。<br><br>在威力表的结果上加上追加伤害的行为称为「算出伤害」。另外，如果没有习得对应技能，追加伤害会被按「0」处理，无关于属性值高低。<br><br><strong>追加伤害（追加回复量）一览</strong><br>类别＜枪＞以外的武器&nbsp; &nbsp; 所使用的战士系技能的等级+力量调整值<br>＜枪＞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;魔力（魔动机师技能等级+智力调整值）<br>魔法&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 魔力（所使用的魔法使系技能的等级+智力调整值）<br>药草&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 巡林客技能等级+灵巧调整值<br>药水&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 巡林客技能等级+智力调整值<br><br><strong>魔物给予的伤害</strong><br><br>在魔物的数据中，存在「打击点」这一数据，并一般表述为「2d+X」的形式。而魔物的攻击命中后，也不会使用威力表，而是使用打击点来进行伤害计算。其算法正如算式中表述的，投2d后+X。此外，使用打击点的魔物不会造成重击（⇛本楼）。该种伤害视为物理伤害。<br><br>该「2d+X」算出的数值，就是魔物攻击的「算出伤害」。<br><br>此外，由魔物的特殊能力而造成的伤害，需要依其具体说明进行计算。一般来说，被「」括起来的部分就是算出伤害。<br><br><strong>因抵抗而导致的伤害减半</strong><br><br>许多魔法会因精神抵抗力判定（⇛10楼）而伤害减半。此外，很多魔物特殊能力造成的伤害也会因生命抵抗力判定（⇛10楼）或精神抵抗力判定（⇛10楼）而减半。<br><br>在此时被减半的，就是我们之前得到的「算出伤害」。减半时如果出现小数，则进位处理。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>适用使伤害上升的效果（合算伤害）</strong></span><br><br>确定算出伤害后（需要减半时，则将减半也处理完），还需要在其结果上适用全部使伤害上升的效果。在此之上的结果被称为「合算伤害」。<br><br>这些伤害上升的效果，也是有物理伤害和魔法伤害的划分的。也有一部分魔法或效果只对其中一种伤害类型有效。<br><br><strong>伤害上升效果的例子</strong><br><br>如《全力攻击》（※待补）、《武器熟练/※※》（※待补）的战斗特技<br>如【武器附魔】（※待补）之类的魔法<br>如「炎属性伤害+3」、「物理伤害+2」之类的魔物弱点<br><br><strong>小贴士！GM向导：减半不对上升效果起作用</strong><br><br>需要进行伤害减半时，使伤害直接上升的效果应在算出伤害减半处理后再进行。也就是说，伤害上升效果不会受到减半影响。<br><br><strong>小贴士！GM向导：属性值变化对算出伤害的影响</strong><br><br>一部分魔法或效果会对角色的属性值造成影响，并进而使追加伤害发生变化。比如说，力量上升6点的话，力量调整值就会上升1，并会使（＜枪＞以外的）武器攻击的追加伤害上升1。<br><br>这种变化属于追加伤害的变化，是「算出伤害」阶段的内容。所以在因抵抗而发生伤害减半时，请务必注意这些变化。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>适用使伤害减少的效果（适用伤害）</strong></span><br><br>适用完使伤害上升的结果后，就要适用使伤害减少的结果了。在这个过程中，也要注意区分物理伤害和魔法伤害。铠甲、盾牌等的防护点只能减少物理伤害。<br><br>适用完使伤害减少的效果后，如果伤害变为负数，则按「0」处理。<br><br>适用后的最终结果被称为「适用伤害」，这也是伤害确定的最终阶段。之后，将对象的HP/MP减少与其相同的数字。<br><br><strong>使伤害减少的效果的例子</strong><br>铠甲或盾牌的防护点<br>《挑衅攻击》（※待补）等攻击方的战斗特技<br>《防具熟练/※※》（※待补）防御方的战斗特技<br>【防护术】（※待补）等魔法<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使HP/MP减少</strong></span><br><br>确定适用伤害后，就应将对象的HP/MP减少相应的数字。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>重击</strong></span><br><br>使用威力表时，有可能会发生被称为重击的现象，并因此而使伤害上升。<br><br><strong>重击值（C值）</strong><br><br>使用威力表时，必须先确认被称为重击值的数值。<br><br>每种武器都有各自被规定好的重击值。<br><br>如果没有特别说明的话，给予伤害的魔法的重击值都视为10。<br><br>重击值有时会被简称为C值。<br><br><strong>重击的处理</strong><br><br>使用威力表投2d时，如果掷骰结果等于或大于重击值，就会发生重击。<br><br>发生重击时，请再投一次威力表，并将其结果加在之前的结果之上。第二次掷骰时若再出现重击，则继续掷骰，直到未发生重击。<br><br>最后，将之前得到的结果累加，并与追加伤害相加，作为算出伤害。无论之前发生过几次重击，都只能与追加伤害（⇛本楼）相加一次。<br><br><strong>重击后的自动失败</strong><br><br>在重击发生后的追加掷骰中出现双1时，不算为自动失败，而只需要取这次之前的结果进行处理。在这种时候，不能获得自动失败的50点经验。<br><br><strong>重击值的修正</strong><br><br>使用轻战士技能进行攻击时，武器重击值-1.<br><br>以穿着类别为＜金属铠＞的铠甲的角色为目标的，造成物理伤害的攻击或魔法、效果，重击值+1。<br><br>此外，战斗特技《必杀攻击》和《牵制攻击》也会影响重击值，而付与了【重击弹】魔法的子弹，在被类别为＜枪＞的武器射出攻击时，重击值也会-1。<br><br>重击值受诸如此类的诸多条件而发生变化的情况还有很多。在受到影响时，请将各项影响全部适用，并以最终结果作为最终的重击值。<br><br>但原则上，『SW2.0』的重击值不能为7以下。在计算结果中，如果重击值最终为7以下的话，则按「8」处理。<br><br>也有重击值最终为13以上的情况。在此时，攻击中不会发生重击。<br><br><strong>不发生重击的情况</strong><br><br>在以下的情况中，不会发生重击。在这种情况下，2d的结果不论多高都不会发生重击，而只能用第一次掷骰的结果与追加伤害相加，得到算出伤害。<br><br>首先，是如前文所述的重击值在13以上的情况。<br><br>其次，「抵抗：减半」的魔法或效果被成功抵抗后，也不会发生重击，并需要将算出伤害减半。<br><br>最后，回复效果使用威力表时，在原则上不会发生重击。<br><br>（译者：女PC的恩物＜女神的头巾＞完美解决该问题，骰子女神的亲女儿们值得拥有）<br><br><strong>命中力判定和伤害确定的例子</strong><br>（※例子略）<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>HP·MP的减少与昏迷·死亡</strong></span><br><br>确定适用伤害后，需要使目标的HP减少。如果HP下降到了0以下，则该角色立刻昏迷，并进行生死判定（⇛10楼）。在生死判定中失败的角色则会死亡。<br><br>有些伤害是对MP造成的，这些伤害只会减少MP。而无论MP受到多少伤害，MP都不会低于0。而MP即使降到0，也不会使角色发生昏迷之类的负面效果。<br><br>在使用魔法等情况下，角色会自己消耗自身的MP。在此时，角色最多只能将自己的MP消耗至0，而不允许消耗至负值。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603689">
+&#171; <em>上次编辑: 2014-02-15, 周六 18:56:17 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=52638.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.20">2</a> <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.20">&#187;</a>   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0"><span>[停坑合稿中]剑世界2.0 规则书1</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 52638,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 52638,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f17810e16" value="e1988d2cbd3553672340dc04637127c3" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="52638" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e1988d2cbd3553672340dc04637127c3\', \'f17810e16\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;' + '?topic=52638.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 33990 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 497,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "剑世界2.0",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 497,
+							iTopicId: 52638,
+							sSessionId: "e1988d2cbd3553672340dc04637127c3",
+							sSessionVar: "f17810e16",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

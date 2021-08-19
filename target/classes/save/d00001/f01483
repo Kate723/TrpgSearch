@@ -1,0 +1,450 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="《神话创世RPG アマデウス》规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>《神话创世RPG アマデウス》规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.20"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'f44b5891ed6981bd924221a0a1c60a0e');">
+<div class="info">请 <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login">登录</a> 或 <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="83874"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'df2b2b745',
+sSessionId: 'f44b5891ed6981bd924221a0a1c60a0e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"><span>资源分享区</span></a> (版主: <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0"><span>《神话创世RPG アマデウス》规则</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg788467"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=printpage;topic=83874.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0">&#171;</a> <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 《神话创世RPG アマデウス》规则 &nbsp;(阅读 15914 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=quickmod2;topic=83874.20" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('f44b5891ed6981bd924221a0a1c60a0e', 'df2b2b745') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788467_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788467">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788467#msg788467" rel="nofollow">武器与消耗品</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788467'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788467'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #20 于:</strong> 2016-04-07, 周四 13:47:49 &#187;</div>
+<div id="msg_788467_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788467"><table class="bbc_table"><tr><td><strong>名称</strong>　　<td><strong>价格</strong><td>　<strong>种类</strong>　<td>　<strong>威力</strong>　<td><strong>特殊机能</strong>　　　　　　　　　　<td><strong>解说</strong>　　　　　　　　　　</tr></table><table class="bbc_table"><tr><td>短剑　　<td>　3　<td>&nbsp; 常备品<td>　1D6 　<td>　迎击3、必杀2　　　　　　　　<td>匕首或小刀。即使是没有力量也能简单使用的武器。</tr></table><table class="bbc_table"><tr><td>投绳　　<td>　3　<td>&nbsp; 常备品<td>　1D6-1 <td>　灵击1、对空B　　　　　　　　　<td>投向敌人，以束缚其行动的绳子。</tr></table><table class="bbc_table"><tr><td>棍棒　　<td>　4　<td>&nbsp; 常备品<td>　1D6+4 <td>　精度-1、必杀2　　　　　　　　<td>原始的钝器，是功能性的武器。</tr></table><table class="bbc_table"><tr><td>鞭　　　<td>　4　<td>&nbsp; 常备品<td>　2D6 　<td>　变幻、华丽1　　　　　　　　　<td>前端有许多分岔的鞭子。</tr></table><table class="bbc_table"><tr><td>锤　　　<td>　5　<td>&nbsp; 常备品<td>　2D6 　<td>　特攻「铠、金属、建筑、机械」　<td>锻造工匠所使用的金属制锻锤。</tr></table><table class="bbc_table"><tr><td>直剑　　<td>　5　<td>&nbsp; 常备品<td>　2D6 　<td>　安定性3　　　　　　　　　　　<td>刀身修长两面开刃的长剑。</tr></table><table class="bbc_table"><tr><td>曲刀　　<td>　5　<td>&nbsp; 常备品<td>　2D6+1 <td>　华丽1、必杀1　　　　　　　　　<td>弯曲的单刃剑。</tr></table><table class="bbc_table"><tr><td>盾　　　<td>　5　<td>&nbsp; 常备品<td>　1D6 　<td>　装甲1、格挡1、轻减2「实体、刃」　<td>从敌人武器的攻击下保护身体，也有用盾撞击敌人的高阶用法。</tr></table><table class="bbc_table"><tr><td>弓　　　<td>　5　<td>&nbsp; 常备品<td>　1D6 　<td>　对空A　　　　　　　　　　　　<td>绷紧具有弹性的木头或金属，将箭矢射出的武器。</tr></table><table class="bbc_table"><tr><td>连枷　　<td>　5　<td>&nbsp; 常备品<td>　1D6+3 <td>　华丽1、迎击2　　　　　　　　　<td>被称为连接棍。以锁或棒来作为打击部份的钝器。</tr></table><table class="bbc_table"><tr><td>拳甲　　<td>　6　<td>&nbsp; 常备品<td>　1D6 　<td>　迎击2、格挡1　　　　　　　　　<td>空手战斗用的手套。以装甲来保护拳头，并提升其打击力的武器。</tr></table><table class="bbc_table"><tr><td>矛　　　<td>　6　<td>&nbsp; 常备品<td>　2D6 　<td>　精度1、安定性3　　　　　　　　<td>作为枪的前身的长柄武器，有较大的先端。</tr></table><table class="bbc_table"><tr><td>枪　　　<td>　7　<td>&nbsp; 常备品<td>　2D6 　<td>　精度1、对空B　　　　　　　　　<td>为了突刺而特化的长柄武器。在战场与猎场都被广泛使用。</tr></table><table class="bbc_table"><tr><td>三叉枪　<td>　7　<td>&nbsp; 常备品<td>　2D6 　 <td>　精度1、对潜B　　　　　　　　　<td>为了瞄准水中的猎物而特化，先端有三个尖岔的枪。</tr></table><table class="bbc_table"><tr><td>大剑　　<td>　7　<td>&nbsp; 常备品<td>　2D6+4 <td>　近接、特攻「巨人、兽」　　　　<td>双手持握的巨剑。适合与巨兽作战。</tr></table><table class="bbc_table"><tr><td>杖　　　<td>　7　<td>&nbsp; 常备品<td>　1D6 　<td>　灵击1、格挡1　　　　　　　　　<td>自卫用的长杖。具备着不可思议的力量，可以扰乱敌人。</tr></table><table class="bbc_table"><tr><td>两刃斧　<td>　8　<td>&nbsp; 常备品<td>　3D6 　<td>　近接、必杀1　　　　　　　　　　<td>巨大的斧头。相当的有威力。</tr></table><table class="bbc_table"><tr><td>大鎌　　<td>　9　<td>&nbsp; 常备品<td>　3D6 　<td>　近接、精度-1、华丽1　　　　　　<td>神话的存在所持有的象征性武器。</tr></table></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788467">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:15:55 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788470"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788470_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788470">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788470#msg788470" rel="nofollow">Re: 武器与消耗品</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788470'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788470'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #21 于:</strong> 2016-04-07, 周四 14:16:01 &#187;</div>
+<div id="msg_788470_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788470">特殊机能的解说：<br>●近接：在自己与同段落的威胁都还没行动的状况下，不能选择该威胁以外的目标。<br><br>●变幻：决定攻击目标时，骰1D6决定攻击哪个段落的威胁，骰出6或无法攻击该段落的威胁时，自行决定目标。<br><br>●迎击n：以此武器攻击威胁时，伤害上升n点。<br><br>●格挡(パリィ)n：以此武器攻击时，自己该回合的防御判定有n的修正。<br><br>●必杀n：以此武器命中判定大成功时，伤害上升nD6点。<br><br>●精度n：使用这个武器的命中判定有n的修正。<br><br>●安定性n：使用这个武器在决定伤害时，无需掷骰，每个骰子的出目视为n点。<br><br>●装甲n：以此武器攻击时，自己该回合的受到伤害减少nD6点。<br><br>●对空：用这个武器攻击飞行状态的目标，命中加1修正，威力上升2D6。对空A是这武器常态性对空，对空B是这武器使用对空效果会消费掉。(按：对空B就是投掷武器变消耗品)<br><br>●对潜：用这个武器攻击潜水状态的目标，命中加1修正，威力上升2D6。对潜A是这武器常态性对潜，对潜B是这武器使用对潜效果会消费掉。<br><br>●灵击n：以此武器攻击时，自己该回合的妨害判定有n的修正。<br><br>●华丽n：用这个武器攻击，决定伤害时，多掷n个色调骰子。<br><br>●特攻「●●」：括号内说明有特定标签的怪物或威胁，对其攻击时威力上升1D6，有复数标签时，选择一个有效。<br><br>●轻减n「●●」：受到括号内说明有特定标签的怪物或威胁造成的伤害时，减少n点伤害。这个效果要装备时才会发动。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788470">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788471"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788471_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788471">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788471#msg788471" rel="nofollow">Re: 武器与消耗品</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788471'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788471'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #22 于:</strong> 2016-04-07, 周四 14:16:20 &#187;</div>
+<div id="msg_788471_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788471">消耗品列表<br>&nbsp;名称&nbsp;&nbsp;&nbsp;价格&nbsp;&nbsp;&nbsp;种类&nbsp;&nbsp;&nbsp;　威力　&nbsp;&nbsp;&nbsp;特殊机能&nbsp;&nbsp;&nbsp; 解说<br>&nbsp;食料　&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp;1D6-1&nbsp;&nbsp;&nbsp; 休息时用餐，【生命力】回复1点。&nbsp;&nbsp;&nbsp; 在冒险途中所吃的保存食物。估且不论味道，富含营养价值。<br>&nbsp;薰香　&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp;1D6-1&nbsp;&nbsp;&nbsp; 进行冥想判定时，掷骰前使用，该判定自动成功。&nbsp;&nbsp;&nbsp; 安定心神的薰香。使冥想更快投入。<br>&nbsp;放大镜&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 进行调查判定时，掷骰前使用，判定有+1修正。&nbsp;&nbsp;&nbsp; 与本次的事件有关的情报。带来一闪而过的灵感。<br>&nbsp;装扮　&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 进行交流判定时，掷骰前使用，判定有+1修正。&nbsp;&nbsp;&nbsp; 服装与饰品等。一次与平时截然不同的品味。<br>&nbsp;供品　&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 在使用表来掷骰时，对结果不满意时使用，能重掷该次骰子。&nbsp;&nbsp;&nbsp; 向自己的亲神所献上的供品。是亲神所爱之物，或是类似的物品。<br>&nbsp;护符　&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 某人受到敌人伤害时使用，伤害减轻1D6点。&nbsp;&nbsp;&nbsp; 受诸神护庇的护符或辟邪物。<br>宴席　&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 休息时用餐，【生命力】回复到最大值。&nbsp;&nbsp;&nbsp; 非常美味的盛宴。浅尝即满腹，身心都变得满足。<br>甘露　&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 无论何时都能使用，消除一个除了重伤以外的变调。&nbsp;&nbsp;&nbsp; 如神酒及苏摩般喝下就能振奋生命与精神的饮料。<br>&nbsp;灵药　&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 无论何时都能使用，自己的【生命力】回复2D6点，对自己以外的角色使用，回复【生命力】1D6点。&nbsp;&nbsp;&nbsp; 振奋生命与精神的药品。含入口中就有效果。<br>&nbsp;铠　　&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 1D6-1&nbsp;&nbsp;&nbsp; 自己受到敌人伤害时使用，伤害减轻2D6+2点。&nbsp;&nbsp;&nbsp; 保护身体的铠甲。受到强烈的攻击会损坏。<br>&nbsp;爆弹　&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 消耗品&nbsp;&nbsp;&nbsp; 3D6&nbsp;&nbsp;&nbsp; 消耗品的武器。&nbsp;&nbsp;&nbsp; 爆弹。炸开时，会对附近带来极大的损害。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788471">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:18:23 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=printpage;topic=83874.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0">&#171;</a> <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"><span>资源分享区</span></a> (版主: <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0"><span>《神话创世RPG アマデウス》规则</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 83874,
+iStart: 20,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 83874,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="df2b2b745" value="f44b5891ed6981bd924221a0a1c60a0e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="83874" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'f44b5891ed6981bd924221a0a1c60a0e\', \'df2b2b745\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;' + '?topic=83874.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 15914 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1331,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "资源分享区",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1331,
+							iTopicId: 83874,
+							sSessionId: "f44b5891ed6981bd924221a0a1c60a0e",
+							sSessionVar: "df2b2b745",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

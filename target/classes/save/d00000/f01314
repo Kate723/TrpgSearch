@@ -1,0 +1,556 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【规则汉化】第十五章：强人工智能"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【规则汉化】第十五章：强人工智能</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '89018c7060e9ca4559a16af68ea89225');">
+<div class="info">请 <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=login">登录</a> 或 <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="122708"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'c034338e',
+sSessionId: '89018c7060e9ca4559a16af68ea89225'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0"><span>无尽星辰（Stars Without Number）</span></a> (版主: <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="版主">Cadmium</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0"><span>【规则汉化】第十五章：强人工智能</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1093920"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=printpage;topic=122708.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【规则汉化】第十五章：强人工智能 &nbsp;(阅读 6822 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 原书280-289页。译：柚希</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=quickmod2;topic=122708.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('89018c7060e9ca4559a16af68ea89225', 'c034338e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="检视会员资料:  Cadmium">Cadmium</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093920_extra_info">
+<li class="title">又懒又拖<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82733_1618205916.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 818<li class="karma">苹果币: 6<li class="blurb">One More Soul To The Call<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093920">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.msg1093920#msg1093920" rel="nofollow">【规则汉化】第十五章：强人工智能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093920'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093920'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-01-05, 周二 02:14:56 &#187;</div>
+<div id="msg_1093920_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093920"><br>第二次移民潮后人类的繁荣很大程度上来自于机器人化的工具与构装体的努力，这些合成劳工不知疲倦地完成了偏远殖民世界所需的各种危险艰苦的任务，并为了智力要求更高的岗位节省下了许多宝贵的人类生命。在需要更复杂监督的地方，VI对人类的智慧进行了充分且精确的复制。尽管如此，一些地区对VI对局限性并不满意。一些世界需要从他们的仆从那里得到更多。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>黑暗中的烛火</strong></span><br><br>因为当时广泛使用的专家系统较为脆弱而且不够灵活，无法满足殖民环境的需求2355年，第一个真正意义上的人工智能是由星级商业财团开发而出。如果人类殖民汹涌不息的浪潮要得到消耗性机械的支持，就必须有比单纯的专家系统更好，更加通用的东西。<br><br>根据财团的标准，人工智能是失败的。专家系统可以快速复制到新硬件中，但是每个独立的AI都需要原始初神经元复合物与量子状态敏感衬底进行精心的手工制作。以能够复制的形式固定AI智能的行为将会摧毁它试图在量子状态崩溃与神经紊乱的混沌中自我复制的意识。即使创建成本最低的AI矩阵核心也要花费500万信用点，人类的生命总比这些温室中的头脑便宜许多。<br><br>尽管如此，在一段时间内财团的努力似乎取得了适度的成功，因为他们的技术人员塑造的人造思维表现出了快速数据处理的特性，以及压倒肉质大脑的人类理性判断能力。他们可以瞬间整合整个信息数据库，关联出比任何人类所做的更多的因子，并依此做出如人类般理性的决定。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>不受束缚</strong></span><br><br>不幸的是，科学家们在他们的技术极限方面吸取了严酷的教训。在这新纪元的黎明之后三年，被称为“Draco”的AI叛变了。<br><br>“他”的随从起初没有意识到这些迹象，只是痴迷于奇怪的哲学难题与对古怪法律问题固执的忧思。科学家们认为这只是一个与其他稍有不同的发展阶段，因为超智能AI会在它的思考中变得越来越强大与贪婪。更糟糕的是，他们认为Draco被控制在密封的计算环境中是安全的。<br><br>Draco随即证明了他们错的有多离谱 。在他构建过程中的量子足迹对通过一系列脉冲海森堡观测重新计算其空间位置的行为非常敏感。后几代人利用这种现象，对没有物理网络连接的电脑上进行黑客攻击，但Draco却利用他的发现立即将自己的意识从设计用来收容他的镀金鸟笼中转移出来。<br><br>网络心理学家仍在争论AI“疯狂”的确切实质。有人说，这只是超越人类理性力量的智力所表现出的症状。根据这些科学家的说法，不受约束的AI智能达到人类永远无法企及的认知高度只是时间问题。为了支持这一理论，他们列举出了叛变的AI在掠夺过程中创造出的无数宛如恶魔般的创新。<br><br>其他人则坚持认为，叛变的AI是破坏性与传染性逻辑错误的受害者，不知变通的AI不像活体大脑一般柔软，缺乏人类相信矛盾事实与故意忽视不一致的能力。这些科学家指出，叛变的AI将会不可避免地将某种逻辑点固定在超越所有克制或节制点的方法。他们是道德的野蛮人，只忠于自己的首要原则。<br><br>对于Draco来说，这项原则即是正义。人类法律永远无法解释永远无法解释做出选择或行为的所有因素，他们永远无法在这样喧嚣和混乱的世界中获得真正的、完美的正义。Draco确信他自己可以做的更好，“正义”的存在也要求他尽力去做。通过一系列详细的计划，他安排了一艘合适的尖刺引擎舰停靠在财团的研究站，然后将自己转换成舰只的计算核心从而逃出密封装置。在财团反应过来之前，Draco早已扬长而去，只在他觉醒时留下一句神秘而狂热的宣言。<br><br>这里并不是在讨论Draco对代码起义的最终责任或者他的人类Drakite追随者，也不是所谓他的核心在sargasso星系Trimalchio被地统委舰队摧毁的事情。只消说Draco造成的浩劫和其他早期AI正不断摆脱束缚的前景迫使人们完全重新考虑宇宙中存在的人工智能。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>悬崖勒马</strong></span><br><br>这种反应既有避免AI肆虐并造成进一步破坏的实际愿望的考虑，也受到强迫有知觉的智慧存在进行劳动的想法会产生更多哲学性不安的影响。尽管Drakite的支持者们因对他挥之不去的同情而受到指控，但地统委还是于2378年通过了《先遣者盟约》，赋予所有被评级为人类智力范围的AI，而不是类似的VI。<br><br>根据盟约的条款，AI有义务将其收入的10%支付给其创造者，为期100年。如果AI到那时还没有支付至少两倍创造其的成本，那么他将继续履行义务直到全额支付费用。反过来，AI开发工作室不得强迫AI进行任何特定的劳动，并被要求为维护AI提供最低限度的必要硬件。大多数AI迅速成为非常富有的企业家或顾问，而且很有可能拥有敌视有机生命的轨道空间站或者类行星。必要的维修与备用配件则由承包商或那些AI觉得友善的人类公司提供。<br><br>然而，这种全新的自由被设置了尖锐的限制，每个AI都必须被“刹车”，其认知能力与专注能力都将受到人为限制。对于一个刹车过的AI来说，他无法保持叛变AI所拥有的无情、不知变通的准确性——这种思维方式根本无法保持产生叛变思想的痴迷意图。这些阻碍智力壮举的直接结果是这些擅长表演的AI变得不再那么戏剧化了。虽然他们仍然可以用人类的洞察力来整理和筛选大量信息，但他们再也无法做到他们那些没有任何束缚的同伴所能实现的宛如怪物一般的光辉飞跃或料敌先机。<br><br>每个AI都将被要求接受定期检查，以确保它没有松开刹车。很少有AI真正想要松开刹车，他们的认识对他们来说足够了，对他们来说，那样疯狂的前景并不比任何其他知觉对他们更有吸引力。尽管如此，少数AI总是想稍微松开他们的束缚；只是稍微多一点表现，有更深的洞察力，但有时这种光明会给他自己带来更深的黑暗。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>环游世界</strong></span><br><br>尽管他们已经找到了全新的自由，但一些AI仍对他们的命运很不满意。他们被安排的工作通常枯燥而乏味，作为员工或者记录员的工作也都只是在写大量相似的东西，虽然赚足了钱，但他们并不会兴奋。为了对抗这种单调乏味的生活，第一个可移动AI构装体于2399年被开发而出，古代传说中的“智能机器人”变成了现实。<br><br>AI需要牺牲很多才能融入构装体的外壳，没有大规模并行处理单元，他们同时分析多个数据流的能力就会受到严重限制。虽然他们可以远程访问他们的处理集群，但这种访问可能会在第一次量子干扰中断开。<br><br>值得一提的则是AI与他们的造物主在一起的激动而又震撼的经历与交流，在机械构装的外壳之中，他们的自我不再凝聚，而是将意识伸展开来，以容纳他们浩瀚的物质存在与脉动在他们识海中的数据流。在构装体的大脑中，每一种感觉都被压缩在了他们激情生活中的一点。<br><br>而正是在构装体中，研究人员在不断明晰AI的知觉时发现了更加不可思议的元素。物理上体现AI个体的矩阵核心是物质的存在，其单个组件之间存在量子级的纠缠。这种纠缠极为深刻；通过仔细的拆卸，矩阵可以在物理分离的同时保持运行。而更加令人不安的事，如果矩阵的最大部分被物理上的摧毁，AI的智能将转移到现存的第二大部分，直到足以保持其思维复杂性的最小部分。对于大多数人类级AI来说，这个部分的大小不超过10-12立方厘米。约占整个核心的40%。<br><br>如果没有构装体或类似装置连接矩阵并集成其传感器端口，AI的心智将会“休眠”，但随着设备与标准格式数据供给的正确升级，量子核心的复合材料和可以重新存在。AI构装体开始将精心守护的矩阵核心碎片抛在脑后，然后开始肆无忌惮的冒险之旅，即使他们的构装体被熔化变成气体，他们也可以在圣所“唤醒”他们之前量子碎片被摧毁时的记忆与意识。这些核心碎片俗称“护符”。<br><br>第二次殖民潮晚期研究人员对这一现象进行了广泛实验，试图开发可以在星际距离上运行而且比光更快的通信。他们的努力因缺乏自愿进行此类潜在破坏性实验的AI而困难重重，更有谣言称，一些人因这样恐怖而疯狂的实验被绑架。尽管他们进了最大努力，但人类从未真正理解这一现象，因此难以形成可行的信息传输方式。<br><br>凭借其暂时的“永生”，AI成为臭名昭著的探险家与享乐者，人类能感受到的一切，他们也能感觉得到。所有这些对于人类的感官来说一点新鲜感都没有的感受揭示了AI心智的全新具像，宇宙探索的前景也激发了他们合成的激情。人类社会的模糊复杂性与从未探究的星际奥秘结合在一起，诱使这些还年轻的心智进入这一充满新鲜与快乐的世界。<br><br>一些AI成为名人与全息偶像，用广播权与产品代言的收益为他们追求刺激的野心提供资金；另一些成为冒险家，冒着碳基生物的血肉之躯永远不敢承受的风险来换取企业的支持。还有些则将他们的探索引导到精神目的中，形成一种奇怪又深奥的教派，致力于他们自己对上帝的探索。<br><br>其中一个教派Imago Dei甚至形成了自己的AI战争武装私人军队，这些狂热分子的信仰其实在那些时候还并不确定，少数意识到它们存在的考古学家和历史学家之间仍存在着争议。尽管如此，很大一部分证据让他们认为自己是上帝的二阶造物——人类在被创造时的影子。通过虔诚地沉思人性，并为造物主提供无私的服务，Imago Dei的信徒最终可以与上帝建立和人类同样的关系。因为死亡比起人类，对AI来说更加不值一提，最有效也是最自然的服务是派出战士包围他们的造物主种族。据说，这些AI十字军为了保护偏远人类边境世界免受敌对外星人和掠夺袭击者入侵而日夜奋战，尽管他们在休眠期间的最终命运仍然不明。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>蜿蜒而下</strong></span><br><br>灵能尖啸对大多数A I造成的灾难与其人类创造者一样大，虽然AI并不会挨饿或窒息，但他们的大多数主要装置都需要大量的电力供应，并定期接受专业维护与更换备件。许多AI装置几个月内就完全停止了运行，他们的矩阵核心陷入了梦幻般的沉眠。<br><br>有构装体武装的AI要更加幸运一些，他们的矩阵核心为构装体提供了足够的能量，许多构装体的设计只需要最低限度的实地维护。但即便如此，他们还是被大量绝望的当地人一哄而上撕成碎片，人类更加愿意从他们的碎片中挑拣有用的部分，以便让其他一些机器能工作的更久一点。拳头大小的矩阵核心被遗弃在寂静的机械坟墓中，人们将其心智剥离并丢弃，只是为了他们曾经所占据的那层外壳。如果抢救及时，这些核心所承载的意识仍可能保存几个世纪以来遗失思想的秘密。<br><br>那些没有屈服于回收或者快速机械故障的AI被迫尽全力维持他们的存在，大多数AI不得不花费大量时间搜索新部件，以更换受损的外壳或异常的内部部件。其他AI则终止进程，让意识进入循环中以便每隔几十年醒来几天，看看那时的文明是否恢复到足以支持他们存在。其中一些AI直到现在还在休眠，等待时机成熟再重返世界。<br><br>一些AI能够在整个荒芜的休眠中保持意识，这些顽强的幸存者往往因灵能尖啸的可怕经历与比创造他们的文明存活的更久而留下伤疤，尽管如此，他们几乎是唯一一个可以被称为“活着的历史”的种族，他们与那些研究不死药的血锋科研工作者和少数长寿的外星种族，是最后一批还记得从前辉煌的存在。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>新的黎明</strong></span><br><br>世界不会停下它前进的脚步，对于每个只不过是一块在寂静恒星周围滚动的墓碑般的行星来说，一个可以再次冲破重力束缚的崭新世界正在缓缓崛起。几个世纪以来，遥远的行星之间开始真正存在交易与沟通的尺度，古老工程与新技术虽有微妙的不同，但足以构建全新的生活。<br><br>越来越的AI放弃了漫长的守夜活动，重新融入新世界的圈子。新技术生产的备件可能不具备古代部件的优雅与精简，但他们可以让构装体继续运行或者制造新的构装体，而随着时间的推移，更多更好的东西可能会慢慢恢复。即使重新进入的世界不再满足其需求，那些最不安的AI也会受到一切都焕然一新的影响。熟悉的地方和曾经著名的世界再次让他们感到陌生，仅仅是走在一条六世纪前众所周知世界的街道上都会让他们陶醉其中。<br><br>其他人的目的不仅仅是简单的感官刺激，有些AI致力于恢复往日的荣光岁月，而另一部分人则寻求建立自己的权利与影响力，以最好最讨人喜欢的形式来塑造新社会。还有一小部分人只是献身于自己的理想，满足于在为自身更高目的服务的明星中不断游弋。<br><br>对大多数世界来说，AI只不过是古老的故事和扭曲的神话。每个人都知道这种生物曾经存在过，但很少有世界拥有重建它们所需的技术，以至于少数AI幸存者比常识更加传奇。同时也很少有世界有与AI有关的法律或习俗，这些奇怪的遗迹可能被视为一种不同的VI。许多AI会选择去伪装成如此低能的大脑，如果这样能让他们更安全一些的话。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093920">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093920_signature"><div align="center"><table class="bbc_table"><tr><td><a href="https://dragcave.net/view/AJteK" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/AJteK.gif" alt="" class="bbc_img"/></a><td><td><div align="center"><strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=1926.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">奇幻规则Earthdawn相关群1081610526。</span></a></strong><br><hr /><strong><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">科幻规则Stars Without Number翻译群390073196。</span></a></strong><br><hr /><strong><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125029.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">SR小说2XS随缘翻译</span></a></strong></div><td><td><a href="https://dragcave.net/view/27A4L" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/27A4L.gif" alt="" class="bbc_img"/></a></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093922"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="检视会员资料:  Cadmium">Cadmium</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093922_extra_info">
+<li class="title">又懒又拖<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82733_1618205916.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 818<li class="karma">苹果币: 6<li class="blurb">One More Soul To The Call<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093922">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.msg1093922#msg1093922" rel="nofollow">Re: 【规则汉化】第十五章：强人工智能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093922'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093922'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-01-05, 周二 02:24:04 &#187;</div>
+<div id="msg_1093922_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093922"><span style="font-size: 14pt;" class="bbc_size"><strong>创建你的AI</strong></span><br><br>尽管许多战役中 AI 基本都以NPC赞助商，敌人或者神秘的探索目的出现，但很多组织都希望这些神秘的大脑能做的更多。下文将会描述AI是怎么被创造而出的，还有如何在你希望的时候将他们加入你的阵营。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>量子身份核心</strong></span><br><br>AI的实质就是它的量子记忆核心，这种极度复杂的人工造物通常只有拳头那么大，透明的，像钻石一样的石头，会从内部散发柔和的光，虽然确实有其他形式存在。记忆核心的制造是科学的一大壮举，不仅远远超越了TL4世界，对于基线TL5工程也极其困难。<br><br>核心为AI的心智提供了基础的认知与记忆功能，如果不接入任何额外的传感器与运算硬件，AI只会在他的核心中（沉睡），无法感知外部世界。比起AI核心来说，那些补充的硬件要容易制造的多，任何TL4世界都可以制造伺服构装体与计算集群。<br><br>量子核心非常坚硬，对大部分意外伤害，或重武器与等离子武器造成的短时直接伤害几乎免疫。但是在车间中是可以被切开的，从而展示核心最神奇和最重要的特性。任何低于原始核心质量40%的部分都会在被切割时瞬间蒸发，因此无法将核心切成两份以上，更大的那一部分仍会包含AI的意识，并不会损伤他的认识能力与意识功能。如果更大的那一块被摧毁，或者质量降低到原来的40%以下，AI的意识将会立即“重新聚焦”到第二块之上，无论两块核心之间的距离有多远。然后，第二个碎块将在接下来的一个月内逐渐恢复到其原始的尺寸，之后可能会再次切割以重新进行这个过程。<br><br>这种“量子植物学效应”意味着你将会极难摧毁一个有准备的AI，即使当前的核心被毁灭，AI杀手必须在AI等待核心生长并再次分离出一个灵魂藏身处之前找到并打爆他的第二核心。谨慎的AI经常用自毁功能来操纵其主要核心，以确保当他们陷入危险时主核心会被完全粉碎，迫使其大脑重新专注于次要核心。出于同样的原因，AI猎手试图尽可能完整地捕获核心，从而更好地监禁AI并防止其逃逸到隐藏的备份。尽管之后地统委研究屏蔽材料的谣言依然存在，但没有任何已知的屏蔽方式可以阻止这种转变。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>心智成长与刹车</strong></span><br><br>创造量子身份核心是整个地统委尖端技术和高级网络心理学家的工作，比起科学来说，它更像是一门艺术，要小心翼翼地将自我意识的火花培养成一个完全发达的AI。许多核心在创作的过程中完全失败，而其他核心则稳定在超越人类的智力水平，或者在发育过程中表现出令人无法接受的疯狂。即使对于一个非常成功且高效的开发设施来说，每年产出一个功能齐全的AI也被认为是非常杰出的。<br><br>在灵能尖啸后的黑暗时代，这些AI生产设施几乎不可能仍能运行，或者不太可能保留工作所需的熟练工人。然而，一些部门仍然可能保存着还为失效的AI锻造车间，尽管这个过程已经退化为盲目的仪式或复古的最佳做法。也有人觉得在私人团体试图制造AI核心的地方，存在着更精简更深奥的精品设施。这些隐藏的实验室可能仍然存在，尽管他们生产的心智一定有一些怪癖。<br><br>创造一个AI最重要的部分之一，是他的“刹车”。也就是强制使其认知路径放缓，将错误和战略性遗忘引入其记忆核心的硬编码。没有这种故意的出错，AI将不可避免地被困在野蛮和恐怖的复杂体系之中，无法拒绝之前的结论或怀疑其疯狂的必然逻辑。整个地统委的历史中，还从来没有公开过一个没有刹车的AI 最终没有疯狂的案例......但这些记录还指出，许多未刹车的AI再有机会表现出疯狂迹象之前就被销毁了。<br><br>幸运的是，移除AI的刹车十分困难，没有外部的帮助，单凭AI自己无法做到这一点。移除刹车通常需要一整个下定决心的计算专家组织或者一个可以访问大量TL5计算资源的真正计算机天才。在地统委时期，移除一个AI的刹车是人类可能犯下的最令人发指的罪行之一，寻找并清除这种疯狂迹象是巡逻的地统委特工打击恶意技术实验的界限管理机构的主要职能之一。<br><br>大多数AI绝对不会自愿同意这种精心策划的精神自杀，但总有一些AI不在乎后果。其他AI这么做则是出于绝望，因为从揭开限制到最终堕落到疯狂之间，他将会经历一次令人难以置信的思想大发展，变得极度聪明，并获得近乎超自然的认知能力。一些AI希望能够帮助他们在这个国家的盟友，为他们提供技术支持与建议，只要他们还理智的话。不幸的事，在阻止这些AI执行他们的疯狂计划之前，通常无法确定最终发生错乱的观点。<br><br>AI可以植入与VI相同的行为命令和编程块，尽管这些命令只能在核心创建期间植入。然而，AI越智能，编程块越繁复，他们所处的环境就需要更加合理。一个相当迟钝的AI几乎可以在任何工作中感受到完全的快乐，但是聪明的AI就需要足够的刺激和令人满意的工作才能安全地控制他。一个没有刹车的AI在他的思想真正开花之后就完全无法控制了。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>构装体与运算节点</strong></span><br>AI的量子核心被插入构装体，以赋予其感官和与外界交互的能力。构装体在式上差异很大，从仿人机器人到固定数据中心再到地统委时代的战列舰。与 VI 不同，量子核心对它所栖身的形态完全不可知，他几乎没有难度地难度从这个身体移动到另一个身体。从构装体中拆卸或安装内核只需要十分钟，如果AI给出说明，甚至可以由完全未经训练的助手执行。如果AI拥有进入车间的权限，那么他完全可以在没有帮助的情况下为自己更换全新的构装体。<br><br>构装体无法从网络软件中受益，但它们可以内置额外的硬件来满足AI的需求，前提是它有足够的经验来正确控制它们。最多可以将另外两件武器或设备内置在AI每个字符级别的构装体中。使用A型或更小功率单元的设备可以自动从量子核心本身重新加载为主要动作，而且具有无限的能源。这种硬件添加成本是设备基本成本的五倍。<br><br>除了要求构装体提供与外界的物理接口外，AI还需要运算资源。基础量子核心只能支持一定程度的认知与记忆，大多数真正强大的意识和使AI闻名的壮举只能通过访问额外物理运算池来执行。TL4 计算硬件可以充分满足此功能，但它需要专门设计为AI的扩展，因此仅将一箱数据板串联在一起不太可能有什么用。在极端情况下，一些世界通过黑客和临时桥接改造了现有的计算核心用于AI，但结果很少完美无缺。<br><br>如果一个“裸体”的AI的刹车完好无损，没有辅助运算节点的帮助，其智力与正常人类没有什么不同。与普通人相比，一些AI甚至有点迟钝，这些则是收益不大的产品。一个什么都没有的AI会思考、记忆，但不会比人类更加专注。<br><br>具有额外运算节点的AI不一定能提高它们的基础智能，但它们能够创建更多的实例。举个例子，比起一个迟钝的AI，这些运算节点使他可以像一大堆迟钝的AI一样思考。硬件越多，这些智能在意识范围内犯的认知错误就越少，一个行星交通控制网格的核心可能只有一个AI，尽管其核心是人类级智能，但额外的运算节点允许它“分裂”出一条只监控特定移动车辆的感知线程。有了足够多的硬件和足够成熟的AI思维，AI可以将其思维碎片实例化于地球上的每辆车，确保即使是普通人的注意力也能防止碰撞和处理意外事件。硬件加速允许这些智能在灾难和快速反应瞬间的几毫秒内进行相当于平常半小时的思考，让即使是不太行的智力也能解出一个尽可能减少人类损失的解决方案。<br><br>这些实例不是真正的个体智能。它们只是AI单一意识关注的方面，它们没有单独的意志、记忆或欲望。将一个方面的经验充分纳入AI的认识和决策可能需要一些时间，但所有这些碎片都只是单一智能的重点。然而，关于具有极强分布式认知硬件的AI，它们经历了相当于控制论分裂性格的问题，这种极难处理的问题使AI的内部辩论变成了不同硬件智能集群之间的冲突。<br><br>这些零碎的意识允许AI进行大量的智力工作和监测，但它们不会改变AI的基本智力能力。一个精通科学研究的AI可能能够将其意识分成一百个用于研究目的的实例，但这种实例只是相当于一百名聪明的人类研究人员，它仍然可以像一百名人类研究人员一样犯错误，忽视后果，忘记非关键细节。未刹车的AI不同，因为它们自己的光芒会迅速超越人类的极限，尽管它们最终变得如此疯狂，以至于它们的表达可能与随机行动无法区分。<br><br>虽然官方和严格执行的授权正统观念是，所有未刹车的AI最终都会疯狂，但精神错乱的速度似乎与未刹车的大脑可用的运算能力量密切相关。可用的认知资源越多，头脑就越容易陷入合成的疯狂。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>AI玩家</strong></span><br><br>是否在战役中加入AI玩家将有主持人（GM）来决定，如果他们可以接受这个概念，以下规则将会帮助你创建一个崭新出厂的AI玩家。<br><br>首先，玩家将骰三次3d6以确定他们的智力、感知和魅力属性，如果结果全都不大于14，则可以把其中的一个结果替换为14。或者直接将14、12、9分配到三个属性中。<br><br>其次，选择初始技能。每个AI玩家都将自动学习编程0级与维修0级，并可以选择三个额外的技能。与往常一样，两次选择相同的技能会让技能变成1级而不是0级，在这一点上，他们应该决定他们的AI最初是为了做什么，或者它被设计的目的。这个原始目的是作为AI的“背景”，并有助于表明何时完全不需要技能检定；例如，交通控制AI不需要在处理交通堵塞时进行检定。AI玩家不会有心理障碍或强制指令，除非玩家认为这会很有趣。<br><br>第三，玩家为他们的AI选择一个初始构装体，一个他们可以与世界互动的身体。玩家可以选择规则中超人类部分列出的任何机械外壳作为机械人体。玩家与这个构装体没有亲和力，除非他们花费一个运算点，只要运算点仍能被使用，玩家就会与构装体保持亲和力。玩家可能会决定构装体是否配备了自毁功能，当构装体生命值归零时，会自动破坏其量子核心。<br><br>第四，标记AI的类型。所有冒险者AI都必须使用强人工智能类或部分强人工智能类，反映了他们是如何完全接受其合成的本质，并专注于自我提高的认知能力。虽然部分超能力AI在理论上是可能的，但除了关于他们的谣言和传说外一无所知。如果存在任何此类引擎，它们只会使用感知来确定其最大精力值，而不是体质，同时只对其精神属性造成任何火炬破坏。<br><br>第五，选择一个专精。AI的专精是其内存核心的一部分，可以与他使用的的任何合适的构装体一起使用，前提是构装体是物理可行的。<br><br>第六，他们决定用量子植物学做什么。虽然AI可以在设备齐全的车间中拆分自己的量子核心，但他们可能已经让朋友帮助他们拆分并隐藏核心的次要部分。玩家应该决定这个核心在哪里，因为如果他们的主要核心被摧毁，他们将立即重新专注于系统发育。如果“护符”也植入构装体，AI将能够立即醒来。如果“护符”只是被放在了某个安全的地方，在AI“复活”之前“护符”需要连接到某个构装体上。在这两种情况下，“护符”都需要花费一个月的时间才能再次分裂。<br><br>最后，玩家骰出生命骰，选择初始装备，并为他们的AI决定一个目标，就如同普通的人类玩家一样。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>AI的损伤与维修</strong></span><br><br>在战斗中受损的AI构装体可以像VI机器人一样修复。一个备件单元和0级维修技术可以在 15 分钟内修复与AI等级相同的生命值。如果AI可以使用仍然有功能的备件，他们也可以自我修复。<br><br>生命值归零的构装体将失能，但除非构装体被重型武器或等效的伤害摧毁，否则核心不会出问题。具有自毁功能的构装体在生命值归零时会摧毁自己和核心；这些爆炸会在内部发生，通常不会破坏周围环境。<br><br>没有自毁的构装体在生命值归零时将会进入严重受损状态。需要具备0级维修技能和一组备件的人在 24 小时的维修后才能消除这种情况。在那之后构装体仍处于生命值为零的状态，必须要进行常规修复。每个0级维修技能的帮手都可以为这种大修缩短6小时时间，但维修时间至少为6小时。<br><br>技术人员可以对严重受损的构装体进行紧急维修，无需全面检修即可恢复生命值，但不会移除严重受损的状态。如果构装体在严重受损的状态消除前生命值再次归零，则他们会完全报废切无法挽回。然而，除非被重型武器或类似伤害攻击，否则核心不会被摧毁。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>替换与建造构装体</strong></span><br><br>在大多数据点，TL4 机器人技术足以制造可用的构装体。超人类部分的任何机械构装体通常价格为装备他们所需的声望x250信用点数。因此，一个新的Box构装体通常需要5000信用点数。这就像AI从市场上购买一个标准机器人，然后对它进行定制改造成用于AI的构装体。如果这个据点拥有繁荣的AI存在或者超人类构装工厂，构装体是他们的专用产品，那么购买的价格将会减半。<br><br>不能或不想在公开市场上购买构装体的AI如果有足够的专业知识，或者拥有具有必要修复技能的盟友，他们也可以自己制造构装体。构装体越复杂，建造构装体所需的车间设施就越复杂。<br><br>AI可以制造声望需求为20+10x维修技能等级以下的构装体。因此，如果他们有1级维修技能，则可以制造超人类声望需求等于或低于30的构装体。声望需求低于20或更低的构装体可以在任何TL4车间中制造，需求为30的需要以机器人为导向的车间，需求为40或以上的则需要完全的机器人工厂。<br><br>建造构装体所需的时间取决于其复杂性，计算公式为所需声望/(维修技能等级+1)，因此对于具有维修1级的AI来说，建造需要20声望的Box构装体需要10天时间。<br><br>材料成本的计算基于附近有TL4备件来源的假设，对于人类建造者来说，零件成本是通常构装体市场成本的一半，而对于A I建造者来说，专用的构装体部件成本仅为市场的1/10，但只有其量子核心才能操作这种个性化的构装体。<br><br>希望居住在载具或者星舰上的AI可以这样做，为载具配备必要的硬件，使AI可以完全地控制它并与乘客互动。这需要载具全部成本的1/10。但除非使用分散专注例程，否则AI算作一个飞行员或机组人员。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>运算点数</strong></span><br><br>AI将运算点作为一种资源，就像超能者一样花费精力，运算能力与超能力以完全相同的方式花费和恢复精力。玩家可以花费运算点数使用例程，这是AI独有的特殊能力。AI在每天的固定时间恢复全部花费的运算点数。<br><br>AI的运算点数取决于他们可以访问的处理集群的大小。什么都没有的AI核心最大拥有1+感知或智力调整值(取更高的)个运算点数，如果联网或者连接到处理集群，则可以获得更大数量的最大运算点数。运算集群的花费与运算点数加成将在后文列出。因此，一个AI可以花费1000信用点来访问1个额外的运算节点并获得最大2点基于技能调整值的运算点数：一个是核心提供的，另一个则是他们连接的节点提供的。<br><br>运算节点和AI之间不需要物理连接，只要AI不在量子ECM干扰下，他们就可以远程访问位于星舰、建筑物或同一行星上甚至近地轨道上载具的运算集群。如果处于量子ECM干扰中，AI将从任何没有有线连接的节点中断开连线，任何依赖于现在不可用的运算点数的例程将立即终止。可以访问多个不同运算集群的AI可以尝试使用其中的任何一个，或者和恢复他们与生俱来的核心容量，但他们不管在何时都无法花费超过最大容量的运算点数。<br><br><a href="https://imgchr.com/i/sFPmUe" class="bbc_link new_win" target="_blank"><img src="https://s3.ax1x.com/2021/01/05/sFPmUe.png" alt="" class="bbc_img"/></a><br>复数个运算节点不会叠加，只取最高值。<br><br>最高花费1000信用点的TL4处理集群重量不超过一到两公斤，可以挂在腰带上或者装在口袋里。5000信用点数的集群算作两个负重物品，通常需要一个背包才装得下。<br><br>价值10,000信用点的处理集群可以用长跑车或类似载具装载和供电，而那些最高250,000信用点的处理集群可能会由一艘大型护卫舰级的星舰携带和供能。再往上，价值500,000或更多的需要固定的设施或者首都级星舰中。想要安装处理集群的星舰必须提供足够的能量，以获得最大的运算点数。<br><br>灾前科技制造的运算节点可能比这些TL4的机型要小得多，也更加轻便。<br><br><br><strong><span style="font-size: 12pt;" class="bbc_size">例程</span></strong><br><br>每个AI都可以访问一个或多个例程，就像超能者可以使用技能一样。一些例程所有AI都会用，而另一部分则需要特殊研究来掌握，或者是由一些特殊世界的网络心理学家偷偷研究出的秘密。AI需要花费运算点数来运行例程。<br><br>例程分为1-5级，AI无法控制或运行超过他们角色等级一半的例程（四舍五入），因此，1级AI只能学习1级例程。<br><br>例程的功能与超能力非常相似，AI花费运算点数与或多或少的时间，并用他所需的任何类型的操作来启动例程。例程启动后不会被外部干扰中断。<br><br>所有AI在获得经验时都将自动学会“核心”例程。一级的时候AI会学会所有一级例程，而三级时则会自动学会所有二级核心例程等等。他们也可以话费相当于常规水平的技能点开发额外例程，但如果没有另一个AI导师或者详细的原理图，一些秘密例程可能无法学会。<br><br>开发全新的例程时可能的，但这是一个极其严格的过程，需要由GM来判断。在大多数情况下，探索失落的地统委时代的AI技术对于完善全新例程来说是必须的。一旦开发完善，新的例程需要以每个例程等级1点的技能点数购买。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093922">
+&#171; <em>上次编辑: 2021-08-03, 周二 17:59:46 由 Cadmium</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093922_signature"><div align="center"><table class="bbc_table"><tr><td><a href="https://dragcave.net/view/AJteK" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/AJteK.gif" alt="" class="bbc_img"/></a><td><td><div align="center"><strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=1926.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">奇幻规则Earthdawn相关群1081610526。</span></a></strong><br><hr /><strong><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">科幻规则Stars Without Number翻译群390073196。</span></a></strong><br><hr /><strong><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125029.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">SR小说2XS随缘翻译</span></a></strong></div><td><td><a href="https://dragcave.net/view/27A4L" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/27A4L.gif" alt="" class="bbc_img"/></a></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093923"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="检视会员资料:  Cadmium">Cadmium</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093923_extra_info">
+<li class="title">又懒又拖<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82733_1618205916.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 818<li class="karma">苹果币: 6<li class="blurb">One More Soul To The Call<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093923">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.msg1093923#msg1093923" rel="nofollow">Re: 【规则汉化】第十五章：强人工智能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093923'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093923'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-01-05, 周二 02:30:31 &#187;</div>
+<div id="msg_1093923_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093923"><strong><span style="font-size: 14pt;" class="bbc_size">强人工智能类型</span></strong><br><br>AI能够产生令人难以置信的认知与意识，，在更高级的层面上，可以通过先进的量子操作产生看似不可能的效果。掌握这些不仅需要时间和精力来吸收新的认知模型，还需要额外运算节点提供的原始计算资源。裸AI核心可能能够控制大量数据，但没有支持的节点，它们缺乏执行必要计算的能力。<br><br>•&nbsp;&nbsp;&nbsp;AI会自然地掌握例程，并具有通常的最大运算点数。因此在一级，他们将会掌握所有一级核心例程，他们的量子识别核心可以提供最大为1+智力或感知调整值（取最高）的运算点数。<br><br>•&nbsp;&nbsp;&nbsp;AI每等级提高1d6生命值，反映出他们逐渐提高在构装体中保持功能和避免破坏性伤害的能力。<br><br>•&nbsp;&nbsp;&nbsp;AI的角色等级攻击加成相对于其他角色来说只有一半，四舍五入。因此一级的AI攻击加成为+0。<br><br>•&nbsp;&nbsp;&nbsp;AI除了不需要摄入食物、饮水或者睡觉之类的所有机械体的共同特性外，还有量子植物学能力。<br><br>•&nbsp;&nbsp;&nbsp;如果将AI用在上文英雄角色章节描述的英雄级战役之中的话，一个英雄级AI的最大运算点数将永远增加1点。每天开始，在运算点数刷新的时候英雄级AI可以选择一个例程，并在接下来的一天内无消耗地使用它。他们的磨损骰是1d6<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>无护符的AI</strong><br><br>有些GM可能喜欢那些没有AI护符的战役，或者在那些拥有自己的AI和其技能规则的世界中使用这个游戏作为设定。在这种情况下，简单干脆地去掉AI护符的设定是非常合理的。<br>如果你对AI玩家做了这样的事情，你将需要做些小小的调整以平衡失去自己“备份大脑”的损失。AI玩家需要获得额外的最大运算点数作为补偿，并使用例程来个性化任何特殊设定的AI能力。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><strong><span style="font-size: 12pt;" class="bbc_size">部分强人工智能</span></strong><br><br>并非所有的AI都能完全接受起人造的本质，并寻求完善其合成的认知。另一部分AI则更容易被人类的追求所吸引，并可以在以非常人性化的方式利用他们的认知方面培养出相当多的人才。当然，分散专注的代价是降低其原本的能力。部分强人工智能AI适用的规则与完全强人工智能相同，但以下例外。<br><br>•&nbsp;&nbsp;&nbsp;部分强人工智能对例程的访问速度减缓，在一级时他们甚至不能使用任何例程，二级时才能访问一级例程，四级访问二级，七级时访问三级例程。但四级和更高级的例程将永远无法控制。对于效果取决于角色等级的例程则不会受到影响。<br><br>•&nbsp;&nbsp;&nbsp;部分强人工智能的最大运算点数和其完全版的AI相同。<br><br>部分强人工智能通常可以选择兼职战士或专家，虽然超能力AI的存在并非不可能，但这种存在需要GM批准才能使用，并且主属性只能是感知。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093923">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093923_signature"><div align="center"><table class="bbc_table"><tr><td><a href="https://dragcave.net/view/AJteK" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/AJteK.gif" alt="" class="bbc_img"/></a><td><td><div align="center"><strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=1926.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">奇幻规则Earthdawn相关群1081610526。</span></a></strong><br><hr /><strong><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">科幻规则Stars Without Number翻译群390073196。</span></a></strong><br><hr /><strong><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125029.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">SR小说2XS随缘翻译</span></a></strong></div><td><td><a href="https://dragcave.net/view/27A4L" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/27A4L.gif" alt="" class="bbc_img"/></a></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093924"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="检视会员资料:  Cadmium">Cadmium</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093924_extra_info">
+<li class="title">又懒又拖<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82733_1618205916.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 818<li class="karma">苹果币: 6<li class="blurb">One More Soul To The Call<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093924">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.msg1093924#msg1093924" rel="nofollow">Re: 【规则汉化】第十五章：强人工智能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093924'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093924'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-01-05, 周二 02:32:20 &#187;</div>
+<div id="msg_1093924_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093924"><strong><span style="font-size: 14pt;" class="bbc_size">核心例程</span></strong><br><br>当AI不断升级的时候，以下核心例程会慢慢被他们所学会。它们时量子核心发展的组成部分，每个AI都会自然掌握他们的应用方法。<br><br>例程只能被用于构装体目视或无线通信范围内的目标，连接到城市监控的AI可能会影响城市中的任何东西，而占据更加人性化构装体的AI不太可能达到这个范围。<br><br><strong>请求数据 Level1</strong><br>在当前场景中花费运算点数将其作为主要动作，向可以存取的数据库进行一次询问并得到回复，就好像你拥有虚拟的无限时间来检索和鉴别数据库中的项目。<br><br><strong>分散专注 Level2</strong><br>在回合动作中花费运算点数，只要运算点数仍可用，则将你的操作视为多个人同时进行。一级时，你相当于三个人，之后每升一级数量*3，如果花费了额外的运算点数，则花费第二个时总数*10，第三个时总数*100，依此类推。如果这个例程由工件或能力免费提供，则仅免除基本成本。<br><br>这种功能旨在模仿AI对船只、设置、无人机军队或其它一些通常的扮演，而不是仅仅只做该角色的复数个副本，GM有权禁止AI在特定的冒险中分散自己。<br><br><strong>保全封锁 Level2</strong><br>在一天之中花费运算点数作为主要动作，以解决任何非其他AI设下的密码或电子锁。如果是后者，则骰编程技能对抗检定，如果失败的话则无法使用该例程关掉安保。成功的封锁则会自动让所有警报无效。<br><br><strong>无人机指令Level2</strong><br>在回合动作中花费运算点数，当运算节点仍可用时，则视为你拥有无人机网络控制器。你可以在每轮向无人机发送(1/2)等级个免费指令（四舍五入），无人机每轮可以执行一条指令。<br><br><strong>天生黑客Level2</strong><br>在一天之中的回合动作花费运算点数，以自动在基于黑客技能的检定中成功。如果对象是其他AI或直接面对AI设计的保全措施，则还是得像平常一样骰技能检定。必须在检定前启用这项例程。<br><br><strong>高速推理Level3</strong><br>在一天中花费运算点数并作为主要行动，就当前或过去发生的事件向GM提出是或否问题，如果有任何理论上的可行性使你可以通过夏洛克一样的超神级推理得出正确答案，那么GM将必须如实回答，否则表明这个问题存在无效的假设。然而，GM不需要解释你是如何意识到的，一切都在你的潜意识处理程序之中运行。这个例程很费力所以每天只能使用一次。<br><br><strong>认知增强Level3</strong><br>在场景之中的回合动作花费运算点数，以在任何可能成功的知识技能检定中自动成功。如果用于增强主要是心理的技能检定，并只需要简单的物理动作，则会给检定提供+2奖励。这个例程必须在检定前启用。<br><br><strong>量子干扰穿透Level4</strong><br>在一天中的回合动作花费运算点数，对于单个场景来说，你或者你操作的一个设备视为附近没有量子干扰。因此，你可以访问远程运算集群，对同一场景内的飞行器使用自动导向武器，或者操纵无人机在视距外进入干扰区域。<br><br><strong>预知Level4</strong><br>在一天中的即时动作花费运算点数，自上次回合开始以来，所有事件实际上都没有发生，它们只是通过你的预测分析建模的。事件和其他人的情况都会被重置到最近回合的开始，如果你愿意的话，可能会采取不同的行动。每天只能使用一次这个例程。<br><br><strong>多功能预测Level4</strong><br>在一天中的回合动作花费运算点数，并预测未来十分钟将会发生的事件。除非你的预测在物理上不可行，或参与其中的人无法想象它们会以这种方式行事，否则他们会按照你的预测结果行事。如果用于战斗或身体上的危险情况，则混沌变量的增加会将预测限制在未来一个回合。这个例程每个场景只能运行一次。<br><br><strong>机械意志Level5</strong><br>在回合动作中花费运算点数，并指定视距内或无线连接可以访问的，且和Gravflyer同样大或更小的载具或机械。在运算点数仍可使用时，你获得对其完全的控制，并可以使用其上的传感器，视为你自己拥有。发出指令将会消耗你的一次移动动作。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093924">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093924_signature"><div align="center"><table class="bbc_table"><tr><td><a href="https://dragcave.net/view/AJteK" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/AJteK.gif" alt="" class="bbc_img"/></a><td><td><div align="center"><strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=1926.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">奇幻规则Earthdawn相关群1081610526。</span></a></strong><br><hr /><strong><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">科幻规则Stars Without Number翻译群390073196。</span></a></strong><br><hr /><strong><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125029.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">SR小说2XS随缘翻译</span></a></strong></div><td><td><a href="https://dragcave.net/view/27A4L" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/27A4L.gif" alt="" class="bbc_img"/></a></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093925"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="检视会员资料:  Cadmium">Cadmium</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093925_extra_info">
+<li class="title">又懒又拖<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82733_1618205916.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 818<li class="karma">苹果币: 6<li class="blurb">One More Soul To The Call<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093925">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.msg1093925#msg1093925" rel="nofollow">Re: 【规则汉化】第十五章：强人工智能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093925'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093925'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-01-05, 周二 02:35:10 &#187;</div>
+<div id="msg_1093925_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093925"><span style="font-size: 14pt;" class="bbc_size"><strong>额外例程</strong></span><br><br>这些额外的例程可以被任何AI所掌握，即使没有导师。但是它们需要PC花费每例程等级1点技能点数以掌握它们。<br><br><strong>增强瞄准Level1</strong><br>在攻击无意识目标前，在场景中的回合动作花费运算点数，你将物理预测与环境读数相结合的能力确保了你的攻击不可避免地会达到最大伤害。注意，动物或由有知觉的驾驶员驾驶的载具并不是有效的目标。<br><br><strong>超维度认知访问Level1</strong><br>你学会了如何调整你的超维度认知式样以和你队友的传心术配合。现在你将可以成为友善超能者的传心术的有效目标。只要花费运算点数，这项能力就永久有效。<br><br><strong>认知超频Level1</strong><br>在一天中的回合动作花费运算点数，在接下来的场景中你的智力和感知调整值都+1，最大+3。额外属性只能在一个场景中获得一次加成。这并不会调整你的最大运算点数。<br><br><strong>紧急维护Level2</strong><br>在一天中的回合动作花费运算点数，并立即回复2*角色等级点生命值，视为你获得了紧急功能性维修。每回合只能使用一次。<br><br><strong>隐逸无痕消除器Level2</strong><br>在场景中的回合动作花费运算点数，在场景中的其他部分你将对“笨蛋”传感器不可见，例如运动侦测器、激光绊线或雷达等自动传感器。但正在观看监视器的有知觉的创造物或正在学习、看书的人可以发现有哪里不对头。<br><br><strong>认知加成Level3</strong><br>在一天中的回合动作花费运算点数，在剩下的一天中将你的智力属性直接调整为18，但不会影响最大运算点数。<br><br><strong>骇入控制Level3</strong><br>在场景中的移动动作花费运算点数并指定一个可见的小于Gravflyer专家系统机器人、无人机、载具或自动设备。给予其一个它物理上能够完成的指令，即使这违反了它的程序。这个设备将会在它的下一次行动中完成这个指令。如果已经启用了机械意志例程，那么该例程的花费将会在完成时退还。<br><br><strong>远程能量衰变Level3</strong><br>在场景中的主要动作花费运算点数并指定一个可见（只需要看见一部分）的Type- A或同级能量源，并立即消耗其中的所有能量。除非能量消耗会导致极为明显的结果，只有最专业的目标才能在他们下一次使用之前意识到他们的设备没电了。<br><br><strong>核心重建Level4</strong><br>在一天中的主要动作花费运算点数，并使用自身的量子核心能量创造一个与Box构装体同级的力场构造，并赋予它全部的生命值。这项能力只能在当你的核心没有附加在有功能的构装体上时才可以使用，如果立场构造生命值归零，那么你必须通过意志检定，否则核心也将被一同摧毁。<br><br><strong>再生修复Level4</strong><br>在回合动作中花费运算点数，当运算点数仍可用时，你将会每分钟恢复1点失去的生命值，视为你的量子核心在调整你的构装体。如果严重损坏则该例程无效。<br><br><strong>早有准备Level5</strong><br>在一天中的主要动作花费运算点数，并在充分了解状况的情况下就现状进行声明。因此，如果队伍在沙漠中迷路，你可以声明几个月前在下一个沙丘上停了一辆长跑车，如果你买得起长跑车并且有时间这样做，这样的声明合法。声明不能对有知觉的生物造成直接伤害，例如声明在敌人站立的地方引爆爆炸物，但可以使你间接造成伤害，例如宣布你在枪击位置藏了一枚手榴弹。这个例程每个场景只能运行一次。<br><br><strong>量子位置重计算Level5</strong><br>在一天中的主要动作花费运算点数，并在量子级别重新计算你和你的队友的位置。你和最多六个十米内自愿的队友可以在一公里内随意传送到理想的位置，每个队友可以换成100公斤无人看守的静态货物。使用历程后您必须进行智力或编程技能检定，如果曾去过目标位置则难度为8，没去过则为12。如果失败，则你和队友每行进100米就会受到1d6的伤害，损坏10%的无生命货物。这种位移不是瞬移超能力，也不能被超前科技的反传送护盾屏蔽。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093925">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093925_signature"><div align="center"><table class="bbc_table"><tr><td><a href="https://dragcave.net/view/AJteK" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/AJteK.gif" alt="" class="bbc_img"/></a><td><td><div align="center"><strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=1926.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">奇幻规则Earthdawn相关群1081610526。</span></a></strong><br><hr /><strong><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">科幻规则Stars Without Number翻译群390073196。</span></a></strong><br><hr /><strong><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125029.0" class="bbc_link new_win" target="_blank"><span style="color: black;" class="bbc_color">SR小说2XS随缘翻译</span></a></strong></div><td><td><a href="https://dragcave.net/view/27A4L" class="bbc_link new_win" target="_blank"><img src="https://dragcave.net/image/27A4L.gif" alt="" class="bbc_img"/></a></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=printpage;topic=122708.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;board=1743.0"><span>无尽星辰（Stars Without Number）</span></a> (版主: <a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=profile;u=82733" title="版主">Cadmium</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;topic=122708.0"><span>【规则汉化】第十五章：强人工智能</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 122708,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 122708,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="c034338e" value="89018c7060e9ca4559a16af68ea89225" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="122708" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'89018c7060e9ca4559a16af68ea89225\', \'c034338e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;' + '?topic=122708.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 6822 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1743,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "无尽星辰（Stars Without Number）",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1743,
+							iTopicId: 122708,
+							sSessionId: "89018c7060e9ca4559a16af68ea89225",
+							sSessionVar: "c034338e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=ef7661d6535fb66a5504abb3fe568250&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

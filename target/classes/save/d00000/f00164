@@ -1,0 +1,920 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="Pathfinder RPG 2nd"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>Pathfinder RPG 2nd</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[1724]" value="1724"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"><span>Pathfinder RPG 2nd</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<div class="tborder" id="childboards">
+<div class="cat_bar">
+<h3 class="catbg">子版块</h3>
+</div>
+<div class="table_frame">
+<table class="table_list">
+<tbody class="content">
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1866.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1866.0" name="b1866">核心规则书籍（Rulebook）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>715 帖子 <br>
+127 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">原子能青蛙</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1129912#new" title="Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对">Re: 【CRB】第三章：法师（Wizard）(...</a><br>
+于 <strong>昨天</strong>08:35:39
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1867.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1867.0" name="b1867">设定集：预言破灭之年（Lost Omens）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>200 帖子 <br>
+27 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383">默 ’S’ oul-del</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=126393.msg1125358#new" title="Re: 【LOPSG】 势力道具、冒险装备、万古石与寻路仪">Re: 【LOPSG】 势力道具、冒险装备、万古...</a><br>
+于 2021-07-22, 周四 11:32:49
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1868.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1868.0" name="b1868">冒险之路（Adventure Path）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>314 帖子 <br>
+59 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">原子能青蛙</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=127507.msg1129999#new" title="【Strength of Thousands】《传承之力》1/6《法焰初燃》附录2：玛甘比的同学们 （Students of the Magaambya）">【Strength of Thousands】《...</a><br>
+于 <strong>昨天</strong>18:33:59
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1869.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1869.0" name="b1869">独立模组（Standalone Adventures）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>93 帖子 <br>
+10 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">原子能青蛙</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=126605.msg1123350#new" title="Re: 【Malevolence】《怨毒诅咒》冒险工具箱">Re: 【Malevolence】《怨毒诅咒》冒...</a><br>
+于 2021-07-11, 周日 23:29:09
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1870.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1870.0" name="b1870">怪物大全（Bestiaries &amp; Monsters）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>1181 帖子 <br>
+298 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=12022">他化自在天</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=127524.msg1130109#new" title="【Bestiary 2】闪现犬（Blink Dog）">【Bestiary 2】闪现犬（Blink Do...</a><br>
+于 <strong>今天</strong>17:41:25
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1871.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1871.0" name="b1871">第三方产品（3rd Party Product）</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>10 帖子 <br>
+5 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=88805">Fifholz</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=116753.msg1047762#new" title="Re: [Drop Dead Studio]擂台斗士（编辑中）">Re: [Drop Dead Studio]擂台...</a><br>
+于 2020-04-12, 周日 01:20:30
+</p>
+</tr>
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1697.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1697.0" name="b1697">Pathfinder 2nd Playtest</a>
+<p></p>
+<p class="moderators">版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a></p>
+<td class="stats windowbg">
+<p>1123 帖子 <br>
+67 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">原子能青蛙</a><br>
+在 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=102573.msg1101570#new" title="Re: 【第六章】物品品质（Item Quality）">Re: 【第六章】物品品质（Item Quali...</a><br>
+于 2021-03-05, 周五 18:07:20
+</p>
+</tr>
+
+</table>
+</div>
+</div>
+<div class="pagesection">
+<div class="pagelinks align_left">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0;sort=subject">主题</a> / <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0;sort=starter">作者</a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0;sort=replies">回复</a> / <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0;sort=views">阅读</a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0;sort=last_post">最新帖子 <img src="Themes/celeste/images/sort_down.gif" alt=""/></a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/veryhot_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1007606"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.0">【PF2】翻译报道认领帖</a></span></strong>
+<p><span id="msg_descr_1007606" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages1007606">&#171;  <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.40">3</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.60">4</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats stickybg">
+61 回复
+<br>
+36503 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110930.60#msg1127204"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-08-02, 周一 19:04:35<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=126336">璀璨星炬</a>
+</tr>
+<tr>
+<td class="icon1 stickybg locked_sticky">
+<img src="Themes/celeste/images/topic/normal_post_locked_sticky.gif" alt=""/>
+<td class="icon2 stickybg locked_sticky">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg locked_sticky2">
+<div >
+<strong><span id="msg_1043694"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=116214.0">《版面规定》</a></span></strong>
+<p><span id="msg_descr_1043694" class="topic_description">不看者违反规定后果自负</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+<small id="pages1043694"></small>
+</p>
+</div>
+<td class="stats stickybg locked_sticky">
+0 回复
+<br>
+4216 阅读
+<td class="lastpost stickybg locked_sticky2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=116214.0#msg1043694"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-03-26, 周四 10:54:53<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">笨哈</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1126502"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=127047.0">PF2E新版CHM制作委员会招募苦力！</a></span>
+<p><span id="msg_descr_1126502" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="检视会员资料:  原子能青蛙">原子能青蛙</a>
+<small id="pages1126502"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+671 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=127047.0#msg1126502"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-07-28, 周三 18:35:49<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">原子能青蛙</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1008206"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111035.0">【PF2e】翻译问题汇总贴及吐槽讨论贴</a></span>
+<p><span id="msg_descr_1008206" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages1008206">&#171;  <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111035.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111035.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111035.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+25 回复
+<br>
+17263 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111035.20#msg1112806"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-05-14, 周五 14:54:26<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">笨哈</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1094058"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=122732.0">【Playtest】发明家(Inventor）</a></span>
+<p><span id="msg_descr_1094058" class="topic_description">PF2E的第一个船新职业</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=92143" title="检视会员资料:  kataaaka">kataaaka</a>
+<small id="pages1094058">&#171;  <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=122732.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=122732.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=122732.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+20 回复
+<br>
+21070 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=122732.20#msg1109945"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-04-22, 周四 15:33:01<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=13459">涅薇儿·德拉诺尔</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1084362"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121593.0">【Playtest】魔战士(Magus)</a></span>
+<p><span id="msg_descr_1084362" class="topic_description">帅惨我了</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=127752" title="检视会员资料:  疯不觉">疯不觉</a>
+<small id="pages1084362"></small>
+</p>
+</div>
+<td class="stats windowbg">
+12 回复
+<br>
+11704 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121593.0#msg1107104"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-04-03, 周六 21:49:37<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82245">Xtoril</a>
+</tr>
+<tr>
+<td class="icon1 lockedbg">
+<img src="Themes/celeste/images/topic/normal_post_locked.gif" alt=""/>
+<td class="icon2 lockedbg">
+<img src="Themes/celeste/images/post/moved.gif" alt=""/>
+<td class="subject lockedbg2">
+<div >
+<span id="msg_1100744"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123666.0">移动: Lost Omens—World Guide 失落预言——世界指南翻译</a></span>
+<p><span id="msg_descr_1100744" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages1100744"></small>
+</p>
+</div>
+<td class="stats lockedbg">
+0 回复
+<br>
+3004 阅读
+<td class="lastpost lockedbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123666.0#msg1100744"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-02-27, 周六 17:12:06<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300">月夜白雨</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1055056"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117712.0">【APG】先知（Oracle） PZO2105+Character+Playtest</a></span>
+<p><span id="msg_descr_1055056" class="topic_description">为了做卡翻的，顺便吐槽下返校了之后虽然终于重新开始工作了但效率好低.....</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82258" title="检视会员资料:  莉赛特">莉赛特</a>
+<small id="pages1055056"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+6069 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117712.0#msg1100137"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-02-23, 周二 12:17:28<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383">默 ’S’ oul-del</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1096185"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123047.0">【PF2E PLAYTEST】铳士（Gunslinger）</a></span>
+<p><span id="msg_descr_1096185" class="topic_description">大人，时代变了</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=41893" title="检视会员资料:  lichzeta">lichzeta</a>
+<small id="pages1096185"></small>
+</p>
+</div>
+<td class="stats windowbg">
+11 回复
+<br>
+9280 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123047.0#msg1096995"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-01-31, 周日 15:15:11<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=128517">帕露西</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1096602"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123113.0">【Playtest】召唤师 Summoner</a></span>
+<p><span id="msg_descr_1096602" class="topic_description">这是……替身使者！？</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=59316" title="检视会员资料:  Garrise">Garrise</a>
+<small id="pages1096602"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+6640 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=123113.0#msg1096716"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-01-28, 周四 21:04:27<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77913">犬良人</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1084910"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121647.0">第二批Errata速报</a></span>
+<p><span id="msg_descr_1084910" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=92143" title="检视会员资料:  kataaaka">kataaaka</a>
+<small id="pages1084910"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+5839 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121647.0#msg1089249"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:51:58<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=15671">炼金术士卡莉</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1072385"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=120267.0">PF2 全自动人物卡（2021年3月21日更新）</a></span>
+<p><span id="msg_descr_1072385" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76927" title="检视会员资料:  阿茶">阿茶</a>
+<small id="pages1072385"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+4283 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=120267.0#msg1082598"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-10-29, 周四 21:24:55<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10505">iamnotpea</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1066634"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119518.0">PF2E 法术速查表</a></span>
+<p><span id="msg_descr_1066634" class="topic_description">更新至APG</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=9889" title="检视会员资料:  小狼希诺">小狼希诺</a>
+<small id="pages1066634"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+5051 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119518.0#msg1073152"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-09-11, 周五 11:24:21<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=9889">小狼希诺</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1065870"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119426.0">萌新问点剧情上的问题</a></span>
+<p><span id="msg_descr_1065870" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82092" title="检视会员资料:  翻开尘封的笔记">翻开尘封的笔记</a>
+<small id="pages1065870"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+4902 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119426.0#msg1065993"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-08-03, 周一 13:13:05<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82092">翻开尘封的笔记</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1054702"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117674.0">【APG（？）种族】吸血裔Dhampir</a></span>
+<p><span id="msg_descr_1054702" class="topic_description">来自Game Trade Magazine第243期的APG透露，GM说只要翻了就给我开（</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=96198" title="检视会员资料:  Writena">Writena</a>
+<small id="pages1054702"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3982 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117674.0#msg1054702"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-05-16, 周六 23:10:06<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=96198">Writena</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1052985"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117464.0">【PF2】Pathfinder 2e - 简中可填版  - pdf人物卡</a></span>
+<p><span id="msg_descr_1052985" class="topic_description">面团用、自动计算、pdf人物卡</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947" title="检视会员资料:  tangys">tangys</a>
+<small id="pages1052985"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+4812 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=117464.0#msg1053123"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-05-08, 周五 01:10:20<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947">tangys</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1017140"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112352.0">PF2动作图标</a></span>
+<p><span id="msg_descr_1017140" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=12022" title="检视会员资料:  他化自在天">他化自在天</a>
+<small id="pages1017140"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+5735 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112352.0#msg1017415"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-10-15, 周二 01:02:26<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=59316">Garrise</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1009922"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111310.0">第一批Erratta已经在路上了</a></span>
+<p><span id="msg_descr_1009922" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=3103" title="检视会员资料:  星">星</a>
+<small id="pages1009922"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3893 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111310.0#msg1009922"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-19, 周一 06:06:44<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=3103">星</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1009545"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111262.0">第十章   掌控游戏（翻译中）</a></span>
+<p><span id="msg_descr_1009545" class="topic_description">（翻译中,未校对和润色）</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841" title="检视会员资料:  红雾的爱泽妮">红雾的爱泽妮</a>
+<small id="pages1009545"></small>
+</p>
+</div>
+<td class="stats windowbg">
+8 回复
+<br>
+5026 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111262.0#msg1009582"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-15, 周四 23:13:09<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841">红雾的爱泽妮</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1009526"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111257.0">官方的pfs2指南</a></span>
+<p><span id="msg_descr_1009526" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841" title="检视会员资料:  红雾的爱泽妮">红雾的爱泽妮</a>
+<small id="pages1009526"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4423 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111257.0#msg1009526"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-15, 周四 16:07:18<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841">红雾的爱泽妮</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1009300"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111229.0">【CRB+怪物图鉴1】语言</a></span>
+<p><span id="msg_descr_1009300" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841" title="检视会员资料:  红雾的爱泽妮">红雾的爱泽妮</a>
+<small id="pages1009300"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+5029 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111229.0#msg1009479"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-15, 周四 00:13:22<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841">红雾的爱泽妮</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1009301"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111230.0">状态表（校对中）</a></span>
+<p><span id="msg_descr_1009301" class="topic_description">施工中</span>
+<br>作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841" title="检视会员资料:  红雾的爱泽妮">红雾的爱泽妮</a>
+<small id="pages1009301"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3700 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=111230.0#msg1009301"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-13, 周二 15:13:59<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=86841">红雾的爱泽妮</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1006369"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110716.0">【PF2e】正式版预热</a></span>
+<p><span id="msg_descr_1006369" class="topic_description"></span>
+作者 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages1006369">&#171;  <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110716.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110716.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110716.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+24 回复
+<br>
+20797 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=110716.20#msg1008204"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-08-05, 周一 13:50:18<br>
+由 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=90005">看图说话</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"><span>Pathfinder RPG 2nd</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 1724,
+iCurBoardChildLevel: 1,
+sCurBoardName: "Pathfinder RPG 2nd",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("e8ec3fcb53e635cea755d88e80dad504", "b6a8112e");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("e8ec3fcb53e635cea755d88e80dad504", "b6a8112e");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

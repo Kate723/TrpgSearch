@@ -1,0 +1,344 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【4E】GURPS异能-第四章-来源相符规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【4E】GURPS异能-第四章-来源相符规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="125401"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"><span>GURPS专区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76880" title="版主">东方千月</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0"><span>【4E】GURPS异能-第四章-来源相符规则</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1114133"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=125401.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【4E】GURPS异能-第四章-来源相符规则 &nbsp;(阅读 3331 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 特色</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=125401.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114133_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114133">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.msg1114133#msg1114133" rel="nofollow">【4E】GURPS异能-第四章-来源相符规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114133'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114133'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-05-22, 周六 23:15:39 &#187;</div>
+<div id="msg_1114133_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114133">来源相符规则<br>来源相符规则<br>对应战役中的每一个异能——或者至少，每一个异能来源——GM应该检查本章的选项，根据他想要赋予的“口味”进行选择。并不是每一种异能允许缺省使用、额外努力等。少数异能甚至可能受制于独特规则。下面是对常见异能修正（见示例修正，26页）的推荐，包括：<br>有益选项：根据作品先例，最适合异能来源的推荐增强选项。增强能力的技能（162页）、对特效的创造性使用（170页）以及天赋作为抵抗力（169页）应该适用于所有异能——并且头两个也应该适用于“野生”优势——如果GM决定这几项可用的话。<br>限制选项：对这类异能的推荐“约束装置”。每个人都需要技能（162页）属于这一类，因为不在特别技能上花费点数的人，必须使用缺省，等于使用能力需要承受-6。<br>特殊规则：只适用于这个异能的额外可选规则与说明。<br>如果GM感觉某一异能因享有过多有益选项或只被少数限制选项或根本不受限制而显得鹤立鸡群，他有权调整异能修正或者给出超常背景价格。<br><br>生物异能<br>有益选项：增强技能的能力（161页）通常适用，因为使用者特殊天赋是“天生的”，可以像普通的身体能力一样容易融入日常训练中。在大多数世界中，这些力量所能做到什么程度的唯一绝对限制，是使用者所能提供的生物能数量；因此，临时增强(p.&nbsp;172)，用FP换取效果(p.&nbsp;160)和缺省使用能力(p.&nbsp;173)是非常合适的。<br>限制选择：生物能和举重、跑步等一样累人——并且和体能方面的壮举一样，如果做得太过火，就会导致难以行动的力竭。强烈推荐使用“能力和努力”(第159页)以及“能力受损”(第156页)。<br>生物异能的特殊规则<br>以生物能力为目标：研究过生物能力的战士可将产生这些异能的特种器官作为目标。为了做到这一点，攻击者必须观察到目标正在使用能力，并成功检定专家技能(生物能力)、生理学(超人)或GM设置的其他晦涩技能。成功后，他可以使用任何贯通、穿刺或细光束灼伤攻击，承受-8减值攻击那个能力。伤害同击中躯干。重伤(见基本集第420页)就会将能力瘫痪。使用致残伤持续时间(基本集第422页)来确定恢复。可能发生永久性的瘫痪。若要在不伤害目标的情况下超载异能，可以使用“故意削弱”(第156页)。<br><br>真气异能<br>有益选项：这些异能和武术中偏夸张的主张之间的惯常联系奠定了基调。《协同攻击》(第165页)和《异能防御》(第167页)适合具有传奇色彩的战斗；异能技法(第162页)补充了普通的战斗技法；技能增强能力(第161页)使得那些拥有电影化技能的人能够从他们的天赋中得到最大的好处。强大的努力是武术神话的基本元素，所以《用FP换取效果》和《用FP换取技能》也同样适用。<br>限制选项：“能力与消耗”(第159页)和“能力受损”(第156页)是非常合适的，因为消耗真气做的事情和普通身体技能之间的界限很模糊。如果设定里真正的大师一步到位，新手反复失败徒耗真气，“重试”(第159页)是理想的。鉴于武侠小说对训练的重视，GM可能会考虑“人人都有技能”(第62页)。<br>真气异能的特殊规则<br>内息紊乱：如果一位真气使用者因为某个原因导致自己的异能受损，除了通常的效果之外，他也会遭受内息紊乱。这是一种长期的痛苦；详情见真气(第26页)。<br>技能使用：如果技能和异能涵盖的领域相同——隐身和凭空消失、超级跳跃和冲天跃等等——使用能力在提高技能时获得+4，并且使用能力可以检定技能而不是属性。GM也应该考虑在真气异能使用额外努力时，用斗气击取代意志。最后，判定真气能力或异能是否受损时，身体控制和冥想可能分别取代HT和意志。在任何情况下，只有在技能比通常值高的时候才改用技能。<br>瞄准气能力：点脉大法技能(p.&nbsp;B215)可以通过打击要害来瞄准身体类的气能力，或通过打击头骨来瞄准精神类的气能力，这样做的话攻击检定额外-2。如果受害者遭受了至少1点伤害，检定一次快速对抗：点脉大法vs目标的HT(身体)或意志(精神)。在对抗中胜出使目标的能力瘫痪2d秒，之后它会自动恢复。<br><br>超元异能<br>有益选项：神一般的异能应该能够获得所有的选项——即使其他异能不能——除非GM认为某个规则不适合他的战役。<br>限制选项：附带伤害(第165页)是真正强者之间使用异能进行战斗的经典结果。当使用可选规则让FP“挑战极限”时，就应该使用“能力受损”(第156页)。GM也应该考虑放弃“能力和消耗”(第159页)。当然，在搞笑风格的战役里，半神也和其他人一样会跌倒、流汗……<br>超元异能的特殊规则<br>创世法则：为与神话保持一致，GM可能会规定，甚至像神一样的异能都受制于某些基本的限制，并没有办法消除这些限制……也许，除了所有超元力量持有者的一致同意。例如，GM可能宣称超元异能不能扰乱天体(行星、恒星等)的质量、轨道等——即使规则表明这是可能的。<br><br>神圣异能<br>有益选项：“结合力量”(第170页)十分适合涉及许多祭司的复杂仪式。圣者们有时可以用驱魔和宗教仪式这类技能来引导他们的能力；这是“技能增强能力”(第161页)的一个特例。当那些拥有神圣异能的人祈求额外的帮助时，使用“临时增强”(第172页)、“疲劳换效果”(第160页)、“疲劳换技能”(第161页)和“缺省使用能力”(第173页)。<br>限制选项：当凡人用神的力量打击敌人时，他们不完善的控制可能会造成附带伤害(第165页)。代表神圣仆人控制神圣意志的有限能力的其他方法是多重效果(第158页)和重复尝试(第159页)。在每个奇迹都需要特定仪式的设定中，GM可能希望使用“每个人都需要技能”(第162章)<br><br>神圣异能的特殊规则<br>激怒众神：当使用可选规则去提高或改变神圣能力出现大失败时，不要使用能力瘫痪。相反地，应该为神做出一次反应掷骰，并且自使用神迹的人最后一次做出了忏悔、牺牲等补偿起，每一次类似的失败额外-1。差或更差的反应会导致与违反异能所要求的劣势相同的结果；见神圣异能修正因子(第26页)。如果神不许可，即使是一次普通地、成功地使用神的能力也能产生这样的效果。<br>神圣的日子：神圣异能可能追踪GM创造的神圣日历。这可能是天文历法(依据太阳、月亮、天体等)，纯数字，或看似随机的。某些日子或季节可能会提供技能加值或额外效果，而其他日子或季节可能会阻碍异能的使用。加值与减值应该在一年内大致抵消。<br>神眷等级：在神圣异能类似魔法的设定中，牧师魔法提到的“神眷”级别可能会影响神圣异能。这些平行的魔力等级(见魔力，p.&nbsp;B235)具有以下效果:<br>•在“无神眷”的地方(故意亵渎这位神的地方，完全对立的神降下极高神眷的地方，等等)，能力根本不起作用。<br>•在“低神眷”的地区(完全对立的神降下高神眷的地方，与神的势力范围完全相反的自然地点；例如，对火神来说的海洋)，激活能力的检定承受-5。<br>•在“普通神眷”(大多数地方，包括非对立神的庙宇)，“高神眷”(神自己的庙宇，以及与神的影响范围相协调的自然场所；例如，火山对应火神)，或“极高神眷”(古老而强大的寺庙，神施展奇迹的地方，等等)的地点，能力正常起效<br><br>元素异能<br>有益选项：这些异能强调对元素的直接控制。在大多数情况下，这暗示操控足够精准，足以执行“协同进攻”（165页）与“异能防御”（167页）这样发挥创意战斗，以及使用“临时增强因子”（172页）、“用FP换取效果”（160页）、“用FP换取技能”（161页）以及“缺省使用能力”（173页）等方式灵活调整能力&nbsp;的余裕。<br>限制选项：大多数元素能力“能量充沛”，应该受制于“能力与消耗”（159页）和“附带损害“（165页）规则。当消耗FP去“突破极限”时，能力受损（156页）也适用。因为精确控制需要不分心，GM应该考虑要求“多重效果”(第158页)&nbsp;。<br><br>元素异能的特殊规则<br>相位：作为天赋作为抵抗(第169页)的一种变化，GM可能会规定拥有元素力量的天赋意味着拥有一个天生的“相位”靠近他的元素……并远离它的对立元素。他在抵抗自身元素时，不管来自世俗还是异能，获得等于天赋等级的加值——但当他必须抵抗对立的元素时，天赋会变为对应的减值。例如，热/火天赋3将给予抵抗热/火能力和普通热量时+3的加值，但是抵抗冷/冰能力和普通寒冷时产生-3。<br>“脱离你的元素”：元素能量修正因子本质上是一种可及性或环境限制因子，阻止元素能力在元素不存在或对立元素占优势的情况下发挥作用。在环境中，元素只是被抑制——不是完全关闭——的话，GM可能评估相关能力受-1到-9的减值。在惩罚为-10或更多的情况下，异能不可用。例如，在炎热的环境中，冷/冰能力可能会受到高温对应HT检定的减值(p.&nbsp;B434)。<br><br>元素异能的特殊规则<br>相位：作为天赋作为抵抗(第169页)的一种变化，GM可能会规定拥有元素力量的天赋意味着拥有一个天生的“相位”靠近他的元素……并远离它的对立元素。他在抵抗自身元素时，不管来自世俗还是异能，获得等于天赋等级的加值——但当他必须抵抗对立的元素时，天赋会变为对应的减值。例如，热/火天赋3将给予抵抗热/火能力和普通热量时+3的加值，但是抵抗冷/冰能力和普通寒冷时产生-3。<br>“脱离你的元素”：元素能量修正因子本质上是一种可及性或环境限制因子，阻止元素能力在元素不存在或对立元素占优势的情况下发挥作用。在环境中，元素只是被抑制——不是完全关闭——的话，GM可能评估相关能力受-1到-9的减值。在惩罚为-10或更多的情况下，异能不可用。例如，在炎热的环境中，冷/冰能力可能会受到高温对应HT检定的减值(p.&nbsp;B434)。<br><br>魔法异能<br>有益选项：使用“结合力量”(第170页)而非“仪式魔法”（基本集238页）来处理魔法能力者的合作。钻研魔法的修习者可能学会“异能技法”（162页）并能使用“增强技能能力”（161页），检定魔导学等神秘技能来运用他们的能力。使用魔法异能而非法术的剧情原因是允许随时调整；因此，GM应该考虑“临时增强因子”（172页）以及“缺省使用能力”（173页）<br>限制选项：为了让魔法能力与法术一致——法术维持有FP消耗并且每有一个法术“启用”就会产生-1减值——GM应该启用“能力与消耗”（159页）和“多重效果”(第158页)&nbsp;。他也可能开启“每个人都需要技能”(第162页)，让想要精确控制能力的法师必须学习类似法术的技能。<br><br>魔法异能的特殊规则<br>法术逆行：如果法师在尝试使用“临时增强因子”（172页）以及“缺省使用能力”（173页）时大失败，按法术大失败表(基本集236页)掷骰而不是使用“能力瘫痪”(156页)。如果掷出表中的结果17，会让施法者遗忘法术，意味着这项能力受损。<br>魔法的缺点：魔法限制因子(27页)是-10%，因为魔法能力在低魔区域有-5(而在无魔区域根本不能使用)，允许目标使用魔法抗力作为抵抗价值，并受到干扰法术影响——拦阻法术可以抵御攻击，驱散魔法会终止持续效果，抵抗魔法的法术可以阻挡新的效果。在与法术进行快速对抗时，使用能力的控制属性或技能作为等效技能。如果它通常不需要掷骰，用HT为生理能力进行检定，Will为心理能力进行检定。天赋仍然适用。<br><br>道德异能<br>有益选项：联合起来对抗邪恶、混乱或类似的威胁是一个古老的奇幻传统，所以GM应该考虑“结合力量”(第170页)和“协同进攻”（165页）。另一个有趣的选择是，只允许善良或秩序结合力量，而只有邪恶或混乱可以协同进攻。在史诗般的道德冲突中，对立的力量会相互阻碍，真正的英雄会超越自己的极限；因此，用“异能防御”（167页）、“用FP换取效果”（160页）、“用FP换取技能”（161页）都是合适的。<br>限制选项：当冠军为了挫败“另一方”投身于令人精疲力尽的巡逻、守夜和战斗时，使用“能力与消耗”（159页）。“附带损害”（165页）对于光明与黑暗之间的史诗战斗是至关重要的。GM也应该考虑“多重效果”(第158页)&nbsp;，因为它迫使英雄们做出艰难的选择，即在哪里使用他们有限的能力，这非常适合于伟大的道德斗争。<br><br>道德异能的特殊规则<br>动摇：对于道德异能的大失败，不要使用“能力瘫痪”(第156页)。相反，英雄必须立即做出意志检定。失败意味着片刻的怀疑或犹豫，这被视为对他的异能所必需的劣势的违反；见道德异能修正(第27页)。如果持用者的行为与他的事业相悖，使用任何道德能力都可能有类似的后果。<br>力量之地：与高尚或令人发指的行为有关的场所，随着时间的推移，可能会获得道德上的“赋能”。这让玩家使用符合行为的道德异能时获得+1到+5的加值，但如果使用对立的异能，则会受到相应的减值(-1到-5)。当深入敌境作战时，这可能成为一个严重的障碍<br><br>自然异能<br>有益选项：任何发出“生命能量”场、将所有生物链接在一起的异能，具备“结合力量”(第170页)是符合逻辑的。技能增强能力(第161页)——特别是像草药知识和博物学这样的技能——支持自然守护者作为智者的传统识别。GM也应该考虑技能的“用FP换取技能”（161页），因为它允许那些使用自然力量的人避开污染和技术的惩罚……以一定的代价。<br>限制选项：民间传说中的一个普遍假设是，大自然对不断的刺激反应很差，所以“重复尝试”(第159页)是合适的。大自然似乎也为城市地区保留了附带损害(第165页)，而野生地区会不受破坏。每个人的技能(第162页)在大多数情况下是不合适的——乡村智者可能很有知识，但正式的学习与自然的最野性的形式几乎是对立的。<br><br>自然异能特殊规则<br>相位：与元素能力一样，GM可能会认为天赋作为抵抗(第169页)在这里的作用方式有所不同。拥有自然力量的天赋不仅在抵抗这种异能本身时提供加值，还可以在抵抗真正的自然威胁时获得加值，如植物和动物的毒药。如果是这样的话，它在抵制有毒污染、基因工程疾病以及其他“畸形造物”方面也会产生同等的减值。适应或使用外科植入物或赛博义体也会承受天赋的减值。<br>污染和科技：记得将自然异能修正(第28页)下的特殊修正应用于所有自然能力的检定。<br><br>FP消耗和来源<br>有时候，使用能力需要花费FP。这一要求可能是由于消耗FP限制因子的结果，也可能是本章中特殊规则的结果。如果该能力属于一种异能，那么所有这类FP成本都将受制于与游戏世界中该异能来源相关的FP特殊规则。例如，在极高魔的区域，法术消耗掉的全部FP只需要1秒就会回复，所以魔法异能消耗掉的FP的回复时间也只有1秒。<br>同样地，如果向灵献祭可以为巫术提供FP(参见献祭魔法，GURPS奇幻，第165页)，同样的FP也可以为精魂异能提供燃料。<br><br>心灵异能<br>有益选项：心灵感应连接起来形成集体意识是“结合力量”(第170页)规则的原型；即使在其他地方禁止，GM也可能会允许心灵异能获得这个选项。用异能防御来对应心灵阻拦、用PK来阻止子弹，等等，还有“临时增强因子”（172页）来把这种防御扩展到其他人身上。灵能学院经常教授“异能技法”(第162页)，用于像主动预知这样的用法，并训练灵能使用他们的天赋作为世俗能力的延伸，导致技能增强能力(第161页)。、“用FP换取效果”（160页）是各类作品的一个标准套路，但过度尝试也会受到惩罚，这使得“用FP换取技能”（161页）不合适。<br>限制选项：在大多数游戏世界，灵能者如果疏忽或是不幸会烧尽自己的能力——“能力瘫痪”(第156页)，一次只能够专注于少数任务——“多重效果”(第158页)&nbsp;，如果他们最初的尝试没有成功，再次尝试会让他们汗流浃背——重复尝试(第159页)。灵能者以未受训练就很难控制而闻名，GM可以“每个人都需要技能”(第162页)来代表这一点。<br><br>心灵异能的特殊规则<br>大脑vs心灵：心灵异能源于心灵，如果他迁入带有另一个大脑的身体，心灵异能依然会随着灵能者迁移过来。然而，如果灵能者想要使用灵能，目前的大脑必须正常工作——就像计算机必须具备功能才能在上面运行软件一样。根据GM的选择，当灵能者眼部或头骨遭受重创时，他必须为每一种灵能异能进行HT检定。失败视为“能力受损”。如果窒息、手术或药物造成HP/2以上的脑损伤，也需要进行HT检定。<br>灵能科技：超科学对策几乎是心灵异能设定标配。反灵能头盔内衬可以给予心灵护盾6(限制，灵能，-50%)，使得头盔价格增加1000元，重量增加1磅。典型的抗灵能药可能产生6个小时的灵能抵抗力（+3），每一注射剂量的价格为100元——但是这些药物，作为实验品，可能会在HT检定失败时产生副作用(p. B428上的刺激状态都适用)。GM应该让“发明奇才”们利用“超科技药物”(p. B425)和“小发明”(p. B475)开发更好的药物。<br><br>精魂异能<br>有益选项：像其他仪式主持者一样，巫师可以通过合作产生强大的效果;见联合力量(第170页)。像仪式魔法和符文绘制这样的技能，从逻辑上说应能取代属性检定精魂能力——也就是技能增强能力(第161页)。、“用FP换取效果”（160页）、“用FP换取技能”（161页）都能很好地代表为了获得更强大的结果而向灵体“献祭”。<br>限制选择：因为灵体对于它们在物质世界中所造成的伤害漠不关心，GM可能会希望对使用任何能造成伤害的精魂能力都会产生“附带损害“（165页）。“多重效果”(第158页)&nbsp;是非常合适的，因为只有最伟大的巫师可以命令数个以上的灵体。在某些世界里，每一种能力都涉及到特定的灵，并以独特的方式被召唤；用“每个人都需要技能”(第162页)来处理这个问题。<br><br>精魂异能的特殊规则<br>激怒灵体：依照fickle(第110页)，试图使用精魂异能需要做出反应掷骰。如果结果是中立或更好，巫师可以尝试他的能力；否则，他就不能，并且之后的呼唤会承受积累的-1减值。如果使用能力的检定大失败，视为一开始的反应掷骰掷出“差”。如果大失败与额外努力一并发生，视为一开始的反应掷骰掷出“非常糟糕”。这些效果取代了“能力受损”(第156页)，累积的反应减值取代了重复尝试(第159页)。<br>鲜血：在许多世界里，唯一能让灵体帮你的方法就是给他们血。如果这是真的，那么精魂异能的额外努力消耗的是HP而不是FP。<br>仪式修正：如果GM想让精魂异能更像传统仪式，他可以使用一些或所有这些修正：<br>•影响他人：大多数作用于他人的能力都默认目标是在巫师亲临的现场。有些有更严格的要求，比如触摸。那些不需要亲临现场就可以影响目标的能力——心灵发送、通过遥视发起的咒术——需要象征物，即使这样也会因为没有亲临而承受减值：视频或DNA样本-1，照片或血液样本-2，头发或指甲-3，服装-4，图画-6，什么都没有则-10。这些修正可以替换距离减值(p. B241)。<br>•祝福与亵渎：经过仪式亵渎的土地-1到-5，在大多数情况下+0，特别祝福过的地区+1到+5。<br>•服饰：如果巫师缺少适当的仪式服饰——面具，长袍等，-3<br>•仪式长度：为了抵消上述减值，巫师可以花额外的时间来使用他的能力。将时间要求的秒转换为分钟，分钟转换为小时，或小时转换为天；这样转换一步获得+3；两步得到+5；第三步得到+7。<br><br>超级异能<br>有益选项：超级能力通常出现在电影场景中，GM应该据此进行计划。超级团队通常通过“结合力量”(第170页)和“协同进攻”（165页）来协作。在战斗中，超级人物通常会使用异能防御(167页)和反弹(166页)。对于这类型的英雄来说，通过“临时增强因子”（172页）、“用FP换取效果”（160页）、“用FP换取技能”（161页）以及“缺省使用能力”（173页）等来扩展他们的能力是非常必要的。<br>限制选项：“能力与消耗”（159页）解释了为什么没有大量增强移动级别的超级英雄不能飞向火星，以及为什么即使是最坚强的英雄也会被战争、自然灾害等所打倒。“附带损害“（165页）实际上是超级战斗所必需的。超级能力在其他方面与灵能相似——它们在某些世界里是一回事——应该使用“能力瘫痪”(第156页)、“多重效果”(第158页)&nbsp;、重复尝试(第159页)和“每个人都需要技能”(第162页)<br><br>超级异能的特殊规则<br>超级科技：根据神圣的漫画传统，GM可能会规定，奇怪的科学技术可以影响超能力。这通常是发明奇才和“黑”机构特工的职责范围。可靠的技术有用于对抗超能力的屏蔽或血清(见异能，第177页)。更强大的设备会产生射线或场，模拟中和或静滞异能，不应该出现在普通暴徒的手中。在大多数情况下，它们是有缺陷的，有1d/2个bug(小数向上取整)；参见神奇发明t Bugs表(p. B476)。此外，它们依赖于怪诞科学，有1d-3的副作用(至少1个)；参见随机副作用表(p. B479)。所有这些缺陷都是永久性的——GM不应该让那些发明奇才PC把它们设计解决，去制造“完美的武器”。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114133">
+&#171; <em>上次编辑: 2021-05-23, 周日 10:37:57 由 ACID67</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1114133_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=125401.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"><span>GURPS专区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76880" title="版主">东方千月</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125401.0"><span>【4E】GURPS异能-第四章-来源相符规则</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 125401,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 125401,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="125401" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=125401.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 3331 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 418,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "GURPS专区",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 418,
+							iTopicId: 125401,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

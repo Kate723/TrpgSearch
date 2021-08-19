@@ -1,0 +1,454 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【核心规则书】 技能与行为"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【核心规则书】 技能与行为</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1805.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="110684"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1805.0"><span>旅行者（Traveller）</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="版主">尽点</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0"><span>【核心规则书】 技能与行为</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1006188"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=110684.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【核心规则书】 技能与行为 &nbsp;(阅读 3856 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: TAAAAAAAAAAAAAAAAAASK</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=110684.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+</h4>
+<ul class="reset smalltext" id="msg_1006188_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">
+<img class="avatar" src="/bbs/upload/avatar/avatar_86065_1535143453.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 703<li class="karma">苹果币: 1<li class="blurb">Pain<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1006188">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.msg1006188#msg1006188" rel="nofollow">【核心规则书】 技能与行为</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1006188'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1006188'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-07-22, 周一 23:45:23 &#187;</div>
+<div id="msg_1006188_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1006188"><div align="center"><span style="font-size: 24pt;" class="bbc_size"><strong>技能与行为</strong></span></div><br>每个旅行者都会在创角过程中获得各种各样的技能，这些技能将表明他擅长执行的行为。<br><br>如果一个旅行者在一项技能没有任何等级（技能-），那么他是未受训的，并将在试图使用该技能时遭受DM-3。<br><br>如果一个旅行者在一项技能有等级零（技能0），那么他就有能力使用这项技能，但可能在实际使用方面几乎没有经验。当他使用他的技能时，他不会从他的技能等级中得到任何奖励，但至少可以避免因未受训而受到惩罚。<br><br>如果旅行者在一项技能上有一个或多个等级（技能1、技能2等等），那么他是受训的。每个等级代表使用该技能的几年经验，并授予使用该技能的所有技能检定每等级DM+1。拥有2-3级技能的旅行者是该领域的专业人才。一个有4-5级的旅行者可能在他的领域里既受人尊敬又鼎鼎有名。<br><br>例如，有医疗 1的旅行者可能是护理人员或护士，而有医疗 2的旅行者可能是医生。如果一个旅行者有医疗 3，他很可能是一位很受尊敬的医生，有多年的实践经验。一个有4级或5级医疗的旅行者至少会是世界知名的，而且可能会因为他的专业知识而在多个恒星系中广为人知。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>专精</strong></span><br><br>有些技能有其专精——专门的、更集中的技能形式。旅行者在拥有两种或两种以上专精的技能达到一级时，就可以选择一种专精。<br><br>例如，一个旅行者可能有工程0，允许他进行工程技能检定，而不会受到未受训的惩罚。然后，他可能会获得一个工程级别，那时他需要选择一个专精。对于工程来说，这是在跃迁引擎、机动引擎、动力装置和电子设备之间选择。<br><br>如果他选择跃迁引擎，他会在他的角色卡上记录工程师（跃迁引擎）1。然后，他将获得DM+1对所有涉及跃迁引擎的工程，但仍然只有DM+0对所有其他工程检定（换句话说，无惩罚）。旅行者可以在一项技能上有多种专精——他可能会有工程（跃迁引擎）1和工程（动力装置）2。因此，他会有DM+1在跃迁引擎检定，有DM+2在动力装置检定，所有其他工程检定DM+0。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1006188">
+&#171; <em>上次编辑: 2020-12-28, 周一 20:55:41 由 尽点</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1006188_signature">旅行者Traveller跑团群：1080491850<br>ck3黑暗亲王Mod群：631967822</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1006201"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+</h4>
+<ul class="reset smalltext" id="msg_1006201_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">
+<img class="avatar" src="/bbs/upload/avatar/avatar_86065_1535143453.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 703<li class="karma">苹果币: 1<li class="blurb">Pain<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1006201">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.msg1006201#msg1006201" rel="nofollow">【旅行者】 技能与行为</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1006201'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1006201'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-07-23, 周二 05:06:27 &#187;</div>
+<div id="msg_1006201_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1006201"><span style="font-size: 14pt;" class="bbc_size"><strong>检定</strong></span><br><br>旅行者采取的大多数行动都不需要技能检定。玩家不需要掷运动来穿过森林，也不需要掷电子（计算机）来访问来自飞船资料库的信息。有些动作需要旅行者有特定的技能，但仍然不需要检定。例如，一个旅行者有航空0，可以在正常情况下正常驾驶飞空筏，而不需要作出一个检定。<br><br>只有在下列情况下，仲裁才可要求检定：<br><ul class="bbc_list"><li>旅行者处于危险之中。<li>行为特别困难或危险。<li>旅行者承受着时间的压力。<li>成功或失败特别重要或有趣。</ul><br><span style="font-size: 14pt;" class="bbc_size"><strong>进行检定</strong></span><br><br>要进行检定，旅行者投掷2D并加上任何适当的掷骰修正（DM）。如果总数为8或更多，旅行者就成功了。<br><br>最常见的检定形式是属性检定和技能检定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>属性检定</strong></span><br><br>旅行者将加上他属性DM。例如：<br><br><ul class="bbc_list"><li>当被迫打开废弃飞船上的密封门时，旅行者将使用他的STR修正。<li>当在窄梁上保持平衡时，旅行者会使用他的DEX修正。<li>当试图忍受穿越沙漠的长途跋涉时，旅行者会使用他的END修正。<li>当试图破译一个外星人的谜盒时，旅行者使用他的INT修正。<li>当尝试记住一些琐事或常识时，旅行者会使用他的EDU修正。<li>当试图用他的财富或地位给守卫留下深刻印象时，旅行者会使用他的SOC修正。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>技能检定</strong></span><br><br>对于技能检定，旅行者要同时添加他的技能等级和一个适当的属性DM。技能和属性的组合根据情况而异:<br><br><ul class="bbc_list"><li>使用枪械射击将使用适当的枪战技能加旅行者的DEX修正。<li>修复损坏的枪支可能需要使用枪战加EDU。<li>想要弄清楚是哪种枪造成了某种特定的伤害，可以使用枪战加INT（或者调查加INT）。<li>躲避敌方士兵需要潜行加DEX，而长时间保持静止以避免被发现则是潜行加END。<li>在派对上狂饮应当单独使用酒会，不额外附加属性。如果旅行者想在喝酒比赛中打败某人，那么他可能会用酒会加END；在聚会上发现谁格格不入是酒会加INT，而怠慢某人则可能使用酒会加SOC。</ul><br>如果一个旅行者在要检定的技能上没有任何等级，他将因为未受训而被惩罚DM-3。<br><br>总结；<br><br>要做一个普通（平均）技能检定，一个旅行者投掷2D +他的技能等级+他的属性DM +任何其他相关的DMs，并且总数必须为8或更高才能成功。<br><br><em>例如，凯瑟琳 （DEX 10，潜行0），埃里克（DEX 6，潜行2）和莫恩 （DEX 12，无潜行）都试图偷偷溜进走廊。凯瑟琳拥有DEX DM+1，虽然她没有从潜行获得DM，她至少避免了未受训减值。她最后的修正是DM+1；她掷2D+1，并尝试得到8或更高。埃里克有DEX DM+0，但他有2级潜行。他最后的修正是DM+2；他掷2D+2，并试图得到8或更高。莫恩比他的两个同伴都要灵巧，他有DEX DM+2。然而，他没有任何潜行技能，因此受到DM-3的未受训减值。他最后的修正是DM-1，所以他掷2D-1，并试图得到8或更高。</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><br><span style="font-size: 12pt;" class="bbc_size"><strong>要求检定</strong></span><br><br>通常情况下，如果旅行者具备必要的技能，仲裁就可以假定他们成功了。例如，如果旅行者想在一个城市里找到线人，你可以要求他们一直过街头或酒会检定直到他们成功，但这很枯燥。你只是让旅行者掷骰子，直到他们可以继续前进。然而，如果失败会带来后果——比如说，一次失败的检定将导致旅行者获得一个虚假的流言——那么这是一个要求检定的好理由。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>使用哪个属性？</strong></span><br><br>适用于技能检定的属性在大多数情况下都是显而易见的——在墙顶平衡显然是基于DEX的检定，而使用蛮力破坏机关则由STR做主。主要重叠的区域是在INT和EDU之间。前者包括灵感、即兴创作和纯粹的推理，而后者用于受过训练的反应和已知的解决方案。例如，一个聪明但没有受过教育的机修工应使用工程加INT来修理一艘船，而一个受过训练的机修工应投掷工程加EDU来遵循书中的程序。有些检定可以尝试使用这两种属性中的任意一种，但是没有多少EDU可以帮助您处理完全不熟悉的问题，也没有多少INT可以让旅行者知道一些琐事或技术信息，除非他事先了解过这些信息。<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>行为难度</strong></span><br><br>有些行为比其他行为更容易完成或更难完成，到目前为止，我们只研究了需要8+才能成功的平均检定。当仲裁决定一项行为应该简单还是困难时，他可以更改检定应该达到的目标难度。<br><br><strong>极易</strong>（Simple）行为对每个人来说都是微不足道的。一项极易行为可能是向一个标准的旅游计算机系统请求天气数据，用你熟悉的语言点餐，或者偷偷接近一个被下了药的警卫。极易行为需要为检定骰出2或更高的值，如果确实需要投掷的话。<br><br><strong>简单</strong>（Easy）行为对于训练有素的专业人员来说是微不足道的，而对于业余来说则是极易的。一个简单行为可能是徒步行走几个小时，让一艘船笔直飞行，或者激活一个具有清晰简易界面的陌生设备。简单行为需要检定骰出4或更高。<br><br><strong>常规</strong>（Routine）行为对一个训练有素的专业人员来说是微不足道的，即使对一个业余来说也是相对容易的。一项常规行为可能是在混战中击中一名卧倒的受害者，在计算机辅助下使一艘船在最佳状态下着陆，翻译一份报纸，等等。常规行为需要检定骰出6或更高。<br><br><strong>普通</strong>（Average）行为对一个训练有素的专业人员来说是一个适度的障碍。在远处射中目标，绘制计算星际飞船的跃迁路线，修复损坏的电路板或在工业世界找到一货舱的机器零件的买家都是普通行为的例子，普通行为需要检定骰出8或更高。<br><br><strong>困难</strong>（Difficult）行为即使对一个训练有素的专业人员也是艰难的。比如在猛烈的暴风雨中准确地射击，当一个客户明显有罪时在法庭上为他辩护，侵入一个加密的计算机网络，或者发现狙击手的瞄准镜反射出的阳光。困难行为需要检定骰出10或更高。<br><br><strong>高难</strong>（Very Difficult）行为对一个受过训练的专业人员来说是很非常困难的，而对一个业余来说几乎是不可能的。高难行为需要检定骰出12或更高。<br><br><strong>艰巨</strong>（Formidable）行为极度困难，如为生理结构完全不同的外星生物执行手术，黑入一个军用计算机网络、解除恐怖分子的炸弹、或让一个迷信的土著城市相信，你是一个和平的商人，而不是来自黑暗外界的恶魔，尤其是你不会说他们的语言。艰巨行为需要检定骰出14或更高。<br><br>这些难度在下表中总结。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行为难度表</strong></span><br><br><table class="bbc_table"><tr><td><strong>难度</strong><td><strong>目标数值</strong></tr><tr><td>极易<td>2+</tr><tr><td>简单<td>4+</tr><tr><td>常规<td>6+</tr><tr><td>普通<td>8+</tr><tr><td>困难<td>10+</tr><tr><td>高难<td>12+</tr><tr><td>艰巨<td>14+</tr><tr><td>不可能<td>16+</tr></table><br><em>例如，埃里克（INT 9, 酒会 1）正在试图寻找关于一艘降落在星港的神秘飞船的信息。他去了一家旅行者和太空人经常光顾的酒吧，希望能听到一些流言。这是一个酒会检定，仲裁说这是一个困难（10+）行为。埃里克有1级酒会，这给他DM+1，INT值9（额外的DM+1），给于他最终DM+2。他掷2D+2，并试图得到10或更高。</em><br><br>注意，如果没有列出检定的难度，你总是可以假设它是普通（8+）。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>取高和取低</strong></span><br><br>行为难度级别允许仲裁预先计划旅行者在冒险中需过的技能检定和属性检定。然而，可能会出现一些情况，使旅行者的检定变得更容易或更困难。这就是取高（Boon）和取低（Bane）的用武之地。<br><br>如果一个旅行者得到了帮助，比如好的工具、他人帮助或其他有利的情况，他获得取高。这意味着他在一次检定中掷出一个额外的骰子，代替最低的骰子。<br><br>如果一个旅行者受到了阻碍，比如工具不好、光线昏暗或其他不利的情况，他获得取低。这意味着他在一次检定中掷出一个额外的骰子，代替最高的骰子。<br><br>在任何一次检定中，旅行者只能受到一种取高或一种取低影响。如果他同时得到一个取高和一个取低，他们将抵消掉，他将不再掷额外的骰子。与此同时，如果他获得多个取高或取低，视作只获得一个。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>成功度</strong></span><br><br>在大多数情况下，唯一需要确定的是旅行者是否成功。如果玩家在使用所有DM后的骰出的数大于或等于目标难度（对于普通检定8或更高），他就成功了。如果小于，他就失败了。不过有时候，你需要要知道旅行者做得有多好——或者做得有多差。为此，从检定的掷骰中，在算入任何修正后，减去目标值。成功（或失败）的范围由这算出的成功度对应，可在成功度结算表中查阅。这也用于战斗中计算伤害（见第74页）。<br><br>例如，如果一个旅行者对一个普通（8+）检定骰出4和3，加上DM+3取得10，他的成功度是（10 - 8）2。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>成功度结算表</strong></span><br><br><table class="bbc_table"><tr><td><strong>成功度</strong><td><strong>成功或失败</strong></tr><tr><td>-6 或 更低<td><strong>大失败：</strong>旅行者失败的不能再失败。任何可能出错的地方都会出错。<br>如果在尝试修复一个设备，则该设备将进一步损坏，甚至被销毁。<br>在社交场合，旅行者会遇到更多的麻烦。</tr><tr><td>-5 到 -2<td><strong>常规失败：</strong>旅行者没有完成行为。</tr><tr><td>-1<td><strong>近乎失败：</strong>这位旅行者几乎已经成功了，如果他接受一个严重后果，仲裁可能会允许他勉强取得成功。<br>一个旅行者想要跳过一个裂口，他的手指甲抓住了裂口的另一边，他只能丢掉背包才可以把自己拉起来。<br>旅行者试图让一艘船着陆，那么他可以将它安全降落，但这艘船可能再也不会飞了。<br>侵入电脑的旅行者可以黑入，但安全程序可以追踪到他的位置。</tr><tr><td>0<td><strong>近乎成功：</strong>旅行者在这项行为上几乎不成功，可能不得不接受让他成功的一个小条件。<br>他修好了发动机，但它会过热。他为货物找到了买主，买主却是不可信的罪犯。</tr><tr><td>1 到 5<td><strong>常规成功：</strong>旅行者普通的成功了。</tr><tr><td>6 或 更高<td><strong>大成功：</strong>旅行者以一种令人印象深刻的优雅方式成功了。</tr></table><br><span style="font-size: 14pt;" class="bbc_size"><strong>对抗检定</strong></span><br><br>如果两个或多个旅行者在一个行为中直接对抗，或者一个旅行者直接对抗一个非玩家角色，那么就会进行一个对抗检定。<br><br>无论是旅行者还是角色都进行跟往常一样检定，成功度最高的角色获胜。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>多重行为</strong></span><br><br>旅行者可以尝试同时做两件或两件以上的事情，比如在在驾驶的同时发射航天器的武器，或者在躲避警卫的同时拆除炸弹。旅行者每多做一件事，每件行为的难度就会增加一层。所以，一个简单行为变成了常规行为，而一个高难的行为变成了艰巨的。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>时限</strong></span><br><br>每个行为都有1到6个时间单位的随机时限。该单位取决于行为——射击某人或投掷一拳需要1D秒，而开动一个飞空艇可能需要1D分钟，在街上寻找流言可能需要1D小时，修理船上损坏的组件可能需要1D x 10小时。<br><br>执行时间表中列出了一些示例时限。仲裁可以用这些例子来决定检定和行动的时限。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>时限表</strong></span><br><br><table class="bbc_table"><tr><td><strong>时限</strong><td><strong>单位</strong><td><strong>行动范例</strong></tr><tr><td>1D 秒<td>一秒钟<td>射击、拳击、跳跃</tr><tr><td>1D 战斗轮<td>战斗轮（六秒钟）<td>计算应急跃迁</tr><tr><td>1D x 10 秒<td>十秒种<td>转移能量，打开通信信道</tr><tr><td>1D 分<td>一分钟<td>急救，只需基础技巧的行为</tr><tr><td>1D x 10 分<td>十分钟<td>需要更复杂技巧的行为，彻底搜索一个区域</tr><tr><td>1D 小时<td>一小时<td>建造一个庇护所，穿过荒野</tr><tr><td>1D x 4 小时<td>四小时<td>研究一个问题</tr><tr><td>1D x 10 小时<td>小时<td>修理损坏的船</tr><tr><td>1D 天<td>一天<td>在城市里搜寻一个失踪的人</tr></table><br><span style="font-size: 12pt;" class="bbc_size"><strong>加速或减速</strong></span><br><br>在投掷之前，你可以选择在时限表上向上或向下移动一级。每向上移动（缩短时间单位）一级检定获得DM-2；向下移动并延长所花费的时间，每下一级你的检定就会得到DM+2。<br><br><em>例如，凯瑟琳在一场战斗中试图修复一个损坏的跃迁引擎。修理引擎通常需要1天的时间，但是敌舰正在快速接近，他们需要尽快跃迁。因此，凯瑟琳决定增加难度，并遭受一个DM-2到她的检定，以减少一级所需时间。比起原本的1D小时，现在只需要1D x 10分钟。她骰出时限3，所以她需要30分钟来修理引擎。<br><br>这艘船跃迁得很成功，但发动机需要更多的修理。一周后，当它们从超空间中出现时，凯瑟琳开始检修发动机。这一次，没有时间压力，所以她选择将1D小时的时间延长到1D x 4小时，使行为更简单，给了她DM+2。她又骰出3，所以要花12个小时才能修好引擎。</em><br><br><span style="font-size: 14pt;" class="bbc_size"><strong>行为链</strong></span><br><br>通常，旅行者会发现自己在执行一系列相互关联的行为或与团队一起合作工作。<br><br>例如，为一批非法货物寻找买家，需要一个街头检定来找到销赃点，然后是一个协商检定来协商价格。街头检定的结果可能会影响销赃点的质量和能力，从而影响协商的检定。<br><br>另一种情况是，当旅行者们想出一个进攻要塞的计划时，他们会先进行侦察检定，以获得关于这个地方的情报，然后进行战术检定，以发现防御系统中的薄弱环节，然后再进行潜行和电子检定，以通过安全系统。从侦察检定中收集到的信息的质量肯定会对旅行者选择采用的策略产生影响，而这又会使他们的潜行检定变得更容易或更困难，依此类推。<br><br>当行为像这样链接在一起时，它们被称为行为链，一个检定的结果可以为下一个检定提供一个DM——不管好坏。行为链表中显示了从一个检定中获得的DM，然后应用于下一个检定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行为链表</strong></span><br><br><table class="bbc_table"><tr><td><strong>先前检定</strong><td><strong>对目前检定的DM</strong><td><strong>先前检定</strong><td><strong>对目前检定的DM</strong></tr><tr><td>失败，成功度为-6或更低<td>-3<td>成功，成功度为0<td>+0</tr><tr><td>失败，成功度从-2到-5<td>-2<td>成功，成功度从1到5<td>+1</tr><tr><td>失败，成功度为-1<td>-1<td>成功，成功度+6或更高<td>+2</tr></table><br><em>例如，埃里克和凯瑟琳正试图在一个冰冷的卫星星球上找到一个隐藏的基地。埃里克有电子（计算机），并建议尝试增强他们飞船的扫描仪。凯瑟琳有电子（传感器）技能，当埃里克带着工具箱去电子（传感器）所在舱的时候，她呆在舰桥上。<br><br>首先，埃里克进行他的工程（电子设备）检定。他得到了成功度5，这获得DM+1到链中的下一行为。由于埃里克的努力，凯瑟琳现在将使用她的传感器专精加DM+1进行检定。</em><br><br>行为链的链可以被延续。<br><br><em>继续前面的例子，如果莫恩随后使用他的科学（地理）技能来确定凯瑟琳传感器读数的热量痕迹那些是自然地质活动的结果，那些是一个隐藏基地的散热，那么凯特琳的传感器检定将会成为科学（地理）检定的前一链，所以她的成功度会授予DM到他的检定。</em><br><br>旅行者不需要一个接一个的创建行为链。一位旅行者在努力完成需要多个行为链的行为，如果仲裁认为该行为可能会被其他数件行为影响，旅行者就可以把它们都链接到一起。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><br><span style="font-size: 12pt;" class="bbc_size"><strong>难度，取高/取低和修正</strong></span><br><br>有三个因素可以影响到旅行者的检定；行为难度，取高和取低，掷骰修正。然而，这三个都是在非常特殊的情况下使用的，仲裁在使用时应遵循以下原则。<br><br><strong>难度：</strong>在考虑其他因素之前，仲裁应根据自己认为的，不考虑任何环境影响的行为难易程度，来确定行为难度。例如，打电话是一项简单的行为，即使一个旅行者正倒挂在一艘穿越风暴的航天器上也是如此。<br><br><strong>修正：</strong>一般来说，这些应该被认为是“硬连”到规则，只有当在规则书或扩展中有写才应用。<br><br><strong>取高和取低：</strong>如果环境因素对行为有影响，不管是好是坏，那么将使用取高和取低进行检定。倒挂在航天器上打电话就是一个应用取低的好例子。<br><br>在绝大多数情况下，仲裁只需要设定一个行为难度，然后决定是否需要应用取高或取低。任何必要的掷骰修正将由规则提出。<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1006201">
+&#171; <em>上次编辑: 2021-04-05, 周一 15:27:58 由 尽点</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1006201_signature">旅行者Traveller跑团群：1080491850<br>ck3黑暗亲王Mod群：631967822</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1006202"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+</h4>
+<ul class="reset smalltext" id="msg_1006202_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">
+<img class="avatar" src="/bbs/upload/avatar/avatar_86065_1535143453.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 703<li class="karma">苹果币: 1<li class="blurb">Pain<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1006202">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.msg1006202#msg1006202" rel="nofollow">【旅行者】 技能与行为</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1006202'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1006202'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-07-23, 周二 05:06:52 &#187;</div>
+<div id="msg_1006202_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1006202">每种技能都使用以下格式进行描述。<br><br><strong>描述：</strong>技能的作用。<br><strong>专精：</strong>如果技能有多个专精，它们列在这里。当旅行者达到某一技能的1级时，他必须学习该技能的专精。当他获得另一个技能等级，他可以增加该专精到第2级，或采取不同的专精。有些技能没有专精。<br><strong>常用检定：</strong>技能的常见用途，以及与这些用途相关的时间单位、属性DM和难度。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行政（Admin）</strong></span><br><br>这一技能与各种官僚和行政机构相关，包含解决官僚障碍或灾难。它还包括追踪库存、舱单和其他记录。<br><br><em>避免进一步的文书检察：</em>普通（8+）行政检定（1D x 10秒，EDU或SOC）。<br><em>处理警察骚扰：</em>困难（10+）行政检定（1D x 10分钟，EDU或SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>辨讼（Advocate）</strong></span><br><br>辨讼包括了一些常见的法律知识和实践，特别是星际法。它还能让旅行者获得演讲、辩论和公开演讲的经验，使之成为对律师和政客很有用的一项技能。<br><br><em>法庭辩论：</em>对抗辨讼检定（1D 天, EDU或SOC）。<br><em>辩论一个论点：</em>对抗辨讼检定（1D x 10分钟，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>动物（Animals）</strong></span><br><br>这种技能很少见于在高科技或工业化的世界，用于照顾动物。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>骑乘：</strong>旅行者知道如何驾驭动物，并作为骑手骑上受训的动物。<br>不寻常的动物会增加检定的难度。<br><em>骑马冲入战斗：</em>困难（10+）动物（骑乘）检定（1D秒，DEX）。如果成功了，旅行者可以在需要再次检定之前与成功度相等的几分钟内控制住马。<li><strong>兽医：</strong>旅行者接受过兽医和动物护理方面的培训。<br><em>进行医护：</em>参见第67页的医疗技能，但是要使用动物（兽医）技能。<li><strong>驯兽：</strong>旅行者知道如何驯服和训练动物。<br><em>驯服一个奇异的外星生物：</em>艰巨（14+）动物（驯兽）检定（1D 天，INT）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>艺术（Art）</strong></span><br><br>旅行者受过一种创造性艺术的训练。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>表演：</strong>旅行者是一位训练有素的演员、舞者或歌手，在家里的舞台、屏幕或全息投影上表演。<br><em>表演一个剧本：</em>普通（8+）艺术（表演）检定（1D 小时, EDU）。<br><em>说服一个人你实际上是另一个人：</em>艺术（表演）检定（INT）对抗侦察检定（INT）。<li><strong>全息术：</strong>记录和制作美观、清晰的全息投影。<br><em>在秘密会议中偷偷使用全息相机：</em>艰巨（14+）艺术（全息术）检定（1D秒，DEX）。<li><strong>乐器：</strong>演奏一种特定的乐器，如长笛、钢琴或风琴。<br><em>在音乐会演奏：</em>困难（10+）艺术（乐器）检定（1D x 10分钟，EDU）。<li><strong>视觉媒体：</strong>通过各种媒体创作艺术或抽象绘画或雕塑。<br><em>制作某人的雕像：</em>困难（10+）艺术（视觉媒体）检定（1D天，INT）。<li><strong>写作：</strong>撰写鼓舞人心或有趣的文章。<br><em>通过揭露政府的腐败来唤醒星球上的人民：</em>困难（10+）艺术（写作）检定（1D 小时, INT或EDU）。<br><em>编写新版旅行者：</em>艰巨（14+）艺术（写作）检定（1D 月，INT）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>星际导航（Astrogation）</strong></span><br><br>这个技能用于绘制星际飞船的航线和计算精确的跃迁。参见航天器操作章节。<br><br><em>绘制通过一颗气态巨行星的重力弹弓通往目标世界的航线：</em>困难（10+）星际导航检定（1D x 10分钟，EDU）。<br><em>计算标准跃迁：</em>简单（4+）星际导航检定（1D x 10分钟，EDU）， 加上等于跃迁距离的负DM。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>运动（Athletics）</strong></span><br><br>旅行者是一名训练有素加身体健康的运动员。运动技能能有效地增强旅行者的物理属性；举个例子，不管你用力量做什么，你也可以把你的运动（力量）DM加进去。运动也是在不利的重力环境中使用的主要技能，特别是在低重力或零重力环境下的运动（敏捷）和在高重力环境下的运动（力量）。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>敏捷：</strong>敏捷：攀爬，杂耍，投掷。对于有翅膀的外星种族，这也包括飞行。<br><em>攀登：</em>有不同难度。运动（敏捷）检定（1D x 10秒，DEX）。只要他成功了，旅行者骰出的成功度通常是无关紧要的，除非他试图在攀登时做些什么，在这种情况下，攀登是行为链或多个行动的一部分。<br><em>短跑：</em>普通（8+）运动（敏捷）检定（1D秒，DEX）。如果旅行者什么也不做，但全速冲刺，他可以每次检定跑出24 + 检定成功度米。在短跑时避开障碍物需要另一项运动（检定）检查（困难，因为他要做多项行动）。<br><em>跳高：</em>普通（8+）运动（敏捷）检定（1D秒，DEX）。旅行者垂直跳跃数米，蜜薯等于成功度的一半。<br><em>跳远：</em>普通（8+）运动（敏捷）检定（1D秒，DEX）。旅行者助跑向前跳跃数米，米数等于检定成功度。<br><em>当人工重力在船上突然失效时，进行平衡：</em>普通（8+）运动（敏捷）检定（1D秒，DEX）。<li><strong>耐力：</strong>长跑、长途跋涉<br><em>长跑：</em>普通（8+）运动（耐力）检定（1D×10分钟，END）。<br><em>长距离游泳：</em>普通（8+）运动（耐力）检定（1D x 10分钟，END）。<li><strong>力量：</strong>使用力量，举重。<br><em>扳手腕：</em>对抗运动（力量）检定（1D分钟，STR）。<br><em>使用力量：</em>普通（8+）运动（力量）检定（1D x 10秒，STR）。<br><em>在高重力环境下执行复杂的做业：</em>困难（10+）运动（力量）检定（1D秒，STR）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>协商（Broker）</strong></span><br><br>协商技能使旅行者能够讨价还价和取得公平的约定。它在交易中被大量使用(参见贸易章节)。<br><br><em>交易谈判：</em>普通（8+）协商检定（1D小时，INT）。<br><em>寻找买家：</em>普通（8+）协商检定（1D小时，SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>酒会（Carouse）</strong></span><br><br>酒会交际是社交的艺术；玩得开心，还能保证别人玩得开心，并具有良好的感染力和幽默感。它还包括在这种情况下的理解他人和奉承。<br><br><em>喝倒某人：</em>对抗酒会检定（1D小时，END）。困难程度因酒而异。<br><em>在聚会上收集传闻：</em>普通（8+）酒会检定（1D小时，SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>骗术（Deception）</strong></span><br><br>骗术可以让一个旅行者流利地说谎，伪装自己，耍花招，愚弄旁观者。大多数卑鄙的作弊和谎言都是在骗术之下进行的。<br><br><em>说服守卫让你在没有身份证明的情况下通过：</em>高难（12+）骗术检定（1D分钟，INT）。或者对抗侦察检定。<br><em>将信用卡藏在手中：</em>普通（8+）骗术检定（1D秒，DEX）<br><em>伪装成一个富有的贵族欺骗一个客户：</em>困难（10+）骗术检定（1D x 10分钟，INT或SOC）。或者，对抗侦察检定。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>外交（Diplomat）</strong></span><br><br>外交技能用于谈判交易，建立和平的关系和消除社会失礼。它包括如何在上流社会举止得体以及如何称呼贵族。这是一种比话术更正式的技巧。<br><br><em>正确问候皇帝：</em>困难（10+）外交检定（1D分钟，SOC）。<br><em>谈判和平条约：</em>普通（8+）外交检定（1D天，EDU）。<br><em>发送正式投降：</em>普通（8+）外交检定（1D x 10秒，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行驶（Drive）</strong></span><br><br>此技能用于操作各种类型的地面载具。下面列出几个专精。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>气垫船：</strong>依靠气垫和推进器运动的载具。<br><em>操纵气垫船通过一个狭窄的运河：</em>困难（10+）行驶（气垫船）检定（1D分钟，DEX）。<li><strong>钻地车：</strong>控制通过钻头，或其他地下移动技术如等离子火炬或空穴穿过固体物质的载具。<br><em>挖到正确的位置：</em>普通（8+）行驶（钻地车）检定（1D x 10分钟，INT）。<br><em>精确控制挖掘以暴露矿脉：</em>困难（10+）行驶（钻地车）检定（1D x 10分钟，DEX）。<li><strong>履带车：</strong>适用于坦克和其他在履带上行驶的车辆。<br><em>穿梭（或粉碎，取决于车辆）通过森林：</em>困难（10+）行驶（履带车）检定（1D分钟，DEX）。<br><em>驾驶坦克进入货舱：</em>普通（8+）行驶（履带车）检定（1D x 10秒，DEX）。<li><strong>步行车：</strong>操纵用两条或两条以上腿行走的车辆。<br><em>穿越崎岖地形：</em>困难（10+）行驶（步行车）检定（1D分钟，DEX）。<li><strong>轮式车：</strong>用于汽车及类似的地面车辆。<br><em>在短距离比赛中驾驶一辆地面车：</em>对抗行驶（轮式车）检定（1D分钟，DEX）。长距离比赛使用END而不是DEX。<br><em>闪过道路上的意外障碍：</em>普通（8+）行驶（轮式车）检定（1D秒，DEX）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>电子（Electronics）</strong></span><br><br>这种技能用于操作电子设备，如计算机和舰载系统。更高级别代表修复和创造电子设备和系统的能力。下面列出几个专精。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>通讯：</strong>未来通讯的使用；开放通信信道、查询计算机网络、干扰信号等，以及与星港和其他航天器建立通信协议。<br><em>请求在星港着陆：</em>常规（6+）电子（通讯）检定（1D 分钟, EDU）。<br><em>通过通讯器访问公共可用但模糊的数据：</em>普通（8+）电子（通讯）检定（1D x 10分钟，EDU）。<br><em>通过轨道卫星接受信号来隐藏你的发信器：</em>困难（10+）电子（通讯）检定（1D x 10分钟，INT）。<br><em>干扰通讯系统：</em>对抗电子（通讯）检定（1D分钟，INT）。无线电的难度（10+），激光的难度（12+），激微波的难度（14+）。使用比对手科技等级更高的通信系统的旅行者，每高一级TL就会获得DM+1。<li><strong>计算机：</strong>使用和控制计算机系统，以及类似的电子设备和电器。<br><em>访问公共数据：</em>简单（4+）电子（计算机）检定（1D 分钟， INT或EDU）。<br><em>启动飞船电脑上的计算机程序：</em>常规（6+）电子（计算机）检定（1D x 10秒，INT或EDU）。<br><em>从公司数据库中获取非法行为的证据：</em>困难（10+）电子（计算机）检定（1D hours, INT）。<br><em>入侵一个受保护的计算机网络：</em>艰巨（14+）电子（计算机）检定（1D x 10小时，INT）。入侵程序帮助黑客攻击，而安全程序则使它更加困难。成功度决定获取的数据量；失败意味着目标系统可能能够追踪黑客所在位。<li><strong>远程操作：</strong>使用远程呈现技术远程控制无人机、导弹、机器人和其他设备。<br><em>使用采矿无人机挖掘小行星：</em>常规（6+）电子（远程操作）检定（1D 小时， DEX）。<li><strong>传感器：</strong>使用和分析来自电子传感器设备、从观测卫星和探针到热成像和密度计的数据。<br><em>进行详细的传感器扫描：</em>常规（6+）电子（传感器）检定（1D x 10分钟，INT或EDU）。<br><em>传感器数据分析：</em>普通（8+）电子（传感器）检定（1D小时，INT）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>工程（Engineer）</strong></span><br><br>工程技能用于操作和维护航天器和先进载具。工程可以被用来修复航天器和先进载具的受损系统。对于简单机器和简单系统的维修，使用机械技能。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>机动引擎：</strong>维护和操作航天器的机动引擎，以及它的人造重力。<br><em>对推进器进行过载，以让飞船可以运载超过最大吨位的质量：</em>普通（8+）工程（机动引擎）检定（1D x 10秒，INT）。<li><strong>跃迁引擎：</strong>维护和操作航天器的跃迁引擎。<br>进行跃迁：简单（4+）工程（跃迁引擎）检定（1D x 10分钟，EDU）。<li><strong>维生系统：</strong>包括氧气制造、加热和照明等必要的维生系统。<br><em>安全降低提供给维生系统的能量，以减少飞船的能量消耗：</em>普通（8+）工程（维生系统）检定（1D分钟，EDU）。<li><strong>动力装置：</strong>维护和运行航天器的动力装置。<br><em>监视敌舰的能量输出以确定其能力：</em>困难（10+）工程（动力装置）检定（1D分钟，INT）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>爆破（Explosives）</strong></span><br><br>爆破技能包括使用爆破炸药和其他爆炸装置，包括装配或拆除炸弹。<br><br>如果爆炸物检定失败，其成功度为-4或更低，则可能导致炸弹过早爆炸。<br><br><em>放置贴片炸药使建筑物倒塌：</em>普通（8+）爆破检定（1D x 10分钟，EDU）。<br><em>放置爆破炸药：</em>普通（8+）爆破检定（1D x 10秒，EDU）。爆炸造成的伤害是骰出成功度的两倍。<br><em>拆除装有防干扰震动雷管的炸弹：</em>艰巨（14+）爆破检定（1D分钟，DEX）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>航空（Flyer）</strong></span><br><br>这项技能的各种专精包括不同类型的航空载具。航空器只在大气层内飞行；能够离开大气层进入轨道的载具通常使用航天技能。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>飞艇：</strong>用于飞艇、齐柏林飞艇和其他通过比空气更轻的动力装置飞行的航空器。<li><strong>反重力：</strong>这包括飞空筏，反重力腰带和其他使用反重力技术的载具。<li><strong>扑翼：</strong>用于通过拍打翅膀飞行的载具。<li><strong>旋翼：</strong>用于直升机、倾转旋翼机和螺旋桨飞机。<li><strong>定翼：</strong>用于喷气式飞机、推力矢量飞机和使用举升体的飞机。</ul><br><em>安全着陆：</em>常规（6+）航空检定（1D分钟，DEX）。<br><em>与另一架飞机竞速：</em>对抗航空检定（1D x 10分钟，DEX）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>赌博（Gambler）</strong></span><br><br>旅行者熟悉各种赌博游戏，如扑克、轮盘赌、21点、赛马、体育博彩等，并对统计和概率有很好的掌握。赌博技能能增加福利骰的奖励，如果旅行者有赌徒1或更高，现金福利检定获得DM+1。<br><br><strong>打扑克：</strong>对抗赌博检定（1D小时，INT）。<br><strong>选择正确的马下注：</strong>普通（8+）赌博检定（1D分钟，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>舰装（Gunner）</strong></span><br><br>这项技能的各种专精涉及到太空战斗中舰载武器的操作。有关更多细节，请参阅航天器操作章节。大多数旅行者都只有装有一个炮塔的小型飞船。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>炮塔：</strong>在船上操作安装在炮塔上的武器。<br><em>操作炮塔向敌舰射击：</em>普通（8+）舰装检定（1D秒，DEX）。<li><strong>轨道炮：</strong>星际轨道炮的缩写，指用飞船上的武器进行行星轰炸或对固定目标攻击。<br><em>操作轨道炮轰炸：</em>普通（8+）舰装（轨道炮）检定(1分钟,INT）。<li><strong>屏障：</strong>启动和使用飞船的能量屏障，如黑球发生器或介子屏障。<br><em>启动屏障拦截敌人火力：</em>困难（10+）舰装（屏障）检定（1D秒，DEX）。<li><strong>主炮：</strong>在船上操作装在舱室或龙骨（译：指整艘船都绕着炮建的）的武器。<br><em>发射龙骨炮：</em>普通（8+）舰装（主炮）检定（1D分钟，INT）。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>枪战（Gun Combat）</strong></span><br><br>枪战技能涵盖了多种远程武器。有关在战斗中使用枪支的详细信息，请参阅战斗章节。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>冷兵：</strong>用于非抛射原始武器，如弓和吹管。<li><strong>能量：</strong>使用先进的能量武器，如激光手枪或等离子步枪。<li><strong>实弹：</strong>发射固体实弹的武器，如自动来福枪或高斯步枪。</ul><br><em>射击：</em>普通（8+）枪战检定（1D秒，DEX）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>重武器（Heavy Weapons）</strong></span><br><br>重武器技能包括单兵便携式和更大型，能造成极大伤害的武器，如火箭发射器，地面大炮和大型等离子武器。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>火炮：</strong>固定炮、迫击炮等间接射击武器。<li><strong>便携：</strong>导弹发射器，火焰喷射器和便携式聚变和等离子武器。<li><strong>车载：</strong>大型武器，通常安装在车辆或炮台上，如坦克炮和自动火炮。</ul><br><em>向可见目标发射火炮：</em>普通（8+）重武器（火炮）检定（1D秒，DEX）。<br><em>使用间接火力发射火炮：</em>困难（10+）重武器（火炮）检定（1D x 10秒，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>调查（Investigate）</strong></span><br><br>调查技能包括敏锐的观察力、鉴证和详细的分析。<br><br><em>寻找犯罪现场的线索：</em>普通（8+）调查检定（1D x 10分钟，INT）。<br><em>监视一个星港的银行安全监视器，监视一个特定的罪犯</em>：困难（10+）调查检定（1d小时，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>万事通（Jack-of-All-Trades）</strong></span><br><br>万事通技能与其他技能的使用方式不同。它将抵消等同于万事通等级的旅行者因没有适当的技能而受到的未受训惩罚。例如，如果一个旅行者没有航天技能，他对所有航天检定受到DM-3。如果该旅行者拥有万事通2，那么惩罚将抵消2变为DM-1。有了万事通3，旅行者就可以完全抵消所有未受训的惩罚。<br><br>拥有万事通0或万事通4或以上不会带来更多任何好处。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>语言（Language）</strong></span><br><br>有许多不同的语言专精，每一个都涵盖了不同的语言阅读和写作。所有的旅行者都可以讲和读他们的母语，而不需要语言技能，而自动翻译程序意味着语言技能在其他世界并不总是被需要的。语言0表示旅行者只掌握几种语言中的一些简单短语。<br><br><strong>专精</strong><br><br>当然，语言的专精和实际语言一样多。这里展示的是来自第三皇朝世设的例子。<br><br><ul class="bbc_list"><li><strong>盎格鲁语：</strong>第三皇朝的通用贸易语言，起源于人类统治时期的英语。<li><strong>维拉尼语：</strong>第一皇朝维拉尼人所说的语言;第三皇朝的“文言文”。<li><strong>佐德语：</strong>佐达尼口语。<li><strong>普里斯语：</strong>德罗伊仪式语言。</ul><br><em>点餐，询问基本方向：</em>常规（6+）语言检定（1D 秒， EDU）。<br><em>进行简单对话：</em>普通（8+）语言检定（1D x 10秒，EDU）。<br><em>理解复杂的技术论文或报告：</em>高难（12+）语言检定（1D 语言， EDU）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>领导（Leadership）</strong></span><br><br>领导技能用于指导、鼓舞和团结盟友与同志。旅行者可能会在战斗中做出领导动作，详情见第72页。<br><br><em>喊出命令：</em>普通（8+）领导检定（1D秒，SOC）。<br><em>鼓舞士气动摇的部队：</em>困难（10+）领导检定（1D秒，SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>机械（Mechanic）</strong></span><br><br>机械技能允许旅行者维护和修理大多数设备——一些先进的设备和航天器组件需要工程技能。与更狭窄、更专注的工程或科学技能不同，机械不允许旅行者制造新设备或改造现有设备——它只用于维修和保养，但涵盖所有类型的设备。<br><br><em>修复外部损坏的系统：</em>普通（8+）机械检定（1D分钟，INT或EDU）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>医疗（Medic）</strong></span><br><br>医疗技能包括紧急急救和战场分诊，以及诊断、治疗、手术和长期护理。参见第47页的受伤和恢复。<br><br><em>急救：</em>普通（8+）医疗检定（1D轮，EDU）。病人恢复等同成功度的受损属性点。<br><em>治疗中毒或疾病：</em>普通（8+）医疗检定（1D天，EDU）。<br><em>长期护理：</em>普通（8+）医疗检定（1D小时，EDU）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>近战（Melee）</strong></span><br><br>近战技能包括近身攻击和对合适武器的使用。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>徒手：</strong>拳打脚踢和摔跤；在酒吧斗殴中使用临时武器。<li><strong>刀剑：</strong>用剑、刺剑、刀等锋利的武器进行攻击。<li><strong>棍棒：</strong>用狼牙棒、棍棒、木板等钝器进行攻击。<li><strong>天然：</strong>外星人或动物的身体武器，如爪子或牙齿。</ul><br><em>挥剑：</em>普通（8+）近战（刀剑）检定（1D秒，STR或DEX）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>地面导航（Navigation）</strong></span><br><br>地面导航是对应星际导航的在行星上的导航，包括绘制路线和在地面上寻找方向。<br><br><em>使用轨道卫星信标绘制路线：</em>普通（8+）地面导航检定（1D x 10分钟，INT或EDU）。<br><em>避免在茂密的丛林中迷路：</em>困难（10+）地面导航检定（1D 小时, INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>话术（Persuade）</strong></span><br><br>话术技能是外交技能的更为随意和非正式版。它包括快速交谈、讨价还价、劝诱和虚张声势。它还包括贿赂或恐吓。<br><br><em>虚张声势地通过警卫：</em>对抗话术检定（1D分钟，INT或SOC）。<br><em>在集市上讨价还价：</em>对抗话术检定（1D分钟， INT或SOC）。<br><em>恐吓暴徒：</em>对抗话术检定（1D分钟，STR或SOC）。<br><em>请求其他太空的外星公主嫁给你：</em>艰巨（14+）话术检定（1D x 10分钟，SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>航天（Pilot）</strong></span><br><br>航天技能的专精涵盖了不同形式的航天器。有关更多细节，请参阅航天器操作章节。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>小型航天器：</strong>100吨位以下的航天飞机和其他飞行器。<li><strong>太空飞船：</strong>100吨位至5000吨位之间的商船和其他飞船。<li><strong>主力舰：</strong>5000吨位以上的战列舰和其他舰船。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>行当（Profession）</strong></span><br><br>具有行当技能的旅行者受过生产有用商品或服务的培训。有许多不同的行当，但每一种使用方式都是一样的——旅行者可以通过行当检定在支持该行当的星球上赚钱。所筹集的资金是每月Cr250 x 检定成功度。与其他技能不同的是，行当技能等级不授予在0级时使用其他行业的能力。每种行当都必须单独获得。一个行当技能为0的人对谋生有一个大致的了解，但除了最卑微的工作之外，他几乎没有什么经验。<br><br>这技能有数不清的专精，适用于宇宙中所有可能的行当。这里给出了一些适合科幻小说场景的例子。还要注意，在一些世界上，其他技能，如动物或电子（计算机），可以用跟行当技能相同的方式用来谋生。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>星带人：</strong>在小行星上开采有价值的矿石和矿物。<li><strong>生化：</strong>基因工程和控制人工有机体。<li><strong>土木工程：</strong>设计结构和建筑物。<li><strong>太空建设：</strong>建设轨道栖息地和巨型建筑。<li><strong>水培：</strong>在恶劣环境下种植作物。<li><strong>合成材料：</strong>设计和制造合成材料。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>侦察（Recon）</strong></span><br><br>受过侦察训练的旅行者能够侦察出危险和威胁，发现不寻常的物体或不合适的人。<br><br><em>获得三个警卫的巡逻路线：</em>普通（8+）侦察检定（1D x 10分钟，INT）。<br><em>在狙击手狙击你之前发现他：</em>侦察检定（1D x 10秒，INT）与潜行检定（DEX）对抗。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>科学（Science）</strong></span><br><br>科学技能不仅包括知识，还包括知识的实际应用。下面是一段很长的专精清单。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>考古学：</strong>研究古代文明，包括曾经的帝国和古圣。它还包括调查和挖掘技术。<li><strong>天文学：</strong>研究恒星和天象的学科。<li><strong>生物学：</strong>研究生物体的学科。<li><strong>化学：</strong>研究原子、分子和大分子等级物质的学科。<li><strong>宇宙学：</strong>研究宇宙及其初始的学科。<li><strong>机械仿生学：</strong>研究生命与合成生命融合的学科。<li><strong>经济学：</strong>研究贸易和市场的学科。<li><strong>遗传学：</strong>研究遗传密码和基因工程的学科。<li><strong>历史学：</strong>研究过去，但通过文献和记录而不是实物的学科。<li><strong>语言学：</strong>研究语言的学科。<li><strong>神学：</strong>研究信仰和宗教的学科。<li><strong>物理学：</strong>研究基本力的学科。<li><strong>行星学：</strong>研究行星的形成和演化的学科。<li><strong>灵能学：</strong>研究灵能的力量和现象的学科。<li><strong>心理学：</strong>研究思想和社会的学科。<li><strong>机器人学：</strong>研究机器人的构造和使用的学科。<li><strong>智慧生物学：</strong>研究智能生物的学科。<li><strong>外星生命学：</strong>研究外星生命形式的学科。</ul><br><em>回忆一个众所周知的事实：</em>常规（6+）科学检定（1D 分钟， EDU）。<br><em>研究与科学领域相关的问题：</em>普通（8+）科学检定（1D 天，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>航海（Seafarer）</strong></span><br><br>航海技能包括操作各种各样的航海器和在海洋旅行。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>远洋船：</strong>操作机动海船。<li><strong>单人船：</strong>操作非常小的水上载具，如独木舟和划艇。<li><strong>帆船：</strong>操作风力驱动的航海器。<li><strong>潜水艇：</strong>操作水下行驶的载具。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>潜行（Stealth）</strong></span><br><br>一个受过潜行技能训练的旅行者善于隐藏自己，不被人注意。<br><br><em>潜行通过守卫：</em>潜行检定（1D x 10秒，DEX）与侦察检定（INT)对抗。<br><em>避免被巡逻队发现：</em>潜行检定（1D分钟，DEX）与侦察检定（INT）对抗。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>服侍（Steward）</strong></span><br><br>服侍技能使旅行者能够服务和照顾贵族和高等票乘客。它涵盖了从正确的着衣和举止到烹饪和女工，以及基本的管家技能。在任何有特等舱的飞船上，都必须有一个具有服侍技能的旅行者。有关更多细节，请参阅航天器操作章节。<br><br><em>煮一顿好饭：</em>普通（8+）服侍检定（1D 小时, EDU）。<br><em>平息一个愤怒的公爵，他刚刚被告知你们不能准时跃迁到他的目的地：</em>困难（10+）服侍检定（1D分钟，SOC）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>街头（Streetwise）</strong></span><br><br>具有街头技能的旅行者了解城市环境和社会中的权力结构。在他的家园世界和相关恒星系中，他认识黑社会人脉和中间人。在其他世界里，他能很快凭直觉感知权力结构，并融入当地的地下世界。<br><br><em>寻找非法物品或科技的销赃商：</em>普通（8+）街头检定（1D x 10小时，INT）。<br><em>躲避警方搜查：</em>街头检定（1D x 10分钟，INT）对抗侦察检定（INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>求生（Survival）</strong></span><br><br>求生技能是街头技能的野外版——旅行者被训练在野外求生，建造庇护所，捕猎或诱捕动物，避免暴露，等等。他能辨认出自己家园世界和相关星球上的动植物，甚至能在不熟悉的世界里找到共同的线索和特征。<br><br><em>在野外收集生存一周所需的补给：</em>普通（8+）求生检定（1D 天， EDU）。<br><em>识别有毒植物：</em>普通（8+）求生检定（1D x 10秒，INT或EDU）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>战术（Tactics）</strong></span><br><br>这一技能涵盖战术规划和决策，从棋盘游戏到小队战斗，再到舰队作战。战斗中使用，见战斗章节。<br><br><strong>专精</strong><br><br><ul class="bbc_list"><li><strong>陆军：</strong>指挥地面步兵部队或装甲车队的攻击。<li><strong>海军：</strong>指挥航天器或舰队的攻击。</ul><br><em>制定攻击敌人基地的策略：</em>普通（8+）战术（陆军）检定（1x10小时，INT）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>太空服（Vacc Suit）</strong></span><br><br>太空服技能可以让旅行者穿着和操作宇航服和环境适应服。一般情况下，旅行者很少需要检定太空服技能——只要具备这项技能就足够了。如果旅行者不具备他所穿的套装所必需的太空服技能，那么他将会在在穿着套装时的所有技能检定中，每缺一等级DM-2。这个技能也允许角色操作先进的战斗护甲。<br><br><em>对战斗服执行系统检查：</em>普通（8+）太空服检定（1D 分钟，EDU）。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1006202">
+&#171; <em>上次编辑: 2021-04-05, 周一 15:30:54 由 尽点</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1006202_signature">旅行者Traveller跑团群：1080491850<br>ck3黑暗亲王Mod群：631967822</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=110684.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1805.0"><span>旅行者（Traveller）</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="版主">尽点</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=110684.0"><span>【核心规则书】 技能与行为</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 110684,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 110684,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="110684" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=110684.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 3856 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1805,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "旅行者（Traveller）",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1805,
+							iTopicId: 110684,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

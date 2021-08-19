@@ -1,0 +1,348 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[EX3-Core] 第三章 - 角色创建"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[EX3-Core] 第三章 - 角色创建</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="103700"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0"><span>[EX3-Core] 第三章 - 角色创建</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg952341"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103700.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [EX3-Core] 第三章 - 角色创建 &nbsp;(阅读 3801 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: Chapter Three - Character Creation</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=103700.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+</h4>
+<ul class="reset smalltext" id="msg_952341_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_72616_1400691017.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1123<li class="karma">苹果币: 2<li class="blurb">或许会有更好的方法<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952341">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.msg952341#msg952341" rel="nofollow">[EX3-Core] 第三章 - 角色创建</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952341'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952341'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-10-04, 周四 23:52:43 &#187;</div>
+<div id="msg_952341_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952341"><div align="center"><strong><span style="font-size: 14pt;" class="bbc_size"><em>第三章</em></span><br><span style="font-size: 16pt;" class="bbc_size"><span style="color: green;" class="bbc_color">人物创建</span></span></strong></div><br>无论你是第一次还是第一百次玩<strong>Exalted</strong>，你的第一步都应该是为你的编年史创建一名主人公。随着游戏的进行，你也将引导你的角色踏上等待着她的冒险历程，决定她将如何塑造世界或被世界塑造。这一章将帮助你创建一名栩栩如生、耐人寻味、足以配上“尊者”之名的角色。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>事前准备</strong></span><br>在你开始之前，先问问你的ST她有什么计划——她的英雄们将要无畏的前往海盗肆掠的珊瑚礁水域吗？或是在白墙上飞跃追赶发下死誓的叛徒？和你的队友交流或许是个好主意，问问他们的人物是怎么想的。考虑团队的预期基调、设定、以及目标有助于你成为一个人人都喜欢的英雄。<br>如果你是刚开始玩<strong>Exalted</strong>或者刚开始玩TRPG，那么创建第一个角色或许会让你有点不知所措。这里有些技巧能够帮助你树立正确的心态。<br><br><span style="color: brown;" class="bbc_color"><strong><em>壮志凌云</em></strong></span><br>日轮尊者能够从神话英雄中得到灵感，但你并不必须让自身受限于神话原型。能够为尊者提供原型的媒体形式多种多样，从通俗幻想小说到现代动漫，任何讲述传奇的宏大故事都能够为你提供灵感。想想你所喜爱的那些壮志凌云的英雄。什么样的激情驱使着他们前进？它是如何对周遭的世界产生影响的？他们的目标是什么？为达成目标他们能够付出怎样的牺牲？思考这些问题能够帮助你深入了解你需要在桌上扮演的这名角色的各个方面。<br>另外，你得去考虑你的角色能够办到怎样的传奇伟业。你希望能够在血染的小巷中匆匆一眼便能看出谋杀案的手法和动机吗？你是否想要潜入一位太守（satrap）的豪宅，像阴影一样寂静且双倍的难以捉摸？你是否希望你的布道能够让铁石心肠的人潸然泪下？如果你对自己的想法感到迷茫，或是想要更好的掌握尊者能够做到的事务，那么你可能会需要阅览秘法章节来获得灵感。<br><br><em><span style="color: brown;" class="bbc_color"><strong>文字表述</strong></span></em><br>即便你有一个很好的想法，但想要将它转换成人物卡中的数据依然令人生畏。试着在开始之前用语言描述你的概念，这能让你更好的了解你的角色的长处与弱点。<br><strong><em>范例：</em></strong>“Veiled Sunrise如同疾雷迅电，他机智且迷人，又相当英俊。在剑术上，他几乎所向无敌，而且他相当擅长杂技，是个爱出风头的家伙。然而，他的天真使他容易相信别人，而且也相当容易被利用。”<br>像这样简短的描述能够帮助你确定角色概念中的关键部分——当你开始分配点数、选择优势和秘法时，这些想法能够为你提供选择。<br><br><span style="color: brown;" class="bbc_color"><em><strong>点数（Points）和永久点数（Dots）</strong></em></span><br><strong>Exalted</strong>的骨架是叙事系统（Storyteller system），它使用永久点数评级（Dot ratings）和点数（Points）来表现人物的技能和资质。<br><strong>永久点数评级</strong>的使用类似于书评和影评的1~5星评级系统。一般来说，一点的评级是差，两点的评级是平均值，三点的评级是高于平均值，四点的评级是杰出，五点的评级是精湛。两点以上的已经很重要，而三点以上的则是角色概念的关键元素。永久点数评级的永久性的，通常只能通过额外点数（bonus points）（p.124）或经验点数（experience points）（p.177）的支出而增加，不过某些超自然效果能够提供临时的加值或减值。<br>另外一方面，<strong>点数</strong>则用来衡量你的角色的可用资源，例如他的精神韧性的储备或用来操控秘法的玄秘能量。你的角色在某些情况下会花费这些点数——例如在战斗中使用秘法攻击目标，或是耸耸肩表示妖邪的法术对你完全无效时。一旦消耗，点数便只能通过特定方法重新获取。所有这些特征将在第四章详细解释。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>其他尊者呢？</strong><br>本章规则将向你展示如何创建一个日轮尊者，一个归来回收上古时期的天赋神权的失落许久的勇者。未来将会补充在第一章中所述的其他类型的尊者的规则。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第一步：概念和天位</strong></span><br>花些时间思考你喜爱的英雄原型，翻阅第二章的设定，看看你有没有落下什么。你想扮演一个傲慢的剑客，还是能说会道的间谍，又或是研读封存历史的学士？你的角色称呼尘世间的哪个角落为家乡？世界是如此辽阔，而尊者有理由冒险前往最遥远的地域。如果你的角色来自世界上的其他地方，那么她现在为何在这里？你还应该勾勒出角色的性格。如果你坐下与她交谈，她会怎么表现？她会认为谁为家人、朋友、或是敌人？一旦你想好这些问题，将其归纳为几句信息浓缩的话——对你的角色的概括描述。<br>一旦具备坚实的概念，你便应当开始选择适合它的天位。有些概念能够轻易的归入不止一个天位，但请注意，你的角色的天位不仅是她的长处，也是衡量她的行事方法的标尺。无论怎样，每一个日轮的天位都是最适合她的那一个。第四章对五种日轮天位有详细阐述。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第二步：属性</strong></span><br>于是你有了属于自己的概念，那么到了用数据充实它的时候了。在你具备技能和进行训练之前，属性代表最初的潜能——魅力、人格力量、智力等。<strong>Exalted</strong>将属性分为三类——生理、社交、心理——很少有英雄能够以统一标准发展所有属性。选择对你的概念来说最重要的类别，将其标为主要。接下来，选择不需要太高但依然重要的类别，将其标为次要。而剩下的类别就是第三类。每个属性都自带一点永久点数评级。你的角色的主要属性获得8点永久点分配，次要属性获得6点永久点分配，第三属性获得4点永久点分配。<br><strong>在分配属性点时，请注意，两点评级是平均值，五点的评级则是人类的巅峰。日轮的属性无论是在建卡或游戏中都不会超过5。</strong>若是符合概念，那么不需要害怕与类型相抵——许多黎明都会选择物理属性作为主要，但你能够选择成为主要属性是心理的天才策士。你的点数评级应当对你的角色概念有意义。注意，一点评级和五点评级同样重要，糟糕的评级和优秀的评级一样能够为角色提供更多的扩展机会。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第三步：能力</strong></span><br>能力衡量角色的知识量、训练程度、以及技能。作为人类毅力的典范，日轮拥有卓越的深度和广度，以天位和亲和能力为代表。你的角色的天位能力是其作为该天位的一员的技能和天赋。传统上，每个天位都有广泛的负责范围，但很少有立法者——尤其是新近成为天选者的——能够在所有负责的天赋上都有所建树。在下面的列表中找到你的角色的天位，从其中选择五个能力。这些便是你的天位能力（Caste Abilities）。<br><ul class="bbc_list"></ul><strong>黎明：</strong>射术（Archery），警觉（Awareness），肉搏（和武术）（Brawl (and Martial Arts)），闪躲（Dodge），兵器（Melee），忍耐（Resistance），投掷（Thrown），战争（War）<br><strong>天顶：</strong>运动（Athletics），坚定（Integrity），表演（Performance），学识（Lore），风度（Presence），忍耐（Resistance），生存（Survival），战争（War）<br><strong>黄昏：</strong>政治（Bureaucracy），工艺（Craft），坚定（Integrity），调查（Investigation），文采（Linguistics），学识（Lore），医学（Medicine），玄学（Occult）<br><strong>暮夜：</strong>运动（Athletics），警觉（Awareness），闪躲（Dodge），调查（Investigation），偷窃（Larceny），驾驭（Ride），潜行（Stealth），交际（Socialize）<br><strong>日蚀：</strong>政治（Bureaucracy），偷窃（Larceny），文采（Linguistics），玄学（Occult），风度（Presence），驾驭（Ride），航海（Sail），交际（Socialize）[/list]<br>现在，选择五个亲和能力。这些能力所代表的技能和才能并不一定属于她的天位的负责范围。因为对邪魔降世的预兆和迹象的洞悉，一个狩猎恶魔的暮夜天位或许会亲和玄学。如果你愿意，当然也能够从天位对应的能力列表中选择你的亲和能力，但你不能同时应用天位能力和亲和能力带来的好处。<strong>天位能力和亲和能力的选择对你的角色的发展至关重要——能够减少提升相应能力和学习相关秘法的经验点数。</strong><br>当你选择好自己的天位能力和亲和能力，那么从这些天位能力中选择一个作为你的超凡能力（Supernal Ability）。超凡能力是你的角色的传奇象征，也是她最擅长的事物。<strong>学习和你的超凡能力相关的秘法比其他任何能力都要轻松——在购买和提升与你的超凡能力相关的秘法时，你的精髓评级（Essence rating）视为5。</strong>这使你能够提前获得那些强大的秘法。<br><strong>注：</strong>武术能力不能被选为天位能力或亲和能力，但是任何一个将肉搏选为天位或亲和能力的角色都能够将武术视为对应的天位或亲和能力。PC当然也能够选择肉搏或武术作为黎明天位的角色的超凡能力，但带来的好处只能应用在其中的一个上面。此外，角色必须具备武术家（Martial Artist）优势（p.163）才能在武术上获得永久点数，具体参阅p.153~154的武术技能描述和第七章的详细信息。<br>那么你已经选好了天位、亲和、以及超凡能力，现在将总计28点永久点数分配给所有能力。<strong>每项能力从0开始，必须支付额外点数才能使其超过3。</strong>无论是在建卡或游戏中，能力都不能超过5。<strong>亲和能力至少要有1点</strong>——如果你的角色根本就不擅长它们，那显然这根本就不是亲和能力。0点能力意味着你的角色根本没有该领域的技能，对她来说这完全是个盲点——尊者和凡人一样有优点和缺点。一点意味着你的角色是初学者，两点代表她有能力，五点则是人类所能达到的巅峰。和属性一样，你需要对她的三点或更多的能力进行解释。你的角色是在宗师的训练之下在兵器技能上达到5点，还是个自学的武术天才？<br>最后，为你的角色选择四个专精。专精应当是一个能力内的特定领域。<br><strong>最后提醒：</strong>如果你的角色想要在任何非天位、非亲和的能力上获得永久点，那么最好现在就点，而不是用额外点数购买。天位和亲和能力也能够额外点数购买要便宜得多。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>专精</strong><br>能力象征着特定领域内的广泛知识，但很少有人会在没有独特才能和特殊兴趣的情况下度过一生。在Exalted中，这些专擅领域被称为专精（Specialties），且能够在游戏进行中因此获益。每个专精都附属于特定的能力。当你使用具备专精的能力进行检定时，可以在这次投骰中额外获得1个骰子——只要你能够说明为什么该专精能够为这次行动提供优势。专业的范围可以宽泛也可以狭隘，但一定要具体，否则不能使用。兵器（剑）完全可以接受，但是兵器（武装时）或（呼吸时）肯定不行。当然，你的角色可能会在窒息的情况下战斗，也可能被星轮袭击者偷走呼吸，但这些都是极端情况。由ST决定专业是否可用。<br>即便你有多个专精可用，一次检定也只能应用一种专精——例如你的角色试图在敌人的身上刻下侮辱，且同时具备兵器（剑）和兵器（辱敌），那么他可以选择使用前者或是后者，但不能把两个同时使用。<br>你可以为你的角色购买任意数量的专精，但你不能为0点能力购买专精。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第四步：优势</strong></span><br>优势是一个人的价值和特征，包括从装满黄金的金库到除完全腐败的食物外都能够消化的胃部。同属性和能力相似，优势也有1~5的评级，其中一些能够在游戏中提升，另外一些则不能。例如，一个日轮能够获得一个小村庄的崇拜（教团（Cult）•），且努力传播她的信仰，直到她获得整个地区的尊敬（教团•••）。另一方面，一个身材高大（巨人（Giant）••••）的角色则不可能因为时间推移变得更加高大。<br>在选择优势时，请注意，其中一些——即那些与其他人物、事物、或组织相关的——可能会随着故事的进展起伏不定。你的角色可能会要勇敢的面对前世陵墓的恐怖守护者，以找回你遗失已久的灵剑，因此获取法宝（Artifact）•••。你的教团•••则或许会成为嫉妒之神的信徒的目标，因为信徒被杀害或被迫诅咒自己的日轮宗主而下降到教团••。有关游戏中的优势的更多信息，请参阅p.157~158。<br>你有10点永久点分配给各种优势。和其他特征一样，优点也能够塑造你的角色的背景和境遇，它们或许是你的角色的过去的结晶。一定要把它们同你的整体概念联系起来。你的角色是通过以前的无私之举赢得了他的盟友吗？骇人外貌（Hideous）是否影响了她看待别人的方式？<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第五步：秘法</strong></span><br>日轮的秘法是其英雄传奇的自然体现，由尘世间的精髓驱动。想想你的角色的技能能够成就多大的伟业。他能轻易的连续奔跑数英里吗？他能在一百码内射杀一只跳蚤吗？一旦你在脑海中勾勒出角色的传奇，那么现在挑选15个合适的秘法，注意每个秘法都有启蒙和技能的前置。如果你的角色不满足一个能够使他的概念活起来的秘法，那么千万不要害怕重新分配你的能力点。<br>如果你选择了法宝优势，而且还是个具备号令效果的法宝，那么你可以选择使用建卡时的秘法以1:1的比例换成号令。请牢记法宝的历史、传说、以及最终目的——其力量之于其传奇就如同日轮的秘法之于日轮的传奇般富有意义。请参阅p.611~614页获得更多关于号令的信息。<br>该规则同样适用于巫术和武术（见第六章）。你同样可以在建卡时以1:1的比例用日轮的秘法换取武道秘法（Martial Arts Charms）或术式（sorcerous spells）（只要你的角色具备地之道法（Terrestrial Circle Sorcery）秘法，详见p.360~361）。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第六步：关系和临界点</strong></span><br>从自始至终的信仰到对亲人或死敌的感情，关系（Intimacies）是你的角色生活的重要组成部分。关系的更多信息，请参阅p.170~171。与其他特性不同，角色持有的关系没有数量限制。建卡时必须至少持有四个关系，其中必须至少有一个关键（Defining）、一个主要（Major）、一个负面（negative）（即你的角色抵制或厌恶的事物）、一个正面（positive）（即你的角色支持或喜爱的事物）。<br>此外，所有日轮尊者都与其他尊者一样受困于诸神之敌的大诅咒。因此，你的角色具备一个临界点（Limit Trigger），上古死者的挥之不去的诅咒会因此影响到你的角色。从p.133~137中选择一个临界点，或与你的ST共同设计一个属于你自己的临界点。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第七步：额外点数</strong></span><br>你有15点额外点数用来花在任何对你的概念有意义的事物上。额外点数能够购买几乎所有特性，但不同的特征有不同的成本。<br><table class="bbc_table"><tr><td><strong>特性</strong><td><strong>成本</strong></tr><tr><td>主要或次要属性<td>4/每永久点</tr><tr><td>第三属性<td>3/每永久点</tr><tr><td>天位或亲和能力<td>1/每永久点</tr><tr><td>非天位或亲和能力<td>2/每永久点</tr><tr><td>专精<td>1</tr><tr><td>优势<td>1/每永久点</tr><tr><td>天位或亲和秘法<td>4</tr><tr><td>非天位或亲和秘法<td>5</tr><tr><td>术式（Spell）（天位或亲和能力中有玄学）<td>4</tr><tr><td>术式（Spell）（天位或亲和能力中没有玄学）<td>5</tr><tr><td>号令<td>4</tr><tr><td>意志力<td>2/每永久点</tr></table>额外点数能够灵活的契合你的概念。如果你对自己想要在什么上面花费额外点数没有一个清晰的概念，那么用它来提高天位或亲和能力无疑是性价比最高的。而例如秘法或术式这类的新的神力则是性价比最低的。第三属性比主要或次要属性稍微便宜一点，以便你的角色能够更容易弥补自己的缺点。最后，优势相当便宜，所以你通常不会有为满足它而去削弱角色概念的压力。<br><strong>注：</strong>你可以在人物创建的任何时候花费额外点数。例如，如果你想在第五步时购买一个秘法，但却没有足够高的能力评级，那么你可以选择先支付额外点数来提升能力。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>世俗英雄：扮演凡人</strong><br>虽然缺乏天选者的神力，但凡人英雄依然有他们自己的故事要讲。如果你是个新手ST，你可能会想要其他人扮演凡人来进行游戏。或者，你想要运行一个PC角色在游戏中从凡人开始获得升华（Exalt）的编年史。创建凡人与创建天选者类似：<br>第一步：概念。思考一个扣人心弦的角色概念，用历史、目标、以及梦想去填充它。弄清楚你的角色的人生是怎样的，是什么促使其参与到ST的编年史之中。凡人角色没有天位。<br>第二步：属性。选择主要、次要、第三属性的类别。6点永久点分配给主要属性，4点分配给次要，3点分配给第三。<br>第三步：能力。28点永久点分配给所有能力。凡人不会获得天位、亲和、或超凡能力。选择四个专精。<br>第四步：优势。7点永久点分配给优势。<br>第五步：关系。选择你的角色的关系。凡人角色不会受大诅咒之苦，因此也没有临界点。<br>第六步：最后润色。凡人英雄建卡时意志力评级是3点永久点，7级健康（-0，-1，-1，-2，-2，-4，瘫痪），精髓评级是1，没有精髓池。有21点额外点数，使用和日轮尊者相同的成本表。<br>若想要在游戏中将凡人英雄变成日轮尊者的一员，那么你需要选择最符合你的角色概念和技能的天位。天位、亲和、以及超凡能力都正常获取，牢记你现在的能力评级和过往游戏中进展。每个亲和能力都至少要有1点永久点。选择10个秘法。选择你的角色的临界点，计算其精髓池。在当前故事迎来结局时，再增加5个免费的秘法，且在意志力上增加2点永久点，在主要和次要属性上各额外获得2点永久点分配，在第三属性上额外获得1点分配。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 1.45em;" class="bbc_size"><strong>第八步：最后润色</strong></span><br>你快完事了！现在只剩下几个项目有待填补。所有日轮在建卡时默认在精髓评级上具备1点永久点，在意志力评级上具备5点永久点，还有7级健康（-0，-1，-1，-2，-2，-4，瘫痪）。日轮的个人精髓（Personal Essence）池是（[精髓x3]+10），而外在精髓（Peripheral Essence）池是（[精髓x7]+26）。这些特征将在第四章进一步的详细说明。<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>需要考虑的事情</strong></span><br>每一个天选者在升华之前都是人类，在升华之后亦是人类。并非每个天选者都是完人——虽然他们如此强大，但新生的日轮除他们在凡人生活中被灌输的道德准则外，没有其他东西能够引导他们，当然，或许会有一些来自永曦的玄秘词语。想一想你的角色的过去和他获得升华前的样貌。他是如何看待世界的？他是怎样对待他人的？别人又是怎样对他的？谁是他的盟友，敌人、朋友、亲人？他在怎样的文化中长大？他在社会上的地位如何？他的民族信奉着怎样的信仰和哲学？他的人生中还有什么其他影响？没有人是一座全然的孤岛，至少尊者不是。<br>升华将永远改变一个人的人生，与其他能够改变人生的事件并无不同，它或许会使其的世界观产生戏剧性的影响。你的角色如何看待他的升华、他的守护神、以及很多人都将其视为一个危险的受诅者的事实？他的二次初啼是怎样改变他的？他看见的是怎样的未来？<br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>法社：携手共进</strong></span><br>你的法社在游戏中一同旅行，共同对抗敌人，完成伟大的事业。这需要你同其他PC合作——在游戏开始之前，最后详细说明每个角色在法社中扮演的角色，且决定哪个角色（如果有的话）是它的领导者。法社有名字吗？它是否有一个高于所有成员之上的目标？如果是，那它是怎样的目标？如果你是ST，你需要考虑是让PC在游戏中建立他们的法社，还是在游戏前法社就已经存在。如果它已经存在了一段时间，那么它有什么成就吗？<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>与赤日同在：经验丰富的日轮</strong><br>默认人物创建的是一个升华不到一年的日轮。作为ST，你或许想运作一个已经踏入其英雄生涯的第一步的避难所。或许他们已经建立了属于自己的王国，或许他们在尘世间已经有了一个称号。创建一个有经验的日轮和创建一个标准日轮完全相同，除了以下列出的少许不同：<br><ul class="bbc_list">13点永久点分配给优势<br>选择20个秘法<br>属性初始2点永久点<br>18点额外点数</ul><br><strong>活在当下</strong><br>日轮尊者在街道上和刺客战斗，与任性的神决斗，同荒猎交兵。如果你的ST计划在游戏中包括任意形式的战斗，那么你就应该选择那些能够确保你幸存的秘法。<br>选择至少一种战斗技能作为天位或亲和能力是明智的，因为经验点数的折扣使购买防御用的秘法更加容易。壮牛法（Ox-Body Technique）是个稳健的选择，因为它能够赋予你额外的健康等级，以便你能够在伤害中幸存。一般来说，2~5个战斗用的秘法就足以让你的日轮不至于死在一伙土匪手中，且能够让她获得面对超凡力量的最基本的抵抗力。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952341">
+&#171; <em>上次编辑: 2019-01-07, 周一 15:42:48 由 云之彼端</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952341_signature"><span style="color: teal;" class="bbc_color"><strong>“BEHOLD, THE PROGRESS ENGINE.” </strong></span></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103700.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0"><span>[EX3-Core] 第三章 - 角色创建</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 103700,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 103700,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="103700" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=103700.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 3801 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1735,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Exalted",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1735,
+							iTopicId: 103700,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

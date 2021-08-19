@@ -1,0 +1,990 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【规则翻译】【CthulhuTech 核心规则】骰子系统介绍"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1677.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="82059"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1677.0"><span>Cthulhu Tech</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=74508" title="版主">（Light</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0"><span>【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg773848"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=82059.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍 &nbsp;(阅读 14222 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=quickmod2;topic=82059.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e8ec3fcb53e635cea755d88e80dad504', 'b6a8112e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=63004" title="检视会员资料:  moonsang">moonsang</a>
+</h4>
+<ul class="reset smalltext" id="msg_773848_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 9<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773848">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773848#msg773848" rel="nofollow">【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773848'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773848'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-01-20, 周三 17:15:37 &#187;</div>
+<div id="msg_773848_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773848">貌似论坛里关于CthulhuTech规则的翻译非常少，抱着好奇心我对核心规则进行了粗略的翻译（感谢凉凉的网盘分享），在此先介绍一下其很有特色的骰子概率系统，希望能说明不同概率系统对跑团体验的影响。<br>在介绍之前我们先看一下大家比较熟知的Cthulhu跑团规则如何处理概率：<br>Call of Cthulhu：玩家投D100，和自己的技能比较，低于技能则通过。难度较高时技能会打折，但没有明确的难度。<br>Trail of Cthulhu：玩家先决定花费对应技能池中多少点数，然后投1D6，将结果加上自己花费的技能点与难度比较，高于难度则通过。难度分布为2~8。<br>========================================<br>CthulhuTech（以下简称CT）的规则系统被称为Framewerk，是一套D10骰子规则。<br>技能检定可以分成4个步骤，首先玩家分析自己想做的事情用到哪种技能，然后城主决定该次检定的难度，然后玩家扔骰子查看结果，最后进行比较得到该次检定是否成功。<br>1&nbsp;&nbsp;&nbsp;决定技能和相关属性<br>&nbsp; &nbsp; CT规则下，做那些有点挑战性的事情都要求玩家拥有相应技能。而每个技能都与某个基础属性（力量、智力等）挂钩。因此，玩家做某事的能力被表现为：对应基础属性值+技能骰子点数+修正值。注意骰子的点数不是简单相加的，见后文。<br>2&nbsp;&nbsp;&nbsp;决定难度<br>&nbsp; &nbsp; CT规则下难度可分为6级：简单（7~9），一般（10~14），有挑战（15~19），困难（20~25），非常困难（26~31），传奇（32+）。<br>3&nbsp;&nbsp;&nbsp;扔骰子的结果<br>&nbsp; &nbsp; 玩家扔N个D10骰子，N等于技能等级。玩家可以取最高结果（结果3、4、7则取7），或把多个相同结果相加（结果4、4、6取4+4=8）。如果一次扔了3个或更多的骰子，还可以取顺子（结果9、4、5、6取4+5+6=15），顺子至少由3个骰子组成。<br>4&nbsp;&nbsp;&nbsp;确定是否成功<br>&nbsp; &nbsp; 将上一步骰子的结果与对应基础属性相加得到技能检定值，然后和难度比大小。检定值比难度高或相等，则为成功，反之为失败。<br><br>当然，这套规则也有各种修正，比如常见的大成功——检定值比难度大10+，那么你就大成功；大失败——如果你扔出的全是1，或在多于3个骰子的情况下扔出3个1，那么你就大失败了。<br><br>并且，CT有戏剧点的设定（类似PF英雄点）：花费1个戏剧点，玩家可以将自己或盟友1个骰子的结果提高1。或将敌人的1个骰子的结果减少1。在投骰前，花费1个戏剧点还可以增加1个己方骰子数量（最多同时投10个），或减少敌方1个骰子数量（可以减到0）。<br>==================================================<br>可能这样说，很多人看不出与之前介绍的两种规则有多少区别，跑团不都是充满随机的吗？但我在好奇心的驱使下，进行了一些较真的”研究“。<br>下面是使用3D10骰子（CT规则下中等级别技能熟练度），按照CT规则计算结果和3D10简单相加进行对比，找朋友用统计学软件做了图。<br><img src="http://i4.tietuku.com/9361796e71f08cdd.jpg" alt="" class="bbc_img"/>CT规则<br><img src="http://i4.tietuku.com/ec9b1a6c0e18c805.jpg" alt="" class="bbc_img"/>简单相加<br>可以看出，CT规则下，骰子的结果更加集中，密集分布在5~10，高数值有（可达30）但非常少。<br>也就是说通过这种规则，改变了骰子平均分布的结果，而COC 和TOC全是简单的平均分布。<br>这有什么意义呢？我认为作为克苏鲁这类悬疑剧情类剧本的KP，更希望自己设定的难度可以使得剧情节奏顺畅，不会因为玩家的手气造成偏离非常大的情况。因此这种非常集中的分布，更加有利于难度设计，平常的低难度不至于卡剧情，高潮的高难度，玩家可多投入戏剧点，在技能有限等级时靠运气爆发高数值。<br><br>以上就是本帖想表达的想法，希望获得大家意见。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773848">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773918"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_773918_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773918">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773918#msg773918" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773918'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773918'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-01-21, 周四 01:43:50 &#187;</div>
+<div id="msg_773918_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773918">有趣的设定，但似乎对数学不好的人不太友好……<br>咱就无法在7秒内算出6+7+8=多少……</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773918">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_773918_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773919"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332" title="检视会员资料:  弑君者伊恩">弑君者伊恩</a>
+</h4>
+<ul class="reset smalltext" id="msg_773919_extra_info">
+<li class="title">但他举起了投枪！<li class="postgroup">Diver<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40332_1496098953.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3507<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" title="卷轴之路TRPG" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="卷轴之路TRPG" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773919">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773919#msg773919" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773919'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773919'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2016-01-21, 周四 03:13:09 &#187;</div>
+<div id="msg_773919_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773919">如主楼所说，骰子系统带来的分布很好，但是缺陷是如果要经常掷骰，反复的口算会明显将人带出戏。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773919">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_773919_signature"><table class="bbc_table"><tr><td><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=64282.0;attach=90676;image" alt="" class="bbc_img"/></a><br><td>　　<td><strong>规则链接</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105169.0" class="bbc_link new_win" target="_blank">点我。</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank">专区链接</a><br><strong>论坛先测团</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115345.0" class="bbc_link new_win" target="_blank">论坛团说明</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115467.0" class="bbc_link new_win" target="_blank">人物卡楼</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115817.0" class="bbc_link new_win" target="_blank">《百里烽烟》</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115896.0" class="bbc_link new_win" target="_blank">《深红毁灭魔》</a><br><strong>关于PF1魔战士</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=84869.0" class="bbc_link new_win" target="_blank">魔战士随笔</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=94767.0" class="bbc_link new_win" target="_blank">魔战士两三问</a>，<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119881.0" class="bbc_link new_win" target="_blank">魔战士五择</a></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773925"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=832" title="检视会员资料:  jimraynor">jimraynor</a>
+</h4>
+<ul class="reset smalltext" id="msg_773925_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=832">
+<img class="avatar" src="/bbs/upload/avatar/avatar_832_1416178698.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1005<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773925">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773925#msg773925" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773925'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773925'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2016-01-21, 周四 06:25:00 &#187;</div>
+<div id="msg_773925_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773925">其实相比之下，“计算顺子和相同数字的加和”比“计算n个任意数字的加和”已经容易了很多不是嘛……</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773925">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_773925_signature">以下引自全能的羊姐姐：<br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=47579.msg427916#msg427916">引述: Sheepy 于 2012-05-08, 周二 12:45:20</a></div></div><blockquote class="bbc_standard_quote">挑出最优解不是容易的事。很多四版战斗时间就是花在等待或讨论最优解之上的... 战:&quot;我应该把他打倒地还是推开他?&quot; 贼:&quot;别推别推我要夹击&quot; 牧:&quot;可是不推的话他一快步我们就全体吃光环&quot; 贼:&quot;那么你别动，我用换位打?&quot; 法:&quot;我也可以拉人.&quot; 战:&quot;不可以那是墙角你不能钭拉&quot; 法:&quot;如果我这样走的话好像可以拉了但牧师要让路&quot; 牧:&quot;我走开就罩不住贼?&quot; 然后，过了十多分钟，大家谈好了，战士投骰，<span style="color: red;" class="bbc_color"><strong>打失</strong></span>... &quot;是时候重新想了.&quot;<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773927"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332" title="检视会员资料:  弑君者伊恩">弑君者伊恩</a>
+</h4>
+<ul class="reset smalltext" id="msg_773927_extra_info">
+<li class="title">但他举起了投枪！<li class="postgroup">Diver<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40332_1496098953.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3507<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" title="卷轴之路TRPG" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="卷轴之路TRPG" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773927">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773927#msg773927" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773927'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773927'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2016-01-21, 周四 06:46:36 &#187;</div>
+<div id="msg_773927_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773927">都很笨，我觉得最好不要有计算——尤其是这种无法预知的计算</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773927">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_773927_signature"><table class="bbc_table"><tr><td><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=64282.0;attach=90676;image" alt="" class="bbc_img"/></a><br><td>　　<td><strong>规则链接</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105169.0" class="bbc_link new_win" target="_blank">点我。</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank">专区链接</a><br><strong>论坛先测团</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115345.0" class="bbc_link new_win" target="_blank">论坛团说明</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115467.0" class="bbc_link new_win" target="_blank">人物卡楼</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115817.0" class="bbc_link new_win" target="_blank">《百里烽烟》</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115896.0" class="bbc_link new_win" target="_blank">《深红毁灭魔》</a><br><strong>关于PF1魔战士</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=84869.0" class="bbc_link new_win" target="_blank">魔战士随笔</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=94767.0" class="bbc_link new_win" target="_blank">魔战士两三问</a>，<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119881.0" class="bbc_link new_win" target="_blank">魔战士五择</a></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773939"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=63004" title="检视会员资料:  moonsang">moonsang</a>
+</h4>
+<ul class="reset smalltext" id="msg_773939_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 9<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773939">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg773939#msg773939" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773939'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773939'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-01-21, 周四 09:26:53 &#187;</div>
+<div id="msg_773939_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773939">其实出现顺子的概率并不多，大部分情况只要简单的看最高值或者把对子x2就行了。在玩家渴望获得高数值时，玩家也不介意仔细想想是改变骰子结果凑顺子还是赌一把增加骰子了。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773939">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774014"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332" title="检视会员资料:  弑君者伊恩">弑君者伊恩</a>
+</h4>
+<ul class="reset smalltext" id="msg_774014_extra_info">
+<li class="title">但他举起了投枪！<li class="postgroup">Diver<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40332">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40332_1496098953.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3507<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" title="卷轴之路TRPG" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="卷轴之路TRPG" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774014">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774014#msg774014" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774014'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774014'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-01-21, 周四 18:09:42 &#187;</div>
+<div id="msg_774014_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774014">顺子其实也不难算，奇数骰就是取中间数x骰数，偶数就是取头尾相加然后乘骰数一半，不过就是要费下心呢</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774014">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_774014_signature"><table class="bbc_table"><tr><td><a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=64282.0;attach=90676;image" alt="" class="bbc_img"/></a><br><td>　　<td><strong>规则链接</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105169.0" class="bbc_link new_win" target="_blank">点我。</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?board=1711.0" class="bbc_link new_win" target="_blank">专区链接</a><br><strong>论坛先测团</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115345.0" class="bbc_link new_win" target="_blank">论坛团说明</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115467.0" class="bbc_link new_win" target="_blank">人物卡楼</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115817.0" class="bbc_link new_win" target="_blank">《百里烽烟》</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=115896.0" class="bbc_link new_win" target="_blank">《深红毁灭魔》</a><br><strong>关于PF1魔战士</strong>：<a href="http://www.goddessfantasy.net/bbs/index.php?topic=84869.0" class="bbc_link new_win" target="_blank">魔战士随笔</a>，<a href="http://www.goddessfantasy.net/bbs/index.php?topic=94767.0" class="bbc_link new_win" target="_blank">魔战士两三问</a>，<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=119881.0" class="bbc_link new_win" target="_blank">魔战士五择</a></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774040"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10072" title="检视会员资料:  user8786">user8786</a>
+</h4>
+<ul class="reset smalltext" id="msg_774040_extra_info">
+<li class="title">马迪撒之主<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 339<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774040">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774040#msg774040" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774040'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774040'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2016-01-21, 周四 19:49:32 &#187;</div>
+<div id="msg_774040_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774040">N个骰子出5 6通过，N=属性是啥版本的COC规则呢？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774040">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_774040_signature">只想找到几个人，开开心心的跑团，为什么一个两个临时有事那么多！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774200"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_774200_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774200">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774200#msg774200" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774200'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774200'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-01-22, 周五 20:52:56 &#187;</div>
+<div id="msg_774200_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774200"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774040#msg774040">引述: user8786 于 2016-01-21, 周四 19:49:32</a></div></div><blockquote class="bbc_standard_quote">N个骰子出5 6通过，N=属性是啥版本的COC规则呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>魔镇惊魂</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774200">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_774200_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774222"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=75664" title="检视会员资料:  数据删除">数据删除</a>
+</h4>
+<ul class="reset smalltext" id="msg_774222_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 2<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774222">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774222#msg774222" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774222'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774222'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-01-23, 周六 00:02:05 &#187;</div>
+<div id="msg_774222_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774222">唔，能麻烦分享一下CthulhuTech规则书吗，试着啃啃</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774222">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774468"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=63004" title="检视会员资料:  moonsang">moonsang</a>
+</h4>
+<ul class="reset smalltext" id="msg_774468_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 9<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774468">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774468#msg774468" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774468'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774468'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2016-01-24, 周日 17:09:05 &#187;</div>
+<div id="msg_774468_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774468"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774222#msg774222">引述: 数据删除 于 2016-01-23, 周六 00:02:05</a></div></div><blockquote class="bbc_standard_quote">唔，能麻烦分享一下CthulhuTech规则书吗，试着啃啃<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请在凉凉版主的网盘里找。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774468">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774708"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568" title="检视会员资料:  无名的巫妖">无名的巫妖</a>
+</h4>
+<ul class="reset smalltext" id="msg_774708_extra_info">
+<li class="title">人菜话不多<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76568_1619018006.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 117<li class="karma">苹果币: 0<li class="blurb">人菜话不多<li class="profile">
+<ul>
+<li><a href="http://linnena.lofter.com/" title="lofter" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="lofter" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774708">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774708#msg774708" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774708'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774708'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2016-01-26, 周二 14:45:35 &#187;</div>
+<div id="msg_774708_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774708">楼主这个统计叼得飞起！！！！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774708">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_774708_signature">没有退路了，这一生不会有，下一世亦不会有……<br><br>模组翻译存档：<a href="https://pan.baidu.com/s/1jIj556u" class="bbc_link new_win" target="_blank">https://pan.baidu.com/s/1jIj556u</a><br><br>已完坑的模组集：<br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=101451.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元-Strange Aeons</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98921.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元2-Strange Aeons IIs</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=97549.0/" class="bbc_link new_win" target="_blank">7版战役 卡尔克萨的涟漪-Ripples From Carcosa</a><br><br>奈亚面具-肯尼亚篇 0.2/1</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg777023"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=74894" title="检视会员资料:  星空意面">星空意面</a>
+</h4>
+<ul class="reset smalltext" id="msg_777023_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 12<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_777023">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg777023#msg777023" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_777023'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_777023'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2016-02-11, 周四 21:04:19 &#187;</div>
+<div id="msg_777023_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_777023">恩，这个的话，已经翻译一部分了<br>链接：http://pan.baidu.com/s/1eQL2IJ4 密码：vyy3<br>早期是由台湾翻译基础上进行的，原网址<br>sites.google.com/site/cthulhutech/</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_777023">
+&#171; <em>上次编辑: 2016-02-11, 周四 21:15:51 由 星空意面</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg777035"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=74508" title="检视会员资料:  （Light">（Light</a>
+</h4>
+<ul class="reset smalltext" id="msg_777035_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_777035">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg777035#msg777035" rel="nofollow">Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_777035'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_777035'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2016-02-11, 周四 22:07:44 &#187;</div>
+<div id="msg_777035_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_777035">跑过的只能说，呃，这规则在一些战斗下的结算会显得有些......麻烦。虽然习惯以后会稍微快一些，但是依旧会因为步骤耗时（以至于我不敢开一些虽然有趣但更多结算步骤的可选规则（当然也有可能是我自己数学能力弱鸡）。当然寻常的技能检定自然不会怎样，总之和之前的楼层有说的一样，反复的口算确实会让人出戏（</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_777035">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=82059.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1677.0"><span>Cthulhu Tech</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=74508" title="版主">（Light</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0"><span>【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 82059,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 82059,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b6a8112e" value="e8ec3fcb53e635cea755d88e80dad504" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="82059" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e8ec3fcb53e635cea755d88e80dad504\', \'b6a8112e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;' + '?topic=82059.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 14222 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1677,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Cthulhu Tech",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1677,
+							iTopicId: 82059,
+							sSessionId: "e8ec3fcb53e635cea755d88e80dad504",
+							sSessionVar: "b6a8112e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

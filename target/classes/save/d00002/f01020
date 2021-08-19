@@ -1,0 +1,969 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【CRB】魔射手（Arcane Archer）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【CRB】魔射手（Arcane Archer）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1845.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'a3f6e4c1d40eafe3396a9c91c02a2d70');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="28048"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'c5ba327dbb8',
+sSessionId: 'a3f6e4c1d40eafe3396a9c91c02a2d70'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1845.0"><span>《核心规则书》</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0"><span>【CRB】魔射手（Arcane Archer）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg217679"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=28048.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【CRB】魔射手（Arcane Archer） &nbsp;(阅读 19525 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 20171107 - 翻新完毕。未除错。</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=28048.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('a3f6e4c1d40eafe3396a9c91c02a2d70', 'c5ba327dbb8') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=7090" title="检视会员资料:  zhuyunke">zhuyunke</a>
+</h4>
+<ul class="reset smalltext" id="msg_217679_extra_info">
+<li class="title">雍亲王<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 141<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217679">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217679#msg217679" rel="nofollow">【CRB】魔射手（Arcane Archer）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217679'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217679'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2009-12-26, 周六 15:27:26 &#187;</div>
+<div id="msg_217679_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217679">本篇由 <strong><span style="color: navy;" class="bbc_color">沉沦</span></strong> 进行更新与除错。<br><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><span style="color: maroon;" class="bbc_color"><strong>魔射手（Arcane Archer）</strong></span></span><br><br>那些希望完善弓技者有时会走上成为魔射手之路。魔射手乃是远程战斗的宗师，肇因于他们掌握着毫无偏差地对目标进行精准打击、以及将强力魔法灌注于箭矢的能力。魔射手射出的箭矢能以诡异离奇的角度飞行并命中墙角后的敌人，也可以穿透固态物体并打中瑟缩在这类掩体后方的敌人。在他们能力的巅峰，魔射手甚至能够用一次绝杀般的射击轰倒最为强大的敌人。<br><br>同时接受游侠和法师训练的角色能成为优秀的魔射手，当然其他兼职的结合也并非没有听闻。有精灵的地方就有魔射手，但并非所有魔射手都是精灵的盟友。许多魔射手、尤其是半精灵魔射手，只不过将这门精灵的传统技艺拿来谋取私利，或是更糟糕地，拿来对付他们所习这门传统的来源——精灵。<br><br>　<strong>职位（Role）：</strong>在他的同伴们与敌人短兵相接时，魔射手在远处解决掉敌人。有着从远方对着敌人放出箭雨的能力，他们代表着远程战斗的顶点。<br>　<strong>阵营（Alignment）：</strong>魔射手可以是任何阵营，虽然精灵和半精灵通常倾向于自由奔放，所以很少有秩序阵营。类似的，因为很少有邪恶的精灵和半精灵，所以魔射手通常是非邪恶的。<br>　<strong>生命骰（Hit Die）：</strong>d10<br><br><span style="color: brown;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>进阶要求（Requirement）</strong></span></span><br>要成为一个魔射手，角色必须满足全部以下条件。<br>　<strong>基本攻击加值（Basic Attack Bonus）：</strong>+6。<br>　<strong>专长（Feats）：</strong>近程射击，精准射击，专攻武器（长弓或短弓）。<br>　<strong>施法（Spell）：</strong>可施展一环奥术。<br><br><span style="color: brown;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>本职技能（Class Skills）</strong></span></span><br>魔射手的本职技能（括号中为该技能的关键属性）为察觉（感知），骑术（敏捷），隐匿（敏捷）和生存（感知）。<br>　<strong>升级技能点数（Skill Ranks Per Level）：</strong>4+智力调整值。<br><br><span style="color: brown;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>职业特性（Class Features）</strong></span></span><br>以下为魔射手的职业特性。<br><br>　<strong>武器和防具擅长（Weapon and Armor Proficiency）：</strong>魔射手擅长全部简易武器与军用武器、轻型盔甲、中型盔甲与盾牌。<br><br>　<strong>每日法术（Spells per Day）：</strong>在指定的等级上，魔射手会获得新的每日法术，如同他在进阶此职业前所属的奥术职业上又提升了等级。但是，除了额外的每日法术、可知法术（如果他是个自发施法者的话）以及施法的有效等级提升外，他并不会获得任何该职业的角色提升职业等级时会获得的其他效果。若角色在进阶魔射手前有多于一个的奥术职业，那么他在提升每日法术时必须决定将新等级加到哪一个职业上。<br><br>　<strong>附魔箭（Enhance Arrow，Su）：</strong>1级开始，任何由魔射手搭弦并射出的非魔法箭会变成魔法箭，获得+1增强加值。和正常方法制作的魔法武器不同，魔射手不需花费金钱就可制造。不过，这种魔法箭只对他自己有用。<br>　另外，随着魔射手等级的提升，他的箭也获得了一定的额外能力。每天可以改变一次能量、能量爆以及阵营能力，时机为魔射手准备法术时或（在自发施法者的状况中）经过8小时休息后。<br>　在第3级，每个由魔射手射出的非魔法箭获得以下的能量特性之一：<em>炽焰</em>，<em>冻寒</em>，或<em>电击</em>。<br>　在第5级，每个由魔射手射出的非魔法箭获得<em>及远</em>武器特性。<br>　在第7级，每个由魔射手射出的非魔法箭获得以下的能量特性之一：<em>焰爆</em>，<em>冰寒</em>，或<em>电爆</em>。这取代第3级时取得的能力。<br>　在第9级时，每个由魔射手射出的非魔法箭获得以下的武器特性之一：<em>秩序</em>，<em>混沌</em>，<em>神圣</em>，或<em>邪恶</em>。魔射手不能选择与自身阵营对立的能力（举例而言，守序善良的魔射手不能选择邪恶和混乱作为武器特性）。<br>　由魔法弓带来的增强特性可以正常的附加在这些已被弓箭手能力增强过的箭上。只有较高的加值会附加上去。相同的加值并不叠加。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>表11-1：魔射手</strong></span><br><table class="bbc_table"><tr><td><strong>等级　 </strong><td><strong>BAB　 </strong><td><strong>强韧　 </strong><td><strong>反射　 </strong><td><strong>意志　 </strong><td><strong>职业能力　 </strong><td><strong>施法者等级</strong></tr><tr><td>1级<td>+1<td>+1<td>+0<td>+0<td>附魔箭（魔法）</tr><tr><td>2级<td>+2<td>+1<td>+1<td>+1<td>灌法箭<td>+1已有的职业</tr><tr><td>3级<td>+3<td>+2<td>+2<td>+1<td>附魔箭（能量）<td>+1已有的职业</tr><tr><td>4级<td>+4<td>+2<td>+2<td>+1<td>追踪箭<td>+1已有的职业</tr><tr><td>5级<td>+5<td>+3<td>+3<td>+2<td>附魔箭（及远）</tr><tr><td>6级<td>+6<td>+3<td>+3<td>+2<td>相位箭<td>+1已有的职业</tr><tr><td>7级<td>+7<td>+4<td>+4<td>+2<td>附魔箭（能量爆）<td>+1已有的职业</tr><tr><td>8级<td>+8<td>+4<td>+4<td>+3<td>箭雨<td>+1已有的职业</tr><tr><td>9级<td>+9<td>+5<td>+5<td>+3<td>附魔箭（阵营）</tr><tr><td>10级<td>+10<td>+5<td>+5<td>+3<td>死亡箭<td>+1已有的职业</tr></table><br>　<strong>灌法箭（Imbue Arrow，Sp）：</strong>2级开始，魔射手获得此能力，可在箭上灌注一个区域性法术。射出后，箭着点成为该法术影响区域中心，即便该法术本来只能以施法者为中心。此能力可让射手用弓的射程取代法术。如此施法时耗费正常的施法时间，而且射箭视为施法的一部分。施法与射箭必须在同一轮完成，否则法术便失效。如果箭未命中，则法术失效。<br><br>　<strong>追踪箭（Seeker Arrow，Sp）：</strong>4级开始，魔射手每日可射出一支箭追踪射程内的一个他所知的目标，可以绕过弯角命中敌人。只有遇到不能绕避的障碍物或超出射程时才无法追踪。掩蔽与隐蔽调整值对此能力无效，但除此之外，仍如常进行攻击检定。使用此能力属于标准动作（射箭为动作的一部分）。4级时魔射手每日可使用一次本能力，此后的每两个等级将增加一次，在第十级时达到最多的每日四次。<br><br>　<strong>相位箭（Phase Arrow，Sp）：</strong>6级开始，魔射手每日可对射程内已知目标射出一支相位箭，此间会贯穿途中所有非魔法障壁，直线飞抵目标（任何法术障碍都会将箭矢挡下）。该能力忽视掩蔽、隐蔽、盔甲与盾牌调整值。但除此之外，仍如常进行攻击检定。使用此能力属于标准动作（射箭为动作的一部分）。6级时每日可使用一次相位箭，此后每两级增加一次，在第十级时达到最多每日三次。<br><br>　<strong>箭雨（Hail of Arrows，Sp）：</strong>8级开始，替代一般攻击，魔射手可以同时对射程内的每个目标射出箭矢，数量最多等同于他所拥有的魔射手等级。该能力每日可使用一次。每支箭的攻击检定都使用射手的主要攻击加值，同时只能向每个敌人射一箭。<br><br>　<strong>死亡箭（Arrow of Death，Sp）：</strong>10级开始，魔射手可以制造出特别的<em>杀戮箭</em>，迫使目标若被此箭伤害须通过强韧检定，否则立即死亡。此豁免DC为20+魔射手的魅力调整值。制造<em>杀戮箭</em>需要花上1天，<em>杀戮箭</em>最多能够存在1年，并且魔射手一次只能保有一只这样的箭矢。<br><br><hr /><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">魔射手（Arcane Archer）<br>那些希望完善弓技的精灵和半精灵常常选择成为一个魔射手。因其精准的打击以及施加在箭上的魔法，魔射手掌控着远程战斗。魔射手的箭会可以绕过弯角命中敌人，即使他全身躲在岩石后面，箭也可以穿过掩体完成攻击。在职业巅峰，他可以得到一箭毙命的强大箭术。<br>同时接受游侠和法师训练的角色会成为优秀的魔射手，当然其他的兼职职业也并非没有。有精灵的地方就有魔射手，但并非所有魔射手都是精灵的盟友。许多魔射手，尤其是半精灵魔射手，只不过将其技艺拿来谋取私利，甚至用来对付那些守旧的精灵们。<br>职位（Role）：在他的同伴们生死肉搏时，魔射手在远处解决掉敌人。依靠施放呼啸的箭，他们达到了远程作战的巅峰。<br>阵营（Alignment）：魔射手可以是任何阵营，虽然精灵和半精灵通常倾向于自由奔放，所以很少有秩序阵营。类似的，因为很少有邪恶的精灵和半精灵，所以魔射手通常是非邪恶的。<br>生命骰（Hit Die）：d10<br><br>进阶要求（Requirement）<br>要成为一个魔射手，角色必须满足全部以下条件<br>种族：精灵或半精灵<br>基本攻击加值：+6。<br>专长：近程射击，精准射击，专攻武器（长弓或短弓）。<br>施法：可施展一级奥术。<br><br>本职技能<br>魔射手的本职技能如下（括号中为该技能的关键属性）：洞察（感知）＊，骑术（敏捷），隐秘（敏捷）＊，生存（感知）。<br>＊新技能，待补充<br>升级技能点数：4+智力调整值。<br>职业特性<br>Table　11–1: Arcane Archer<br>Level　Base Attack Bonus　Fort Ref Will　Special　　Spells per Day<br>1st　+1　+1　+1　+0　附魔箭 (魔法)　　　　　　　　- 　<br>2nd　+2　+1　+1　+1　灌法箭 　　　　　　　　+1 level of existing class<br>3rd　+3　+2　+2　+1　附魔箭 (能量)　　　　　　+1 level of existing class<br>4th　+4　+2　+2　+1　追踪箭　　　　　　　　　+1 level of existing class<br>5th　+5　+3　+3　+2　附魔箭（及远）　　　　　　　-<br>6th　+6　+3　+3　+2　相位箭　　　　　　　　　＋1 level of existing class<br>7th　+7　+4　+4　+2　附魔箭(能量爆) 　　　　　+1 level of existing class<br>8th　+8　+4　+4　+3　箭雨　　　　　　　　　　+1 level of existing class<br>9th　+9　+5　+5　+3　附魔箭(阵营)　　　　　　　　　-<br>10th +10　+5　+5　+3　死亡箭　　　　　　　　　+1 level of existing class<br><br>以下为魔射手的职业特性：<br>武器和防具擅长：魔射手擅长全部简易武器与军用武器、轻型盔甲、中型盔甲与盾牌。<br>每日法术：除1、5、9级，魔射手获得每日法术如同他之前的奥术施法职业获得了提升，但他不获得除法术提升之外的其他奖励。如果一个角色之前有多个奥术施法职业，他必须选择提升哪一个职业的施法能力。<br><br>附魔箭（Enhance Arrow，Su）：1级开始，任何由魔射手搭弦并射出的非魔法箭会变成魔法箭，具有+1增强加值。和正常方法制作的魔法武器不同，魔射手不需花费经验值或金钱就可制造。不过，这种魔法箭只对他有用。<br>另外，随着魔射手等级的提升，他的箭也获得了一定的额外能力。能量，能量爆以及阵营能力每天可以改变一次，在魔射手准备法术时。对于自发施法者是经过8小时休息时。<br>在第3级，每个由魔射手射出的非魔法箭获得以下的能量特性之一：炽焰，冻寒，电击。<br>在第5级，每个由魔射手射出的非魔法箭获得及远特性。<br>在第7级，每个由魔射手射出的非魔法箭获得以下的能量特性之一：焰爆，冰寒，电爆。这取代第3级时取得的能力。<br>在第9级时，每个由魔射手射出的非魔法箭获得以下的武器特性之一：秩序，混沌，神圣，邪恶。魔射手不能选择与自身阵营相背的特性。比如守序善良的魔射手不能选择邪恶和混乱特性。<br>由魔法弓带来的增强特性可以正常的附加在这些已被弓箭手能力增强过的箭上。但是除非有更高的加值，否则相同能力不叠加。<br><br>灌法箭（Imbue Arrow，Sp）：2级开始，魔射手获得此能力，可在箭上灌注一个区域性法术。射出后，箭着点成为该法术影响区域中心，即便该法术本来只能以施法者为中心。此能力可让射手用弓的射程取代法术距离.如此施法时耗费正常的施法时间，而且射箭视为施法的一部分。施法与射箭必须在同一轮完成，否则法术便失效。如果箭未命中，则法术失效。<br><br>追踪箭（Seeker Arrow，Sp）：4级开始，魔射手每日可射出一支箭追踪射程内的一个他所知的目标，该箭可以绕过弯角命中敌人。只有遇到不能绕避的障碍物或超出射程时才无法追踪。掩蔽与隐蔽调整值对此能力无效，但除此之外，其他攻击相关检定仍照常。使用此能力属于标准动作（射箭为动作的一部分）。4级时魔射手每日可使用一次本能力，此后的每两个等级将增加一次，在第十级时达到最多的四次每日。<br><br>相位箭（Phase Arrow，Sp）：6级开始，魔射手每日可对射程内已知目标射出一支相位箭，此间会贯穿途中所有非魔法障壁，直线飞抵目标。（任何法术障碍都会阻挡箭）。该能力忽视掩蔽、隐蔽调整值，同时还有任何盔甲修正。但除此之外，其他攻击相关检定仍照常。使用此能力属于标准动作（射箭为动作的一部分）。6级时每日可使用一次相位箭，此后每两级增加一次，在第十级时达到最多三次每日。<br><br>箭雨（Hail of Arrows，Sp）：8级开始，替代一般攻击，魔射手可同时对射程内多个目标各射一箭，可射击的目标数等于魔射手等级。该能力每日可使用一次。每支箭的攻击都使用射手的主要攻击加值，同时只能向每个敌人射一箭。<br><br>死亡箭（Arrow of Death，Sp）：10级开始，魔射手可以使用死亡箭，目标若中此箭，须进行强韧豁免（DC 20+魅力修正值），未通过则立即死亡，制造死亡箭需要一整天，而且只有制造者能使用。死亡箭至多能保存一年，同时魔射手不能同时拥有一支以上的死亡箭。</div></div></div><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="color: gray;" class="bbc_color">Elves or half-elves who seek to perfect the use of the bow sometimes pursue the path of the arcane archer. Arcane archers are masters of ranged combat, as they possess the ability to strike at targets with unerring accuracy and can imbue their arrows with powerful spells. Arrows fired by arcane archers fly at weird and uncanny angles to strike at foes around corners, and can pass through solid objects to hit enemies that cower behind such cover. At the height of their power, arcane archers can fell even the most powerful foes with a single, deadly shot.<br>Those who have trained as both rangers and wizards excel as arcane archers, although other multiclass combinations are not unheard of. Arcane archers may be found wherever elves travel, but not all are allies of the elves. Many, particularly half-elven arcane archers, use elven traditions solely for their own gain, or worse, against the elves whose very traditions they adhere to.<br>Role: Arcane archers deal death from afar, winnowing down opponents while their allies rush into hand-to-hand combat. With their capacity to unleash hails of arrows on the enemy, they represent the pinnacle of ranged combat.<br>Alignment: Arcane archers can be of any alignment, though as elves and half-elves tend to be free-spirited, they are rarely lawful. Similarly, it is uncommon to find evil elves and half-elves, and the path of the arcane archer is therefore more often pursued by good or neutral characters.<br><br>Hit Die: d10.<br>Requirements<br>To qualify to become an arcane archer, a character must fulfill all the following criteria.<br>Race: Elf or half-elf.<br>Base Attack Bonus: +6.<br>Feats: Point Blank Shot, Precise Shot, Weapon Focus (longbow or shortbow).<br>Spells: Ability to cast 1st-level arcane spells.<br><br>Class Skills<br>The arcane archer&#039;s class skills (and the key ability for each skill) are Perception (Wis), Ride (Dex), Stealth (Dex), and Survival (Wis).<br>Skill Ranks at Each Level: 4 + Int modifier.<br><br>Class Features<br>All of the following are class features of the arcane archer prestige class.<br>Weapon and Armor Proficiency: An arcane archer is proficient with all simple and martial weapons, light armor, medium armor, and shields.<br>Spells per Day: At the indicated levels, an arcane archer gains new spells per day as if he had also gained a level in an arcane spellcasting class he belonged to before adding the prestige class. He does not, however, gain other benefits a character of that class would have gained, except for additional spells per day, spells known (if he is a spontaneous spellcaster), and an increased effective level of spellcasting. If a character had more than one arcane spellcasting class before becoming an arcane archer, he must decide to which class he adds the new level for purposes of determining spells per day.<br><br>Enhance Arrows (Su): At 1st level, every nonmagical arrow an arcane archer nocks and lets fly becomes magical, gaining a +1 enhancement bonus. Unlike magic weapons created by normal means, the archer need not spend gold pieces to accomplish this task. However, an archer&#039;s magic arrows only function for him.<br>In addition, the arcane archer&#039;s arrows gain a number of additional qualities as he gains additional levels. The elemental, elemental burst, and aligned qualities can be changed once per day, when the arcane archer prepares spells or, in the case of spontaneous spellcasters, after 8 hours of rest.<br>At 3rd level, every nonmagical arrow fired by an arcane archer gains one of the following elemental themed weapon qualities: flaming, frost, or shock. At 5th level, every nonmagical arrow fired by an arcane archer gains the distance weapon quality.At 7th level, every nonmagical arrow fired by an arcane archer gains one of the following elemental burst weapon qualities: flamng burst, icy burst, or shocking burst. This ability replaces the ability gained at 3rd level.At 9th level, every nonmagical arrow fired by an arcane archer gains one of the following aligned weapon qualities: anarchic, axiomatic, holy, or unholy. The arcane archer cannot choose an ability that is the opposite of his alignment (for example, a lawful good arcane archer could not choose anarchic or unholy as his weapon quality).<br>The bonuses granted by a magic bow apply as normal to arrows that have been enhanced with this ability. Only the larger enhancement bonus applies. Duplicate abilities do not stack.<br>Imbue Arrow (Sp): At 2nd level, an arcane archer gains the ability to place an area spell upon an arrow. When the arrow is fired, the spell&#039;s area is centered where the arrow lands, even if the spell could normally be centered only on the caster. This ability allows the archer to use the bow&#039;s range rather than the spell&#039;s range. A spell cast in this way uses its standard casting time and the arcane archer can fire the arrow as part of the casting. The arrow must be fired during the round that the casting is completed or the spell is wasted. If the arrow misses, the spell is wasted.<br>Seeker Arrow (Sp): At 4th level, an arcane archer can launch an arrow at a target known to him within range, and the arrow travels to the target, even around corners. Only an unavoidable obstacle or the limit of the arrow&#039;s range prevents the arrow&#039;s flight. This ability negates cover and concealment modifiers, but otherwise the attack is rolled normally. Using this ability is a standard action (and shooting the arrow is part of the action). An arcane archer can use this ability once per day at 4th level, and one additional time per day for every two levels beyond 4th, to a maximum of four times per day at 10th level.<br>Phase Arrow (Sp): At 6th level, an arcane archer can launch an arrow once per day at a target known to him within range, and the arrow travels to the target in a straight path, passing through any nonmagical barrier or wall in its way. (Any magical barrier stops the arrow.) This ability negates cover, concealment, armor, and shield modifiers, but otherwise the attack is rolled normally. Using this ability is a standard action (and shooting the arrow is part of the action). An arcane archer can use this ability once per day at 6th level, and one additional time per day for every two levels beyond 6th, to a maximum of three times per day at 10th level.<br><br>Hail of Arrows (Sp): In lieu of his regular attacks, once per day an arcane archer of 8th level or higher can fire an arrow at each and every target within range, to a maximum of one target for every arcane archer level she has earned. Each attack uses the archer&#039;s primary attack bonus, and each enemy may only be targeted by a single arrow.<br>Arrow of Death (Sp): At 10th level, an arcane archer can create a special type of slaying arrow that forces the target, if damaged by the arrow&#039;s attack, to make a Fortitude save or be slain immediately. The DC of this save is equal to 20 + the arcane archer&#039;s Charisma modifier. It takes 1 day to make a slaying arrow, and the arrow only functions for the arcane archer who created it. The slaying arrow lasts no longer than 1 year, and the archer can only have one such arrow in existence at a time.</span></div></div></div><span style="color: red;" class="bbc_color">D8变d10<br>豁免773变553（进阶职业特点）<br>技能减少：手艺（智力），绳技（敏捷）。<br>附送7级施法者等级<br>附魔箭只提供+1加值，但是在3579会获得能量及远阵营等特性。<br>追踪箭最多4次每日<br>相位箭最多3次每日<br>死亡箭豁免增加了魅力修正值</span> </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217679">
+&#171; <em>上次编辑: 2017-11-15, 周三 20:37:32 由 STEAM™白金之星</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217679_signature">超魔技术可以改变世界呢</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217680"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=7090" title="检视会员资料:  zhuyunke">zhuyunke</a>
+</h4>
+<ul class="reset smalltext" id="msg_217680_extra_info">
+<li class="title">雍亲王<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 141<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217680">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217680#msg217680" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217680'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217680'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2009-12-26, 周六 15:29:03 &#187;</div>
+<div id="msg_217680_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217680">附带图片 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217680">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217680_signature">超魔技术可以改变世界呢</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217681"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=8408" title="检视会员资料:  星踪幻影">星踪幻影</a>
+</h4>
+<ul class="reset smalltext" id="msg_217681_extra_info">
+<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=8408">
+<img class="avatar" src="/bbs/upload/avatar/avatar_8408_1461160748.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3003<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217681">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217681#msg217681" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217681'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217681'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2009-12-26, 周六 15:55:31 &#187;</div>
+<div id="msg_217681_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217681">豁免773变553<br>技能减少：手艺（智力），躲藏（敏捷），聆听（感知），潜行（敏捷），侦察（感知），绳技（敏捷）。<br><br><br>豁免的话进阶都擅长豁免都变成5了<br><br><br>技能米减少只素潜行躲藏整合为隐秘，侦察聆听搜索整合为洞察<br>所以楼主姐姐乃貌似译错，也不素译的不对，但最好把整合的技能换个名词 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217681">
+&#171; <em>上次编辑: 2009-12-26, 周六 16:01:25 由 星踪幻影</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217681_signature">你是光，我是影。光照耀着影，影守护着光。我们是最疏离的双生子，我们是最亲密的陌生人...</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217682"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=7090" title="检视会员资料:  zhuyunke">zhuyunke</a>
+</h4>
+<ul class="reset smalltext" id="msg_217682_extra_info">
+<li class="title">雍亲王<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 141<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217682">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217682#msg217682" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217682'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217682'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2009-12-26, 周六 16:03:22 &#187;</div>
+<div id="msg_217682_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217682"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"> 豁免773变553<br>技能减少：手艺（智力），躲藏（敏捷），聆听（感知），潜行（敏捷），侦察（感知），绳技（敏捷）。<br><br><br>豁免的话进阶都擅长豁免都变成5了<br><br><br>技能米减少只素潜行躲藏整合为隐秘，侦察聆听搜索整合为洞察<br>所以楼主姐姐乃貌似译错，也不素译的不对，但最好把整合的技能换个名词 </blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> 原来如此，我还未看到技能的部分，只是跟３Ｒ的ＳＲＤ对比了一下子……<br>偷懒被抓到了:em003 &nbsp;</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217682">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217682_signature">超魔技术可以改变世界呢</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217685"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=2590" title="检视会员资料:  AlbertNi">AlbertNi</a>
+</h4>
+<ul class="reset smalltext" id="msg_217685_extra_info">
+<li class="title">Sleeper, Lord of Helpless, The Brainless<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=2590">
+<img class="avatar" src="/bbs/upload/avatar/av-2590.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7257<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217685">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217685#msg217685" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217685'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217685'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2009-12-26, 周六 16:54:19 &#187;</div>
+<div id="msg_217685_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217685">我觉得perception翻译成侦查没啥不好的。既然老的侦查没有了，我觉得没必要非要弄个不一样的名字。<br>而且和4e的翻译统一嗯…… </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217685">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217685_signature">突然之间不知道放神马签名好了……<br>哦对了，我也是新人了！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217704"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10464" title="检视会员资料:  PATIBAUL">PATIBAUL</a>
+</h4>
+<ul class="reset smalltext" id="msg_217704_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10464">
+<img class="avatar" src="/bbs/upload/avatar/avatar_10464_1300865998.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1573<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217704">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217704#msg217704" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217704'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217704'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2009-12-26, 周六 20:14:40 &#187;</div>
+<div id="msg_217704_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217704">箭着点成为该法术影响区域中心<br>如果箭未命中，则法术失效<br>^^^<br>这两个东西看起来有冲突啊。<br>这是指不能对地面发射的意思吗？<br>还是瞄准一个目标没打到就算失效？<br>[终于加施法者等级了，可喜可贺 <img src="/bbs/Smileys/converted/em010.GIF" alt="&#58;em010" title="&#58;em010" border="0" class="smiley"/> ] </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217704">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217704_signature">我是叉烧龙猫啦，<br>我犯了一个致命的错误：<br>在家里没办法用繁体中文登入果园...</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217711"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=2590" title="检视会员资料:  AlbertNi">AlbertNi</a>
+</h4>
+<ul class="reset smalltext" id="msg_217711_extra_info">
+<li class="title">Sleeper, Lord of Helpless, The Brainless<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=2590">
+<img class="avatar" src="/bbs/upload/avatar/av-2590.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7257<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217711">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217711#msg217711" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217711'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217711'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2009-12-26, 周六 21:00:39 &#187;</div>
+<div id="msg_217711_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217711">我的理解是你依然可以瞄准任何东西射箭，而法术的触发条件是“箭射中XX物体”。如果射中的东西不是你瞄准的东西的话（比如射到力墙上）法术就不会生效。 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217711">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217711_signature">突然之间不知道放神马签名好了……<br>哦对了，我也是新人了！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217714"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127" title="检视会员资料:  武士与笑魔">武士与笑魔</a>
+</h4>
+<ul class="reset smalltext" id="msg_217714_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127">
+<img class="avatar" src="/bbs/upload/avatar/av-4127.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 596<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://" title="http://" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="http://" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217714">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217714#msg217714" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217714'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217714'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2009-12-26, 周六 21:12:59 &#187;</div>
+<div id="msg_217714_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217714">我总觉得这个能力的意图就是让你射反魔场... </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217714">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217714_signature">Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them all</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217748"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=5258" title="检视会员资料:  omnific9">omnific9</a>
+</h4>
+<ul class="reset smalltext" id="msg_217748_extra_info">
+<li class="title">绝望少女<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=5258">
+<img class="avatar" src="/bbs/upload/avatar/avatar_5258_1282515213.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 8324<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217748">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217748#msg217748" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217748'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217748'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2009-12-27, 周日 03:29:16 &#187;</div>
+<div id="msg_217748_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217748">还可以射大推呢…… </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217748">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217748_signature">09:51:24 &lt;九妃&gt; 菊长就俩法术，瞧给折腾的- -b<br>09:51:44 &lt;莉塔&gt; 选了<br>09:51:49 &lt;莉塔&gt; 就是重雾<br>09:51:52 &lt;真田尤利安&gt; 结果是啥？<br>09:51:53 &lt;莉塔&gt; 还有触手<br>09:51:56 &lt;真田尤利安&gt; ……<br>09:52:07 &lt;九妃&gt; 。。。。<br>09:52:14 &lt;真田尤利安&gt; 就算不要DD也要触手……<br>09:53:48 * 莉塔 对真田尤利安说:DD是什么？<br>09:53:48 &lt;真田尤利安&gt; 不过也很有趣<br>09:54:02 &lt;真田尤利安&gt; Dimension Door<br>09:54:13 &lt;真田尤利安&gt; 保命用的<br>09:54:20 &lt;真田尤利安&gt; 不要命，要触手？<br>09:54:40 &lt;莉塔&gt; 好吧<br>09:55:09 &lt;莉塔&gt; 那就不要重雾了？<br>09:55:13 &lt;真田尤利安&gt; ……<br>09:55:13 &lt;九妃&gt; 。。。。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217785"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127" title="检视会员资料:  武士与笑魔">武士与笑魔</a>
+</h4>
+<ul class="reset smalltext" id="msg_217785_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127">
+<img class="avatar" src="/bbs/upload/avatar/av-4127.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 596<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://" title="http://" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="http://" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217785">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217785#msg217785" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217785'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217785'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2009-12-27, 周日 10:12:38 &#187;</div>
+<div id="msg_217785_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217785">您得纯法师进这个......才出得了大推...(术士还不行)<br><br>不过出了大推也已经传奇了... </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217785">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217785_signature">Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them all</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217786"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=19" title="检视会员资料:  brainfish">brainfish</a>
+</h4>
+<ul class="reset smalltext" id="msg_217786_extra_info">
+<li class="membergroup">风纪委<li class="stars"><img src="Themes/celeste/images/on2.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=19">
+<img class="avatar" src="/bbs/upload/avatar/avatar_19_1281779505.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5506<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217786">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217786#msg217786" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217786'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217786'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2009-12-27, 周日 10:19:37 &#187;</div>
+<div id="msg_217786_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217786">魔弓似乎还是很呆... </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217786">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217786_signature">Chase Dream</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217787"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=19" title="检视会员资料:  brainfish">brainfish</a>
+</h4>
+<ul class="reset smalltext" id="msg_217787_extra_info">
+<li class="membergroup">风纪委<li class="stars"><img src="Themes/celeste/images/on2.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=19">
+<img class="avatar" src="/bbs/upload/avatar/avatar_19_1281779505.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5506<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217787">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217787#msg217787" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217787'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217787'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2009-12-27, 周日 10:21:39 &#187;</div>
+<div id="msg_217787_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217787">我悟了，这东西是进完奥法以后还剩四级进用的 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217787">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217787_signature">Chase Dream</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg217790"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127" title="检视会员资料:  武士与笑魔">武士与笑魔</a>
+</h4>
+<ul class="reset smalltext" id="msg_217790_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4127">
+<img class="avatar" src="/bbs/upload/avatar/av-4127.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 596<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://" title="http://" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="http://" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_217790">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.msg217790#msg217790" rel="nofollow">[Pathfinder][核心]魔射手ARCANE ARCHER</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_217790'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_217790'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2009-12-27, 周日 10:35:11 &#187;</div>
+<div id="msg_217790_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_217790">啊...确实...<br><br>不过俺依然怀疑它对上20级预言师的生存率... </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_217790">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_217790_signature">Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them and Kill them all</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=28048.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1845.0"><span>《核心规则书》</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28048.0"><span>【CRB】魔射手（Arcane Archer）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 28048,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 28048,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="c5ba327dbb8" value="a3f6e4c1d40eafe3396a9c91c02a2d70" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="28048" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'a3f6e4c1d40eafe3396a9c91c02a2d70\', \'c5ba327dbb8\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=28048.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 19525 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1845,
+							iCurBoardChildLevel: 3,
+							sCurBoardName: "《核心规则书》",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1845,
+							iTopicId: 28048,
+							sSessionId: "a3f6e4c1d40eafe3396a9c91c02a2d70",
+							sSessionVar: "c5ba327dbb8",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

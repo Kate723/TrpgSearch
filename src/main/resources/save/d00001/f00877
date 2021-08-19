@@ -1,0 +1,1078 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="GURPS基本集，中文翻译完整版"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>GURPS基本集，中文翻译完整版</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="109564"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"><span>GURPS专区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76880" title="版主">东方千月</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0"><span>GURPS基本集，中文翻译完整版</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg997726"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=109564.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: GURPS基本集，中文翻译完整版 &nbsp;(阅读 15375 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=109564.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_997726_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_997726">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg997726#msg997726" rel="nofollow">GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_997726'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_997726'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-06-03, 周一 09:06:32 &#187;</div>
+<div id="msg_997726_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_997726">在众多人手参与，过了（约）十年之后终于完成了<br>参与人员尚待梳理<br><br><a href="https://www.jianguoyun.com/p/DeVovcgQ6ZiZBxjT98UB" class="bbc_link new_win" target="_blank">坚果云</a> (访问密码：D8M9WS)</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_997726">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_997726_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1002810"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616" title="检视会员资料:  荒宅劣绅@提不起劲">荒宅劣绅@提不起劲</a>
+</h4>
+<ul class="reset smalltext" id="msg_1002810_extra_info">
+<li class="title">劣化大师<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_78616_1592492849.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 89<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1002810">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1002810#msg1002810" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1002810'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1002810'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-07-01, 周一 23:37:15 &#187;</div>
+<div id="msg_1002810_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1002810">补个百度云：<br><a href="https://pan.baidu.com/s/14nMvvYfzLWZALTXyelLPTg" class="bbc_link new_win" target="_blank">链接</a><br>提取码：84x7 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1002810">
+&#171; <em>上次编辑: 2019-07-04, 周四 18:37:55 由 荒宅劣绅@退圈中</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1002810_signature">GURPS火不起来是怎么回事呢？GURPS相信大家都很熟悉，但是GURPS火不起来是怎么回事呢，下面就让小编带大家一起了解吧。<br>GURPS火不起来，其实就是没人玩，大家可能会很惊讶GURPS怎么会火不起来呢？但事实就是这样，小编也感到非常惊讶。<br>这就是关于GURPS火不起来的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！<br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=111888.0" class="bbc_link new_win" target="_blank">GURPS速成课</a><br><hr />除了你自己，没人在乎你的故事。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1006785"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79654" title="检视会员资料:  传教士绿">传教士绿</a>
+</h4>
+<ul class="reset smalltext" id="msg_1006785_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 33<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1006785">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1006785#msg1006785" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1006785'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1006785'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-07-27, 周六 10:47:00 &#187;</div>
+<div id="msg_1006785_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1006785">天哪，看我发现了什么，竟然还有模组！这下可以开个饭桶团了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1006785">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1008866"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=12435" title="检视会员资料:  chuxuanyi0">chuxuanyi0</a>
+</h4>
+<ul class="reset smalltext" id="msg_1008866_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 65<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1008866">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1008866#msg1008866" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1008866'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1008866'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-08-10, 周六 11:59:30 &#187;</div>
+<div id="msg_1008866_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1008866">感谢大佬们</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1008866">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1012604"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_1012604_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1012604">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1012604#msg1012604" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1012604'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1012604'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-09-09, 周一 11:40:55 &#187;</div>
+<div id="msg_1012604_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1012604">已知问题：<br>技能地质学（Geology），页码213：<br>技能缺省值中“勘探”应为“探矿”<br>以及表述中的“田野之眼”<br><br>酸性物质，页码426：<br>“如果受害者吞下了酸， 他会以每 15 分钟失去 1 HP 的速度受到三轮伤害。 ”应为“以每15分钟失去1HP的速度，承受总计3d的伤害</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1012604">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1012604_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1012875"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_1012875_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1012875">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1012875#msg1012875" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1012875'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1012875'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2019-09-11, 周三 14:29:26 &#187;</div>
+<div id="msg_1012875_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1012875">超自然特征-没有体温<br>反应检定的减值丢了<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1012875">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1012875_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1015732"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77306" title="检视会员资料:  欧诺">欧诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_1015732_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 65<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1015732">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1015732#msg1015732" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1015732'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1015732'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2019-10-02, 周三 19:08:03 &#187;</div>
+<div id="msg_1015732_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1015732"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">自负* 心-5 点<br>Overconfidence<br>你对自己的威力，智力和竞争力过于自信。可能表现得高傲、吹牛或沉默镇定，但你必须把过度自信扮演出来。如<br>果GM 认为角色过于谨慎，可能要求角色进行自我控制检定，如果检定失败，角色不再畏缩不前，就像你能解决问题<br>一样！如果角色面对年青幼稚的人，反应检定获得+2(因为那些人相信角色的吹牛)。当对方是老练的NPC 时，反应检<br>定承受-2。自负就像是狂妄自大的弱化版本。罗宾汉是<span style="color: red;" class="bbc_color">过度自信</span>——他用四分棍对陌生人挑起决斗。希特勒是<span style="color: red;" class="bbc_color">狂妄</span>因为<br>他入侵了俄罗斯！英雄很少是<span style="color: red;" class="bbc_color">自负</span>的但往往<span style="color: red;" class="bbc_color">过度自信</span>。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>自负、狂妄自大、狂妄自大、自负<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">魔导学Thaumatology<br>IQ/极难<br>缺省值：IQ-7*。<br>*在没有魔法的设定，或对于那些没见过“真正的”魔法的人来说，没有缺省对于魔法理论和魔力的“物理学”的<br>学术研究。<br>......<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>*在没有魔法的设定，或对于那些没见过“真正的”魔法的人来说，没有缺省。<br>对于魔法理论和魔力的“物理学”的学术研究。<br>......<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1015732">
+&#171; <em>上次编辑: 2019-10-02, 周三 20:01:07 由 欧诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1016755"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_1016755_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1016755">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1016755#msg1016755" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1016755'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1016755'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2019-10-09, 周三 20:26:39 &#187;</div>
+<div id="msg_1016755_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1016755">在工作中学习一节的“学医”应为学习<br>优势中近战部位的ST对应伤害类型是thr<br>仍然有残留的“球员”</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1016755">
+&#171; <em>上次编辑: 2019-10-09, 周三 20:52:45 由 ACID67</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1016755_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1017520"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77306" title="检视会员资料:  欧诺">欧诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_1017520_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 65<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1017520">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1017520#msg1017520" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1017520'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1017520'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2019-10-15, 周二 23:10:33 &#187;</div>
+<div id="msg_1017520_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1017520">基本集原文第173页，Improving Skills from Default(从缺省等级提升技能)的位置，从第一个范例之后，直到下一页之前的部分都漏翻了<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">The skill list is sorted alphabetically<br>by skill name. Each entry gives the<br>following information:<br><br><em>Name:</em> The skill’s name.<br>Technological skills are noted as such;<br>e.g., “Machinist/TL.” Skills marked<br>with a dagger (†) require you to choose<br>a specialty (see Specialties, p. 169).<br><em>Type:</em> The skill’s controlling attribute<br>and difficulty level; e.g., “IQ/Average.”<br><em>Defaults:</em> The attributes or other<br>skills to which the skill defaults if you<br>have not studied it. Where there is<br>more than one possible default, use the<br>most favorable. Some skills have no<br>default – you cannot attempt to use<br>these skills if you don’t know them.<br><em>Prerequisites:</em> Traits you must possess<br>before you can spend points on the<br>skill. If the prerequisite is another skill,<br>you must have at least one point in that<br>skill. Not all skills have prerequisites.<br><em>Description:</em> An explanation of what<br>the skill is for and how it works in play.<br><em>Modifiers:</em> A list of common bonuses<br>and penalties for use of the skill. The<br>GM decides whether a particular modifier<br>applies in a given situation. If an<br>advantage or disadvantage permanently<br>modifies base skill level rather than<br>simply giving a bonus or a penalty for a<br>specific task, add this permanent modifier<br>to the skill level listed on your<br>character sheet.<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>另外下一页174页开头这段也漏翻了<br><br>技能列表的边栏Geographical and Temporal Scope消失了<br>Skills for Design也不在<br>位在技能列表底下的Example of Character Creation (concluded)也...没整进去(</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1017520">
+&#171; <em>上次编辑: 2019-10-15, 周二 23:38:38 由 欧诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1017527"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77306" title="检视会员资料:  欧诺">欧诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_1017527_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 65<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1017527">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1017527#msg1017527" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1017527'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1017527'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2019-10-16, 周三 00:01:52 &#187;</div>
+<div id="msg_1017527_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1017527"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">火焰之躯(Body of Fire)<br>你的身体是由活的火焰构成的。如果你的火焰非常热，则提升燃烧攻击威力和DR。<br>力量0[-100]，+10 HP[20]，燃烧攻击1D(总是开启，-40%；<span style="color: red;" class="bbc_color">光亮</span>，+80%；近战，触及C，-30%)[6]，无需呼吸(燃<br>烧氧气，-50%)[10]，DR 10(受限：热/火，-40%)[30]，免疫代谢伤害[30]，伤害耐受(弥散)[100]，无肢体[-50]，弱点(水，<br>1D/分钟)[-40]，禁用特质(固定力量)[0]。6 点。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>灵光</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1017527">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1017575"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+</h4>
+<ul class="reset smalltext" id="msg_1017575_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 956<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1017575">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1017575#msg1017575" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1017575'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1017575'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2019-10-16, 周三 16:14:59 &#187;</div>
+<div id="msg_1017575_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1017575">地理与时间界限<br>地域知识、时事(地区)、地理学（地区）和历史学需要选择真的特定地点与时间的分支。在现实中，这类知识很少“划清界限”，而是经常渗透进相关范围内。当你要在所知范畴之外使用技能时，使用下面的减值。<br><br>距离<br>如果涉及的区域远离你“熟悉那片地”很远，使用“长距离修正”下的减值。但随着科技进步，出现了越来越强大的信息管理工具：印刷机、电话、电视、计算机、超光速无线电等。为了体现这一点，如果科技水平是TL5或更高，GM可以投3d检定TL+1（例如，TL8时检定出9或更低时成功）来判断你从电视、网络等是否获得那个地区的信息。如果成功，你可以忽视所有的距离减值（GM可能希望把这个规则同样用于高科技设定里，人物的声誉在远离家乡的地方是否为人所知）<br><br>时间<br>通常时间只和历史技能有关——但在时间旅行的游戏中或者有人在极长时间之内没有回家，地域知识也会受影响。这里也适用长距离修正，但是用“年”代替表里面的“英里”。而科技水平每差1级，时间修正就翻倍（例如差两个TL时，修正×4），这是因为当科技进步时，社会的各方面也会激烈变化。<br><br>地区类别<br>“地区类别”按照地域知识下面的分类：邻里；村庄或城镇；市；男爵领、伯爵领、公爵领或小国；大国；行星际政权；星系。如果战役涉及大量的旅行，地域类别就需要注意。我们这里默认小的地区类别被包括在更大类别之内。<br>如果你选择的分支对应的地区，比你要获取信息的地区更大，如果只差1个类别，则-2，两个-4，三个-8，以此类推，每多差一个类别翻倍一次。<br>如果你选择的分支对应更小的地区，而想要获得更大地区的信息，最合适的办法是使用上面的距离减值。但如果要回答整个大区域的相关问题，减值是每差1级-2。<br>例子：拥有地域知识（地球）的某人，知道洛杉矶市长是谁的检定承受-8减值（因为差3级）。但有地域知识（洛杉矶）的某人，知道美国总统山的检定承受-4减值。而同一个人要知道华盛顿特区的国会图书馆在哪里需要承受-10的减值；国会图书馆在哪与其说是美国整体的知识更像是华盛顿当地的信息，因此更适合采用距离减值来进行判定。<br>注意，如果存在多个位面，对应一个现实的地域知识，可能在另一个现实非常不可靠。由GM决定，当你想要用自己的那个旧金山的认知，去对应他那个旧金山的时候所需要承受的减值。<br><br>设计、维修与使用技能<br>为你的人物选择技术技能时，考虑这些技能涵盖了三个不同方面的活动，是有益的。<br>设计。发明家、神秘小装置的设计者、疯狂科学家需要这些技能来设计与制造新发明、重新设计既有的东西以及推测未知科技的功能（并且进行反向工程！）。这方面的关键技能是工程学——选择发明家感兴趣领域的分支——但生物工程（对应生物科技）与电脑编程（对应软件）都是合适的。<br>维修。工匠与技师需要这些技能来诊断与修理已知的设备、进行大型的改造与升级、安装新装备以及进行自行修改现存的装备。这个领域最重要的技能是军械修造、电气技师、电子维修、机工与机修。<br>使用。侦探、士兵、间谍与类似专业人士需要操作特殊装备、进行日常保养、分辨常见装备种类与型号（以及每个型号的优劣点）所用的技能。这类技能有电脑操作、电子设备操作、环境服、爆炸物、载具技能（乘务、驾驶、舰船指挥等）和武器技能（炮兵、枪械等）。<br>这些技能构成了“设计-维修-使用”三角。例如，电子设备的工程学（电子）-电子维修-电子设备操作三角，载具的工程学（载具）-机修-驾驶三角，以及火器的工程学（轻武器）-军械修造-枪械三角。对某项知识有深度了解的电影化冒险家经常同时拥有某个三角里的全部三个技能！<br><br><br>如果你提升一项技能，从这项技能获得缺省的其他技能也会随之提升。但如果你已经投入点数从缺省提升技能，那么已经投入过点数的这些技能可能不会随缺省源头的技能一起提升。这个请看上个例子的继续：<br>例：假如你用1点CP把阔剑提到12（DX）。然后你又向短剑技能投入了4点，从13（DX+1）提升到14（DX+2）。那么你的阔剑技能也会提高吗？不会。你从短剑技能获得的阔剑缺省现在是12（短剑的14减去2），但阔剑技能要从12级变成13级（从DX到DX+1）需要2点，而你只在阔剑上投入了1点。但这个点数需要记录，当你向阔剑再投入1点时，它满足了条件就会提升。<br>如果两个技能互有缺省，而且都已经提升过，你可以选择“反转”哪个技能从哪个技能获得缺省，如果这么做能够提高你技能等级的话。按你的需要重新分配两个技能上的点数。但你不能通过这种方式降低任一技能的等级；你必须在每个技能上分配足够保持当前等级的点数。<br>例：保持短剑技能14，你又花了22点在阔剑技能上，将其从缺省12（DX）提升到18（DX+6）。你现在更想让短剑反过来使用阔剑的缺省。将你在短剑技能上花的8点与阔剑技能上花的22点相加，得到30点可以重新分配。首先，购买阔剑18（DX+6），用掉24点。然后，短剑缺省自阔剑，16（阔剑减2）。最后，用剩下的6点提升短剑技能。这足够将短剑技能提升到17（如果再投入2点就是18）。<br>这感觉像是抽象的数字调配，但它能用。这样你不会因为一开始点的是阔剑技能而更好，也不会因为一开始点了短剑技能而受惩罚。<br><br><br>这个技能列表按技能名称的字母顺序罗列。每个条目格式如下：<br>名称：技能的名称。技术技能如此标注：“机工/TL”，有†标记的技能意味着你必须选择分支（见技能分支，169页）<br>类型：技能的控制属性与难度；例如：“IQ/普通”<br>缺省：如果你没有学习这个技能，可以从属性或者其他技能获得的缺省值。如果有不止一个可能的缺省，使用最好的那个。部分技能没有缺省——如果你没有学会这个技能就不能使用。<br>前置：你要在技能上投入点数前必须拥有的特质。如果前置是其他技能，那个技能上你必须投入至少1点。并不是每个技能都有前置。<br>描述：技能功能与游戏中如何作用的描述。<br>修正：使用这个技能的常见加值与减值。某个情形中某个修正是否适用由GM判定。如果存在永久性修正技能的优势或劣势（而不是对特定任务给予加减值），将这个永久修正加到你人物卡上的技能等级里。<br><br><br>角色创建示例（完）<br>戴已经花掉了他的250点的203点，现在还剩47点。检查技能列表，我们发现了几十个适合神偷的技能——但是既然我们预算有限，下面这些就够了。<br>首先，一个盗贼必须难以被发现。因此，戴需要潜行技能（222也）。我们希望这个技能足够可靠，所以我们选择了技能等级为16。在这个等级上，只有投出17或18才会失败……而投出这两个数值是必然失败。潜行是个DX/一般的技能。既然戴的DX是15，技能等级为16对他来说就是DX+1。从技能花费表格（170页）上面，我们发现一般难度的技能，等级达到属性+1需要4点点数。<br>任何合格的盗贼都能扒窃和开锁。这需要扒窃技能（213页）和撬锁技能（206页）。我们需要想要为戴把两个技能点到15——不如他的潜行高，但是仍然很可靠。扒窃是个DX/困难达到技能。技能15就是DX+0的等级，从表格里面可以查出，这个等级的困难技能花费是4点。撬锁，则是IQ/一般的技能。戴的IQ是12，所以技能15就是IQ+3的等级。这个需要12点点数——把技能点到高出基础属性很多是非常昂贵的！<br>我们还希望戴是个上房专家与逃脱专家，所以我们在攀爬（183页）技能和逃脱（192页）技能上面各投放了1点点数。攀爬是DX/一般，1点买到的是DX-1的等级，也就是技能等级14。逃脱是DX/困难，1点只能购买到DX-2的等级，也就是技能13。当然，其实我们是在知道戴有着给两个技能都+3的柔韧性优势情况下才这么决定的！他的完美平衡又赋予了攀爬+1的加值。最后，他的攀爬技能是18而逃脱技能是16。<br>为了在下手之前踩点，戴需要观察（211页）技能。这个技能是感官/一般。但是戴的感官次级属性有足足15点，所以他不需要花很多点数：花2点把观察加到感官+0的等级（也就是15），这就足够了。<br>如果潜行不成功，我们希望能有些战斗技能作为备用手段。我们决定他偏好使用小刀。小刀技能（208页）对于近战而言最够了，但是我们还希望戴善于快速拔刀和飞刀伤人。即时备战（194页）和投掷武器（226页）就是这个功能的。两者都需要选择技能分支——在这里都是“小刀”。这三个技能都是DX/容易。因为戴的ST不高，所以他需要非常精准才能使得小刀有用。所以我们选择了小刀和投掷武器（小刀）都是17。这个是DX+2，每个技能需要4点。即时备战（小刀）是个很好的招数，但是技能15就够了。这个需要1点。<br>为了反映戴的中世纪背景。我们决定他是个使短剑的好手。但是并不是太高——剑都很贵而戴出身贫贱。我们决定把技能设为15。短剑是DX/一般的技能，所以需要2点。<br>作为ISWAT的警官，戴应该知道如何射击。一支纤细的target手枪听起来就是他会用的那种枪。<br>经过查看枪械技能（198页），我们发现手枪需要的是“手枪”技能分支。枪械对于带来说是个新玩意，所以我们只花1点。既然枪械（手枪）是DX/容易的技能，1点就可以买到DX+0的等级：也就是不低的15。<br>为了隐藏这些武器，戴需要物品藏身（200页）技能。这是IQ/一般的技能。戴并不常常带着藏好的武器，所以我们就选择等于IQ的等级——12，花掉2点。<br>我们决定给戴再加上一些“背景技能”。他在街头长大，所以城市生存（228页）适合：在城市里面弄到食物和栖身之所的能力。作为感官/一般的技能，1点可以买到感官-1的等级，或14。窃取（195页）包括了偷窃商店。它是DX/一般，所以1点可以买到DX-1，也是14。生存还需要社会方面的能力。我们给予戴唬骗（195页）来摆平一般的流氓，以及黑街（223页）来应付职业罪犯。这两者都是IQ/一般。我们都购买了IQ+0（12）的等级，每个技能花2点。<br>戴现在已经花了剩下的47点里面的44点。我们决定把最后3点分给能够配合他的优势的技能。<br>我们注意到完美平衡赋予杂技+1的价值，这个技能明显是戴的风格！杂技是DX/困难，所以需要2点来购买到DX-1的等级，或者是14。加上完美平衡的+1，那就是15了。<br>我们还发现绝对方向感赋予身体定位（181页）+3：在传送后重新确定方向的技能。这个听起来非常适合戴！我们给这个DX/困难的技能加1点。获得DX-2的等级，也就是13。加上绝对方向感的+3就是16了。<br>到现在为止，戴已经花掉了全部250点点数。如果我们还想要添加更多的能力。我们可以增加更多的劣势来弥补——但是我们希望戴能够无忧无虑而不是背负着问题的担子。<br>现在就是把这些填上去了。戴的人物卡在311页。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1017575">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1017575_signature"><del>哦你玩GURPS，那没事了</del></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1020045"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77728" title="检视会员资料:  A球">A球</a>
+</h4>
+<ul class="reset smalltext" id="msg_1020045_extra_info">
+<li class="title">米妮瓦之手，Mythica系列电影死忠粉<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77728">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77728_1532798967.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 292<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1020045">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1020045#msg1020045" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1020045'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1020045'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2019-11-04, 周一 00:22:57 &#187;</div>
+<div id="msg_1020045_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1020045">感谢，最近刚好在看GURPS Discworld。很有帮助</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1020045">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1020045_signature">It’s not a great look for a company that wants to represent humanity “in all its beautiful diversity.” Continuing to sell these products–and bear in mind, the original Oriental Adventures is a “mithral best seller” which means it’s continuing to sell–takes a lot of wind out of WotC’s Inclusivity and Diversity sails. They have to do better than this if they want their promise to be more than empty words. Not to say we should pretend these books never existed, but WotC is still actively profiting off of this material.</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1026682"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616" title="检视会员资料:  荒宅劣绅@提不起劲">荒宅劣绅@提不起劲</a>
+</h4>
+<ul class="reset smalltext" id="msg_1026682_extra_info">
+<li class="title">劣化大师<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_78616_1592492849.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 89<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1026682">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1026682#msg1026682" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1026682'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1026682'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2019-12-21, 周六 13:30:38 &#187;</div>
+<div id="msg_1026682_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1026682"><strong>超自然耐性</strong>优势下的：<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">根据“有限防御”附录，这个能杀死你的物品罕贵度必须是“特殊场合使用”的或者更高。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>其中“特殊场合使用”原文为Occasional，系指上述附录下的“Occasional”稀有度，翻译为“偶见”<br><br>另外，<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">但你不会因为攻击而死！除非你拥有一个“易伤”(见下文)。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>原文为，<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">you won’t die unless you are wounded by an attack to which you are specifically vulnerable (see below).</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>此处的“易伤”应系指后面说明的特殊物品而不是<strong>同名劣势</strong><br>原文的意思也不是“拥有”，而是你被那样特殊的物品所伤害会才会导致死亡。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1026682">
+&#171; <em>上次编辑: 2019-12-21, 周六 13:44:27 由 荒宅劣绅@提不起劲</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1026682_signature">GURPS火不起来是怎么回事呢？GURPS相信大家都很熟悉，但是GURPS火不起来是怎么回事呢，下面就让小编带大家一起了解吧。<br>GURPS火不起来，其实就是没人玩，大家可能会很惊讶GURPS怎么会火不起来呢？但事实就是这样，小编也感到非常惊讶。<br>这就是关于GURPS火不起来的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！<br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=111888.0" class="bbc_link new_win" target="_blank">GURPS速成课</a><br><hr />除了你自己，没人在乎你的故事。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1026713"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=112422" title="检视会员资料:  悠然儒歌">悠然儒歌</a>
+</h4>
+<ul class="reset smalltext" id="msg_1026713_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 70<li class="karma">苹果币: 0<li class="blurb">努力精进自我的跑团新人。<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1026713">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1026713#msg1026713" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1026713'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1026713'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2019-12-21, 周六 17:33:24 &#187;</div>
+<div id="msg_1026713_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1026713">感谢翻译大大——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1026713">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1026713_signature">辛柏隆——</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1041632"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616" title="检视会员资料:  荒宅劣绅@提不起劲">荒宅劣绅@提不起劲</a>
+</h4>
+<ul class="reset smalltext" id="msg_1041632_extra_info">
+<li class="title">劣化大师<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_78616_1592492849.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 89<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1041632">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1041632#msg1041632" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1041632'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1041632'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2020-03-17, 周二 17:34:14 &#187;</div>
+<div id="msg_1041632_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1041632"><strong>伤害耐受（Injury Tolerance）</strong>优势下的<br><br><strong>弥散</strong>条目中有这样的描述：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">此形式包括了无血、无脑与无要害<span style="color: red;" class="bbc_color">等形式</span>的所有优势。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>原文为：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">Diffuse includes all the benefits of No Blood, No Brain, and No Vitals.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>原文的意思是弥散囊括了无血、无脑和无要害这三项的好处，只包括这三项没有其他，并不是“等”。<br><br>同样的问题在下面的<strong>均质</strong>条目中也一样存在<br><br>译文为：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">此形式包括了无脑与无要害<span style="color: red;" class="bbc_color">等形式</span>的所有优势。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>原文为：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"> Homogenous includes the benefits of No Brain and No Vitals.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1041632">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1041632_signature">GURPS火不起来是怎么回事呢？GURPS相信大家都很熟悉，但是GURPS火不起来是怎么回事呢，下面就让小编带大家一起了解吧。<br>GURPS火不起来，其实就是没人玩，大家可能会很惊讶GURPS怎么会火不起来呢？但事实就是这样，小编也感到非常惊讶。<br>这就是关于GURPS火不起来的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！<br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=111888.0" class="bbc_link new_win" target="_blank">GURPS速成课</a><br><hr />除了你自己，没人在乎你的故事。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1057565"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77306" title="检视会员资料:  欧诺">欧诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_1057565_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 65<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1057565">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.msg1057565#msg1057565" rel="nofollow">Re: GURPS基本集，中文翻译完整版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1057565'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1057565'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #15 于:</strong> 2020-06-05, 周五 23:19:44 &#187;</div>
+<div id="msg_1057565_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1057565"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">需要触媒(Trigger) 价值多样<br>你的优势需要你接触特定物质或<span style="color: red;" class="bbc_color">环境</span>(如，一剂某药物)来使用。每分钟使用需要1剂物质或接触。价值由物质的稀有程度决定：<br>非常常见(几乎到处都有卖)，-10%<br>常见(昂贵，有点难找)，-20%<br>罕见(非常昂贵，难以找到)，-30%<br>稀有(根本不能购买，必须寻找或自行生产)，-40%<br>如果所需的特定物质非法、具有成瘾性或是具有其他危险，将限制因子的价值×1.5。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>原文为：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 12pt;" class="bbc_size">Trigger</span><br>　　　　　　　　　　　　　<span style="font-size: 10pt;" class="bbc_size">Variable</span><br>Your advantage requires exposure<br>to a specific substance or <span style="color: red;" class="bbc_color">condition</span><br>(e.g., a dose of a drug) to function.<br>One dose or exposure is required per<br>one-minute “use.” Cost depends on<br>the rarity of the Trigger:<br>Very Common (available almost<br>anywhere): -10%.<br>Common (expensive, somewhat<br>hard to find): -20%.<br>Occasional (very expensive and<br>hard to find): -30%.<br>Rare (cannot be bought; must be<br>found or made): -40%.<br>Multiply the limitation value by 1.5<br>if the Trigger is illegal, addictive, or<br>otherwise dangerous.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>此处翻译成&quot;条件&quot;更为恰当，因后续该修正因子用法当中有出现&quot;当满月时&quot;以及&quot;受伤时&quot;类似这样的用法。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1057565">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=109564.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=418.0"><span>GURPS专区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76880" title="版主">东方千月</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109564.0"><span>GURPS基本集，中文翻译完整版</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 109564,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 109564,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="109564" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=109564.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 15375 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 418,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "GURPS专区",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 418,
+							iTopicId: 109564,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

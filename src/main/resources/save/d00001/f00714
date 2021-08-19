@@ -1,0 +1,880 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[b]赛博朋克2020核心规则书，pdf版[/b]"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[b]赛博朋克2020核心规则书，pdf版[/b]</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="121887"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"><span>赛博朋克2020</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="版主">千禧年网吧DJ</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0"><span>[b]赛博朋克2020核心规则书，pdf版[/b]</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1087153"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=121887.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [b]赛博朋克2020核心规则书，pdf版[/b] &nbsp;(阅读 13666 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 既然你们要的话...</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=121887.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849" title="检视会员资料:  Wintermute">Wintermute</a>
+</h4>
+<ul class="reset smalltext" id="msg_1087153_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849">
+<img class="avatar" src="/bbs/upload/avatar/avatar_110849_1609598275.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 46<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/lamp.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1087153">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1087153#msg1087153" rel="nofollow">[b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1087153'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1087153'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2020-11-21, 周六 11:38:41 &#187;</div>
+<div id="msg_1087153_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1087153">总之翻完了(<br>只放在QQ群里看似不是个好主意，所以就发到果园里好啦<br><br><a href="https://pan.baidu.com/s/1MCi-O7IP2iKYvnSQXKEwFw" class="bbc_link new_win" target="_blank">https://pan.baidu.com/s/1MCi-O7IP2iKYvnSQXKEwFw</a> / imv6<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1087153">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1087153_signature">[Exit]</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1087156"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76357" title="检视会员资料:  落雨随枫">落雨随枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1087156_extra_info">
+<li class="title">神佛无谅<li class="membergroup">防火组<li class="stars"><img src="Themes/celeste/images/new_none.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76357">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76357_1621449503.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 2116<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1087156">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1087156#msg1087156" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1087156'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1087156'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2020-11-21, 周六 12:06:29 &#187;</div>
+<div id="msg_1087156_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1087156">竟然在2020年看到了这个规则的汉化！感谢翻译组——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1087156">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1087156_signature"><div align="center"><strong><span style="color: red;" class="bbc_color"><span style="text-shadow: yellow -2px 0 1px"><span style="font-family: 楷体;" class="bbc_font">熄灭了吧，熄灭了吧，那短暂的烛光！<br>人生不过是一个行走的影子；<br>一个在舞台上拙劣表演的伶人，<br>登场片刻，就在无声无息中悄然退下。<br>它是一个愚人所讲的故事，<br>充满喧哗与骚动，却找不到一点意义。</span></span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1087362"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=138719" title="检视会员资料:  KCro">KCro</a>
+</h4>
+<ul class="reset smalltext" id="msg_1087362_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 63<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1087362">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1087362#msg1087362" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1087362'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1087362'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2020-11-22, 周日 11:12:17 &#187;</div>
+<div id="msg_1087362_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1087362">感谢翻译组，<br>p.s. 但愿不要2077年才能玩到2077 <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1087362">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1089061"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=111269" title="检视会员资料:  jenniz">jenniz</a>
+</h4>
+<ul class="reset smalltext" id="msg_1089061_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 2<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1089061">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1089061#msg1089061" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1089061'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1089061'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2020-12-01, 周二 00:20:34 &#187;</div>
+<div id="msg_1089061_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1089061">不好意思问一下，我似乎点不开链接？（我尝试了直接点，带上[nofollow]，把/imv6也带上，把[nofollow]删掉，好像都不行……？）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1089061">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1089686"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77333" title="检视会员资料:  wicast">wicast</a>
+</h4>
+<ul class="reset smalltext" id="msg_1089686_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1089686">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1089686#msg1089686" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1089686'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1089686'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2020-12-05, 周六 22:38:48 &#187;</div>
+<div id="msg_1089686_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1089686">这链接好像过期了……求补档</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1089686">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1089770"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=145370" title="检视会员资料:  韩晓Hx">韩晓Hx</a>
+</h4>
+<ul class="reset smalltext" id="msg_1089770_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 2<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1089770">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1089770#msg1089770" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1089770'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1089770'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2020-12-06, 周日 13:09:17 &#187;</div>
+<div id="msg_1089770_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1089770">链接过期了，求补档！！ <img src="/bbs/Smileys/converted/em023.gif" alt="&#58;em023" title="&#58;em023" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1089770">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1089781"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=108933" title="检视会员资料:  白劳德">白劳德</a>
+</h4>
+<ul class="reset smalltext" id="msg_1089781_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 10<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1089781">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1089781#msg1089781" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1089781'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1089781'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2020-12-06, 周日 14:51:51 &#187;</div>
+<div id="msg_1089781_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1089781">求补档</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1089781">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1090930"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102976" title="检视会员资料:  沧浪星">沧浪星</a>
+</h4>
+<ul class="reset smalltext" id="msg_1090930_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1090930">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1090930#msg1090930" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1090930'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1090930'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2020-12-13, 周日 20:04:35 &#187;</div>
+<div id="msg_1090930_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1090930">链接没了，求补档 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1090930">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1090934"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=115046" title="检视会员资料:  血之镜">血之镜</a>
+</h4>
+<ul class="reset smalltext" id="msg_1090934_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 2<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1090934">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1090934#msg1090934" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1090934'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1090934'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2020-12-13, 周日 20:24:30 &#187;</div>
+<div id="msg_1090934_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1090934"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1087156#msg1087156">引述: 落雨随枫 于 2020-11-21, 周六 12:06:29</a></div></div><blockquote class="bbc_standard_quote">竟然在2020年看到了这个规则的汉化！感谢翻译组——<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>可以发一份吗，原链接失效了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1090934">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1091180"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=133270" title="检视会员资料:  \星尘/">\星尘/</a>
+</h4>
+<ul class="reset smalltext" id="msg_1091180_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 42<li class="karma">苹果币: 0<li class="blurb">卡冈图雅<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1091180">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1091180#msg1091180" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1091180'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1091180'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2020-12-15, 周二 17:04:52 &#187;</div>
+<div id="msg_1091180_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1091180">来自q群798232686<br>https://w :em016ww.jianguo :em016yun.com/p/DWww-m :em016kQ5eaHCRisttID<br>去掉 <img src="/bbs/Smileys/converted/em016.gif" alt="&#58;em016" title="&#58;em016" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1091180">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1091180_signature">希望创造栩栩如生的世界和人物们</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093654"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849" title="检视会员资料:  Wintermute">Wintermute</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093654_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849">
+<img class="avatar" src="/bbs/upload/avatar/avatar_110849_1609598275.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 46<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093654">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1093654#msg1093654" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093654'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093654'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2021-01-02, 周六 22:26:05 &#187;</div>
+<div id="msg_1093654_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093654">补档!感谢大哥!<br>链接：https://pan.baidu.com/s/1qoBk9FOS4PKocF8NG-MfmA <br>提取码：2020 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093654">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093654_signature">[Exit]</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1093655"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849" title="检视会员资料:  Wintermute">Wintermute</a>
+</h4>
+<ul class="reset smalltext" id="msg_1093655_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=110849">
+<img class="avatar" src="/bbs/upload/avatar/avatar_110849_1609598275.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 46<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1093655">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1093655#msg1093655" rel="nofollow">Re: [b]赛博朋克2020核心规则书，pdf版[/b]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1093655'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1093655'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2021-01-02, 周六 22:29:56 &#187;</div>
+<div id="msg_1093655_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1093655"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.msg1093654#msg1093654">引述: Wintermute 于 2021-01-02, 周六 22:26:05</a></div></div><blockquote class="bbc_standard_quote">补档!感谢大哥!<br>链接：https://pan.baidu.com/s/1qoBk9FOS4PKocF8NG-MfmA <br>提取码：2020<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>如果链接挂了，让我知道</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1093655">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1093655_signature">[Exit]</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=121887.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"><span>赛博朋克2020</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="版主">千禧年网吧DJ</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121887.0"><span>[b]赛博朋克2020核心规则书，pdf版[/b]</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 121887,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 121887,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="121887" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=121887.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 13666 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1794,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "赛博朋克2020",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1794,
+							iTopicId: 121887,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

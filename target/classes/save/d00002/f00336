@@ -1,0 +1,609 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="101121"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0"><span>【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg931157"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=101121.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译 &nbsp;(阅读 7242 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 同人扩展，简单上手的赛博朋克风格</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=101121.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_931157_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_931157">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg931157#msg931157" rel="nofollow">【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_931157'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_931157'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-06-14, 周四 10:21:07 &#187;</div>
+<div id="msg_931157_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_931157"><img src="https://s1.ax1x.com/2018/06/14/CXNzK1.png" alt="" class="bbc_img"/><br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>街头大战！</strong></span></div><br>虽然《命运核心系统（FATE Core）》（FATE）本身已经是个简单易懂的系统，但这里依然提供了快速参考，以便你的玩家能够快速理解在赛博狂奔的系统里都修改了哪些可调整项。<br><br>基本上，《赛博狂奔：街头朋克（CyberRun Street Punk）》（CRSP）是一个以FATE作为原型的魔改（Hack）系统，混合了赛博朋克、暗影狂奔、银翼杀手、光灵等等作品的风格。这个系统的背景是一个糅合了赛博操控、帮派械斗、盗窃/罪犯追逐等等元素的近未来反乌托邦，如果你想要的话，它还能加入一些街头魔法。<br>（光灵（Bright）：2017年美国上映的一部奇幻电影，兽人、精灵等奇幻生物与人类在现代世界中共存，主角身处一个特殊的警察分支机构，专门处理超自然事件。）<br>这个系统的字数并不多，因为在FATE中，大多数角色的特点都不是由背景设定提前设置，而是由玩家自己在游戏过程中创作的。而赛博操控以及魔法这些元素将会用最简单的方法来实现。<br><br>接下来就请尽情享受与创造这些隐藏在阴影之下的故事吧！<br><br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>创造你的玩家角色</strong></span></div><br>CRSP的PC创造流程基本与FATE无异，我们会一步步介绍哪里做出了修改。<br><br><span class="bbc_u"><strong>种族</strong></span><br>种族是这个系统的可选项。你可以用它来表示通常意义上的人种（国籍、地区、血统等等），而如果你想要让风格贴近暗影狂奔或者光灵，那么也可以选择奇幻种族：<br>·人类<br>·精灵<br>·矮人<br>·兽人<br>·巨魔<br><br><span class="bbc_u"><strong>身份与重振值</strong></span><br>接下来是角色的身份与重振值。身份是关于角色的名字、街头绰号的简短说明，如果你有SIN（系统识别码），那么也可以写在身份中。<br>角色有没有SIN都取决于玩家，不过无论角色有没有SIN，GM都可以对其进行驱使。<br>如果角色拥有SIN，那么就意味着他们更容易被追踪，但他们同时也拥有完整的公民权利，可以进入那些只有注册过的公民才能进入的站点；如果角色没有SIN，这就意味着他们不在系统之中，难以被追踪，但反过来，他们在系统中也就没有了公民权利。<br>所有PC的初始重振值都默认为3，与FATE一样，你可以降低1点重振值来换取1个额外的特技，可以多次换取，但重振值不能降到1以下。<br><br><br><span class="bbc_u"><strong>技能</strong></span><br>与FATE一样，CRSP的技能金字塔也是从+4开始：1个出色（+4），2个良好（+3），3个尚可（+2），4个一般（+1）。<br>“工艺”技能现在更名为“硬件”，仅适用于物理层次的机械维修，例如修理、改造、机械操作等等。<br>新增了一个“软件”技能，涉及到计算机介面运用、骇客、软件编写等等，在数据冲突中，软件可以用于攻击及防御。<br>新增了一个“控法”技能，可以用来操控奥术之力以及执行魔法仪式。这个技能并非知识技能，而是用来执行特定魔法仪式的主动能力，或者用于抵御施法时所带来的魔力耗竭。<br>未涉及到的其他技能与FATE的默认技能列表一致。<br><br><span class="bbc_u"><strong>压力轨</strong></span><br>生理与精神压力轨作用与FATE中一致，你可以参阅FATE规则书或者SRD（fate-srd.com）来了解具体规则。另外还新增了两种压力轨。<br><br><span style="color: purple;" class="bbc_color">魔力</span><br>魔力压力轨代表你有多少固有能量来继续施法。当你施法时，这个压力轨可能会逐渐降低。<br>起始压力格为2，控法技能等级越高，压力格就越多。更多信息请参阅下面的《魔法》部分。<br><br><span style="color: purple;" class="bbc_color">防火墙</span><br>防火墙压力轨表示你在接入矩阵之前预留了多少防护资源，在数据冲突中受到压力时，你的防火墙压力轨会先吸收伤害，当防火墙过载时才会扣除你的精神压力轨。<br>防火墙压力轨的起始压力格为0，同时无法通过技能来进行提升。你需要使用特技来增加更多压力格。更多信息请参阅下面的《矩阵》部分。<br><br><span class="bbc_u"><strong>特征</strong></span><br>特征规则没有变化。我们建议你通过三部曲来帮助PC建立彼此之间的关系，特别是当他们将要面对大量犯罪以及法律的阴暗面时，这种团队关系将会让他们更加紧密团结。<br>如果你使用奇幻种族，那么用特征来表现出你种族的与众不同之处会很不错，如果你对自己种族在社会上被如何看待这一点有着自己的想法那就更好了。<br><br><span class="bbc_u"><strong>特技</strong></span><br>特技的创建方式没有太大改变，建议参考FATE中的指南进行特技创建，不过CRSP中也有一些关于特技的需要注意的特殊事项。<br><br><span style="color: purple;" class="bbc_color">赛博改造</span><br>并非所有的赛博改造都需要用特技来表示。如果你的前臂安装了刀片或者枪支，虽然实际上你还是正常的使用战斗或射击技能进行检定，但你可以在描述中表示自己运用这些东西进行作战。<br>但如果你想要让自己角色的赛博改造在规则上提供额外的优势，那么最简单的方法就是将它作为特技。这里有一些例子：<br><br><strong>皮下镀层</strong>：你的皮肤中被植入了电镀防弹衣。你可以在任何会导致生理压力的攻击中支付1命运点来使体格对抗检定得到额外+2。<br><strong>腿部推进器</strong>：你的腿部安装了微型火箭助推器，可以令你跳得更远。在使用运动进行跳跃时你可以得到额外+2。<br><strong>钛合金骨骼</strong>：你使用钛合金来强化你的骨骼，这会让你更能抵抗特定种类的压力。在抵抗任何类型的钝击或钝力压力时得到额外+2。<br><strong>手腕火箭炮</strong>：你的手臂上有一枚火箭导弹。每场景一次，你可以使用它来进行一次额外+2的射击攻击。<br><br><span style="color: purple;" class="bbc_color">碟客</span><br>尽管任何人都可以使用外部设备联入中心系统，但只有拥有赛博碟板特技的人才能够访问矩阵。这些人被称为碟客。当然，这也是个特技：<br>赛博碟板：你拥有一个植入式赛博碟板。这是一个让你可以通过无线方式部分或全部潜入全球矩阵的设备。当你完全潜入矩阵时可以令连接速度大幅上升，这会让你可以在所有涉及到矩阵的检定中得到额外+2，但这也有着风险。首先，完全潜入状态会导致你的现实身体无法感知与行动；其次，你的思维现在完全暴露在矩阵之中，能够被其他人直接攻击，这可能非常危险。<br>淬火：你可以让防火墙压力轨中的压力格数量+1。这个特技可以多次选择，最多选择四次。<br><br><span style="color: purple;" class="bbc_color">机师</span><br>只要在体内植入一个控制器，那么你就可以使用精神来操控无人机等设备。为了做到这一点，你需要选择下面所列出的赛博控制器特技。机师可以花费特技点来定制无人机，下文会列出几个无人机的例子。根据无人机的质量不同，你需要支付的特技点可能会超过1。无人机是角色的组成部分之一，所以就算被“摧毁”，角色也有能力重建无人机。<br>赛博控制器：这是一个专门设计用来控制车辆及无人机的赛博改造。只要你拥有无人机的所有权，你就可以使用精神来远程控制无人机。此外，这个特技还能允许你使用软件而不是驾驶技能来控制任何能够控制的车辆。<br><br><span style="color: purple;" class="bbc_color">魔法</span><br>角色默认是无法使用魔法的，你需要选择下面的特技才能解锁角色的施法能力，同时还能解锁控法技能以及魔力压力轨。<br>魔法师：你是一位充满了神秘的人物——一位博学的街头巫师、一位睿智的萨满，或是一位专注于使用奥术进行自我强化的专家。关于魔法如何运作，请参阅下面的《魔法》部分。<br>驯养师：你将自己与某种小型神秘存在联结了起来——一种小动物、一只迷你龙或是一个小元素体等等。你可以从《魔法》部分了解更多秘宠的信息。如果秘宠死亡了，你可以立刻花费一个命运点来重新召唤它，并且恢复它的所有压力轨。<br><br><span class="bbc_u"><strong>最后一步</strong></span><br>现在你的角色差不多就完整了。你可以想想自己的角色有没有其他值得注意的小道具，像是自己的车辆或是特有武器等等。<br>由于没有专用的“装备”技能，所以这些道具只是用来让你能够合理使用相关技能而已，没有规则上的优势。<br>如果你想要获得特别的或更高级的东西，那么GM可能会要求你在游戏中通过资源检定来进行购买。获得这些物品的难度会随着价值等比例增加，这就是为什么你会迫不及待想要去完成任务来获得奖励的理由！<br>但在那之前，你得先拥有如何使用自己的技能的基础知识，以及这个背景世界的常识。<br><br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>矩阵</strong></span></div>随着科技的发展，我们星球上的互联网络变得越来越复杂，越来越庞大，最终变成了我们现在称之为“矩阵”的强大网络。<br>星球上所有设备的互联网络组成了矩阵。任何拥有个人设备或者赛博碟板的人都可以通过无线方式潜入矩阵。<br>即使是在激烈的交火或是紧张的局势下，碟客也会使用无线方式控制本地设备。战士们一边大吼着“保护我”一边完全潜入矩阵，以此来在战局中获得优势。<br>矩阵中所使用的主要技能自然是软件。无论是通过编写辅助程序来创造优势，还是直接黑掉别人的密码防护，或者是通过数据来攻击自动程序以及其他碟客，这些都可以用软件技能来实现。<br>被碟客、系统或者自动程序使用软件技能造成的压力都属于精神压力，而防火墙压力轨可以用来吸收这种压力。系统与自动程序的精神压力轨则代表了它们核心程序的稳定性。<br><br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>魔法</strong></span></div>对魔法师来说，魔法是一种强大而奇妙的工具。然而它也会耗竭魔力，导致魔法师无法连续施法。<br>如果你选择了魔法师特技，那么你就解锁了使用魔法的能力。<br><br><span class="bbc_u"><strong>技能魔法</strong></span><br>只要你有魔法师特技，你就可以在技能检定时选择使用魔法来代替普通的技能。你正常使用你的技能，不过你可以额外得到+2。另外你还可以为自己的技能检定设置一个最大界限。<br>检定完成后，你会由于使用魔法而感到筋疲力竭，你需要用控法技能来对刚刚得出的检定结果进行防御，防御失败将会扣除你的魔力压力轨。<br><em>例子：小刀想要向敌人投掷火球。她的射击技能为+2，控法技能为+3。她之前已经在战斗中施放过几次法术，魔力压力轨已经很低，所以她决定自己的攻击检定界限为+4，以防万一。<br>她进行魔法射击检定（+4），得到++0+，结果为+7！但由于她已经设置了界限，所以只能得到+4。<br>这还意味着她受到了+4的魔法耗竭，所以需要使用控法技能（+3）来进行防御，得到-0-+，结果为+2。幸好她设置了界限，否则她就要受到5点魔法压力（+7魔法耗竭-2控法防御 = -5魔法压力）。</em><br><br>你也可以使用魔法来增加一些平时无法做到的特殊效果。次级效果像是在两个无人机之间创造一条连锁闪电，主级效果可以是放一发巨型火球把所有人、所有东西以及所有区域炸上天！<br>次级以及主级效果分别会额外产生+2或+4的魔法压力。与GM/团队讨论来确定是否有人产生了次级或主级效果。<br><br><span class="bbc_u"><strong>非技能魔法</strong></span><br>有些魔法可能不会直接涉及到技能，像是飞行、透视这种与技能没有关联的能力。这些能力的魔力耗竭取决于其效果的复杂或强大程度。你可以跟团队讨论一下是否需要加入戏法、次级、主级、史诗来扩充魔法的等级。<br><br><span style="color: purple;" class="bbc_color">戏法</span><br>戏法是极其微弱的魔法效果，除了吸引注意力之外，它基本上没有太大用处。戏法可能会是直接擦除一小块污渍、暂时改变一块布的颜色、使硬币出现在另外一只手中，或是在指尖产生一丝跳跃的火花等等。戏法不会额外增加魔力耗竭的数值。<br><br><span style="color: purple;" class="bbc_color">次级</span><br>次级效果比戏法要稍微强一些，它们能提供一些实际用途，但对周遭环境的影响并不大。像是创造一个小型的光源、召唤水流扑灭火焰、从远处关闭并锁上一扇门，或是将一个小物品悬浮在空中等等。次级效果将会令魔力耗竭额外+2。<br><br><span style="color: purple;" class="bbc_color">主级</span><br>主级效果就开始会令人觉得印象深刻了。将一辆汽车举到空中、飞行、创造能够持续一个小时的魔法屏障、照亮一整块城市街区、令公园内的所有花朵开始绽放、打开一座建筑物内所有没上锁的门窗等等。主级效果将会令魔力耗竭额外+5。<br><br><span style="color: purple;" class="bbc_color">史诗</span><br>史诗效果是真正如同神话一般壮观的魔法，它们所造成的魔力耗竭也极端危险。例如举起整座建筑物、转移河流、改变天气、复活死者等等。这些效果的规模可能会十分庞大，但史诗效果将会令魔力耗竭额外+12，并且如果有角色因为施放史诗魔法而出局，那么他们唯一的下场基本就是“死亡”。<br><br><span class="bbc_u"><strong>反魔法</strong></span><br>反魔法有两个作用，反制以及切流。任何人都可以通过魔法师特技来完成这两件事。<br><br><span style="color: purple;" class="bbc_color">反制</span><br>当一位魔法师看到另外一个魔法师试图施法时，他可以支付1命运点来尝试进行反制。魔法师将会使用控法技能进行反制检定，如果他反制的是一个技能魔法，那么他所得到的反制检定结果就会用于减少目标的检定。<br><em>例子：小刀看到一位萨满正准备使用攻击法术来冻结她的朋友。萨满使用射击检定总共得到+5成功度，小刀使用控法技能（+3）进行反制检定，得到++-0，总共+4。这令萨满的成功度降低为+1，他的法术更容易被防御了！</em><br>如果魔法师反制的是非技能魔法，那么就需要使用控法技能进行主动对抗。<br><br><span style="color: purple;" class="bbc_color">切流</span><br>切流能够令你直接对魔法师的魔力储存造成耗竭。只有具备魔法师特技的人才能对拥有魔力压力轨的目标进行切流。攻击者会使用控法技能进行攻击，防御者同样也使用控法技能进行防御，所有造成的压力都会由魔力压力轨承受。<br><br><span class="bbc_u"><strong>星界</strong></span><br>任何拥有魔法师特技的人都可以利用星界做到两件事。<br>第一，魔法师可以窥视星界，这令他们能够观察到主动法术以及魔法物品所散发出的魔力光晕。这还可以令他们看到物理世界中不可见的星界投影体或生物，不过你无法与它们进行互动，除非你使用魔法。<br>其次，魔法师还可以将自己投影到星界之中，这会令魔法师的现实身体失去行动能力。<br>在星界中，星界投影状态下的魔法师可以看见存在于星界中的其他物体，并且能够在星界之中快速移动。他们同样可以感知到现实世界中的一切，但在他们眼中，一切物体都失去了色彩与纹理。他们能够看到电脑屏幕，却无法看到显示器上的内容。<br>在星界旅行中，你无法以任何方式影响物理世界，就算使用魔法也不行。你可以影响星界中的任何生物、物体或其他星界投影体，但只能通过魔法来干涉。在星界中，魔力耗竭将会得到-2压力。<br>一些生物（例如灵体）可以从星界中影响物理世界。<br><br><br><span class="bbc_u"><strong>秘宠</strong></span><br>秘宠是一个拥有自主意识的独立实体，它会服从主人的指令。<br>想要创造一只秘宠，首先你得为它创作两个特征（其中之一必须是核心概念）。它的重振值为0，两个+1技能，生理与精神压力轨都为1，没有特技。你可以在驯养师特技上花费更多特技点来令秘宠的技能+1、给予它一个特技或者是提升1点重振值。<br>如果你为秘宠提升的技能将会导致生理及精神压力格增加，那么就以1个初始压力格来计算。所以+1与+2的体质将会让秘宠拥有2个生理压力格而不是正常的3个（因为秘宠只有1个压力格，而不是正常角色的2个）。<br>所有的秘宠都默认只能在陆地行动，无法在水下长时间存活。当然你也可以为秘宠增加飞行、游泳或水生能力。<br><br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>无人机</strong></span></div>无人机是能被机师控制的小型机器，机师可以命令无人机自动完成任务，无人机的技能一般会比机师自己的技能要低很多。<br>创建无人机同样需要两个特征（其中之一必须是核心概念）。它的重振值为0，两个+1技能，生理与精神压力轨都为1，没有特技。你可以在掠控者特技上花费更多特技点来令无人机的技能+1、给予它一个特技。无人机的重振值不能大于0。<br>与秘宠一样，如果无人机提高的技能将会增加压力格，那么按照初始值1来计算。<br>无人机可以拥有任意一种移动方式：地面、飞行或潜水。<br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>奖励</strong></span></div>许多赛博朋克题材的游戏中，工作的回报是最吸引人的。一般来说奖励会是货币的形式，但FATE并没有装备系统以及金钱的设定，那么我们该怎么办呢？没问题，我们有的是办法（我指的可不仅仅是里程碑）。<br><br><span class="bbc_u"><strong>奖励卡</strong></span><br>最简单的回报就是金钱，但由于我们没有实际的货币系统，所以我比较喜欢的是发放财富卡，这些卡片可以成为一次性的增益，来让资源技能额外+2、+4或+6。<br>另一种类型的回报卡则是会让你能够得到特定人群的青睐，这种卡片可以让你在使用人际技能与其他人或团体建立融洽关系时得到一次性的+2、+4或+6。<br>奖励卡是奖励玩家完成任务的最简单且最直接的方式，并且由于它们是一次性的，所以你不必担心玩家会因此而过强。<br><br><span class="bbc_u"><strong>装备特技</strong></span><br>装备特技可以令角色拥有特殊的装备。虽然FATE没有成体系的装备系统，不过这些特别的特技可以用来表示特殊的装备，令角色能够得到利用这些装备得到加强。<br>这也许会是一个精校磁锁钥匙，可以令你在使用硬件技能破坏门锁时得到+2；也许会是一架直升机，令你能够飞行；也许会是一套能够显示目标情绪反应的护目镜，令你能够使用洞察而不是共情来洞彻情感。尽情发挥你的创意吧！<br>你也不用惧怕于让装备特技变得有使用次数，像是它的弹药或者消耗物数量有限，或者在使用多次之后就会碎裂，因为这类特技一般会带来更为强大的效果。<br><br><span class="bbc_u"><strong>其他奖励</strong></span><br>还有很多其他方法可以用来奖励玩家。像是玩家身处组织中的正式职务或权力职位（如果有的话），或者也可以令他们跳槽到新的组织中，还有新的行动基地、新的重要NPC等等。<br><br><div align="center"><span style="font-size: 20pt;" class="bbc_size"><strong>最后的提示</strong></span></div>这些东西差不多可以让你使用FATE来进行一场赛博朋克/暗影狂奔风格的RPG了。虽然不够花哨，但它简单，并且实用。游玩游戏本身才是最有趣的地方，所以就让玩家自己增加细节吧。<br>在修改可调整项时，我还有两个建议：首先，在消除压力时，我认为最好可以允许玩家一次性使用两个压力格及一个伤痕格。我知道很多人似乎都比较喜欢只允许一次性使用一个压力格，但如果你希望让角色更加顽强一些，那么就可以选择我的方法（这样还可以对他们施加更大的挑战）。<br>其次，你可能会想要在一次技能检定中限制不同来源所增加的激活、增益等等的数量，来帮助自己平衡游戏。这是FATE中经常会遇到的一个难题。<br>让玩家取得成功是很好，但你不必有意让一些更加困难的事情变得容易成功，你不会希望自己的街头法师们能够能够在检定之前得到十亿次加值，导致他们在每周二晚上的例行聚会中能使用史诗效果的。<br><br>玩得开心点，搞点犯罪、在阴影下狂奔，还有祝你好运！<br><br><br><br><br>——————————————————<br>译者注：本规则的背景设定基本上与《暗影狂奔》相差无几，对这个世界观感兴趣的人可以查阅相关资料深入进行了解。<br>转载请注明出处</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_931157">
+&#171; <em>上次编辑: 2018-12-17, 周一 15:50:24 由 湛白之翼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_931157_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg931159"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_931159_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_931159">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg931159#msg931159" rel="nofollow">Re: 赛博狂奔：街头朋克（CyberRun Street Punk）翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_931159'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_931159'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2018-06-14, 周四 10:29:44 &#187;</div>
+<div id="msg_931159_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_931159">在这里感谢一下尊尊（咦他的果园ID是哪个来着）以及响火捶击团的其他群成员在翻译上提供的帮助<br><br>在用词上使用了目前已经得到授权出版（？）的FATE Core中文版本的译名，从Core入坑的人应该很容易看懂这篇文里咱没有扩展解释的地方所表达的意思（简而言之，翻规则书去）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_931159">
+&#171; <em>上次编辑: 2018-12-17, 周一 15:58:31 由 湛白之翼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_931159_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg933864"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=82166" title="检视会员资料:  妖猫">妖猫</a>
+</h4>
+<ul class="reset smalltext" id="msg_933864_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=82166">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82166_1545112937.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 626<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_933864">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg933864#msg933864" rel="nofollow">Re: 赛博狂奔：街头朋克（CyberRun Street Punk）翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_933864'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_933864'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2018-07-01, 周日 21:38:28 &#187;</div>
+<div id="msg_933864_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_933864">我猜测译者在翻译时也非常惊异于“这都是什么词？这是什么东西？”。其原因是这本小册子的大部分系统和设定基本上是Shadowrun的超简略压缩版，不过其实在种种地方并不一致（比如SR并不能复活）。<br>仅以几个译名为例：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">Rigger：词源是Rig/Rigging，也就是控制船上的索具。同时，在控制之外，Rig也带有改装/改造/装配的意思。我不知道这个“掠控”是否从海盗意会而来，但显然并不合适。暗影狂奔中的译名是“机师”，因为和操控无人机、改装机械有着密切的联系。<br>Decker：来源是Deck/Cyberdeck，在SR中指的是2029年矩阵崩溃（也就是互联网的崩溃）时发明，并在此后逐渐缩小体积的超级计算机，附带最初要一间屋子大小的拟感模块（负责神经信号和电信号之间的转译）。它的名字最初来自于巨大的控制台，而后它的外形变化为键盘/音控器大小的设备，在SR5版（2075+）中变为平板大小。暗影狂奔中使用的译名是“碟客”（因为它显而易见地谐音Hacker）。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>您可以自己进行比较，看是否有调整译名的必要。暗影狂奔的翻译均在暗影狂奔版面，完全公开，欢迎参考。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_933864">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_933864_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1145.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/EcdcRI.gif" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1690.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/Ecdgzt.gif" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1656.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/Ecd6JA.jpg" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1707.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/EcdRQP.jpg" alt="" class="bbc_img"/></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg933893"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_933893_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_933893">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg933893#msg933893" rel="nofollow">Re: 赛博狂奔：街头朋克（CyberRun Street Punk）翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_933893'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_933893'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2018-07-01, 周日 23:20:32 &#187;</div>
+<div id="msg_933893_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_933893"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg933864#msg933864">引述: 妖猫 于 2018-07-01, 周日 21:38:28</a></div></div><blockquote class="bbc_standard_quote">我猜测译者在翻译时也非常惊异于“这都是什么词？这是什么东西？”。其原因是这本小册子的大部分系统和设定基本上是Shadowrun的超简略压缩版，不过其实在种种地方并不一致（比如SR并不能复活）。<br>仅以几个译名为例：<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_alternate_quote">Rigger：词源是Rig/Rigging，也就是控制船上的索具。同时，在控制之外，Rig也带有改装/改造/装配的意思。我不知道这个“掠控”是否从海盗意会而来，但显然并不合适。暗影狂奔中的译名是“机师”，因为和操控无人机、改装机械有着密切的联系。<br>Decker：来源是Deck/Cyberdeck，在SR中指的是2029年矩阵崩溃（也就是互联网的崩溃）时发明，并在此后逐渐缩小体积的超级计算机，附带最初要一间屋子大小的拟感模块（负责神经信号和电信号之间的转译）。它的名字最初来自于巨大的控制台，而后它的外形变化为键盘/音控器大小的设备，在SR5版（2075+）中变为平板大小。暗影狂奔中使用的译名是“碟客”（因为它显而易见地谐音Hacker）。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>您可以自己进行比较，看是否有调整译名的必要。暗影狂奔的翻译均在暗影狂奔版面，完全公开，欢迎参考。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>感谢指教，虽然知道有暗影狂奔这么一个规则不过基本没仔细看过，而这篇魔改规则原文也只说参考了暗影狂奔，没想到连用词都跟暗影狂奔一致。<br>另外RIG翻译为掠控是考虑到赛博朋克的常有场景是黑客直接骇进无人机进行控制，所以使用了“掠夺、控制”的印象译法。<br>既然有现有译名，咱稍后会进行修正。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_933893">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_933893_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg972596"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=832" title="检视会员资料:  jimraynor">jimraynor</a>
+</h4>
+<ul class="reset smalltext" id="msg_972596_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=832">
+<img class="avatar" src="/bbs/upload/avatar/avatar_832_1416178698.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1005<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_972596">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg972596#msg972596" rel="nofollow">Re: 【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_972596'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_972596'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-01-24, 周四 04:02:27 &#187;</div>
+<div id="msg_972596_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_972596">有人用这个规则跑过团了吗？效果怎么样？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_972596">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_972596_signature">以下引自全能的羊姐姐：<br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=47579.msg427916#msg427916">引述: Sheepy 于 2012-05-08, 周二 12:45:20</a></div></div><blockquote class="bbc_standard_quote">挑出最优解不是容易的事。很多四版战斗时间就是花在等待或讨论最优解之上的... 战:&quot;我应该把他打倒地还是推开他?&quot; 贼:&quot;别推别推我要夹击&quot; 牧:&quot;可是不推的话他一快步我们就全体吃光环&quot; 贼:&quot;那么你别动，我用换位打?&quot; 法:&quot;我也可以拉人.&quot; 战:&quot;不可以那是墙角你不能钭拉&quot; 法:&quot;如果我这样走的话好像可以拉了但牧师要让路&quot; 牧:&quot;我走开就罩不住贼?&quot; 然后，过了十多分钟，大家谈好了，战士投骰，<span style="color: red;" class="bbc_color"><strong>打失</strong></span>... &quot;是时候重新想了.&quot;<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg973620"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_973620_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_973620">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg973620#msg973620" rel="nofollow">Re: 【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_973620'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_973620'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2019-01-29, 周二 21:17:51 &#187;</div>
+<div id="msg_973620_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_973620"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.msg972596#msg972596">引述: jimraynor 于 2019-01-24, 周四 04:02:27</a></div></div><blockquote class="bbc_standard_quote">有人用这个规则跑过团了吗？效果怎么样？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这个子系统并没有进行大幅度改造，只是加入了赛博朋克跟魔法元素，所以跑起来的感觉跟fate core是相差无几的</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_973620">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_973620_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=101121.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=101121.0"><span>【子系统】《赛博狂奔：街头朋克（CyberRun Street Punk）》翻译</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 101121,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 101121,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="101121" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=101121.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 7242 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 101121,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

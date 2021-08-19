@@ -1,0 +1,908 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="Exalted"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>Exalted</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[1735]" value="1735"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section"><table class="table_list"><tr><td class="catbg"><a href="http://www.GoddessFantasy.net/bbs/index.php?board=1735">Exalted</a></tr><tr><td class="info"><a href="http://www.GoddessFantasy.net/bbs/index.php?board=1735" class="bbc_link"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=77217.0;attach=87702;image" alt="" class="bbc_img"/></a><br><strong>翻译群：</strong><a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=8b5c24a06f0cd7b3051955480d5729ed9dbad679f2944221c9ff61d240233aa3"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="猎人小屋G" title="猎人小屋G"></a></tr></table>
+<a id="top"></a>
+<div class="pagesection">
+<div class="pagelinks align_left">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0;sort=subject;desc">主题 <img src="Themes/celeste/images/sort_up.gif" alt=""/></a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0;sort=starter">作者</a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0;sort=replies">回复</a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0;sort=views">阅读</a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0;sort=last_post">最新帖子</a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1073288"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120379.0">EX3核心书翻译CHM</a></span></strong>
+<p><span id="msg_descr_1073288" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="检视会员资料:  云之彼端">云之彼端</a>
+<small id="pages1073288"></small>
+</p>
+</div>
+<td class="stats stickybg">
+2 回复
+<br>
+6534 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120379.0#msg1117050"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-09, 周三 14:10:17<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=15373">甘甘</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_954335"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103976.0">Exalted译名表</a></span></strong>
+<p><span id="msg_descr_954335" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages954335"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2743 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103976.0#msg954335"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-17, 周三 17:25:07<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_957319"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104388.0">[漫画] Keychain of Creation</a></span></strong>
+<p><span id="msg_descr_957319" class="topic_description">原址： http://keychain.patternspider.net/archives.htm</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages957319"></small>
+</p>
+</div>
+<td class="stats stickybg">
+2 回复
+<br>
+3476 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104388.0#msg957626"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-05, 周一 07:17:39<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_955633"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104149.0">[目录] Adversaries of the Righteous</a></span></strong>
+<p><span id="msg_descr_955633" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages955633"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2333 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104149.0#msg955633"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-24, 周三 10:16:07<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_953718"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103899.0">[目录] Arms of the Chosen</a></span></strong>
+<p><span id="msg_descr_953718" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages953718"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2211 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103899.0#msg953718"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-13, 周六 22:05:25<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_953717"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103898.0">[目录] Exalted Third Edition</a></span></strong>
+<p><span id="msg_descr_953717" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages953717"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2403 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103898.0#msg953717"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-13, 周六 22:00:35<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_955636"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104151.0">[目录] Hundred Devils Night Parade</a></span></strong>
+<p><span id="msg_descr_955636" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages955636"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2741 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104151.0#msg955636"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-24, 周三 10:18:31<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_953730"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103902.0">[目录] Miracles of the Solar Exalted</a></span></strong>
+<p><span id="msg_descr_953730" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages953730"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2543 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103902.0#msg953730"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-13, 周六 22:29:58<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_955855"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104180.0">[EX3-AotC] 绪论</a></span>
+<p><span id="msg_descr_955855" class="topic_description">Introduction</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages955855"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2153 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104180.0#msg955855"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-25, 周四 00:32:46<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_957647"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104438.0">[EX3-Core] 第一章 - 冥渊尊者</a></span>
+<p><span id="msg_descr_957647" class="topic_description">Chapter One - The Abyssal Exalted</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages957647"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2299 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104438.0#msg957647"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-05, 周一 09:36:03<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_956317"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104251.0">[EX3-Core] 第一章 - 尊者</a></span>
+<p><span id="msg_descr_956317" class="topic_description">Chapter One - The Exalted</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages956317"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2290 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104251.0#msg956317"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-27, 周六 20:06:17<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_957467"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104417.0">[EX3-Core] 第一章 - 日轮尊者</a></span>
+<p><span id="msg_descr_957467" class="topic_description">Chapter One - The Solar Exalted</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages957467"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2395 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104417.0#msg957467"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-04, 周日 09:31:56<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_958220"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104517.0">[EX3-Core] 第一章 - 月轮尊者</a></span>
+<p><span id="msg_descr_958220" class="topic_description">Chapter One - The Lunar Exalted</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages958220"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2237 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104517.0#msg958220"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-07, 周三 17:31:40<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_956450"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104272.0">[EX3-Core] 第一章 - 走精入髓</a></span>
+<p><span id="msg_descr_956450" class="topic_description">Chapter One - Essence Fever</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages956450"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2413 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104272.0#msg956450"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-29, 周一 09:58:17<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_957980"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104496.0">[EX3-Core] 第一章 - 龙裔</a></span>
+<p><span id="msg_descr_957980" class="topic_description">Chapter One - The Dragon-Blooded</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages957980"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2326 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104496.0#msg957980"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-06, 周二 20:48:55<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_952419"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0">[EX3-Core] 第三章 - 范例角色创建</a></span>
+<p><span id="msg_descr_952419" class="topic_description">Chapter Three - Example of Character Creation</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="检视会员资料:  云之彼端">云之彼端</a>
+<small id="pages952419"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2669 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0#msg952419"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-05, 周五 16:42:44<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180">云之彼端</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_952341"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0">[EX3-Core] 第三章 - 角色创建</a></span>
+<p><span id="msg_descr_952341" class="topic_description">Chapter Three - Character Creation</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages952341"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3800 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103700.0#msg952341"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-04, 周四 23:52:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_956845"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104327.0">[EX3-Core] 第三章 - 角色创建概要</a></span>
+<p><span id="msg_descr_956845" class="topic_description">Chapter Three - Character Creation Summary</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages956845"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2113 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104327.0#msg956845"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-31, 周三 00:11:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_955404"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104132.0">[EX3-Core] 第五章 - 动作难题</a></span>
+<p><span id="msg_descr_955404" class="topic_description">Chapter Five - Action Complications</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages955404"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2359 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104132.0#msg955404"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-23, 周二 14:25:33<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_954557"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104013.0">[EX3-Core] 第五章 - 基础系统框架</a></span>
+<p><span id="msg_descr_954557" class="topic_description">Chapter Five - General System Structure</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages954557"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2326 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104013.0#msg954557"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-19, 周五 01:54:00<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_959792"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104728.0">[EX3-Core] 第五章 - 战斗</a></span>
+<p><span id="msg_descr_959792" class="topic_description">Chapter Five - Combat</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages959792"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2701 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104728.0#msg959792"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-15, 周四 23:23:59<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_954532"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104010.0">[EX3-Core] 第五章 - 术语表</a></span>
+<p><span id="msg_descr_954532" class="topic_description">Chapter Five - Glossary</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages954532"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2177 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104010.0#msg954532"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-18, 周四 23:45:10<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_954879"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104063.0">[EX3-Core] 第五章 - 炫技</a></span>
+<p><span id="msg_descr_954879" class="topic_description">Chapter Five - Stunts</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages954879"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2100 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104063.0#msg954879"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-20, 周六 18:58:50<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_961069"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104903.0">[EX3-Core] 第四章 - 关系</a></span>
+<p><span id="msg_descr_961069" class="topic_description">Chapter Four - Intimacies</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages961069"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2481 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104903.0#msg961069"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-24, 周六 18:17:40<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_952628"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103740.0">[EX3-Core] 第四章 - 大诅咒和临界崩溃</a></span>
+<p><span id="msg_descr_952628" class="topic_description">Chapter Four - The Great Curse and Limit Break</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages952628"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2706 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103740.0#msg952628"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-07, 周日 10:28:18<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_960795"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104854.0">[EX3-Core] 第四章 - 意志力</a></span>
+<p><span id="msg_descr_960795" class="topic_description">Chapter Four - Willpower</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages960795"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2085 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104854.0#msg960795"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-11-22, 周四 20:15:13<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_955540"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104146.0">[EX3-Core] 绪论 - 初始与终结之日</a></span>
+<p><span id="msg_descr_955540" class="topic_description">Introduction - The First and Final Days</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages955540"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2436 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104146.0#msg955540"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-23, 周二 23:08:57<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_952342"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103702.0">[EX3-Core] 绪论 - 词释</a></span>
+<p><span id="msg_descr_952342" class="topic_description">Introduction - Lexicon</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages952342"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3013 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103702.0#msg952342"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-10-04, 周四 23:53:48<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_954952"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104074.0">[实验团]幻梦陵墓（Tomb of Dreams）</a></span>
+<p><span id="msg_descr_954952" class="topic_description">内部测试，PC已满</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages954952"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+2978 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=104074.0#msg965867"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-12-18, 周二 13:17:07<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616">不朽食物</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 1735,
+iCurBoardChildLevel: 1,
+sCurBoardName: "Exalted",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

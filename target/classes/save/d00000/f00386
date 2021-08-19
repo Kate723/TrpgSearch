@@ -1,0 +1,1282 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【Call of Cthulhu 7th】半自动人物卡v2.0.5"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【Call of Cthulhu 7th】半自动人物卡v2.0.5</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1241.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="80472"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1241.0"><span>COC 规则及扩展</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82645" title="版主">星落雪</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0"><span>【Call of Cthulhu 7th】半自动人物卡v2.0.5</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg761809"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=80472.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.40">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php?topic=80472.%1$d', 60, 100, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.100">6</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.20">&#187;</a>   &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【Call of Cthulhu 7th】半自动人物卡v2.0.5 &nbsp;(阅读 151356 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 更新日期2020-02-07</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=quickmod2;topic=80472.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e8ec3fcb53e635cea755d88e80dad504', 'b6a8112e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_761809_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/wink.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_761809">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg761809#msg761809" rel="nofollow">【Call of Cthulhu 7th】半自动人物卡v2.0.5</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_761809'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_761809'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2015-11-02, 周一 16:37:24 &#187;</div>
+<div id="msg_761809_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_761809">自2.0.0开始发布双版本<br><strong>桌面版</strong>加入了几个实用的按钮，会更方便一些，但因为使用了宏，所以只能在桌面平台使用<br><strong>通用版</strong>依旧兼容移动平台，对旧版本的Office支持更好<br>如果你在PC或Mac上使用这张人物卡，建议选择桌面版<br>规则书Version2002中重翻了武器列表，在此不再提供<br><br><span style="font-size: 12pt;" class="bbc_size">人物卡下载地址见附件，需要登录后才能看到。</span><br><br>经典蓝白配色，在建卡页选中技能会跳出一段简短的技能介绍。<br>(通用版)移动端完全兼容，在应用商店中搜索并安装Excel即可使用。<br>请使用<strong>2013或更新版本的Office</strong>(而不是WPS)打开表格，以免出现兼容性问题。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>更新日志</strong></span><br>2.0.5与规则书Version2002统一部分译名；修复txt输出时部分技能无法显示的Bug；调整排版。<br>2.0.4修复已知Bug<br>2.0.2修好了属性掷骰的Bug<br>2.0.1增加“建卡”页的单元格宽度，以期在不完善的DPI缩放中正常显示<br>2.0.0添加“建卡”标签，将原有“人物卡”页的部分功能移至“建卡”页，一并加入了建卡指导；对人物卡前半页进行重排版，解决技能栏过长的问题，完全重制状态属性，放大了头像框；重写大部分函数；在职业列表中添加此前漏掉的非熟练工人，为自定义职业增加职业属性选单；移除了武器参考表；并且与规则书Version1809统一部分译名<br>1.x.x版本：<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">1.7.3 武器参考表勘误：120mm坦克炮伤害应为15d10，5英寸舰炮的伤害应为12d10，时代应为现代<br>1.7.2 武器参考表勘误：手斧/手镰的所用技能应为格斗(斧)，连射改为全自动，3连射改为3发点射；人物卡勘误：个人描述改为形象描述<br>1.7.0 添加信用评级资产对照表，修正手里剑的射程，统一一大票译名<br>1.6.2 添加武器参考表，修BUGs<br>1.6.1 修BUGs<br>1.6.0 技能简介全部重写，添加txt输出功能，与规则书统一译名<br>1.5.6 修BUGs<br>1.5.3 去掉了工作表保护的密码，掷骰中添加了多面骰以供临时使用。<br>1.5.1-1.5.2 修bug<br>1.5 更新了不计其数的东西……管它呢……<br>1.4.1 滚回以前的版本<br>1.3.5 修复职业技能点计算bug<br>1.3.3 修正从右往左数第三列的列宽错误，删除技能经验标记复选框，合并mov计算公式，修复bug若干<br>1.3 重做职业列表，统一翻译，修改错位的技能提示，求生的格子减少到一个<br>1.2.7 修改MOV算式<br>1.2.6 修正排版，添加属性生成页<br>1.2.5 统一了部分翻译</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_761809">
+&#171; <em>上次编辑: 2020-02-07, 周五 23:39:23 由 秋叶EXODUS</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_761809_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg761824"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568" title="检视会员资料:  无名的巫妖">无名的巫妖</a>
+</h4>
+<ul class="reset smalltext" id="msg_761824_extra_info">
+<li class="title">人菜话不多<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76568_1619018006.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 117<li class="karma">苹果币: 0<li class="blurb">人菜话不多<li class="profile">
+<ul>
+<li><a href="http://linnena.lofter.com/" title="lofter" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="lofter" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_761824">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg761824#msg761824" rel="nofollow">Re: 7th仿真自动计算人物卡v1.25</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_761824'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_761824'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2015-11-02, 周一 19:27:43 &#187;</div>
+<div id="msg_761824_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_761824">这个好！多谢<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_761824">
+&#171; <em>上次编辑: 2015-11-04, 周三 13:26:09 由 无名的巫妖</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_761824_signature">没有退路了，这一生不会有，下一世亦不会有……<br><br>模组翻译存档：<a href="https://pan.baidu.com/s/1jIj556u" class="bbc_link new_win" target="_blank">https://pan.baidu.com/s/1jIj556u</a><br><br>已完坑的模组集：<br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=101451.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元-Strange Aeons</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98921.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元2-Strange Aeons IIs</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=97549.0/" class="bbc_link new_win" target="_blank">7版战役 卡尔克萨的涟漪-Ripples From Carcosa</a><br><br>奈亚面具-肯尼亚篇 0.2/1</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg762243"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568" title="检视会员资料:  无名的巫妖">无名的巫妖</a>
+</h4>
+<ul class="reset smalltext" id="msg_762243_extra_info">
+<li class="title">人菜话不多<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76568">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76568_1619018006.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 117<li class="karma">苹果币: 0<li class="blurb">人菜话不多<li class="profile">
+<ul>
+<li><a href="http://linnena.lofter.com/" title="lofter" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="lofter" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_762243">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg762243#msg762243" rel="nofollow">Re: 7th仿真自动计算人物卡v1.25</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_762243'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_762243'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2015-11-04, 周三 13:26:21 &#187;</div>
+<div id="msg_762243_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_762243">原来如此我又2了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_762243">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_762243_signature">没有退路了，这一生不会有，下一世亦不会有……<br><br>模组翻译存档：<a href="https://pan.baidu.com/s/1jIj556u" class="bbc_link new_win" target="_blank">https://pan.baidu.com/s/1jIj556u</a><br><br>已完坑的模组集：<br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=101451.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元-Strange Aeons</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98921.0/" class="bbc_link new_win" target="_blank">6版模组集 奇异纪元2-Strange Aeons IIs</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=97549.0/" class="bbc_link new_win" target="_blank">7版战役 卡尔克萨的涟漪-Ripples From Carcosa</a><br><br>奈亚面具-肯尼亚篇 0.2/1</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg763278"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=893" title="检视会员资料:  游侠sid">游侠sid</a>
+</h4>
+<ul class="reset smalltext" id="msg_763278_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=893">
+<img class="avatar" src="/bbs/upload/avatar/avatar_893_1335838421.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 349<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_763278">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg763278#msg763278" rel="nofollow">Re: 7th仿真自动计算人物卡v1.25</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_763278'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_763278'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2015-11-09, 周一 12:33:14 &#187;</div>
+<div id="msg_763278_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_763278">那啥 头像不知为何无法替换= =</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_763278">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg763796"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_763796_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_763796">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg763796#msg763796" rel="nofollow">Re: 7th仿真自动计算人物卡v1.25</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_763796'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_763796'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2015-11-12, 周四 00:33:56 &#187;</div>
+<div id="msg_763796_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_763796"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg763278#msg763278">引述: 游侠sid 于 2015-11-09, 周一 12:33:14</a></div></div><blockquote class="bbc_standard_quote">那啥 头像不知为何无法替换= =<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>呃……咱在这边试了一下，是可以替换的……<br>这边是office2016。用10和之前的版本的office可能会有问题……</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_763796">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_763796_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773027"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77797" title="检视会员资料:  Raymond">Raymond</a>
+</h4>
+<ul class="reset smalltext" id="msg_773027_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 4<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773027">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027" rel="nofollow">Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773027'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773027'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-01-15, 周五 10:38:40 &#187;</div>
+<div id="msg_773027_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773027">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773027">
+&#171; <em>上次编辑: 2016-01-15, 周五 10:54:45 由 Raymond</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773031"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77797" title="检视会员资料:  Raymond">Raymond</a>
+</h4>
+<ul class="reset smalltext" id="msg_773031_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 4<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773031">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773031#msg773031" rel="nofollow">Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773031'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773031'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-01-15, 周五 10:55:36 &#187;</div>
+<div id="msg_773031_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773031"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_standard_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773031">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773043"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_773043_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773043">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773043#msg773043" rel="nofollow">Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773043'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773043'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2016-01-15, 周五 12:20:50 &#187;</div>
+<div id="msg_773043_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773043"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773031#msg773031">引述: Raymond 于 2016-01-15, 周五 10:55:36</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_alternate_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>嗯……看了一下确实有这个问题<br>已更新</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773043">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_773043_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg773047"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77797" title="检视会员资料:  Raymond">Raymond</a>
+</h4>
+<ul class="reset smalltext" id="msg_773047_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 4<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773047">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773047#msg773047" rel="nofollow">Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773047'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773047'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-01-15, 周五 13:06:58 &#187;</div>
+<div id="msg_773047_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773047"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773043#msg773043">引述: 秋叶EXODUS 于 2016-01-15, 周五 12:20:50</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773031#msg773031">引述: Raymond 于 2016-01-15, 周五 10:55:36</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_standard_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>嗯……看了一下确实有这个问题<br>已更新<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>OK,多谢大大</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773047">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg827820"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80919" title="检视会员资料:  aabb244567">aabb244567</a>
+</h4>
+<ul class="reset smalltext" id="msg_827820_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_827820">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg827820#msg827820" rel="nofollow">Re: COC 7th 自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_827820'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_827820'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-11-30, 周三 19:26:39 &#187;</div>
+<div id="msg_827820_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_827820"><span style="font-family: 楷体;" class="bbc_font">楼主大人！onedrive网址打不开怎么解决？需要科学上网吗？迟一点想和朋友开个《涠洲岛》玩，需要这一个人物卡 <img src="/bbs/Smileys/converted/em023.gif" alt="&#58;em023" title="&#58;em023" border="0" class="smiley"/></span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_827820">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg828224"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80448" title="检视会员资料:  FreedomGX">FreedomGX</a>
+</h4>
+<ul class="reset smalltext" id="msg_828224_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 21<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_828224">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg828224#msg828224" rel="nofollow">Re: COC 7th 自动计算人物卡v1.33 (附送中文现代面团用卡)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_828224'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_828224'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2016-12-04, 周日 09:12:08 &#187;</div>
+<div id="msg_828224_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_828224">这个不错，谢谢了！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_828224">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg832005"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_832005_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_832005">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832005#msg832005" rel="nofollow">Re: COC 7th 半自动人物卡v1.5</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_832005'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_832005'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2017-01-07, 周六 19:25:24 &#187;</div>
+<div id="msg_832005_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_832005">更新啦！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_832005">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_832005_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg832929"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80469" title="检视会员资料:  千羽">千羽</a>
+</h4>
+<ul class="reset smalltext" id="msg_832929_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 30<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_832929">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832929#msg832929" rel="nofollow">Re: COC 7th 半自动人物卡v1.5</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_832929'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_832929'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2017-01-15, 周日 19:09:10 &#187;</div>
+<div id="msg_832929_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_832929">您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_832929">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg833012"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_833012_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_833012">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg833012#msg833012" rel="nofollow">Re: COC 7th 半自动人物卡v1.5</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_833012'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_833012'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2017-01-16, 周一 18:38:39 &#187;</div>
+<div id="msg_833012_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_833012"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832929#msg832929">引述: 千羽 于 2017-01-15, 周日 19:09:10</a></div></div><blockquote class="bbc_standard_quote">您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请随意~</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_833012">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_833012_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg833139"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80469" title="检视会员资料:  千羽">千羽</a>
+</h4>
+<ul class="reset smalltext" id="msg_833139_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 30<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_833139">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg833139#msg833139" rel="nofollow">Re: COC 7th 半自动人物卡v1.5</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_833139'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_833139'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2017-01-17, 周二 20:55:21 &#187;</div>
+<div id="msg_833139_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_833139"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg833012#msg833012">引述: 秋叶EXODUS 于 2017-01-16, 周一 18:38:39</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832929#msg832929">引述: 千羽 于 2017-01-15, 周日 19:09:10</a></div></div><blockquote class="bbc_alternate_quote">您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请随意~<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>谢谢~</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_833139">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg842136"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82150" title="检视会员资料:  zweipet">zweipet</a>
+</h4>
+<ul class="reset smalltext" id="msg_842136_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_842136">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg842136#msg842136" rel="nofollow">Re: COC 7th 半自动人物卡v1.53</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_842136'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_842136'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #15 于:</strong> 2017-03-18, 周六 16:13:46 &#187;</div>
+<div id="msg_842136_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_842136">请问下，我这边是office2016，为什么打开这个卡的时候显示是文件 已损坏呢？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_842136">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg842147"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493" title="检视会员资料:  秋叶EXODUS">秋叶EXODUS</a>
+</h4>
+<ul class="reset smalltext" id="msg_842147_extra_info">
+<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=71493">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71493_1550309736.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 862<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_842147">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg842147#msg842147" rel="nofollow">Re: COC 7th 半自动人物卡v1.53</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_842147'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_842147'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #16 于:</strong> 2017-03-18, 周六 17:47:26 &#187;</div>
+<div id="msg_842147_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_842147"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg842136#msg842136">引述: zweipet 于 2017-03-18, 周六 16:13:46</a></div></div><blockquote class="bbc_standard_quote">请问下，我这边是office2016，为什么打开这个卡的时候显示是文件 已损坏呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>试试重新下载一次？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_842147">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_842147_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1158.0" class="bbc_link new_win" target="_blank">泡泡百科</a><br>正经的COC教学视频：<a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">Vol.0 爱手艺与克苏鲁神话</a> | <a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">Vol.1 我们来跑团吧</a> | <a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank">Vol.2 调查员和他的朋友们</a> | <a href="https://www.bilibili.com/video/BV1E64y1i7VY" class="bbc_link new_win" target="_blank">Vol.3 掷出这颗骰子</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg851061"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80988" title="检视会员资料:  巫筮">巫筮</a>
+</h4>
+<ul class="reset smalltext" id="msg_851061_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 5<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_851061">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg851061#msg851061" rel="nofollow">Re: COC 7th 半自动人物卡v1.6.0</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_851061'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_851061'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #17 于:</strong> 2017-05-04, 周四 11:33:23 &#187;</div>
+<div id="msg_851061_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_851061">【分页技能】里【特殊技能】下技能的批注标错了，没有对应技能</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_851061">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg851812"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82741" title="检视会员资料:  agamemnon">agamemnon</a>
+</h4>
+<ul class="reset smalltext" id="msg_851812_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 5<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_851812">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg851812#msg851812" rel="nofollow">Re: COC 7th 半自动人物卡v1.6.0</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_851812'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_851812'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #18 于:</strong> 2017-05-08, 周一 13:58:12 &#187;</div>
+<div id="msg_851812_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_851812">哦哦哦，厉害了！谢分享制作！<br>那么问题来了，要去搞更高版本的Office去了(¬_¬)</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_851812">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg853520"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=83306" title="检视会员资料:  974451146">974451146</a>
+</h4>
+<ul class="reset smalltext" id="msg_853520_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 3<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_853520">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg853520#msg853520" rel="nofollow">Re: COC 7th 半自动人物卡v1.6.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_853520'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_853520'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #19 于:</strong> 2017-05-17, 周三 22:22:23 &#187;</div>
+<div id="msg_853520_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_853520">啊哈，准备用这个表开始练习，谢谢楼主</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_853520">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=80472.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.20">2</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.40">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php?topic=80472.%1$d', 60, 100, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.100">6</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.20">&#187;</a>   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1241.0"><span>COC 规则及扩展</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=82645" title="版主">星落雪</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0"><span>【Call of Cthulhu 7th】半自动人物卡v2.0.5</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 80472,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 80472,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b6a8112e" value="e8ec3fcb53e635cea755d88e80dad504" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="80472" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e8ec3fcb53e635cea755d88e80dad504\', \'b6a8112e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;' + '?topic=80472.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 151356 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1241,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "COC 規則及擴展",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1241,
+							iTopicId: 80472,
+							sSessionId: "e8ec3fcb53e635cea755d88e80dad504",
+							sSessionVar: "b6a8112e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1679.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'eb1e78565e9cdf255590e0c1b5b28aca');">
+<div class="info">请 <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login">登录</a> 或 <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="97775"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'a9eee7e',
+sSessionId: 'eb1e78565e9cdf255590e0c1b5b28aca'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1679.0"><span>BRP Japan Now</span></a> (版主群: <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0"><span>【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg904870"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=printpage;topic=97775.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post_locked_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式 &nbsp;(阅读 10305 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 原作者：ホリ 译者：安反子(已获得原作者许可翻译版的单独公开)</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=quickmod2;topic=97775.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('eb1e78565e9cdf255590e0c1b5b28aca', 'a9eee7e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=87399" title="检视会员资料:  安反子">安反子</a>
+</h4>
+<ul class="reset smalltext" id="msg_904870_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 7<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_904870">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.msg904870#msg904870" rel="nofollow">【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_904870'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_904870'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-01-21, 周日 08:00:27 &#187;</div>
+<div id="msg_904870_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_904870"><span style="font-size: 1.45em;" class="bbc_size">首先此教程是由日本的ホリ老师所写，我用零零碎碎的空闲时间将这个教程翻译为了中文，<br>让想要写克苏鲁原创剧本却不知道该从何处开始下笔，或是遇到困难的原创作家们作为参考。<br>教程来源是ホリ老师和他的友人チョリ用于共同公开原创剧本的个人网站「耶话鸣え」，有时也会公开一些嘉宾的自制剧本。<br>此翻译版在中国网站上的单独公开已经获得ホリ老师的许可，并且<span style="color: red;" class="bbc_color"><strong>欢迎转载与引用</strong></span><span style="color: black;" class="bbc_color">(不过译者希望大家可以</span><span style="color: red;" class="bbc_color"><strong>注明原作者</strong></span><span style="color: black;" class="bbc_color">的ホリ老师)。</span><br>ホリ老师对此感到非常高兴，也很希望自己的教程可以在大家写原创剧本时起到小小的帮助。<br>关于ホリ老师曾经创作过的原创剧本有「睡美人的事件簿」，「星空庄的怪异谭」，「歌剧魅影」，「遥远边境的轨道」等。<br>以下开始教程的详细内容</span><br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>在该教程中会对下列各点逐步说明</strong></span><br><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于剧本构成</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于导入环节</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于结局</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于NPC</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于中盘</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于固定剧情</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于探索环节</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">关于剧本的完成/试跑</span></span><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">制作剧本时推荐参考的书籍</span></span></ul><br><br><span style="font-size: 2.65em;" class="bbc_size"><strong>关于剧本构成</strong></span>&nbsp; <br><hr /><br><span style="font-size: 2em;" class="bbc_size">◆构成剧本的元素</span><span style="font-size: 1.35em;" class="bbc_size"><br>　将克苏鲁神话TRPG的剧本从起点到终点大致的进行分类的话，大部分的剧本是以下图这样的构成组成的。<br>我在制作剧本的时候也会将剧本像下图这样分类，将每个部分作为独立的内容去思考。<br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-z_zpsy8f3ejsr.png" alt="" width="783" height="537" class="bbc_img resized"/><br></span><span style="font-size: 1.45em;" class="bbc_size"><strong>&gt;&gt;关于序盘・导入环节</strong></span><span style="font-size: 1.35em;" class="bbc_size"><br>　导入环节就如其名，是为了把探索者导入进剧本的环节。在本杂记中，将把从剧本开始时一本道（无分歧）前进的部分称为导入环节。将会进<br>行「探索者们的集合（会面）」「对探索者出示须探索的谜题」等。<br></span><span style="font-size: 1.45em;" class="bbc_size"><strong>&gt;&gt;关于中盘・探索环节</strong></span><span style="font-size: 1.35em;" class="bbc_size"><br>　探索环节就是探索者能够自由的进行探索的环节。探索者将以在导入中得知的情报作为源头，开始寻找各种各样的场所・人物。因为探索环节<br>的进展情况会非常依赖于具备有多彩多样的性格的探索者们的行动，所以在全剧本中处于最具流动性的位置。<br></span><span style="font-size: 1.45em;" class="bbc_size"><strong>&gt;&gt;关于中盘・固定剧情</strong></span><span style="font-size: 1.35em;" class="bbc_size"><br>　固定剧情的说法不知道是否正确，但我们是这样称呼的。指的是「探索者在探索的过程中满足了什么条件而发生的剧情」亦或是「经过一定时<br>间后自动发生的剧情」等。通过这些剧情，给予探索者们「解明谜团的钥匙」或是「逼近自身的危机与恐怖感」等，进一步诱导向结局。<br></span><span style="font-size: 1.45em;" class="bbc_size"><strong>&gt;&gt;关于终盘・结局</strong></span><span style="font-size: 1.35em;" class="bbc_size"><br>　这是结局。指的是从剧本中某个节点开始，一直到剧本结束为止的基本上一本道前进的部分。在结局，探索者将因在剧本中盘采取的行动而分<br>歧为几种不同的情况。并且，通过探索者的行动，还有可能发展成剧本制作者完全没有想象到的预想外的结果。<br><br><br>　那么像上述的一样分割了剧本后，就将对每个部分的内容进行构思来开始制作剧本。每个人都应该有着多样的想法和制作方式，不过我在制作<br>剧本时感觉最容易的顺序并不是按照各个环节的先后顺序来制作的。具体的顺序可以参考下图，关于理由将在下面的各个项目中介绍。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-y_zpsfybecwiw.png" alt="" width="778" height="280" class="bbc_img resized"/><br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于导入环节</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待导入环节</span><span style="font-size: 1.35em;" class="bbc_size"><br>　我在构思剧本的时候，首先会固定好「有魅力的导入（导入环节）」和「有魅力的结局（结局）」。创作剧本，尤其是在创作克苏鲁神话TRPG<br>的剧本时，将最初和最后表现的具有魅力的话，不管中盘怎样，至少能够让人为之留下深刻的印象。<br><br>　特别是导入，这是所有探索者最初都会通过的一个环节。将这里表现的如何具有魅力，将会成为吸引玩家代入剧本的关键。如果剧本的导入部<br>分是平平淡淡没有兴奋和期待感的话，就会变成直到中盘的起伏到来之前玩家都只是在进行无趣的例行任务。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆导入的种类</span><span style="font-size: 1.35em;" class="bbc_size"><br>　在剧本中探索者将从日常世界中被邀请到神话世界观中，而邀请方法大致有下记的这两种类型。<br><br></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>被动型</strong> … 探索者自身并没有做什么，却被强制的・暴力的卷入了剧本中。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>主动型</strong> … 谜团落在了探索者的眼前。探索者出于自身的兴趣或责任感等而动身调查谜团。</span></ul><span style="font-size: 1.35em;" class="bbc_size"><br>　被动型的导入是指，<span class="bbc_u"><strong>「突然被扭扭晃晃的巨大的怪物袭击并受到了诅咒（</strong></span></span><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u"><strong>幽灵公主</strong></span></span><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u"><strong>）」</strong></span>，</span><span style="font-size: 1.35em;" class="bbc_size">亦或者是<span class="bbc_u"><strong>「目击了拥有着超越常识的动作的两名战士<br>的战斗，不知为何被盯上了性命</strong></span></span><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u"><strong>（Fate/stay night</strong></span></span><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u"><strong>）」</strong></span> 等，通过和探索者的意志无关联的突发事件，让探索者为了自保或是帮助友人，必然<br>的被导入进剧本的类型。<br>　这个类型的重点是「表现突发事件的手法」。通过强调日常和非日常的对比，来让故事给探索者留下深刻印象。<br><br>　主动型的导入是指，<span class="bbc_u"><strong>「儿时幻想的内容变成了实际所发生的事情（20世纪少年）」</strong></span>，</span><span style="font-size: 1.35em;" class="bbc_size">亦或者是<span class="bbc_u"><strong>「被委托查明不可思议的案件的真相（神探夏洛<br>克）」</strong></span>等，探索者了解到在自己身边所发生的不可思议的事件，并以他自己的意志开始进行查明真相的行动的类型。<br>　这个类型所注重的一点是，「用朦胧的手段表现谜团」。因为就如同上面所写的极有可能需要在日常的框架中进行表现，所以如何将更有魅力<br>且能够吸引人的谜团放入其中就成了关键。<br>　当然，在主动型里也可以进行非日常的表现。<span class="bbc_u"><strong>「师傅！天上掉下个女孩子！（天空之城）」</strong></span>等就是一例。男主人公既可以和天上掉下来的女孩<br>子产生关联也可以不去管她，通过积极的介入女孩子的谜团之中，故事就开始展开了。（但是，如果</span><span style="font-size: 1.35em;" class="bbc_size">男主人公对女孩子毫不关心的话故事也就结<br>束了…）<br>　<br>　在制作剧本的时候，并不需要刻意的去念叨着上述的种类。但是了解过有上述的种类之后，制作导入部分时应该就更容易上手了。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆有魅力的导入是指</span><span style="font-size: 1.35em;" class="bbc_size"><br>　<strong>①如画般的导入</strong><br><br>　我最喜欢的导入方式是「被动型」。要说为什么，就是因为”容易在脑中形成如画般的一帧”。<br><br>　好看的小说在被放上荧幕后，基本上都能展现出酷炫或是华丽的场景。相反越是不怎么样的作品，在被放上荧幕后就越是平淡的持续播放着没<br>有特色的场景完全无 法留下印象。克苏鲁神话TRPG的作品也是这个道理。虽然剧本是通过文字的组合而制作出来的，但是我觉得其中所描述的<br>内容「以在脑海中想象时越容易浮现出如画般的一帧为目标」是最好的。如果玩家在听着剧本的内容时，他们脑海中所幻想出的场面是酷炫，华<br>丽等等充满魅力的场面的话，那么导入环节的魅力就已经被感受到了。<br>　比如说，在吉卜力电影的「幽灵公主」中，从电影刚开始就发生了和诡异的一扭一扭的怪物的战斗。在美丽的景色之中所展开的是难以名状的<br>怪物和青年的战斗。因为是突然发生的事情，观众也不知道</span><span style="font-size: 1.35em;" class="bbc_size">具体发生了什么，但是因为开场有具有”酷炫场面”的战斗剧情而被一下子代入进了故<br>事之中。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_003_zpswoijhhky.jpg" alt="" class="bbc_img"/><br><br>　要制作出</span><span style="font-size: 1.35em;" class="bbc_size">如画般的一帧，就需要明确好「在怎样的场所」「什么样的事情」「如何发生」，将这些内容在脑海中推演构想场景，然后再根据需<br>要进行修改即可。<br><br>　虽然也有将开场的谜团或是剧情做的平淡一些，随着接近结局逐渐的将内容朝着高潮去表现的想法，但我更喜欢从开场就做出大胆演出的作品。<br>如果是开场很平淡无趣的作品的话，在中途就很容易放弃看不下去了。我觉得这样的人是有不少的。对于这样的人就要用</span><span style="font-size: 1.35em;" class="bbc_size">一发猛烈的剧情演出来<br>击中他们的心弦，稳稳的让其代入进故事之中。<br><br>　<strong>②有氛围（能够引起兴趣的谜团）的导入</strong><br><br>　我很喜欢漫画家浦泽直树的作品。浦泽老师的「20世纪少年」「MONSTER」「PLUTO」等作品都是在故事开始的瞬间就有充满魅力的谜团以<br>难以置信的数量喷涌而出，每一个都能勾起读者想要知道真相的兴趣。并且这些谜团也使作品拥有一个独特的世界观。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_005_zps9rsq6tww.jpg" alt="" class="bbc_img"/><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_zpsb4kt1vmn.jpg" alt="" class="bbc_img"/><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_007_zpszexs3yso.jpg" alt="" class="bbc_img"/><br><br>　让人想要知道真相的谜团可以</span><span style="font-size: 1.35em;" class="bbc_size">有力的将读者吸引进故事之中，作为导入可以说是最合适不过的。特别是克苏鲁神话TRPG基本上是探索型的游<br>戏，充满魅力的谜团可以让探索者们抱着”值得去玩”的心态来挑战。像是「在杀人现场留下的让人在意的奇妙的什么」或是「一觉醒来后发现到<br>异世界了」等方式所开始的故事就可以说是类似于这一类的导入。但是，有许多都是已经被用烂了的套路，所以要展现出魅力的话可能也需要为<br>能够展现自己个性而付出一些努力。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆（稍稍的）考虑一下发生导入的理由</span><span style="font-size: 1.35em;" class="bbc_size"><br>　不管是怎样的导入，都是发生了什么样的”事情”，探索者们或是被卷入其中，或是主动挑战的情况。而那发生的事情则必定有着「为什么发生<br>了这样的事情」的理由。<br>　如果是探索者被怪物袭击的导入的话，那就是为什么那个怪物会出现。在杀人现场有奇妙的掉落物的话，那就是为什么这里会有掉落物。考虑<br>出了有魅力的导入部分后，将为何会发生那样的事情大概的考虑一下是不错的吧。看着会觉得难，其实这个意外的简单。克苏鲁神话TRPG是神话<br>生物的故事。有着各种多彩多样的神话生物，不仅有神的存在也有着魔法的存在，大多数的事情怎样都能解释的。一边翻着官方规则书查阅与自<br>己的导入适应性较高的神话生物或者魔法的资料，一边思考着试试看吧。<br><br>　但是，在这个阶段就得出「故事的背景就决定好是这样了！」的结论还太早了。因为现在还仅仅是考虑了故事的三分之一的程度而已。<br>　我觉得制作剧本就好像是画素描一般的感觉。这边加几句那边减几句，这里扩展下场面那里删减下演出，通过将内容不断的凝练深造使得剧本<br>的质量不断上升。<br>　在这个阶段中，将各种设定以「这种可能性也可以有呢ー」的程度考虑着看看，然后开始下个阶段「结局」的制作吧。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于结局</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待结局</span><span style="font-size: 1.35em;" class="bbc_size"><br>　结局就是剧本的终盘，指的是探索者们跨越他们所直面的试炼的场景。本来克苏鲁神话TRPG的结局都是由KP和玩家即兴创作出的东西，所以<br>不指定下特定的结局也只是「应有的形态」，但实际上这并无法那么顺利的做到。<br>　对于玩了这个剧本的KP和玩家而言，结局可以说是在剧本中留下的血与汗与泪的结晶化的环节。作为制作剧本的人来说也务必想将这最后的场<br>景以充满魅力的方式表现给KP和玩家们。一定程度上准备好一些清晰精致的结局框架的话，可以辅助KP更好的表现这个剧本吧。<br><br>　并且，结局是比起导入环节要更加容易思考出宏伟，壮大或是激烈的场面的部分。在导入环节之前，先从结局的框架开始思考的剧本也可以制<br>作出有趣的内容吧。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆结局的种类</span><span style="font-size: 1.35em;" class="bbc_size"><br>　结局的分类虽然很困难，不过粗略能够想到的类型就是下记的内容吧。<br><br></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>战斗</strong> … 击破最终BOSS通关。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>逃走/脱离</strong> … 从无法战胜的强敌面前逃走，或是逃出将要崩塌的建筑等通关。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>阻止</strong> … 将即将成立的恶魔仪式之类的，放着不管的话就会发生的悲剧等事先阻止以通关。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>解决</strong> … 将抱有像是诅咒之类的什么样的烦恼的探索者或NPC的烦恼解决后通关。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>GAME OVER</strong> … 探索失败导致探索者LOST的GAME OVER。</span></ul><span style="font-size: 1.35em;" class="bbc_size"><br>　上记的终归只是例子。结局会因为剧本，以及参与的探索者数量等有着众多的变化。不管是好结局还是坏结局，请试着考虑下各种各样的结局吧。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆有魅力的结局是指</span><span style="font-size: 1.35em;" class="bbc_size"><br>　<strong>①能在脑中成画的结局</strong><br>　虽然在「有魅力的导入是指」的项目中，写到了能够在脑中成画的导入是具有魅力的，但其实结局也是一样的，能够在脑中成画的结局就可以<br>拥有让人久久不能忘怀的魅力。倒不如说，为了制作优秀的剧本，能够在脑中成画的结局说是必须也不为过。将气氛给一直炒热到中盘的电影，<br>最后唰的一下就简洁的结束了的话…观众就会感到虎头蛇尾而泄了气。所以我总是会想将不敢相信能有这么酷炫/美丽的结局赠与一直将剧本玩到<br>了最后的人。<br>　比如说「不得不逃出正在崩塌的”浮空城”」，或是「面对暴走中的庞大怪物，必须将它的”头部”还回应有的部位来镇压它」等等。有名作品的<br>结局基本上都有着优秀的表现方式。建议可以鉴赏各种电影，在为其剧情哭或者笑亦或是享受其中时，作为自己剧本制作的参考也不错吧。<br><br>　<strong>②具有成就感的结局</strong><br>　对于结局来说成就感可以说是必须的。在最后有着巨大的高潮，将那跨过之后才可谓是结局。游戏是以”问题与解决”的部分为核心成立的，如<br>果问题太过简易的话就会变得虎头蛇尾。没有高潮的话就会导致明明是在玩TRPG，却变得好像大家在听KP朗读故事的朗读会一样的感觉了。<br>　比如说和最终BOSS的战斗，逃出崩塌中的建筑，亦或是关系到生死的二选一等。在结局给予探索者们印象深刻的巨大困难来让他们跨过吧。<br>太过简单的话就会无趣，但太难了的话也无法感受到乐趣。关于难度的设定是一个烦恼点，我认为能给予探索者们好似能过关又好似过不了关的<br>紧张程度的高潮是最好的。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆将导入和结局组合起来考虑看看</span><span style="font-size: 1.35em;" class="bbc_size"><br>　在「如何看待导入环节」的项目中也有写，「有魅力的导入（导入环节）」和「有魅力的结局（结局）」是让剧本拥有一条质量过关的主干的<br>关键。只要开始和结束拥有过关的质量的话，被前后互相影响的中间部分的质量也没法差到哪去。<br>　决定好了「有魅力的导入」和「有魅力的结局」的话，在这之后就是为了将其连接起来的尝试与纠错。从导入一直到结局的过程中，不断将后<br>续的想法与补充追加进里面吧。我基本上在这个阶段开始考虑「让怎样的NPC在剧本里登场」。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于NPC</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待NPC</span><span style="font-size: 1.35em;" class="bbc_size"><br>　故事是没有人（生物）就没办法开始的。从在剧本中登场的谁想到「想要做什么」开始故事才能够展开。看这句可能无法明白我到底在讲些什<br>么乱七八糟的，就是想表达「谁在想着什么事」这点是极其重要的。<br>　剧情内容的复杂程度是由「人（生物）的想法有怎样程度的错综复杂」而决定的。想要制作简洁的剧本的话，就只要「有一只具有恶意的神话<br>生物，还有一个被其恶意所威胁到的人」的程度就足够简洁了。想要制作复杂的剧本的话就需要像「A想那样做，B想这样做，但是C会因此而感<br>到困扰，而D想要帮助C」这样子，让各种思绪在其中纠缠的话就好了。<br><br>　但是，TRPG中的故事是被即兴行为与创作所支配着的，设计的太过复杂后不仅是剧本制作方，KP和玩家也有可能会因为太过混乱而难以感受<br>这个剧本的乐趣。所以我喜欢以「将剧本的主干设计的简洁」并且「让剧本中登场的角色们拥有着多彩的角色性」的模式来制作剧本。不是在剧<br>本的主干上，而是将对主干不会造成大的影响的角色的角色性描绘的更加浓厚，努力尝试让故事更加的具有深度。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆一边制作NPC，一边充实剧本的内容</span><span style="font-size: 1.35em;" class="bbc_size"><br>　考虑好了「有魅力的导入（导入环节）」和「有魅力的结局（结局）」后，就在这个环节里将在故事里登场的角色们给考虑好吧。前面也说过，<br>故事里没有登场人物的话就无法开始。想象出符合在「有魅力的导入」和「有魅力的结局」中登场，并且是故事无法欠缺的主要NPC吧。<br><br>　这个时候，特别重要的是对「事件的黑幕・元凶」或是「实行犯」等等，实际引发事件的NPC的设定。因为没有他们的话，探索者所直面的事<br>件就压根不会发生，可以说是最为重要的角色。一边将自己想好的导入和结尾在脑海中好好的回想一番，一边天马行空的考虑着他们拥有着怎样<br>的性质或是信念，为什么引发了这次的事件。那将直接联系到剧本的背景设定。<br>　固定好剧本的背景设定之后，就开始考虑「事件的被害者」或是「周边的人们」。作为探索者们重要的情报源，他们会尝试和NPC们进行交流，<br>所以NPC们会对剧本的氛围产生很大的贡献。对照着自己想要制作的剧本的氛围，制作出有魅力的NPC吧。<br><br>　我觉得主要NPC的数量比起太多还是更倾向于太少会更好。因为登场人物过多很容易导致不仅是玩家，连KP也分不太清谁是谁。再多也限制在<br>7到8人的程度的话就可以了吧。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆给NPC加上相貌</span><span style="font-size: 1.35em;" class="bbc_size"><br>　NPC的话，一边在脑中模拟着相貌一边制作会比较容易出人情味。在填充NPC的详细设定时，先在那之前固定好NPC的形象会很好吧。<br><br>　比如，作为探索者的青梅竹马，做了一个叫”友野友子”的NPC。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-w_zpsjdeteqlf.jpg" alt="" width="580" height="408" class="bbc_img resized"/><br><br>　就这样漠然的只看着&quot;友野友子&quot;这个角色名去考虑设定的话，是「女性」，「17岁」的「高中生」之类之类，就算想出了一些记号般的角色设<br>定，也很难对人情味进行进一步的挖掘联想，一时还难以明了是个想着什么事情的角色。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-x_zpsvantjajj.jpg" alt="" width="580" height="407" class="bbc_img resized"/><br><br>　但是像上图这样设定了图像之后，不觉得突然有了人情味吗。自然而然的就能联想到「啊ー，像是会想着这样的事情」，「兴趣肯定是那个吧」<br>等等详细的设定。像这样做的话就能更简单的塑造出NPC的角色性。<br><br>　脑中没有固定住对NPC的印象的话，剧本中的NPC的行动就有可能变得前后不一致，不自然等。也是为了防止这样的事情，尽早定下NPC印象<br>的效果是很显著的。<br>　我在制作NPC的时候，会从和这个剧本氛围相似的漫画啊动画中借用一些和NPC境遇相似的角色画像。作为固定下对NPC的印象用的临时参考，<br>然后想着 「啊―，这个角色的话这种时候会这样做吧―」，「平常会像是做着这样的事情呢―」等追加角色深度的设定，在这个过程中角色的行<br>动理念也会变得更加鲜明，更容易制作剧本。<br>　<strong>(2018/01/23译者追注：因为这里的原文比较容易给新人造成误导所以增加一条注释，这里原作者所建议添加立绘的原因纯粹是为了让创作者<br>可以结合视觉对想写的角色形成一个稳固的印象，以便辅助写出更加流畅细致并且前后一致的角色的描述，想法以及行为的文章，并非是建议创<br>作者将立绘和剧本一起打包公开，如果不是完全自己设计自己画的立绘的话一般都是不会与剧本一起打包公开的)</strong><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于中盘</strong></span>&nbsp; <br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待中盘</span><span style="font-size: 1.35em;" class="bbc_size"><br>　通过之前的准备已经完成了剧本的世界观。具有魅力的导入和结局，以及在此登场的角色们都已经制作好了，作为结果已经完成了美妙的世界<br>观吧。之后就只需将这些串联起来，使之作为游戏能够成立。<br>　<br>　在剧本的中盘，探索者将以在导入中直面的谜团（问题）为契机，自由的在剧本世界中行动探索。探索者将通过探索获得各种各样的情报，并<br>以这些为基础为了解决事态而行动，最终到达结局。<br>　 所以在制作剧本中盘的时候，以「怎样的手段」将「怎样的情报」给予探索者将会很重要。中盘的探索虽然会因为有难点而变得越发有趣，但<br>是太过困难的话又会使 探索者无法抵达真相。在中盘适当的布置一些&quot;有探索价值&quot;的地方，或是迷惑用的无意义的东西来演出探索气氛，给剧本<br>赋予游戏性吧。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆制作剧本的主干</span><span style="font-size: 1.35em;" class="bbc_size"><br>　在制作剧本的中盘时，首先从「通关的核心情报」开始做”剧本的主干”吧。是怎么一回事呢，用简单的图像来说明吧。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-h_zpsgkaj83gj.png" alt="" width="893" height="361" class="bbc_img resized"/><br><br>　比如像上图这样，考虑了一个在导入「发生案件」然后在结局「抓住犯人」的剧本。在上图的剧本的结局中，探索者需要「前往犯人A的藏身<br>处B，然后对犯人A出示证据C」来通关这个剧本。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-i_zpssl53u8au.png" alt="" width="893" height="360" class="bbc_img resized"/><br><br>　在这个情况下，为了通关这个剧本，探索者必须在中盘入手像上图中的「①犯人是A」「②A躲在B」「③持有证据C」至少这三个情报。这些<br>就是「通关的核心情报」。将这个关键性的情报配置在剧本的中盘，就可以将导入和结局连接起来。探索者在导入中牵扯进事件，在探索时收集<br>到了这些情报，最后在结局抓住犯人成功通关。<br>　但是，只是这样的话还不能作为游戏成立。还必须考虑将上记的关键情报以怎样的方式出示给探索者们。从最开始就知道犯人和所在地以及凶<br>器等全部情报的话，探索者就会感到很无聊。所以在入手这个情报前，让探索者多费些功夫吧。那么，来试着制作一下让探索者们可以注意到<br>「①犯人是A」这一点的步骤吧。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/t1-j_zps0is59nfa.png" alt="" width="892" height="361" class="bbc_img resized"/><br><br>　像上记这样，让探索者需要顺着步骤来获取「通关的关键情报」，就能让主动前往在意的地方，或是与人交流等获得情报的探索过程变得必要。<br>这将成为”剧本的主干”。探索者顺着这个主干(时而会破坏的支离破碎)进行探索，最终到达结局。<br>　关于所有的「通关的关键情报」要如何对探索者开示，请务必一个一个的查无遗漏的检讨。像这样完成的骨架们，就能成为探索者们描绘这个<br>故事的基轴。虽然探索者们性格丰富，无法预测会做出怎样的行为，不过为了让这趟探索可以成为更好的冒险，还是尽可能的将主干和骨架考虑<br>的粗壮一些吧。<br><br>　另外，在考虑给探索者们开示情报的方法时，基本的形式有「固定剧情」和「探索环节」这两种流程。关于这两种流程各自都在之后有单独的<br>详解，</span><span style="font-size: 1.35em;" class="bbc_size">请在组建骨架的时候作为参考吧。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆装饰剧本</span><span style="font-size: 1.35em;" class="bbc_size"><br>　通过上记就完成剧本的骨架了。已经可以说剧本的主要内容都完成了吧。但是，只有骨架的剧本就像一本道的游戏一样的东西。只是这样的话<br>探索者会感到不满足也说不定。<br><br>　这种时候，就需要将和剧本的骨架没什么关联的，也就是组成”肉”的情报配置进中盘，丰富探索者的探索吧。比如说，在剧本内登场的NPC的<br>情报，即使无法联系到事态的解决但也能够感受到事态背后的危险性的情报等等。时而放置一些误导性的情报，或是减少SAN值或HP的陷阱等等<br>可能也不错。将探索者为了通关这个剧本而没有必要性的情报散布在中盘里，可以使得探索者的探索变得更加丰富。这里是剧本制作的高自由度<br>的地方，所以用喜欢的方式给剧本涂上自己的颜色吧。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于固定剧情</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待固定剧情</span><span style="font-size: 1.35em;" class="bbc_size"><br>　在中盘时，有着「固定剧情」和「探索环节」的两种开示情报的形式。虽然并不需要刻意去意识这个形式，但是记得有这样的形式的话就会方<br>便许多，所以请务必作为参考。<br><br>　固定剧情是指，在剧本中盘时探索者在这里那里的调查途中，通过时机，条件，或是KP的判断来发生的剧情。我们将这个统一称为「固定剧情」。<br>　因为固定剧情可以不受到探索者的行动或性质等因素影响而通过一定的条件来强制发生，所以比起探索环节要更容易展现精心准备的演出。将<br>大型或重要的剧情作为固定剧情安排在剧本中，就可以让剧本的中盘骨架变得更为结实粗壮。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆固定剧情的主要分类</span><span style="font-size: 1.35em;" class="bbc_size"><br>　作为固定剧情的主要分类，可以举出以下的三种。<br><br></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>定期发生型</strong> … 探索中，到了一定时间必然会发生的剧情。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>判断发生型</strong> … 探索中，可以通过KP的判断来自由发生的剧情。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>条件发生型</strong> … 探索中，达成一定条件后发生的剧情。</span></ul><span style="font-size: 1.35em;" class="bbc_size"><br>　定期发生型的剧情是指，像<strong>「今天晚上有祭典」</strong>，或是<strong>「这一天的晚上会发生杀人事件」</strong>等，发生剧情的时间被事先就设定好的事件。不管探<br>索者们进行了怎样的探索，到了那个时间就一定会发生的剧情。<br>　像这样的剧情具有特别的强制性，因为可以让几乎所有的探索者自动的体验到剧情，将点缀中盘的大剧情作为定期发生型来配置的情况是很多<br>的。可以作为加入一些深化表现氛围的描写，或是开示出能够掌握剧情关键的情报的机会等。<br><br>　判断发生型的剧情是指，像<strong>「突然从朋友那打来了电话」</strong>，或是<strong>「突然被什么人给袭击了」</strong>等，发生时机并没有被固定（什么时候都可以）的<br>剧情。因为可以由KP一边观察玩家一边判断让剧情发生的合适时机，所以可以临机应变的应对各种探索者充满个性的行动。<br>　判断发生型的剧情因为发生时机是完全交托给KP的，在剧本推进过程中可以找到最佳的时机来发生剧情这一点是非常具有魅力的。像这样的剧<br>情，作为辅助探索陷入瓶颈的探索者的方向标，或是把延长过度的探索环节给收束起来的战斗来配置的情况很多。<br><br>　条件发生型的剧情是指，探索者在探索中满足一定条件后发生的剧情。比如<strong>「进入房间后房门突然关上被关在了里面」</strong>，或是<strong>「看了这本书的<br>当天晚上肯定会做噩梦」</strong>这样的剧情。<br>　条件发生型的剧情是由探索者的行动为起因发生的剧情。探索者顺利的进行了探索，满足了条件的话就可以触发，但如果探索进行的不顺利，<br>没有满足条件的话就一直无法</span><span style="font-size: 1.35em;" class="bbc_size">触发。从这样的特性来说，作为让事态进入下一个阶段的节点剧情来配置的情况比较多。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆固定剧情的活用方法</span><span style="font-size: 1.35em;" class="bbc_size"><br>　固定剧情在提高剧本的游戏性上有着很重要的作用。我认为在制作剧本的时候，应该在探索者直到通关剧本的过程中至少加入一个固定剧情。<br><br>　假设在探索者序盘就能探索的地方里，粗神经的将逼近故事核心的&quot;钥匙&quot;给直接放进去了。说不定探索者在开始后直接就找到了那个，然后跳<br>过了其他所有剩余的步骤直接到达了结局也说不定。克苏鲁神话TRPG的基本明明是探索游戏，变成这样的话别说探索了什么都体验不到了。好<br>不容易做好的谜团和机关也在一瞬间泡汤。<br><br>　所以为了防止这样的”事故”尝试活用固定剧情吧。固定剧情可以延缓对探索者开示情报的时机，也能够设定好让探索者入手情报时所必须的条<br>件来让探索者接触&quot;关键&quot;变得更加困难，让探索者去探索，换而言之就是能够提升游戏性。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于探索环节</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆如何看待探索环节</span><span style="font-size: 1.35em;" class="bbc_size"><br>　到了这里后，剩下的就只有制作探索环节了。探索环节就是”调查「这里」会发现有「这个」”，”调查「这个」会了解到「那个」”，最简单的<br>开示情报的方式。最基本的探索形式。<br><br>　探索环节的制作很简单。毕竟要隐藏「怎样的秘密」已经通过到目前为止的步骤都定好了。之后就只要将其以自己喜欢的方式放置进剧本中。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆配置在探索环节中的情报的主要种类</span><span style="font-size: 1.35em;" class="bbc_size"><br>　探索环节是有多数的”情报”而组成的。探索者应该探索的情报可以分为以下两个大类。<br><br></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>人拥有的情报</strong> … 和人（NPC）对话获得的情报。</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><strong>物拥有的情报</strong> … 在探索中发现，并通过该物注意到的情报。</span></ul><span style="font-size: 1.35em;" class="bbc_size"><br>　「人拥有的情报」就是NPC所知道的情报。探索者会找到NPC，试图问出与自己正在挑战的谜团或问题相关的情报。为了应对这一点，剧本<br>制作者则需要在事先设定好每个NPC所掌握着的情报。但是NPC也说不定会因为各种心理的影响而故意隐瞒情报或者给予假情报。若是那样的<br>话就考虑一下让探索者使用对应的交涉技能来获取情报，或是设定好开示情报的条件或契机吧。<br><br>　「物拥有的情报」就是指场所，物品或痕迹等拥有的情报。探索者会探访各种地方，这里那里的调查试图找到有没有什么情报。为了应对这<br>一点，剧本制作者就需要事先设定好，哪里有什么，探索者能够找到怎样的情报，等内容。<br>　每个探索者都拥有着各种技能。像是「地质学」或「生物学」这种专业知识的技能也有着很多的缘故，将这些技能能够活用的情报有意识的<br>放置进剧本中的话应会是很好的。探索者若是能够达成让个性成功发挥的探索的话，一定会在心里偷偷的乐。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆探索环节的制作方法</span><span style="font-size: 1.35em;" class="bbc_size"><br>　探索环节中，我觉得将”探索要点”以”场所”作为分别来设定是最容易理解的。以探索者为了探索而前往的场所为分别，设置好在那里有谁，<br>有什么，列举出通过这些能够能够注意到的情报。这样的话，探索者在前往那个场所的时候，KP就只需要查看关于这个场所的项目就可以把握<br>住能够开示的情报的全貌。因为大多数的剧本都是以这样的形式记载着情报，所以看一看各种剧本作为参考也不错吧。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>关于剧本的完成/试跑</strong></span><br><hr /><span style="font-size: 2em;" class="bbc_size">◆实际玩一下试试</span><span style="font-size: 1.35em;" class="bbc_size"><br>　上述的步骤全部完成后，剧本就已经完成了。只要在自己的脑中有将剧本的框架与构成牢牢地记着的话，就这样作为KP用自制的剧本带团也<br>是可以的，完全写成文本让其他KP拿来带团也没有问题。<br><br>　请务必的实际玩一下试试看。看着在自己辛苦制作出的剧本中心惊胆战的探索着的友人是非常愉悦的事情。看着他们烦恼的样子偷着笑也是<br>不错的感觉。<br>　但恐怕在还没熟悉剧本的制作时，会先察觉到剧本没能做到自己所想的那种感觉吧。探索者做出了自己想象之外的举动，导致剧情朝着无法<br>控制的方向一路发展也说不定。碰到这种情况时，试着修正一下剧本也是可以的。像是探索环节的部分因为是可以很轻易的进行改动的，所以<br>请务必多多尝试与纠错。随着剧本被用来带团的次数越多，剧本的质量势必会再次获得一个上升期，变得越发优秀。<br><br><br><br><br></span><span style="font-size: 2.65em;" class="bbc_size"><strong>制作剧本时推荐参考的书籍</strong></span><span style="font-size: 1.35em;" class="bbc_size"><br></span>&nbsp; <br><hr /><span style="font-size: 2em;" class="bbc_size">◆推荐</span><span style="font-size: 1.35em;" class="bbc_size"><br>　最后从我拥有的书里，将在制作剧本时经常参考的书介绍一下。都是在众多的书籍当中，能让我觉得「这个很想要…！」的东西。<br></span><span style="font-size: 1.35em;" class="bbc_size">　（译者追注：这里所介绍的书籍目前都是没有官方中文版的，或是有英文或日文版，或是只有日文版，</span><span style="font-size: 1.35em;" class="bbc_size">懂英文或日文的老探索者们除了基本<br>规则书之外是否入手就看各自的需求了。）</span><br><span style="font-size: 1.35em;" class="bbc_size"><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_002_zps95emcqbz.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;クトゥルフ神话 TRPG (ログインテーブルトークRPGシリーズ)<br>　不用说也知道的基本规则书。没有这个的话就没办法玩，反过来说有了这个的话总之就能玩了，克苏鲁神话TRPG的原点。<br>　各种技能和战斗规则的基本，以及怪物·神格·魔法书·古代遗物等情报，连剧本都附赠的美妙的一本书。2016年1月现在，第6版。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_008_zpscdxrxchj.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;クトゥルフ神话TRPG マレウス・モンストロルム<br>　众多的克苏鲁神话TRPG的追加规则书之中，在制作剧本时特别需要放在手边的1册可以说就是这本了吧。<br>　包含着没有记载在基本规则书内的怪物，其中数量有差不多380种。游戏用的能力值也全部记载在其中非常方便参考。我一直都是一边翻着<br>这个一边推敲着要让什么神话生物登场。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_009_zps39ry6scb.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;ゲームシナリオのためのクトゥルー神话事典</span><span style="font-size: 1.35em;" class="bbc_size">知っておきたい邪神・禁书・お约束110<br>　一本解说克苏鲁神话的世界观的书。将有名的怪物，书本的设定以容易理解的方式说明。<br>　上述的基本规则书和怪物之锤虽然都有着庞大的情报量，但是其中的记载内容有着模糊不清的地方。不知道是作为神话的原文章就暧昧，还<br>是因为翻译导致变的暧昧了。恐怕是前者的可能性。这本书是日本人写的所以非常的简单易懂。<br><br></span><span style="font-size: 2em;" class="bbc_size">◆有的话也不错</span><span style="font-size: 1.35em;" class="bbc_size"><br>　倒不是说必须，在制作”现代日本”的剧本时参考的书也介绍一下。除了我介绍的书以外也有着许多的克苏鲁神话TRPG书籍，请各种各样的<br>都瞅瞅看。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_004_zpssubwc13b.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;クトゥルフ神话TRPG クトゥルフ2015<br>　为现代日本特化的克苏鲁神话TRPG追加规则书。制作剧本时能够作为参考的情报有像是日本专属的古代遗物，或是祭典等等的无形遗产的<br>记载。并且还记载着独特的选择性规则与数据。<br>　特别有趣的一点是记载着制作剧本的”联想法”这一点。通过随机的组合导入人物场景事件等来作为联想剧本的起点，我觉得那个组合表本身<br>就非常能够作为参考。有着各种形态的导入，动机以及登场人物的例子被写在里面，有一看的价值。<br>　并且和以前的”冒险游戏书”一样，内附有让读者一个人也可以玩的单人剧本。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_006_zpswxyegp2c.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;クトゥルフ神话TRPG クトゥルフ2010<br>　为现代日本特化的克苏鲁神话TRPG追加规则书。制作剧本时能够作为参考的情报有像是在现代的科学搜查，以及对日本的灵异场所·妖怪<br>等有记载。<br>　虽然是非常推荐读一下的一册，但是相比其他介绍的书感觉情报量比较少…。所以对于没有什么财力的学生党实在是难以轻易的推荐。如果<br>有余力的话请务必考虑一下。<br><br><img src="http://i1308.photobucket.com/albums/s610/Anhanko/q_010_zps9ahkks7j.jpg" alt="" class="bbc_img"/><br>&nbsp; &nbsp;クトゥルフ神话TRPG クトゥルフカルト・ナウ<br>　记载了在克苏鲁神话中登场的怪物集团以及新兴宗教·血族等各种各样的邪教组织的追加规则书。将什么样的组织或是个人有着什么目的以及<br>历史都有记载其中，在制作剧本的黑幕和背景设定时可以作为参考的一本书。</span><br><hr /><br><span style="font-size: 1.35em;" class="bbc_size">　以上就是翻译该教程后的全部内容，除此之外译者个人还推荐ホリ老师所写的其他针对性教程，若是有懂日语的探索者感兴趣的话可以去ホリ<br>老师的个人网站找到下方对应的标题看看。</span><br><br><span style="font-size: 1.45em;" class="bbc_size"><strong>耶流 克苏鲁神话TRPG剧本的制作方法系列</strong></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">TRPGシナリオの构成、基本的な考え方</span>（本文章所翻译的教程就是这一篇）</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">シナリオのゲーム性について</span>（关于剧本的游戏性）</span></ul><span style="font-size: 1.45em;" class="bbc_size"><strong>耶流 制作剧本杂记系列</strong></span><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">よくある导入部のパターン</span>（常见的导入剧情类型）</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">よくあるエンディングのパターン</span>（常见的结局类型）</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">シナリオを「探索者だけの物语」にする</span>（将剧本做成「只有探索者的故事」）</span></ul><ul class="bbc_list"><li><span style="font-size: 1.35em;" class="bbc_size"><span class="bbc_u">短编シナリオ作成の际のポイント</span>（制作短篇剧本时的要点）</span></ul><br><span style="font-size: 1.45em;" class="bbc_size"><strong>最后加上一段来自原作者的ホリ老师写在个人网站上的对读者的提醒作为结尾</strong></span><br><span style="font-size: 1.35em;" class="bbc_size">　在制作剧本的过程中没有”正确”或者”错误”。我写的杂记也只是记录下了我「为了制作出更有趣的剧本…」的尝试与纠错的结果。不仅阐述了<br>常识性的理论，也记载有充满我的偏见的内容，所以请仅仅将其作为一个人的个人意见来阅读参考。<br></span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_904870">
+&#171; <em>上次编辑: 2018-01-23, 周二 06:18:42 由 安反子</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg905153"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=43122" title="检视会员资料:  凉凉。">凉凉。</a>
+</h4>
+<ul class="reset smalltext" id="msg_905153_extra_info">
+<li class="title">loser<li class="membergroup">组长<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=43122">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43122_1621847501.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1188<li class="karma">苹果币: 4<li class="blurb">我常常会因为网络的遭遇而忘记现实中人有多善良<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_905153">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.msg905153#msg905153" rel="nofollow">Re: 【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_905153'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_905153'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2018-01-22, 周一 15:53:50 &#187;</div>
+<div id="msg_905153_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_905153">本文作者对Japan Now相当熟悉，对日系模组的创作也有一部分可取之处，推荐Japan Now新人进行参考。<br>因本贴为教程贴，以积极导向为主，因此其余回帖全部删除。望诸位进步勉励，提出其他干货。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_905153">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=printpage;topic=97775.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=62.0"><span>克苏鲁神话相关TRPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1679.0"><span>BRP Japan Now</span></a> (版主群: <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=346" title="版主">Hussar</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=422" title="版主">Shinohara</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=1157" title="版主">玖羽</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=79947" title="版主">tangys</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=144864" title="版主">量子柠檬茶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=97775.0"><span>【教程翻译】制作COCTRPG原创剧本的基本组成与思维方式</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 97775,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 97775,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="a9eee7e" value="eb1e78565e9cdf255590e0c1b5b28aca" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="97775" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'eb1e78565e9cdf255590e0c1b5b28aca\', \'a9eee7e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;' + '?topic=97775.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 10305 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1679,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "BRP Japan Now",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1679,
+							iTopicId: 97775,
+							sSessionId: "eb1e78565e9cdf255590e0c1b5b28aca",
+							sSessionVar: "a9eee7e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

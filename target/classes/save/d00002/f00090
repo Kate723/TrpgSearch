@@ -1,0 +1,732 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1320.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'd761fa95b993c84e3f1226aa27ade11a');">
+<div class="info">请 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login">登录</a> 或 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="119671"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'fa71e0d7782',
+sSessionId: 'd761fa95b993c84e3f1226aa27ade11a'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1320.0"><span>现代忍法战斗RPG忍神</span></a> (版主群: <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=13799" title="版主">Sinefer</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="版主">Kh</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=87399" title="版主">安反子</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0"><span>【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1067824"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=printpage;topic=119671.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台 &nbsp;(阅读 7940 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: MT已死，冻豆腐即将不支援flash，是时候来点roll20了。</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=quickmod2;topic=119671.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('d761fa95b993c84e3f1226aa27ade11a', 'fa71e0d7782') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067824_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067824">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067824#msg1067824" rel="nofollow">【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067824'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067824'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2020-08-14, 周五 15:20:16 &#187;</div>
+<div id="msg_1067824_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067824"><span style="color: brown;" class="bbc_color"><span style="font-size: 16pt;" class="bbc_size"><strong>Roll20 忍神跑团教学</strong></span></span><br><hr />　　Roll20为西方主流的跑团平台，大多被认为适合战棋系或开放世界规则。但若套用忍神角色模板，roll20也可以带来高品质的忍神体验。本文将总结笔者使用roll20跑团后的心得与注意事项。<br><br>　　网址：<a href="https://app.roll20.net/" class="bbc_link new_win" target="_blank">https://app.roll20.net/</a><br>　　注：需翻墙使用，无VPN可浏览网站，但可能无法载入房间。电脑VPN也进不去的话，浏览器可换成Chrome试试。<span style="color: maroon;" class="bbc_color">本平台适用电脑，手机体验差。</span><br><hr /><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>目录：</strong></span></span><br><br><span style="font-family: 楷体;" class="bbc_font">一、帐号／房间与建议设定<br></span><ul class="bbc_list" style="list-style-type: decimal;"><li><span style="font-family: 楷体;" class="bbc_font">帐号语系设定</span><li><span style="font-family: 楷体;" class="bbc_font">忍神房间设定</span><li><span style="font-family: 楷体;" class="bbc_font">建立房间</span><li><span style="font-family: 楷体;" class="bbc_font">邀请玩家</span><li><span style="font-family: 楷体;" class="bbc_font">其他建议设定</span></ul><br><span style="font-family: 楷体;" class="bbc_font">二、角色卡设置／数据录入<br><br>三、相关功能<br></span><ul class="bbc_list" style="list-style-type: decimal;"><li><span style="font-family: 楷体;" class="bbc_font">使用角色头像对话</span><li><span style="font-family: 楷体;" class="bbc_font">token建立</span><li><span style="font-family: 楷体;" class="bbc_font">token血量设定</span><li><span style="font-family: 楷体;" class="bbc_font">一键投表</span><li><span style="font-family: 楷体;" class="bbc_font">自动特技判定</span><li><span style="font-family: 楷体;" class="bbc_font">自动忍法判定</span><li><span style="font-family: 楷体;" class="bbc_font">忍法配图</span><li><span style="font-family: 楷体;" class="bbc_font">谋位与GM私讯</span><li><span style="font-family: 楷体;" class="bbc_font">注意事项</span></ul><br><span style="font-family: 楷体;" class="bbc_font">四、GM相关<br></span><ul class="bbc_list" style="list-style-type: decimal;"><li><span style="font-family: 楷体;" class="bbc_font">图层</span><li><span style="font-family: 楷体;" class="bbc_font">场景切换</span><li><span style="font-family: 楷体;" class="bbc_font">BGM设定</span></ul><br><span style="font-family: 楷体;" class="bbc_font">五、LOG导出与整理</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067824">
+&#171; <em>上次编辑: 2020-09-05, 周六 01:36:27 由 Kh</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067824_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067825"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067825_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067825">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067825#msg1067825" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得你拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067825'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067825'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2020-08-14, 周五 15:25:39 &#187;</div>
+<div id="msg_1067825_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067825"><strong><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">一、帐号／房间与建议设定</span></span></strong><br><hr /><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>1. 帐号语系设定：</strong><br>注册帐号后，点选我的帐户设定，将语文改成中文（忍神模板有多语言，会随用户语系套用）<br><img src="https://i.imgur.com/gfmVIuq.png" alt="" class="bbc_img"/><br><br><strong>2. 忍神房间设定：</strong><br>游戏页面＞开始新游戏，选择忍神角色卡模板<br><img src="https://i.imgur.com/yXOjEKa.png" alt="" class="bbc_img"/><br><br><strong>3. 建立房间：</strong><br>可于房间填写团信息或发布公告<br><img src="https://i.imgur.com/Ivxkyd3.png" alt="" class="bbc_img"/><br><br><strong>4. 邀请玩家：</strong><br>房间资讯页邀请玩家按钮，可产生玩家连结。（玩家也需注册帐号）<br><img src="https://i.imgur.com/884QozS.png" alt="" class="bbc_img"/><br><br><span style="color: red;" class="bbc_color">注意：仅在玩家帐号有进入房间的记录后，才能给予该帐号编辑角色卡的权限。因此建卡前要先让PC进过房。</span><br><br><strong>5. 其他建议设定</strong><br><ul class="bbc_list"><li>若非语音团，建议进房后将左侧聊天栏拉大，较好进行文字团<li>设定页面可关闭语音和视讯<li>设定界面可最小化左下玩家图框，避免挡画面</ul></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067825">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067825_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067826"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067826_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067826">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067826#msg1067826" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得你拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067826'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067826'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2020-08-14, 周五 15:33:19 &#187;</div>
+<div id="msg_1067826_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067826"><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>二、角色卡设置／数据录入</strong></span></span><br><hr /><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>．GM新增角色卡</strong>：进房后，右上分页，GM可新增角色卡<br><img src="https://i.imgur.com/3ujHFw9.png" alt="" class="bbc_img"/><br><br><br><strong>．设置角色卡权限</strong><br><img src="https://i.imgur.com/y1YVzfI.png" alt="" class="bbc_img"/><br><span style="color: red;" class="bbc_color">建议：因为特技与忍法要编辑权限才能检视。可把公开的人物卡，都开放全玩家编辑权限。方便线上查询。<br>（PC在填卡时，不将秘密与奥义、忍具等非公开资讯，填入卡中）</span><br><br><br><strong>．角色卡产生</strong><br><img src="https://i.imgur.com/jugNclQ.png" alt="" class="bbc_img"/><br><br><br><strong>．录入角色卡数据：</strong>PC双击人物卡，切至Character Sheet界面，开始录入角色数据<br><br><br><br><strong>．推荐用自动卡复制忍法：</strong>特技与擅长分野都可用勾选的，并会自动计算难度。但忍法效果需手动填写。<br>这边建议PC在交卡时，使用自动卡，果园自动卡连结：http://www.goddessfantasy.net/bbs/index.php?topic=116755.0<br>填完后可进行文字导出，方便roll20录入使用。<br><img src="https://i.imgur.com/IJBPTqi.png" alt="" class="bbc_img"/><br><br><br><strong>．角色卡录入完成后，可使用各项功能</strong><br><img src="https://i.imgur.com/OjAoiRO.png" alt="" class="bbc_img"/><br><br><br><strong>．注意事项：</strong>若有将卡片作为公开手记(角色数据)的需求，不要填写角色卡界面的「秘密」界面。因为公开手记(角色数据)需要给予所有玩家编辑权限，给予权限后秘密界面也能检视。<br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067826">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067826_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067828"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067828_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067828">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067828#msg1067828" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得你拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067828'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067828'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2020-08-14, 周五 15:40:09 &#187;</div>
+<div id="msg_1067828_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067828"><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>三、平台与角色卡功能操作</strong></span></span><br><hr /><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>1. 使用角色对话：</strong><br>建立人物卡后，有编辑权限的PC可用聊天框下方的as选像，以角色名发话。<br><img src="https://i.imgur.com/CjCLzjD.png" alt="" class="bbc_img"/><br><br><br><strong>2. 建立Token：</strong><br>在角色卡清单中，点击拖曳角色姓名，拉入地图可产生token<br><img src="https://i.imgur.com/fddaSWn.png" alt="" class="bbc_img"/><br><br><br><strong>3. 同步Token与角色卡血量：</strong><br>双击token，将栏位1右方的选单选择【HP】，TOKEN的血量将和角色卡同步，并可借由点击token变动血量<br><img src="https://i.imgur.com/Q3zeBV9.png" alt="" class="bbc_img"/><br><br><br><strong>4. 一键投表：</strong><br>角色卡点选，可自动投掷感情、大失败、场景、战场与变调表<br><img src="https://i.imgur.com/ed0MpZX.png" alt="" class="bbc_img"/><br><br><br><strong>5. 自动特技判定：</strong><br>打开角色卡，游标点击特技，可自动进行判定。<br><img src="https://i.imgur.com/WhLmuoZ.png" alt="" class="bbc_img"/><br><br><br><strong>6. 自动忍法判定：</strong><br>打开角色卡，点击忍法旁的骰子，可自动进行忍法判定。<br><img src="https://i.imgur.com/dimHQmE.png" alt="" class="bbc_img"/><br><br><br><strong>7. 忍法配图：</strong><br>若有jpg、png等档名后缀的图档直连网址，则可进行忍法配图<br><img src="https://i.imgur.com/MZ0zYrE.png" alt="" class="bbc_img"/><br><br><br><strong>8. 谋位与GM私讯：</strong><br>角色卡上点击谋位骰，可私讯GM谋位；输入文字点击私讯骰，可私讯GM文字。<br><img src="https://i.imgur.com/llEntaG.png" alt="" class="bbc_img"/><br><br><br><strong>．注意事项：</strong><br><span style="color: red;" class="bbc_color">若有LOG整理需求，不建议pc进行忍法配图，整理log时图片不好处理。</span><br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067828">
+&#171; <em>上次编辑: 2020-08-14, 周五 15:58:44 由 Kh</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067828_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067829"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067829_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067829">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067829#msg1067829" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067829'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067829'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2020-08-14, 周五 15:43:36 &#187;</div>
+<div id="msg_1067829_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067829"><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>四、GM相关</strong></span></span><br><hr /><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>1. 图层：</strong><br>roll20图层分为地图(最底)、token(地图之上，以格为单位)、gm(玩家不可视)三类。Gm可借由图层配置战场表、CG等<br><img src="https://i.imgur.com/7MFrK7d.png" alt="" class="bbc_img"/><br><br><strong>2. 场景切换：</strong><br>右上页面图标，可以编辑地图场景。<br><img src="https://i.imgur.com/Qi2lAk1.png" alt="" class="bbc_img"/><br><br>．借由预先设置多个场景，可达到顺畅的转场效果（每个场景亦可设定不同BGM）<br><img src="https://i.imgur.com/3gWWVIH.png" alt="" class="bbc_img"/><br><br>．拖曳红色书签，可将玩家跳转至指定场景页面<br><img src="https://i.imgur.com/GtyOOFZ.png" alt="" class="bbc_img"/><br><br><br><br><strong>3. BGM：</strong><br>roll20汇入bgm十分容易。在首页的工具中有音乐库可上传，并在游戏中的点唱机可自由拨放。<br><img src="https://i.imgur.com/AlBmNwO.png" alt="" class="bbc_img"/><br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067829">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067829_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067831"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067831_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067831">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067831#msg1067831" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067831'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067831'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2020-08-14, 周五 15:54:05 &#187;</div>
+<div id="msg_1067831_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067831"><strong><span style="color: green;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">五、LOG导出与整理</span></span></strong><br><hr /><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>1. Log导出：</strong>因为roll20本身并无聊天文档汇出的功能，log导出较需要一定步骤，下为导出方法。<br>．房间资讯页中，选择浏览聊天文档<br><img src="https://i.imgur.com/IMJ16S4.png" alt="" class="bbc_img"/><br><br>．将聊天存档介面选择”show on one page”，将见到线上的log全文<br><img src="https://i.imgur.com/f10qrjt.png" alt="" class="bbc_img"/><br><br>．右建选择列印，转存为pdf下载<br><img src="https://i.imgur.com/fTY1C1A.png" alt="" class="bbc_img"/><br><br>．下载后的PDF已具备基本的排版。足以作为LOG记录<br><img src="https://i.imgur.com/Lh17S7F.png" alt="" class="bbc_img"/><br><br><br><br><strong>2、log整理：</strong>若有编辑和整理log需求，则建议将下载PDF转为pptx。实测转word编辑会严重跑版，pptx则能顺利进行编辑。<br><img src="https://i.imgur.com/Tlruyay.png" alt="" class="bbc_img"/><br><br>即使如此，因为要手动调整各页对话、图片的缩排与距离。若要整理会花大量时间。<br>但整理起来将非常美观。<br><a href="https://drive.google.com/file/d/1cQypuNd1TjRKrtsnUYZts8LnyjvYZrA9/view?usp=sharing" class="bbc_link new_win" target="_blank">连结</a>为本人忍神团整理后的log，可供参考。<br>（注：有意愿跑乐园阿尔吉侬二期团的pc，请勿打开连结）<br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067831">
+&#171; <em>上次编辑: 2020-08-14, 周五 15:55:56 由 Kh</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067831_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067832"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="检视会员资料:  Kh">Kh</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067832_extra_info">
+<li class="title">努力的新人<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 728<li class="karma">苹果币: 1<li class="blurb">果然还是太不成熟了<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067832">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1067832#msg1067832" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定，直得拥有</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067832'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067832'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2020-08-14, 周五 15:54:37 &#187;</div>
+<div id="msg_1067832_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067832">完工，占楼备用。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067832">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067832_signature">所求的，只是故事而已。<br>追寻故事，参与故事，写下故事。<br>读者的末路便是成为作家－－所幸我发现跑团也可以。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1107376"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=90366" title="检视会员资料:  scareclaw">scareclaw</a>
+</h4>
+<ul class="reset smalltext" id="msg_1107376_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 1<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1107376">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1107376#msg1107376" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1107376'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1107376'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-04-05, 周一 10:43:12 &#187;</div>
+<div id="msg_1107376_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1107376">这两天准备转战R20，感谢Kh的细心教程！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1107376">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1108534"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=83535" title="检视会员资料:  LiMingCao">LiMingCao</a>
+</h4>
+<ul class="reset smalltext" id="msg_1108534_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 91<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1108534">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.msg1108534#msg1108534" rel="nofollow">Re: 【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1108534'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1108534'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-04-13, 周二 19:26:54 &#187;</div>
+<div id="msg_1108534_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1108534">大老牛逼</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1108534">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=printpage;topic=119671.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1320.0"><span>现代忍法战斗RPG忍神</span></a> (版主群: <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=13799" title="版主">Sinefer</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=75292" title="版主">Kh</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=87399" title="版主">安反子</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=119671.0"><span>【Roll20忍神教学】一键换场、CG、BGM、自动谋位／忍法判定的全能平台</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 119671,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 119671,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="fa71e0d7782" value="d761fa95b993c84e3f1226aa27ade11a" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="119671" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'d761fa95b993c84e3f1226aa27ade11a\', \'fa71e0d7782\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;' + '?topic=119671.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 7940 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1320,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "现代忍法战斗RPG忍神",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1320,
+							iTopicId: 119671,
+							sSessionId: "d761fa95b993c84e3f1226aa27ade11a",
+							sSessionVar: "fa71e0d7782",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

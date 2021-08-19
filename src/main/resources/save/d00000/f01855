@@ -1,0 +1,531 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【镜土】TRPG跑团 App平台"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【镜土】TRPG跑团 App平台</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;board=1626.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '35d476cbd3b0d56c3f03b76c54ea55c5');">
+<div class="info">请 <a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=login">登录</a> 或 <a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="104602"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'a91d65d3',
+sSessionId: '35d476cbd3b0d56c3f03b76c54ea55c5'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;#c6"><span>TRPG讨论区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;board=1626.0"><span>正品区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0"><span>【镜土】TRPG跑团 App平台</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg958759"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=printpage;topic=104602.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【镜土】TRPG跑团 App平台 &nbsp;(阅读 9583 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 寻找对TRPG有一定了解的设计大触</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=quickmod2;topic=104602.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('35d476cbd3b0d56c3f03b76c54ea55c5', 'a91d65d3') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=93665" title="检视会员资料:  紫蓝色旋律">紫蓝色旋律</a>
+</h4>
+<ul class="reset smalltext" id="msg_958759_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 5<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/recycled.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_958759">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg958759#msg958759" rel="nofollow">【镜土】TRPG跑团 App平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_958759'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_958759'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-11-10, 周六 17:49:49 &#187;</div>
+<div id="msg_958759_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_958759">Hello~朋友们，近期有一个团队正在制作一款叫做“镜土”的跑团用手机APP。这个APP的目标是为玩家提供更便捷的TRPG游戏，也包括角色、物品、技能等管理、GM与玩家的互动等TRPG所需要的各种功能，以完成TRPG游戏的移动网络化。同时镜土作为一个工具也可以让玩家自己在平台上改装里面的要素，来制作自己的世界设定、游戏规则和模组剧本，甚至适配还原DND、COC等重规则类的TRPG。<br><br><br>他们现在第一版的内测APP端已经准备要完成了，正在寻找一名可以长期合作的设计师，工作主要涉及到APP应用的UI设计、官方网站的美化设计、以及规则书和设定集（电子版）等的排版美化（即使是较少接触UI、网页这一领域的平面设计师亦可，因为他们的IT团队有比较丰富的经验，可以给出相应的设计规范）。<br><br><br>若有看到这则消息并且感兴趣合作或是帮忙的小伙伴，可以微信联系团队负责人之一的Justin（微信号：justinluoxu）来了解相关的情况和更多细节。<br><br><br><br><br><br><img src="https://s1.ax1x.com/2018/11/10/iqienx.png" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_958759">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg972672"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=87392" title="检视会员资料:  Stonkle">Stonkle</a>
+</h4>
+<ul class="reset smalltext" id="msg_972672_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 3<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_972672">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg972672#msg972672" rel="nofollow">Re: 【镜土】TRPG跑团 App平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_972672'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_972672'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-01-24, 周四 11:38:49 &#187;</div>
+<div id="msg_972672_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_972672">好期待，帮顶一下</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_972672">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg995671"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=84626" title="检视会员资料:  OrangeΣ">OrangeΣ</a>
+</h4>
+<ul class="reset smalltext" id="msg_995671_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 15<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_995671">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg995671#msg995671" rel="nofollow">Re: 【镜土】TRPG跑团 App平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_995671'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_995671'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-05-19, 周日 13:38:51 &#187;</div>
+<div id="msg_995671_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_995671">没后文了？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_995671">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg997398"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=82434" title="检视会员资料:  萌萌哒QB">萌萌哒QB</a>
+</h4>
+<ul class="reset smalltext" id="msg_997398_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=82434">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82434_1557708853.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 83<li class="karma">苹果币: 0<li class="blurb">QB懒懒哒<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_997398">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg997398#msg997398" rel="nofollow">Re: 【镜土】TRPG跑团 App平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_997398'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_997398'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-06-01, 周六 15:49:19 &#187;</div>
+<div id="msg_997398_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_997398">这个帖子我好像在贴吧见过&nbsp; 时间好像更老&nbsp; 也是没有下文了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_997398">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_997398_signature"><div align="center"><strong><span style="font-size: 14pt;" class="bbc_size"><span style="color: maroon;" class="bbc_color">《黑幕杯》圣杯规则当前最新版本为2.17</span></span></strong></div><div align="center"><a href="https://pan.baidu.com/s/1cGS0_CZfTuN2U2xDyrcmAA" class="bbc_link new_win" target="_blank">https://pan.baidu.com/s/1cGS0_CZfTuN2U2xDyrcmAA</a>提取码：rlfa</div><div align="center"><strong><span style="font-size: 14pt;" class="bbc_size"><span style="color: maroon;" class="bbc_color">14th火热进行中&nbsp;&nbsp; 圣杯团群宣：602145072</span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1034396"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=profile;u=93665" title="检视会员资料:  紫蓝色旋律">紫蓝色旋律</a>
+</h4>
+<ul class="reset smalltext" id="msg_1034396_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 5<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1034396">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg1034396#msg1034396" rel="nofollow">Re: 【镜土】TRPG跑团 App平台</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1034396'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1034396'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2020-02-13, 周四 21:56:45 &#187;</div>
+<div id="msg_1034396_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1034396"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.msg995671#msg995671">引述: OrangeΣ 于 2019-05-19, 周日 13:38:51</a></div></div><blockquote class="bbc_standard_quote">没后文了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>App现处于封测阶段了（安卓和ios都是，ios已经可以在商店里找到了），要是感兴趣的话可以加我进测试玩家群尝试一下App，也可以在公众号和B站上搜寻“镜土”来了解我们的动态（好久没在这回复了，要不是今天有两位朋友忽然从这里找上我，我都忘了这个帖子了哈哈）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1034396">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=printpage;topic=104602.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;#c6"><span>TRPG讨论区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;board=1626.0"><span>正品区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;topic=104602.0"><span>【镜土】TRPG跑团 App平台</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 104602,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 104602,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="a91d65d3" value="35d476cbd3b0d56c3f03b76c54ea55c5" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="104602" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'35d476cbd3b0d56c3f03b76c54ea55c5\', \'a91d65d3\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;' + '?topic=104602.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9583 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1626,
+							iCurBoardChildLevel: 0,
+							sCurBoardName: "正品區",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1626,
+							iTopicId: 104602,
+							sSessionId: "35d476cbd3b0d56c3f03b76c54ea55c5",
+							sSessionVar: "a91d65d3",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=aa8b89d75289a409405cfe67ed404eef&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

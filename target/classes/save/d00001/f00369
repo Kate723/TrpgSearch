@@ -1,0 +1,908 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="Tri-Stat 翻译区"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>Tri-Stat 翻译区</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[514]" value="514"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0"><span>Tri-Stat 翻译区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="版主">尽点</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section"><table class="table_list"><tr><td class="catbg"><a href="http://www.GoddessFantasy.net/bbs/index.php?board=514">Tri-Stat 翻译区</a></tr><tr><td class="info"><table class="bbc_table"><tr><td><a href="http://www.goddessfantasy.net/bbs/index.php?board=514" class="bbc_link"><img src="https://i.loli.net/2020/02/12/YJPtlyMmcGFoCw4.png" alt="" class="bbc_img"/></a><td><div align="center"><span style="font-family: 新宋体;" class="bbc_font"><strong>角色扮演游戏宣言</strong><a href="http://www.goddessfantasy.net/bbs/index.php?board=514" class="bbc_link"><br>规则是撰写在纸片上的，不是镌刻在石板上的<br>规则是指导意见和建议，而非强制命令与要求<br>如果规则没有说这个行动不可能，那它就可能<br>官方答案不存在，存在的是官方参考和选项<br>当投骰结果与故事冲突时，总是故事优先<br>Min/Max和滥强不是游戏系统的问题；是玩家自己的问题<br>游戏主持对于游戏具有最终解释权<br>游戏主持和其他玩家不是对抗，是合作<br>失去乐趣的游戏不再是游戏，是杂务<br>这本书里有对一切问题的答案<br>当上一条无效时，由你补完</a></span></div></tr></table></tr></table>
+<a id="top"></a>
+<div class="pagesection">
+<div class="pagelinks align_left">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0;sort=subject">主题</a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0;sort=starter">作者</a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0;sort=replies">回复</a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0;sort=views">阅读 <img src="Themes/celeste/images/sort_down.gif" alt=""/></a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0;sort=last_post">最新帖子</a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_259359"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=31981.0">【BESM D20】 翻译进度表</a></span></strong>
+<p><span id="msg_descr_259359" class="topic_description">事情太多忙到翻不过来Orz</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages259359"></small>
+</p>
+</div>
+<td class="stats stickybg">
+2 回复
+<br>
+6574 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=31981.0#msg259764"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-07-24, 周六 11:39:45<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1033899"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114744.0">【BESM 4E】目录</a></span></strong>
+<p><span id="msg_descr_1033899" class="topic_description">目前完成：2、4、5、6、7、8、9、14；目前在翻：3、10、12、13</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1033899"></small>
+</p>
+</div>
+<td class="stats stickybg">
+0 回复
+<br>
+2737 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114744.0#msg1033899"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-11, 周二 02:22:58<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1034431"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.0">【BESM 4E】章节5：特长</a></span>
+<p><span id="msg_descr_1034431" class="topic_description">一半3E人翻</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1034431">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.40">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php?topic=114834.%1$d', 60, 80, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.80">5</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+86 回复
+<br>
+25254 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114834.80#msg1036143"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-23, 周日 02:41:07<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1078890"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120968.0">【BESM 4E】章节7：缺陷</a></span>
+<p><span id="msg_descr_1078890" class="topic_description">许多部分3E人翻</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1078890">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120968.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120968.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120968.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+36 回复
+<br>
+14938 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120968.20#msg1079079"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-10-13, 周二 06:17:36<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1078867"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120966.0">【BESM 4E】章节6：改造</a></span>
+<p><span id="msg_descr_1078867" class="topic_description">极大部分3E人（比如我）翻</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1078867">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120966.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120966.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120966.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+28 回复
+<br>
+9772 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120966.20#msg1079230"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-10-14, 周三 04:04:57<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1091813"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122416.0">【BESM 4E】【模组】所以，那是根……方尖碑？</a></span>
+<p><span id="msg_descr_1091813" class="topic_description">该冒险被列入BESM GM帷幕，并被提名为2000年起源奖的“最佳角色扮演模组”。</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1091813"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+8645 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122416.0#msg1095870"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-01-22, 周五 02:37:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_601812"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=64942.0">【BESM 3E】【翻译】ROLE-PLAYING GAME MANIFESTO</a></span>
+<p><span id="msg_descr_601812" class="topic_description">热血我一脸的秩序护卫规则书特征</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+<small id="pages601812"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+7923 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=64942.0#msg601871"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-01-12, 周日 17:46:27<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=11005">BENXU49</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_219760"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28289.0">【BESM D20】Besm d20简单介绍与翻译进度</a></span>
+<p><span id="msg_descr_219760" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages219760"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+7911 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28289.0#msg229175"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-03-03, 周三 18:04:31<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_229178"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29328.0">【BESM D20】魔法少女（Magicial Girl）</a></span>
+<p><span id="msg_descr_229178" class="topic_description">这是一群年仅１ｘ却有钢弹般战斗力的萝莉们的故事…</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages229178"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+7091 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29328.0#msg278481"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-09-28, 周二 21:52:52<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=11353">Fingertips</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_220141"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28325.0">【BESM D20】学生（Student）</a></span>
+<p><span id="msg_descr_220141" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages220141"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+6338 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28325.0#msg221419"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-01-16, 周六 04:16:16<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10177">BWM</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_221745"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28525.0">【BESM D20】巨机兵（Giant Robot）</a></span>
+<p><span id="msg_descr_221745" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages221745"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+5800 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28525.0#msg229579"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-03-05, 周五 11:45:09<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10177">BWM</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_288666"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=34836.0">【BESM D20】BESM d20 的超简介</a></span>
+<p><span id="msg_descr_288666" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages288666"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+5770 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=34836.0#msg288666"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-11-03, 周三 21:13:51<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_222968"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28682.0">【BESM D20】武术家（Martial Artist）</a></span>
+<p><span id="msg_descr_222968" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages222968"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+5183 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28682.0#msg222968"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-01-27, 周三 12:47:00<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_231679"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29566.0">【BESM D20】神枪手（Gun bunny）</a></span>
+<p><span id="msg_descr_231679" class="topic_description">（人型）自走砲。</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages231679"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4929 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29566.0#msg231679"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-03-16, 周二 18:51:45<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1080005"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121102.0">【BESM 4E】章节10：道具</a></span>
+<p><span id="msg_descr_1080005" class="topic_description">延3e翻</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1080005"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+4611 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=121102.0#msg1080014"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-10-18, 周日 02:41:59<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_219759"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28288.0">【BESM D20】操能术者（Dynamic Sorcerer）</a></span>
+<p><span id="msg_descr_219759" class="topic_description"></span>
+作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages219759"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4471 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28288.0#msg219759"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-01-06, 周三 22:19:06<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_229176"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29327.0">【BESM D20】武士（Samurai）</a></span>
+<p><span id="msg_descr_229176" class="topic_description">久违的更新…东西先贴上来，排版稍后再做</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages229176"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4372 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=29327.0#msg229176"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-03-03, 周三 18:05:37<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1061361"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118709.0">【BESM 4E】章节9：动作</a></span>
+<p><span id="msg_descr_1061361" class="topic_description">许多部分3E人贡献</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1061361"></small>
+</p>
+</div>
+<td class="stats windowbg">
+8 回复
+<br>
+4216 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118709.0#msg1078864"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-10-12, 周一 08:17:41<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_222962"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28681.0">【BESM D20】战队成员（Sentai Member）</a></span>
+<p><span id="msg_descr_222962" class="topic_description">队长红！</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+<small id="pages222962"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4129 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=28681.0#msg222962"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2010-01-27, 周三 12:43:26<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544">沉沦</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1091793"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122412.0">【BESM 4E】章节13：主持游戏</a></span>
+<p><span id="msg_descr_1091793" class="topic_description">多延3e，此外就翻个升级</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1091793"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+4098 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122412.0#msg1091803"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-20, 周日 07:25:40<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1091804"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122415.0">【BESM 4E】章节12：游玩BESM</a></span>
+<p><span id="msg_descr_1091804" class="topic_description">后多延3e</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1091804"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3412 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=122415.0#msg1091807"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-20, 周日 08:53:07<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1033608"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114708.0">【BESM 4E】章节14：动漫多元宇宙</a></span>
+<p><span id="msg_descr_1033608" class="topic_description">本章由BESM 3E翻译者阿骷，数控，cyan等人翻译</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1033608"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+3376 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114708.0#msg1033616"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-09, 周日 21:21:28<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1034923"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114902.0">【BESM 4E】章节3：模板</a></span>
+<p><span id="msg_descr_1034923" class="topic_description">感谢数控翻译的职业模板</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1034923"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3222 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114902.0#msg1034926"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-17, 周一 04:38:29<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1033685"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114722.0">【BESM 4E】章节2：角色基础</a></span>
+<p><span id="msg_descr_1033685" class="topic_description">力量层次、第二节和人物问答的绝大部分由BESM3E翻译者翻译</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1033685"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+2859 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114722.0#msg1033697"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-10, 周一 05:46:19<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1034032"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114779.0">【非规则内容】非翻译内容综合楼</a></span>
+<p><span id="msg_descr_1034032" class="topic_description">挖坟回复和其他无关新回复会被合并到这</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1034032"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+2783 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114779.0#msg1050654"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-04-24, 周五 15:35:09<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661">ACID67</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1033906"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114745.0">【BESM 4E】章节4：属性</a></span>
+<p><span id="msg_descr_1033906" class="topic_description">能力平衡前的部分由BESM 3E翻译者翻译</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1033906"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+2332 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114745.0#msg1033907"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-11, 周二 03:59:02<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1034801"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114884.0">【BESM 4E】章节8：派生值</a></span>
+<p><span id="msg_descr_1034801" class="topic_description">除伤害乘数均BESM 3E翻译者翻译</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1034801"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+1960 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114884.0#msg1034801"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-16, 周日 11:32:20<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1115755"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125657.0">【Tékumel - Empire of the Petal Throne】引言</a></span>
+<p><span id="msg_descr_1115755" class="topic_description">2005年的Guardians of Order版Empire of the Petal Throne</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="检视会员资料:  尽点">尽点</a>
+<small id="pages1115755"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+1827 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125657.0#msg1115755"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-02, 周三 00:23:17<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065">尽点</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1115665"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125643.0">【Ex Machina】前言</a></span>
+<p><span id="msg_descr_1115665" class="topic_description">红牛。</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661" title="检视会员资料:  ACID67">ACID67</a>
+<small id="pages1115665"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+1760 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125643.0#msg1115665"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-01, 周二 15:06:48<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=51661">ACID67</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页:  [<strong>1</strong>]   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=514.0"><span>Tri-Stat 翻译区</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=86065" title="版主">尽点</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 514,
+iCurBoardChildLevel: 1,
+sCurBoardName: "Tri-Stat 翻译区",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

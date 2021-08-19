@@ -1,0 +1,454 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="☛ CHM 进程控制与报告"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>☛ CHM 进程控制与报告</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.220"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1686.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="64269"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1686.0"><span>资料统整</span></a> (版主群: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=42300" title="版主">月夜白雨</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0"><span>☛ CHM 进程控制与报告</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg856085"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=64269.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.200">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php' + '?topic=64269.%1$d;start=%1$d', 20, 180, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.180">10</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.200">11</a> [<strong>12</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post_locked.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: ☛ CHM 进程控制与报告 &nbsp;(阅读 145372 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: [08.31] [v0.94下载] </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=64269.220" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=75772" title="检视会员资料:  马非鱼">马非鱼</a>
+</h4>
+<ul class="reset smalltext" id="msg_856085_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=75772">
+<img class="avatar" src="/bbs/upload/avatar/avatar_75772_1572685787.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 939<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_856085">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.msg856085#msg856085" rel="nofollow">Re: ☛ CHM 进程控制与报告</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_856085'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_856085'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #220 于:</strong> 2017-05-30, 周二 15:07:45 &#187;</div>
+<div id="msg_856085_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_856085">诶...刚一个兴起下了个打算更新一下啥的，但是点开chm发现是一片空白？（不过那些文件夹里的依然可以打开</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_856085">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_856085_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=91470.0;attach=89904;image" alt="" width="360" class="bbc_img resized"/><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=83222.0" class="bbc_link new_win" target="_blank">【个人总结】暗影狂奔FAQ</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=94393.0" class="bbc_link new_win" target="_blank">【SR】CHM更新记录以及勘误贴</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=104325.0" class="bbc_link new_win" target="_blank">【SRH】一周年装逼数据</a><a href="http://www.goddessfantasy.net/bbs/index.php?topic=112696.0" class="bbc_link new_win" target="_blank">&nbsp; 二周年装逼数据</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg860205"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=15537" title="检视会员资料:  Narr">Narr</a>
+</h4>
+<ul class="reset smalltext" id="msg_860205_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=15537">
+<img class="avatar" src="/bbs/upload/avatar/avatar_15537_1364559358.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 224<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_860205">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.msg860205#msg860205" rel="nofollow">Re: ☛ CHM 进程控制与报告</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_860205'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_860205'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #221 于:</strong> 2017-06-20, 周二 02:07:41 &#187;</div>
+<div id="msg_860205_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_860205">野蛮人狂暴之力中的反击态势<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">反击态势（Come and Get Me, Ex）：狂暴时，野蛮人可以用一个自由动作准备展开毁灭性的反击。直到野蛮人的下一<span style="color: orange;" class="bbc_color">轮</span>之前，敌人对他的攻击检定和伤害检定+4，但是敌人对他的每次攻击都会引起野蛮人的借机攻击。野蛮人必须至少12级才能选择这个狂暴之力。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/coreClasses/barbarian.html#come-and-get-me" class="bbc_link new_win" target="_blank">原文</a><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">Come and Get Me (Ex): While raging, as a free action the barbarian may leave herself open to attack while preparing devastating counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the beginning of her next <span style="color: orange;" class="bbc_color">turn</span>, but every attack against the barbarian provokes an attack of opportunity from her, <span style="color: red;" class="bbc_color">which is resolved prior to resolving each enemy attack</span>. A barbarian must be at least 12th level to select this rage power.</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>缺少关键信息，建议补充一句“<span style="color: red;" class="bbc_color">借机攻击在敌人的攻击之前完成</span>”或者改为“但是敌人对他的每次攻击都会<span style="color: red;" class="bbc_color">先</span>引起野蛮人的借机攻击”<br>另外一般轮是round翻译过来的吧？严谨起见建议改成<span style="color: orange;" class="bbc_color">回合</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_860205">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_860205_signature">&quot;not worthy&quot;</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg861508"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=80907" title="检视会员资料:  百态">百态</a>
+</h4>
+<ul class="reset smalltext" id="msg_861508_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=80907">
+<img class="avatar" src="/bbs/upload/avatar/avatar_80907_1532097518.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 32<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_861508">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.msg861508#msg861508" rel="nofollow">Re: ☛ CHM 进程控制与报告</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_861508'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_861508'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #222 于:</strong> 2017-06-27, 周二 10:36:36 &#187;</div>
+<div id="msg_861508_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_861508"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.msg841648#msg841648">引述: 秋叶EXODUS 于 2017-03-16, 周四 00:28:22</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.msg841629#msg841629">引述: 游侠sid 于 2017-03-15, 周三 22:24:22</a></div></div><blockquote class="bbc_alternate_quote">没有其他格式么 试了好几个app都无法正常打开 只能pc看= =<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>chm移动兼容性不好，这也没办法……<br>压缩包里面的.mht是有办法打开的，就是麻烦了点……<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>把里面的内容变成html再封装手机就可以看了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_861508">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=64269.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.200">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php' + '?topic=64269.%1$d;start=%1$d', 20, 180, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.180">10</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.200">11</a> [<strong>12</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1686.0"><span>资料统整</span></a> (版主群: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=42300" title="版主">月夜白雨</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=64269.0"><span>☛ CHM 进程控制与报告</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 64269,
+iStart: 220,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 64269,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="64269" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=64269.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 145372 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1686,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "资料统整",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1686,
+							iTopicId: 64269,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

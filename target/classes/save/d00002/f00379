@@ -1,0 +1,343 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="102172"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0"><span>异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg939837"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=102172.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本 &nbsp;(阅读 4122 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 欢迎反馈规则漏洞与修改建议</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=102172.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=87767" title="检视会员资料:  Balous">Balous</a>
+</h4>
+<ul class="reset smalltext" id="msg_939837_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 32<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_939837">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.msg939837#msg939837" rel="nofollow">异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_939837'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_939837'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-07-31, 周二 22:36:59 &#187;</div>
+<div id="msg_939837_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_939837">&nbsp; &nbsp; &nbsp; &nbsp; 《异闻录》是基于《FATE Core System》进行二次创作的一套TRPG规则，适合用来游玩跟灵异事件主题相关的剧本。因为作者的兴趣，本规则会有一些我非常喜欢的元素，如果你跟我一样，喜欢这些变体规则，那么我将非常欢迎你使用它们。如果你不喜欢这些魔改规则，也不要紧，这套规则只是给你一些建议，你大可按照自己喜欢的方式去修改它们。如果你喜欢这套规则，可以在游戏结束后，给作者一些规则修改建议，我会倾听你的宝贵提议。<br>&nbsp; &nbsp; &nbsp; &nbsp; 在你阅读《异闻录》的规则前，我默认你已经粗略读过《FATE Core System》并对其有一定了解。因为作者兴趣的缘故，这套规则有专门针对秘密团的支持。秘密团即为非对称信息剧本，PL可以跟GM进行秘密的互动，而且PC自身也会带有一些不公开的秘密。当然，即使你对秘密团没有任何了解，或者你根本不喜欢秘密团，也没关系，在规则中会给出非秘密团的解决方法。如果没有问题的话，就继续阅读吧。<br><br><strong>特征</strong><br>&nbsp;&nbsp;&nbsp;特征的作用跟《FATE Core System》中一致，可以被激活，也能被驱使。但是，在《异闻录》中，特征分为以下几个：核心，真实，虚假，未来，过去。<br>有些特征是公开特征，你只需要按照《FATE Core System》中所描述的那样使用即可，而有些特征是秘密特征，在未被公开前，使用该特征只能暗地里跟GM沟通，GM也可以暗地里驱使你的特征，直到秘密被公开前，秘密特征的使用都要在暗地里进行。<br>&nbsp;&nbsp;&nbsp;核心特征：用来描述角色的身份，职业，地位，它将告诉所有人，你的角色是谁，是做什么的。核心特征在游戏开始前，会被公开。例如“青春文学畅销书作家”，“老练的电器维修员”。<br>&nbsp;&nbsp;&nbsp;真实特征：用来描述角色的性格，爱好，心境，它会细致地刻画你的角色，让你的角色表现力更加丰满。真实特征在游戏开始前，会被公开。例如“金钱是我的最爱”，“总是带着忧郁的神情”。<br>&nbsp;&nbsp;&nbsp;未来特征：用来描述角色的理想，向往，或是最近想实现的愿望，目标，你的角色会朝着这个方向去努力，又或者会对此感到压力而畏缩不前。未来特征在游戏开始前，会被公开。“我一定会找到我失踪的朋友”，“社会安定比任何事情都重要”。<br>&nbsp;&nbsp;&nbsp;过去特征：用来描述角色过去的经历，这个经历或许是你角色的遗憾，又或者是喜悦，又或者是令你产生心理阴影的事情。过去特征是秘密特征，在游戏开始前不被公开。GM可以安排与你过去相关的剧情，来公开这个特征，或者，如果你觉得时机成熟，比如，在跟其他PC谈及你过去的经历时，可以选择公开这个特征。“我的家人朋友都死在一场火灾中”，“曾经是黑社会的人”。<br>&nbsp;&nbsp;&nbsp;虚假特征：用来描述角色的秘密，这是你角色不想让别人知道的事，所以被虚假地隐藏起来。你可能患有某种心理疾病，或者是某个组织的卧底，又或者你准备进行一些不为人知的研究。总之，这个特征尽可能是一些不太能见得光的事。虚假特征属于秘密特征，在游戏开始前不被公开。GM可以安排相关剧情，来暗示其他PC发现你这个秘密，或者，如果你觉得其他PC可信任，你可以坦诚相待，告诉他们这个秘密。“让车站爆炸是我喜欢做的事”，“XX的诅咒降临在我身上”。<br>&nbsp;&nbsp;&nbsp;如果你不喜欢秘密团，则忽略所有秘密特征，按照《FATE Core System》中正常使用特征。<br><br><strong>庇佑</strong><br>&nbsp;&nbsp;&nbsp;命运点在《异闻录》中，被称作庇佑，它代表了神明对你的祝福与保护，能够在关键时刻，让你扭转局势。更改命运点的名称，只是让它更符合剧本的风味。值得注意的是，庇佑点数是不公开的，只有你与GM知道你的角色还有多少庇佑点。如果你不喜欢秘密团，则忽略这点。<br>&nbsp;&nbsp;&nbsp;鉴于每次跑团时间的长度都不一致，重振值的使用会造成一些麻烦，所以在《异闻录》中，取消重振值。在游戏开始前，每位PC会有3点庇护点数。每当你的角色进行一次长休时，即休息时间达到8小时，则恢复1点庇护点数。靠长休恢复到的庇护点数不得超过属性值总和的1/4，向下取整。例如，如果你属性值总和是18，则靠长休只能让你属性值最多恢复到4点为止，所以，如果属性值是18，那么你在剩余6点庇护点数的情况下进行长休是无法获得点数恢复的。<br>限制庇护点的恢复只是防止没有冲突的情况下，庇护点不断增长，总不能一个月里什么事件也没发生，你的命运点就恢复了30点吧。只要你知道了限制比庇护点的原因，就好办多了，你可以不适用上面的“长休恢复庇护点”规则，使用适合你剧本的恢复方法。<br><br><strong>属性值</strong><br>&nbsp;&nbsp;&nbsp;在《异闻录》中，有属性值的概念，属性值是对你角色能力直观上的描述，属性值的多少，很大程度能决定你在团队中的作用。为了迎合灵异事件这一主题，我将属性值分为3项，分别是体能，智力，灵媒。初始属性值为16，你可以自由分配到属性值上。<br>&nbsp;&nbsp;&nbsp;某些PL可能会把属性点都分配到同一个属性上，如16智力，0体能，0灵媒的天才，面对这种PL，GM可以要求PL对角色做出合理解释，GM也有权利否决这种极端的属性分配，最终决定权在GM手上。<br>&nbsp;&nbsp;&nbsp;你可以让你的角色获得一个缺陷特征，根据缺陷的严重程度，获得2-4点属性值的补偿，这种缺陷特征可以是心理疾病，身体部位残疾等你能想到的任何缺陷，只要GM同意你这个缺陷，你就能够如此做。例如“在轮椅上的生活”，“双目失明”，“在看到诡异事件会精神崩溃”。<br>&nbsp;&nbsp;&nbsp;值得注意的是，GM在驱使缺陷特征时，你必须强迫接受驱使，并且这次驱使，你不会获得庇护点。这是GM在驱使缺陷特征时的权利。所以，是否填写缺陷特征，就看你需不需要那2-4点属性值了。<br>&nbsp;&nbsp;&nbsp;在《异闻录》中，不建议角色成长，跑多剧本的团，因为通常一个剧本过后，所有PC的秘密已经被公开，失去了神秘感。并且，角色的成长意味着敌人也会变得强大，实质上是一个零和游戏。但是，如果你想用此规则跑多剧本的团，这里也能提供一些角色成长的建议。在每个剧本结束后，发放2-4点属性值，作为角色在上一个剧本中的成长。<br><br><strong>体能</strong><br>&nbsp;&nbsp;&nbsp;体能描述了角色身体的健康程度，力量的大小，以及柔韧程度。没错，就是你在上学时，体育部给你测得那几项东西。<br>&nbsp;&nbsp;&nbsp;体能决定了角色的生命值上限。角色的生命值上限等于体能值。例如，如果你的角色体能是8，那么你的角色的生命值上限是8。<br>&nbsp;&nbsp;&nbsp;同时，体能会给你一些技能的检定带来加值，这种加值称作战技加值。战技加值可以附加到任何与身体素质相关的检定上，通常来说，这些检定是运动，杂技，战斗，射击检定。但是，如果上述技能的检定与体能关系不大，例如使用枪械进行射击检定，那么这个枪械就与你身体素质无关了，这种情况下，你不能使用战技加值。<br>除了上面举例的技能外，其他技能，只要跟体能有关系，你也可以使用体能加值，比如你认为长时间驾驶需要良好的身体素质，也需要身体的耐力，那么你就能够使用战技加值。能否使用战技加值，请询问GM，并由GM最终裁决。<br>另外一个问题是，如果角色在冲突中，每次战斗中使用战技加值进行防御，很有可能会造成敌人难以对角色造成伤害，所以，在冲突中使用战技加值应受到限制，例如限制冲突中战技加值的使用次数，或是其他你能想到的方法。<br>战技加值表如下：<br>剩余生命值&nbsp;&nbsp;&nbsp;战技加值<br>&nbsp; 0-1&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+0<br>&nbsp; 2-3&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+1<br>&nbsp; 4-7&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+2<br>&nbsp; 8-15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +3<br>&nbsp; 16-31&nbsp; &nbsp; &nbsp; &nbsp; +4<br>&nbsp; ……&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;……<br>&nbsp;&nbsp;&nbsp;防御战斗，防御射击在《异闻录》中被重做，你将使用专门的防御值去对抗相应的攻击。之所以重做，是为了体现角色越虚弱，越容易被击倒，如果你不喜欢这个设定，你可以按照《FATE Core System》中处理防御，即使用战斗防御战斗，使用运动防御射击。<br>在对抗物理类攻击时，剩余生命值的多少，会决定你对抗时的防御等级。剩余生命值小于等于8时，每2点生命值会为你的防御对抗+1，剩余生命值大于8时，每4点生命值会为你的防御对抗+1。例如剩余生命值为6时，你的防御对抗为+3，即6/2=3。剩余生命值为14时，你的防御对抗为+5，即4+(14-8)/4=5。所以，生命值越少，你的角色就越虚弱，如果实在不行，就做好逃跑的准备吧。<br>&nbsp;&nbsp;&nbsp;在经过一次长休后，角色能恢复体能值一半的生命值，向下取整，如果取整后为0，你依然能够恢复1点生命值。这里的生命值恢复规则仅作参考，如果GM有其他恢复生命值的规则，按照GM说法为准。<br><br><strong>智力</strong><br>&nbsp;&nbsp;&nbsp;智力描述角色的学习，推理，观察，理解等能力，智力高的角色，掌握的东西总是比其他人要多。<br>&nbsp;&nbsp;&nbsp;在智力小于等于8时，每点智力会提供2点技能点，在智力超过8后，每点智力会提供1点技能点。角色的基础技能点是10。例如，如果智力是0，则技能点是10。如果智力是3，则技能点是10+2x3=16。如果智力是8，则技能点是10+2x8=26。如果智力是17，则技能点是10+2x8+1x9=35。<br>&nbsp;&nbsp;&nbsp;此外，在智力小于等于8时，每2点智力会提供一个特技，该特技必须符合常理，不得出现灵异能力。因为灵异能力是灵媒属性相关的，不应该放在智力这里。在智力超过8后，每4点智力提供一个特技。<br>&nbsp;&nbsp;&nbsp;特技在游戏开始前不公开，在你第一次使用后，才公开出来。如果你不喜欢秘密团，可以忽略这点。<br><br><strong>灵媒</strong><br>&nbsp;&nbsp;&nbsp;灵媒描述角色的与灵异事件相关的能力，例如文学影视中常出现的驱魔师，占卜师，道士等。当然，灵媒属性高，不一定代表角色解决灵异事件的能力很强，他们也可能是被诅咒了或是被神明祝福了的人，例如能看见灵体的少女，听见圣灵声音的信徒，或是会给周围人带来噩运的人。<br>&nbsp;&nbsp;&nbsp;你的精神值上限等于你的灵媒值，例如，你灵媒是13，则你的精神值上限是13。<br>&nbsp;&nbsp;&nbsp;另外，每4点灵媒会带来1个跟灵异事件相关的能力，在这里被称作异能，异能可以是被动能力，也可以是主动能力。例如射出一支破邪箭，对未来的命运进行占卜，看得到别人看不见的幽灵等。建议在设计异能时，根据能力的强度，决定其消耗精神值的多少，如果你设计出一个不需要消耗精神值的异能，请再三考虑这个能力会不会被滥用，导致剧本无趣。<br>&nbsp;&nbsp;&nbsp;如果你想使用需要消耗精神值的异能，但是精神值不够时，你不能够消耗精神值去使用该异能，但是，你能够选择承受伤痕去使用该灵异能力，具体说明见伤痕一章。<br>&nbsp;&nbsp;&nbsp;值得注意的是，精神值是使用异能时需要消耗的，同时也是受到灵异攻击时，需要削减的另一条“生命值”。也许你会问，为什么使用异能会消耗精神？这是为了体现在灵异故事中常出现的一个概念——亵渎神灵会折寿。还有，精神值与《FATE Core System》有些差别，在《FATE Core System》中，情感伤害会计算精神压力，但是《异闻录》中不同，这里没有情感伤害，只有灵异类伤害跟物理类伤害。<br>&nbsp;&nbsp;&nbsp;在对抗灵异类攻击时，剩余精神值会为你的防御对抗提供加值，加值方式与生命值类似，在剩余精神值小于等于8时，每2点精神值提供+1，在剩余精神值大于8时，每4点精神值提供+1。<br>&nbsp;&nbsp;&nbsp;在经过一次长休后，角色能恢复灵媒值一半的精神值，向下取整，如果取整后结果为0，你依然能够恢复1点精神值。这里的精神值恢复规则仅用来参考，如果GM有其他恢复规则，按照GM的说法为准。<br>&nbsp;&nbsp;&nbsp;异能在游戏开始前不公开，在你第一次使用后，才公开出来。如果你不喜欢秘密团，可以忽略这点。<br><br><strong>结算攻击</strong><br>&nbsp;&nbsp;&nbsp;一次成功的攻击会对一个目标造成伤害，如果攻击是结果是成功，投掷一次命运骰，这次投掷称为伤害投掷，伤害为本次命运骰的绝对值，即负数当做正数处理。如果攻击结果是大成功，则伤害结果额外+2。例如你攻击大成功，伤害投掷结果为-2，则伤害为2+2=4。<br>&nbsp;&nbsp;&nbsp;再次说明，在《异闻录》中，攻击检定成功，只是代表你命中敌人，还需要再投一次伤害，因为有概率会出现0，所以即使你命中敌人，也不一定保证能一定会对其造成伤害。<br>物理类的伤害损失等量生命值，灵异类的伤害损失等量精神值。如果伤害结果超出承受范围，则降至0为止。例如你剩余生命值是1点，但受到4点伤害，则溢出的伤害不计算，生命值为0。<br><br><strong>伤痕</strong><br>&nbsp;&nbsp;&nbsp;每个角色有4个伤痕格。<br>当你生命值或精神值为0时，再次遭受相应的伤害，你需要承受伤痕，来避免角色出局。无论攻击结果是成功还是大成功，你都只需要承受一一格伤痕。<br>&nbsp; &nbsp; &nbsp; &nbsp; 使用异能时，如果没有足够的精神值，也能承受一格或多格伤痕去使用异能，承受伤痕的格数与异能的强度相关。当然，你可以设计一些非常强力的异能，这些异能只能靠承受伤痕来使用。<br>&nbsp; &nbsp; &nbsp; &nbsp; 也许你注意到，剩余生命值与剩余精神值会与防御以及战技相关，有时候，你不希望防御以及战技值下降，所以在消耗生命值或是精神值时，你更倾向于承受伤痕。所以，这里给一个变体规则作为参考，在你生命值或精神值需要减少时，你可以不减少这些数值，改为承受伤痕。能不能使用这个变体，由GM决定。<br>&nbsp; &nbsp; &nbsp; &nbsp; 当你需要承受伤痕，而你没有足够的伤痕格的时候，你的角色出局。为避免歧义，这里详细说明这句话的意思。可以理解为伤痕格已经没有的时候，你的角色还能参与游戏，但如果再受到伤害，就会出局。或者，在你没有伤痕格时，你选择承受伤痕格来使用灵异能力，导致角色自我毁灭（这个场面很壮观，为了保护朋友，不惜牺牲自己，可以自行想象画面）。<br>&nbsp; &nbsp; &nbsp; &nbsp; 每划掉一个伤痕格，需要在上面填写一个受伤的特征。<br>&nbsp; &nbsp; &nbsp; &nbsp; 在《异闻录》中，恢复伤痕非常困难，虽然你的角色可以去医院，或是别的什么方法接受治疗，但这也只是把伤痕格的特征描述减缓，如“伤口裂开”改成“伤口被包扎”，直到一个模组结束前，被划掉的伤痕格都无法恢复。所以，承受伤痕格是一件很严重的事情，如果能趁早逃脱，还是建议你脱离战斗。当然，GM可以设计一些能恢复伤痕格的剧情，这种情况下，能否恢复伤痕格需要向GM询问。<br><br><strong>技能</strong><br>&nbsp; &nbsp; &nbsp; &nbsp; 这里的技能列表与《FATE Core System》不同，这个技能列表是为了迎合灵异事件主题挑选的。下面为技能列表，括号为对该技能的一些补充，这里共计20项技能，能涵盖大多数灵异故事需要的技能。<br>&nbsp; &nbsp; &nbsp; &nbsp; 这些技能很多在《FATE Core System》中都有详细说明。具体变动是运动技能拆分成运动与杂技，工艺改名为手艺，新增医学与心理技能，知识技能拆分成科学，社会与灵异，新增信息技能，新增生存技能，潜行改名为隐匿，盗窃改名为巧手。<br>&nbsp; &nbsp; &nbsp; &nbsp; 如果你玩过其他规则的TRPG游戏，这些新增的技能很容易理解，医学相当于coc7规则中的医学加急救，心理相当于coc7中的精神分析加上dnd中的察言观色，信息相当于coc7规则中的图书馆使用加计算机使用，生存相当于dnd中的求生加上跟踪。如果你对这些规则不了解，可参考下面的技能简单说明。<br>&nbsp; &nbsp; &nbsp; &nbsp; 在冲突轮或是其他需要决定角色行动顺序的场景，用符合场景的技能等级决定行动顺序，如果技能等级相等，可考虑使用骰子命运骰或是GM自行安排顺序。例如，在开车的途中进入冲突轮，可以比较驾驶技能决定顺序。在正常遭遇中，可使用运动技能决定顺序。<br>另外，关于金钱与经济在《异闻录》中没有相关规则的限定，你仅需要从角色的职业与特征出发，大概估算出角色的经济能力与购买能力即可，这个你应该与GM达成共识。<br>&nbsp;&nbsp;&nbsp;技能列表：运动，杂技，战斗，射击，手艺，驾驶，医学，心理（学），科学（知识），社会（知识），灵异（知识），察觉，调查，信息（搜集），生存（跟踪），隐匿，巧手，欺诈（乔装），交际，威胁。<br>&nbsp;&nbsp;&nbsp;在介绍技能时，我会用括号对技能进行分类，这些分类与规则无关，仅方便读者阅读，你也可以根据剧本适当增删技能。<br>&nbsp;&nbsp;&nbsp;运动（体育类）：肌肉强壮程度，力量耐力的体现，如暴力破门，攀爬，游泳，跳跃。<br>&nbsp;&nbsp;&nbsp;杂技（体育类）：身体协调能力，柔韧度，如保持平衡，前后空翻，用绳索在高楼间移动。<br>&nbsp;&nbsp;&nbsp;战斗（战斗类）：近身肉搏或使用近战武器的能力，攻击性技能。<br>&nbsp;&nbsp;&nbsp;射击（战斗类）：使用枪械，弓箭等远程武器的能力，攻击性技能。<br>&nbsp;&nbsp;&nbsp;手艺（技术类）：制作物品，修理物品的能力，要制作的物品需要在常理之中。 <br>&nbsp;&nbsp;&nbsp;驾驶（技术类）：驾驶交通工具，操作精密仪器的能力。<br>&nbsp;&nbsp;&nbsp;医学（治疗类）：治疗生理疾病，伤口的能力。可用来恢复损失的生命值，也能分析一些跟医学知识相关的事，生命值恢复量与GM沟通。<br>&nbsp;&nbsp;&nbsp;心理（治疗类）：治疗心理问题，看穿对方心思的能力，你能够从对方的小动作发现对方是否对你有隐瞒。GM可以根据剧本需要，决定是否能通过心理来恢复精神值，这也许需要你消耗一个特技，决定权交给GM。<br>&nbsp;&nbsp;&nbsp;科学（知识类）：生物，物理，化学，计算机，工程等知识，但这也不是万能的，根据角色的设定，总有部分知识你是不会的，虽然上面列举了很多学科的内容，但如果你的角色设定是对物理一窍不通，那你也不能对物理相关的问题进行科学检定。<br>&nbsp;&nbsp;&nbsp;社会（知识类）：宗教，历史，地区风俗，人文等知识，跟科学一样，也不是万能的，你不可能点了这个技能就什么都会。<br>&nbsp;&nbsp;&nbsp;灵异（知识类）：跟灵异事件相关的知识，例如神秘符号，邪教仪式，鬼魂，咒文。<br>&nbsp;&nbsp;&nbsp;察觉（调查类）：注意到周围的情况，包括侦查与聆听的能力，与规则书里洞察技能类似。<br>&nbsp;&nbsp;&nbsp;调查（调查类）：对线索进行分析，发现难以察觉的细节的能力，这个技能与察觉类似，具体区别请看规则书。<br>&nbsp;&nbsp;&nbsp;信息（调查类）：使用网络查找资料，在图书馆中翻书，以便获取相关信息的能力。<br>&nbsp;&nbsp;&nbsp;生存（盗贼类）：跟踪他人，跟踪猎物。野外寻找水源食物，不迷路的能力。 <br>&nbsp;&nbsp;&nbsp;隐匿（盗贼类）：尾随他人不被发现，躲在暗处的能力。<br>&nbsp;&nbsp;&nbsp;巧手（盗贼类）：偷窃，开锁，变魔术的能力。<br>&nbsp;&nbsp;&nbsp;欺诈（社交类）：用谎言欺骗他人，乔装打扮自己的能力，参见规则书。<br>&nbsp;&nbsp;&nbsp;交际（社交类）：说服他人，鼓舞士气的能力，参见规则书。<br>&nbsp;&nbsp;&nbsp;威胁（社交类）：强迫他人按照你的意愿做事的能力，注意，与规则书里不同，你不能使用这个技能发动精神攻击，但你依然能通过创造优势，给对方添加害怕你的特征。<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_939837">
+&#171; <em>上次编辑: 2018-07-31, 周二 22:40:51 由 Balous</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=102172.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=102172.0"><span>异闻录 beta 6，基于FATE Core System进行二次创作的规则，适合灵异事件剧本</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 102172,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 102172,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="102172" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=102172.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 4122 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 102172,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

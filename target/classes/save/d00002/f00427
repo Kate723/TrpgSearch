@@ -1,0 +1,498 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="关于fate的一些结构"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>关于fate的一些结构</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="94485"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0"><span>关于fate的一些结构</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg876028"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=94485.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 关于fate的一些结构 &nbsp;(阅读 4916 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 稍稍讲一下</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=94485.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=76871" title="检视会员资料:  一盏大师">一盏大师</a>
+</h4>
+<ul class="reset smalltext" id="msg_876028_extra_info">
+<li class="title">法师<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=76871">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76871_1505052949.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 185<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_876028">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.msg876028#msg876028" rel="nofollow">关于fate的一些结构</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_876028'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_876028'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2017-08-30, 周三 00:14:47 &#187;</div>
+<div id="msg_876028_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_876028"><span style="font-size: 14pt;" class="bbc_size">首先，本人已经很长时间没有接触fate了，如果有错误还请大家指正<br><br>本贴的主题是透过现象看本质，不要被外表以及人工赋予的含义所欺瞒，不要太过关心表象之间的关系，而是专注于引擎的核心，帮助大家开团，写模组，魔改<br><br>如上，fate及其前身fudge都是引擎类规则，负责提供一个跑团使用的判断方法以及数据处理，以免变成心证团这种，大家可以自己填设定或者使用其他人现成的设定<br><br>fate的核心基本如下<br><br>在gm认为合适或者规则规定的情况下使用数值进行比拼，而数据的组成如下<br><br><span style="color: red;" class="bbc_color">随机值</span>+<span style="color: blue;" class="bbc_color">固定调整值</span>+<span style="color: brown;" class="bbc_color">可选调整值</span>+<span style="color: limegreen;" class="bbc_color">临时调整值</span><br><br><span style="color: red;" class="bbc_color">随机值就是4df没什么好讲</span><br><br><span style="color: blue;" class="bbc_color">固定调整值，依附于角色，基本不会变动的调整值，fate core里是技能skill，fae里是做派approach</span><br><br>（这里就是我为什么写这个帖子，，，有人太纠结这几个名词的表观解释忽略了其本质）<br><br><span style="color: brown;" class="bbc_color">可选调整值，特技stunt，武器值防具值这些。这里的弹性变大了些，可以选择，调整，个性化。</span><br><br><span style="color: limegreen;" class="bbc_color">临时调整值，来自各种剪影aspect的调整值，此项最为灵活，可以即时的反应环境及角色的状态变化给鉴定带来的调整<br></span><br>基本来说就是 鉴定与定值比较 或者 鉴定与鉴定比较<br><br>以上是本帖核心思想，也是fate结构的概览，剩下的等有心情再说<br><br></span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_876028">
+&#171; <em>上次编辑: 2017-08-30, 周三 00:18:06 由 一盏大师</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_876028_signature">We embrace every ocean,harness every element, roam every land, brave every environment, to capture the forces of nature.<br>我们拥抱每一片海洋，驾驭每一种元素，漫步每一寸土地，勇闯每一种环境，去捕捉自然的力量。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878018"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=76871" title="检视会员资料:  一盏大师">一盏大师</a>
+</h4>
+<ul class="reset smalltext" id="msg_878018_extra_info">
+<li class="title">法师<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=76871">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76871_1505052949.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 185<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878018">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.msg878018#msg878018" rel="nofollow">Re: 关于fate的一些结构</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878018'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878018'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2017-09-08, 周五 21:42:33 &#187;</div>
+<div id="msg_878018_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878018"><span style="font-size: 24pt;" class="bbc_size">fate的缺点（<span style="color: red;" class="bbc_color">限fate core，fae</span>）</span><br><br><span style="font-size: 18pt;" class="bbc_size">正像古话讲的，淹死的都是会水的，而fate的致命缺点恰恰是其最为出彩的地方<br><br><br>剪影系统<br><br><br>这个对于“泛用”的终极解决方案<br><br>我不想讲很多废话来混淆视听<br><br>缺点有两个<br><br>1.不持久<br><br>2.太泛用<br><br>第一个缺点体现在获得的增益过于短小。我可以通过与其他rpg不同的方式来获得优势，这正是fate最出彩的地方之一，但是要想持续获得增益，我就得一遍一遍一遍一遍的花费一回合去创造优势，之后又得重新来。<br><br>第二个缺点，gurps4th说过，（大意，非原文）想做泛用规则的人大多陷入了两个僵局，第一个是掺水，闪电链和.45自动步枪没有什么区别；第二个是过于复杂，玩家要花费大量时间处理大量规则。而fate被第一个戳的死死的。<br><br>以上两个缺点都能通过魔改规则解决，但是这需要大量的时间，精力，需要大量的经验和对trpg以及系统的理解，同时也需要大量的实验。<br><br>所以选择fate作为跑团规则需要考虑到好与不好，希望本文观点能给大家一些帮助。</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878018">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_878018_signature">We embrace every ocean,harness every element, roam every land, brave every environment, to capture the forces of nature.<br>我们拥抱每一片海洋，驾驭每一种元素，漫步每一寸土地，勇闯每一种环境，去捕捉自然的力量。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878054"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=12022" title="检视会员资料:  他化自在天">他化自在天</a>
+</h4>
+<ul class="reset smalltext" id="msg_878054_extra_info">
+<li class="title">圆力与我同在<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=12022">
+<img class="avatar" src="/bbs/upload/avatar/avatar_12022_1308183887.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 4422<li class="karma">苹果币: 1<li class="blurb">举头三尺有圆神<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878054">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.msg878054#msg878054" rel="nofollow">Re: 关于fate的一些结构</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878054'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878054'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2017-09-09, 周六 01:51:14 &#187;</div>
+<div id="msg_878054_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878054">个人觉得fate规则完完全全是一个“讲故事”的规则，故事里的闪电链和.45自动步枪即使能造成的威胁都一样，然而终究也还是两种东西。口胡骰也只是用于判断故事的“进程和转折”，而不像d20那样用于判断“是或否”。如果想要过于解决所谓泛用性的问题，那么大概会被魔改成另一个饭桶也说不定？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878054">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878826"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_878826_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878826">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.msg878826#msg878826" rel="nofollow">Re: 关于fate的一些结构</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878826'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878826'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2017-09-12, 周二 22:16:16 &#187;</div>
+<div id="msg_878826_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878826"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.msg878054#msg878054">引述: 他化自在天 于 2017-09-09, 周六 01:51:14</a></div></div><blockquote class="bbc_standard_quote">个人觉得fate规则完完全全是一个“讲故事”的规则，故事里的闪电链和.45自动步枪即使能造成的威胁都一样，然而终究也还是两种东西。口胡骰也只是用于判断故事的“进程和转折”，而不像d20那样用于判断“是或否”。如果想要过于解决所谓泛用性的问题，那么大概会被魔改成另一个饭桶也说不定？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>我的观点和你的观点一样，FATE和DND的核心思想不一样，DND归根到底就是战旗，骨子里只判定一件事，“这事你到底能不能成”。而FATE的核心思想是讲故事，它的判定是决定你在做这件事之后后边会怎么样。这使得FATE的处理风格和传统的跑团规则不太一样<br><br>至于对正文提到的第二个缺点，对伤害的理解，FATE的进攻判定只是决定了你对对方造成了3点还是2点的伤害，至于这些伤害到底是闪电链还是小火球，是.45还是9毫米，就看你自己口胡了。伤害高就口胡牛逼点的手段，伤害低就用弱鸡的手段。因为你宣告的是”一次攻击“，而不是“一次使用闪电链的攻击”</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878826">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=94485.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=94485.0"><span>关于fate的一些结构</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 94485,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 94485,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="94485" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=94485.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 4916 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 94485,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

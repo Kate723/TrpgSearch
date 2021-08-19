@@ -1,0 +1,588 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="FATE-core 教学模板(自制)"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>FATE-core 教学模板(自制)</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '951b05db6a677a3e002c485d37de5b1e');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="105870"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'df134fff7e',
+sSessionId: '951b05db6a677a3e002c485d37de5b1e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0"><span>FATE-core 教学模板(自制)</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg967700"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=105870.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: FATE-core 教学模板(自制) &nbsp;(阅读 7235 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 用于在有限的时间内进行系统教学或一次快速的游戏</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=105870.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('951b05db6a677a3e002c485d37de5b1e', 'df134fff7e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78086" title="检视会员资料:  Coffee G">Coffee G</a>
+</h4>
+<ul class="reset smalltext" id="msg_967700_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 194<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_967700">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg967700#msg967700" rel="nofollow">FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_967700'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_967700'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-12-29, 周六 15:30:12 &#187;</div>
+<div id="msg_967700_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_967700">秉持推广赞扬伟哉我大FATE系统的精神，以相对3板已经精简化的FATE-core乃至FAE进行了几次推坑或教学之后，仍发现了不少不足之处。主要包括:<br><br>1.FATE-core完整的5个角色形象、18个技能与3个特技将花费玩家大量时间去构想，对于没玩过TRPG的新手、初次接触此类自行编写角卡内容的萌新或单纯想像力不足的人。这将耗费他们大量的神智与脑浆，以及1~2个小时。<br>2.FAE的「作风」概念也同样难以让以上三者理解，最终从六个作风沦为六个属性。或单纯有人不喜欢。<br>3.过多的角色资源，5个形象、3个特技、3点FP、3格后果与FAE的起始3格压力在一场「四到八小时含教学与车卡」、「尽可能的让玩家体验各种规则」与「不拿强到靠北的敌役高难度陷阱整新手」的前提之下，将难以使得玩家有消耗资源的感觉。要使得玩家有伤重犹豫是否退让、FP拮据考虑是否要自我强迫以及角色形象写了几乎都有用上等等紧张、刺激与充实感，势必要减少资源。<br>4.新玩家们总是对于规则东忘西忘，检定规则记不得、FP效用永远搞不清以及写个特技问半天，避免浪费时间与讲破喉咙，最省心的办法就是直接把重要(而且最容易忘)的规则写在卡上<br><br>而此FATE-core教学版正是因此而生，其主要目的正是在4~8小时的一日堆广之中能够让玩家有效的体验与理解FATE系统，并且同时又能有一场充实的游戏体验。角色纸大概长这样<br><img src="https://upload.cc/i1/2019/01/05/TQgODh.png" alt="" class="bbc_img"/><br><br><br>使用介绍<br><br>重振：建议2点即足够，3点真的过剩了。如果游戏时间长可以让玩家体验一次重振。<br><br>形象：预设3个即足够使用，宿命大概就是对角色的期许或他的行事作风、目标等等，而交汇如同core的三次相遇，可以让玩家互相讨论或交换决定。删除短处/麻烦是因为对于新接触者来说常常无法理解所谓「活用自己的短处」这种玩意儿，成为一个单纯拿来坑自己的东西，于是整合进宿命之中。 当然两个预留空格可以自行决定是否活用。<br><br>压力与后果：我自己是喜欢两个压力连动技能填多少第三格就给多少啦，如果不喜欢的话该二技能「2」就可以给数值为「3」的第三号压力格。而后果实际上被删至仅有2个可使用且数值由「2」「4」降为「1」「3」，对于一日团来说中等与严重后果实际上并没有太大区别，故仅取1格(恢复时间则依据划风与GM自行判断即可)。永久后果则实际上即是极端后果<del>，排版问题多一格只好找东西乱填对吧</del>。<br><br>技能：砍到12个，少讲8个外加降低「我填了这个都用不到...」的短团常态，一次列上所有技能而非按表自填于金字塔/技能树上也方便玩家选择与GM讲解。建议配点为1~3的金字塔(0*6、1*3、2*2、3*1)以下为技能解释<br>察觉──调查与察觉的合并<br>旅行──驾驶与求生(非core预设)的合并，另外若是前往异地的冒险剧情也能作为外地常识使用<br>潜匿──潜匿与窃术的合并<br>挑拨──负面社交技能的总和<br>风采──正面社交技能的总和<br>意志──意志，如果认为恰当<del>用不到</del>可包括移情<br>体魄──体魄与空手打斗<br>运动──依然是运动....也许可以包括非「攻击」的空手打斗<br>技击──武器打斗与枪械的总和<br>学识──右侧空白处为自填<br>技术──右侧空白处为自填<br>信誉──人脉与资源的综合，右侧空白处为自填<br><br>特技：玩家最障碍的项目，建议初始两项，玩家可以耗费1点重振写第三个(如果他比别人早写完)。在下方的规则笔记中可见已经整合三个固定格式模板让玩家快快填完<del>教学团微调啥呢</del>。秉持让玩家多学一点的精神，建议玩家持有的特技类型不要重复。 可以注意到加值被削弱了，这是因应1.对新手而言较无脑且重复性的使用2.技能总数值降低3.让玩家填更大的可用范围以避免白填。(原本预设为+2)<br><br>规则速查：保护GM的喉咙用<br><br>笔记：排版问题随便塞<br><br><br>建议是在带团之中可以多加运用挑战、竞争与冲突，省去传统的漫无边际调查、追逐或商议等。主要为1.一日团嘛、省时2.作为教学团当然尽可能玩到更多规则3.鼓励<del>强迫</del>每个玩家参与并多加使用不同的技能4.缩限范围并明确化情形拯救新手玩家尚未开窍的理解力。<br><br>喔对了，还有一张GM卡。有两个重要NPC的空格可以填(并鼓励大家共同参与)。而右侧的共构剧情表也有着诸多优点。而场景ABCD大致上有两种用法，开场写好让GM随便挑或跑完一景再生下一景。<br><img src="https://upload.cc/i1/2019/01/05/hvM6EJ.png" alt="" class="bbc_img"/><br><br>事件与世界共构大致上有以下优点<br>1.GM懒得备团<br>2.GM不想备团<br>3.GM没空备团<br>4.让PL更多接触FATE「世界共构」的部分<br>5.GM懒得讲/想世界观<br>6.很明确的把预设的游戏形象、场景形象、局势形象列成张表多鼓励玩家使用<br>7.直接明确预设且路线与解决方式「且为玩家自己想的」，回避电波对不上或GM费心引导等状况<br>8.更多的不明确，鼓励玩家多使用花费FP进行宣告/强迫。<br><br>此教学模板经几次游戏后以验明是能够有效的在4~8小时教学创角并完成充实冒险，较大化的让新手玩家们接触并理解伟哉我大FATE，达到推坑目的。<br><br>而且GM不用备团不用想剧情也不用在意时间到了会不会没到结局，爽啦。<br>欢迎大家利用、修改与拿来推广，让更多玩家认识FATE系统。<br><br>附上某次使用教学板进行语音团时的角卡做为参考<br><img src="https://upload.cc/i1/2019/01/05/vzSm0d.png" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_967700">
+&#171; <em>上次编辑: 2019-01-05, 周六 10:35:17 由 Coffee G</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg967788"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=40860" title="检视会员资料:  G桃子">G桃子</a>
+</h4>
+<ul class="reset smalltext" id="msg_967788_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=40860">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40860_1427774853.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 776<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/wireless.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_967788">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg967788#msg967788" rel="nofollow">Re: FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_967788'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_967788'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2018-12-30, 周日 07:13:35 &#187;</div>
+<div id="msg_967788_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_967788">期待参考卡</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_967788">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_967788_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1213.0" class="bbc_link new_win" target="_blank">东路地里会社</a><br><br>迷宫王国网团区~</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg968779"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83003" title="检视会员资料:  啦啦啦雷饭饭">啦啦啦雷饭饭</a>
+</h4>
+<ul class="reset smalltext" id="msg_968779_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83003">
+<img class="avatar" src="/bbs/upload/avatar/avatar_83003_1579575340.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 146<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_968779">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg968779#msg968779" rel="nofollow">Re: FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_968779'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_968779'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-01-04, 周五 20:32:31 &#187;</div>
+<div id="msg_968779_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_968779">顶，好多都是FATE推新时的常见问题，学习到了。期待后续！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_968779">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg968877"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78086" title="检视会员资料:  Coffee G">Coffee G</a>
+</h4>
+<ul class="reset smalltext" id="msg_968877_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 194<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_968877">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg968877#msg968877" rel="nofollow">Re: FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_968877'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_968877'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-01-05, 周六 10:00:47 &#187;</div>
+<div id="msg_968877_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_968877">我发现我镶在里面的图用chrome开完全看不到<br>但用世界之窗6开是看的到的......&nbsp; 难怪下面大佬们的留言看得我一头雾水<br><a href="https://upload.cc/i1/2019/01/05/hvM6EJ.png" class="bbc_link new_win" target="_blank">https://upload.cc/i1/2019/01/05/hvM6EJ.png</a><br><a href="https://upload.cc/i1/2019/01/05/TQgODh.png" class="bbc_link new_win" target="_blank">https://upload.cc/i1/2019/01/05/TQgODh.png</a><br><a href="https://upload.cc/i1/2019/01/05/vzSm0d.png" class="bbc_link new_win" target="_blank">https://upload.cc/i1/2019/01/05/vzSm0d.png</a><br><br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_968877">
+&#171; <em>上次编辑: 2019-01-05, 周六 10:33:52 由 Coffee G</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg968878"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=78086" title="检视会员资料:  Coffee G">Coffee G</a>
+</h4>
+<ul class="reset smalltext" id="msg_968878_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 194<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_968878">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg968878#msg968878" rel="nofollow">Re: FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_968878'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_968878'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-01-05, 周六 10:01:24 &#187;</div>
+<div id="msg_968878_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_968878"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg968779#msg968779">引述: 啦啦啦雷饭饭 于 2019-01-04, 周五 20:32:31</a></div></div><blockquote class="bbc_standard_quote">顶，好多都是FATE推新时的常见问题，学习到了。期待后续！<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>然而并没有后续&nbsp; 就这样而已&nbsp; <img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_968878">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1003104"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=94869" title="检视会员资料:  悠久机关">悠久机关</a>
+</h4>
+<ul class="reset smalltext" id="msg_1003104_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 426<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1003104">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.msg1003104#msg1003104" rel="nofollow">Re: FATE-core 教学模板(自制)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1003104'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1003104'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2019-07-03, 周三 17:11:46 &#187;</div>
+<div id="msg_1003104_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1003104">这里的技能简并非常合适，我拿去参考了，对此表示感谢<br>此外可能会在此基础上重新写一份技能定义。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1003104">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=105870.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=105870.0"><span>FATE-core 教学模板(自制)</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 105870,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 105870,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="df134fff7e" value="951b05db6a677a3e002c485d37de5b1e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="105870" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'951b05db6a677a3e002c485d37de5b1e\', \'df134fff7e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=105870.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 7235 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 105870,
+							sSessionId: "951b05db6a677a3e002c485d37de5b1e",
+							sSessionVar: "df134fff7e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

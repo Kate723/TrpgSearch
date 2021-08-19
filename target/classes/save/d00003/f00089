@@ -1,0 +1,322 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="密码提示 - SMF 使用者帮助"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>密码提示 - SMF 使用者帮助</title>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;type=rss;action=.xml"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'afe8cb98c88b7ddd2cd0bb3e9f2fc47f');">
+<div class="info">请 <a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=login">登录</a> 或 <a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'dde52349d2',
+sSessionId: 'afe8cb98c88b7ddd2cd0bb3e9f2fc47f'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="firstlevel" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="active firstlevel" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help"><span>说明</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=admin;area=password_reminders"><span>密码提示</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<div id="main_container">
+<div id="left_admsection"><span id="admin_menu"></span>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+新手上路
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=introduction">前言</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=main_menu">主选单</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=board_index">版块列表</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=message_view">帖子列表</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=topic_view">主题检视</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+注册
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=when_how">何时何地开始注册</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=registration_screen">注册画面</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=activating_account">启用帐号</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=logging_in">登录与登出</a>
+<li>
+<strong><a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=password_reminders">密码提示</a></strong>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+个人资料
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=profile_info">个人资料</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=modify_profile">修改个人资料</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=actions">执行动作</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+发表功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=posting_topics">帖子, 投票和活动</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=smileys">表情符号</a>
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=bbcode">BB码</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+简讯功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=messages">简讯</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+论坛工具
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=help;area=searching">搜寻</a>
+</ul>
+</div>
+</div>
+<div id="main_admsection">
+<div class="cat_bar">
+<h3 class="catbg">说明</h3>
+</div>
+<div class="title_bar">
+<h4 class="titlebg">密码提示</h4>
+</div>
+<div id="help_container">
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div id="helpmain">
+<p>If a password is forgotten or lost, it can be reset by selecting the Forgot your password? option from the login screen. The username or email address for the account is requested to begin the password reset process.</p>
+<div class="help_sample">
+<div class="tborder login">
+<h3 class="catbg"><span class="left"></span>
+Authentication Reminder
+</h3>
+<span class="upperframe"><span></span></span>
+<div class="roundframe">
+<p class="smalltext centertext">If you've forgotten your login details, don't worry, they can be retrieved. To start this process please enter your username or email address below.</p>
+<dl>
+<dt>Username/Email:<dd><input type="text" name="user" size="30" class="input_text"/></dd>
+</dl>
+<div class="padding"><input type="submit" value="继续" class="button_submit floatright"/></div>
+<br class="clear"/>
+</div>
+<span class="lowerframe"><span></span></span>
+</div>
+</div>
+<p>If the member has not set a secret question, an email containing a password reset link is automatically sent to the member's email address. Selecting the link allows the member to choose a new password. If a secret question has been set, they will be given the option of receiving the email or answering their question.</p>
+<div class="help_sample">
+<div class="tborder login">
+<h3 class="catbg"><span class="left"></span>
+Authentication Reminder
+</h3>
+<span class="upperframe"><span></span></span>
+<div class="roundframe">
+<p class="smalltext">Please enter the answer to your question, and the password you would like to use. Your password will be changed to the one you select provided you answer the question correctly.</p>
+<dl>
+<dt>Secret Question:<dd>How many fingers am I holding up?<dt>Answer:<dd><input type="text" name="secret_answer" size="22" class="input_text"/><dt>输入密码: <dd>
+<input type="password" name="passwrd1" id="smf_autov_pwmain" size="22" class="input_password"/>
+<span id="smf_autov_pwmain_div" style="display: none;">
+<img id="smf_autov_pwmain_img" src="Themes/celeste/images/icons/field_invalid.gif" alt="*"/>
+</span>
+<dt>确认密码: <dd>
+<input type="password" name="passwrd2" id="smf_autov_pwverify" size="22" class="input_password"/>
+<span id="smf_autov_pwverify_div" style="display: none;">
+<img id="smf_autov_pwverify_img" src="Themes/celeste/images/icons/field_valid.gif" alt="*"/>
+</span>
+</dd>
+</dl>
+<div class="padding"><input type="submit" value="Save" class="button_submit floatright"/></div>
+<br class="clear"/>
+</div>
+<span class="lowerframe"><span></span></span>
+</div>
+</div>
+<p>After answering their secret question correctly, a member may choose a new password. The password takes effect and can be used to login immediately.</p>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+</div>
+</div>
+</div><br class="clear"/>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=9a25f861d688f8e378f6f89209d3fbf4&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

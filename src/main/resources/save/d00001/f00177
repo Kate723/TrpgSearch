@@ -1,0 +1,755 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【Core Rulebook】核心灵能"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【Core Rulebook】核心灵能</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=366.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="77346"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=366.0"><span>D20 现代</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=974" title="版主">花盆君</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75252" title="版主">杀菌@深坑未填</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0"><span>【Core Rulebook】核心灵能</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg730687"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=77346.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【Core Rulebook】核心灵能 &nbsp;(阅读 14755 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 大坑、工地、新人 7.5更填完职业坑</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=77346.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730687_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730687">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730687#msg730687" rel="nofollow">【Core Rulebook】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730687'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730687'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2015-06-17, 周三 22:58:19 &#187;</div>
+<div id="msg_730687_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730687">&nbsp;作死新人第一次跳入翻译大坑，暑假边玩边译，速度可想而知 <img src="/bbs/Smileys/converted/em021.gif" alt="&#58;em021" title="&#58;em021" border="0" class="smiley"/> <img src="/bbs/Smileys/converted/em021.gif" alt="&#58;em021" title="&#58;em021" border="0" class="smiley"/> <img src="/bbs/Smileys/converted/em021.gif" alt="&#58;em021" title="&#58;em021" border="0" class="smiley"/> <br>目前打算把CRB中的灵能职业+详述译完，灵能物品<del>看心情好了</del>有时间我会译的<br>3E&amp;3R有现成翻译优先考虑现成翻译，在此向翻译的前辈们致敬 <img src="/bbs/Smileys/converted/em019.gif" alt="&#58;em019" title="&#58;em019" border="0" class="smiley"/> <br>新专有名词的译法会在二楼给出，欢迎诸位姥爷指教…<br>就是这样~~~啦啦啦</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730687">
+&#171; <em>上次编辑: 2015-07-05, 周日 11:31:10 由 不朽之鸟神</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730688"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730688_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730688">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730688#msg730688" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730688'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730688'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2015-06-17, 周三 22:58:45 &#187;</div>
+<div id="msg_730688_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730688">二楼占坑，专有名词表<br>&nbsp; &nbsp;<table class="bbc_table"><tr><td>类型<td>出处<td>英语原文<td>译名</tr><tr><td>专有名词<td>CRB164<td>Advanced Classes<td>高级职业</tr><tr><td>专长<td>CRB79<td>Alertness<td>警觉</tr><tr><td>专长<td>CRB79<td>Animal Affinity<td>动物亲和</tr><tr><td>专有名词<td>CRB307<td>Arcane<td>奥术</tr><tr><td>专长<td>CRB79<td>Archaic Weapons Proficiency<td>古武擅长</tr><tr><td>专长<td>CRB80<td>Attentive<td>明察秋毫</tr><tr><td>技能<td>CRB305<td>Autohypnosis<td>自我催眠</tr><tr><td>职业<td>CRB307<td>Battle Mind<td>战灵师</tr><tr><td>专长<td>CRB80<td>Blind-Fight<td>盲斗</tr><tr><td>专长<td>CRB81<td>Combat Expertise<td>寓守于攻</tr><tr><td>专长<td>CRB81<td>Combat Martial Arts<td>实战武术</tr><tr><td>技能<td>CRB306<td>Concentration<td>专注</tr><tr><td>专长<td>CRB81<td>Confident<td>胜券在握</tr><tr><td>专长<td>CRB81<td>Creative<td>创造性思维</tr><tr><td>专长<td>CRB82<td>Deceptive<td>神机鬼械</tr><tr><td>专长<td>CRB82<td>Educated<td>博闻强识</tr><tr><td>加值类型<td>CRB309<td>Equipment Bonus<td>装备加值</tr><tr><td>专长<td>CRB82<td>Exotic Melee Weapon Proficiency<td>异种兵器擅长</tr><tr><td>专长<td>CRB83<td>Focused<td>全神贯注</tr><tr><td>专长<td>CRB83<td>Frightful Presence<td>可怖容貌</tr><tr><td>职业特性<td>CRB309<td>Imprint Tattoo<td>铭绘纹身</tr><tr><td>专长<td>CRB84<td>Improved Combat Martial Arts<td>精通实战武术</tr><tr><td>职业特性<td>CRB310<td>Improved psi-blade<td>进阶灵能刃</tr><tr><td>职业特性<td>CRB310<td>Improved psychic shield<td>进阶灵能护盾</tr><tr><td>专长<td>CRB85<td>Iron Will<td>钢铁意志</tr><tr><td>技能<td>CRB67<td>Knowledge (streetwise)<td>知识（地方）</tr><tr><td>职业特性<td>CRB307<td>Maximize Power<td>异能极效</tr><tr><td>职业特性<td>CRB307<td>Power Crystal<td>注能入石</tr><tr><td>职业特性<td>CRB309<td>Psi-blade<td>灵能刃</tr><tr><td>技能<td>CRB306<td>Psicraft<td>辨识灵能</tr><tr><td>职业特性<td>CRB309<td>Psychic shield<td>灵能护盾</tr><tr><td>专长<td>CRB86<td>Renown<td>声名远扬</tr><tr><td>专长<td>CRB87<td>Stealthy<td>悄无声息</tr><tr><td>动作<td>CRB306<td>Strenuous Action<td>费力动作</tr><tr><td>专长<td>CRB87<td>Studious<td>勤学好问</tr><tr><td>职业<td>CRB305<td>Telepath<td>灵感者</tr><tr><td>职业特性<td>CRB307<td>Trigger power<td>无耗显能</tr><tr><td>职业特性<td>CRB310<td>Ultimate psi-blade<td>超凡灵能刃</tr><tr><td>专长<td>CRB362<td>Wild Talent<td>狂野天赋</tr></table></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730688">
+&#171; <em>上次编辑: 2015-07-05, 周日 11:31:43 由 不朽之鸟神</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730689"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730689_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730689">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730689#msg730689" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730689'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730689'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2015-06-17, 周三 22:59:48 &#187;</div>
+<div id="msg_730689_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730689">三楼占坑，高级职业Telepath与Battle Mind<br>Telepath 灵感者<br>触碰他人的内心、用意念移动外物、影响他人的心智——灵感者借此展示心灵的强大威力。这种力量表现出一种与活物所产生的生物能迥然不同的用法。对于灵感者而言，心灵力量以精神的形式塑造现实。通过冥想与严格的心智训练，灵感者发掘潜藏在自我深处的力量——足以将简单想法转化成坚固防御或致命武器的澎湃之力。<br>如果你想让你的角色掌握心灵感应的艺术，选择这个高级职业，成为一名灵感者吧。<br>以魅力基础职业进入这一高级职业是最快的方法，不过其它道路也是可能的。<br>先决条件<br>要成为一名灵感者，角色必须满足下列条件。<br>技能：唬骗6级、交涉6级、收集信息6级<br>专长：狂野天赋Wild Talent<br>职业信息<br>下列信息属于灵感者高级职业。<br>生命骰<br>D6<br>行动点<br>6 + 灵感者角色等级的一半，向下取整。<br>本职技能<br>灵感者的本职技能如下：<br>自我催眠（感知）、唬骗（魅力）、专注（体质）、交涉（魅力）、收集信息（魅力）、知识（行为科学、时事、流行文化、哲学与神学）（智力）、专业（感知）、辨识灵能（智力）、读写语言（无）、察言观色（感知）、语言（无）<br>每等级技能点： 5 + 智力调整值<br>表：灵感者<br>职业等级&nbsp; &nbsp;基本攻击加值&nbsp; &nbsp;坚韧豁免&nbsp; &nbsp;反射豁免&nbsp; &nbsp;意志豁免&nbsp; &nbsp;特殊能力&nbsp; &nbsp;防御加值&nbsp; &nbsp;名誉加值<br>1&nbsp; &nbsp;+0&nbsp; &nbsp;+0&nbsp; &nbsp;+0&nbsp; &nbsp;+2&nbsp; &nbsp;灵能技能，显能能力&nbsp; &nbsp;+0&nbsp; &nbsp;+1<br>2&nbsp; &nbsp;+1&nbsp; &nbsp;+0&nbsp; &nbsp;+0&nbsp; &nbsp;+3&nbsp; &nbsp;无耗显能，显能能力&nbsp; &nbsp;+1&nbsp; &nbsp;+1<br>3&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;+3&nbsp; &nbsp;额外专长，显能能力&nbsp; &nbsp;+1&nbsp; &nbsp;+1<br>4&nbsp; &nbsp;+2&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;+4&nbsp; &nbsp;注能入石，显能能力&nbsp; &nbsp;+1&nbsp; &nbsp;+2<br>5&nbsp; &nbsp;+2&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;+4&nbsp; &nbsp;无耗显能，显能能力&nbsp; &nbsp;+2&nbsp; &nbsp;+2<br>6&nbsp; &nbsp;+3&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;+5&nbsp; &nbsp;额外专长，显能能力&nbsp; &nbsp;+2&nbsp; &nbsp;+2<br>7&nbsp; &nbsp;+3&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;+5&nbsp; &nbsp;战斗显能，显能能力&nbsp; &nbsp;+2&nbsp; &nbsp;+3<br>8&nbsp; &nbsp;+4&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;+6&nbsp; &nbsp;无耗显能，显能能力&nbsp; &nbsp;+3&nbsp; &nbsp;+3<br>9&nbsp; &nbsp;+4&nbsp; &nbsp;+3&nbsp; &nbsp;+3&nbsp; &nbsp;+6&nbsp; &nbsp;额外专长,，显能能力&nbsp; &nbsp;+3&nbsp; &nbsp;+3<br>10&nbsp; &nbsp;+5&nbsp; &nbsp;+3&nbsp; &nbsp;+3&nbsp; &nbsp;+7&nbsp; &nbsp;异能极效，显能能力&nbsp; &nbsp;+3&nbsp; &nbsp;+4<br><br>职业特性<br>以下特性为灵感者的职业特性<br>灵能技能（Psionic Skills）<br>灵感者获得使用下列灵能技能的能力。这些技能视为灵感者的本职技能，他可以使用他的技能点在这些上获得等级，就像游戏中的其他技能一样。<br>自我催眠 (感知): 需受训。你曾锻炼你的心智以抵抗一定程度的伤害与威胁，你也将从中获得一些隐秘的增益。<br>检定： DC与效果取决于你想完成的任务。<br>任务&nbsp; &nbsp;DC<br>抵抗恐惧&nbsp; &nbsp;15<br>回忆&nbsp; &nbsp;15<br>忍受毒素&nbsp; &nbsp;该毒素的DC<br>意志力&nbsp; &nbsp;20<br>抵抗恐惧：即便你已被恐惧所控制，你仍可以利用你的下个动作进行一次自我催眠检定作为对恐惧的反应。一次成功的检定将给你额外的一次豁免机会来抵抗恐惧效果，你在这次检定投骰上获得+4士气加值。<br>回忆：你可以尝试记住一长串数值、一大段诗文或其他特别难记的信息。每一次成功的检定使你记住至多250个单词或是能够包含在一张8.5*11英寸大小的纸上的信息。你一直保留这些信息；但是，只有一次成功的自我催眠检定才能使你想起它。<br>忍受毒素：作为对毒素的反应，你可以利用你的下个动作进行一次自我催眠检定。一次成功的检定将给予你+4士气加值在你对抗该毒素的二次伤害的豁免投骰上。<br>意志力：如果你的生命值降至0（瘫痪），你可以进行自我催眠检定。若通过，则你可以进行一个费力动作而不必受到1点伤害。意志力检定失败不会有额外处罚--你可以选择不做这个费力动作。如果你坚持要做，接下来你的生命值将降至-1。<br>重试： 对于抵抗恐惧与回忆，你每轮都可进行一次检定。你不可以重试忍受毒素。你也不能在同一轮内重试意志力。<br>特殊：你可以在自我催眠检定中取10，但你不能取20。<br>自我催眠技能的大部分用法是一个攻击动作。意志力是一个每轮可以使用一次的自由动作。<br><br>专注 (体质)：通常的专注技能进行了扩展，将下文所述的灵能用法包含在内。<br>检定： 每当你全身心的投入某件事而你有可能分心时，你必须进行一次专注检定，这种事情包括展现异能、维持正在生效的异能等需要你全身心投入的动作。<br>如果检定成功，你可以正常继续动作。如果失败，这个动作自动失败而且被浪费掉。如果你正在展现异能，那么你失去此异能。如果你正在专注维持一道正在生效的异能，异能结束。专注技能详述的表格总结了造成分心的多种情况。若你处于这些状况时正在展现一道异能，将你展现的异能等级加到原DC上。<br>情况&nbsp; &nbsp;DC<br>行动时受到伤害1&nbsp; &nbsp;10+伤害值<br>在动作中受到持续伤害2&nbsp; &nbsp; 10+上次受到的伤害的一半<br>有力震动中（骑马，快艇，在遭遇风暴的船上的底层甲板，相对稳定的驾驶）&nbsp; &nbsp;10<br>剧烈震动中（激流中的小艇上，在遭遇风暴的船上的表层甲板）&nbsp; &nbsp;15<br>极端剧烈震动中（地震）&nbsp; &nbsp;20<br>陷入网或陷阱&nbsp; &nbsp;15<br>被压制或被擒抱&nbsp; &nbsp;20<br>在恶劣天气下，如暴风雨&nbsp; &nbsp;5<br>在极端天气下，如沙尘暴，冰雹&nbsp; &nbsp;10<br>1比如那些通常需要多于一个整轮动作的行动。或者（那些不需要多于一个整轮动作的行动）在行动中被借机攻击或准备攻击响应。<br>2比如被火焰灼伤<br>重试：你可以重试，但这并不会取消先前失败所带来的影响。如果你失去了一道异能，那么它就无法挽回。<br>特殊：通过一次检定（DC 15 + 展现的异能等级），你可以使用专注技能来进行防御式显能，从而避免因显能引起的借机攻击。如果检定成功，你可以如常尝试该动作而不会遭受任何借机攻击。<br><br>辨识灵能（智力）：需受训。使用此技能鉴别展现中或作用中的异能。<br>检定：你可以识别异能与灵能效果。<br>DC&nbsp; &nbsp;任务<br>15 + 异能等级&nbsp; &nbsp;鉴别一道展现中的异能（你必须感受到异能的展现或者看见异能的可视效果）。不可重试。<br>20 + 异能等级&nbsp; &nbsp;鉴别一道已经存在并生效的异能（你必须能够看见或侦测到该异能的效果）。不可重试。<br>20 + 异能等级&nbsp; &nbsp;鉴别由灵能创造或塑性的物质。不可重试。<br>30或更高&nbsp; &nbsp;理解一个特殊或独一无二的灵能效果。不可重试。<br>重试：见上表<br>时间：除非另有说明，否则使用辨识灵能是一个移动动作。<br><br>显能能力（Psionic Powers）<br>灵感者最为强大的力量就是他展现心灵异能的能力。<br>心灵异能是一种一次性的灵能效果，使用心灵异能需要花费灵能点。不像奥术施法者，灵感者不需要法术书也不提前准备灵能。此外，灵感者可以在着甲的情形下展现灵能而不必担心显能失败。<br>灵感者的职业等级限制了他每日可以用来展现灵能的灵能点数。同时，要展现一道异能，灵感者需要至少10+该异能等级的关键属性。<br>尽管灵感者在显能时具有相当大的灵活性，他所能选择的异能受到严格的限制。在第一级，灵感者知晓3道零级异能与1道一级异能，由你选择。在之后的每一级，灵感者获得一道或更多可知灵能，如下表所示。<br>豁免灵感者异能的难度等级为10+该异能等级+灵感者的关键属性调整值。 <br><br>灵感者等级&nbsp; &nbsp; &nbsp; —— 每等级已知灵能 ——<br>&nbsp; &nbsp;每日灵能点&nbsp; &nbsp;0&nbsp; &nbsp;1&nbsp; &nbsp;2&nbsp; &nbsp;3&nbsp; &nbsp;4&nbsp; &nbsp;5<br>1&nbsp; &nbsp;2&nbsp; &nbsp;3&nbsp; &nbsp;1&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>2&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>3&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>4&nbsp; &nbsp;7&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;1&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>5&nbsp; &nbsp;10&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>6&nbsp; &nbsp;15&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;1&nbsp; &nbsp;—&nbsp; &nbsp;—<br>7&nbsp; &nbsp;20&nbsp; &nbsp;5&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—<br>8&nbsp; &nbsp;27&nbsp; &nbsp;5&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;1&nbsp; &nbsp;—<br>9&nbsp; &nbsp;34&nbsp; &nbsp;5&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—<br>10&nbsp; &nbsp;43&nbsp; &nbsp;6&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;1<br>灵感者每日所能展现的灵能总数只为他的每日灵能点所限制（零级异能消耗特殊，参见FX基础）。他只需花费灵能点来展现一道异能，无需预先准备。他每日可用的基础灵能点数见上表；该数量因灵感者的高魅力值而增加，如下表所示。<br>魅力加值&nbsp; &nbsp;每日额外灵能点<br>12–13&nbsp; &nbsp;1<br>14–15&nbsp; &nbsp;3<br>16–17&nbsp; &nbsp;5<br>18–19&nbsp; &nbsp;7<br>20–21&nbsp; &nbsp;9<br>22–23&nbsp; &nbsp;11<br><br>无耗显能（Trigger Power）<br>在第2、第5和第8级，灵感者可以展现一道异能而不消耗灵能点。<br>在每个上述等级，你选择一道你已知的零级、一级、二级或三级异能。从那时起，你在显能时可以尝试调整该异能以避免消耗灵能点。要无耗展现一道异能，你必须拥有足够展现此异能的灵能点，然后进行一次此异能的关键属性检定。<br>如果检定成功，该异能将展现并不消耗灵能点；如果失败，该异能将展现并正常消耗灵能点。<br>关键属性检定的DC取决于该异能的等级：零级，DC11；一级，DC13；二级，DC15；三级，DC17。<br>额外专长（Bonus Feats）<br>在第3、第6和第9级，灵感者获得一项额外专长。额外专长必须从下文列出的专长中选取，灵感者也必须满足该专长的先决条件。<br>警觉、动物亲和、明察秋毫、盲斗、寓守于攻、胜券在握、创造性思维、神机鬼械、博闻强识、全神贯注、可怖容貌、钢铁意志、声名远扬、悄无声息、勤学好问<br>注能入石（Power Crystal）<br>在第4级，灵感者可以将多余的灵能点存入与他同调的一颗灵能石中。创造灵能石将花费24小时，同时需要一颗购买DC20的宝石。完成后的灵能石是一颗直径不超过一英寸的充满灵能力量的清澈晶状体。灵感者在同一时间最多只能拥有一颗灵能石。<br>灵能石在被创造时被注入5点灵能点，灵感者可以在任何时候使用储存的灵能点，就好像使用他自己的灵能点一样。一旦灵能石耗竭，要注满它必须花费灵感者自己的灵能点（至多5点）。灵能石可以在灵感者休息并恢复自身灵能点后接受注能。<br>战斗显能（Combat Manifestation）<br>在第7级，灵感者对战斗中显能变得更为适应。他在防御式显能的专注检定投骰上获得+4加值。<br>异能极效（Maximize Power）<br>在第10级，灵感者学会最大化他异能效果的方法。一道极效异能的所有可变数值自动取最大值，它造成最大的伤害，影响最多的目标，等等。豁免鉴定与对抗投骰不受影响。没有可变数值的异能不受影响。<br>一道极效异能消耗的灵能点为其原本消耗量+6。<br><br>Battle Mind 战灵师<br>先决条件<br>要成为一名战灵师，角色必须满足下列条件。<br>基本攻击加值：+3.<br>技能：跳跃6级<br>专长：狂野天赋Wild Talent<br>职业信息<br>下列信息属于战灵师高级职业。<br>生命骰<br>D8<br>行动点<br>6 + 战灵师角色等级的一半，向下取整。<br>本职技能<br>战灵师的本职技能如下：<br>自我催眠（感知）、平衡（敏捷）、攀爬（力量）、专注（体质）、手艺（视觉艺术）（智力）、驾驶（敏捷）、跳跃（力量）、知识（时事、地方）（智力）、专业（感知）、读写语言（无）、语言（无）、侦查（感知）、游泳（力量）<br>每等级技能点： 3 + 智力调整值<br>表：战灵师<br>职业等级&nbsp; &nbsp;基本攻击加值&nbsp; &nbsp;坚韧豁免&nbsp; &nbsp;反射豁免&nbsp; &nbsp;意志豁免&nbsp; &nbsp;特殊能力&nbsp; &nbsp;防御加值&nbsp; &nbsp;名誉加值<br>1&nbsp; &nbsp;+0&nbsp; &nbsp;+2&nbsp; &nbsp;+0&nbsp; &nbsp;+0&nbsp; &nbsp;灵能技能，显能能力&nbsp; &nbsp;+1&nbsp; &nbsp;+0<br>2&nbsp; &nbsp;+1&nbsp; &nbsp;+3&nbsp; &nbsp;+0&nbsp; &nbsp;+0&nbsp; &nbsp;灵能刃，铭绘纹身，显能能力&nbsp; &nbsp;+2&nbsp; &nbsp;+0<br>3&nbsp; &nbsp;+2&nbsp; &nbsp;+3&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;额外专长，显能能力&nbsp; &nbsp;+2&nbsp; &nbsp;+0<br>4&nbsp; &nbsp;+3&nbsp; &nbsp;+4&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;灵能护盾，显能能力&nbsp; &nbsp;+3&nbsp; &nbsp;+0<br>5&nbsp; &nbsp;+3&nbsp; &nbsp;+4&nbsp; &nbsp;+1&nbsp; &nbsp;+1&nbsp; &nbsp;战斗显能，显能能力&nbsp; &nbsp;+4&nbsp; &nbsp;+1<br>6&nbsp; &nbsp;+4&nbsp; &nbsp;+5&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;额外专长，显能能力&nbsp; &nbsp;+4&nbsp; &nbsp;+1<br>7&nbsp; &nbsp;+5&nbsp; &nbsp;+5&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;进阶灵能刃，显能能力&nbsp; &nbsp;+5&nbsp; &nbsp;+1<br>8&nbsp; &nbsp;+6&nbsp; &nbsp;+6&nbsp; &nbsp;+2&nbsp; &nbsp;+2&nbsp; &nbsp;进阶灵能护盾，显能能力&nbsp; &nbsp;+6&nbsp; &nbsp;+1<br>9&nbsp; &nbsp;+6&nbsp; &nbsp;+6&nbsp; &nbsp;+3&nbsp; &nbsp;+3&nbsp; &nbsp;额外专长, 显能能力&nbsp; &nbsp;+6&nbsp; &nbsp;+2<br>10&nbsp; &nbsp;+7&nbsp; &nbsp;+7&nbsp; &nbsp;+3&nbsp; &nbsp;+3&nbsp; &nbsp;超凡灵能刃，显能能力&nbsp; &nbsp;+7&nbsp; &nbsp;+2<br><br>职业特性<br>以下特性为战灵师的职业特性<br>显能能力（Psionic Powers）<br>战灵师主要的力量就是他展现攻击型异能的能力。<br>心灵异能是一种一次性的灵能效果，使用心灵异能需要花费灵能点。不像奥术施法者，战灵师不需要法术书也不提前准备灵能。此外，战灵师可以在着甲的情形下展现灵能而不必担心显能失败。<br>战灵师的职业等级限制了他每日可以用来展现灵能的灵能点数。同时，要展现一道异能，战灵师需要至少10+该异能等级的关键属性。<br><br>战灵师所能选择的异能受到严格的限制，而且这些异能与战斗紧密相关。在第一级，战灵师知晓2道零级异能，由你选择。在之后的每一级，战灵师获得一道或更多可知灵能，如下表所示。<br>豁免战灵师异能的难度等级为10+该异能等级+战灵师的关键属性调整值。 <br><br>战灵师等级&nbsp; &nbsp; &nbsp; &nbsp;每等级已知灵能<br>&nbsp; &nbsp;每日灵能点&nbsp; &nbsp;0&nbsp; &nbsp;1&nbsp; &nbsp;2&nbsp; &nbsp;3&nbsp; &nbsp;4<br>1&nbsp; &nbsp;2&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>2&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>3&nbsp; &nbsp;4&nbsp; &nbsp;3&nbsp; &nbsp;1&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>4&nbsp; &nbsp;5&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—&nbsp; &nbsp;—<br>5&nbsp; &nbsp;8&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;1&nbsp; &nbsp;—&nbsp; &nbsp;—<br>6&nbsp; &nbsp;11&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—&nbsp; &nbsp;—<br>7&nbsp; &nbsp;16&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;1&nbsp; &nbsp;—<br>8&nbsp; &nbsp;21&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;1&nbsp; &nbsp;—<br>9&nbsp; &nbsp;26&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;—<br>10&nbsp; &nbsp;33&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;3&nbsp; &nbsp;2&nbsp; &nbsp;1<br><br>战灵师每日所能展现的灵能总数只为他的每日灵能点所限制。他只需花费灵能点来展现一道异能，无需预先准备。他每日可用的基础灵能点数见上表。<br><br>灵能刃（Psi-Blade）<br>在第2级，战灵师可以在自己的拳上凝聚心灵力量，从拳上延伸出一把一尺长的发光剑刃。使用该能力是一个移动动作；剑刃持续等同于战灵师职业等级的轮数，或是直到战灵师将它解消为止。只要还有至少1点灵能点，战灵师便可以以一个移动动作创造一把新的灵能刃。<br>灵能刃造成1d6点穿刺伤害。在第3级，剑刃获得+1增强加值，该加值在第5级时上升为+2，第7级时上升为+3，第9级时上升为+4。<br>战灵师可以在他的灵能刃上附加武器专攻或武器熟稔专长。<br>铭绘纹身（Imprint Tattoo）<br>从第2级开始，战灵师可以在他自己或其他人身上绘制能使用灵能力量的纹身。纹身是一种一次性物品，能够重现某道异能的效果。绘制一道纹身需要一天时间。绘制纹身所需材料的购买DC=15+纹身所复制的异能等级+纹身的显能者等级。<br>战灵师必须花费经验值才能绘制一道纹身。经验值消耗=复制的异能等级*异能的显能者等级*材料的购买DC。<br>最后，战灵师需要进行一次手艺（视觉艺术）检定。检定DC=10+复制的异能等级+异能的显能者等级。如果检定失败，原料将消耗但经验值不会。只要能够买到更多的原料，战灵师便可以多次尝试绘制纹身。<br>额外专长（Bonus Feats）<br>在第3、第6和第9级，战灵师获得一项额外专长。额外专长必须从下文列出的专长中选取，灵感者也必须满足该专长的先决条件。<br>古武擅长、运动健将、盲斗、顺势斩、实战武术、战斗反射、异种兵器擅长、全神贯注、精通实战武术、猛力攻击、武器熟稔、专攻武器<br>灵能护盾（Psychic Shield）<br>在第4级，战灵师可以凝聚精神力量，环绕他的身体创造出难以觉察的光环，构成一具强有力的护盾。护盾为战灵师的防御等级提供+3装备加值；凝聚护盾是一个移动动作，并将持续等同于战灵师职业等级的轮数，或是直到战灵师将它解消为止。只要还有至少1点灵能点，战灵师便可以以一个移动动作凝聚一个新的护盾。<br>战斗显能（Combat Manifestation）&nbsp; &nbsp;<br>在第5级，战灵师对战斗中显能变得更为适应。他在防御式显能的专注检定投骰上获得+4加值。<br>进阶灵能刃（Improved Psi-Blade）<br>在第7级，灵能刃造成伤害的能力增强了，它现在将造成1d8点穿刺伤害。<br>进阶灵能护盾（Improved Psychic Shield）<br>在第8级，战灵师的灵能护盾受到强化，它现在将为防御等级提供+6装备加值。<br>超凡灵能刃（Ultimate Psi-Blade）<br>在第10级，灵能刃造成伤害的能力更为强大，它现在将造成2d6点穿刺伤害。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730689">
+&#171; <em>上次编辑: 2015-07-07, 周二 11:54:18 由 不朽之鸟神</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730690"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730690_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730690">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730690#msg730690" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730690'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730690'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2015-06-17, 周三 23:00:06 &#187;</div>
+<div id="msg_730690_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730690">四楼占坑，灵能概要</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730690">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730691"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730691_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730691">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730691#msg730691" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730691'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730691'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2015-06-17, 周三 23:00:22 &#187;</div>
+<div id="msg_730691_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730691">五楼占坑，灵能列表</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730691">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730692"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730692_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730692">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730692#msg730692" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730692'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730692'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2015-06-17, 周三 23:00:38 &#187;</div>
+<div id="msg_730692_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730692">六楼占坑，灵能详述</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730692">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg730693"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_730693_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_730693">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg730693#msg730693" rel="nofollow">Re: 【Core Rule Book】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_730693'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_730693'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2015-06-17, 周三 23:00:58 &#187;</div>
+<div id="msg_730693_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_730693">七楼占坑，物品</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_730693">
+&#171; <em>上次编辑: 2015-06-20, 周六 23:28:01 由 不朽之鸟神</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg734313"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429" title="检视会员资料:  不朽之鸟神">不朽之鸟神</a>
+</h4>
+<ul class="reset smalltext" id="msg_734313_extra_info">
+<li class="title">米哈伊尔二世·伯德·米斯拉，奥兰治亲王与色雷斯亲王，布拉邦特公爵与阿德里安堡公爵<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=20429">
+<img class="avatar" src="/bbs/upload/avatar/avatar_20429_1434553708.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_734313">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg734313#msg734313" rel="nofollow">Re: 【Core Rulebook】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_734313'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_734313'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2015-07-05, 周日 11:39:13 &#187;</div>
+<div id="msg_734313_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_734313">八楼占坑，战役相关</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_734313">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1099796"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=81185" title="检视会员资料:  请娶一个昵称">请娶一个昵称</a>
+</h4>
+<ul class="reset smalltext" id="msg_1099796_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 132<li class="karma">苹果币: -2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1099796">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.msg1099796#msg1099796" rel="nofollow">Re: 【Core Rulebook】核心灵能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1099796'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1099796'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-02-21, 周日 03:38:27 &#187;</div>
+<div id="msg_1099796_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1099796">&nbsp;<img src="/bbs/Smileys/converted/Lem03.GIF" alt="&#58;em003" title="&#58;em003" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1099796">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1099796_signature">有些时候不吐不快，即便是要挖坟</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=77346.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=366.0"><span>D20 现代</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=974" title="版主">花盆君</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75252" title="版主">杀菌@深坑未填</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=77346.0"><span>【Core Rulebook】核心灵能</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 77346,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 77346,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="77346" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=77346.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 14755 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 366,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "D20 現代",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 366,
+							iTopicId: 77346,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,1276 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="回环物语（Tales From the Loop）规则书翻译完成"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>回环物语（Tales From the Loop）规则书翻译完成</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1732.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="103482"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1732.0"><span>回环物语</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=74719" title="版主">街猫口喵</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="版主">oreoinhell@回环物语</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0"><span>回环物语（Tales From the Loop）规则书翻译完成</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg951233"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103482.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 回环物语（Tales From the Loop）规则书翻译完成 &nbsp;(阅读 29343 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 前七章完工，规则书附带模组将会转入模组专贴，后续将会进一步校正翻译</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=103482.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_951233_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_951233">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg951233#msg951233" rel="nofollow">回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_951233'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_951233'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-09-26, 周三 05:36:26 &#187;</div>
+<div id="msg_951233_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_951233">回环物语介绍见<a href="http://www.goddessfantasy.net/bbs/?topic=98897.0" class="bbc_link new_win" target="_blank">这个帖子</a>。<br>一至五章规则获取点击<a href="https://mega.nz/#!lHgREY5b!a0TNBYPkUnhBA9D9MMnHBcf9Fk4Yj2Gg0ZQlFEHKqvg" class="bbc_link new_win" target="_blank">这里</a>。可分发给玩家。<br>一至七章规则获取点击<a href="https://mega.nz/#!8LpVlbZD!emxPwH0LbuaZ3IgKoU652mj0H4hp7B1o6HwHtqqYNCU" class="bbc_link new_win" target="_blank">这里</a>。供GM使用。<br><br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_951233">
+&#171; <em>上次编辑: 2020-02-11, 周二 22:47:21 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_951233_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg951234"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_951234_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_951234">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg951234#msg951234" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_951234'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_951234'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2018-09-26, 周三 05:38:43 &#187;</div>
+<div id="msg_951234_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_951234"><img src="https://i.loli.net/2018/10/11/5bbf3c419324a.jpg" alt="" class="bbc_img"/><br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">01.</span><span style="font-size: 14pt;" class="bbc_size">欢迎来到回环</span></span><br>回环的故事 8<br>角色扮演，如何进行？ 9<br>投掷骰子 10<br>回环之理 10 <br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">02.</span><span style="font-size: 14pt;" class="bbc_size">回环的时代</span></span><br>从未有过的的80年代 15<br>瑞典的回环 17<br>梅拉伦群岛：一片郊区 19<br>80年代能做的事 20<br>斯瓦兹尤岛：黑水与深林 21<br>蒙斯岛：回环的处所 24<br>阿德尔索岛：过去的遗留 26<br>国家能源 27<br>回环 27<br>民用技术 29<br>军用技术 30<br>磁悬浮飞行——它是如何做到的？ 32 <br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">03.</span><span style="font-size: 14pt;" class="bbc_size">美国的回环</span></span><br>活在美国 35<br>博尔德城：“大坝边最好的城市” 37<br>80年代能做的事 38<br>博尔德城内 40<br>米德湖 42<br>拉斯维加斯及周边 45<br>传送进阶研究部（DART） 45<br>美国的回环 46 <br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">04.</span><span style="font-size: 14pt;" class="bbc_size">孩子们</span></span><br>类型 49<br>书呆子 50<br>电脑极客 51<br>乡巴佬 52<br>运动健将 53<br>社交红人 54<br>摇滚爱好者 55<br>捣蛋鬼 56<br>怪胎 57<br>年龄 58<br>属性 58<br>幸运点 58<br>技能 58<br>物品 59<br>烦恼 59<br>动力 60<br>骄傲 60<br>关系 60<br>支柱 61<br>状况 62<br>经历 62<br>名字 62<br>描述 62<br>最爱的歌 62<br>秘密基地 63<br>问题 63 <br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">05.</span><span style="font-size: 14pt;" class="bbc_size">麻烦</span></span><br>不良状况 66<br>投骰子 66<br>物品与骄傲 67<br>幸运 67<br>做几乎不可能的事 67<br>回答问题 68<br>购买效果 68<br>非玩家角色 68<br>失败的检定 69<br>孤注一骰 69<br>互相帮助 70<br>相互对抗 70<br>更多麻烦 70<br>技能 72<br>潜行 72<br>蛮力 72<br>移动 72<br>机械 72<br>编程 73<br>计算 73<br>联络 73<br>魅力 74<br>领导 74<br>调查 75<br>理解 75<br>共情 75 <br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">06.</span><span style="font-size: 14pt;" class="bbc_size">谜团</span></span><br>谜团的真相 78<br>谜团与日常生活 79<br>独立情景还是成组情景 81<br>谜团的全貌 81<br>第一阶段——引入孩子们 82<br>第二阶段——引入谜团 82<br>第三阶段——解决谜团 82<br>第四阶段——揭露谜底 87<br>第五阶段——后日谈 87<br>第六阶段——改变 88<br>营造气氛 88<br>非玩家角色 91<br>道具 91<br>更大的谜团与战役 93<br><span style="color: orange;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">07.</span><span style="font-size: 14pt;" class="bbc_size">神秘景观</span></span><br>学校图书馆 101<br>梦之店 103<br>野生动物俱乐部 105<br>冷却塔 106<br>斯蒂恩哈姆拉（Stenhamra）的警察局 108<br>神经升级有限公司 109</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_951234">
+&#171; <em>上次编辑: 2018-10-21, 周日 22:31:38 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_951234_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg951917"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_951917_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_951917">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg951917#msg951917" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_951917'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_951917'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2018-10-01, 周一 06:30:49 &#187;</div>
+<div id="msg_951917_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_951917"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第一章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>欢迎来到回环</strong></span></span></span><br><img src="https://i.loli.net/2018/10/04/5bb61514910a3.png" alt="" class="bbc_img"/><br>回环的故事 8<br>角色扮演，如何进行？ 9<br>投掷骰子 10<br>回环之理 10<br><span style="color: gray;" class="bbc_color">映入眼中的到处是各种方式连接到设施上的机器与废铁。博纳反应堆（Bona Reactor）的巨大冷却塔矗立在地平线上，边缘有绿色的指示灯。如果你将耳朵贴在地上，你能够听到回环的心跳声——引力子轰鸣着，这是回环实验关注重点的工业魔力之核心。</span><br><hr />那是盛夏的一天，我的妹妹，克拉拉（Klara）接连几周想跟在我和我的朋友后面。她最好的朋友不在城里，我老妈尽力，虽然不太成功地，唤起了我对她的同情。我总是要照顾克拉拉，不仅因为她有着听力障碍，还因为她总有着什么地方很脆弱，就好像很容易受伤似的。然而，炎炎夏日唤起了我骑自行车尽量跑远些，自己做些事情的欲望。而当克拉拉突然不见时，内疚感使得我胃中翻腾，我想起来她说要去见一个叫做贝坦（Bettan）的新朋友。<br>我们在海峡另一侧找到了她们——我不知道她们怎么去到那边的。我们悄悄地穿过高草，风吹动松针发出响声。远处可以听见啄木鸟的鸣叫。卡拉拉坐在一块石头上，给一个偷跑的机器人戴上雏菊花环，这就是她的新朋友“贝坦”了。我示意我的朋友保持安静，然后溜到另一边。我回头看去时，贝坦正看着我，它一边将我妹妹抱进怀里，一边将眼睛眯成了小黑点。<br><hr /><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">示例：</span><br>GM：Bettan已经清楚地看到你了。你要做什么？<br>玩家1（克拉拉的兄弟欧莱）：我蹲入高草丛中，尽量让自己平静下来，但我感觉我的心跳动得越来越快。<br>玩家2（Olle的朋友阿尼塔）：我想它还没看到我？那我试图溜到它边上。<br>GM：骰(Sneak)潜行。<br>玩家2：五个骰子。 （骰点出了至少一个六。）是的，成功了！<br>GM：告诉我们你怎么做。<br>玩家2：我在树间潜行，直到我到了另一边，并跪在一个杂草丛生的茉莉树篱之后。如果它试图离开克拉拉，我就准备冲向那个机器人。<br>玩家1：我是否知道机器人如何工作，以及如何阻止它们？<br>GM：骰(Calculate)计算。<br>玩家1：两个骰子。 （骰点...）成功！<br>GM：你阅读过很多关于机器人的内容，因为你父亲之前曾在一家为机器人生产备件的地方工作过。 你知道（它们）胸部有时会有一个巨大的红色按钮用于紧急停止。 如果用力按下去，机器人就会失去反应。<br>玩家1：附近有石头吗？<br>GM：当然。<br>玩家1：我抓起一大块花岗岩，慢慢站起来。 我试图找出按钮，看看我是否可以用石头扔中。<br>GM：机器人将克拉拉抱在怀中，她的脸颊贴着它的胸部。它抚摸着她的头发。它身上的按钮被克拉拉挡住了。你要做什么？<br>玩家1：我慢慢地把石头放在地上，用柔和的声音向它说：“我是她的哥哥。我不会伤害你的。”<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr />这个故事就是在进行回环物语这一角色扮演游戏中可能发生的事情的例子，故事发生在Simon Stålenhag创造的奇妙世界。<br>角色扮演游戏中，你与你的朋友们相互交谈，创作出一个有开端，有发展，有结局的故事。一个典型的故事需要三到六个小时的游戏时间来创造。大部分情况下你会坐在桌前，你需要纸笔，以及至少十个六面骰。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">回环的故事</span></span><br>在这个游戏中，一个故事被叫做一个谜团。游戏中一群伙伴要尝试一同破解谜团。他们都是小孩子，在10-15岁之间，生活在1980年后半。他们的日常生活充满了父母的唠叨，做不完的作业，同学之间的相互欺负。<br>谜团让孩子们遭遇作为附近回环产物的奇异机器与生物；那是一个在1960年代末建造的大型地下粒子加速器。孩子们得以摆脱他们的日常生活和烦恼，做些有意义的、神奇的事情，但也会很危险。他们冒着手上的风险，并被遭遇的必须克服的麻烦所改变，从而解决谜团。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">角色扮演——如何进行？</span></span><br>所有的玩家，除了一人之外，都要建立一个角色：一个他们在故事中扮演的孩子。在游戏中，由你决定你的孩子做些什么，说些什么，你要告诉他们她/他长什么样子，在想些什么，有什么感受。你需要扮作那个孩子，就像电影或戏剧中的演员那样。如果用“我”代替“他/她”来指代角色，扮演孩子会更加容易。<br>一位玩家将会担任游戏主持人（GM）。他扮演孩子们外的所有角色，操纵所有的生物与机器。这些被称为非玩家角色，或是NPC。GM同时要描述游戏中的东西的样子，描述它们的气味与声音。他要负责推动故事进行，在场景间切换，就像电影导演一样。<br>GM不应该决定故事中会发生什么事情。他描述情况并将孩子们置于麻烦中。玩家决定孩子们如何克服麻烦，从而创造故事。<br>为了支撑这个故事，GM有一个谜团，一个台本以描述地点与孩子们会遭遇的NPC，以及他们所需要克服的麻烦。谜团只是一个指引，因为GM可以改进并编出他自己的事件，但当他不知道该说/做什么时，他也可以回到谜团上。<br>GM的任务显然要比其他人更难一些，但是回报也会更多。GM能够创造出奇妙的谜团，扮演机器人与疯狂科学家，他还能在玩家的帮助下描述回环的奇妙世界。GM应该像对待电影主人公那样鼓励孩子们，但是同时，将他们置于麻烦中，这样他们才能享受克服困难，解决谜团的快乐。<br>玩家与GM轮流描述角色做什么，场景看起来怎么样，发生了什么。每个人都有参与的时间与空间是最重要的。你的小组应该聆听并采用每个人的想法。这个故事应该是你们一同创造的，重要的是相互帮助，而不是争抢聚光灯。<br>有时在孩子们尝试做一些困难的事情的时候会节外生枝。这种情况下，你投掷骰子，让概率决定你是成功还是失败了。<br><hr />两个回环，瑞典与美国<br>这本书中有两套设定。第一套设定是一个改版的瑞典梅拉伦群岛，在首都斯德哥尔摩的西侧。这一设定在第二章中描述。第二套改动的是美国小镇博尔德城，内华达州，那里也有一个回环，是瑞典回环的姊妹设施。美国设定在第三章描述。这本书后面的谜团故事（模组）初始都是基于瑞典设定，但是它们中有着将其改至博尔德城所需的提示。所有模组中用橘色框框住的文本<span style="color: orange;" class="bbc_color">[像这样]</span>都指的是美国设定。<br><hr />你家乡的回环？<br>将游戏背景设置在你的家乡是完全可能的，在你长大的地方或是生活的地方。在你自己的游戏宇宙中，也许回环就被建造在那里？建立你自己的游戏设定需要更多的投入，但是也会很有意思！<br><hr />神秘景观<br>另一种GM进行游戏的方式是使用神秘景观。神秘景观包含了游戏设定中一系列奇怪或是有情况的地点。孩子们将要寻找这些地点并解决他们遇到的一切问题。这两种方式能够通过将预制的谜团作为神秘景观的一部分结合起来。更多关于神秘景观见第七章。<br><hr /><span style="color: orange;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">投掷骰子</span></span><br>孩子们擅长的事情都有一个数据化的评级：理解机械，话术，爬树，跑得快。这个评级表示在克服麻烦时你可以丢多少个六面骰。出现六意味着成功。你很少需要多于一个成功。如果你失败了，你可以再次尝试，但是得冒着受伤，低落或是受到惊吓的风险。这会在第五章继续解释。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">回环之理</span></span><br>《回环物语》角色扮演游戏有六条规则，玩家和GM使用它们来为故事赋予合适的情节和氛围。如果玩家对故事中发生了什么、该如何描述有不同看法，这些规则也能帮助找到共识。这六条规则将会首先以编号顺序给出，随后加以更加详细的解释，为正在阅读这段文字的人提供指引和灵感。<br>1.你的家乡充满了怪异而神奇的东西。<br>2.日常生活是枯燥乏味的。<br>3.成年人遥不可及，无法联系上。<br>4.回环的地域很危险，但是孩子们不会死。<br>5.这个游戏一幕一幕推进剧情。<br>6.世界由玩家共同塑造。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">1.你的家乡充满了怪异而神奇的东西。</span></span><br>随着核聚变、粒子加速器和磁悬浮效应在20世纪50年代被发现，可能与不可能之间的界限被打破了。巨大的运输船飞在天上，机器人与半机器人可以思考，科学家创造出了时空门与取代了人们本身的物品。怪兽席卷四方，人类能够联系其他时间与地点的人与其他生物。<br>实验差错创造出什么东西，或是随机事件诞下全新而意想不到的事物——这并不少见。在20世纪80年代的回环地域，只有你想不到的。孩子们将会发现一切这些奇特的事情。<br>通过孩子的眼睛来看世界，他们即将告别童年，走向人生的下一阶段。他们能做任何事情，并且会做任何事情来解决谜团。<br>想想你自己小时候吧——不论你现在还是个小孩，或者早已告别童真——并借此创造魔法与奇迹。想想你半夜偷溜出去来见朋友，潜到水下去捡石头，骑自行车从小山一冲而下穿过树林，你还记得这样的感觉吗？想想你和朋友们一起坐在秘密树屋里汗流浃背，或是刚刚放暑假时的感受。想想偷偷跟着那些带着狗的吓人家伙的感受，或是听其他孩子讲小偷或是那个奇怪的老小姐的故事的感受。让你自己被这样的感觉所带入。<br><img src="https://i.loli.net/2018/10/03/5bb46ee36206d.png" alt="" class="bbc_img"/><br><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">2.日常生活是枯燥乏味的。</span></span><br>每天早上闹钟都按时响起，每天晚上都得做完作业。磁悬浮航船在窗外飞行并不重要，因为老爹老妈还是天天吵架，你的哥哥还是在讨厌你。你的房子有股鱼腥味，你没足够的零花钱买想要听的磁带。每天你都得去丢垃圾，胖虎给你难听的绰号，你的自行车坏了。下雨了，可你没有雨衣。<br>生活中充满了挫折和障碍，成年人能够想做什么做什么，可孩子们必须得按他们说的做。当然，有时烦恼解决了，你有一段好日子，但是这只是暂时的，然后一切回归原样。无趣的日常生活。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">3.成年人遥不可及，无法联系上。</span></span><br>你说什么都没用，大人们既不听也听不懂。他们生活在自己的世界里，与孩子们相隔甚远。去找他们处理烦恼，解决谜团或是克服麻烦都是毫无意义的。孩子们得互相帮助。大人们甚至不会相信孩子们遇到的所有那些怪事情。<br>大人们总是唠叨着，抱怨着，互相争吵着。他们忙着自己的事情和工作。<br><img src="https://i.loli.net/2018/10/04/5bb6177f52d68.png" alt="" class="bbc_img"/><br>而且，他们总是视而不见。孩子们不得不处理他们的错误——机器运转不畅，实验事故，飞机坠毁或是爆炸。<br>最糟糕的是那些能看到孩子却想利用或去伤害他们的成年人。<br>有时大人会帮忙，比如你爸爸会安慰你，或者你打电话报警警察会抓住坏人，但是这也不长久，而且总会有一些代价。警察得到了所有的夸赞，你的继母要你整个夏天都得修剪草坪以作为她帮忙的回报，你的老师觉得你可以当她的内线，要你在课堂上为她关注那些坏孩子。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">4.回环的地域很危险，但是孩子们不会死。</span></span><br>孩子们可能会受伤，会被关起来，被嘲笑，流离失所，被抢劫，或是伤心不已，但是他们不能在游戏中死去。<br><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">5.这个游戏一幕一幕推进剧情。</span></span><br>就像电影一样，谜团是一幕一幕推进的。首先，人物在家里相互交谈，然后我们快进到他们在学校见老师的时刻。不要扮演在家与学校路上的细枝末节。跳过所有那些没意思或是不太重要的部分。<br>在《回环物语》中，GM是在玩家经常的帮助下“设置”场景的人。设置场景的意思是开始场景并在它看起来完成之后结束场景。当不确定时，GM应该询问玩家意见。<br>GM也可以主动设置场景，如下所示：<br><span style="color: gray;" class="bbc_color">“你晚上回到家，听到有人在厨房哭。你的爸爸坐在桌旁。当他看到你时，他露出了虚假的笑容。你想要怎么做？”</span><br>GM还应该让玩家来提议设置什么样的场景。一条经验规则是让玩家至少每两个场景中自己提议设置一个。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">示例</span><br>GM：有人有想要的场景吗？<br>玩家1（奥利）：我想要闯进学校，看看他们在那藏了什么。<br>GM：你自己一个人去吗？<br>玩家1：是的。<br>GM：当你将自行车停在体育馆边的围栏旁时，太阳已经落到了橡树的树梢。体育馆安静无人，所有的窗户都没亮灯。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><span style="color: orange;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size">6.世界由玩家共同塑造。</span></span><br>GM负责设置场景，并描述故事中的内容，但这并不意味着他要独自完成所有工作。GM总可以向玩家寻求帮助。询问他们学校的样子，天气如何，为什么邻居在吵架，等等等等。<br>GM应该询问孩子们这些问题：你母亲什么样子？隔壁的女士有什么可疑的？你回家后房子里的气氛如何？你感觉怎么样？你在想什么？你做了什么让她讨厌你？你穿什么样？你为什么爱她？GM应该通过不断提问来调动玩家的想象力，并确保大家一同来创造这个世界。<br>如果玩家编出了飞行学校或是工作是外星人猎人的父母，GM应当提醒他们“日常生活枯燥乏味”的原则。怪异而神奇的事物应该出现在谜团之中。GM有最终决定权。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_951917">
+&#171; <em>上次编辑: 2018-10-04, 周四 21:37:59 由 oreoinhell</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_951917_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952169"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952169_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952169">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952169#msg952169" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952169'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952169'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2018-10-03, 周三 16:17:17 &#187;</div>
+<div id="msg_952169_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952169"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第二章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>回环的时代</strong></span></span></span>施工中 译者：AegisFate<br><img src="https://i.loli.net/2018/10/04/5bb618887aabd.png" alt="" class="bbc_img"/><br>从未有过的的80年代 15<br>瑞典的回环 17<br>梅拉伦群岛：一片郊区 19<br>80年代能做的事 20<br>斯瓦兹尤岛：黑水与深林 21<br>蒙斯岛：回环的处所 24<br>阿德尔索岛：过去的遗留 26<br>国家能源 27<br>回环 27<br>民用技术 29<br>军用技术 30<br>磁悬浮飞行——它是如何做到的？ 32<br><span style="color: gray;" class="bbc_color">梅拉伦群岛处处能感受到回环的影响。我们的父母就在那儿工作。国家能源的勤务车在路上和天上巡视。奇怪的机器在树林中，在空地上，在草地上游走着。不知来源的力量在深深的地下引发振动，透过基岩、燧石灰砖与石棉水泥立面，传到我们的家中。<br></span><br>回环物语的故事发生在一个独特的标志性年代：20世纪80年代，这是游戏设定的核心要素之一。这可能是一个你可能十分了解的时代，甚至你可能就在这个时代成长。如果你没有经历过这个时代，你可能已经通过一系列标志性的电影体验过它，例如《E.T.》、《七宝奇谋》和《战争游戏》。<br>正是这十年给了我们全球性的流行歌手，例如迈克尔杰克逊和麦当娜。在这十年里，硬摇滚和流行电子音乐统治了广播，康懋达64成为了世界上最畅销的计算机，录像机进入家庭，让一代孩子能够看到之前看不到的电影。某种程度上，这是第一个真正意义上进入现代的十年。<br>相对于令人感到悲观的70年代，80年代充满了希望。一切事看起来似乎都有可能发生。然而这也是恐惧和冲突的十年。冷战的幽灵织就了全球性核战争的威胁，让人们害怕炸弹就像今天害怕气候变化一样自然。以上这些，以及这个时代所发生的一切，都是这个游戏的一部分。但它并不止于此——这个游戏是关于那些现实世界的80年代从未有过的东西。<br>从未发生的80年代<br>事物不像你记忆中的那样。游戏中的80年代充满了奇怪的科技和极秘的政府项目。瑞典和美国的两台大型粒子加速器还在运行。“平衡式自动系统”（通常叫做机器人）成了常见事物，1万吨的高斯货船经过冻原驶向西伯利亚。这正是回环物语的时代。<br><hr />科学时间线<br>1950-59<br><ul class="bbc_list"><li>苏联科学家发现了磁质作用<li>世界第一台粒子加速器在内华达博尔德城建造。</ul>1960-69<br><ul class="bbc_list"><li>Iwasaka，一家日本公司，发明了自平衡机器，为如今称作机器人的东西奠定了基础。<li>国家能源，负责运行瑞典加速器的政府机构成立。<li>美国政府机构ARPA启动传送高等研究部门（Department of Advanced Research into Teleportation）。<li>瑞典加速器建造。高能物理研究机构，通常被称作回环，完成。</ul>1970-79<br><ul class="bbc_list"><li>回环开始科研工作。全瑞典，还有欧洲的科学家被纳入该项目中。<li>第一台民用自动机器人进入市场。<li>贝加尔湖之战中“机器潮”战术失败，终结了机器人的军事利用。</ul>1980-89<br><ul class="bbc_list"><li>Hans Albrechtsson成为回环新主管。<li>瑞典军队引入AMAT-1，集团式自平衡机器。<li>回环周围出现奇怪事物目击报告。野外巡逻增多。</ul><hr />八个科技公司<br>威达 - 交通工具<br>罗戈辛·洛克工业 - 服务型机械<br>Lieber-alta - ABM100和AMAT2的制造商<br>偶蹄目 - 服务型机械以及机器人<br>莫尔特曼 - 公共设施机械以及机器人<br>威曼造船厂 - 小型磁质船制造商<br>本德林-阿库洛夫 - 大型磁质船制造商<br>Iwasaka -自平衡机器的开发商<br>瑞典的回环<br>高能物理研究设施，或者简称为“回环”。自1969年建立以来，它在世界范围内一直是这类粒子加速器中规模最大的。<br>80年代的瑞典<br>20世纪80年代的瑞典与今天截然不同。 有人将其称之为社会主义乌托邦，另一些人则认为瑞典代表着在资本主义和共产主义之间寻找中间道路的失败尝试。 自第二次世界大战以来，这个国家一直由庞大的社会民主党统治。尽管与东欧的共产主义国家相去甚远，但人们依旧相信政府应该对每个公民提供从摇篮到坟墓的无微不至的关心。 <br>在当时的瑞典，国家提供免费的教育和医疗保健，酒精饮料只在国有的Systembolaget商店中出售，而电视机中只有两个国有的电视频道，播放包括美国肥皂剧，瑞典社会现实主义电视剧和来自铁幕另一边的卡通片。<br>瑞典的官方立场是中立的，并没有加入北约或华约组织中的任何一方。实际上，它是少数几个在二战中未被占领也没有参加战斗的欧洲国家之一 —— 对于那些没有那么幸运的瑞典邻国来说，这一点备受争议。但无论芬兰人和挪威人如何看待瑞典选择的中立道路，它都已经在瑞典人心目中占据了根深蒂固的地位。虽然社民党政府与美国和苏联都保持了良好的外交关系，瑞典官方的立场也永远不会倒向任何一方。但对于瑞典的军方、部分政治家和大多数瑞典人来说，苏联才是那个显而易见的敌人——在瑞典，这是一个公开的秘密。<br><br>在传言中，瑞典与北约国家的合作比起明面上更为普遍，有些人则在谈论与美国合作的机密研究和情报项目。1981年，当苏联的U-137号潜艇在瑞典南部布莱金厄附近的水域搁浅时（“加冰威士忌”事件），威胁突然变得真实起来。<br>在该事件发生后，瑞典海军加强了其防范。在80年代剩余的整整十年中，虽然直到最后也没有得到任何明显的结果，但反潜成为了瑞典海军的常规工作。<br>瑞典也是一个不断变化的社会。在流行文化和经济政策领域中，来自西方（尤其是美国和英国）的影响都在不断增强。所谓的“雅痞”们一手拿着大到离谱的移动电话，另一只手握着保时捷的方向盘，在斯德哥尔摩颂扬资本主义的生活方式。孩子们则正在玩垃圾桶小子、希曼和变形金刚。个人计算机进入了寻常家庭，其中康懋达64最为常见。<br>像Drakar och Demoner和Mutant那样使用笔和纸进行角色扮演的TRPG卖出了超过100,000份。包租假期成为了全国性的消遣。在80年代，瑞典渐渐从70年代的理想主义转向了更具个性化和寻求享乐的生活方式。 1986年2月，所有瑞典人都听到了大量关于总理奥洛夫·帕尔梅在斯德哥尔摩市中心遇刺的新闻，而这场谋杀案的事实真相永远也不会被揭露。这场谋杀是一起标志性的事件，有些人甚至声称这代表着瑞典无罪时代的结束。<br>在这十年中，瑞典人以他们的传统方式继续他们的生活——忍受漫长寒冷的冬天，在乡间别墅度过短暂而美丽的夏天，并在这一年剩下的时间中盼望来年的夏天。<br>在瑞典成长<br>作为一个80年代的瑞典孩子，你会感到被困在了过去和光芒四射的未来之间的夹缝中。电视上只有两个频道，学校里的电脑过时到令人绝望，而有一小部分成年人则认为恐怖电影、电脑游戏和重金属音乐之类的流行文化是腐蚀灵魂的垃圾。<br>不过，当你的哥哥姐姐长大以后，事情看起来比单调而无趣的70年代要美好得多。美国电影的VHS录像带在朋友之间翻录和流传，装满康懋达64游戏的盗版磁带对于爱好者来说就像一盒小小的天堂。颓废而充满诱人危险的金属音乐和时尚炫目的流行电音是两种在那个时代最为耀眼的音乐风格。<br>青少年向的杂志，例如《Okej》（华丽摇滚乐队），《Dator-magazinet》（电子游戏）和《Frida》（情感类）都被年轻人所阅读。同样他们也喜欢《幻影》、《蜘蛛侠》和《骑马青年》这样的漫画。<br>在80年代，父母在养育方式上对孩子控制较少，时常让孩子们保持自我而不受外界的干扰。孩子们可以自由地在乡村漫游——只要他们在天黑之前返回。但这也是离婚变得司空见惯的十年，许多孩子在两个不同的家庭中长大。家庭中的动荡和随之而来的不确定性给许多试图搞清楚他们曾经的温暖家庭正在发生什么的孩子带来了一层心理阴影。<br>学校具有强制性且免费，所有的孩子都在7岁时去了grundskola（基础学校），持续学习9年之后进入gymnasiet（大学），并继续2-4年的学业。英语是从小就开始教授给孩子的，因为所有的电视节目和电影都只有瑞典语字幕而不是配音，所以孩子们的英语大多说的很好。虽然他们通常使用类似好莱坞的英语口音，而不是在学校教授的英式英语。<br>教育系统相对来讲比较公平和进步，但60年代的古老教育方式仍然有其回响存在。教师通常充满了善意，但令人绝望的是这与孩子们的现实所脱节。教师和家长都很难妥善处理校园欺凌这个真实而普遍的问题，对于一些孩子来说，被他们所谓的同学所掌握的校园生活是一种折磨，他们发现的唯一的喘息机会是找到志同道合的朋友，或者用梦想或是别的什么事来逃避现实。<br>梅拉伦群岛：一片郊区<br>&nbsp;被称为梅拉伦（Mälaren）群岛的岛屿群在许多方面都是典型的中产阶级瑞典郊区景观。这里距离首都斯德哥尔摩只有很短的车程，梅拉伦群岛不能简单地被归类为城市或乡村，而是二者兼有。群岛上点缀着红色的小屋和农场，广阔的田野延伸至环绕岛屿的梅拉伦湖（LakeMälaren），遍布着桦树，橡树和松树的大片森林割裂了岛上的景观。 岛上建有数所学校和超市，甚至还有一座17世纪的宫殿，但这些建筑大多都是普通瑞典人的家。他们属于各个家庭，工人，独居者，现在也包括科学家。<br>四处漫步<br>梅拉伦群岛的主要道路路况良好;但这些道路都非常狭窄，它们是为汽车和公共交通而铺设的。这使骑自行车在令人兴奋的同时又显得有些危险。对于孩子来说，周游岛屿的三种主要方式分别是步行，骑自行车和乘坐公共巴士。获得驾照的最低年龄是18岁，这使得驾驶汽车成为了一个遥不可及的梦想。但轻便的摩托车只要15岁就可以驾驶，它通常是年龄较大又酷的大孩子首选的交通工具。<br>在大多数情况下，自行车占据了至高无上的地位，并且被孩子们广泛用于拜访朋友，去学校或探索乡村。 尽管某种程度上来说小轮车是一种公路自行车，在崎岖地形中通常不太管用，但它依然非常流行。常见的自行车品牌是Crescent（“Världsmästarcykeln”型自行车是他们的标志性产品），Monark（据说他们的自行车是用纸和树皮制成的）以及DBS。<br>来自斯德哥尔摩交通公司（SL）的公共汽车穿越群岛，并将群岛与大斯德哥尔摩地区相连。大多数需要长途旅行的孩子都有SL卡，可以随意乘坐公交车。而那些不太幸运，没有交通卡的孩子则必须支付票价——这钱一般可以拿来买苏打水。<br>尽管如此，由于这些岛屿森林茂密，地形崎岖，步行通常是探索周围土地的首选交通方式。虽然孩子们可以随意出入，但大多数人都只在家和学校附近活动。因此，离家几公里远的地方就会给人以在陌生土地远征的错觉。<br>在80年代可做的事<br>做一个80年代的瑞典孩子很难——你会生活在家庭作业的压力，学校里的社交游戏以及父母和兄弟姐妹的要求中;学校里的考试、当地的恶霸、其他比你更酷的孩子，有时候这让你感到生活正在使出浑身解数打败你。当这一切发生时（而且这通常都会发生），你唯一的盟友就是你真正的朋友，以及那些关于别的东西的梦想。无聊的感觉总以不同的形式出现，日复一日的循环仿佛永远不会结束。拜访祖父母的时间总是慢到让人感觉头脑麻木，而家里的家务似乎总会在你最不想干的时候出现。毫无疑问，孩子们已经完善了许多种一起打发时间的方法。<br>在当地的书报亭聊天<br>无论你去瑞典的哪个地方，附近总有一个小小的书报亭可以供你们聚集。这些小报纸摊上出售杂志，糖果和烟草。老板常常是脾气暴躁的老人，他们对不断在书报亭前徘徊，但几乎从未购买任何东西的孩子们持怀疑态度。在一些城镇，这些书报亭被烧烤亭取代，它们基本上是一样的，但烧烤亭里出售的是热狗和汉堡包而不是杂志。无论如何，每当一个孩子碰巧获得一笔意外的现金收获时，他的下一站一定是书报亭。<br>去学校的迪斯科舞厅<br>瑞典学校没有舞会，但学校里会有迪斯科舞厅。这种总是让人感到尴尬的事物同样充满了焦虑和短暂的幸福。在绝大多数情况下，这些迪斯科舞厅都仅仅是在当地建筑物中装饰上气球和五彩纸屑。迪斯科舞厅的成员一般包括一些站在一起羞涩地面朝墙壁的小孩，更多大胆的年轻人则走上舞台，与最新的流行音乐一起跳舞。他们会在在强制性的慢舞开始之前消耗大量的酒精，爆米花和柠檬水。<br>慢舞是件每个人都在期待的重要之事。在诸如europe乐队的《嘉丽》和蝎子乐队的《变迁之风》的音乐声中，孩子们相互邀请跳舞（拒绝邀请被认为很不合适），并互相拥抱着慢慢地随着音乐节拍摇晃。他们的脚左右挪移，并尽全力地避免踩到舞伴的脚。在这些活动之外，小孩子找年龄较大的孩子听录音机和喝啤酒的情况并不少见（如果你年满18岁，就可以在商店买到度数较低的啤酒）。<br>十首歌曲<br>Take On Me - A-ha组合 (1985) <br>Billie Jean - 迈克尔杰克逊 (1982)<br>Karma Chameleon - 文化俱乐部乐队 (1983) <br>The Final Countdown - Europe (1986) <br>Jump - 范·海伦 (1984) <br>Girls Just Want To Have Fun - 辛蒂·罗波(1983)<br>We Built This City – 杰佛逊星船 (1985)<br>Take My Breath Away - 柏林乐队 (1986) <br>Rock You Like A Hurricane - 蝎子乐队 (1984)<br>We’re Not Gonna Take It - 扭曲姊妹 (1984) <br>看录像带<br>录像商店很受欢迎，但由于大多数家庭直到80年代中期都并不拥有VHS播放器，因此可以租用的“MOVIEBOX”是首选的解决方案——这是一款采用坚固的塑料手提箱的VHS播放器，可以被租用一天。由于需要18岁才能租借录像带，所以这是你的父母和兄长才能接触到的领域。如果一个孩子的家里碰巧有一个“MOVIEBOX”，所有人都都会很羡慕，而且朋友们通常会在这一天中聚在一起重新观看租来的电影。<br>在下午6点之前将“MOVIEBOX”和录像带归还回录像商店这件事本身往往是一种冒险，因为孩子们很难在这之前看完所有电影。而关于所谓视频暴力的辩论是当时媒体的一个主要话题，电视上的谈话节目经常讨论美国恐怖片的负面影响，尤其是将老一辈的瑞典人对这些血淋淋的电影的处理方式当做讨论的重点。但是大多数孩子并没有注意到这一点，对于他们中的大多数人来说，每个VHS录像带都是一个充满神秘感的盒子。<br>斯瓦兹尤岛：黑水与深林<br>斯瓦兹尤岛（瑞典语中的意思是黑水之地），也被称为法尔因苏（Färingsö），是梅拉伦群岛地区的主要岛屿。它占地82平方公里，被梅拉伦湖所环绕。以下是对斯瓦兹尤岛上一些重要地点的简单描述。<br>费伦图纳（FÄRENTUNA）<br>这是一个只有60-70名居民的小村庄。 它以其在12世纪建造、至今仍然存在的古老石头教堂而闻名。 保存在有900年历史的教堂墙壁上的是所谓的高地卢恩符文箴言，这是在基督教征服这片土地之前就住在这里的异教徒的文物。 符文上写着“......他的妻子......而且...... Odrik，他的父亲。 上帝帮助他的灵魂。“<br>肯斯伯佳（KUNGSBERGA）<br>一个有数百人居住的小型居住区。 肯斯伯佳没有什么特别的地方可以区别于其他定居点，只有一个小食品店和一个书报亭。<br>斯塔夫博格工厂（STAVSBORG’S FACTORY）<br>这是一家废弃工厂的废墟。 没有人真正知道这里到底发生了什么，但大多数人都认为它与爆炸物有关。 今天，大多数人都远离这座旧建筑; 有传言称，当地的犯罪分子正在利用它做一些地下的生意。<br>斯丁哈姆拉（STENHAMRA）<br>斯丁哈姆拉镇是岛上最大的聚居地，拥有数千人的人口和所需的所有基本设施。 在这里，你可以找到两所学校，一个图书馆，一个超市，一个小型港口和一个披萨饼店。 该镇以其废弃的采石场而闻名，采石场与斯丁哈姆拉镇同名（STENHAMRA的大意是“石锤”）。斯丁哈姆拉镇的采石场是瑞典同类采石场中规模最大的之一，采石场雇佣的工人全天候工作。 它在1884年至1919年间运作，供应量在斯德哥尔摩的石材市场高居第一。 这些年里，许多工人因可怕的事故而死亡，其他人则患有结核病。 今天，采石场已经被还给了大自然，绝大多数地方都充满了黑暗的积水。偶尔会有电影摄制组来到这里欣赏壮观的景色，但野生动物，独居者和爱管闲事的孩子才是今天唯一会访问斯丁哈姆拉采石场的人。<br>黑湖城堡（SVARTSJÖ PALACE）<br>瑞典国王弗雷德里克一世于18世纪建造的洛可可风格石头宫殿，并作为礼物送给他的王后乌尔丽卡·埃利诺拉。 它大部分由英国皇家建筑师威廉·钱伯斯（William Chambers）设计并建造，矗立在17世纪烧毁的另一座皇家城堡的废墟上。 经过一个世纪的败落，它被改造成强迫劳动的拘役设施，以便开采附近的花岗岩矿床。 直到1965年，它都被作为一个监狱使用。作为它光荣的过去投射在当代的影子，黑湖城堡的大部分区域在今天被闲置着。 城堡内监狱时代所使用的墙壁被拆除，牢房被废弃。 但它美丽的外观仍然掩盖了过去的许多黑暗秘密。<br>斯瓦茨霍监狱（SVARTSJÖ PRISON）<br>斯瓦茨霍监狱建造于黑湖城堡中的监狱被拆除时。斯瓦茨霍监狱由一组低矮而平坦的建筑和安全栅栏组成，其中的一侧为男子监狱，另一侧则用于关押女性。这里关押的大多是罪行较轻的低风险罪犯，他们在这里的主要工作是照顾自己的起居和饮食——对于囚犯来说可以算是相当舒适的生活。 当然，作为一个监狱，有关斯瓦茨霍监狱的囚犯及其罪行的谣言依然在四下流传，还有人声称监狱的围栏上有一个被囚犯用来自由出入的洞。<br>蒙斯岛：回环的处所<br>蒙斯岛是梅拉伦群岛科学设施的中心区域，回环的所在地。主要建筑物和设施均位于北部区域，仍然向公众开放。除此之外的地区除了经过审查的人员外均不得进入。<br>博纳塔群<br>位于博纳的三座大型冷却塔是从远处就可以看见的标志性建筑。 其中最高的一座高达253米。 这些冷却塔用于释放引力装置（Gravitron）工作时产生的大量热量，引力装置（Gravitron）是回环的核心设备，它为整个深埋地下的粒子加速器提供能量。 冷却塔周围建有数十座红色的木屋，这些是在回环工作的科学家及其亲人的家。<br>第14国防研究设施<br>位于萨特拉（Sätra）的FOA(被称为Försvarets forskningsanstalt或the Swedish Defense Research Agency，瑞典国防研究局)设施被列为了最高机密，对于公众来说这是一个真正的禁区。这显然引发了关于那些在铁丝网背后正在发生些什么的谣言。 有人说FOA的研究人员正致力于回环在军事上的应用，也有人说他们对当地的动物，甚至是居民进行了古怪的实验。但众所周知的是，人们在这里发现过军用机器人的原型机，而且这个设施处于全天候的守卫之下。<br>阿德尔索岛：过去的遗留 <br>在这里被详述的三个岛屿中，阿德尔索岛是最为缺乏开发而充满野性的。岛上仅剩的真正居民是居住在被森林复盖的岛屿深处的少数农户。这里曾经是维京时代的重要岛屿，岛上四处点缀着青铜时代和更古老时代的坟墓。 在这里你可以找到两个古老的石制堡垒，尽管其大部分都已经被大自然所吞没，但是仍然可以瞥见它们在历经时间长河冲刷之前所拥有的骄傲。<br>里拉斯滕比<br>里拉斯滕比是一个拥有大约140名居民的小村庄，村里有一家小食品商店和一个港口，一条渡轮线路将这里和蒙斯岛连接起来。<br>霍高尔登<br>霍高尔登曾经是由古老的墓地，卢恩符文石刻，城堡废墟和古老的“tingsplats”（维京时代的聚会场所）组成的王室领地。 在古老的岩石和长满茂盛青草的山坡间散落着几座房子和一座教堂， 教堂的北边是三个Kungshögarna（“王家之冢”），其内部有最高接近六米的墓室。 根据麟伯特（rimbert）修撰的编年史《圣安斯卡传》（The Life of Ansgard），这些是国王Olof，Björn和Erik的坟墓。 他们是最初接纳基督教传教士来到瑞典的国王，很可能就居住在霍高尔登。<br>萨特拉青少年矫正中心<br>在阿德尔索岛的北端有一个偏远的建筑，那里是一个青少年矫正中心。 该中心内居住着十几个具有不同背景的孩子，以及在这里生活和工作的工作人员。除了食物和其他物资到来的那一周，这个建筑里只能见到这些常客。有时会有孩子设法逃离设施，引得警察出动去寻找他们。通常情况下那些逃离的孩子很快就会被找到， 然而人们仍会谈论有两个来自诺兰的孩子在几年前失踪，并且从此再也没有被人看到过的事。 有人认为他们在试图从梅拉伦湖游到大陆时被淹死了，也有人声称他们在失踪之前偷偷潜入了霍高尔登的坟茔。<br>国家能源<br>在20世纪60年代，瑞典政府决定在靠近斯德哥尔摩的梅拉伦群岛上建造一个大型粒子加速器。 选择这里的一部分原因是因为这里靠近首都，同时也因为这里的地质条件适合建造巨大规模的地下设施。<br>为了监管这个庞大的项目，国家能源作为一个国家机构成立了，并在成立后立即获得了充足的资金。尽管它被一些人视作瑞典国营电信公司Televerket的一个姊妹组织，实际上国家能源和那些平凡的国营企业几乎没有任何关系。 在第一任主任施坦· 安卡尔松的领导下，该机构开始招募来自全国各地的顶尖科学家。 受到在世界上最大的加速器进行工作和丰厚的经济报酬的吸引，有数百名科学家接受了这一提议，并将在未来数年内致力于该项目。<br>国家能源是迄今为止梅拉伦群岛上最大的就业岗位提供者，人们普遍对其抱有良好的印象。岛上有些人认为该机构是“属于梅拉伦群岛居民的”，即使有时会不好的流言传出，他们依然对国家能源的行为维护有加。即使有时重要设施周围的安全形势（特别是地下设备的铺设）很紧张，人们在岛上的活动也相对不受限制，这种“门户开放”的政策也被一些人质疑太过天真。同时，一直有传言说有声称自己是观鸟者的外国人在岛上露营，但他们使用双筒望远镜的姿态看起来受过严格的训练，并且对科学设施表现出异常的兴趣。<br>回环<br>高能物理研究设施，或者简称为“回环”。自1969年建立以来，它在世界范围内一直是这类粒子加速器中规模最大的。梅拉伦群岛的设施由新成立的政府机构国家能源和国有企业核子能源共同建造，位于斯德哥尔摩市中心西北约26公里处的蒙斯岛。 工程始于1961年，应用了全瑞典最先进的工程技术。 为建造世界上最大的粒子加速器，基岩深处炸开的隧道构成了巨大的环状结构，其围绕的中心是安放引力装置（Gravitron）的巨大空间。 整个设施由博纳（BONA）反应堆提供动力：这是一个地下核电站，其最突出的特点是三个巨大的冷却塔——其中最高的冷却塔比周围的村庄足足高出253米。<br>回环的规模，准确地讲是“回环们”的规模是令人生畏的。回环的主粒子加速器Prim-1直径在世界任何地方都无与伦比——达26公里。 它有能力进行科学家们过去梦寐以求的实验。 此外还有直径20公里的辅助加速器Prim-2，以及直径“仅仅”为16公里的辅助加速器Aux-1。 除此之外还有别的地下通道和地下设施，其中之一甚至还是有史以来最令人印象深刻的工程奇迹之一。 目前尚不清楚像瑞典这样的小国是如何承担如此大规模的项目的，因为该项目的大部分预算都属于机密。但有人猜测部分资金来自于私人投资者、跨国企业、一些大学和美国政府，以交换进入研究设施和获得研究结果的权力。<br>任何访问者进入回环的主入口都需要拥有有效证件，严格的工作或访问日程，并在进入前通过两次安全检查。这些措施使任何不受欢迎的人都无法进入设施。几乎可以肯定的是，任何孩子都没有办法进入到这里。不过有许多工作用隧道在岛屿周围延伸，而且这些隧道有许多不同的入口。尽管这些入口受到安全系统的保护，需要特殊的口令和门禁卡才能够打开，但仍然有传言称一些当地人已经设法打开其中一个入口，并且在被发现之前在隧道中活动了一段较短的时间。<br>关于回环内正在进行何种实验，公众其实知之甚少。一些人声称国家能源未能让装置全负荷运转，也有人认为实验的性质已经发生了巨大变化，因为第二任主任汉斯·阿尔布雷克特松接管了国家能源的控制权。同时众所周知的是，美国代表团已经访问了该设施，而该代表团中有相当一部分身穿军装的人士。这加剧了对回环中正进行的科学研究工作可能会以某种方式应用于军事的猜测。<br>在回环进行的大多数项目和实验都是高度机密的，这也引发了许多猜测。 然而，该地区出现的一些异常现象给出了一些提示： 在对异常材料的结合实验中释放的极高能量被认为会引起规模大小不等的串联共振——这会使时空的连续统一体发生破裂。 有传闻称在梅拉伦群岛的树林中发现了大型爬行动物。虽然大多数居民都把这视为孩子们对恐龙的幻想，但仍有些人注意到国家能源的狩猎监督官团队最近的活跃异常，似乎他们一直处于警戒状态。监督官们使用JR-17攻击机器人和MSPB-13磁质装甲侦察车在环路设施周围巡逻，而这正恰恰表明“野生动物”并不是这座科学设施如此关注周边区域的理由。<br>同时，也有工作人员，科学家和其他靠近引力装置（Gravitron）的工作人员患有某种疾病的传言。 这种所谓的“回环病”表现为种种心理障碍症状，包括噩梦，抑郁，愤怒，酗酒和吸毒，有时甚至会导致自杀。似乎暴露于引力装置（Gravitron）的时间越长，人们患上这种疾病的风险就越高。据可信度不高的谣言称，在斯德哥尔摩西部的Beckomberga精神病院里塞了足足半栋楼的国家能源员工。<br>有一种看起来很奇特而且没能被完全理解的机械正在四处出现，它们被称为回波球。 这些直径达几米的金属球体被遗弃在回环周围的乡村，并可以通过其圆形的舱口进入。 触摸这些球体会令人感觉到温暖（或是刺骨的寒冷），也会令触摸者感到刺痛感并引起恶心，有时也会从内部发出闪光。 这些回波球有的标有“罗戈辛·洛克工业，贝塞斯达，马里兰州”，另一些则没有任何标记.<br>回波球可能是国家能源之前所进行的实验的遗留物。由于没有人声称拥有这些奇特球体，而且它们通常只是被遗弃在某处静静生锈，所以它们被制造出来的真正目的曾是什么 ，或者为什么被放置于此并不为人知。也许这些机械仍然以某种方式在运作——有来自当地人的未经证实的报道称，进入某些球体的动物（甚至是人）已经凭空消失。 无论事情的真相如何，大多数人都认为对待回波球的最好方式是放着别管它。<br>民用技术<br>1943年发现的磁质作用促进了交通技术的革命，这种革命持续了至少半个世纪。地球的磁场强度足以提供自墨西哥边境出发直抵地中海，穿过中东和喜马拉雅山脉，并向日本收束的一线以北地区飞行所需要的升力。 这意味着磁质船（也称为高斯货轮）只能沿着北半球的航线行驶，这片区域横跨北部的四分之三欧亚大陆，北美洲以及北大西洋和太平洋。无论是在世界其他地方还是在磁质船的使用地区，使用远洋船舶进行的传统海运都仍然在运作中。 在瑞典，汽车，铁矿石，纸张和木材等出口产品通过高斯货轮运往东边的日本和西边的加利福尼亚。<br>大型高斯货轮产生的强大磁场使得它们并不便于穿过人口稠密的区域，因为它们会影响本地的电子设备。 它们的飞行必须遵循通常与传统船只相同的航线，在跨越陆地时则需要遵循经过特别设计的“走廊”。 较小的磁质船风险较小，但它们仍然不被用于城市等区域，这就是城市内仍然使用卡车和火车等旧技术的原因。 大多数沿海城市都有磁质船港口，货物通常装在卡车上供当地进行物流的下一步分配。铁路运输和公路运输都比磁质船的速度更快， 这就是为什么仍然需要传统的轮式车辆。 由于飞机更快并且不受磁场的限制，因此它们依旧被使用。但是对于那些喜欢以时髦的方式旅行的人来说，有一些豪华高斯游轮供他们选择。<br>磁质动力的原理很简单：为沿着船体底部安装的磁盘进行充电，借此产生与地球磁场相反的磁场用于提供所需的升力。 现代磁质船舶上的磁盘是自动校正的，可根据磁场的局部变化进行调整。 为了推进船舶，磁盘按顺序进行布置，以被称为“履带推进”的方式快速改变磁盘的极性，从而产生提供动力的拉 - 推效应。 大多数的磁质船是柴油动力的单涡轮或双涡轮船只，其载重吨位（DWT，船舶所载的所有物品的重量，不包括船舶本身）高达80,000公吨。 一些最大型的货轮是核动力的。 这些船有四类：<br>轻型磁质船（5,000至10,000 DWT），长度可达100米。<br>中型磁质船（10,000至25,000 DWT），长度可达200米。<br>重型磁质船（25,000至50,000 DWT），长度可达250米。<br>超重型磁质船（50,000至80,000 DWT），长度可达300米。<br>此外，也有较小的磁质船只用于短途运输，服务和维护，以及军事行动等。 磁盘装置也用于其他用途，例如无人驾驶飞机，道路交通指挥，建筑物建造以及悬空的广告牌.<br>军用技术<br>磁质技术的军事应用在理论上的研究非常丰富。 经过多次武器项目的开发，这项技术的优点和缺点已经显而易见。 首先使用磁质技术的是苏联人，因为米哈伊尔·沃罗比耶夫在1943年发现了这种效应。在第二次世界大战结束之前它已经被应用于武器（磁质技术最初是在研究远程导弹导航系统时的衍生发现） 。在冷战的最初几年，苏联科学家试验了磁质技术在装甲车辆上的应用。在1951年苏联科学家弗拉基米尔·德察加耶夫（Vladimir Degtaryev）叛逃到西方之后，美国获得了这项技术，于是很快其他几个西方国家也照做了。<br>关于磁质技术，一个最为明显的研究领域是在装甲车辆上的使用。 然而，磁悬浮坦克是存在一系列问题的： 装甲-升力比的限制使得坦克的装甲过于单薄，加上过于显眼的凸起轮廓外形，悬浮坦克被证明不适合运用于现代战场。 磁质技术最为有用的领域应当是供应和运输，磁质船运输填补了轮式卡车和直升机之间的空间，将运载能力与全地形的行驶能力相结合。进行物资和部队的运输的磁质船成为军队在前线的选择之一，也有部分轻型装甲侦察车使用了磁质技术。 由于磁质技术仅在北半球工作良好，它不能被用于越南战争或第三世界的许多其他冲突，因此也被限制了在战斗中的运用。<br>当机器人的自平衡问题被Iwasaka在20世纪60年代后期解决时，军用自平衡自主系统 （或称机器人）很快就看到了光明的发展前景。典型的人形机器人在战场上被证明没有任何优势，因为它们根本无法像人类士兵那样做出反应和适应作战需要。 然而，对于放哨和载重用途来说，双足机器人具有其实用性。 较大的机器人或多或少都是自主控制的，最常见的用途是由人类操作员远程控制巡逻边境地区，有时使用“控制手套”视线操作系统，或者通过控制中心的卫星上行链路进行操作。 随着人工智能技术的发展，机器人也变得更加独立，例如瑞典制造的ABM-100。<br>军用机器人的问题通常与AI的智能低下有关。 20世纪70年代的贝加尔湖之战中，中国的“机器潮”战术因指挥和控制系统的薄弱而失败。至于瑞典，在蒙斯岛萨特拉的FOA设施中进行的秘密研究也包括军用机器人。 尽管采取了安全措施，但据信仍然有一些机器人设法从设施中逃脱—— 有可能他们开发的人工智能有点好过了头，因为有传言说这些逃出去的机器人并没有被全部被捕获。瑞典陆军的AMAT-2四足机器人，采用标准军用迷彩图案，时常被部署以应对岛屿及其周围的特殊事件。 AMAT-2及其前身AMAT-1均成功出口，被挪威，奥地利，巴西，南非和马来西亚的军队所使用。<br>磁悬浮飞行——它是如何做到的？<br>1.地球的磁场<br>地球的自转与其液体核心运动之间的相互作用创造了我们星球周围的磁场。你可以说整个星球都像一块巨大的磁铁。 其中，地球两极的磁场强度最强，且与地表垂直。赤道处磁场最弱，在那里磁场与地表呈水平状态。地磁场在南半球的强度较为微弱，因此主要的磁质船运输路线位于北半球而不是南半球，由于磁场的这些特性，磁场的强度由一个称为“高斯”的单位进行计量。<br>2.磁质效应<br>1943年，米哈伊尔·沃罗比耶夫偶然发现了我们今天所说的“磁质效应”.沃罗比耶夫在第二次世界大战期间是苏联的工程师，他致力于开发一种新型的远程导弹制导系统。 在对不同类型的陀螺仪进行实验的过程中，他发现如果将一个快速旋转的钕棒封装在一个板状的铁质荚舱中，那么所得到的装置就会排斥地球的磁场。沃罗比耶夫很快意识到了这意味着什么，并对他的设计进行了改进。很快他就获得了相当大的升力; 他制作的第一个磁盘使用的是含硼的永磁材料。<br>3.安全<br>&nbsp;今天，几乎所有的磁质船舶都使用自动校正的烧结材料磁盘调整升力和角度，以匹配地球磁场的局部特征。Lieber-Alta生产的磁质船由市面上最高效和环保的柴油发动机驱动。尽管发动机故障的情况不太可能发生，但即使在这种情况下，坠机也是几乎不可能的。从六十年代起，烧结材料磁盘加装了一个所谓的“浮力断路器”，它确保了能量（以及升力）停留在磁盘上，磁质船的无动力下降速度为每周3厘米——一次从十五米高度的坠落需要整整十年！<br>4.动力<br>磁质船的有效性是惊人的。 在过去的三十年里，Lieber-Alta的磁质船舶运输了30亿吨货物，平均每艘高斯货轮每年运输500万吨。我们不断投资新技术，前景无限光明。我们的船队将在1988年新增20艘新的Allistair级船舶，这将为我们的客户提供中等尺寸船只的新选择。 与此同时，我们将推出自己的物流解决方案TransAlta。当您的眼睛望向天空，您就不会错过未来的创新！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952169">
+&#171; <em>上次编辑: 2018-10-22, 周一 15:29:56 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952169_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952308"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952308_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952308">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952308#msg952308" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952308'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952308'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2018-10-04, 周四 20:13:24 &#187;</div>
+<div id="msg_952308_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952308"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第三章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>美国的回环</strong></span></span></span>施工中 译者：泥巴<br><img src="https://i.loli.net/2018/10/04/5bb6196106a7b.png" alt="" class="bbc_img"/><br>活在美国 35<br>博尔德城：“大坝边最好的城市” 37<br>80年代能做的事 38<br>博尔德城内 40<br>米德湖 42<br>拉斯维加斯及周边 45<br>传送进阶研究部（DART） 45<br>美国的回环 46<br><span style="color: gray;" class="bbc_color">如果没有国际合作，像“回环”这样巨大的项目根本不可能完成。尽管瑞典人想把它彻底当做瑞典的项目，但谁都心知肚明，项目中许多技术和专家指导都是从其他国家，主要就是美国，引进的。美国曾在内华达沙漠开展过一个与“回环”相似的项目，但积累的技术和经验似乎并不适用于“回环”的建设。有人甚至判断说，要不是美国希望在波罗的海域的科研界占有一席之地，这整个项目早就玩完了。有许多推测讨论“回环”在冷战中究竟有何影响，不过，有的问题就是没有标准答案。</span><br>“回环”也许是在瑞典变得臭名昭著，但是最初它是作为顶级军事机密，在美国开始的。确切地说，“回环”开始于内华达，博尔德市。那是一个在拉斯维加斯东南方一个半小时车程远，俯瞰着米德湖的，有点慵懒的小镇。尽管“美国回环”在十九世纪五十年代，冷战初期启动，但直到醉人的八十年代，它才发展到最高峰。<br>“回环”本来是为了探索在地球上两点间进行瞬间传送的可能性而开展的项目，它获得了当时美国国防部高级研究计划署的资助，也就是我们现在所说的美国国防部高级研究计划局。当时的总统艾森豪威尔亲自下令成立了传送高级研究部，希望借此获得能在一瞬之间传送军队的优势。尽管被视作机密，这最初的愿望一直没能实现，博尔德市反而因此吃了不少苦头。<br><br>在美国的日子<br><br>博尔德市也许看起来像是一个被遗弃在茫茫沙海的孤岛，但其实，在这里长大也不是一团糟。<br><br>80年代的美国<br><br>“回环”时期的美国和现在大家记忆中的美国不太相同。奇怪的飞艇依靠地面上巨大的磁铁矿盘在天空中有条不紊的航行。机器人受人工指挥进行大部分劳作，有时甚至可以全自动工作。<br>这一切对于出生在这个世界的孩子来说都再平常不过了，当然，这并不意味着就没有对他们来说稀奇古怪的事情发生。<br>八十年代是罗纳德里根，那个演员出身，借由“迎来美国的黎明”的承诺成为美国史上最老的总统所引领的时代。那是一个美国人民想要在因为水门事件和尼克松辞职事件而对政府失望至极后，重拾对政府信心的时代。当时一触即发的核武器屠杀给一切抹上了阴影，但在八十年代末，苏联濒临解体，美国掌握霸权。<br>与此同时，美国人民发现他们所相信的不过是一堆谎言。人们发现里根并不是单纯地在1981年释放了伊朗人质。实际上，在1980年，里根协商要人质们在他获选成为总统之前，都被扣留在他的手下，以获得更多的选票。<br>不久之后，CIA违背了国会禁止帮助尼加拉瓜反叛军的法令。国会也停止了对CIA的资金供应，借此来推翻那个饱受战争摧残的国家里的桑迪诺。但CIA很快就通过向与美国敌对的伊朗军队非法销售武器获得了自己的活动资金。<br>但这件事的大部分情况，直到十年后，都没有人知道。而对于美国的孩子来说，反正这件事基本上对他们都没有多大的直接影响。<br>八十年代初期，未满法定年龄饮酒的现象在高中普遍存在。当时美国大部分地区的法定饮酒年龄是18岁，虽然在禁酒令后期，内华达的禁酒年龄曾是21岁。与此同时，里根政权派出第一夫人南希以“坚决说不”为口号进行宣传，加大对毒品的打击力度。虽然这在社会上成为笑谈，但青少年吸毒案例确实比作为高峰的七十年代相比有所减少。<br>同时，自由恋爱的时代因为艾滋病的爆发迎来了终结。这个在全世界横行的病毒感染了上百万的共用针头或者进行无保护性行为的人。这意味着，性病不止会害你生病，它们真的可以害死你。<br>军役完全自愿。虽然男人们需要在满十八岁的时候在军队登记，但是从七十年代初期起，就没有人被强制编入美国军队中。也许是这个原因，八十年代是相对比较和平的时期。美军在1983年侵略过格林纳达的加勒比岛，在1989年12月入侵巴拿马，但两次战役非常迅速，战况节制，并且具有决定性。<br>在国家大部分地区只能收到四个主要的电视台：ABC，CBS，NBC和PBS。在1986年，Fox加入了战局。有线电视的普及将HBO，MTV和EPSN引入了家家户户中。除了周六早上，下午放学后也开始有动画片播放。<br>接下来的十年里，联邦通信委员会解除了禁止玩具公司以自己的玩具为原型制作动画片的禁令。电视上很快充满了这种类型的动画片，比如变形金刚，小马宝莉，宇宙巨人希曼，特种部队，霹雳猫。<br>一个1980年代的孩子感觉就像是被困在了过去和未来的中间。向后是危险荒芜的平原而向前则更加复杂离奇。你的祖父母参加过二战。你的父母要么参加过要么抗议过越南战争。冷战一触即发，而如果你能撑过这些存过下来，你就会看到一个法人独资，赛博朋克的数码纪元。你有一种熟悉的感觉：它一定会被拍在核竞争的沙滩上，而你唯一能期望的就是你可以有足够的时间在网上搜索，能够捕获到与未来冲击有关的最新消息。<br>当时的手机就像砖头一样巨大而又笨重。人们常常把他们连接到车上。如果你在外想联系到某个人，你必须要找到一个付费电话，并且祈祷你手头有能投进去的25美分硬币。<br>你没有GPS定位。你只有永远也叠不好的纸质地图和你的记忆。相对的好处是，只要你想，就没有人能找得到你。用一系列绕着地球转的卫星来追踪听起来就像星际迷航里才会发生的事情。<br>只有在你最喜欢的餐厅享受晚餐时才会有一些胃口（app）。<br>在美国，五岁起要上幼儿园。小学五到六年，然后进入初中。高中一般从九年级开始并在十二年级毕业。大部分孩子会上免费的公立学校，但是也有家长会花钱送孩子去私立学校读书。高中毕业后，你可以选择花钱上大学或者职业学校或者选择直接参加工作。<br>离婚率在1980年代升到顶峰，产生了大量的单亲家庭。大多数单亲家庭的孩子最终都会和母亲一起生活。有时他们每隔一周会和父亲一起过周末，但终究父亲也只是他们生活中较小的一部分。<br>大多数孩子会在学校度过相当一部分时间。在父母都工作或者单亲的家庭里，孩子回到家也往往没有人。于是很多孩子都配有家门钥匙。在家长回来之前，他们得自己照顾自己，有时还得照看弟弟妹妹。如果他们放学没有直接回家，也不会有人注意。<br>闲暇的时候，许多孩子会用收音机或者卡带听音乐，包括所谓的说唱。有的人用Sony Walkman这种随身听播放卡带，也有人扛着用六到八块D型电池的手提式录音机到处走。他们还会用家用录像系统和Beta制大尺寸磁带录像系统播放电影或电视节目的VCR。互相之间还会交换卡带的拷贝。<br>一些孩子会玩许多桌游，包括（感觉原文比译名好）。在某些地区，因为担心这些游戏和重金属音乐会对孩子造成不良影响因此禁止了这些东西。撒旦恐慌引发了许多窘境，但这增加的恶名反而让这些游戏和音带销售得更好。<br>大多数家庭没有电脑，但对那些有电脑的家庭来说，苹果二号和准将64最受欢迎，因为他们提供诸如佐克和德军总部，这些比当时能在雅塔力，克洛维尤或者Intellivision上找到的更复杂的游戏。这种情况直到1985年，任天堂传播到美国，超级玛丽兄弟轰动全国才结束。<br><br>博尔德市：依坝宝地<br><br>博尔德市是一个位于内华达南方，莫哈维沙漠中间的慵懒小镇。起初它为在胡佛大坝，最初叫顽石坝，工作的工人而建。它本应成为这个地区的模范城市，但大坝一完工，大部分经济和人都转移到了拉斯维加斯或者其他不知名的地方。这里的大部分建筑都是1930-1934年修建的，因此在1980年代初，没有超过50年的建筑。<br>与内华达的大部分城市不同，博尔德市禁止赌博，这点与赌博圣地拉斯维加斯一比，显得博尔德正常许多。在博尔德市边缘外就有一些赌场，但孩子们基本都不会去那里。<br>在1980年代初，城市的人口不足一万。在1980年代末，总共大概有12500人。城市在这208平方公里的土地上分散展开，使得人们有足够的空间。就土地面积来说，它是内华达最大的城市。<br>城市里最富有的人住在通往米德湖的斜坡上。中级阶层住在他们下面，而贫民则住在斜坡底端。命运对于住在坡顶的人来说是宽亮友好的，但随着你沿着坡向下走，你会发现它愈发的狭窄艰难。<br>博德尔95%的居民是白人，拉丁人占4%，其他种族的人很少或者极为罕见。当然，在游戏中，孩子可以是任意人种。<br>博尔德坐落于太平洋时区的东边界线上。当你越过胡佛大坝的东侧进入亚利桑那州，你就进入了山地时区。<br><br>城市周围<br><br>大多数孩子选择步行或自行车出行，但他们也可以乘坐当地大巴出行，大巴甚至可以通往拉斯维加斯。许多孩子骑标准BMX风格的自行车，但当他们长大了，他们往往会选择公路车。当时甚至几乎没有人听说过山地车。<br>年满16岁的孩子可以考取驾照，也有许多孩子会在十六岁生日的时候就去考驾照。摩托车和摩托自行车比汽车更受欢迎因为他们不仅更便宜，而且不用担心寒冷的气候，他们可以全年使用。<br><br>八十年代的潮流<br><br>在1980年代的博尔德市，一个孩子除了学校，作业和运动以外基本没什么可做的，光是这些好像就要耗尽他们一生了。校园欺凌的压力使人彻夜难眠，但同时也有爱情的萌芽在萌发。有时候，好像生命中你能真正信赖的人，至少不会让你因为无聊而发疯的人，只有你的朋友们。<br>虽然博尔德市和拉斯维加斯相对较近，但没有汽车还是很难到达的，除非你骑自行车在炎热的沙漠里跨过25公里。另一侧不到八公里就是胡佛大坝，但你去过那里，就会发现那边并没有什么好玩的。大多数孩子还是选择在市区里游玩。<br><br>在泳池里玩<br><br>博尔德市很热，许多孩子在放学后都会直奔市泳池。从某种程度上来说，这是学校生活的延伸，因为孩子们在泳池里和在学校，都是和同一个小集体的人一起玩。一些孩子会在这里一直待到日落，但大部分孩子会在五点后回家，和家人一起吃晚餐。<br>这里有一个全年开放的加热室内泳池。一年的四分之三时间里，大部分孩子都不会在这里出事，因为大人们会申明，这个泳池是用来游泳往返锻炼而不是用来玩的。但在冬天，就会有一些作死的孩子利用每天3:30到5：00的自由开放时间在这里进行“探险”。<br><br>玩游戏<br><br>当你被困在空调房而又需要摆脱这个荒无人烟的小镇的无聊生活时，游戏就是你的车票。稍微富有一点的孩子会有任天堂游戏机，甚至是一台老式雅塔力游戏机。其他人则会选择更便宜并且可翻新的桌游。<br>以（）为主导的TRPG在1980左右迎来了黄金时代。由于缺少通信手段，大多数玩家不是通过教学，而是自己去搞清楚游戏规则。幸运的是，把这样的游戏改造成适合一个有特定风格的群体的版本并不是一件难事。<br>像幻想战役和战锤40000这样的微型游戏在这个时期也是非常流行。全国各地的孩子们花上小时的时间地给他们的军队领袖上色，在晚餐桌或者废弃的乒乓球桌上让他们对战。<br><br>看音乐视频<br><br>MV在1980年代正值全盛期。对于有有线电视的孩子来说，音乐电视频道是他们看MV的好地方，而其他人只能每周看“周五晚视频”。这种新的艺术形式让各种风格的音乐流行了起来，同时让他们的销量上了一个高峰。<br>大部分孩子会买卡带听音乐。虽然1982年CD初次面世，但当时CD播放器价格高达上百美元，而且十年内大多数时间都与高端音声系统绑定。<br><br>内观博尔德<br><br>博尔德市的孩子大部分时间都在博尔德内度过。如果他们的家长向往大城市，那么他们有可能被拉去购物，观看音乐会或者演出。如果家长喜欢户外项目，他们也许会到拉斯维加斯远边去参观红岩峡谷保护区或者干脆去大峡谷旅游一天。然而对于大部分来说，博尔德市就是童年的全部风景。<br><br>皮尔森的海上营救<br><br>比利·皮尔森在城市南边运营着一个垃圾场。那里充斥着各种生锈的机器残骸，包括汽车，磁控货轮，甚至那些不同寻常的机器人。无论哪种工程，如果你想找备用零件，来这里就对了。比利就是这里的百科全书，他记得他在这里收购的所有东西，并且十分希望卖掉它们。<br><br>博尔德影院<br><br>博尔德影院在市中心购物区的中央。它于1933年，近来有些落魄。它一次只能播放一个电影，因此与亨德森维尔或者拉斯维加斯的多观众影院没法比。但是对于孩子来说，没有家长陪，这是城里唯一的影院。<br><br>顽石坝旅店<br><br>当它在建的时候，这个沐浴着阳光的小旅馆曾接待过视察大坝的重要人员。市民们正在一起努力让它重获昔日荣光，但还在努力过程中。不过，因为它位于中心，外来的重要人员还是会住在这里。<br><br>博尔德机场<br><br>博尔德机场曾为大坝工程提供服务，但在那之后就处于停运状态。1958年，麋鹿俱乐部买下了这个地方并将其改造成俱乐部据点。有孩子声称，政府的秘密飞机仍会在夜深人静的时候使用这里的跑道，但没有人有实际证据。<br><br>博尔德保龄球馆<br><br>这个有八条球道的保龄球场于1947年开业，现在看起来仍然会把人带回到那个年代。孩子们经常来这里享受着空调打发时间。<br>（dqb看到地图我疯了）<br>博尔德中学保龄球队在这里训练，但其余球道可以让人随意使用。<br><br>飞梭太空笔<br><br>1976年，飞梭太空笔公司搬到这里，并很快成为了小镇里最大的雇主。公司在这里制作有名的银子弹笔，笔体采用压缩墨囊，因此在太空中也可以使用。有传言说DART是他们最大的金主。<br><br>米德湖<br><br>米德湖是在建设胡佛大坝时为了阻断科罗拉多河而修的人工湖。西边是内华达，东边是亚利桑那，米德湖在中间就是一条边界线。1983年，它的储水量达到顶峰，使其成为全国最大的水库。但随后十年里的干旱和供水需求很快让它开始干涸。<br><br>胡佛大坝<br><br>胡佛大坝为拉斯维加斯以及周围的地区提供了水和水电。它由所属内政部的美国填海局修建和运营。美国填海局仍是博尔德市最大的雇主之一。长达1200英尺，这个高达725英尺的水泥建筑横穿整个黑峡谷。<br><br>米德湖国家休闲区<br><br>米德湖不仅仅用作一个水库，它还是一个可以供人们划船，钓鱼，游玩的好地方。它上起大峡谷谷口，下达胡佛大坝。博尔德市的人们沿着93号高速公路一直西行就可以到达湖滨路。从那里他们又可以转往拉斯维加斯港口，博尔德海滩露营地或者博尔德海滩。<br><br>火谷公园<br><br>在米德湖最北端稍微偏西一点就是火谷。火谷是由沙漠中拔地而起的红色砂石形成的峡谷，因此得名火谷。被称作阿那萨齐人的美国土著人曾经住在这里，在遮蔽墙和在那里面的洞穴里仍能找到他们留下的岩画。<br><br>越过拉斯维加斯<br><br>在博尔德市外有着更广阔的世界。沿着93号高速公路一路向西，你可以来到内华达的亨德森维尔。在大约14公里外就是拉斯维加斯，那是内华达最大的城市，你可以看到赌场里射出的灯光照亮整个沙漠的天空，彻夜不停。<br><br>夺命线<br><br>夺命线由坐落在南拉斯维加斯大道的一系列世界闻名的赌场组成，全长4.5公里，从拉斯维加斯市区边缘一直向南延伸到著名的“欢迎来到拉斯维加斯”牌匾。这里面有许多有名的赌场，比如“沙丘”“沙暴”“撒哈拉”“星辰”还有翡翠色的高大的“米高梅大酒店”，1980年，曾有87人因一场电起火在这个酒店里丧命。<br><br>51号地区<br><br>在1950年代，虽然没有确凿的证据，但据传有外星人在这片神奇的土地上降落。这是美国空军在内华达的测试训练场。实际上这是用来测试试验性飞机和武器的地方。51号地区在拉斯维加斯北略偏东80多公里外，比用来测试原子弹内华达测试点还要远。<br><br>核试验<br><br>1950年，拉斯维加斯市中心的赌场曾推出过一种特别套房。在那里你可以看到核爆炸撕裂夜空的闪光。幸运的是，主流风不会将实验残骸吹到博尔德市，而地上实验也在1963年就结束了。<br><br>THE DART<br><br>1950年代初，美国国防部高级研究计划局决定利用胡佛大坝提供的大量电力，在米德湖西侧建立世界上最大的粒子加速器。总统艾森豪威尔命令传送高级研究部（DART）监管这个项目。<br>由于项目的目标是顶级机密，任何人都不能向公众透露DART这四个字母是什么名称的缩写。许多局外人推测DART是高级研究科技部，但没有政府官员敢去更正他们。<br>原项目指导，马尔科姆·格雷森雇佣了国内顶尖的物理学家来进行研究。他经常挖其他政府项目的墙角，至少挖暂时性的墙角。大多数隶属于DART的人员和家人一起住在博尔德市。那些修建胡佛大坝的人们曾住的地方成了他们现在的居所。<br>他们都被要求对他们工作的内容绝对保密，即使是对他们的配偶和孩子也不能透露半点风声。<br>米德湖和胡佛大坝成为许多人在拉斯维加斯附近游玩的热门景区这点有时会凸显出DART安保部门的价值，但其他人认为，这只是单纯地为他们提供了让他们可以沉溺在对于间谍或者潜在叛徒的偏执幻想的借口。DART的现指导，阿尔玛·马德里亚博士，尚未有限制他们的冲动。<br><br>美国回环<br><br>DART回环是巨大的，虽然有15公里长，但是仍然比瑞典回环要小。它在博尔德市的地下深处，在环里有许多的自治市。大部分博尔德市民都住在DART回环里，但都没有意识到这件事。<br>没有主局提供的证件，任何人不得进入DART设施。主局设在博尔德郊区高尔夫球场旁，四周都被高高的栅栏包围。外围有警犬和守卫巡逻，还设有传感器和蛇腹形铁丝网。<br>有些人已经注意到不时有一批瑞典科学家住在当地酒店，在博尔德的一些地方出入。这本应该是一个在全国各地建立类似的粒子加速器的交换项目，但除了瑞典，基本看不到其他国家的来访者。<br>孩子们禁止进入DART回环，即使是在要带孩子上班的一天也不行。在城市的不同地点设有十二个左右维修竖井一直向下通到回环，它们并没有非常明显的警备。如果使用正确的工具，也许有人可以偷偷溜进城市地下的隧道，甚至也许能在他们发现之前进入总司令部。<br>如果有人能坐到这些，他们也没有公布他们发现了什么。但当有人毫无预兆的人间蒸发，就会有他们因为出现在不应该出现的地方而被抓走送到秘密监狱的流言到处传播。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952308">
+&#171; <em>上次编辑: 2018-10-22, 周一 15:31:29 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952308_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952311"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952311_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952311">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952311#msg952311" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952311'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952311'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2018-10-04, 周四 21:17:37 &#187;</div>
+<div id="msg_952311_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952311"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第四章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>孩子们</strong></span></span></span>施工中（译者：街猫口喵）<br><img src="https://i.loli.net/2018/10/04/5bb6059337c70.png" alt="" class="bbc_img"/><br>类型 49<br>书呆子 50<br>电脑怪咖 51<br>乡巴佬 52<br>运动健将 53<br>社交红人 54<br>摇滚爱好者 55<br>刺头 56<br>怪胎 57<br><br>年龄 58<br>属性 58<br>幸运点 58<br>技能 58<br>物品 59<br>烦恼 59<br>动力 60<br>自尊 60<br>关系 60<br>支柱 61<br>状况 62<br>经历 62<br>名字 62<br>描述 62<br>最爱的歌 62<br>秘密基地 63<br>问题 63<br>回音球就躺在碎石坑里。随着风在钢铁墙壁间回荡，从中中传出微弱的嗡嗡曲调。克勒和奥洛夫立刻跑了进去，开始大喊大叫来测试回声。球体的上方盘旋着一对受惊的鱼鹰。我留在外头，想起了我在那里和祖父一起度过的第一天。回忆那天的事让我意识到这可能我第一次体验怀旧的情绪。太奇怪了；一个夏天的日子，三个九岁的孩子，其中的一个在玩耍时因为回忆儿时而停在了半途。 <br>&nbsp;<br>每个玩家创建一名孩子。创建流程已在下文分步列出，随后会作详尽解释。<br>1. 选择类型；<br>2. 决定年龄，年龄应在10岁到15岁之间；<br>3. 将总数与角色年龄相等的点数分配到四项属性中，每一项属性应投入1点到5点；<br>4. 你的幸运点数等于15减去你的年龄；<br>5. 将10点分配到你的技能上。你可以将你所选类型的三项关键技能提升至3级。对于其他技能，初始等级最高是1级。<br>6. 选取一件标志性物品；<br>7. 选取一项烦恼；<br>8. 选取一项动力；<br>9. 选取一项骄傲；<br>10. 明确你与其他孩子及NPC们的关系；<br>11. 选择你的依靠；<br>12. 给你的孩子取名；<br>13. 写一段简单的描述；<br>14. 选取你最喜欢的歌；<br>接下来共同决定：<br>15. 确定团队的秘密基地（暂定）；<br>16. 回答主持人的若干问题；<br>类型<br>选出你的孩子归属的类型。在一个团队中，建议每种类型的孩子只取一名。<br> <br>BOOKWORM 书呆子<br>当你阅读时，你跨越数千英里，去往异国他乡。你吟诵疯狂的诗篇，与数百年前的哲人们探讨生命的意义。你与人相约在阿尔卑斯之巅，并与苏联特务激烈交火。在现实生活里，你希望脸上的粉刺不要像现在这么多，并且期待着离开这里的那一天——到那一天，你真正的人生才会正式开始。<br><br>关键技能：计算，调查，理解<br><br>标志性物品<br>选取一项或自行编写一项：<br>名叫Plutten[Tiny]的狗；<br>百科全书；<br>放大镜；<br><br>烦恼<br>选取一项或自行编写一项：<br>没人告诉我父亲是怎么死的；<br>我的妹妹病得很重；<br>那个怪人在跟着我；<br>动力<br>选取一项或自行编写一项：<br>我想找到人生中那些大问题的答案；<br>我需要一点吹牛的资本；<br><br>骄傲<br>选取一项或自行编写一项：<br>我是学校里最聪明的孩子；<br>我无所畏惧；<br><br>与其他孩子的关系<br>为其他孩子一人选取一项或自行编写：<br>他/她是我的竞争对手；<br>他会让他/她爱上我；<br>我们是兄弟姐妹，也是朋友；<br><br>与NPC们的关系<br>选取两项或自行编写两项：<br>校图书馆管理员莫娜是我的朋友，但她失踪了。我确定学校门卫杰弗瑞知道的比他说出口的更多。<br>班上的奥洛夫结束训练后骑车回家时遭到了动物的袭击。我简直没法相信学校里的所有人都相信他是被人狼袭击了。<br>莱娜·德林被回环开除的时候，我听见她发誓要向所有住在那里的人复仇；<br><br>ANCHOR 依靠<br>选取一项或自行编写一项：<br>母亲/父亲<br>老师<br>本地作家<br><br>TYPICAL NAMES<br>选取一项或自行编写一项：<br>■ Girls names: Felicia, Ann-Christin, Magdalena,<br>Gabriella [Elizabeth, Erin, Rachel, Susan]<br>■ Boys names: Nils, Kristian, Magnus, Jan [Aaron,<br>Darren, Joshua, Thomas]<br>■ Nicknames: Ugglan, Vårtan, Plattfsk, Janne<br>[Frodo, Professor, Wart, Owl]<br> <br>COMPUTER GEEK 电脑怪咖<br>你很清楚生活中什么才是最重要的——是打破超级玛丽兄弟的记录，是在你的电脑上编写革命性的程序，是理解机器人的工作原理，或者是夜晚的角色扮演游戏中施展正确的法术来拯救队伍。谁在乎其他人怎么想？<br>KEY SKILLS: calculate, program, comprehend<br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>电脑<br>便携式计算器<br>玩具光剑<br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>那些壮孩子殴打我；<br>我的父母总是争吵；<br>她/他甚至不知道我的存在；<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ I love puzzles.<br>■ Peer pressure makes me do it.<br>我喜欢解谜；<br>来自同龄人的压力让我这么做；<br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ When the shit hits the fan, I don’t back down.<br>■ I’m the smartest kid in school.<br>当事情变糟的时候，我没有退缩；<br>我是学校里最聪明的孩子；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系 <br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>■ We are best friends.<br>■ We are different but still friends.<br>■ He/she treats me badly but I won’t sink to the same level.<br>我们是最好的朋友；<br>我们之间有差别，但依然是朋友；<br>他/她待我很差，但我不会和他/她一般见识。<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>我的朋友丽娜告诉我有奇怪的生物搬进了冷却塔群。她觉得那些是外星人；<br>似乎所有人都做了关于那个可怕青年彼得的噩梦。<br>我的朋友伊丽莎白编写了一个可以破解密码的电脑程序，我们用它来收听一个加密电台。通讯中，有些用鱼的名字互相称呼的人在提及她的母亲时，说她是“目标之一”。<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Mother/father<br>■ Science teacher<br>■ The guy who owns the comic shop<br>母亲/父亲<br>科学课老师<br>漫画店店主<br><br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Monika, Anette, Isabella, Lea<br>[Shannon, Patricia, Karen, Julie]<br>■ Boys names: Kristoffer, Martin, Lukas, Börje<br>[Andrew, Eric, Daniel, Timothy]<br>■ Nicknames: Haren, Glasögonorm, Sköldpaddan,<br>Svettis [Turtle, Lazer, Data, Ducky]<br>&nbsp;<br> <br>&nbsp;<br>JOCK运动员<br>满是汗臭味的更衣室和秋天夜色下灯光敞亮的训练场让你自在无比。没有什么能比得上一次完美的射门，训练之后酸痛的肌肉，以及和队友们一起赢得冠军的感觉。你希望生活里的所有事都能像这样容易。<br><br>KEY SKILLS: force, move, contact<br>关键技能：<br><br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>棒球拍<br>冰球棍<br>越野自行车<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ My brother refuses to go out of his room since the accident.<br>■ My teacher hates me.<br>■ I cannot read very well, and they want to move me to a special class.<br>在事故之后，我的滴滴拒绝走出他的屋子；<br>我的老师讨厌我；<br>我的阅读能力不太好，他们想把我送去特殊班。<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ I’m in it for the thrill.<br>■ It’s the right thing to do.<br>我做事是为了寻求刺激；<br>这是我应该做的事；<br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ My father is a firefighter.<br>■ No one calls me chicken!<br>我的父亲是一名消防员；<br>没人敢说我是胆小鬼！<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系 <br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>■ I wonder if we can count on her/him?<br>■ He/she knows everything!<br>■ Annoying little sister/brother.<br>我不知道我们是否可以相信她/他；<br>他/她无所不知！<br>讨人嫌的姐妹/兄弟；<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>新来的警员Ing-Marie Blankäng，最近租了条船去调查湖里的某样东西。但她没有告诉任何人那究竟是什么；<br>我的好几名队友都在做奇怪的梦；<br>一位名叫奥利维亚·马丁内兹的科学家参观了我们的训练，并且询问教练是否有意愿让球队参加某种医学实验，但我敢说她在某些事上撒了谎。<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Father/mother<br>■ Coach for the team<br>■ Brother/sister<br>父亲/母亲<br>球队教练；<br>兄弟/姐妹<br><br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Stina, Lisa, Hanna, Camilla [April,<br>Heather, Kimberly, Tammy]<br>■ Boys names: Henrik, Kristian, Patrik, Sami [Chad,<br>Brock, Brad, Billy]<br>■ Nicknames: Pucken, Pelle, Mackan, Slangen<br>[Iceman, Butch, Scooter, Sneak]<br> <br>HICK 乡巴佬<br>因为你的黝黑皮肤，奇怪口音和蹩脚笑话，同学们时常笑话你。但每天当你身处田野和丛林间时，这些闲言碎语又有什么关系呢？玉米的气味和奶牛在清晨挤奶时发出的愉快声音，自你呱呱坠地时起就是你生活的一部分。<br>你知道如何制造和修理引擎，如何驾驶拖拉机，也知道如何打猎和屠宰动物。<br><br>KEY SKILLS: force, move, tinker<br><br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>德国牧羊犬<br>撬棍<br>拖拉机<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Someone is poisoning our animals.<br>■ Mom/dad doesn’t want to accept that she/he is sick.<br>■ I seriously hurt someone by mistake.<br>有人在给我家养的动物下毒；<br>妈妈/爸爸不愿承认她/他病了；<br>我无意中严重伤害了某人；<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或者自行编写一项：<br>■ There is more to this world than what meets the eye.<br>■ They need me.<br>这个世界远比我们所见的更加宽广；<br>他们需要我；<br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或者自行编写一项：<br>■ My machines will one day conquer the world.<br>■ I help other people.<br>我造的机器将来有一天会征服世界；<br>我会帮助其他人；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系 <br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>■ He/she wouldn’t survive one day in the woods.<br>■ How can I show her/him what I really feel?<br>■ A reliable friend.<br>他在森林里活不过一天；<br>我要怎么做才能把我的真实感受传达给她/他？<br>一位可靠的朋友；<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>■ The school janitor seems so lonely since Mona [Mary], the school librarian, disappeared. I wish I could help him.<br>■ The Police officer Ing-Marie Blankäng [Karen Richards] asked me if we could help her out on her boat this weekend.<br>■ I have seen that stranger, the former rock singer Nille Landgren [Mikey Hayes], sneaking around in the forest near the company NAAB [NAI].<br>自从校图书馆管理员莫娜失踪之后，学校门卫看起来非常孤单。我希望我能帮助他好起来；<br>Ing-Marie Blankäng警官问我这周末能否去她船上帮忙；<br>我曾经看到那个陌生人在NAAB公司附近的树林里徘徊，那人就是前摇滚明星尼勒·兰德格伦。<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Dad/mom<br>■ Fellow hunter<br>■ Riding instructor<br>父亲/母亲<br>猎人同伴<br> <br>POPULAR KID 校园名流<br>在学校里，你是定义谁酷谁逊的人。你知道谁和谁在谈恋爱，也知道上周六小摊边有谁做了什么。其他人乐意听取你的发言，而你也习惯了被人拥戴。他们为何喜欢你并不重要，只要喜欢就行了。<br>KEY SKILLS: contact, charm, lead<br><br><br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>一包口香糖；<br>写满八卦秘闻的日记；<br>发胶瓶；<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>我的阿姨住在我们的地下室里，她简直是个疯子；<br>母亲/父亲有秘密情事；<br>你的对头知道你想藏起来的东西是什么。<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>把名气甩在一边对我也是种解脱；<br>我讨厌那些秘密；<br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Everybody likes me.<br>■ I know everything about everyone.<br>所有人都喜欢我；<br>我知道每个人身上发生的任何事；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系<br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>我知道她/他喜欢我；<br>虽然她/他是个怪人，但我喜欢；<br>他/她派的上用场；<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>■ That new teen Lisa and her friends from the Wildlife Club are scary. I wonder what they are up to?<br>■ The school janitor, Per [Jeffrey], seems to hate me, but I know he is hiding something.<br>■ Nobody knows it, but the former rock star Nille Landgren [Mikey Hayes] lives in a cottage at Väntholmen [Hemenway Park]. I talked to him and he said something horrible is happening at Svartsjölandet.<br>新来的丽莎和她那帮野生动物俱乐部的朋友们都很吓人。我想弄清她们到底在做什么；<br>学校门卫皮尔看起来挺讨厌我，但我知道他是在掩盖一些事；<br>没有人知道这事，但前摇滚明星尼勒·兰德格伦就住在Väntholmen [Hemenway Park]的一栋小屋里。<br>和他聊天时，他说Svartsjölandet正发生着一些可怕的事；<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>哥哥/姐姐<br>母亲/父亲<br>知名的家庭友人<br><br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Johanna, Linnea, Nikolina, Linda-Marie [Shannon, Kelly, Melissa, Tiffany]<br>■ Boys names: Andreas, Martin, Peter, Håkan [John,<br>Jason, Ryan, Sean]<br>■ Nicknames: Krille, Madde, Gabbe, Milla [Baby,<br>The King/Queen, Blue-eyes, Sunny]<br> <br>ROCKER 摇滚小子<br>改变你人生轨迹的是一盘旧磁带。一曲终了，你找到了心灵的归宿。你是一名生活中高调行事的疯狂硬摇滚歌手，你的音乐如此响亮，甚至能震裂窗户。无论如何，你希望自己能是这样，但你才刚刚学会在电吉他上拨响一个“哆”，而且很快你就会在娱乐中心那组建一支乐队。<br>KEY SKILLS: move, charm, empathize<br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Boombox<br>■ Electric guitar<br>■ Leather jacket<br>手提式功放<br>电吉他<br>皮夹克<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>我的父母处在离婚的边缘；<br>我有偷钱的习惯；<br>单相思；<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ I’m doing it for love.<br>■ Hunger for everything in life.<br>我是为了爱情做这事；<br>我渴望去做生活中的任何事；<br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ I play the guitar.<br>■ I stood up for my friend.<br>我会弹吉他；<br>我曾为朋友挺身而出；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系<br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>■ I love him/her.<br>■ We don’t like each other but he/she is part of the<br>band.<br>■ He/she rocks!<br>我爱着他/她；<br>我们互相看不顺眼，但他/她也是乐队的一份子；<br>他/她真是很棒；<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>我的妈妈觉得有人因为她是科学家而跟踪她，但爸爸认为是她疯了；<br>我的姐姐加入了野生动物俱乐部；现在她不和我说话，还会在半夜悄悄溜出去；<br>那个怪科学家莱娜·德林是我的姑妈，但这并不意味着我就喜欢她。<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Music teacher<br>■ Older brother/sister<br>■ The guy at the music store<br>音乐老师<br>哥哥/姐姐<br>常在音像制品店的那个人<br><br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Frida, Janis, Branka, Tove [Lori,<br>Amanda, Crystal, Jamie]<br>■ Boys names: Ingmar, Niklas, Tommy, Alexander<br>[Justin, Gary, Kevin, Mark]<br>■ Nicknames: Slash, Axl, Ziggy, Micke [Tommy-Lee,<br>Spike, Ozzy, Fuzz]<br> <br>TROUBLEMAKER 刺头儿<br>你是个坚强的男孩或女孩，你从不知道什么事退缩。你的同班同学或者害怕你，或者崇拜你，你的老师们讨厌你，并且所有人都在你身边唠叨着劝你作出改变。但他们不明白的是，你并不生活在他们生活的世界。<br>当生活突然打击你，羞辱你并伤害你的时候，你会做的只有一件事：还以颜色。<br><br>KEY SKILLS: force, sneak, lead<br><br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Lighter and cigarettes<br>■ Knife<br>■ Skateboard<br>打火机和香烟<br>小刀<br>滑板<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ My parents say that I’m good for nothing.<br>■ My mother/father drinks a lot.<br>■ We are short of money.<br>我的父母说我身无长物；<br>我的母亲/父亲酗酒；<br>我们家缺钱；<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>为了逃离这个家，我会做任何事；<br>我人生中唯二完好的事物，就是我的朋友们，以及我们一起做的那些事；<br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>我帮助过一只折了一边翅膀的小鸟；<br>我曾经站起来反抗过老师；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系<br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>■ She/he thinks she/he is better than the rest of us!<br>■ I’ll do anything for him/ her.<br>■ She/he knows what I’m going through.<br>她/他认为她/他比我们其他人都强！<br>我会为他/她做任何事；<br>她/他知道我的处境有多艰难；<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>我想知道为什么Wäsby教堂的牧师要购买炸药，还有为什么他的衣服为什么那么脏；<br>他们认为我在和尼勒在Väntholmen公园碰头是因为他是个名人，或者我想买点东西吸，但我这辈子碰都不会碰毒品，也不太关心什么名声。我是真的挺喜欢他这个人，虽然他总是说什么NAAB公司的老板不仅毁了他的人生，还毁掉了其他很多人；<br>尼可拉斯是我唯一喜欢过的老师，而他如今在医院里接受治疗，并且无法从困扰他的某种噩梦中醒来；<br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Janitor at school<br>■ School psychologist<br>■ Grandma<br>学校门卫<br>学校的心理医师<br>祖母<br><br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Sussy, Monika, Jenny, Emma<br>[Marylee, Jenna, Stacey. Charlene]<br>■ Boys names: Lenny, Dennis, Benny, Stellan [Ray,<br>Jerry, Troy, Steve]<br>■ Nicknames: Knota, Hajen, Kicki, Nettan, Mange<br>[Knuckles, Ninja, Sharky, Bird-killer] <br>&nbsp;<br>WEIRDO 怪人<br>他们拿你的衣着、兴趣和用词取乐，并把你叫做“怪胎”，但你并不在意，因为他们对你的想法和感受，对你的经历都一无所知。你想让世界看到你是独一无二的存在。有一天，你会比他们所有人更加出色。<br><br>KEY SKILLS: sneak, investigate, empathize<br><br>ICONIC ITEM 标志性物品<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>剃须刀片<br>画板<br>宠物老鼠<br><br>PROBLEM 烦恼<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>我的父亲是一名共产主义者；<br>我的兄弟在他自己的房间里做奇怪的事；<br>我在学校里被人欺负了；<br><br>DRIVE 动力<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>他们说我是世上好奇心最重的人；<br>任何奇特或者别致的东西都令我着迷；<br><br><br>PRIDE 骄傲<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>我不是异性恋；<br>妈妈说我长得很漂亮；<br><br>RELATIONSHIPS TO OTHER KIDS 与其他孩子的关系<br>Choose one for each other Kid or make up on your own:<br>为其他孩子一人选取一项或自行编写：<br>他/她并不知道我爱他/她；<br>她/他的父母让我和他们一起生活；<br>他/她不喜欢我，但我会证明他/她错了。<br><br>RELATIONSHIPS TO NPCS 与NPC们的关系<br>Choose two or make up two on your own:<br>选取两项或自行编写两项：<br>■ The Priest in Wäsby [St Christopher’s], Hans-Erik [Joseph], is the only adult whom I trust. Now he has disappeared.<br>■ That kid Björn [Bryan] told me that his friend, Peter, who works at the Dream Shop, is about to do something bad.<br>■ She wants me to call her Majsan [Stacey], and she’s older than me, and lives by herself in a house in Kungsberga [outside Hemenway]. She hates all grownups. <br>我唯一相信的大人是Wäsby教堂的牧师汉斯·埃里克。现在他人失踪了。<br>那个叫Björn的孩子告诉我，他在梦想商店工作的朋友彼得就要干坏事了。<br>她想让我叫她Majsan，而且她年纪比我大，独自居住在Kungsberga的一栋屋子里。她讨厌所有成年人。<br><br><br>ANCHOR 依靠<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Grandmother<br>■ Another Kid’s mom/dad<br>■ Neighbor<br>祖母<br>另一个孩子的母亲/父亲<br>邻居<br>TYPICAL NAMES<br>Choose one or make up one on your own:<br>选取一项或自行编写一项：<br>■ Girls names: Marianne, Sara, Anna-Lena, Ida<br>[Sandra, Amy, Michele, Christina]<br>■ Boys names: Nikodemus, Carl-Ingvar, Simeon,<br>Gustaf [Jeffrey, Charles. Edward, Peter]<br>■ Nicknames: Ärret, Fladdermusen, Psykot, Nisse<br>[Freaky, Commie, Ghost, Rat]<br> <br>AGE 年龄<br>在这个游戏中，你的角色的年龄是10至15岁。请随意决定年龄。年龄会影响角色的属性点数及角色持有的幸运点数量，同时也会影响你在脑海中描绘这名孩子，以及扮演他/她的方式。<br>生日：你可以随意决定角色的生日；<br>ATTRIBUTES 属性<br>四项属性确定你的孩子的长处，以及解决麻烦的能力。<br>这四项属性是：体能，技术，心灵，头脑。属性的数值可取1到5，这也是你尝试克服麻烦时投掷的骰子数目。<br>■ 体能是指角色跳高，快跑，打斗，潜行和攀爬的能力；<br>■ 技术是指角色理解机械和机器人的运作原理，编写技术性程序，打开上锁的门和制造东西的能力；<br>■ 心灵是指角色结交朋友、说谎、认识正确的人、创造合适的氛围及说服他人的能力；<br>■ 头脑是指角色寻找弱点、理解别人、事情和生物、解开谜语、理解线索及在正确的时间拥有正确的知识的能力；<br>初始值：将总数等同于你年龄的点数分配到四项属性中。任何一项属性的初始值不能超过5，同时每一项属性至少要投入1点。<br>年龄增长：每当角色年龄增长一岁，你会再获得一点属性点。你可以将这一点随意分配到你希望的属性上，但任何一项属性的数值都不能超过5。<br>当你的角色跨入十六岁后，他就不再是适合这个游戏的孩子。是时候创建一个新角色了。<br>LUCK POINTS 幸运点<br>所谓的幸运点可以在你试图克服麻烦时使用，并会使之变得更容易——使用幸运点可以获得一次重骰的机会。这会在第五章里进一步解释。<br>在游戏中，年龄更小的孩子比年长的孩子更加幸运。在游戏开始时，你的幸运点数等于15减去你的年龄。幸运点数在每次团的开始时重新补满。你无法将幸运点保留到另一次游戏中，并且幸运点从不会超出你的初始值。<br>当角色年龄增长一岁，幸运点的最大值永久性降低一点。<br><br>SKILLS 技能<br>每项属性均与三种技能相关。这些技能就是孩子们受训的具体领域。技能的等级从0到5不等，并对应着你在尝试克服麻烦时除属性对应的骰子外可加入检定的骰子数。在游戏开始时，你需要将10点分配到你的技能中去。你可以将你的类型所对应的三项关键技能提升至第三级。对于其他技能，初始等级最高是1级。<br><br>■ 潜行是指角色躲藏和悄然行动的能力；<br>■ 力量是指角色提起重物，战斗，忍受物理压力状态的能力；<br>■ 移动是指角色向攀爬高处，保持平衡和快速奔跑的能力；<br> <br>TECH 技术<br>机械是指角色搭建和操纵机器及其他机械物品的能力。<br>编程是指角色创造和操纵电脑程序及电子设备的能力。<br>计算是指角色理解机械及其他技术体系运作原理的能力。<br>HEART 心灵<br>社交是指角色认识合适的人的能力。<br>魅力是指角色魅惑、欺骗、亲和及左右他人的能力。<br>领导是指让你的朋友们通力合作，以及在他们害怕，沮丧或迷惑时帮助他们的能力。<br><br>MIND 头脑<br>调查是指角色发现隐藏起来的物品及理清线索的能力；<br>理解是指角色持有或能在图书馆找到正确的信息的能力；<br>共情是指角色理解他人，动物或任何有意识的东西的行动动机，并懂得如何找出其弱点的能力；<br><br>ITEMS 物品<br>有些物品能帮助孩子们克服麻烦。<br>物品会给检定提供1-3个额外的奖励骰。<br>如果要获得某件物品提供的加值，那它必须是明显能帮上你的忙。一块滑板能为你的运动检定提供加值，但这仅限于从街上恶霸手中逃脱时，而在爬树时就无法获得加值。主持人应当拒绝那些不合理的物品使用请求。<br>你在谜团中遇到的大部分物品都是剧情道具，也即是用来给描述增加气氛的日常物品。道具可能是林中的木棍，可乐瓶子或者笔记本。哪些物品是可以提供加值的物品，而哪些只是剧情道具，这都由主持人决定。 <br>ICONIC ITEM 标志性物品<br>在开始游戏时，你拥有一件标志性物品；它的作用和其他物品类似，但它还阐释了你的某些方面。<br>这件物品在能帮助你克服麻烦的场合，可以为你提供两个奖励骰。标志性物品无论如何都不会消失或损坏，除非你希望发生这样的事。如果它被盗或者丢失，你会在谜团结束前找回它。标志性物品无法交由其他孩子使用。<br><br>GAINING NEW ITEMS 获得新的物品<br>你可以通过寻找物品，制作物品，或是训练生物的方式，在经历谜团时获得新的物品。主持人会给物品+1至+3的加值，高低取决于物品有多大功效。通常来说，你所能遇到的物品在谜团中都会有描述。<br>LOSING ITEMS 失去物品<br>在谜团与谜团之间，你会失去除标志性物品之外的所有物品。发明因故中断，驯养的动物逃走或者死去，走失的机器人被警方收容。如果你想要保存某件物品，你可以选择用它替换你的标志性物品。无论之前的加值是多少，这件新的标志性物品会获得+2的加值。如果你参与的是神秘之地，清空物品的时机会由主持人决定：是在每次游戏聚会的末尾，或者是在故事跳转的特殊时刻。<br><br>PROBLEM 烦恼<br>每个孩子都有他的烦恼。你可以把烦恼藏在心底，也可以告诉其他孩子。烦恼是日常生活的一部分，让你忧心的那部分。在游戏过程中，主持人会利用烦恼将你引入麻烦之中。如果你解决了一个烦恼，那么在下一个谜团开始之前，你必须挑选一个新的烦恼。<br>你想在谜团中想要深入探寻的烦恼，就是你应该选择的烦恼。它是给主持人的一个信号：把我扮演的孩子放到这样的烦恼中去！<br> <br>DRIVE 动力<br>动力是你直面危险与困境，和朋友们一起破解谜团的原因。它帮助你理解自己的孩子，也让新的谜团更容易展开；无论发生了什么事，孩子们都想要查清它。在谜团与谜团之间，你可以更换自己的动力。<br>PRIDE 骄傲<br>每个孩子都有自己的骄傲，它让你感觉自己强大，重要并且拥有价值。你的骄傲既可以是团体成员熟知的，也可以是个秘密。主持人会利用你的骄傲将你引入麻烦之中，他搭建的场景将突出表现你的骄傲，也可能会对它构成威胁，例如：同学在学校的表现和你旗鼓相当，或者比你更好。爸爸丢了消防站的工作。你养的动物被痛苦折磨。<br>骄傲也能帮助你理解并扮演你的孩子。烦恼和骄傲之间可能存在交集，骄傲有时甚至会转变为烦恼，但这两者也可以是无关的事物。在谜团与谜团之间，你可以更换自己的骄傲。<br>你可以在检定时勾选你的骄傲以获得自动成功，每个谜团仅限一次。你可以在检定失败后勾选骄傲，甚至可以在检定成功后勾选来获得一个额外的成功。你必须解释你的骄傲如何能帮助你。如果整个谜团需要花费数次游戏来完成，或者你的团体进行的是神秘景观，那么每次游戏聚会中，你都可以勾选一次骄傲。<br>范例<br>主持：你听见有某种声音回荡在这个漆黑，潮湿的地洞底下。而当你凑到洞口倾听时，那声音就像是笑声。疯狂的，机械的笑声。你要怎么做？<br>玩家1（Olle）：我退后几步。“我认为，我们应该另外找一个入口。”<br>玩家2（Anita）：“没门。”我瞪着你，眼神坚定，但实际上已经吓坏了。“我们要从这里下去，去阻止那东西。”我悄无声息地从这个洞口下去，尽量不发出任何声音。<br>主持：请作隐匿检定。<br>玩家2：失败，但我勾选我的骄傲，“我无所畏惧。” 无论如何，我都要从这儿下去！<br><br>RELATIONSHIPS 关系<br>你需要确定你和团体中其他孩子的关系，最好是和其他玩家一起。如果一名孩子是另一名孩子的“姐姐”，那么玩家们需要一起确认这两个孩子确实是兄弟姐妹。孩子们不会互相敌对，但适度的紧张关系会带来乐趣——例如爱，嫉妒，或是不信任。谜团中发生的事会影响孩子之间的关系，因此在谜团之间，关系可能会发生变动。<br>你还需要选择两项NPC关系。在类型描述中提到的NPC都是神秘景观（第7章）的一部分。如果你想编写属于自己的关系和NPC，那就需要和主持人一起合作，这样做就能轻松地建立NPC们与神秘景观中的各个地点的联系。NPC关系会成为将孩子们与在游戏开始后发生的奇怪事件关联起来的渠道。<br> <br>如果你的团体已决定只使用预制谜团，并且不会使用神秘景观，那么主持人可以允许玩家从日常生活中提取NPC关系，无需将关系与地点挂钩。这类关系可用于设定与日常生活相关的场景。另一种方法是，是让每个孩子拥有两条地点关系，再加一项或两项日常关系。<br>ANCHOR 依靠<br>每个孩子都有自己的依靠。你的依靠是那个会支持你，安慰你，关心你的人。他/她可以是你的朋友，父母，老师或者邻居，但不能是另一个孩子。<br>如果你承受了一个或多个状况（见下），你可以花费一个场景与你的依靠呆在一起，并且治愈所有的状态。你必须允许你的依靠照顾你，此外还必须有身体上或精神上的亲密行为。在这个场景中，主持人不能引入麻烦。如果你自己把自己置于麻烦之中，那么你所有的状况都不会被治愈。<br> <br>范例<br>主持人：有谁想要要个场景？<br>玩家1（奥勒）：我要治疗不良状态。<br>主持人：很好，你打算怎么做？<br>玩家1：我的依靠是我父亲，所以我要去找他。<br>主持人：你们平时会怎么交流感情？<br>玩家1：我们会聊运动。<br>主持人：你有哪些状况？<br>玩家1: 不安和惊恐。<br>主持人：好， 你找到你的父亲的时候，他正坐在电视前收看比赛。他坐姿懒散，一手提着一瓶啤酒，脸上的表情有些严肃。你看见他向你点头示意，视线还盯着电视屏幕。“嗨，小子。”<br>玩家1：“嗨。”我坐到他身旁，紧紧靠着他。<br>主持人：有什么能让他看出你的不安和惊恐？<br>玩家1：可能是我不太自然的样子。<br>主持人：他关掉电视，转头看向你。“有什么事吗？”<br><br><br>CONDITIONS 状况<br>孩子们不会死，但会承受不良状况。在你试图克服麻烦但却失败之后，或者在你重骰之后，你必须选择一项状况。状况一共有五种，前四种程度较轻：不安，惊恐，疲累和受伤。状况可以用各种方式来具体阐述，并且可能需要根据实际情况作些调整。<br>CONDITIONS<br>Condition Modifer<br>Upset &nbsp;&nbsp;&nbsp;-1<br>Scared &nbsp;&nbsp;&nbsp;-1<br>Exhausted &nbsp;&nbsp;&nbsp;-1<br>Injured &nbsp;&nbsp;&nbsp;-1<br>Broken &nbsp;&nbsp;&nbsp;Automatic Failure<br><br>状况<br>不安&nbsp;&nbsp;&nbsp;-1<br>惊恐&nbsp;&nbsp;&nbsp;-1<br>疲累&nbsp;&nbsp;&nbsp;-1<br>受伤&nbsp;&nbsp;&nbsp;-1<br>崩溃&nbsp;&nbsp;&nbsp;必然失败<br><br>状况也能为扮演孩子提供指示，你需要决定这些状况要在场景中表现到什么程度。主持人可以用提问的形式提示你：你的感受是？你的不安来自哪个方面？如果你不愿意的话，无论何时你都不必强行作状况相关的扮演。<br>EXPERIENCE 经验<br>在一次游戏的末尾，主持人会给孩子们分配经验点数(XP)。XP可以提高技能。5点XP可以提高一级，而所有技能的最大等级都是5级。更多关于XP的内容参见第6章。<br>NAME 名字<br>给你的孩子起个名字，不论是从预选项中选一个，还是自己起名。<br>DESCRIPTION 描述<br>写下你孩子的长相，以及他/她作为一个人的一切。你也要写下那些能帮助你在游戏中扮演孩子的内容，诸如他/她的谈吐，走路的样子，穿什么衣服等等。<br>FAVORITE SONG 最喜欢的歌曲<br>选出你最喜欢的1980年代歌曲。你可以试着选用那首能讲述你孩子本质的歌。游戏桌上，你也可以在合适的时机播放这首歌，把它用做你的“主题曲”。选用哪首曲子在游戏机制上并没有任何影响。<br> <br>HIDEOUT 秘密基地<br>孩子们共同拥有一个秘密基地，这是他们可以独处，感觉安全的地方。玩家们需要就秘密基地是什么，在哪里这两点达成一致。主持人不能让NPC发现秘密基地，除非孩子们主动告诉他/她。在秘密基地里，主持人不能把你置于麻烦中，但你可以自己引入麻烦，例如：和另一个孩子争吵。<br>在秘密基地中你可以治愈自己的状况，方法与使用依靠相同。这样做需要两名或更多孩子同时在场，并且他们之间必须有身体上或精神上的亲密接触，例如：拥抱，分享秘密或故事，或者互相安慰。如果孩子们把自己置于麻烦中，那他们将无法治愈任何状况。所有孩子分享同一个秘密基地。<br><br>QUESTIONS 问题<br>从玩家们创建完孩子到游戏开始前这段时间里，主持人会向你提出若干问题。你要从你的孩子的角度出发，尽可能诚实地回答这些问题。主持人会从给孩子们的问题中选出4-6个，每人分发一份；然后再选出2-3个针对整个团体的问题。主持人的职责是确保所有玩家都回答了问题，并让他们得到大致同等的关注。 <br><br>给孩子们的问题<br>■你的烦恼最近越来越糟，原因是什么？<br>■你的父母做什么工作？<br>■你怎么看待学校？<br>■你最喜欢吃什么？<br>■你有兄弟姐妹吗？你如何看待他们？<br>■你的房间是什么样子？<br>■你晚上会做什么梦？<br>■什么会让你生气？<br>■你长大后想做什么工作？<br>■你怎么看待体育运动？<br>■你和机器人接触的经历是？<br>■你离开家乡去过的最远的地方是？<br>■你的骄傲如何影响着你？<br><br>给团队的问题：<br>■团队里谁最有发言权？<br>■你们是什么时候互相认识的？<br>■什么让你发笑？<br>■你们有什么秘密？<br>■谁讨厌你？<br>■谁想参加帮派？<br>■你奋斗的目标是？<br>■你们之中被人嘲笑得最多的是谁？<br>■谁是队长？<br>■谁和谁恋爱？<br>■你们避而不谈的是？<br>■你们喜欢做什么事？<br> </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952311">
+&#171; <em>上次编辑: 2019-08-17, 周六 12:17:46 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952311_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952312"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952312_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952312">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952312#msg952312" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952312'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952312'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2018-10-04, 周四 21:19:28 &#187;</div>
+<div id="msg_952312_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952312"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第五章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>麻烦</strong></span></span></span>施工中<br><img src="https://i.loli.net/2018/10/04/5bb61a8461aba.png" alt="" class="bbc_img"/><br>不良状况 66<br>进行检定 66<br>物品与骄傲 67<br>幸运 67<br>做近乎不可能的事 67<br>回答问题 68<br>购买效果 68<br>非玩家角色 68<br>失败的检定 69<br>再骰一次 69<br>互相帮助 70<br>相互对抗 70<br>大麻烦 70<br><br>技能 72<br>潜行 72<br>力量 72<br>移动 72<br>机械 72<br>编程 73<br>计算 73<br>社交 73<br>魅力 74<br>领导 74<br>调查 75<br>理解 75<br>共情 75 <br><span style="color: gray;" class="bbc_color">“猎狐犬请求返回基……”我被机器人后矮坡上树枝的声音打断了。在恐慌中，我们看着机器人以惊人的速度旋转着，我们看到它是怎么像一只闪电般迅捷的蜘蛛那样一秒就穿过了整个空地。一只受惊的野鸡从灌木丛中飞出，惊恐地咯咯叫着，堪堪避过机器人的钳子，那钳子划过了鸟尾羽附近的空气。<br>罗看着我，吓坏了，用气声说到“请求准许，返回基地，通话完毕。”然后，我们逃跑了。</span><br><hr />麻烦是阻止孩子们做某事的什么东西。它可能是一件即将发生的坏事，或是一种充满危险的可能性。创造麻烦是GM的工作，但是孩子们也可能使自己卷入麻烦。GM会将麻烦融入对话之中，也会将其描述为人们和其他生物的行动，或是正在发生的事件。GM会询问你如何反应，而你可能会尝试以某种方式克服它，或是选择忽略它并任由它发生。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>GM：你通过敞开的门溜进了学校。四周很安静，透过窗子射入的月光是唯一的光源。<br>玩家1（奥利）：我沿着通往校长办公室的走廊缓缓前进。<br>GM：当你走过化学教室的时候，你听到走廊拐角传来了脚步声。有人来了，很快就会发现你。你要怎么做？<br>玩家1：哦，糟了！<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr />典型的麻烦<br>有人站在入口外面，只要你想进去就会看到你。<br>一个霸凌者朝你丢了个瓶子。<br>老人的狗被拴在花园的树上。它看起来病的不轻，嘴里吐着白沫。<br>妈妈不让你今晚出门。<br>你的父母又开始吵架了。<br>那辆车把你丢在了岛的南边。半夜要走回家这可是一段不短的距离。<br>你的同学不相信你。<br>他盯着你，就好像这是他第一次见到你似的。现在，是时候把你对他的真实感受告诉他了。<br>机器人用爪子攻击你。<br>传送门伴随着震耳欲聋的响声打开了，房间里的一切都被吸向它，包括你。<br><hr />承受不良状况<br>有时GM会告诉你，如果你不克服某个麻烦的话，就要承受一个不良状况（见第四章）。显然，这只会出现在你会遭受某种打击的场合。如果你获得的不良状况已经被勾选过，你就必须勾选另一个。<br>进行检定<br>你需要描述你想如何克服麻烦，以及你想要完成什么事。GM可以在认为情况不明晰时向你询问更多细节，若你想做不可能做到的事，他也可以要求你改变主意。<br>抓一把骰子，数量要和你准备使用的属性点数相当。然后再追加与你在相应技能中的技能点数相当的骰子。如果你没有合适的技能，那就只骰属性骰。每骰出一个6，记为一次成功。在大部分场合中，只需要一次成功就能够克服麻烦。<br>物品与骄傲<br>你可以在合适的场合使用标志性物品进行一次检定（GM有最终决定权）。这样，你可以多骰两枚骰子。<br>你也可以使用你的骄傲，每个谜团中可以使用一次。这会让这次检定自动成功。你可以在一次失败的骰点之后使用骄傲，或者在一次成功的骰点后增加一个成功。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>GM：在洞穴的底部有一块石板，上面有奇怪的图案与文字。<br>玩家3（丹尼斯）：我捡起它。我能看懂它上面写了什么吗？<br>GM：除非你去图书馆研究一下。<br>玩家3：好吧，我把它放进我的背包，然后骑车去学校的图书馆。过了一会儿，我坐在堆满书籍的桌子前。<br>GM：骰理解。<br>玩家3：我有4点头脑和3点理解，一共7颗骰子。（投掷骰子）我有一个6，这说明我成功了！<br>GM：当你打开了一本关于法老的书之后，你意识到这些是埃及象形文字。这块石板一定是通过某种传送门，从其他时代来到这里的。它提到了一个有着光亮坚硬的外皮的怪物，双手修长且只有两根手指，能够轻易提起一个成年人。<br>玩家3：我能明白那是什么意思吗？<br>GM：不能。这已经是你能查到的所有信息了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr />典型的带有不良状况威胁的麻烦<br>你的哥哥想要在你同学面前把你摔在地上。你可能会失落。<br>车子开始在道路上左右穿插。如果发生车祸，你们都会受伤。<br>两个军用机器人开始用头灯寻找你们。如果被它们找到，你们会受到惊吓。<br>你被困在了岛上。如果你找不到办法逃离，你就会疲累。<br>从奇怪的传送门中传来的噪音不像是在地球上听见过的任何声音。如果你继续听下去，你会受到惊吓。<br><hr />幸运<br>你可以在一次失败的检定之后花费1点幸运点。1点幸运点能够让你重骰那些失败的骰子，并且不需要消耗再骰一次的机会。你不能返回早先的结果。在单次检定中，你只能花费1点幸运。你的最大幸运点数等于15-你的年龄。每一次游戏结束后，你的幸运点会重新补满。你不能将幸运点留到以后的游戏中使用。<br>做近乎不可能的事情<br>在一些罕见的情况下，你会需要多个成功来克服麻烦。你可能是在尝试去做一些近乎不可能做到的事，比如：在花园里挤满了发狂的机器人的情况下说服你妈妈让你出门；或是从桥上跳到一辆全速通过的汽车上。这可能需要2个，甚至3个成功。GM应该仅在最为极端的情况下要求多于一个成功。<br><hr />不使用“回合”及“先攻”<br>在许多角色扮演游戏中，冲突和战斗会被分割成一系列行动片段，并会依次进行处理。在《回环物语》中，情况并非如此。作为替代，每个动作或意图都会用一次单独的检定来处理。这并不意味着在单次冲突中不能有多次检定。对话会决定发生了什么，以及怎样看起来合理。在掷出骰子前，不要忘记先描述你的行动。最后，GM对如何操作合理有最终决定权。<br><hr />麻烦 需要成功数<br>困难（普通） 1<br>极难 2<br>几乎不可能 3<br>回答问题<br>有些技能让你能够向GM提问。GM必须如实回答，并且尽可能详尽地描述情况。你克服了麻烦，因而不应当得到模糊或是半真半假的答案。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>玩家1（奥利）：爸爸，你对妈妈说谎了吗？<br>GM：“当然没有！你怎么可以这么问？回你的房间去！别再说这种屁话了。”他看起来很生气。<br>玩家1：我想看看他是不是说谎了。<br>GM：骰共情。<br>玩家1：成功了。让我想想……我要知道他有没有说谎，还有他心情如何。<br>GM：噢，他显然是说谎了。他很生气，但也感到羞耻，而且你突然意识到，他非常、非常地害怕。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>购买效果<br>如果你骰出的成功数超过了你需要的数目，多出的成功有时可以用来“购买”有利的附加效果。这些效果就写在每个技能下。相同的效果可以购买多次。GM会决定哪一些效果适用于哪个给定的场景。如果场景中不存在附带伤害，你就不能选择“避开所有附带伤害”的效果。<br>你无需购买效果就能达成最初的目标。通过购买效果，你的所得会多于所求。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>玩家2（阿尼塔）：我投掷力量来把我哥哥摔到地上。三个6！我可以购买效果吗？<br>GM：当然。<br>玩家2：我可以买两个效果，看看……我要羞辱他，并且我不用再为同样的麻烦做检定了。<br>GM：好的，记住只有同样的麻烦能用。如果他再当着其他人的面攻击你，你不用检定就能击败他。现在，告诉我你怎么摔翻并羞辱了你的哥哥吧！<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>非玩家角色<br>GM从不为NPC做检定。当NPC试图克服麻烦时，GM决定他们是否成功。如果他们的行动会引发麻烦，孩子们可以尝试去阻止或者战胜他们。<br>当一名NPC帮助你时，GM可能会给你1、2、或3个奖励骰。这仅会发生在极少数情况下。孩子们需要互相依靠。<br>特殊NPC<br>一些NPC显然更难击败。他们会有一项或是多项特殊属性，数值一般为2或3。与特殊属性直接挂钩的麻烦尤其难以应对——要胜过这名NPC，你骰出的成功数要与该属性的数值相等。对于某次检定是否需要对抗特殊属性，GM有最终决定权。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>一个奇怪的水下漩涡有特殊属性：湍流2，这意味着试图游过这片水域的孩子们需要在移动检定中获得2个成功。若想打倒或是甩脱一只属性为猛兽3的猛禽，孩子们需要3个成功。如果他们想要智取，或是用其他与体力无关的方式战胜这只猛禽，那就只需要1个成功。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>失败的检定<br>如果你检定时骰出的成功数是零或者太少，你的行动就会失败。在尝试克服麻烦时遭遇失败绝不会意味着无事发生。情况会发生一些改变，很可能是向着更糟的方向。GM会决定发生了什么事。你可能需要勾选一项不良状况，可能会陷入新的麻烦，或者会遇到节外生枝的事（见边栏文字）。其中的一些例子见下：<br>你被抓住了或者被关起来了。<br>你造的机器人变得充满敌意。<br>你的父母很生气，并要求你宵禁。<br>一台时间机器将你送到了千年之前，而非千年之后。<br><hr />节外生枝<br>失败的检定不应阻碍故事推进。为了在掷骰失败时也能让谜团进一步发展，GM可以选择使用节外生枝。如果你在掷骰失败后接受节外生枝，你仍旧能在最重要的部分获得成功，但是随之也会产生一些问题。发生的事由GM来决定。通常来说，这都会用到“但是”一词。<br>节外生枝可能会引出新的麻烦，揭示新麻烦会带来的风险，提供不完整的线索（迫使孩子们深入调查），或是逼迫孩子们改变计划。例子：<br>你翻过篱笆进入了废料场，但是那条看门狗听见了你的动静。<br>正当你将船划向湖心时，船主从停车场一路狂奔了过来。<br>你抓起科学家的笔记本就跑，可它被撕成了两半。<br><hr />再骰一次<br>当你为一项任务做检定且失败后，你可以选择在体力上或精神上竭尽全力直到自己的能力极限，通过这种方式立即重新尝试。<br>这被称为再骰一次，只能在检定失败后立即进行，而且只有一次机会。你必须描述你通过什么方式竭尽全力。你可以在一次成功的检定后选择再骰一次，以便购买更多效果。<br>当你再骰一次时，你必须先勾选一项不良状况。任选一个你觉得适合故事的不良状况，然后重骰所有点数不为6的骰子。如果重骰成功，GM会描述发生了什么。如果重骰也失败了，你无法再选择再骰一次。（但是你可以花费幸运点或是使用你的骄傲）。<br>如果麻烦伴有不良状况的危险，那么当你再骰一次且失败时可能会需要勾选两个不良状况。再骰一次既可以用在花费幸运点之前，也可以用在之后。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>玩家2（阿尼塔）：我盯着她的双睛，尝试表露出悲伤。“可是求求你了，妈妈，如果你不开车载我们，我们会错过派对的。”<br>GM：骰魅力。<br>玩家2：该死，我失败了。<br>GM：她看起来很严肃，正要说些什么，你要再骰一次吗？<br>玩家2：当然啦。我撇开视线，冷冷地说，“如果爸爸还活着，他肯定送我们去的。”<br>GM：你要勾选哪个不良状况？<br>玩家2：我现在真的非常失落。<br>GM：好的。重投所有骰子。<br>玩家2：这次也没一个成功。<br>GM：她什么也没说，只是看着你。<br>玩家2：因为委屈，我真的哭了起来，并且跑回了自己的房间。我感觉糟透了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>成功率表格<br>骰子数&nbsp; &nbsp;成功率&nbsp; &nbsp; 再骰后<br>1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;17%&nbsp; &nbsp; &nbsp; 29%<br>2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;31%&nbsp; &nbsp; &nbsp; 50%<br>3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;42%&nbsp; &nbsp; &nbsp; 64%<br>4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;52%&nbsp; &nbsp; &nbsp; 74%<br>5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;60%&nbsp; &nbsp; &nbsp; 81%<br>6&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;67%&nbsp; &nbsp; &nbsp; 87%<br>7&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;72%&nbsp; &nbsp; &nbsp; 90%<br>8&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;77%&nbsp; &nbsp; &nbsp; 93%<br>9&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;81%&nbsp; &nbsp; &nbsp; 95%<br>10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;84%&nbsp; &nbsp; &nbsp; 96%<br>互相帮助<br>在情况合适的场合，一个孩子可以帮助另一个孩子克服麻烦。要帮助别人，你需要描述你的行动，而后你的朋友会额外获得一枚骰子。在单独一次检定中，孩子最多只能获得一位朋友的帮助。GM对于帮助何时可行有最终决定权。<br>当你帮助别人时，你也会受到检定结果的影响。如果检定失败，你也要承受与做检定的孩子相同的后果。在某些场合下，所有孩子需要同时克服同一个麻烦。你们试图顶着暴风雪步行回家，或是想从校长身边溜过而不被发现。在这些情况下，你们不能像上文所述的那样相互帮助。但是，你们可以通过附加效果把成功分给对方（见下）。<br>相互对抗<br>当两个以上孩子相互打斗、摔跤、争吵、相互躲避或是对同一个人献殷勤，你们都要说出自己想做什么，然后同时检定。成功数最多的人获胜，发生了什么由他来讲述。<br>你们都可以再骰一次。如果再骰一次后成功数依然相等，你们可以通过勾选不良状况来购买额外的成功，每勾选一个不良状况视作一个成功。如果你愿意，你也可以让自己崩溃来获得胜利。如果依然没有人胜出，那就会生发生某些足以打破对抗局面的事——有家长走了进来，天上开始下雨，或是午休时间结束了。<br>大麻烦<br>有时，在谜团的某个关键时刻，麻烦将达到高潮，以至于孩子们必须制定一个计划并通力合作——单独一次检定不足以描绘他们面对的麻烦的全貌。每个孩子的表现都会决定计划的最终成败。这被称为一个大麻烦。<br>1. 确定危机<br>GM声明处于危险之中的是什么，也即如果孩子们失败的话将会发生什么事。<br>2. 威胁等级<br>GM声明孩子们战胜麻烦总共需要多少个成功。威胁等级为普通时，所需成功数是孩子数量的2倍；威胁等级为困难时，所需成功数是孩子数量的3倍；而威胁等级为几近不可能时，所需成功数是孩子数量的4倍。<br>NPC的特殊能力（前一页）在大麻烦里并不适用，因为威胁等级已经包含了这些内容。<br><br>3. 制定计划<br>孩子们决定他们想做的事，就每个人使用哪个技能达成共识，还要确定他们行动及检定的顺序。孩子们可以自行选择使用的技能，但GM可以拒绝任何明显不合理的技能用法。<br>4. 扮演场景<br>每个孩子获得一个场景，用于扮演行动并为所选的技能做检定。所获的成功会累加起来与威胁等级比较，但也可以用来购买附加效果。如果时间充足，孩子可以运用领导检定来制造骰池（见下），而不是直接与威胁对抗。<br>5. 决定结果<br>每个孩子做一次检定，如有意愿还可以再骰一次。而当所有场景结束之后，需要将获得的6的个数累加起来，与大麻烦的威胁等级比较。<br>■ 如果所获的6的总数最终低于威胁等级的一半，孩子们就彻底失败了。<br>■ 如果成功数大于或等于威胁等级的一半，孩子们可以勾选额外的不良状况来获得更多的6，从而获得部分成功。每增加一个不良状况相当于额外获得一个成功。如果孩子们愿意，他们可以让自己崩溃来获得成功。如果孩子们通过这种方式达到威胁等级，他们能部分达成自己的目标。具体细节由GM决定。<br>■ 如果孩子们没有勾选不良状况就达到了威胁等级，那么他们达成了目标，并克服了麻烦。<br><hr />描述你如何行动<br>仅仅说要使用某个技能是远远不够的。你需要说出要做的事，从而获得检定的机会。你可以通过游戏内的一场对话，或是描述自己的行动来做到这一点；像是你如何用望远镜来研究恐龙，又或者如何用锤子和螺丝刀打开机器人的顶部，并告诉其他玩家它里面是什么样子。<br><hr /><hr /><hr />技能<br>潜行（体格）<br>躲藏，潜行与偷窃的能力。<br>奖励效果：<br><ul class="bbc_list"><li>将一个成功给另一个孩子。<li>你找到了什么没想到的，或是比你找的更多的东西。</ul>蛮力（体格）<br>举起重物，战斗，忍受物理压力状态的能力。<br>奖励效果：<br><ul class="bbc_list"><li>将一个成功给另一个孩子。<li>留下印象，威慑或羞辱。<li>压住你的对手。<li>从你的对手处得到什么。<li>击昏你的对手。<li>你不再需要为将来完全相同的麻烦投骰子。<li>你避免任何附带伤害。</ul>移动（体格）<br>爬高，平衡，快跑，追逐或逃跑的能力。<br>奖励效果：<br><ul class="bbc_list"><li>将一个成功给另一个孩子。<li>给某人留下印象。<li>没人注意到你。</ul>机械（技术）<br>建造、使用机器与其他机械物品的能力。<br>建造<br>GM会告诉你建造某物需要的东西。一些所需物品的例子：<br><ul class="bbc_list"><li>你需要特定的物品。<li>你需要成功的<strong>计算</strong>。<li>你需要成功的<strong>理解</strong>。<li>你需要成功<strong>编程</strong>出什么。<li>你需要许多时间。<li>你需要新的工具。</ul>当你有你需要的东西后，你投骰子来克服实际制造什么所面临的麻烦。如果骰成功，你将得到的物品记录下来，它可以带来奖励+1。<br>奖励效果<br><ul class="bbc_list"><li>这东西比想象的更牢固。给奖励再+1（最多+3）。<li>这东西比想象的用处更多。给奖励再+1（最多+3）。<li>这东西比想象的更精巧。给奖励再+1（最多+3）。</ul><hr />回避攻击<br>有时，一个NPC想要伤害你或是使你失去行动能力。在这种情况下，描述你如何避免麻烦，然后投掷对应的技能。如果这是一次物理攻击，例如正朝脸部的一拳，通常使用<strong>移动</strong>回避。如果NPC在用一些诸如怂恿你或是欺骗你的方法和你拉关系，使用<strong>魅力</strong>。当你需要利用你的智慧理解某物来及时回避它时，使用<strong>理解</strong>。当你需要锐利的眼睛，例如你在走入埋伏之中时，投<strong>调查</strong>。<br>如果你并不知道发生了什么，例如有人在你早餐的玉米片里下了安眠药，GM可以决定不给你机会投骰子避免，或是要求极难或是几乎不可能的检定。<br><hr />使用<br><strong>机械</strong>技能同样可以用来破坏，使用或应急处置机械物品，开锁或是驾驶机动车辆。有时你得先使用<strong>计算</strong>来明白要怎么做。<br>奖励效果：<br><ul class="bbc_list"><li>将一个成功给另一个孩子。<li>你将来不需要投骰子来克服完全相同的麻烦。<li>你做得很快。<li>你做得很安静。<li>你很得意。</ul>编程（技术）<br>创造与操纵电脑程序及电子设备的能力。这是<strong>机械</strong>的姐妹技能，但是使用于电子设备而不是机械设备。<br>建造<br>GM会告诉你建造某物需要的东西。一些所需物品的例子：<br><ul class="bbc_list"><li>你需要特定的物品。<li>你需要成功的<strong>计算</strong>。<li>你需要成功的<strong>理解</strong>。<li>你首先需要成功的<strong>机械</strong>。<li>你需要许多时间。<li>你需要新的工具。</ul>当你有你需要的东西后，你投骰子来克服实际制造什么所面临的麻烦。如果骰成功，你将得到的物品记录下来，它可以带来奖励+1。<br>奖励效果<br><ul class="bbc_list"><li>这东西比想象的更有效。给奖励再+1（最多+3）。<li>这东西比想象的用处更多。给奖励再+1（最多+3）。</ul>操作<br><strong>编程</strong>技能可以用来操作电子物品。例如让电脑感染病毒，解除一个警报或是电子锁，扰乱或控制机器人，以及操作奇怪的对象，例如时间机器或是变形球。有时你得先使用<strong>计算</strong>来明白要怎么做。<br>奖励效果：<br><ul class="bbc_list"><li>将一个成功给另一个孩子。<li>你将来不需要投骰子来克服完全相同的麻烦。<li>你做得很快。<li>你得到了新的或是意想不到的信息。<li>你很得意。</ul>计算（技术）<br>知晓技术物运作原理以及如何使用的能力。技术物可以是机器人，机器，磁悬浮船，半机器人或是警报铃。如果你成功了，你可以问下列问题中的两个：<br><ul class="bbc_list"><li>它是用来做什么的？<li>它的运作原理是？<li>我怎样使用它？<li>谁造的它？<li>它可能引发什么问题？<li>它是非法的吗？</ul>奖励效果：<br><ul class="bbc_list"><li>询问一个额外的问题，并且在使用此信息的检定时得到+1的奖励骰（最多+3）。</ul>联络（心灵）<br>知晓合适的人并找到他的能力。你告诉GM这个人是谁，然后投骰子克服麻烦找到他。如果你成功了，你找到他，或是他已经做好准备，能够帮助孩子们了。如果你失败了，那个人不想帮助你，或是他甚至想要伤害、羞辱你或是让你很难过，并且会来找你。<br>奖励效果：<br><ul class="bbc_list"><li>联系的人带着需要的工具。<li>联系的人能够治愈你的一个不良状况。<li>联系的人带来了更多准备好提供帮助的人。<li>在整个谜团过程中，你不需要再次投骰子来找到这个人了。<li>联系的人知道什么重要的事情。<li>你可以将联系的人作为一件奖励骰为+1的物品使用（最多+3）。</ul><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>玩家1（奥利）：我知道任何能帮助我们找到尸体的人吗？<br>GM：你知道吗？<br>玩家1：啊……对，我爸爸的一个朋友是一个警察。他在来拜访的时候喜欢和我玩。<br>GM：他的名字是？<br>玩家1：他被叫作三文鱼，因为他喜欢钓鱼，不过他本名是奥斯卡。<br>GM：投<strong>联络</strong>。<br>玩家1：失败了！<br>GM:突然一辆警车停在了学校外。所有的孩子都聚集到窗边往外望去。你能看到那是三文鱼，他直直走向你的教室，看起来很生气。也许他听说了你在机器人工厂干了什么？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr />何时知道什么<br>有四个技能用来获得信息：<strong>理解</strong>，<strong>调查</strong>，<strong>计算</strong>与<strong>共情</strong>。在一些情况下，它们会相互复盖。GM与玩家应该共同决定，特定场合下哪个技能是合适的，而有些情况下你可以选择两个技能中较好的那个。GM有最终决定权。<br><strong>理解</strong>是最广泛使用的技能。它被用来知道学校中能学到的东西，解开谜题，以及在图书馆中找到信息。<strong>调查</strong>只能用来找东西，找暗门，或是去检查一具尸体或是犯罪现场。<strong>计算</strong>在你检查，学习或想要得出答案时用。也许你想要知道知道如何破坏一个警报铃，或是你想要知道在屋顶的奇怪设备是什么。<strong>共情</strong>是用来发现与有感知生命有关的事情的，他们的感受，在计划什么，如何让他们去做某事，他们喜欢或是不喜欢什么。这技能不论人类、动物还是机器人都可以使用，只要他们有感知。<br><hr />魅力（心灵）<br>魅惑，说谎，让他人做你希望的事情的能力。同样的，GM决定什么样的目标显然能够达到。<br>奖励效果：<br><ul class="bbc_list"><li>他一直相信你。<li>你们形成了持续性的关系。<li>他会冒风险帮助你。<li>他会尝试说服其他人相信你。<li>他很害怕，很迷惑或是印象很深。<li>他迷上你了。</ul>领导（心灵）<br>让你的朋友们合作，让他们在困难的情况下专注手上的任务及在他们害怕或迷惑时安抚他们的能力。<br>如果你有与其他孩子在一起的时间，你可以激励他们并让他们为困难的境遇做好准备。你投骰子克服麻烦，你的成功将会成为一个骰池（见下）。你可以在接下来的场景中，在其他孩子投骰子克服麻烦时将奖励骰分配给他们——但只有在他们按照你说的去做的时候有效。你不能将骰子给自己。<br>如果你<strong>领导</strong>失败，你必须确认一项不良状况，然后询问其他孩子与他们的关系会如何受损。同时只能存在一个被激活的骰池——团体里不能有多于一个领导者。<br>领导其他孩子<br>成功数&nbsp; &nbsp;骰池<br>1个&nbsp; &nbsp; &nbsp; &nbsp;2个骰子<br>2个&nbsp; &nbsp; &nbsp; &nbsp;4个骰子<br>3个&nbsp; &nbsp; &nbsp; &nbsp;6个骰子<br>如果你私下里花时间与另一个孩子相处，给他建议与抚慰，你可以治疗他的一项不良状况。你需要投骰子去克服麻烦，而如果你成功了，不良状况将会被治好。如果你失败了，你会承受相同的不良状况。你不能用这个技能治好崩溃的孩子。<br>奖励效果<br><ul class="bbc_list"><li>治疗额外一个不良状况。<li>治疗你自己的一个不良状况。</ul>调查（头脑）<br>找到隐藏物体，明白线索，解开谜题或是调查一个地方/场合的能力。你可以询问下述问题中的两个：<br><ul class="bbc_list"><li>这里藏着什么，在哪里？<li>它是什么意思？<li>这里发生过什么？<li>我怎样进入/走出/经过某物？<li>我能发觉什么威胁？<li>它在哪？</ul>如果骰点失败，你理解错了什么，有人发现了你的什么事情或是你要承受一个不良状况。GM决定。<br>奖励效果：<br><ul class="bbc_list"><li>询问一个额外的问题，并且在使用此信息的检定时得到+1的奖励骰（最多+3）。</ul>理解（头脑）<br>获得正确的信息，或是在学校图书馆一类的地方找到正确信息的能力。GM会给你信息，或让你自己想出些什么。如果你骰点失败，GM会给你一个坏消息或是给你错误信息（GM不会说是那种情况）。<br>奖励效果：<br><ul class="bbc_list"><li>询问一个额外的问题，并且在使用此信息的检定时得到+1的奖励骰（最多+3）。</ul>共情（头脑）<br>研究人、动物或是有感知的机器人、半机器人行为逻辑，以及如何找到他们弱点的能力。你需要时间去研究或是与生物或人交谈来为你的技能投骰子。如果你成功了，你可以问两个问题。<br><ul class="bbc_list"><li>他的弱点是什么？<li>我如何让他做某事？<li>他感觉如何？<li>她想要什么？<li>她会做什么？<li>她说谎了吗？</ul>如果你骰点失败，GM会给你一个坏消息或是给你错误信息（GM不会说是那种情况），或是让某件坏事发生。<br>奖励效果：<br><ul class="bbc_list"><li>询问一个额外的问题，并且在使用此信息的检定时得到+1的奖励骰（最多+3）。</ul><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">例子<br>玩家2（阿尼塔）：我想要知道他在想什么，所以我投<strong>共情</strong>，用四个骰子。<br>GM：等下，等下，等下！你要先研究他或是和他说话，这样你才能搞懂他。<br>玩家2：好吧，我这样做吧。我和他说话。<br>GM：你要说什么？<br>玩家2：我跟他走到学校的操场去，然后问他昨天在阿德尔索做什么。<br>GM：他看了你好久。“我不在哪儿。”<br>玩家2：“真奇怪，我确定我在那看到你了。”<br>GM：“你看错了。”他看起来有些迷惑或是害怕。投骰子吧。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952312">
+&#171; <em>上次编辑: 2019-08-17, 周六 12:29:15 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952312_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952315"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952315_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952315">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952315#msg952315" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952315'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952315'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2018-10-04, 周四 21:55:18 &#187;</div>
+<div id="msg_952315_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952315"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第六章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>谜团</strong></span></span></span>施工中<br><img src="https://i.loli.net/2018/10/04/5bb61bbc4b9a2.png" alt="" class="bbc_img"/><br>谜团的真相 78<br>谜团与日常生活 79<br>独立情景还是成组情景 81<br>谜团的全貌 81<br>第一阶段——引入孩子们 82<br>第二阶段——引入谜团 82<br>第三阶段——解决谜团 82<br>第四阶段——一决胜负 87<br>第五阶段——后日谈 87<br>第六阶段——改变 88<br>营造气氛 88<br>非玩家角色 91<br>道具 91<br>更大的谜团与战役 93<br><span style="color: gray;" class="bbc_color">据说，水中生活着什么又大又可怕的东西。可能是一只水蜘蛛，可能是什么两栖动物，在水库众多的黑暗裂隙中的某一处中筑了巢，并生出了畸形的什么东西来，一种被重金属与泄漏到水中的化学物质所改变的活物。也许它是通过回环的实验撕开的时空的裂隙，从另一个维度而来。</span><br><hr />谜团是供孩子们进行游戏的模组。就像在漫画书或是电视剧剧集一样，在一个谜团中有一些角色，还有留给玩家发掘的剧情。但与之不同的是，谜团并没有固定的事件链条——这使得故事的过程与结局由孩子们的选择以及运气（某种程度上）所决定。<br>在本书的9-12章中有四个完整的谜团可供使用。大多数谜团需要几个小时的游戏来解决。每个谜团都有着包含了六个阶段的结构，可以帮助作为GM的你设置场景并让孩子们陷入麻烦中。<br>使用谜团是进行本游戏的基本方式，尤其是进行单次游戏或是短战役时。另一种游戏方式使用被称为神秘景观的东西——具体内容见第七章。<br>本章将解释谜团的结构，并指导作为GM的你编写自己的模组。这一结构同时为你书写自己的谜团提供助力。<br><hr /><span style="color: red;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">仅供GM阅读！！！！！</span></span><br><span style="color: red;" class="bbc_color">本章节以及本书的其余部分仅供GM使用。玩家不应该阅读这个节点往后的内容，因为这会让你提前知道游戏隐藏的真相，从而破坏你的游戏乐趣。</span><br><hr /><hr /><hr />谜团的灵感<br>从书籍与电影中，你可以获得很多灵感。史蒂芬·金的《克里斯汀(Christine)》中的汽车可以换成疯狂的机器人或是磁悬浮船，《死光(It)》中的小丑可以是一个杀人机器人，《魔女嘉莉(Carrie)》中被欺负的女孩可以通过先进技术获得她的力量。伊妮德·布莱顿的《闻名五伙伴历险记(The adventures of The Famous Five)》可以发生在回环的地域之上。<br>在《神秘博士》与《星际迷航》中出现的许多技术造物都可以被设置在80年代的回环附近，并引发各种麻烦。时间机器，压缩力场，3D眼镜，神秘博士的“衣物去无踪”或是《亲爱的，我把孩子缩小了》中的缩小光线都是可以引入故事的可能选择。<br>谜团的基调应该与《E.T》，《七宝奇谋(The Goonies)》，《怪奇物语(Stranger Things)》，《超级8（Super-8）》与《史酷比(Scooby Doo)》这样的电影与电视剧相合。<br><hr />谜团的真相<br>当你创作一个谜团时，首先要决定的是谜团的真相。这个故事内容是什么？大部分本游戏中出现的谜团可以被分为三类：人为错误，冲突与恶作剧。<br>人为错误是因为人们缺乏控制他们伟大造物的能力引起的。<br><ul class="bbc_list"><li>一个科学家创造了一台时间机器，它失去了控制，把他丢回了石器时代。时间之纱被撕开了个洞，生物们进进出出。<li>一个反重力发生器由于事故从飞机上坠落到了附近。<li>一次失败的动物实验造物被冲进了下水道，并在湖中成长成了一个怪物。<li>三栋不同的实验楼随机产生让人快速衰老的力场。<li>一个科学家将自己的大脑放入了一个机器人中，它逃跑了并且不愿回来。<li>一台机器获得了生命，决定唤醒更多它的“同胞”。<li>从另一个时空而来的生物被回环所困，需要帮助来回到它该在的地方。</ul>冲突是两组或更多的人之间的紧张气氛，他们可能有相矛盾的目的，并且愿意为了他们的目的对抗到底。<br><ul class="bbc_list"><li>苏联或是美国的工业间谍想要偷窃Riksenergi或是DARPA的机密。<li>一个憎恨老师的学生想要用她的技术能力报复老师。<li>一个机器人逃跑了，它的“主人”想要抓住它。<li>罪犯用技术手段从镇代表处偷东西。<li>一个科学家想用离家出走的孩子作为他半机械化工厂的人类组织样本。<li>恐龙猎手与暴龙把森林当成了他们的竞技场。<li>在一处回环设施工作的工人们想要摧毁一台会使他们失业的新机器。<li>环保主义者想要破坏核聚变反应堆。<li>Afghan Mujahedeen来到回环，想要偷窃或是购买能够帮助对抗苏联入侵的科技造物。</ul>恶作剧是有别的孩子制造问题来取乐。<br><ul class="bbc_list"><li>一群年轻人偷了个机器人并把它带到了聚会上，但是事情脱离了原有的轨道，有人受了重伤或是死了。<li>有个孩子发现了地上的一道裂隙，他发现这通向一个地下管道组成的迷宫，他在里面迷路了。<li>一些孩子用他们的发明在考试上作弊。</ul><img src="https://i.loli.net/2018/10/08/5bbaaab266625.png" alt="" class="bbc_img"/><br>谜团与日常生活<br>游戏的故事中实际上有两部分的内容：谜团以及日常生活。在一个场景中，孩子们追逐着一个逃跑的机器人，而在下一个场景中，他们则要阻止一位醉酒的父亲开车去上班。一些场景可以同时关于谜团与日常生活。<br>作为GM，你的职责便是将关于谜团与关于日常生活的场景混合。谜团是故事的主线，一般更多的场景关于谜团而非日常生活。<br>在谜团中可能发生什么——孩子们会遭遇的人物和地点，它会如何开始，如何结束——在本章中描述。而要建立关于日常生活的场景，你要十分了解孩子们。<br>进行日常生活<br>为了想出与日常生活有关的场景，你需要查阅玩家的人物卡，或是与玩家交谈以了解他们的孩子们所面临的问题，骄傲与人物关系。<br><hr />没有明显麻烦的日常场景<br><ul class="bbc_list"><li>老爸满脸烟灰地坐在厨房，骄傲地讲述着他昨晚参与救火的事<li>爸爸想把雅各布的运动鞋丢了买新的。<li>妈妈要雅各布进来房间，坐在床上和她讲讲今天过得怎么样。<li>雅各布得在全班面前朗读关于消防员的作业。<li>雅各布和妈妈坐在厨房喝粥，广播播着他们最喜欢的歌曲。</ul><hr />有麻烦的日常场景<br><ul class="bbc_list"><li>半夜三更，妈妈穿着睡衣消失在了森林之中，而爸爸还在工作。<li>汤尼在到海滩去的路上等着，手上拿着棒球棒，脸上挂着大大的笑容。<li>爸爸愤怒地敲着雅各布的门。他发现了在船坞下发生了什么。<li>妈妈疯了，相信爸爸对她不忠。她在家里到处摔东西，而爸爸把自己锁在了车库里。<li>爸爸要雅各布别去见他的朋友萨拉了，因为她太奇怪了。<li>雅各布发现他爸爸对他妈妈不忠，和另一个孩子的妈妈睡在一起。</ul><hr />你同时要记住他们在建立孩子们人物卡时对问题回复的答案。当你有想法时，写下可能发生什么的点子。<br>与日常生活有关的场景可以是没有明显麻烦的日常场景。它们描绘了寻常的郊区生活，作为与谜团中令人震惊的事件的对比，给玩家更了解自己的孩子的机会。你也能够设置一些有更明显麻烦的日常场景。在侧栏中，有一些日常生活场景的例子（见上）。<br>有时，在日常生活与谜团之间有所联系。上门拜访的叔叔就是在森林里放出怪异生物的科学家。妈妈被精神病毒感染了。原来是一个哥哥偷了那个机器人。<br><img src="https://i.loli.net/2018/10/10/5bbd5b233576a.png" alt="" class="bbc_img"/><br>个人场景还是集体场景<br>日常生活场景更多的着力于某一个孩子，而非整个群体。因此，让日常场景短而简洁。<br>谜团的全貌<br>谜团以六个阶段进行：引入孩子们，引入谜团，解决谜团，一决胜负，后日谈与改变。GM可以决定他是严格按这个来，或是适度发挥。一些玩家也许会希望GM清晰提醒他们进行到哪个阶段了，而另一些玩家也许希望GM将结构相关的信息保密，以得到在一切都可能发生的故事中，成为故事一部分的体验。<br><hr />谜团的阶段<br><ul class="bbc_list" style="list-style-type: decimal;"><li>引入孩子们—每个孩子进行一个他们日常生活的场景，可以有麻烦或者没有麻烦皆可。<li>引入谜团—孩子们遭遇或发现了什么东西，他们开始调查。<li>解决谜团—孩子们去不同的地点，发现线索，并在设法保持日常生活的同时克服麻烦。这是谜团的核心，大部分的场景发生在这里。<li>一决胜负—孩子们解决了谜团，现在必须让正在发生的事情停下来，通常是在一切蓄势待发的一个戏剧性场景中。<li>后日谈—谜团不再，而孩子们就算成功了，他们的生活还是基本上和之前一样。每个孩子得到一个日常生活的场景。<li>改变—如果想要的话，玩家可以改变他们孩子的问题，标志物品，骄傲与关系。孩子们得到可以用来增长技能等级的经验点数。</ul><hr />阶段一—引入孩子们<br>谜团永远以孩子们各自进行一幕日常生活为起点，不论有没有麻烦。这个场景帮助玩家了解自己的孩子，并且让其他玩家知道他的孩子是什么样的。GM可以自行安排场景，也可以询问玩家的建议。GM可以从孩子的问题、骄傲与关系中得到灵感。一个通用的建议是选择最显而易见的场景。别想太多。<br>GM会在一幕剧情感觉结束时将场景切换，转镜至另一个孩子。这些场景最好相对较短。在这个阶段之后，大部分场景将会要所有孩子在场，作为小组行动。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: orange;" class="bbc_color">例子</span><br>GM：哟，我们开始吧！这是十月底一个又冷又湿的周末。关于回环效率下降的传言正在传播，许多成年人都十分烦躁或是怪异的安静。在外面，到处都黑暗而泥泞。树叶铺满了地面，来自湖上的冷风带来了岛上水与鱼的气味。谁想要第一个场景？<br>玩家1（雅各布）：让我来吧。<br>GM：你想好了，还是想让我帮你建立场景？<br>玩家1：我想好了。我坐在我的房间里，被我妈禁足了，等着我爸回家骂我。<br>GM：你做了什么？<br>玩家1：她发现我在看她的药。<br>GM：你听到你妈妈在一楼踱步。突然间，她的脚步停止了，同时，你听到了你爸爸停车的熟悉声音。过了一会儿，门打开了，你听到妈妈和爸爸说话，但是听不清他们在说什么。你要做什么？<br>玩家1：我坐在床上，整理着我的垃圾桶小子（Garbage Pail Kids）卡片，并十分生气。她反应太过头了。<br>GM：你听到了你爸爸走上楼来。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>阶段二—引入谜团<br>接下来，谜团该被引入了。你可以让孩子们遭遇或是听到什么引起他们好奇的事情。这一般长度为一个场景，所有孩子都在场，但也可以拉长成几个场景。<br>如果引入谜团时并非所有孩子在场，你应该在切换至下一阶段前，设立一个所有人都在场且可以相互交流的场景。<br>你可以利用谜团的真相来构思如何引入它。让孩子们窥得一丝不同寻常或是不对的事情，但是他们不应当看到事件的全貌。有什么东西不见了，什么东西出现在它不该在的地方，某种流言或是一个看起来有待解决的问题。<br>如果孩子们看起来对解决谜团没有兴趣，你应当提醒他们，他们的动机是什么。<br>阶段三—解决谜团<br>这是谜团中最主要的部分，大部分场景发生在这一阶段中。孩子们去不同的地点，与不同人交谈以获得线索，克服麻烦，并尝试解决谜团。<br>你要建立关于谜团与日常生活的场景，二者轮流进行。在大部分场景中，如有可能大部分孩子都要在场。如果孩子们在一幕或是多幕场景分头行动，你需要设立一个所有人都在的场景。你可以简单的问孩子们，“你们在哪里碰头，要做什么？”<br>你可以在一幕场景中制造新的麻烦。一个看守出现了，或是一只看门狗发现了孩子们。<br>地图<br>阶段三的核心内容之一通常是一张梯度，用来展示谜团发生的回环地域的部分。地图应当放在桌上供所有人查看。大多数情况下，玩家有一张地图，GM有一张标有所有地点的秘密地图。<br><hr />典型的引入谜团的方式<br><ul class="bbc_list"><li>一个孩子消失了。<li>传说有一个逃跑的机器人在外游荡。<li>看起来像眼睛的肿块在孩子们的身上长出来。<li>一间奇怪的房子出现在镇子中心，而大人们都表现得像它一直在那里似的。<li>一个孩子发现了地上的一道裂缝，通向巨大的地下通道网络。<li>一个奇怪的女孩开始上学了。<li>一台机械藏在树荫里。<li>冷却塔闪了一下，然后消失了几秒钟。<li>有人在传播假币。<li>猫消失了。<li>关于怪火的流言四起。<li>有人将一张古老的区域的地图丢在了一个孩子的书桌里。<li>一个拿着步枪的男人藏在森林里，用外国语言与对讲机说话。</ul><hr />在大部分谜团中，这一阶段至少要前往三个地点。这是对于一个一晚长度的谜团来说合适的地点数量。当你创作自己的谜团时，你可能会计划更多或是更少的地点。<br>地点<br>在每个地点，通常会有一些检索和/或关于可能麻烦的建议。地点可以是普通的或是奇妙的—它可以是任何地方，从垃圾堆与学校咖啡厅到机器人工厂或是通向世界其他地方的传送门。<br>孩子们并不需要前往所有的地点，它们也可以留到以后的谜团使用。在一些谜团中，要拜访那些地点、如何前往是很明显的。另一些地方，找到去哪儿、怎么去本身就是麻烦的一种。【联络】【理解】技能可以用来寻求信息与帮助。<br>线索<br>一条线索指的是某人知道的什么—一个东西，一本日记，一幅画，碎石头上的痕迹或是反映了什么的事件。线索会揭示关于谜团的一些事情。线索可能相互连接，第一个指向第二个，第二个指向第三个并最终解决谜团。线索也可以三个全都指向相同的方向。另一种变化是所有三条线索都能够帮助理解大局，但是孩子们必须要将它们找齐。<br>线索可以揭示：<ul class="bbc_list"><li>接下来去哪里<li>接下来会发生什么<li>谁涉及了<li>去哪里找更多的信息<li>发生了什么<li>如何解决问题<li>如何使用一个奇怪的机器或是与一个生物交流<li>什么在威胁着孩子们<li>如何去到特定的时空<li>其他</ul>典型的有麻烦与线索的地点：<br><ul class="bbc_list"><li>“懒骨头”朗德昆斯特是一个20岁的前冰上曲棍球运动员，先住在莫尔比树林中的摇摇晃晃的小屋中。他知道是其中一个孩子的哥哥偷了机器人，但是他不会主动说出来。他眼睛深陷，富有攻击性，并且经常喝醉。<li>在湖边的沙滩上，有着看起来像是什么四足动物从水下上岸留下的痕迹。其中一只巨蜥蜴藏在灌木丛中，守着它的蛋。如果孩子们靠的太近，它就会攻击。<li>在一艘生锈的磁悬浮船上，用来维修机器人的设备整齐地堆在一起。显然有人生活在这里，并且那个人显然在与什么逃跑的机器人合作。工具的主人将汽车电池连接到了工具上，让它们带电了。磁悬浮船上的铁锈使得在船上行动很危险；孩子们要冒着从甲板上直接摔到下面的石头的风险。<li>在地下的通道中，有一个房间中藏着被绑架的男孩。在这里，孩子们发现了带着绳子的椅子，空的食物容器，一袋糖以及那个男孩留下的藏起来的信息。他用他的指甲与灰尘在一条手帕上划出了“UNCLE”一词。通道又黑又错综复杂，很容易迷路。<li>在实验室中的失踪科学家的桌上，有一张难懂的蓝图。它揭示了那个科学家想要建造一个巨大的战斗机器人。在科学家的东西中，有一本地址簿，上面只有一个地址，给“可爱的玛雅，坎斯博加”。要躲过守卫与科学家来到桌前不容易。</ul><hr />典型的倒计时情景<br><ul class="bbc_list" style="list-style-type: decimal;"><li>另一组孩子偷了一个机器人。<li>他们被发现了。<li>警察想要逮捕他们，但是他们让机器人攻击了警察。<li>他们用机器人抢了一个报摊。<li>拉尔森校长想去阻止他们，但是受伤严重。<li>这些孩子躲在了施瓦兹乔兰丹特的北侧。<li>其中一个孩子想要溜走去告诉他妈妈，但是其他人发现了他，让机器人去抓他。<li>孩子们让机器人去抢银行，但是它失败了，并在伤了很多人之后逃入了林中。</ul><hr />第三阶段的工具<br>第三阶段是故事的血肉，你可以在这一阶段使用许多有用的手段。<br>机遇。有一些谜团有着一个“机械降神”的事件，在孩子们时间用尽或是无法解决谜团时使用。有什么帮助他们解决了谜团，并使他们可以前进到一决胜负阶段。<span class="bbc_u">一封信从一本书中掉出。科学家的同事打电话给一个孩子的父母并告诉了他们什么重要的事情。有人被看到驾车穿过村子。</span>你要注意不要过多使用这种技俩，因为玩家可能因为自己不能解决谜团而感到被作弄了。<br>谜语与谜题。有些谜团中有着需要玩家自己而非孩子们解决的谜语和谜题。这种的例子是用密码写就的文字或是需要正确拼起的地图碎片。你告诉玩家这一麻烦不能通过使用技能解决。通常，这样的谜题会被作为展示材料、文件或是物品交给玩家。<br>更多地图！你应该在谜团进行中画出新的地图（通常是速写），表示场景发生的屋子或是其他地点，这样玩家就能够对在发生的事情有一个大致把握。<br>倒计时。谜团可能呈现出倒计时的形式。事件会一步一步进行，如果孩子们没有阻止它发生的话。在倒计时的最后一步通常会是什么悲剧性的事件，对社区，对孩子们或是其他人。<br><hr />典型的报复性倒计时<br><ul class="bbc_list" style="list-style-type: decimal;"><li>抢劫犯监视孩子们。<li>抢劫犯打电话给孩子们的家长，向他们说谎以让他们强迫孩子们留在家里。<li>抢劫犯威胁孩子们。</ul><hr />你可以定期向前推进倒计时进程而不告诉玩家，然后在一个场景中描述结果。<span class="bbc_u">如果下一步是纵火狂在另一栋房子点了火，你就告诉一个孩子她在半夜被烟雾的气味和尖叫声惊醒。当她看向窗外，她发现邻居家的房子起火了。</span><br>报复性倒计时。谜团同样可以有这样一种倒计时，关于那些敌人、为谜团真相负责的人，如何阻止孩子发现谜团相关内容的。 他们可能尝试去阻止孩子们，甚至攻击他们。这被称为报复性倒计时，它通常会超前于孩子们发现的每条线索一步。<br>敌人给孩子们制造问题，监视他们，威胁他们，甚至攻击他们。<span class="bbc_u">在孩子们发现了帮派成员藏起的现金堆之后，你设立一个情景，一个孩子被校长叫去了。在他课桌里发现了什么违法的东西。帮派成员在尝试陷害他。</span><br>急转是某种发生的难以预测的、在最基础层面改变境遇的事件。这通常发生在第三阶段结尾前，并且经常引向一决胜负。急转可能指向一个地点，一个倒计时或是一个机遇。<br><hr />典型的急转<br><ul class="bbc_list"><li>绑架犯其实是一个好人。他其实想要拯救那些会在将来的可怕暴风中死去的人，这是他用他的未来眼镜预测到的。<li>老女士意想不到的给了孩子们报酬，并在他们并未找回失踪的项链的情况下要他们回家。老女士其实被她的儿子洗脑了，他是一个贼，并且是奇怪设备的发明者。<li>前来拜访其中一位孩子的家人的叔叔其实，是一个机器人。<li>那个观星的学生其实在说谎！刀子上的血其实是她的，现在她正和她想要杀死的人在一起。</ul><hr />第四阶段——一决胜负<br>一决胜负是谜团的终幕。它可是是一个地点，一个人，一件事情或同时是它们全部。孩子们解出了谜团，而他们现在必须阻止坏事发生，可能是释放一个被绑架的孩子，关闭一个传送门或是抓住一个机器人或恐龙。<br>有时，孩子们可能需要警察或是其他大人的帮助，但是通常他们都得自己面对麻烦。你要确保所有的孩子在一决胜负时都在场，从而没有玩家会错过谜团中最重要的场景。一决胜负通常会涉及更多麻烦（70页）。<br>如果孩子们在一决胜负阶段失败了，有时他们能够再试一次。其他情况，一决胜负结束，游戏走向后日谈。就算在一决胜负之后，仍然可能有孩子们不知道的有关谜团的事情。用这些事情创造新的谜团。<br><hr />典型的一决胜负<br><ul class="bbc_list"><li>疯狂科学家在他的藏身地，正要打开一个黑洞。机械斗牛犬守卫着他的藏身地。<li>电子风暴席卷了整个小镇，摧毁了所有的电子设备。孩子们必须用他们已经找到或是制造的道具来让它停下。<li>那个猿人一样的生物正站在大冷却塔的顶端，正准备讲这个建筑传送回它的故乡世界。<li>孩子们终于找到了尸体，半埋在沼泽中。杀手通过望远镜看着他们；她不会让他们去报警的。<li>斯登哈姆拉教堂因为能量而嘎吱作响，飘到了空中。孩子们必须阻止它分解成原子。</ul><hr />第五阶段—后日谈<br>生活继续。在一决胜负之后，你需要为每个孩子设立一个日常生活的场景。这个场景发生在一决胜负后几分钟，几小时或几天的事件。尽管孩子们的英勇行为，事情并未发生改变——父母还是在吵架，数学测验也不会更简单。没人相信孩子们谈论的那些他们看到的奇怪的事情。所有的证据都被摧毁了，或是能以其他方式解释过去。<br>这些场景中没有麻烦。如果小组没有时间，你可以跳过这些场景，而选择让玩家简要描述一下他们的孩子在日常情况下的快照。<br>第六阶段—改变<br>在谜团之后，你和你的玩家应该要讨论一下孩子们是否有改变或是从经历中学到什么。每个玩家大声读出他的孩子的问题，骄傲，特征物品及关系，然后随他喜好改动。<br>多数情况下，这些方面都会保持原样，但如果玩家对他的孩子的某些方面感到厌倦，或是在谜团中发生的什么事情要求他的孩子有改变，那么就应当作出改变。如果孩子解决了他的问题，他应该选择一个新的。使用在谜团中发生的事情作为灵感。<br>所有的不良状况都会在谜团之间痊愈。如果时间过去，孩子度过了他的生日，他的一项属性点数增加1点（见58页）并失去1点幸运点数。一个成长到16岁的孩子会继续生活，并停止解决谜团。玩家需要创建一个新的孩子。<br>玩家可以在谜团间选择不在扮演他现有的孩子而创造一个新的。最好不要有多于一个相同类型的孩子。<br>经验点数<br>在谜团之后，或是在一个章节结束后（如果谜团继续），孩子们会获得经验点数（XP），玩家能使用其来增加技能等级。将五个问题大声读给孩子们听，让玩家们回答它们。每个孩子对一个答案为“是”的问题获得一点经验点数。<br><hr />经验点数用问题<br><ul class="bbc_list"><li>你参加了这一部分吗？（每个出现的孩子至少获得1XP。）<li>你是否因为你的问题或是关系陷入麻烦中？<li>你是否使用了，或是带着你的骄傲努力？<li>你有没有为其他孩子而将自己置身险境？<li>你有没有学到什么新东西？（学到了什么？）</ul><hr />技能增长1消耗5XP。一个技能等级永远不能超过5。孩子最多能存储10XP。他们只能在一部分开始前使用，不能在游戏中使用。<br>营造气氛<br>神秘的环境与气氛是《回环物语》的关键部分。你和你的玩家应该创造出一种在西蒙·斯塔伦海格想象中存在的感觉。<br>为了确定这样的基调，玩家可以描述他们的孩子长什么样子，早餐吃什么，他们如何选择衣服打理头发，或是他们关灯上床前读什么。你可以描述波浪如何冲刷崎岖的悬崖，或是在小镇之上的冷却塔就像末日之柱。有三个主题必须要强调：怀旧，日常和机器。<br>怀旧是从孩子的眼中看到的世界，以及从玩家的眼中看到的童年。自由，发现的机会，捕到你人生中第一条鱼，爬上树顶或是和爸爸一起开车去买汉堡包。<br>日常是枯燥无聊的。大人设好了规则和界限，从不让孩子给自己做决定。那个你妈妈一定要你带的丑帽子，汗湿的袜子，每周一早上的数学课。<br>机器既是日常，也是神奇的一部分。它们总在那里，带着机油与臭氧的味道，吱嘎的行动与笨重的步伐。它们既是吓人的又是迷人的。它们怎么可能会存在呢？大人生活在他们能操纵机器的妄想之中。<br>营造气氛的建议<br><ul class="bbc_list"><li>在谜团的早期营造气氛。从此，每个人都会记得它，并且你不用在之后花很多事件再去描述了。每个桌前的人都有同样的感觉。<li>去看西蒙·斯塔伦海格的艺术作品。<li>描述（一些）细节。你很少要去描述能被看到或是听到的每个东西，但是提供一些细节总是好的。孩子脑后的金发拒绝伏贴下来，岩石上的一只海鸥，机器人的眼睛。<li>调动所有感官。描述孩子看到、听到、问到、尝到、感到的东西。<li>别忘记了季节和天气。这是有着金色油菜花田的夏天，还是有着泥泞田野的秋天？是有在阳光下生长的款冬，还是有复盖着雪的花园？废弃的工厂是在刮风还是下雨？秋风从北方带来了冷空气，在外的家具被深藏在车库中。黑暗中，汽车前灯的光束扫过交叉曲折的道路。<li>心之所在是为家。如果父母总在争斗，屋子就会显得冰冷而不安全。如果有庆祝活动与幸福，窗户都会打开，房间会令人感到温暖而友好。<li>梅拉伦群岛被水包围。不论他们在哪里，孩子们都能看到或闻到湖水。风卷起浪货，带来新捕的鱼的腥气，远处的渔船隐约可见。总能找到作为游泳目的地的小岛或是礁石。这个建议只在瑞典回环设定使用。<li>分担责任。你不应当描述所有东西。向玩家提问题，让他们描述某物什么样子，什么感觉。确保每个人都能有贡献的机会。<li>成年人遥不可及，无法联系上。他们的对话要么使人迷惑，要么毫无意思。他们会在假装听你说话的同时带着警觉的目光。有限的情感，有着太多酒精的派对，关于你活动和朋友的饱含怀疑的问题。<li>使用比喻。货船的残骸躺在一侧，就像受伤的驼鹿；校长的房子就在山顶，像一只巨大的蛤蟆；打向你脸上的一拳听起来就像一本厚书落地的声音。</ul>非玩家角色—人类，生物与机器<br>所有的谜团中都有着一些非玩家角色（NPC），他们要么会阻挠孩子们，要么向他们寻求帮助或是给他们提供帮助。将常见的人与生物，例如记者与看门狗，与机器人和恐龙混杂在一起是好的。NPC会有简要的描述：他们的名字是什么，长什么样子，会做什么事，想要什么，会造成什么麻烦，他们有没有线索。尝试给每个NPC一个突出的细节，以方便玩家持续追踪他们—口吃，戴红色帽子，目光凶狠或是尾巴折断了。有些NPC可能会有特别的属性——这在第五章有详细描述。<br>有时，在谜团的真相背后有着一个敌人，某人直接引发了问题，并且显然不想被阻止。尝试让这些人有差异。世界上很少有绝对邪恶的人—大部分都有他们所作所为背后的原因。他们可能觉得被冒犯了，被拒绝了或是不被理解。<br>物品<br>有时，孩子们会发现十分特别的道具，以至于在特定场合能够享受奖励骰（第四章）。这个奖励能让玩家知道，这一道具是谜团的重要部分。所有的道具都会在谜团之间消失或是损坏，除非将其变成了标志物品。<br>典型物品<br><img src="https://i.loli.net/2018/10/20/5bcb0ef4ae33c.png" alt="" class="bbc_img"/><br>当你在让NPC用枪去对抗孩子们时要当心。玩家可能会觉得同样有必要去武装他们的孩子们，很快谜团就会变成一场枪战。<br>更大的谜团与战役<br>你可以通过扩展第三阶段，提供更多的地点与NPC，来创造出需要几晚进行的更大的谜团。也许画一张一览图（），包含所有的地点、NPC和线索会有帮助，并且让孩子们能够自由的四处行动。<br>几个谜团可以通过一个藏在其后的真相串成一个战役，一个要用许多部分进行游玩的更长的故事。第一个谜团可以作为一个引入，在其中孩子们只能对正在发生的事情知晓一小部分。然后，他们可以继续解决一个或多个谜团来揭露出更多的真相，而整体情况则变得愈发戏剧性而严重。危机在步步逼近。最终的谜团应该特别大场面而危险，有着特定的地点与NPC。<br>在战役中，一些地点与NPC应该反复出现，以营造出故事之间相互联系的感觉。在其中一个谜团中孩子们的行为会在下一谜团中产生影响。一个战役中通常会有一个明确的敌人，一个孩子们必须找到并阻止的人，而他也会试图阻止孩子们。一个战役可以用一个报复性倒计时衍生出几个谜团。<br><hr />更大谜团中的骄傲<br>在需要几个部分解决的谜团中，你可以让孩子们在每一部分而不是整个谜团中使用一次骄傲。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952315">
+&#171; <em>上次编辑: 2018-10-22, 周一 20:00:58 由 oreoinhell@回环物语</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952315_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952316"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952316_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952316">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952316#msg952316" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952316'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952316'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2018-10-04, 周四 21:56:14 &#187;</div>
+<div id="msg_952316_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952316"><span style="color: silver;" class="bbc_color"><span style="font-size: 20pt;" class="bbc_size">第七章</span></span> <span style="color: orange;" class="bbc_color"><span style="font-size: 36pt;" class="bbc_size"><span style="font-family: 方正新综艺简体;" class="bbc_font"><strong>神秘景观</strong></span></span></span>施工中<br><img src="https://i.loli.net/2018/10/04/5bb61cb27c4c9.png" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952316">
+&#171; <em>上次编辑: 2018-10-04, 周四 21:59:31 由 oreoinhell</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952316_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg952337"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_952337_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952337">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg952337#msg952337" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952337'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952337'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2018-10-04, 周四 23:21:52 &#187;</div>
+<div id="msg_952337_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952337"><a href="https://mega.nz/#!dG4DXAbR!-C-WDahYhAIwYqiGwGNrB9TnXmsmHG48sy3TYKjYWyc" class="bbc_link new_win" target="_blank">角色卡下载mega载点，英文版</a></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952337">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_952337_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1019723"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_1019723_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1019723">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1019723#msg1019723" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1019723'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1019723'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2019-11-01, 周五 07:41:37 &#187;</div>
+<div id="msg_1019723_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1019723">首页更新下载链接。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1019723">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1019723_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1019747"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_1019747_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1019747">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1019747#msg1019747" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书开始翻译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1019747'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1019747'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2019-11-01, 周五 12:20:58 &#187;</div>
+<div id="msg_1019747_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1019747"><a href="https://mega.nz/#!ZKpADYjJ!ZsOUnmJSRlG201NC7_x0QCjgQPKOkd3NY_M_dF2onts" class="bbc_link new_win" target="_blank">中文角色卡下载</a></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1019747">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1019747_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1034056"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="检视会员资料:  oreoinhell@回环物语">oreoinhell@回环物语</a>
+</h4>
+<ul class="reset smalltext" id="msg_1034056_extra_info">
+<li class="title">有心无肝奥利奥<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324">
+<img class="avatar" src="/bbs/upload/avatar/avatar_85324_1554979178.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 530<li class="karma">苹果币: 3<li class="blurb">809794640计划提供更多规则的游戏<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" title="碎片航海者的茶会" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="碎片航海者的茶会" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1034056">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1034056#msg1034056" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译基本完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1034056'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1034056'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2020-02-11, 周二 22:46:48 &#187;</div>
+<div id="msg_1034056_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1034056">更新踢。规则部分翻译已经完成。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1034056">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1034056_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=98836.0" class="bbc_link new_win" target="_blank"><strong>次世代跑团部了解一下</strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1720.0" class="bbc_link new_win" target="_blank"><strong><span style="color: goldenrod;" class="bbc_color">碎片航海者的茶会</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105613.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orangered;" class="bbc_color">果园coc官方出版模组翻译列表</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=105977.0" class="bbc_link new_win" target="_blank"><strong><span style="color: Olive;" class="bbc_color">个人模组翻译列表</span></strong></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=103482.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>回环物语规则书翻译基本完工</strong></span></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?topic=104114.0" class="bbc_link new_win" target="_blank"><span style="color: dodgerblue;" class="bbc_color"><strong>把回环带到你的家乡</strong></span></a><br><hr /><a href="http://www.goddessfantasy.net/bbs/index.php?topic=102371.0" class="bbc_link new_win" target="_blank"><span style="color: Maroon;" class="bbc_color"><strong>战役我想坑啊qwq</strong></span></a><br><hr /><table class="bbc_table"><tr><td> CoC新手入门指南视频<br><table class="bbc_table"><tr><td><a href="https://www.bilibili.com/video/av30329095" class="bbc_link new_win" target="_blank">[Vol.0] 你知道克苏鲁神话吗？</a><td>|<td><a href="https://www.bilibili.com/video/av30952055" class="bbc_link new_win" target="_blank">[Vol.1] 我们来跑团吧！ </a><td>|<td><a href="https://www.bilibili.com/video/av32536499" class="bbc_link new_win" target="_blank"><strong>[Vol.2] 调查员和他的朋友们</strong></a></tr></table></tr></table></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1055104"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=96208" title="检视会员资料:  萨斯">萨斯</a>
+</h4>
+<ul class="reset smalltext" id="msg_1055104_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=96208">
+<img class="avatar" src="/bbs/upload/avatar/avatar_96208_1580140034.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 171<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1055104">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1055104#msg1055104" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1055104'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1055104'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2020-05-18, 周一 20:24:07 &#187;</div>
+<div id="msg_1055104_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1055104">太漂亮，打call完整版</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1055104">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1058886"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=123650" title="检视会员资料:  溪午微寒生">溪午微寒生</a>
+</h4>
+<ul class="reset smalltext" id="msg_1058886_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=123650">
+<img class="avatar" src="/bbs/upload/avatar/avatar_123650_1601260712.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 196<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1058886">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1058886#msg1058886" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1058886'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1058886'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2020-06-15, 周一 00:07:05 &#187;</div>
+<div id="msg_1058886_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1058886">我终于学会在WPS里用编辑-编辑文字填PDF人物卡的办法了<del>我是傻子……反正excel做都做了就留着吧</del> <img src="/bbs/Smileys/converted/Lem03.GIF" alt="&#58;em003" title="&#58;em003" border="0" class="smiley"/><br><br><br><a href="https://www.jianguoyun.com/p/DYE0Md4QpsW8CBiRou4D" class="bbc_link new_win" target="_blank">空白人物卡</a><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1058886">
+&#171; <em>上次编辑: 2021-04-19, 周一 23:11:33 由 溪午微寒生</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1079791"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=108805" title="检视会员资料:  tigurius_XXI">tigurius_XXI</a>
+</h4>
+<ul class="reset smalltext" id="msg_1079791_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1079791">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1079791#msg1079791" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1079791'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1079791'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #15 于:</strong> 2020-10-16, 周五 21:19:59 &#187;</div>
+<div id="msg_1079791_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1079791">mega下不了，楼主大大能否给个大陆网盘链接，谢谢啦</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1079791">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114902"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=149340" title="检视会员资料:  ecjane">ecjane</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114902_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 4<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114902">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1114902#msg1114902" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114902'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114902'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #16 于:</strong> 2021-05-27, 周四 10:25:49 &#187;</div>
+<div id="msg_1114902_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114902">疯狂打call！ <img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114902">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1119974"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+</h4>
+<ul class="reset smalltext" id="msg_1119974_extra_info">
+<li class="title">一个渣渣<li class="postgroup">Diver<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=15906">
+<img class="avatar" src="/bbs/upload/avatar/avatar_15906_1403360922.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 2060<li class="karma">苹果币: 5<li class="blurb">不作思考无以前行<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1119974">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1119974#msg1119974" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1119974'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1119974'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #17 于:</strong> 2021-06-23, 周三 10:27:07 &#187;</div>
+<div id="msg_1119974_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1119974">关键技能基本都漏了……</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1119974">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1119974_signature"><table class="bbc_table"><tr><td><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=58357.0;attach=28451;image" alt="" class="bbc_img"/><td><br><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1004.0" class="bbc_link new_win" target="_blank">我的版面·轻规则TRPG芝生居间</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=126835.0" class="bbc_link new_win" target="_blank">自制模组《冰的追求者》</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=125125.0" class="bbc_link new_win" target="_blank">进行中：太空牛仔团《人力资源》</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=126025.0" class="bbc_link new_win" target="_blank">进行中：《小魔女她》</a><br><br><a href="https://hi.imhi.me/" class="bbc_link new_win" target="_blank">我的博客</a></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126777"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76065" title="检视会员资料:  lcg3430">lcg3430</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126777_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 10<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126777">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.msg1126777#msg1126777" rel="nofollow">Re: 回环物语（Tales From the Loop）规则书翻译完成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126777'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126777'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #18 于:</strong> 2021-07-30, 周五 09:11:35 &#187;</div>
+<div id="msg_1126777_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126777">有模组了吗</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126777">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103482.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1732.0"><span>回环物语</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=74719" title="版主">街猫口喵</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85324" title="版主">oreoinhell@回环物语</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103482.0"><span>回环物语（Tales From the Loop）规则书翻译完成</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 103482,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 103482,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="103482" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=103482.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 29343 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1732,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "回环物语",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1732,
+							iTopicId: 103482,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

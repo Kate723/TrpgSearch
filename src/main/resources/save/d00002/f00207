@@ -1,0 +1,794 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="《祸眼花伎》——FATE入门教学团"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>《祸眼花伎》——FATE入门教学团</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="118402"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0"><span>《祸眼花伎》——FATE入门教学团</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1059469"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=118402.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 《祸眼花伎》——FATE入门教学团 &nbsp;(阅读 10646 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 欢快的剧场型跑团介绍文</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=118402.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1059469_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1059469">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1059469#msg1059469" rel="nofollow">《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1059469'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1059469'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2020-06-18, 周四 16:00:40 &#187;</div>
+<div id="msg_1059469_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1059469"><span style="font-size: 14pt;" class="bbc_size">这篇文章主要是为了欢快地向知道何为TRPG的读者展示《命运核心系统》（Fate Core System）这个规则的魅力所在，其中登场的林双生、淑代之与余弦切三位角色出自FATE剧本《容积○》，但故事与该剧本并无关联，即便没有看过《容积○》的人也能看得很开心（指期望）。<br>对于FATE的简单介绍可以看这里https://www.gcores.com/articles/99477。<br>即便你已了解FATE规则，也能从这篇文章中看到一些规则上的运用技巧，能为你带来灵感（指期望）。<br>如果想让新人入坑，可以推荐他阅读本文来了解规则特点。但为了剧情，本文牺牲了很多规则细节，请不要将本文作为规则使用。<br>注：<strong>文章里所有的粗体都代表特征</strong>。<em>所有的斜体都代表重要概念</em>。</span><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————介绍————</span></div><br><span style="font-size: 14pt;" class="bbc_size">林双生：天在呼唤，地在呼唤，大家在呼唤！我是所有人的邻家小妹，17岁的林双生是也！今天我在这里要带一次从如何创建世界到完成一个故事为止的教学团，意在最大化展现《命运核心系统》（Fate Core System）的魅力所在，以便让大家能够喜欢上这个规则。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="https://s1.ax1x.com/2020/08/14/dCzqkn.png" alt="" class="bbc_img"/><br>林双生，看似知性，但实际上性格就像你们所看到的那样。<br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">林双生：总而言之，先有请我们第一位玩家上场，噔噔噔！<br>淑代之：各位好，我是名字很随便，也没有立绘的淑代之，28岁的富二代，兴趣是收集古玩。<br>林双生：书呆……淑代之先生今天有幸出场只是因为作者实在找不到第三个人而已，请大家不要对他抱有过多期待。<br>淑代之：过分！不过时来运转，我身为一个用完即抛的路人（NPC）终于也能转职为玩家角色（PC）了，我会好好努力的。<br>林双生：好好，我会很期待的（敷衍）。接下来要介绍的是我们的第二位玩家，她承载了把整个故事往大作方向引导的重任，有请酷酷的鱼鱼小姐出场！锵锵锵！</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="https://s1.ax1x.com/2020/08/14/dCzLYq.png" alt="" class="bbc_img"/><br>余弦切，看起来酷酷的，但实际上……<br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">余弦切：我是余弦切，23岁的驱魔师——“鱼鱼小姐”是什么？<br>林双生：我给你取的昵称，听起来很可爱不是吗？跟你的名字念起来也很像，我真是个取名字小公主呢！<br>余弦切：…………总之虽然平日里忙着拯救人类，不过偶尔像这样散散心也不坏，请大家多多指教。<br>林双生：鱼鱼小姐真是谦逊呢，不愧是大家族里出来的贵族小姐，相比之下另一个就不怎么样了。<br>淑代之：我可以想象接下来还要再被你这么冷嘲热讽好几次……但为了做PC，我忍了。<br>林双生：那么我们先从创建角色开始吧！这次我们使用的是最新的《命运系统浓缩版》，不过基本上与《命运核心系统》差不多，所以大家不必太在意细节上的差异。<br></span><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————角色创建————</span></div><br><span style="font-size: 14pt;" class="bbc_size">林双生：搭建世界是跑团的开始！你们想拯救世界，还是拯救别人呢？<br>淑代之：有区别吗？<br>林双生：侧重点不同，一个格局更大，一个着眼更小，就好比《碟形世界》与《猫和少年魔笛手》之间的区别吧。<br>淑代之：你这么解释反而更难懂了……不过既然要跑团那就来个宏大点的，拯救世界吧。<br>林双生：那么这次是现代武侠类型的背景设定，在这个架空的现代世界里，有两个隐藏在暗处的组织正在对抗，一个叫做剑宫，负责行侠仗义；另一个叫做大灾，负责为非作歹，怎么样？<br>淑代之：超随便的设定！<br>林双生：在FATE里，创建角色最先要决定的是角色的“<em>特征</em>”。<br>淑代之：特征是什么？<br>林双生：特征是用来概括与描述一个事物的特点的短语，例如淑代之的特征会是<strong>富二代</strong>，而鱼鱼小姐则会是<strong>冰山美人</strong>——不过不单单只有角色才有特征，在FATE里，无论是事还是物都有自己的特征，万物皆特征！<br>淑代之：像是一所小学会有<strong>到处都是小鬼头</strong>，一场末日会是<strong>人们惊慌失措</strong>吗？<br>林双生：没错！你需要创造五个角色特征，首先需要一个核心概念，这用来描述角色的核心本质，例如淑代之的核心概念是<strong>喜好古玩的富二代</strong>；接下来需要一个困扰，代表角色生活中最主要的烦恼，淑代之的困扰就是<strong>总是抢劫犯盯上</strong>；然后是三个其他特征，这些特征没有限制，随便创造。不过为了刚开始轻松点，你们只需要创建核心概念跟困扰就行了，剩下的三个其他特征可以在游戏过程中再写。<br>淑代之：特征在规则上有什么作用吗？不搞懂这个很难写特征耶。<br>林双生：特征的第一种用法是<em>特征即现实</em>，也就是进行事实确立：你是<strong>富二代</strong>，那么你家里必定很有钱；鱼鱼小姐是<strong>冰山美人</strong>，那么必定是个美人儿，呸咯呸咯。<br>余弦切：请不要舔我的脸。<br>淑代之：特征充当了背景介绍的作用吗？如果在战斗中我<strong>双腿骨折</strong>……呃这个说法有点让人不舒服，如果怪物被我们<strong>打断双腿</strong>，那么是不是就没法追逐我们了？<br>林双生：只要它不是<strong>巨大翼龙</strong>的话……特征有几种类型：角色特征，角色拥有的特征都属于这类（例如<strong>巨大翼龙</strong>）；情景特征，这种特征主要描述环境或事物上的特点；增益，这是一种描述临时情况的特征，在激活之后就会消失。<br>淑代之：激活又是什么？<br>林双生：也就是特征的第二种用法，只要你能解释这个特征是如何帮助自己的，就能够支付一个命运点来<em>激活</em>这个特征。激活的效果很简单，你可以在这次掷骰检定中直接获得+2加值，或者重掷一次骰子。<br>淑代之：命运点又是什么？<br>林双生：嗯……有点类似令咒？这是角色的一种资源，代表着“你的角色能在多大程度上影响故事的走向”，游戏中很多地方都会需要支付命运点。<br>淑代之：那我要怎么获得命运点呢？<br>林双生：这就要说到特征的第三种用法了，有时候GM会判断一些特征可能会让你陷入到麻烦当中，例如<strong>富二代</strong>就可能会因为钱而被人盯上，这时候GM会提出<em>驱使</em>这个特征，让故事发生意外困境（<strong>富二代</strong>在银行取救命钱的时候被人抢劫了），如果你接受了这个驱使，那么困境就发生了，你可以因此获得一个命运点作为补偿；或者你也可以支付一个命运点来拒绝驱使。<br>淑代之：我可以自己驱使自己吗？<br>林双生：可以哟！不仅仅如此，有时候你发现自己已经因特征而遇到麻烦了（例如<strong>冰山美人</strong>在需要询问情报的场合里一言不发），即便GM没提出驱使，你也可以提出让GM追补自己一个命运点。甚至你还可以支付命运点去驱使NPC。<br>淑代之：感觉有点像碰瓷。<br>林双生：这是为了鼓励PC进行扮演啦！特征的第四个用法是<em>宣布故事细节</em>，你可以基于特征来往故事里添加一些细节，例如在故事里急需大量现金的时候，在这个手机付款的时代，<strong>富二代</strong>可能“兜里也塞满钞票”。如果你可以用<em>特征即现实</em>来解决，那就不用支付命运点，但如果解释起来有些牵强的话，你就需要支付命运点。毕竟手机付款太方便了，现在真的还有人用现金吗？<br>余弦切：基于工作原因我经常携带银元、铜元或者布币之类的。<br>淑代之：布币？嗯，样式上看起来是春秋最早的那批，但色泽很新，是假货呢，余小姐你在古玩这方面还是太嫩了，以后可以多问问我。<br>林双生：如果你知道鱼鱼小姐的工作环境就不会这么说了……算了这不是重点。在决定特征之后，我们就要决定角色的技能，不过为了更省事些，我们在这里改用《命运核心加速版》里的<em>做派</em>。<br>淑代之：两者有什么区别吗？<br>林双生：默认的<em>技能</em>有19个，这些技能涵盖了你能够做的所有事情，从“战斗”到“意志”再到“共情”这些都属于技能，在一些奇幻世界观下可能还会有“魔法”之类的特有技能。<br>淑代之：技能不是“少数人持有的特殊效果”，而是“所有人都能使用的泛用能力”吗，那么做派呢？<br>林双生：默认的<em>做派</em>只有6个：谨慎、机智、华丽、强劲、迅捷、狡诈，代表的是你倾向于如何行事，而不是你能做到什么事情。这里由于“华丽”不太适合背景，所以我改成了“精湛”。<br>淑代之：有点像是其它游戏里的“属性”呢，强劲代表力量，迅捷代表速度之类的。<br>林双生：虽然不大一样，不过这么理解也没问题。给做派分配+3、+2、+2、+1、+1、+0六个数值之后，要决定角色的特技。<br>淑代之：就是角色的特殊能力对吧，把特技列表亮出来吧！<br>林双生：这个游戏里没有特技列表喔。<br>淑代之：那要怎么决定？玩家自己写吗？这样很难控制平衡性啊。<br>林双生：只有玩家才知道自己想要什么！至于平衡性，虽然规则书里有一套方法可以帮你控制平衡性，不过玩家不一定会按照模板来设计特技，所以基本还是看GM现场判断。特技代表着角色的装备、招式或者能力，它有两种形式，一种可以在特定情景下为你的做派提供+2加值，另外一种则是可以打破规则。基本上特技的价值就等于+2加值啦。<br>淑代之：后一种看起来会让GM很头痛呢。<br>林双生：拿鱼鱼小姐来举例，她有一个叫做“世代人脉”的规则破坏特技，人脉这个技能原本只有在自己拥有熟人的地方才能使用，而由于余家曾是一个有着世代传承的大家族，所以无论哪个时代，鱼鱼小姐都能利用家族的人脉来办事情。<br>淑代之：是哦——等等，“无论哪个时代”……我们不就一个时代吗？是现代对吧？还是说我们已经改朝换代了？<br>林双生：因为鱼鱼小姐是时间穿越者嘛。<br>淑代之：鱼鱼小姐！你那枚布币能不能送给我？<br>余弦切：可以是可以……但在现代值不了多少钱吧。<br>淑代之：我要当作传家宝！<br>林双生：每个角色都能免费获得三个特技，不过在加速版里刚开始只有一个特技，后面两个特技可以在游戏过程中获得。写完特技之后，再写上角色的背景介绍就OK了。<br>淑代之：那么就开工吧。<br></span><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————淑代之的角色————</span></div><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPS0Nn.md.png" alt="" class="bbc_img"/></div><div align="center"><img src="https://s1.ax1x.com/2020/10/18/0j4hmn.png" alt="" class="bbc_img"/></div><br><span style="font-size: 14pt;" class="bbc_size">林双生：看起来意外可靠的大叔角色呢！<br>淑代之：那真是谢谢了。FATE的角色卡还真是简单啊。<br>林双生：迅速上手也是FATE的优点之一，虽然模拟主义的人可能觉得有点随便，但FATE的特色之一就是泛用性极强，可以随意进行改造，不过这个以后有机会再详谈吧。<br>淑代之：说起来角色卡里出现了两个新名词，“重振值”与“聚会”指的是什么？<br>林双生：先解释“<em>聚会</em>”吧，聚会是FATE里的一个时间单位，从我们今天晚上坐在桌子上开始跑团，到回家睡觉为止的这段时间就是一次聚会。而每次聚会开始时，你的命运点如果低于<em>重振值</em>，那么就会恢复到等同于重振值的数量。<br>淑代之：重振值固定为3吗？<br>林双生：在角色升级的时候会增加，不过你可以用重振值来购买特技，一点重振值买一个特技，特技越多，你游戏中的命运点就越少。不过重振值一旦低于一，角色就会变成GM控制的NPC角色，从这个角度来看，重振值可以想象成你在剧情上的韧性，实力越菜的主角在故事里越能依靠意外而活下来嘛。<br>淑代之：游戏开始时有三个免费的特技，然后还能再花两点重振值……也就是说游戏刚开始特技最多可以有五个？我们还真是省略了不少耶。<br>林双生：在游戏过程中你们可以随时再获得特技啦，这里主要是为了能更快点开始跑团。那么接下来让咱们看看鱼鱼小姐的角色吧！<br>余弦切：请。</span><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————余弦切的角色————</span></div><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSJc8.md.png" alt="" class="bbc_img"/></div><div align="center"><img src="https://s1.ax1x.com/2020/10/18/0j44wq.png" alt="" class="bbc_img"/></div><br><span style="font-size: 14pt;" class="bbc_size">淑代之：反差超大？！<br>余弦切：偶尔这样也不坏。<br>林双生：扮演性格完全不同的角色也是跑团的一种醍醐味，没什么好大惊小怪的。<br>淑代之：诶，是这样吗——武器值跟护甲值又是什么？<br>林双生：武器值就是在攻击命中的时候增加伤害，护甲值则相反，一般这是装备才会提供的属性，不过这次游戏里的通常装备不会提供武器值与护甲值，所以就允许作为一个特技来体现了。<br>淑代之：那么夏花的这个特技不是稍微超模了吗？一般特技的价值是+2吧？<br>林双生：嗯，这是出于两点考虑，第一，武器值的价值要略低于加值；第二，这个特技是以武器的形式存在的，有遗失的可能性，所以就送了一点护甲值作为补偿了。<br>淑代之：遗失的话这个特技会怎么样？<br>林双生：在找回来之前这个特技就没法使用了，而如果泪淋漓彻底毁坏了，那么特技会消失，不过重振值会返还给角色。<br>淑代之：仔细一看，夏花虽然是剑圣的弟子，带着的却是一把刀……这也太不中国风了吧。<br>林双生：这就给接下来的故事埋下了一个伏笔，如何解释这一点可能会成为一个不错的剧情。那么既然现在背景设定有了，角色有了，反派也有了，我们可以开始跑团了！<br>淑代之：噢！<br>余弦切：我很期待。</span><br><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————序章————</span></div><br><br><span style="font-size: 14pt;" class="bbc_size">在这块东方大陆之上，剑崇拜文化曾经盛行了数千年，各式各样的流派与传承应运而生，但等到那些咆哮的蒸汽野兽撞碎了古老山河之后，剑道一度失去了应有的辉煌。<br>剑宫吸收了这些快要被遗忘的流派，蛰伏于凡世间，多年来一直沉心于钻研剑道之极、延续血脉——这柄藏鞘已久的宝剑即将出锋。<br>今天是夏花第一次踏出门派的大好日子，她已经年满十六，是时候出门游历，增长经验了。她告别了依依不舍的师傅，心怀兴奋地走上了街道。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：那么为了快速驱动剧情，先来个驱使吧。<br>淑代之：够快！<br>林双生：因为<strong>救世的天命</strong>，夏花备受剑宫期待，因此她的历练要比其他人严格得多，身上一毛钱也没带，怎么样，接受驱使吗？<br>余弦切：可以。<br>林双生：那么由于夏花的重振值是3，所以在故事开始时获得3点命运点，然后现在接受驱使再获得1点，总共4点咯。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花偶然路过商店街的一家小饰品店，看到了自己在山上从来不曾见过的可爱饰物，两眼发光地凑了过去看了半饷，但等她想要掏钱的时候，才记起来自己的零花钱全被长老们一边说着什么“你是我们的骄傲，这点困难应该很快就能解决吧”一边全部没收了。<br>夏花的肚子也突然饿了。<br><br>夏花：“总而言之——先去抢劫吧♪”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：一开场就做出了主角不该做的事情啊？！<br>余弦切：就把这一点视为夏花的一个其他特征<strong>无法无天</strong>吧。<br><img src="https://s1.ax1x.com/2020/08/14/dC6RT1.png" alt="" class="bbc_img"/><br>淑代之：长老们心里真的是对这小祖宗没点儿数啊！</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">另一方面，长伎正打算盗取一件宝物，他好不容易摸进了这个伪装成大酒店的大灾秘密分舵，准备对面前的这把精巧的密码锁下手。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：这么快就到我上场了？<br>林双生：毕竟只是个教学短团嘛，就不浪费太多时间在无关紧要的剧情上了。<br>淑代之：那么请解说一下检定方式吧。<br>林双生：FATE里使用的骰子叫做“命运骰”，是一种特殊的六面骰，上面分别有两个面是[+&nbsp; ]（+1），两个面是[-]（-1），两个面为空白（0）。每次掷骰检定都需要投掷四颗命运骰，所以掷骰结果的范围在-4到+4之间，期望值是0。把掷骰结果加上你要使用的做派的数值，再加上特技之类的加值，最后总和得出的就是你的<em>努力值</em>。<br>淑代之：轻规则的话检定基本都比较简单呢。<br>林双生：对于GM来说这可以减轻工作量，所以我还蛮喜欢的。如果你的努力值低于GM决定的难度就是<em>失败</em>，等于难度是<em>平局</em>，而超出难度就是<em>成功</em>，超出的这些数值称为<em>成功度</em>，而如果你的成功度有3点或以上，那么就是一次大成功，会有特别的奖励。<br>淑代之：那么开锁的难度是多少？<br>林双生：毕竟是严密看管的宝物，难度是5。<br>淑代之：一开始就这么难！期望值是0耶！只能硬着头皮上了……我该用哪个做派？<br>林双生：都行，只要你能解释自己是怎么用这种做派来解决问题的就行。<br><img src="https://s1.ax1x.com/2020/08/14/dC6olD.png" alt="" class="bbc_img"/><br>淑代之：虽然你这么讲，但考虑到长伎的角色设定，其实只有机智（尝试用科技手段快速破解密码）、谨慎（花时间慢慢打开锁）跟强劲（暴力砸开锁）三种做派是可以用的吧，精湛、迅捷跟狡诈不太适合这个场景……这里当然是要使用最高的机智做派了。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎尝试黑进密码锁的系统。<br>长伎进行克服，使用机智（+3）投掷4DF获得[++--]=0，努力值为3。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：果然是0！这就失败了吗？<br>林双生：失败的话，你有两种选择，一种是普通的失败，另外一种是你可以获得成功，但要付出严重的代价。<br><img src="https://s1.ax1x.com/2020/08/14/dC64fK.png" alt="" class="bbc_img"/><br>淑代之：既然是严密看守的宝物，那肯定很重要吧，我选择代价严重的成功。<br>林双生：那么这里的代价就是你暴露了。</span><br></div></div></div><span style="font-size: 14pt;" class="bbc_size"><br>长伎成功打开了密码锁。他从保险箱中找到了一个球形物体，塞进兜里之后准备迅速撤离。<br>长伎：“风紧扯呼！”<br>但就在此时，警报声随之大作，房间里顿时冲进了三四名守卫。<br>长伎：“反应倒挺快的嘛。”<br>长伎想要从敌人之中寻找脱身的空隙。<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：所以这里应该怎么检定？我要用机智吗？<br>林双生：这里就要说到FATE里可以进行的四种行动了：<em>攻击</em>、<em>防御</em>、<em>克服</em>和<em>创造优势</em>。<br><img src="https://s1.ax1x.com/2020/08/14/dC6fFx.png" alt="" class="bbc_img"/><br>林双生：攻击跟防御都能从字面直接理解，而克服指的是翻墙、攀岩这类挑战环境的检定，你刚刚的开锁就是一次克服。前面三种行动在其他TRPG都很常见，因此FATE独有的创造优势就是亮点所在了。在故事里你任何尝试给自己创造优势的行为都属于此类，像是瞄准、寻找敌人招式弱点、事先谋划等等，创造优势可以让你把相应的特征放置在场景或敌人上，搭配<em>特征即现实</em>就能玩出其他TRPG很难在规则上体现出来的花样来。<br><img src="https://s1.ax1x.com/2020/08/14/dC6hY6.png" alt="" class="bbc_img"/><br>淑代之：那么我这里就是用机智来创造优势咯？<br>林双生：没错，这需要对抗守卫的谨慎，另外考虑到你的时间很紧迫，这次守卫会额外得到+1加值。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎进行创造优势，使用机智（+3）投掷4DF获得[+0+-]=+1，努力值为4。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0+-0]=0，努力值为3。<br>长伎看穿了守卫之间的空隙，随后准备使用他那三脚猫的身法突破障碍。<br>长伎进行克服，使用迅捷（+1）投掷4DF获得[-0--]=-3，努力值为-2。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0-00]=-1，努力值为1。<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：可恶！即使免费激活刚刚创造的看穿获得+2也会失败……不对，掷骰结果这么差的话，用激活来重掷会更好，只要掷出0就可以平局了——那么我要激活<strong>看穿</strong>，利用刚刚看到的空隙来躲避守卫的抓捕！<br>林双生：OK。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎免费激活<strong>看穿</strong>进行重掷，迅捷（+1）投掷4DF获得[+000]=+1，努力值为2。<br>虽然险些被抓到，但长伎利用守卫们之间的空隙勉强逃到了大厅的二楼走廊中。<br>长伎：“Adiós！”<br>刚翻身跳下酒店大厅，长伎这才发觉有些不对劲，原本应该人声鼎沸的酒店此时居然一个人影都看不到——不，有一个人影。<br>一位用面具遮住上半脸的白衣男子站在酒店大门前等着他。</span><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPS90J.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">“白神大人！他偷走了‘那个东西’！请拦下他！”二楼的守卫们一边喊着一边从楼梯赶过来。留给长伎的时间不多了。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：看起来是BOSS级角色啊……我可以看出他的深浅吗？<br>林双生：这位“白神大人”散发着不容小觑的气势，可以预见正面跟他交锋是行不通的。你隐约想起大灾仅有的三位护法，其中一位的名字似乎就是白神。你想怎么做？<br>淑代之：明知故问！<br>林双生：那么这里就作为一次竞争来处理吧。<br>淑代之：竞争是什么？<br>林双生：有时候一个骰子就能解决问题，而有时候情景比较复杂，就需要进行多次掷骰检定，在FATE里，有三种处理这种情况的方法：<em>挑战</em>、<em>竞争</em>与<em>冲突</em>。<br><img src="https://s1.ax1x.com/2020/08/14/dC6ISO.png" alt="" class="bbc_img"/><br>林双生：你会连续跟白神进行对抗，每一次对抗都是一次逃跑尝试，只要成功你就能获得一点胜势，获得三点胜势就算你成功逃跑。白神不会获得胜势，但他对抗的成功度会直接转化为对你的压力伤害。<br>淑代之：我现在可以创造优势吗？<br>林双生：无论新手还是老手，总会想找一切机会创造优势……创造优势的前提是你得拥有足够的行动时间，现在这么紧迫的情况下你创造优势的难度会相当高，而且比较耗费时间的行动是不能做的。<br>淑代之：如果我用机智观察对方的身法破绽呢？<br>林双生：会在原来的难度基础上再+2。<br>淑代之：在这里赌一把感觉没什么必要，还是正常行动吧。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎：“这位小哥，能否让个路？”<br>白神一言不发。<br>长伎：“真是倒霉，今天出门前明明看了老黄历了……啊！是外星人！”<br>长伎进行竞争检定，使用狡诈（+1）投掷4DF获得[--+0]=-1，努力值为0。<br>白神进行防御，使用谨慎（+2）投掷4DF获得[+-++]=0，努力值为4。<br>白神不为所动。<br>长伎承受4点压力伤害。<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：这也会吃伤害的吗？！压力是什么？<br>林双生：角色拥有两种血条，<em>压力轨</em>与<em>伤痕格</em>。看起来是这样子的：<br><img src="https://s1.ax1x.com/2020/08/14/dC6T6e.png" alt="" class="bbc_img"/><br>林双生：在《命运核心系统》中，压力轨分为<em>生理</em>与<em>精神</em>两种，不过在《命运系统加速版》中压力轨是混合的，无论是精神上的伤害还是肉体上的伤害，都可以用压力轨里的压力格吸收。你可以把压力轨简单地理解成角色在剧情上的主角光环，划掉压力格代表你险险闪过了攻击，但一次伤害中你只能划掉一个压力格，不同的压力格能吸收不同数量的压力伤害（分别是1、2、3点压力）。如果你的压力格无法完全吸收伤害，那就需要使用伤痕格来吸收了，伤痕格也有三格，能吸收的压力比压力格更多，但是！伤痕意味着受伤，你要在伤痕格后面写上一个代表伤势的特征，同时造成这个伤痕的敌人可以免费激活一次这个伤痕。另外伤痕不会找零。<br>淑代之：意思是尽量不要吃伤痕咯……压力轨跟伤痕格可以恢复吗？<br>林双生：只要有机会休息，压力轨在更换场景之后就可以全部恢复，而伤痕需要先进行治疗进入<em>痊愈状态</em>才能开始恢复。轻微伤痕在痊愈状态中经过一整个场景就能恢复，中度是一整次聚会，严重则是一次重要里程碑。<br>淑代之：一次吃了4点伤害，必须得承受一个伤痕了，那最合算的就是使用[2]压力格跟轻微伤痕吧……那就这样。</span><br><img src="https://s1.ax1x.com/2020/08/14/dC67OH.png" alt="" class="bbc_img"/></div></div></div><br><br><span style="font-size: 14pt;" class="bbc_size">看到敌人根本不为所动，长伎跪倒在地上，陷入了严重的<strong>自我怀疑</strong>之中。<br>长伎：“我的演技原来有这么烂吗…………骗你的！”<br>长伎猛然起身朝大门冲去。<br>长伎进行竞争检定，使用迅捷（+1）投掷4DF获得[0++0]=+2，努力值为3。<br>白神进行防御，使用谨慎（+2）投掷4DF获得[0+0-]=0，努力值为2。<br>趁着敌人没反应过来，长伎迅速窜出了酒店大门。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：好！一点胜势到手！不过我发觉长伎在逃跑这方面太弱势了，现在能不能让我获得一个特技？<br>林双生：可以，前三个特技都是免费的，所以这里就看作你一直会这个特技，只不过现在才揭示出来而已。<br>淑代之：那就这样：<br><img src="https://s1.ax1x.com/2020/08/14/dC6bmd.png" alt="" class="bbc_img"/><br>林双生：那么现在场景更换了，不过因为你没有空闲休息，所以压力格不会恢复。</span><br></div></div></div><br><img src="https://s1.ax1x.com/2020/08/14/dC6q0A.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">长伎进行竞争检定，使用迅捷（+1）投掷4DF获得[+0+0]=+2，由于特技+2，努力值为5。<br>白神进行防御，使用迅捷（+3）投掷4DF获得[0-0-]=-2，努力值为1。<br>长伎获得一点胜势。<br>长伎施展身法在人群中迅速穿行，渐渐与白神拉开了距离。<br>长伎进行竞争检定，使用迅捷（+1）投掷4DF获得[0---]=-3，由于特技+2，努力值为0。<br>白神进行防御，使用迅捷（+3）投掷4DF获得[000-]=-1，努力值为2。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：关键时刻不能掉链子，我要使用命运点激活大街的场景特征<strong>人来人往</strong>，长伎钻入人群让白神难以继续追逐！</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎支付命运点激活<strong>人来人往</strong>进行重掷，迅捷（+1）投掷4DF获得[00+0]=+1，由于曳影步+2，努力值为4。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">长伎：好，成功逃掉了！<br>林双生：太嫩了！</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">白神免费激活<strong>自我怀疑</strong>获得+2，努力值为4。<br>长伎还未从<strong>自我怀疑</strong>中彻底缓过来，他的身法没能完全施展看来，因此在穿过一幢建筑物的时候不小心撞上了一位路人。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：什么？！……呃，平局要怎么算？<br>林双生：在竞争里平局的话，双方都不会获得胜势，但会发生让情况大变的意外状况，所以……</span><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎撞到的是一位他非常眼熟的少女。<br>夏花：“好痛！你走路不长眼吗？……呃，长伎叔？”<br>长伎：“夏花？你怎么在这里——哦对，今天是你出门游历的日子……不对没空扯淡了！快逃！”<br>夏花：“等一下，我正在抢银行呢！”<br>长伎：“我的耳朵好像不太好使了，你再说一遍？”<br>夏花：“我·在·抢·银·行！喂那位小姐，请把你柜台下的手从报警按钮上移开，你是什么血型？O型？我的剑很爱喝的哟。”<br>长伎这才发现夏花正把剑架在瑟瑟发抖的银行女职员脖子上。银行的保安们正神情戒备地与夏花对峙。<br><img src="https://s1.ax1x.com/2020/08/14/dC6LTI.png" alt="" class="bbc_img"/><br>长伎：“姑奶奶！”<br>长伎哀嚎一声，一把扯过夏花，迅速朝银行外面冲去，白神紧紧追在两个人身后。<br>夏花：“什、什么，到底怎么了嘛！后面那个酷酷的人是谁？”<br>长伎：“大灾的护法！”<br>夏花这才发现身后的那个人看着很像她偶然在长老房间里看到的重要敌人画像，这似乎是已存活数百年的老怪物。<br>夏花：“亲叔叔！”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：两个人一起竞争的话要怎么算？<br>林双生：这里就使用<em>团队合作</em>规则吧。<br><img src="https://s1.ax1x.com/2020/08/14/dC6Xkt.png" alt="" class="bbc_img"/><br>林双生：无论你们打算用技能叠加还是优势叠加都行，但在竞争里创造优势有个风险，如果失败的话，要么选择团队放弃本次竞争检定，要么就是有代价的成功，敌人可以免费激活你创造的特征。<br>淑代之：回合顺序是怎么样的？<br>林双生：加速版里是按照迅捷做派来确定物理冲突的行动顺序，不过在这里就使用浓缩版的自选顺序吧，根据情景选择一个角色先行动，然后控制该角色的玩家指定下一个角色行动。不过这里白神不会主动行动，所以你们随便选个人先动吧。<br>淑代之：夏花的迅捷有3，不过我由于特技加值，实际上也有3，如果用技能叠加的话可以稳定+4，而优势叠加则有机会+5吗……<br>余弦切：那么我先试试创造优势吧。</span><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花从口袋里掏出飞针，回身向白神疾射，意图减缓对方的速度。<br>夏花进行创造优势，使用狡诈（+2）投掷4DF获得[0+-0]=0，努力值为2。<br>白神进行防御，使用精湛（+4）投掷4DF获得[0+00]=+1，努力值为5。<br>白神发动特技：破招。</span><br><img src="https://s1.ax1x.com/2020/08/14/dC6jtP.png" alt="" class="bbc_img"/><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSkfx.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">白神轻巧地避开了飞针，顺手接住了其中几只，反射向夏花，这让周围的<strong>人群骚动</strong>起来。<br>夏花承受2点压力。压力轨：[1][×][3]<br>夏花：“呀！差点就射到我了！在大街上乱丢暗器还有没有公德心了！”<br>长伎：“你脸皮这么厚的话就算射中应该问题也不大吧。”<br>长伎进行竞争检定，使用迅捷（+1）投掷4DF获得[0+00]=+1，由于特技+2，努力值为4。<br>白神进行防御，使用迅捷（+3）投掷4DF获得[0++-]=+1，努力值为4。<br>白神免费激活<strong>人群骚动</strong>获得+2，努力值为6。<br>白神支付命运点激活<strong>心系未来</strong>获得+2，努力值为8。<br>飞针射向了人群，长伎忽然发现人群有着孩子，下意识地停下脚步挡住了飞针。<br>长伎与夏花承受4点压力。<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：等等，敌人可以激活我的角色特征吗？<br>林双生：只要能解释如何造成效果的，特征就都可以激活跟驱使。不过激活对手的特征属于敌意激活，白神支付的命运点在场景结束后会交到你手里。<br>淑代之：NPC不是没有重振值吗？为什么会有命运点？<br>林双生：NPC的命运点是由GM支付的，GM在场景开始时获得等同于PC数量的命运点，也就是说你们就是我的重振值。</span></div></div></div><br><img src="https://s1.ax1x.com/2020/08/14/dC6vff.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">正回头看着白神下一步动作的夏花被长伎一挡，立马摔倒在了地上。<br>夏花：“啊哟哟，痛死了，叔叔啊……”<br>长伎：“少卖娇，还不是怪你瞎出招！”<br>夏花进行竞争检定，使用迅捷（+3）投掷4DF获得[0--0]=-2，由于团队合作+1，努力值为2。<br>白神进行防御，使用迅捷（+3）投掷4DF获得[0+++]=+3，努力值为6。<br>白神免费激活<strong>膝盖擦伤</strong>、<strong>飞针入背</strong>获得+4，努力值为10。<br>白神支付命运点激活<strong>人群骚动</strong>获得+2，努力值为12。<br>长伎与夏花承受10点压力。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：等等等等，你这也太过分了吧！一次只能用一个压力格，现在我一次最多吃9点，10点压力我直接人没了啊！<br>林双生：呃，一看有机会就……不过你们为什么不用命运点？<br>淑代之：因为想等到关键的时候再用……<br>林双生：现在不就很关键了吗！而且每次聚会命运点都会恢复，不用这么抠啦！你玩RPG游戏一定是那种把珍惜道具留着直到通关也不用的类型吧！<br>淑代之：你怎么知道的！不过吃不下伤害的话会怎么样？死掉吗？<br>林双生：在掷骰之前，你可以选择退让直接认输，这样的好处是可以自己决定自己的下场，还能获得一个命运点，并且冲突里每承受一个伤痕就能再获得一个命运点。不过现在骰子落地，你就只能选择出局了，敌人会决定你的下场，同时你没有命运点可以拿。<br>淑代之：这才游戏刚开始，不至于直接让我死吧……那我出局好了，因为白神的敌意激活，我可以获得一个命运点。<br>余弦切：那我选择退让，一个人抵抗也没有太大意义了。<br>林双生：退让一点，伤痕三点，加上之前的驱使……你的命运点现在有八点，有够多耶。那夏花的下场是什么？<br>余弦切：跟淑代之一样就行。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">趁着长伎与夏花受伤，白神踩着几个路人的肩膀直接跃到两人身边，一股巨力从两人背部传来，两人瞬间晕了过去。</span><br><br><img src="https://s1.ax1x.com/2020/08/14/dCcS1S.png" alt="" class="bbc_img"/><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————第一章————</span></div><br><img src="https://s1.ax1x.com/2020/08/14/dC6zp8.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">你们醒来后，发现自己躺在一间牢房中，透过牢房的铁栏杆，你们能看到在昏暗的走廊尽头有一名守卫坐在桌子前打鼾。<br>夏花：“哎呀，比起被警察抓住，这应该还算好吧。”<br>长伎：“一点也不好，警察至少不会想杀掉你吧！话说你作为剑宫之人居然在抢劫也太丢份子了吧！”<br>夏花：“谁让那群死老头没收了我的零花钱。”（撇脸）<br>长伎：“有命活着回去的话，我一定要跟你的师傅打报告。”<br>夏花：“不、不要啊！你这样的话我就不得不考虑在这里把你灭口了呢……！”<br>长伎：“你这死孩子，看来你师傅真的是把你揍得少了，今天我就替你师傅教训你一下！”<br>两人有气无力的打了一阵子，最终因为伤势太重而不得不停下来。<br>长伎：“呼……呼……背部要裂开了……”<br>夏花：“全身都在痛……”<br>长伎：“总之先想办法逃出去吧……”<br>开锁的难度为3。<br>长伎进行克服，使用机智（+3）投掷4DF获得[00-0]=-1，努力值为2。<br>这个锁的难度超出了长伎的预料，他陷入了苦战。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：唔，可以把守卫引过来让我偷钥匙吗？<br>林双生：那么这里就视为一次挑战吧。<br><img src="https://s1.ax1x.com/2020/08/14/dCcp6g.png" alt="" class="bbc_img"/><br>林双生：挑战会由多次克服检定组成，每个检定都环环相扣。因为你们只有两个人，所以这次挑战只有两个检定，首先要将守卫引过来，难度是3；然后再偷钥匙，难度是4。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花：“看来还是要靠我。”<br>夏花进行克服，使用狡诈（+2）投掷4DF获得[0+0-]=0，努力值为2。<br>夏花揭示自己的角色特征：<strong>巧笑倩兮，诡计多兮</strong>。<br><img src="https://s1.ax1x.com/2020/08/14/dCc9XQ.png" alt="" class="bbc_img"/><br>夏花支付命运点激活<strong>巧笑倩兮，诡计多兮</strong>获得+2，努力值为4。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：为了不被打脸还真是拼命啊……</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花对着栏杆外的守卫搔首弄姿。<br>夏花：“那位小哥哥，要不要跟人家来玩玩呀♥”<br>守卫走了过来，斜着眼睛看着夏花嘲讽了一句：“毛都没长齐的小屁孩有什么好玩的。”<br>夏花：“什……？！你这家伙，敢不敢跟我来比划比划！”<br>守卫：“等你的胸有B杯罩再说吧！哈哈哈！”<br>夏花小脸涨得通红，作势要上去跟栏杆外的守卫拼命。<br>夏花：“人家已经有B杯罩了！”<br>长伎：“好了好了，没必要为了面子而硬撒谎，世界上还是有人喜欢贫乳的。”<br>夏花：“我要揍扁你们！”<br>长伎连忙在栏杆前拦住了夏花，借着夏花的掩护对守卫下手。<br>长伎发动特技：妙手空空。</span><br><img src="https://s1.ax1x.com/2020/08/14/dCcPmj.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">欺负小姑娘让守卫感到心情舒爽，他摇头晃脑地又回到了自己的座位上。<br>夏花：“怎么样，偷到了吗？”<br>长伎：“小意思。”<br>长伎用刚刚假装拦下夏花时顺手偷到的钥匙打开了牢门。<br>长伎：“好，干掉守卫吧。”<br>夏花拦住了长伎，示意让她来下手，看来她对刚才的嘲讽还怀恨在心。<br>夏花悄悄摸向守卫。<br>夏花进行克服，使用狡诈（+2）投掷4DF获得[0+00]=+1，努力值为3。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0-0-]=-2，努力值为0。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：这是一次克服行动，获得大成功的话可以获得一个能够免费激活的增益。另外你还要再进行一次攻击检定，这次攻击视为一次伏击，守卫的防御直接视为0。<br>淑代之：守卫的血条有多少？<br>林双生：差不多这样吧。<br><img src="https://s1.ax1x.com/2020/08/14/dCci0s.png" alt="" class="bbc_img"/><br>淑代之：意思是只要造成6点压力就能直接让他出局了，上吧鱼鱼小姐！</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">守卫<strong>浑然不觉</strong>夏花的接近。<br>夏花进行攻击，使用迅捷（+3）投掷4DF获得[0+00]=+1，努力值为4。<br>夏花免费激活<strong>浑然不觉</strong>获得+2，努力值为6。<br>守卫被夏花干净利落地一招打晕。两人在附近的储物柜里找回了自己的道具。<br>长伎：“先让我处理一下伤势吧……”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：要怎么让伤痕进入痊愈状态？<br>林双生：用医学进行克服，难度等于伤痕的等级，轻微是2，中度是4，严重是6。<br>淑代之：掷骰六次有点麻烦，能不能一次性解决？<br>林双生：那就稍微房规一下吧，以等级最高的伤痕为基础难度，每一个伤痕会让难度再+1，所以克服难度是8，你得要骰两次，分别是医治自己跟医治夏花。<br>淑代之：那么我在这里揭示一个特技吧。</span><br><img src="https://s1.ax1x.com/2020/08/14/dCcF7n.png" alt="" class="bbc_img"/></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎先对自己处理伤势。<br>长伎使用机智（+3）投掷4DF获得[0++0]=+2，由于特技+2，努力值为7。<br>长伎支付命运点激活<strong>心系未来</strong>获得+2，努力值为9。<br>由于常年照顾练武的孩子，长伎对医疗跌打伤势有着不少心得。他顺利完成了自己的伤势处理。<br>长伎：“轮到你了，这可能会有点痛。”<br>长伎使用机智（+3）投掷4DF获得[0+++]=+3，由于特技+2，努力值为8。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：克服获得平局的话可以选择代价轻微的成功，这里的代价就是下个场景夏花获得<strong>浑身疼痛</strong>的增益吧，敌人可以免费激活。现在长伎的命运点有3，夏花则是7。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花：“痛痛痛痛痛！这根本不是‘有点痛’的程度吧？！”<br>长伎：“别抱怨了，差点被那人给一掌拍死，这种伤势只是痛一下就能处理已经很好了。”<br>夏花：“总之先看看牢房外面是什么情况吧。”<br>两人打开牢房的门偷偷观察外面，发现自己位于一个建筑物之中，附近看不到窗户，不过根据装潢，长伎发现似乎是之前他潜入的秘密分舵，也就是酒店。<br>长伎：“这里应该是伪装成酒店的大灾分舵，只要装成顾客就能混出去了吧。”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：这里我要驱使一下长伎的<strong>心系未来</strong>，你们在牢房里还发现了一些囚禁起来的孩子，他们说自己被诱拐了。<br>淑代之：行侠仗义不容拒绝！<br>林双生：那么长伎的命运点又回到4了。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">回到牢房，两人发现这里还关着三个看似只有七八岁的孩子。<br>长伎：“这些混账居然还做人贩子交易吗？不要怕，我是来救你们出去的。”<br>看到长伎靠近，孩子们有些害怕地靠到了墙角。<br>夏花：“别怕别怕，跟姐姐一块儿走好不好？”<br>夏花在剑宫是个孩子王，孩子们很快就在笑容灿烂的她面前放下了戒心。<br>长伎：“有点伤心……”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：那么就开始冲突了。<br><img src="https://s1.ax1x.com/2020/08/14/dCcAkq.png" alt="" class="bbc_img"/><br>淑代之：诶？！这里不该是一场竞争吗？我们可没想打架啊。<br>林双生：老是一样的场景我会腻啦！不过你们现在这种情况确实很容易出局，那就结合运用三法则吧。<br><img src="https://s1.ax1x.com/2020/08/14/dCcVhV.png" alt="" class="bbc_img"/><br><img src="https://s1.ax1x.com/2020/08/14/dCcepT.png" alt="" class="bbc_img"/><br>林双生：先将“秘密分舵”具象化为一个敌人，然后考虑到你们并不期望受伤，所以将这场冲突改为“秘密分舵”令自己出局也能导致胜利。<br>淑代之：哦哦，这样一看就有趣多了呢！在冲突中我们能做什么？<br>林双生：冲突按轮来进行，在一轮里，每个角色都可以在自己的回合里选择一个行动（创造优势、克服、攻击）进行，防御是被动的，只要情景允许，你就可以在其他人的回合进行防御。原本冲突还会有地图的，不过这个场景比较简单，就先忽略了吧。长伎先行动！</span><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">冲突第一轮。<br><br>长伎决定先观察一下可能的移动路线。<br>长伎进行创造优势，使用机智（+3）投掷4DF获得[0+-0]=0，努力值为3。<br>暗银酒店进行防御，使用巡逻（+2）投掷4DF获得[0+0-]=0，努力值为2。<br>长伎发现了<strong>最佳移动路线</strong>。<br>夏花：“GO GO GO！”<br>夏花进行攻击，使用迅捷（+3）投掷4DF获得[0++0]=+2，努力值为5。<br>暗银酒店进行防御，使用巡逻（+2）投掷4DF获得[00--]=-2，由于特技+2，努力值为2。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：在攻击中获得大成功会有特别奖励哦。<br><img src="https://s1.ax1x.com/2020/08/14/dCcEt0.png" alt="" class="bbc_img"/><br>余弦切：考虑到数值，获得增益会更好些。<br>淑代之：不过增益代表的是特别短暂的特征吧？也就是说情景一变就有可能消失，算是有利有弊吧。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花选择减少1点成功度获得增益。<br>暗银酒店受到1点出逃压力。出逃：[×][2][3]。<br>夏花趁着<strong>时机恰好</strong>，带着孩子们顺利在不引起注意的情况下接近了出口。<br>酒店里的服务员们来回走动。<br>暗银酒店进行攻击，使用巡逻（+2）投掷4DF获得[00++]=+2，努力值为4。<br>夏花进行防御，使用狡诈（+2）投掷4DF获得[000+]=+1，努力值为3。<br>由于特技，暗银酒店受到3点出逃压力。出逃：[1][2][×]。<br>&nbsp; &nbsp; <br>冲突第二轮。<br>夏花：“这群服务员真烦。”<br>夏花决定一个人冲出去干掉几个在必经之路上徘徊的服务员。<br>夏花进行创造优势，使用迅捷（+3）投掷4DF获得[0+0+]=+1，努力值为5。<br>暗银酒店进行防御，使用巡逻（+2）投掷4DF获得[00-+]=0，努力值为2。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：为了阻止夏花大成功，这里就把长伎处理伤势时的<strong>浑身疼痛</strong>增益利用一下吧。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">暗银酒店免费激活<strong>浑身疼痛</strong>获得+2，努力值为4。<br>夏花在被发现之前利索地干掉了两个服务员以<strong>减少障碍</strong>，迅速将他们拖到附近的包厢里藏起来。<br>长伎：“让我看看怎么移动比较合适……”<br>长伎一边谨慎观察一边带着孩子们移动。<br>长伎进行攻击，使用谨慎（+2）投掷4DF获得[0+0-]=0，努力值为2。<br>暗银酒店进行防御，使用巡逻（+2）投掷4DF获得[0-00]=-1，由于特技+2，努力值为3。<br>长伎免费激活<strong>时机恰好</strong>、<strong>减少障碍</strong>获得+4，努力值为6。<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：等等，这里只要利用暗银酒店的“顾客至上”特技的话……</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎支付命运点激活<strong>酒店服务</strong>获得+3，努力值为9。<br>暗银酒店受到6点压力，出局。<br>长伎冲进其中一个有客人的包厢大闹特闹，在客人叫服务员时迅速溜了出来，借着这股混乱成功带着孩子们逃出了酒店。<br>他们来到附近的一个小巷子，暂时歇了口气。现在天色已暗，已经快晚上八点了。<br>长伎：“呼，年纪大了，真是玩不动了。”<br>夏花：“长伎叔怎么知道那个酒店是大灾秘密分舵的？里面的服务员看起来还像模像样的呢。”<br>长伎：“有剑宫的线人探听到这个酒店里保管着一个叫做‘祸眼’的宝物，据说相当危险，所以我就想来这里搞下破坏，没想到有大灾的护法在这里守着，显然情报是真的。”<br>孩子们听到“祸眼”这个字眼，有了反应。<br>“我在牢里的时候有听到守卫在说‘祸眼’呢。”<br>“对对对，他们还说满月的时候就要举行什么仪式之类的。”<br>长伎：“满月？我记得……”<br>长伎想起今晚九点正是满月之时。<br>长伎：“他们有说在哪里举行吗？”<br>“没有，但有说什么‘坎上艮下’之类的。”<br>长伎：“坎上艮下？蹇卦？难道……附近有没有山上有河水的大山来着？”<br>长伎查了下手机，附近确实有一座符合条件大山，叫做雷雨山，过去需要两三小时的时间。<br>长伎：“现在是八点，过去要两三个小时……要赶紧了，希望我没有猜错，夏花我们走！”<br>夏花：“诶——我也要去吗——”<br>两人把孩子们送到附近的警察局。长伎决定在附近先偷一辆车。<br>长伎进行克服，难度为2，使用狡诈（+1）投掷4DF获得[0+0+]=+2，努力值为3。<br>夏花：“我来开车吧，你来导航！”<br>长伎：“你啥时候学的车啊……有驾照吗？”<br>夏花：“怎么可能有嘛，当然是我在剑宫的时候偷偷练的！”<br>长伎：“我现在还有机会下车吗？”<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：那么这里就使用克服检定来判断你们会花多少时间吧，由于<strong>警察通缉</strong>的存在，基础难度比较高，是4，基础时间则是“两三小时”。</span><br><img src="https://s1.ax1x.com/2020/08/14/dCcm1U.png" alt="" class="bbc_img"/><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">长伎迅速操作手机调查最近的路线。<br>长伎进行创造优势，难度为2，使用机智（+3）投掷4DF获得[0+-0]=0，努力值为3。<br>长伎：“<strong>前面左拐，然后过草坪！</strong>”<br>夏花进行克服，难度为4，使用迅捷（+3）投掷4DF获得[0000]=0，努力值为3。<br>夏花免费激活<strong>前面左拐，然后过草坪！</strong>获得+2，努力值为5。<br>在闯过大量红灯以及地图上标明不可通过的区域之后，两人成功在一小时里赶到了雷雨山。</span><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————终章————</span></div><br><img src="https://s1.ax1x.com/2020/08/14/dCcncF.png" alt="" class="bbc_img"/><br><img src="https://s1.ax1x.com/2020/08/14/dCcuX4.png" alt="" class="bbc_img"/><br><span style="font-size: 14pt;" class="bbc_size">两人及时赶到了雷雨山顶，这里常年没有游客，山顶又相当空旷，确实是个干坏事的好地方。<br>长伎成功偷到过的那个圆球形宝物正漂浮在山顶大河的另一边，映照着月光，白神就站在旁边。而在长伎与夏花这一头，有两个守卫在这里。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：第一章过后就直接终章了！话说我们的伤痕是不是可以恢复了？<br>林双生：那么更新下数据吧，按照长度已经是第二次聚会了，所以就让你们的中度伤痕也恢复了。<br><img src="https://s1.ax1x.com/2020/08/14/dCcQB9.png" alt="" class="bbc_img"/><br>林双生：这次冲突的地图分为两个区域，正常来说你在自己的回合里可以免费移动一个区域，不过这张地图里的河流需要你使用一次行动，进行难度2的克服检定才能从区域A移动到区域B。<br>余弦切：先让我搞定这两个喽啰吧。</span><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">冲突第一轮。<br>夏花开着车冲进了山顶，一个漂亮的急刹车之后，夏花从车窗翻身跃出，借着刹车的惯性旋身飞到了两个喽啰身边。</span><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSeXD.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">夏花揭示自己的特技：剑闪百花。</span><br><img src="https://s1.ax1x.com/2020/08/14/dCcMnJ.png" alt="" class="bbc_img"/><br><span style="font-size: 14pt;" class="bbc_size">夏花进行攻击，使用精湛（+2）投掷4DF获得[+0+0]=+2，由于特技+2，努力值为6。<br>喽啰A进行防御，使用谨慎（+2）投掷4DF获得[+0-0]=0，努力值为2。<br>喽啰B进行防御，使用谨慎（+2）投掷4DF获得[--00]=-2，努力值为0。<br>由于夏花拥有武器值：2，喽啰A、B出局。</span><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSnne.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">虽然半身仍在空中旋转，但夏花右手握住手中伞柄，刀光仿佛百花刹那绽放——下个呼吸，夏花已稳稳落地，刀入伞鞘，两位喽啰失去意识的身体这才摔倒在地。<br>夏花：“开胃小菜。”<br>长伎：“呜呕……你这最后的刹车也太过分了……”<br>长伎晃悠悠地从副驾驶室爬出来，观察了下四周。<br>长伎进行克服，难度为2，使用机智（+3）投掷4DF获得[+0-0]=0，努力值为3。<br>满月高悬，月照大江，长伎看出了点门道。<br>长伎：“王臣蹇蹇，匪躬之故……阵眼是‘祸眼’，而生门是白神吗？”<br>夏花：“意思是只能打倒那个护法？直接破坏祸眼不行吗？”<br>长伎：“可以，但很难，而且后果也没法预料，最好是能够先打倒白神，再由我慢慢研究怎么破解这个阵法。”<br>夏花：“你可真会想噢。”</span><br><br><img src="https://s1.ax1x.com/2020/08/14/dCcl7R.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">白神冷冷地看着长伎与夏花，没有行动。<br>长伎：“为什么不过来……？是了，他现在在阵法之中，没法轻易行动！”</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：原本这里需要创造优势才能揭露特征的，但你居然没有进行检定就看出来了！好吧，作为奖励，这里就房规一下，直接视为创造优势大成功。</span><br><img src="https://s1.ax1x.com/2020/10/18/0jbuhq.png" alt="" class="bbc_img"/></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">冲突第二轮。<br><br>长伎进行移动，难度为2，使用谨慎（+2）投掷4DF获得[++-0]=+1，努力值为3。<br>夏花进行移动，难度为2，使用精湛（+3）投掷4DF获得[+0-0]=0，努力值为3。<br>长伎谨慎地踩着河流上的石块，夏花则是一个漂亮的凌空一跃，两人顺利渡过河流来到区域B。<br><br>冲突第三轮。<br><br>白神动了。他拔起插在身后的一把剑，这把剑的剑身上缠着锈蚀的锁链，看起来造型相当古怪。<br>白神进行攻击，使用迅捷（+3）投掷4DF获得[-0+-]=-1，努力值为2。<br>夏花进行防御，使用迅捷（+3）投掷4DF获得[0-00]=-1，努力值为2。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：白神拥有2点武器值，而武器值会在平局时也能造成伤害，所以就算夏花有泪淋漓提供1点护甲值，他也还是能造成1点压力伤害哦。<br>余弦切：没问题。</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">面对对手高超的剑技，经过师傅千锤百炼过的夏花沉着应对，避开了大部分攻击，但还是被白神的剑尖划伤皮肤带走了几滴鲜血。在尝到鲜血后，系在剑脊上的锁链随之解了开来，仿佛女鬼发丝般飘荡在空中——原本被束缚在锁链中的剑刃现在露了出来，散发着不祥的气息。<br>白神触发武器特技：渴望。</span><br><img src="https://s1.ax1x.com/2020/11/01/BwNJIg.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">长伎：“让我先研究一下这个阵法吧。”<br>长伎进行创造优势，使用机智（+3）投掷4DF获得[-+0+]=+1，努力值为4。<br>祸眼之阵进行防御，使用阵法变换（+3）投掷4DF获得[-++0]=+1，努力值为4。<br>保持在安全距离之外，长伎<strong>暂时看穿</strong>了阵法的运行路线。<br>夏花：“换我来攻了！”<br>夏花进行攻击，使用迅捷（+3）投掷4DF获得[+00+]=+2，努力值为5。<br>白神进行防御，使用精湛（+4）投掷4DF获得[0+0+]=+2，努力值为6。<br>夏花免费激活<strong>暂时看穿</strong>获得+2，努力值为7。<br>夏花支付命运点激活<strong>剑圣之徒</strong>获得+2，努力值为9。<br>白神发动特技：圈域。</span><br><img src="https://s1.ax1x.com/2020/11/01/BwNlsP.png" alt="" class="bbc_img"/><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSFt1.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">白神承受3点生门压力。压力轨：[1][2][×]<br></span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：好强的特技！一下子封印了夏花的最大武器！<br>林双生：你们可以使用免费激活来对付白神，支付的命运点就退还给你了。<br>余弦切：唔……</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">夏花拔出泪淋漓向白神斩去，但空气忽然变得凝滞起来，刀刃稍微慢了一瞬，而在高手过招当中，这一瞬便能决定胜负。白神闪过了夏花的攻击。<br>夏花：“剑气场？！这家伙不好对付，长伎叔帮帮忙！”<br><br>冲突第四轮。<br><br>长伎进行创造优势，使用机智（+3）投掷4DF获得[-00+]=0，努力值为3。<br>祸眼之阵进行防御，使用阵法变换（+3）投掷4DF获得[-0-0]=-2，努力值为1。<br>长伎：“<strong>坎上艮下</strong>，先攻左耳，再攻右手！”<br>夏花：“来了！”<br>夏花进行攻击，使用迅捷（+3）投掷4DF获得[++-0]=+1，努力值为4。<br>白神进行防御，使用精湛（+4）投掷4DF获得[0-0+]=0，努力值为4。<br>夏花免费激活<strong>坎上艮下</strong>获得+2，努力值为6。<br>白神受到4点生门压力。压力轨：[1][×][×]；轻微伤痕：<strong>阵法滞缓</strong>。<br>借由长伎的指点，夏花细刀攻向白神难以防御的两处要害，成功把白神逼退了几步，整个阵法的运转出现了些许破绽。<br>白神进行攻击，使用精湛（+4）投掷4DF获得[0---]=-3，努力值为1。<br>夏花进行防御，使用迅捷（+3）投掷4DF获得[00-0]=-1，努力值为4。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">林双生：你们骰运有够好耶……防御大成功的话也有奖励哦。<br><img src="https://s1.ax1x.com/2020/11/01/BwNkqK.png" alt="" class="bbc_img"/><br>淑代之：好！成败在此一举！</span></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">为了抢攻夏花，白神<strong>暂停阵法</strong>的流转，露出了极大破绽。<br><br>冲突第五轮。<br><br>长伎进行创造优势，使用机智（+3）投掷4DF获得[---+]=-2，努力值为1。<br>祸眼之阵进行防御，使用阵法变换（+3）投掷4DF获得[-0++]=+1，努力值为4。<br>长伎揭示自己的角色特征：<strong>阵法专家</strong>。</span><br><img src="https://wx2.sbimg.cn/2020/08/14/32cm7.png" alt="" class="bbc_img"/><br><span style="font-size: 14pt;" class="bbc_size">长伎支付命运点激活<strong>阵法专家</strong>获得+2，努力值为3。<br>长伎支付命运点激活<strong>雷雨将至</strong>获得+2，努力值为5。<br>雷雨即将到来，根据之前长伎的猜测，这个阵法必须在雷雨天才能成功运转，那么现在阵法的流转就是紧要关头。遵循这股直觉，长伎看穿了白神的下一个动作。<br>长伎：<strong>“震上坎下</strong>，先攻左腿，再攻右耳！”<br>夏花进行攻击，使用迅捷（+3）投掷4DF获得[++-0]=+1，努力值为4。<br>白神进行防御，使用精湛（+4）投掷4DF获得[+0++]=+3，努力值为7。<br>夏花免费激活<strong>震上坎下</strong>、<strong>暂停阵法</strong>、<strong>阵法滞缓</strong>、<strong>阵法流转</strong>获得+12，努力值为16。<br>白神支付命运点激活？？？获得+2加值，努力值为9。<br>夏花：“时机已成！”</span><br><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSikR.md.png" alt="" class="bbc_img"/></div><br><span style="font-size: 14pt;" class="bbc_size">夏花揭示自己的特技：点睛。</span><br><br><img src="https://z3.ax1x.com/2021/08/13/fsy1sI.png" alt="" class="bbc_img"/><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：[1]压力+[4]中度+[6]严重，白神一次性最多能吸收11点压力，这次造成10压力，再加上泪淋漓的2点武器值，打穿了！</span></div></div></div><br><div align="center"><img src="https://s1.ax1x.com/2020/08/14/dPSV1K.md.png" alt="" class="bbc_img"/></div><span style="font-size: 14pt;" class="bbc_size">前面的两次攻击都是为了第三次攻击而做下的铺垫，借着天时地利——夏花正在收刀。若此时有常人旁观，只会觉得自己眼睛看花了——在这关键时刻居然不攻击而是收刀？但长伎看了个明白：夏花已经完成了攻击，只不过这一刀的刀速太快，以至于连刀光都不曾出现。<br>“咔嚓”一声，细刀完全入鞘。伴随着这声脆响，飘浮在空中的祸眼表面出现了裂痕。<br>“……！”<br>即便遭受夏花猛攻时也面不改色的白神脸色一变，身不转向地一个后跃，消失在山顶树林之中。庞大的能量从被打碎的祸眼中喷涌而出。<br>夏花：“长伎叔，这个看起来不太妙啊？”<br>长伎：“走走走，别傻愣着！”</span><br><br><img src="https://s1.ax1x.com/2020/11/01/Bwt72n.png" alt="" class="bbc_img"/><br><br><span style="font-size: 14pt;" class="bbc_size">夏花进行克服，使用迅捷（+3）投掷4DF获得[--00]=-2，努力值为1。<br>长伎进行克服，使用迅捷（+1）投掷4DF获得[--+-]=-2，由于特技+2，努力值为1。<br>祸眼进行防御，使用能量泄漏（+5）投掷投掷4DF获得[+0++]=+3，努力值为8。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 14pt;" class="bbc_size">淑代之：啊！这要怎么办？两个人都出局了耶！<br>林双生：呃……我也没想到你们骰运这么差，用命运点可能也救不回来了，虽然按剧情来说你们会死在这里，不过考虑到<em>戏剧优于现实</em>……</span><br><img src="https://s1.ax1x.com/2020/11/01/BwtsCd.png" alt="" class="bbc_img"/><br></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">能量在向外迅速蔓延，昏迷的喽啰们惨叫着化为了血雾，夏花与长伎冲进了车里，但还没启动发动机，能量就在一片白光中吞噬了他们。</span><br><br><br><div align="center"><span style="font-size: 14pt;" class="bbc_size">————尾声————</span></div><br><span style="font-size: 14pt;" class="bbc_size">夏花与长伎醒了过来。他们发现自己没死，而是躺在一处云雾缭绕的大山中，悬崖之下，海浪拍打着岩壁，发出哗啦啦的声响。<br>长伎：“这里难道是……蓬莱？”<br>长伎揭示自己的角色特征：<strong>蓬莱有请</strong>。</span><br><br><img src="https://z3.ax1x.com/2021/08/13/fsy3Lt.png" alt="" class="bbc_img"/><br><br><br><span style="font-size: 14pt;" class="bbc_size">End.</span><br><br><br><br>————————————————————<br><br><span style="font-size: 14pt;" class="bbc_size">林双生：这次团在长度上是作为一季游戏的第一个剧本，不过由于是教学团，所以就暂时到此结束了。但还有一些工作得干完，现在我们要进行一次重要里程碑。<br><img src="https://s1.ax1x.com/2020/10/19/0jqCVJ.png" alt="" class="bbc_img"/><br>淑代之：Level Up！<br>余弦切：嗯……<br><img src="https://s1.ax1x.com/2020/10/18/0j5PpD.png" alt="" class="bbc_img"/><br><img src="https://s1.ax1x.com/2020/11/01/BwK6m9.png" alt="" class="bbc_img"/><br><br>林双生：那么本次教学团就到此结束了，感谢大家的观看，希望你们在这次故事中能体会到FATE这个剧情导向的TRPG规则的乐趣所在。<br>淑代之：希望我还有机会再做一次PC……<br>余弦切：大家下次再见。</span><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1059469">
+&#171; <em>上次编辑: 2021-08-13, 周五 23:53:40 由 赤鸮之翼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1059469_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1060169"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=10297" title="检视会员资料:  月亮熊">月亮熊</a>
+</h4>
+<ul class="reset smalltext" id="msg_1060169_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 9<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1060169">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1060169#msg1060169" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1060169'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1060169'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2020-06-23, 周二 20:24:54 &#187;</div>
+<div id="msg_1060169_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1060169">“冲突里每承受一个伤痕就能再获得一个命运点”<br>这是核心规则里的？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1060169">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1060173"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1060173_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1060173">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1060173#msg1060173" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1060173'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1060173'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2020-06-23, 周二 20:50:11 &#187;</div>
+<div id="msg_1060173_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1060173"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1060169#msg1060169">引述: 月亮熊 于 2020-06-23, 周二 20:24:54</a></div></div><blockquote class="bbc_standard_quote">“冲突里每承受一个伤痕就能再获得一个命运点”<br>这是核心规则里的？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>如果选择【退让】，冲突里每承受一个伤痕就能再获得一个命运点。<br>你看同样吃了不少伤痕的长伎就只拿了白神敌意激活给的一个命运点而已。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1060173">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1060173_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067807"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=94869" title="检视会员资料:  悠久机关">悠久机关</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067807_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 426<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067807">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067807#msg1067807" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067807'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067807'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2020-08-14, 周五 14:05:10 &#187;</div>
+<div id="msg_1067807_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067807">请问每个回合内，在行动时可以同时进行创造优势和攻击么？<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067807">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067808"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067808_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067808">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067808#msg1067808" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067808'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067808'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2020-08-14, 周五 14:14:05 &#187;</div>
+<div id="msg_1067808_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067808"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067807#msg1067807">引述: 悠久机关 于 2020-08-14, 周五 14:05:10</a></div></div><blockquote class="bbc_standard_quote">请问每个回合内，在行动时可以同时进行创造优势和攻击么？<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>不愣</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067808">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067808_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067830"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=94869" title="检视会员资料:  悠久机关">悠久机关</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067830_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 426<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067830">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067830#msg1067830" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067830'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067830'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2020-08-14, 周五 15:46:10 &#187;</div>
+<div id="msg_1067830_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067830"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067808#msg1067808">引述: 湛白之翼 于 2020-08-14, 周五 14:14:05</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067807#msg1067807">引述: 悠久机关 于 2020-08-14, 周五 14:05:10</a></div></div><blockquote class="bbc_alternate_quote">请问每个回合内，在行动时可以同时进行创造优势和攻击么？<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>不愣<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>那么这一段我就有点困惑了，所以有上面的一问<br><br>长伎进行创造优势，使用机智（+3）投掷4DF获得[+0+-]=+1，努力值为4。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0+-0]=0，努力值为3。<br>长伎看穿了守卫之间的空隙，随后准备使用他那三脚猫的身法突破障碍。<br>长伎进行克服，使用迅捷（+1）投掷4DF获得[-0--]=-3，努力值为-2。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0-00]=-1，努力值为1。<br><br>显然是同一个人做了二动，还是应该理解成守卫的AI是只进行防御不会主动攻击？<br><br>另外试着换个图床？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067830">
+&#171; <em>上次编辑: 2020-08-14, 周五 15:52:33 由 悠久机关</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067837"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067837_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067837">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067837#msg1067837" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067837'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067837'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2020-08-14, 周五 16:17:47 &#187;</div>
+<div id="msg_1067837_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067837"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067830#msg1067830">引述: 悠久机关 于 2020-08-14, 周五 15:46:10</a></div></div><blockquote class="bbc_standard_quote"><br>那么这一段我就有点困惑了，所以有上面的一问<br><br>长伎进行创造优势，使用机智（+3）投掷4DF获得[+0+-]=+1，努力值为4。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0+-0]=0，努力值为3。<br>长伎看穿了守卫之间的空隙，随后准备使用他那三脚猫的身法突破障碍。<br>长伎进行克服，使用迅捷（+1）投掷4DF获得[-0--]=-3，努力值为-2。<br>守卫进行防御，使用谨慎（+2）投掷4DF获得[0-00]=-1，努力值为1。<br><br>显然是同一个人做了二动，还是应该理解成守卫的AI是只进行防御不会主动攻击？<br><br>另外试着换个图床？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这里做了二动没错，当然根据GM的判断不同，也可以禁止PC挑战前进行创造优势（不然每次检定前都要创造优势就没完没了了），因此上文GM才会对此做出“守卫检定+1”的难度惩罚，不过也是考虑到这里的守卫是作为一个被动的挑战而设置的（没通过检定的下场是直接被抓），所以才允许PC在挑战前用能够解释的方法来创造一下优势。<br>另外创造优势失败的情况下是会给敌人提供加值的，某种意义上而言这也算是一个风险与收益并存的行动。<br><br>图床已经更换完毕<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067837">
+&#171; <em>上次编辑: 2020-08-14, 周五 23:24:17 由 湛白之翼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067837_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067840"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=94869" title="检视会员资料:  悠久机关">悠久机关</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067840_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 426<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067840">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067840#msg1067840" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067840'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067840'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2020-08-14, 周五 16:23:24 &#187;</div>
+<div id="msg_1067840_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067840"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067837#msg1067837">引述: 湛白之翼 于 2020-08-14, 周五 16:17:47</a></div></div><blockquote class="bbc_standard_quote">这里做了二动没错，当然根据GM的判断不同，也可以禁止PC挑战前进行创造优势（不然每次检定前都要创造优势就没完没了了），因此上文GM才会对此做出“守卫检定+1”的难度惩罚，不过也是考虑到这里的守卫是作为一个被动的挑战而设置的（没通过检定的下场是直接被抓），所以才允许PC在挑战前用能够解释的方法来创造一下优势。<br>另外创造优势失败的情况下是会给敌人提供加值的，某种意义上而言这也算是一个风险与收益并存的行动。<br><br>图床在换了……<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>非常感谢，解释得很明白了。这段范例教学确实有所收获。<br>开战前骗buff的玩家我还真的遇到过<br><br>期待图片更新</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067840">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1067900"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513" title="检视会员资料:  赤鸮之翼">赤鸮之翼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1067900_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41513">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41513_1486705139.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 76<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1067900">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067900#msg1067900" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1067900'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1067900'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2020-08-14, 周五 23:22:37 &#187;</div>
+<div id="msg_1067900_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1067900"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1067840#msg1067840">引述: 悠久机关 于 2020-08-14, 周五 16:23:24</a></div></div><blockquote class="bbc_standard_quote"><br>非常感谢，解释得很明白了。这段范例教学确实有所收获。<br>开战前骗buff的玩家我还真的遇到过<br><br>期待图片更新<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>其实没必要对PC太严格，使用黄金法则来端正游戏态度就行了。<br><br>例如，不是“因为PC想要获得+2加值，所以才要求创造优势”，而是“因为PC想要看穿敌人的行动，GM判断这可以通过创造优势来实现，所以才要求PC创造优势”。<br>虽然结果一样，但因果关系的前后顺序变化一下的话意义就完全不同了。<br><br>规则只是辅助叙述的工具，先想如何行动，再想如何用规则实现。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1067900">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1067900_signature">“活着时，生灵们获取幸福，”老妇人闭上了双眼，“逝去时，它们付出幸福。一生一死，攸关幸福。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1068701"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=94869" title="检视会员资料:  悠久机关">悠久机关</a>
+</h4>
+<ul class="reset smalltext" id="msg_1068701_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 426<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1068701">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.msg1068701#msg1068701" rel="nofollow">Re: 《祸眼花伎》——FATE入门教学团</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1068701'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1068701'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2020-08-19, 周三 17:37:02 &#187;</div>
+<div id="msg_1068701_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1068701">这配图比我想象的还要用心啊。<br><br>CHARAT Mono好评<br><br>下次我强制所有的PC每人做一个Avatar（不）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1068701">
+&#171; <em>上次编辑: 2020-08-19, 周三 17:42:40 由 悠久机关</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=118402.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=118402.0"><span>《祸眼花伎》——FATE入门教学团</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 118402,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 118402,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="118402" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=118402.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 10646 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 118402,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=1954.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '16f7d1734208edfede4bf17037c91266');">
+<div class="info">请 <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="126416"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'fa2a2b58',
+sSessionId: '16f7d1734208edfede4bf17037c91266'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=46.0"><span>白狼系列</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=1954.0"><span>CofD</span></a> (版主群: <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=18838" title="版主">海上钓鲸客</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=41397" title="版主">月伶</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=87918" title="版主">霜落青荷</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0"><span>【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1121720"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=printpage;topic=126416.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide） &nbsp;(阅读 1374 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 白狼官方工具书，关于如何使用官方的SAS制式模组（已完成）</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=quickmod2;topic=126416.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('16f7d1734208edfede4bf17037c91266', 'fa2a2b58') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903" title="检视会员资料:  Symphogear">Symphogear</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121720_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903">
+<img class="avatar" src="/bbs/upload/avatar/avatar_88903_1611314782.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 75<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121720">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121720#msg1121720" rel="nofollow">【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121720'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121720'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-07-04, 周日 02:06:48 &#187;</div>
+<div id="msg_1121720_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121720"><span style="font-size: 14pt;" class="bbc_size"><strong>什么是叙事冒险系统产品？</strong></span><br><span style="font-size: 10pt;" class="bbc_size"><strong>What Is A Storytelling Adventure System Product?</strong></span><br><br>　　将叙事冒险系统产品（SAS）想象成一个故事的工具包，就好像你买了一件现代家具而把它装进一个扁平大盒子带回家。你带着成为你团说书人的渴望打开它，发现的却是一堆零件。为了将它们组合在一起，你需要一些工具：我们的一个或多个叙事游戏规则手册中提供的规则和世界。您将使用这些零件和工具与您的朋友一起构建一个故事。最终完成的故事可能会与你最初期望的不太一样，但只要每个人都能从中得到乐趣，不管你最终如何在使用这些组件、或者干脆丢掉了多少，都无关紧要。<br>　　构成大多数SAS故事的基本部分都很简单：说书人角色、场景以及一些关于如何将它们组合在一起的建议。它们中的每一个都可以用不同的方式来进行故事的构筑直到结局的高潮。这些组件的目的是为了让你更容易、更快速、更有趣地成为一个说书人。出色的工作方能创造出震撼和满足你的玩家的奇妙游戏体验，SAS产品中的一切都是为了弥补当中的不足，这样你就可以专注于创造最好的故事。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>角色 Character</strong></span><br>　　大多数SAS产品中所展示的说书人角色使用与我们叙事游戏中角色相同的格式和规则，但会有一些细节与拓展。你在规则书中找到的原型角色，无论何时当你在故事中需要那样的角色时，都可以反复地使用它们。但SAS产品中的角色会包含特殊的建议与注释，可以帮助你在特定的故事中使用它们。你会发现核心故事角色的描述、独白、使用策略与目标。在游戏过程中根据需求来抽取使用它们。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>场景 Scenes</strong></span><br>　　构成故事的场景遵循一个特定的格式。每个场景都是作为一个单独的游戏遭遇（或者一组紧密相连的游戏遭遇的集合）来构建的，以供团体验。当玩家们带着他们的角色经历这些场景时，故事就自然而然地展开了。<br>　　对某些人来说，节奏和场景的设计是作为说书人的乐趣之一。如果对你而言有趣的话，你可以将这些场景拆开来，然后随心所欲地使用它们。你甚至可以从其他故事中导入场景或是自己创造新场景。但如果你喜欢直接上桌开整，你会发现每个故事的“纲要（Treatment）”部分都有一个已经为你策划好的例子。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>建议 Advice</strong></span><br>　　每个故事都有其独特的挑战和陷阱，即使是有经验的说书人也可能会被绊倒。无论组件有多好，如果你不知道如何将它们组合在一起才能达到最大效果，它们对你就没啥用。一个SAS产品通常会提供具体的建议，说明如何以正确的方式使用这些组件来创造你想讲的故事，以及关于场景流程、相关背景、对故事有用的独特规则和机制的建议。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121720">
+&#171; <em>上次编辑: 2021-07-10, 周六 03:27:46 由 Symphogear</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121721"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903" title="检视会员资料:  Symphogear">Symphogear</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121721_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903">
+<img class="avatar" src="/bbs/upload/avatar/avatar_88903_1611314782.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 75<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121721">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121721#msg1121721" rel="nofollow">SAS结构</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121721'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121721'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-07-04, 周日 02:25:32 &#187;</div>
+<div id="msg_1121721_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121721"><span style="font-size: 12pt;" class="bbc_size"><strong>SAS结构</strong></span><br>如今向世界表达观点的最有力方式就是讲故事。——罗伯特·麦卡菲·布朗<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>冒险评级 Adventure Ratings</strong></span><br><br>一个叙事冒险系统产品在其封面上会有三个评级，他们看起来像是这样：<br><table class="bbc_table"><tr><td>　　　　　<strong>叙事冒险系统</strong><br><table class="bbc_table"><tr><td>场景　　<td>精神　<td>●●●○○　　<td>经验等级</tr><tr><td>　８<td>生理<td>●●○○○<td>　　0-34</tr><tr><td><td>社交<td>●●●○○<td></tr></table><br><strong>场景（Scenes）</strong>：这是冒险中的总场景数。它被用来表达冒险的长度（它所需要的游玩时间）。如果有九个场景（即使其中两个是可选的），那么场景评级就是“9”。<br><br><strong>MPS（精神、生理、社交）点（MPS (Mental, Physical, Social) Dots）</strong>：整个冒险根据它在三个类别中的挑战来进行评价：精神（谜题、神秘、研究）、生理（战斗、耐力）和社交（与他人互动和影响他人）。此外，每个场景都有自己的MPS等级。虽然整个冒险可能会被评级为精神••，生理••••，社交•••，但如果其中一两个场景的解决方式之一是通过一个特别有挑战性的社交检定，那么它有可能被评为社交••或社交•••。<br>每个社交评级都使用熟悉的0~5点范围，参考如下等级：<br>　　　<strong>MPS（精神、生理、社交）点数</strong><br><table class="bbc_table"><tr><td>0　　　　<td>没有任何挑战（没有真正的风险，但可能是戏剧性的）</tr><tr><td>●<td>轻微挑战（有损失资源的较小风险）</tr><tr><td>●●<td>较小挑战（低风险或轻微后果）</tr><tr><td>●●●<td>具有挑战性（机会均等，后果适中）</tr><tr><td>●●●●<td>重大挑战（具备实际风险或失败带来严重后果）</tr><tr><td>●●●●●<td>极端挑战（具有持续或致命后果的重大危险）</tr></table><br><strong>经验等级（XP Level）</strong>：理想条件下角色进行冒险时所应拥有的经验值（但并非必要；故事可以根据角色经验值的多寡进行调整来适用）。这一等级与我们每个叙事游戏中用于高级角色创建的图表类似，但可能会根据SAS所设计的系统而略有变化。最常见的等级为：<br><table class="bbc_table"><tr><td>0-34　　　　<td>新手</tr><tr><td>35-74<td>老手</tr><tr><td>75-119<td>成名人物</tr><tr><td>120-179<td>历战老兵</tr><tr><td>180+<td>传奇人物</tr></table></tr></table></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121721">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121723"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903" title="检视会员资料:  Symphogear">Symphogear</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121723_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903">
+<img class="avatar" src="/bbs/upload/avatar/avatar_88903_1611314782.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 75<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121723">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121723#msg1121723" rel="nofollow">简介与基础</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121723'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121723'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-07-04, 周日 02:34:02 &#187;</div>
+<div id="msg_1121723_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121723"><span style="font-size: 14pt;" class="bbc_size"><strong>简介与基础 Introduction and Groundwork</strong></span><br>　　简介涵盖了产品的常规信息，以及设置和基础部分，如说书人建议、关键说书人角色描述、场景间如何流转的流程图、故事背景和设置信息，以及所要讲故事的纲要（Treatment）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>什么是纲要？</strong></span><br><span style="font-size: 10pt;" class="bbc_size"><strong>What’s a treatment?</strong></span><br>　　在好莱坞的说法里，纲要是在电影开始制作前写的对电影故事的简短描述。纲要描述了故事的所有戏剧性“节拍”，有时还包括导演和延展信息（即，它不一定局限于讲述故事）。<br>　　从游戏叙事的角度来说，纲要是说书人对故事的核心概述，从作者对潜台词的注释一路直到直白的叙述提示。在叙事纲要中不会有任何暗示性内容；在这里，作者会把它完全写明一边说书人居家游玩。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>场景 Scenes</strong></span><br>　　场景是你工具箱中最重要的部分，因此通常每个SAS产品的很大篇幅都专门用于它们。每个SAS产品都有一个共同的结构，以帮助你在激烈的枪战或紧张的谈判中快速找到信息，特别是在你决定从不同的产品中截取一个场景用于你当前故事中时。然而，如果某些部分不适合某个特定场景，它们可能会有遗漏（如行动部分，如果没有决定该场景的核心行动）。<br><ul class="bbc_list"><li><strong>MPS评级（MPS Ratings）</strong>：这些点数类似整个故事的评级。它们的作用是给你一个快速总结，说明这个场景所带来的挑战的难度和类型。<li><strong>概览（Overview）</strong>：这是对该场景的总览，包括一个概要和对引发该场景的因素的简短描述（例如，“发现流浪者营地”或“注意到女王的坟墓”）。场景中的核心冲突也会在此描述。<li><strong>描述（Description）</strong>：这是对场景的氛围、环境设置和固有游戏效果的一般描述。这一部分的描述性文字通常适合于向PL大声朗读。<li><strong>说书人目标（Storyteller Goals）</strong>：这里详细说明了一个场景在故事中所要达到的目的（例如，制造悬念、说明阐述、或是挑战角色生理能力），UI及你作为说书人在处理这个场景时应该注意的问题。场景中的敌方目标也在这里。<li><strong>角色目标（Character Goals）</strong>：玩家的角色想从这个场景中得到什么？有时这些目标对玩家和他们的角色从一开始就很明显（例如，“找到奥西里斯的墓穴”或是“让埃德加讲述他的故事”），但有时却并非如此（如“从僵尸的埋伏中活下来”）。<li><strong>行动（Actions）</strong>：这里提供了如何将场景目标戏剧化和编演（带团）的具体例子。大多数场景都会有一个关键动作，这是在规则层面对行动的详细描述。你可以在编演（带团）时使用其详细列举的骰池、修正和描述文字。<li><strong>阻碍（Hindrances）</strong>：该部分向你提供了一个快捷的修正列表，让场景变得对角色更具挑战性、更危险或更具戏剧性，例如环境因素或是之前场景的影响。通常情况下，它们都会有延长场景的副作用。<li><strong>帮助（Help）</strong>：本节描述了角色使场景变得更加容易的合理方法，或通过在这个场景或者之前场景中的巧妙行动而能够获得的额外好处。有时它们会产生缩短场景的副作用，但它们往往会给场景添加更多行动，因为玩家会在尝试关键行动前努力获得这些好处。<li><strong>后果（Consequences）</strong>：当场景的结局会带来特殊的后果，例如获得一个暂时性的超自然能力或是日后警方调查的机会时，本节会作详细描述。它还可能详细说明这个场景将如何引发其他场景。</ul><br><span style="font-size: 12pt;" class="bbc_size"><strong>后日谈 Aftermath</strong></span><br>　　在场景部分之后，这里会有一些基于冒险的后日谈的关于潜在故事创意的建议和想法（如果该SAS产品作为你编年史的一部分来运行的话），同时还有建议的经验点奖励。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>场景卡 Scene Cards</strong></span><br>　　每个产品中还会有场景卡片。故事中的每个场景都有自己的卡片，它用简短的笔记总结了该场景，这样你就可以专注于故事本身。将它们打印出来、裁剪开，在你开团时将它们放在手边。你甚至可以保留一些其他故事的场景卡——打斗场景、追逐场景，等——以备你需要将它们扔到当前的故事之中。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121723">
+&#171; <em>上次编辑: 2021-07-10, 周六 03:05:17 由 Symphogear</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121724"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903" title="检视会员资料:  Symphogear">Symphogear</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121724_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903">
+<img class="avatar" src="/bbs/upload/avatar/avatar_88903_1611314782.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 75<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121724">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121724#msg1121724" rel="nofollow">如何使用SAS产品</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121724'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121724'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-07-04, 周日 02:37:19 &#187;</div>
+<div id="msg_1121724_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121724"><span style="font-size: 14pt;" class="bbc_size"><strong>阅读产品 Reading the Product</strong></span><br>　　SAS产品是描述故事可能遵循的一般情节的情景和设置的集合，但在你和你的玩家讲述它之前，故事并不真正存在。虽然大多数SAS产品会以直观的顺序呈现场景，但场景不必完全按照该顺序发生。这个故事只是一种可能性，当你和你的团员一起跑团时，你可以用它作为指导。场景的顺序和结果取决于你的玩家所做的选择——你在游戏桌上所讲述的故事没有义务去模仿我们在编写时的想象。<br>　　每个SAS都将以一种非常开放、非常功能性的风格来编写，旨在用清晰的预言解释你将讲述故事中的所有重要内容。每个SAS产品都是一张蓝图，而蓝图不会耐人寻味。我们在谈论这个故事时不会忸怩作态。像神秘和秘密这样的元素属于你和你好友共通构筑的游戏世界，而不是在我们试图向你提供这些你需要用来构筑世界的组件的时候。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>印下或屏上 In Print or On Screen</strong></span><br>　　我们以往出版物中所印刷的SAS产品将被重新格式化以适用于这些页面，不过我们的电子产品将会为电脑使用而优化排版布局。布局是横向的（宽大于高），这样每个页面就会占据标准显示器上的整个视区。当你打印时，这种横向页面也可以轻松隐藏在说书人帷幕后，而且你可以只打印你在游戏中需要的部分。可能会有书签，让你能够跳转到冒险的不同部分，或者有超链接，让你可以立刻进入提供更多信息的网站。一些SAS产品具有可打印的讲义、笔记和道具——手写的笔记、地图、便签——供你在开团时使用。根据你所追求的演出效果，你可以将这些内容打印在花哨的装饰纸或是厚重的卡纸上，给你的玩家一个切实的工具，来帮助他们在脑海中生动地呈现游戏。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>讲故事 Telling the Story</strong></span><br><span style="font-size: 10pt;" class="bbc_size"><strong>应变 Adaptability</strong></span><br>　　叙事系统的特点之一就是它的适应性。例如，场景的数量可以非常灵活；你可以增加或减少场景知道你得到你想要的故事。单个场景可以提高或降低，大约相当于MPS评级上的一个“等级”——例如，从••到•或者•••。在每个场景中使用“帮助”和“阻碍”修正来上下调整挑战难度。当你心存疑惑时，切记骰池的大小就是一切——加上诸如闪烁的灯光、狂风骤雨、脚下剥落的油毡或有力的敌人这样的骰子惩罚，创造出更危险的场景。你也可以利用这种方式来改变整个故事的MPS等级或经验等级。<br>　　也有可能将MPS评级偏向或偏离特定的游戏风格。如果股市本身具有较高的生理级别，而你的玩家并不喜欢当个跑腿打人侠，你就可以删除一些生理等级较高的场景，并将其替换为更多精神或社交场景（例如将战斗场景替换为更多调查或审问场景）。同样的，如果玩家想要在一个精神评级较低的故事中解答更多问题，你可以在现有尝尽中添加更多精神挑战（或者可以将故事中的一些关键信息加密或隐藏在谜题中）。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>场景流 Scene Flow</strong></span><br>　　虽然我们不知道你要讲的是什么故事，也不知道你会如何策划故事情节，但在你开始时对场景的流转有个大致概念是个好主意。一个基本的计划可以帮助你即兴创作，就像给你一个核心的情节旋律让你在演奏中即兴发挥。<br>　　下一页是《犯罪意图》的场景流程图，不过大多数SAS产品也都包含类似内容。这看起来很复杂，但实际上很简单：一个场景接一个场景，直到你完成它。通过提前规划场景流，你可以很好地了解故事的大概轮廓，让你更容易在节奏紧张激烈冲突来到顶峰（the pace is furious and the tension is cranked to eleven）时跟踪场景发展到了哪里。<br><br><br><span style="font-size: 10pt;" class="bbc_size"><strong>叙事之罪 The Cardinal Sins of Storytelling</strong></span><br>　　叙事冒险系统的设计可以让你免于犯下讲故事的两大罪恶——乏味和困惑。<br>　　<strong>#1：乏味是毒药。</strong>如果玩家感到乏味，故事就会消亡。如果故事消亡了，编年史也会随之凋萎消亡。如果你发现玩家花了更多时间去看漫画或是谈论他们昨晚在电视上看到的内容，那就仔细研究你的场景卡并添加一个能够让他们再次专注于故事的场景。雷蒙德·钱德勒说：“出现问题时，就让两个拿着枪的人走进门。”如果这对钱德勒顶用，那么对我们也顶用。<br>　　<strong>#2：困惑会扼杀乐趣。</strong>迷惑和困惑有所不同。谜题或是谜团可能是有趣的，因为你无法给解决它下一个定论，但这与困惑于如何处理它不一样。每个场景的清晰性都很重要，无论是从大局（“我们必须在午夜前离开这个房间，这样我们才能救达芙妮！”）还是由小节（“我们必须打破门，这样我们才能离开这个房间！”）。通过将目标分配给每个重要场景，并将其放在每个场景卡的下面，这样你和玩家都可以专注于该场景中的重要内容。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>提供艰难抉择 Providing difficult Choices</strong></span><br>　　故事是关于角色做出重要决定的，游戏是关于玩家做出重要决定的，而叙事游戏则同时关乎这两个方面。在两扇没有标记的门之间做一个盲目的选择并不好玩。玩家需要信息才能做出真正重大的决定——例如知道从那些没有标记的门后传来的腐烂气味可能来自你死去兄弟的尸体，这让抉择变得更加有趣。当玩家所做决定的结果是已知的，或者至少是可以猜测的，选择就会变得更加有趣、更加富有戏剧性——某些事物会处于危险之中。当你和你的团员跑团时，请记住说书人的咒语：<br>　　艰难的选择带来戏剧性的结果。<br>　　那么，什么是艰难的选择呢？它是两个同样不受欢迎的结果之间的选择。你只有救你兄弟之中的一个的时间，你会选择谁？为了防止你的孩子成为杀人犯，你会自己去杀人吗？你会冒着坐牢的危险去阻止一种你不确定是否真实的超自然力量吗？<br>　　正确运行的游戏使用游戏机制来为玩家创造真正艰难的抉择。例如，黑暗世界中的橘色可能会面临偷窃或挨饿的选择。对一个饥饿的角色而言这个决定可能并不困难，但玩家可能会面临这样一个选择：冒险让角色承受一些伤害来换取他坚韧美德的实现。<br>　　当然，并不是要让每个挑战都沦为非此即彼的困境。例如，截止期限会自动创造这样一种情景，即因为每个选择都会消耗宝贵的时间资源，所以决策变得非常重要，但角色在倒计时开始到结束之间所能采取的行动并不局限于二元选择。任何有限的资源都可以用来给任何情况施加压力，让任何选择都变得艰难起来。当局人员两分钟后就到，你要怎么处理尸体？车没油之前你只能再开四五英里，你要去哪里？你有10支箭而城堡里有12名守卫，你能救出你的朋友吗？<br>　　最后，并非所有角色或玩家面前的选择都是有意义或艰难的。而通过将重要的场景精简为一个又一个离散的结构，核心选择就会变得清晰，并可以将更多的时间和精力投入到对你的团有意义的场景上。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>分享经验 Sharing the experience</strong></span><br>　　互联网是我们生活中无处不在的一种力量，这为叙事游戏提供了前所未有的机会。你不仅可以比以前更快更容易地获得你最喜欢的游戏的内容，而且你还可以与他们分享你们团的故事，在我们现有的材料上添加不同的解释。通过统一所有SAS产品的结构，我们创建了一种公共语言，使得谈论你跑了一个怎样的团或是你觉得你想要怎么跑变得更加容易。<br>　　例如，你可以将一个特定SAS故事中的徒步追逐场景挪走，或者如果角色在那个场景中多次遇到犯人，就把这个场景来个两次。我可能会把那个场景完全删掉。我们可以通过比较场景流来对比笔记、分享建议和欣赏彼此的轶事。你可能会说，“当我在跑这个故事的时候，它最后通过……<br>　　“场景A&gt;B&gt;E&gt;F&gt;C<br>　　“……在那之后我把另一个冒险中的场景G丢了进去，以我自己设计的高潮场景作为结束。”<br>　　“高潮是什么样的？”我问。<br>　　然后你给我看了这个场景，并通过我能理解的方式画了出来，如果我想的话，可以直接把它插入我自己的游戏。场景成了一种可分享的东西，一起玩并分享想法的人越多，你在准备跑相同故事时就越有准备，最终每个人的故事也会变得更好。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121724">
+&#171; <em>上次编辑: 2021-07-10, 周六 03:25:24 由 Symphogear</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121728"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903" title="检视会员资料:  Symphogear">Symphogear</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121728_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=88903">
+<img class="avatar" src="/bbs/upload/avatar/avatar_88903_1611314782.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 75<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121728">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121728#msg1121728" rel="nofollow">Re: 【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121728'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121728'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-07-04, 周日 04:40:09 &#187;</div>
+<div id="msg_1121728_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121728"><del>为了翻模组而先翻了这个7页的手册，目前还差一页，过会再摸，总的来说这种成体系的模组规制和使用策略还挺有参考价值的，之后也打算尝试一下。<br>然后开始考虑是翻几个猎人的短模组还是试试掉包模组。</del><br><br>已完成，场景流程图没法贴就算惹，我看看之后有没有空把这个小册子的pdf整汉化。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121728">
+&#171; <em>上次编辑: 2021-07-10, 周六 03:26:26 由 Symphogear</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121794"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=11889" title="检视会员资料:  无涛长夜">无涛长夜</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121794_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=11889">
+<img class="avatar" src="/bbs/upload/avatar/avatar_11889_1299749828.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 241<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121794">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.msg1121794#msg1121794" rel="nofollow">Re: 【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121794'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121794'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-07-04, 周日 15:54:08 &#187;</div>
+<div id="msg_1121794_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121794">这xp建议基本是1e的..2e的xp昂贵多了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121794">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=printpage;topic=126416.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=46.0"><span>白狼系列</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;board=1954.0"><span>CofD</span></a> (版主群: <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=18838" title="版主">海上钓鲸客</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=41397" title="版主">月伶</a>, <a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=profile;u=87918" title="版主">霜落青荷</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;topic=126416.0"><span>【CofD 核心】叙事冒险系统指南（Storytelling Adventure System Guide）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 126416,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 126416,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="fa2a2b58" value="16f7d1734208edfede4bf17037c91266" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="126416" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'16f7d1734208edfede4bf17037c91266\', \'fa2a2b58\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;' + '?topic=126416.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 1374 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1954,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "CofD",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1954,
+							iTopicId: 126416,
+							sSessionId: "16f7d1734208edfede4bf17037c91266",
+							sSessionVar: "fa2a2b58",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d6c7ff8d7e6e6b36d5cd3fe3c34b7c33&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

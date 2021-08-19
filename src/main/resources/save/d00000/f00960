@@ -1,0 +1,1154 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="核心规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>核心规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'b98e3a8add6adaeb68812f7788c636bf');">
+<div class="info">请 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">登录</a> 或 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[1140]" value="1140"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f37bd19',
+sSessionId: 'b98e3a8add6adaeb68812f7788c636bf'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<div class="pagesection">
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0;sort=subject">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0;sort=subject">1</a> [<strong>2</strong>] <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.80;sort=subject">3</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.80;sort=subject">&#187;</a>  &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40;sort=subject;desc">主题 <img src="Themes/celeste/images/sort_up.gif" alt=""/></a> / <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40;sort=starter">作者</a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40;sort=replies">回复</a> / <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40;sort=views">阅读</a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.40;sort=last_post">最新帖子</a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_686692"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72882.0">【DMG】魔法物品（O-P部分）</a></span>
+<p><span id="msg_descr_686692" class="topic_description">OPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOPOP</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74797" title="检视会员资料:  谜团">谜团</a>
+<small id="pages686692"></small>
+</p>
+</div>
+<td class="stats windowbg">
+11 回复
+<br>
+16589 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72882.0#msg705420"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-03-04, 周三 15:32:01<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74797">谜团</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_691837"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73360.0">【DMG】魔法物品（Q、R部分）</a></span>
+<p><span id="msg_descr_691837" class="topic_description">至此魔法物品翻译全部补完成功，最后两个字头里R部分由北极熊君倾情奉献，我只是打酱油翻译了两个Q字头而已</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=73571" title="检视会员资料:  触手大魔王">触手大魔王</a>
+<small id="pages691837"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+12516 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73360.0#msg694950"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-01-17, 周六 20:32:37<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=73571">触手大魔王</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_691815"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73358.0">【DMG】魔法物品（S部分）</a></span>
+<p><span id="msg_descr_691815" class="topic_description">久闻你战士剑法如神，今日区区法师便是要逆天呀！！！！且接我——疾电！轰雷杀！！！！</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=73571" title="检视会员资料:  触手大魔王">触手大魔王</a>
+<small id="pages691815">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73358.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73358.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73358.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+24 回复
+<br>
+34310 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=73358.20#msg844149"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-03-29, 周三 13:59:26<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=82249">有谁共鸣</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658320"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70260.0">【PHB&amp;DMG】基础职业：圣武士</a></span>
+<p><span id="msg_descr_658320" class="topic_description">2014/11/02更新 圣武士：破誓者 及 边栏：破誓者的救赎</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="检视会员资料:  子虚子">子虚子</a>
+<small id="pages658320">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70260.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70260.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70260.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+27 回复
+<br>
+54680 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70260.20#msg878746"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-09-12, 周二 13:29:21<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=85281">jeff1139</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_778603"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=82662.0">【PHB】【校对&amp;修正】章节8：冒险</a></span>
+<p><span id="msg_descr_778603" class="topic_description">Version. Prototype_Update 4 (Unfinished/keep Updating)</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=78351" title="检视会员资料:  Grand_Alchemist">Grand_Alchemist</a>
+<small id="pages778603"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+6333 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=82662.0#msg789400"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-04-13, 周三 09:49:46<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=1449">Alanryan</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_849518"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=91333.0">【PHB】人类</a></span>
+<p><span id="msg_descr_849518" class="topic_description">最近开团赶着用，先把属性扔上来好了</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=73397" title="检视会员资料:  靠谱的沙夏">靠谱的沙夏</a>
+<small id="pages849518"></small>
+</p>
+</div>
+<td class="stats windowbg">
+2 回复
+<br>
+6578 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=91333.0#msg849565"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-04-25, 周二 20:57:31<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40692">zghzgh1779</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658530"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70280.0">【PHB】吟游诗人</a></span>
+<p><span id="msg_descr_658530" class="topic_description">for the song</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages658530"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+19444 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70280.0#msg658654"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-13, 周三 11:45:29<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=44259">风速测量员1号</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658598"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70290.0">【PHB】基础职业：德鲁伊</a></span>
+<p><span id="msg_descr_658598" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=13908" title="检视会员资料:  幸福的米分">幸福的米分</a>
+<small id="pages658598"></small>
+</p>
+</div>
+<td class="stats windowbg">
+17 回复
+<br>
+33882 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70290.0#msg914552"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-03-12, 周一 20:47:47<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=44259">风速测量员1号</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658334"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70264.0">【PHB】基础职业：战士</a></span>
+<p><span id="msg_descr_658334" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+<small id="pages658334">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70264.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70264.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70264.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+22 回复
+<br>
+42824 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70264.20#msg705864"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-03-08, 周日 14:00:54<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=822">最终地狱</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658770"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70301.0">【PHB】基础职业：术士</a></span>
+<p><span id="msg_descr_658770" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="检视会员资料:  子虚子">子虚子</a>
+<small id="pages658770"></small>
+</p>
+</div>
+<td class="stats windowbg">
+9 回复
+<br>
+30102 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70301.0#msg670389"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-23, 周二 18:06:12<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=71151">Tin</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_646262"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69205.0">【PHB】基础职业：法师</a></span>
+<p><span id="msg_descr_646262" class="topic_description">更新：UA，奇术师</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="检视会员资料:  子虚子">子虚子</a>
+<small id="pages646262">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69205.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69205.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69205.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+23 回复
+<br>
+52904 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69205.20#msg703260"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-02-17, 周二 23:38:05<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=75801">十字芯</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658721"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70300.0">【PHB】基础职业：游侠</a></span>
+<p><span id="msg_descr_658721" class="topic_description">感谢群里各位的抓虫指导和建议</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=58607" title="检视会员资料:  无名的刀锋">无名的刀锋</a>
+<small id="pages658721">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70300.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70300.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70300.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+20 回复
+<br>
+34822 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70300.20#msg826680"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-11-22, 周二 21:04:25<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=58607">无名的刀锋</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658006"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70229.0">【PHB】基础职业：游荡者</a></span>
+<p><span id="msg_descr_658006" class="topic_description">已完，欢迎捉虫</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=13908" title="检视会员资料:  幸福的米分">幸福的米分</a>
+<small id="pages658006"></small>
+</p>
+</div>
+<td class="stats windowbg">
+16 回复
+<br>
+36357 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70229.0#msg928473"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-05-28, 周一 23:35:03<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=79828">SORA</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658845"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70307.0">【PHB】基础职业：牧师</a></span>
+<p><span id="msg_descr_658845" class="topic_description">全真七子已经完成</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=1273" title="检视会员资料:  snowknight">snowknight</a>
+<small id="pages658845"></small>
+</p>
+</div>
+<td class="stats windowbg">
+19 回复
+<br>
+38126 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70307.0#msg773026"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-01-15, 周五 10:31:30<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6044">longman123</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_657592"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70180.0">【PHB】基础职业：野蛮人</a></span>
+<p><span id="msg_descr_657592" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+<small id="pages657592">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70180.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70180.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70180.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+27 回复
+<br>
+41618 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70180.20#msg872438"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-08-15, 周二 00:45:56<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76357">落雨随枫</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659472"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0">【PHB】基础职业：魔导士（Warlock）</a></span>
+<p><span id="msg_descr_659472" class="topic_description">更新：官网UA专栏，2015.08期，新宗主和新祈唤</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+<small id="pages659472">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.40">3</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php?topic=70370.%1$d', 60, 80, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.80">5</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+95 回复
+<br>
+115062 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.80#msg858336"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-06-09, 周五 22:53:52<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=78444">dark985620</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_657527"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70175.0">【PHB】基础职业：武僧</a></span>
+<p><span id="msg_descr_657527" class="topic_description">ｆｏｒ　ｔｈｅ　ｍｏｎｋ</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages657527"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+26260 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70175.0#msg671300"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-27, 周六 20:16:57<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=75214">Xaang</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_661031"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.0">【PHB】法术简表</a></span>
+<p><span id="msg_descr_661031" class="topic_description">完结</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=13908" title="检视会员资料:  幸福的米分">幸福的米分</a>
+<small id="pages661031">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.40">3</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+56 回复
+<br>
+74014 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70496.40#msg682783"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-11-22, 周六 08:30:49<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42300">月夜白雨</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_646910"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">【PHB】法术：A-C</a></span>
+<p><span id="msg_descr_646910" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+<small id="pages646910">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+31 回复
+<br>
+39706 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.20#msg803871"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-07-03, 周日 11:53:45<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9554">leafnight</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_661758"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70568.0">【PHB】法术：D、E</a></span>
+<p><span id="msg_descr_661758" class="topic_description">完成</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10764" title="检视会员资料:  橡木盾">橡木盾</a>
+<small id="pages661758"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+15369 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70568.0#msg682518"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-11-20, 周四 17:21:05<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3476">stevenfisher</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_676111"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71821.0">【PHB】法术：H-O</a></span>
+<p><span id="msg_descr_676111" class="topic_description">（大）部分翻译参（照）考（搬）了3R译法</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=71151" title="检视会员资料:  Tin">Tin</a>
+<small id="pages676111"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+12815 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71821.0#msg676310"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-10-20, 周一 21:58:48<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=71151">Tin</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_662512"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70616.0">【PHB】法术：R-Z</a></span>
+<p><span id="msg_descr_662512" class="topic_description">Z部完成</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=12514" title="检视会员资料:  Iron Fossil">Iron Fossil</a>
+<small id="pages662512">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70616.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70616.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70616.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+26 回复
+<br>
+39337 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70616.20#msg691470"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-01-05, 周一 14:57:36<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6132">猫法师</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659992"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70411.0">【PHB】种族：侏儒（Gnome）</a></span>
+<p><span id="msg_descr_659992" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74274" title="检视会员资料:  深红">深红</a>
+<small id="pages659992"></small>
+</p>
+</div>
+<td class="stats windowbg">
+10 回复
+<br>
+15387 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70411.0#msg661119"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-19, 周二 17:55:38<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3103">星</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659408"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70359.0">【PHB】种族：半兽人（Half-orc）</a></span>
+<p><span id="msg_descr_659408" class="topic_description">基本翻译完成，文字润色过几天再进行……因为实际上并没有看过5版的设定，可能有的地方翻译错误，求抓虫</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=17958" title="检视会员资料:  蓝冰夜光">蓝冰夜光</a>
+<small id="pages659408"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+12521 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70359.0#msg660704"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-18, 周一 17:22:14<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390">Sheepy</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659175"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70344.0">【PHB】种族：半精灵（Half-Elf）</a></span>
+<p><span id="msg_descr_659175" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=12514" title="检视会员资料:  Iron Fossil">Iron Fossil</a>
+<small id="pages659175"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+15536 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70344.0#msg660049"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-16, 周六 13:29:23<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=12514">Iron Fossil</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659802"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70395.0">【PHB】种族：提夫林（Tiefling）</a></span>
+<p><span id="msg_descr_659802" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=14732" title="检视会员资料:  道是无常">道是无常</a>
+<small id="pages659802"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+22218 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70395.0#msg659931"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-16, 周六 07:48:07<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">OckhamTheRazor</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658573"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70286.0">【PHB】种族：龙裔（Dragonborn）</a></span>
+<p><span id="msg_descr_658573" class="topic_description">初步完成，请捉虫</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=17071" title="检视会员资料:  六指">六指</a>
+<small id="pages658573"></small>
+</p>
+</div>
+<td class="stats windowbg">
+15 回复
+<br>
+29351 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70286.0#msg1130115"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+<strong>今天</strong>18:25:29<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=124904">Anivia</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658591"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70288.0">【PHB】第六章 前言 + 兼职</a></span>
+<p><span id="msg_descr_658591" class="topic_description">求拍砖</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390" title="检视会员资料:  Sheepy">Sheepy</a>
+<small id="pages658591"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+16899 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70288.0#msg658591"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-13, 周三 08:57:30<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390">Sheepy</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_657799"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70204.0">【PHB】第六章可选规则：专长</a></span>
+<p><span id="msg_descr_657799" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+<small id="pages657799"></small>
+</p>
+</div>
+<td class="stats windowbg">
+16 回复
+<br>
+39534 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70204.0#msg896949"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-12-12, 周二 19:20:09<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=86687">KogasaGaSagasa</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659453"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70366.0">【phb】第四章，背景部分</a></span>
+<p><span id="msg_descr_659453" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40692" title="检视会员资料:  zghzgh1779">zghzgh1779</a>
+<small id="pages659453"></small>
+</p>
+</div>
+<td class="stats windowbg">
+2 回复
+<br>
+16834 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70366.0#msg661837"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-21, 周四 22:17:21<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40692">zghzgh1779</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659747"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70392.0">【PHB】附录B：多元宇宙诸神</a></span>
+<p><span id="msg_descr_659747" class="topic_description">完工。欢迎各种抓虫、建议。</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10764" title="检视会员资料:  橡木盾">橡木盾</a>
+<small id="pages659747">&#171;  <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70392.0">1</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70392.20">2</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70392.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+30 回复
+<br>
+49090 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70392.20#msg810957"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-08-07, 周日 16:45:54<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3119">幽水人</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_661382"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70527.0">【PHB】附录C：存在位面Planes of Existence</a></span>
+<p><span id="msg_descr_661382" class="topic_description">——等待校对</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=66806" title="检视会员资料:  Belegaerion">Belegaerion</a>
+<small id="pages661382"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+11100 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70527.0#msg662598"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-23, 周六 19:41:30<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40692">zghzgh1779</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658978"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70326.0">【PHB】附录D：生物数值</a></span>
+<p><span id="msg_descr_658978" class="topic_description">完成，未校对</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10555" title="检视会员资料:  ALE">ALE</a>
+<small id="pages658978"></small>
+</p>
+</div>
+<td class="stats windowbg">
+8 回复
+<br>
+15510 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70326.0#msg665994"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-04, 周四 09:00:04<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=41912">tempestmars</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_658410"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70270.0">【PHB】附录E：启蒙读物</a></span>
+<p><span id="msg_descr_658410" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10555" title="检视会员资料:  ALE">ALE</a>
+<small id="pages658410"></small>
+</p>
+</div>
+<td class="stats windowbg">
+2 回复
+<br>
+10950 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70270.0#msg672106"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-30, 周二 22:22:58<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=11131">7510sina</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_685654"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72783.0">传奇恩惠</a></span>
+<p><span id="msg_descr_685654" class="topic_description">我的妈呀三万XP就换这些垃圾。。。</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="检视会员资料:  子虚子">子虚子</a>
+<small id="pages685654"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+13578 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72783.0#msg949552"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2018-09-15, 周六 22:38:34<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=8442">homepage</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_673676"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71567.0">最近要跑团，拿到书后等不及了，自己开始翻译法术。</a></span>
+<p><span id="msg_descr_673676" class="topic_description">C部分</span>
+<br>作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6132" title="检视会员资料:  猫法师">猫法师</a>
+<small id="pages673676"></small>
+</p>
+</div>
+<td class="stats windowbg">
+19 回复
+<br>
+16290 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71567.0#msg685619"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-12-08, 周一 23:04:48<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">OckhamTheRazor</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_675260"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71762.0">法术 G</a></span>
+<p><span id="msg_descr_675260" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6132" title="检视会员资料:  猫法师">猫法师</a>
+<small id="pages675260"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+6520 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=71762.0#msg675301"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-10-17, 周五 00:00:06<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=71151">Tin</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_678779"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72078.0">法术 P</a></span>
+<p><span id="msg_descr_678779" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6132" title="检视会员资料:  猫法师">猫法师</a>
+<small id="pages678779"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+5576 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=72078.0#msg678779"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-11-02, 周日 10:06:05<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=6132">猫法师</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_659721"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70388.0">法术描述（F部分，未完成）</a></span>
+<p><span id="msg_descr_659721" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=1122" title="检视会员资料:  庞西瓦">庞西瓦</a>
+<small id="pages659721"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+15326 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70388.0#msg807837"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-07-22, 周五 23:39:44<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9554">leafnight</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_839241"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=90037.0">玩家手册全本</a></span>
+<p><span id="msg_descr_839241" class="topic_description"></span>
+作者 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=82040" title="检视会员资料:  小小DM">小小DM</a>
+<small id="pages839241"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+16772 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=90037.0#msg882971"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2017-10-05, 周四 13:20:26<br>
+由 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=13850">狂阳</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0;sort=subject">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0;sort=subject">1</a> [<strong>2</strong>] <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.80;sort=subject">3</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.80;sort=subject">&#187;</a>  &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 1140,
+iCurBoardChildLevel: 2,
+sCurBoardName: "核心规则",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("b98e3a8add6adaeb68812f7788c636bf", "f37bd19");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("b98e3a8add6adaeb68812f7788c636bf", "f37bd19");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

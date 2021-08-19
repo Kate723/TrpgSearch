@@ -1,0 +1,910 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【CRB】第三章：法师（Wizard）(2020/10/11校对"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【CRB】第三章：法师（Wizard）(2020/10/11校对</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1866.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="112320"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"><span>Pathfinder RPG 2nd</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1866.0"><span>核心规则书籍（Rulebook）</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0"><span>【CRB】第三章：法师（Wizard）(2020/10/11校对</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1016924"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=112320.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【CRB】第三章：法师（Wizard）(2020/10/11校对 &nbsp;(阅读 10233 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 收尾</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=quickmod2;topic=112320.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e8ec3fcb53e635cea755d88e80dad504', 'b6a8112e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+</h4>
+<ul class="reset smalltext" id="msg_1016924_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79040_1466754812.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3727<li class="karma">苹果币: 6<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1016924">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1016924#msg1016924" rel="nofollow">【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1016924'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1016924'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-10-10, 周四 23:59:46 &#187;</div>
+<div id="msg_1016924_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1016924"><span style="color: brown;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size"><strong>法师（Wizard）</strong></span></span><br><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><em><span style="font-size: 12pt;" class="bbc_size"><span style="color: blue;" class="bbc_color">你是多元宇宙中奥艺的永恒学徒，你掌握的魔法，能释放毁灭性的法术。魔法对你来说与科学无异，你互相引证最新的实践奥艺以及古代的秘传典籍，去发掘魔法的运作。但魔法之理浩瀚无穷，你无法以有涯随无涯。你要不专精八大魔法学派之一，对其中魔法的细微差别知之甚深，不然就是以深度为代价，对所有魔法广泛涉猎。</span></span></em></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><strong>关键属性</strong>：智力。1级时，你的职业会在智力上给你属性增强。<br><strong>生命值</strong>：6+你的体质调整值。1级与1级后，你能在最大生命值上增加此项数值。<br><br><span style="color: brown;" class="bbc_color"><strong>在战斗遭遇中</strong></span><br>你或许会在争斗之外，小心判断何时该使用法术。你扣住最强大的魔法，只待敌人来袭便令他们一举失能，当敌人弱小则使用戏法。若敌人耍弄隐身或飞行花招要脱身，你便回以诸如<em>闪光尘</em>或<em>地缚</em>等法术，为你的盟友铺平战场。<br><br><span style="color: brown;" class="bbc_color"><strong>在社交遭遇中</strong></span><br>在有关奥法的问题上你有博学多闻，使用逻辑解决争端。<br><br><span style="color: brown;" class="bbc_color"><strong>当探索时</strong></span><br>你能定位魔法灵光，能发掘出的奇异记载或现象判定其奥法意涵。当你被古怪障碍挡住了探索的路，你很可能有张能让你轻松脱身的卷轴。<br><br><span style="color: brown;" class="bbc_color"><strong>在休整期</strong></span><br>你学习新法术、制造魔法物品或为团队抄写卷轴，并寻找除法术外，崭新且令人兴奋的公式。你甚至可以进行学术交流并建立属于你的学校或公会。<br><br><span style="color: brown;" class="bbc_color"><strong>你可以是</strong></span><br>●对世间万物的运作(特别是魔法)有着难以遏止的求知欲。<br>●强烈的相信自己的魔法学派高人一等(如果你是个专精法师)或想要真正掌握魔法需要所有学派的知识(如果你是的通才法师)。<br>●使用秘法术语和科技词汇精准的描述魔法效果的细节，即便其他人完全不了解之间的差别。<br><br><span style="color: brown;" class="bbc_color"><strong>其他人觉得你</strong></span><br>●认为你强大的难以置信，同时也有潜在的危险。<br>●恐惧于你的魔法能对他们内心、身体和灵魂可能的戕害，并要求你在文明的场合要避免使用法术，因为很少有人能在事情太迟之前，去分辨你哪个法术无害，哪个恶毒。<br>●会假设你能轻松解决他们所有问题，从危险的气候到贫瘠的农田，并要求你的法术去协助他们满足所有的欲望。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: brown;" class="bbc_color"><strong>起始熟练</strong></span><br>1级时，你会获得下面列出项目的熟练度。所有没列出来的你都未受训，除非你用其他方式获得了更高的熟练度。<br><br><span style="color: brown;" class="bbc_color"><strong>察觉</strong></span><br>察觉有受训熟练度<br><br><span style="color: brown;" class="bbc_color"><strong>豁免</strong></span><br>强韧有受训熟练度<br>反射有受训熟练度<br>意志有专家熟练度<br><br><span style="color: brown;" class="bbc_color"><strong>技能</strong></span><br>奥秘有受训熟练度<br>在<strong>2+你智力调整值</strong>个技能上有受训熟练度<br><br><span style="color: brown;" class="bbc_color"><strong>攻击</strong></span><br>在木棒、弩、匕首、重弩和木棍上有受训熟练度。(club, crossbow,dagger, heavy crossbow, and staff)<br>在非武装攻击上有受训熟练度。<br><br><span style="color: brown;" class="bbc_color"><strong>防御</strong></span><br>在所有盔甲上未受训。<br>在非武装防御上有受训熟练度。<br><br><span style="color: brown;" class="bbc_color"><strong>法术</strong></span><br>在奥术法术攻击上有受训熟练度。<br>在奥术法术DC上有受训熟练度。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><div align="center"><span style="font-size: 18pt;" class="bbc_size"><strong>表3-18：法师成长表</strong></span></div><table class="bbc_table"><tr><td><strong>法师等级</strong><td><strong>职业特性</strong></tr><tr><td>1<td>族裔与背景、起始熟练、奥术施法、奥术学派、奥术连结、奥术论题</tr><tr><td>2<td>技能专长、法师专长</tr><tr><td>3<td>2环法术、通用专长、技能增强</tr><tr><td>4<td>技能专长、法师专长</tr><tr><td>5<td>3环法术、属性增强、族裔专长、闪电反射、技能增强</tr><tr><td>6<td>技能专长、法师专长</tr><tr><td>7<td>4环法术、专家施法者、通用专长、技能增强</tr><tr><td>8<td>技能专长、法师专长</tr><tr><td>9<td>5环法术、族裔专长、魔法强韧、技能增强</tr><tr><td>10<td>属性增强、技能专长、法师专长</tr><tr><td>11<td>6环法术、警戒、通用专长、技能增强、法师武器专家</tr><tr><td>12<td>技能专长、法师专长</tr><tr><td>13<td>7环法术、族裔专长、防御斗篷、技能增强、武器专精</tr><tr><td>14<td>技能专长、法师专长</tr><tr><td>15<td>8环法术、属性增强、通用专长、大师施法者、技能增强</tr><tr><td>16<td>技能专长、法师专长</tr><tr><td>17<td>9环法术、族裔专长、决意、技能增强</tr><tr><td>18<td>技能专长、法师专长</tr><tr><td>19<td>大法师奥艺、传说大法师、通用专长、技能增强</tr><tr><td>20<td>属性增强、技能专长、法师专长</tr></table></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引述: 法师每日法术</div></div><blockquote class="bbc_standard_quote"><table class="bbc_table"><tr><td><strong>法师等级</strong><td><strong>戏法</strong><td><strong>1</strong><td><strong>2</strong><td><strong>3</strong><td><strong>4</strong><td><strong>5</strong><td><strong>6</strong><td><strong>7</strong><td><strong>8</strong><td><strong>9</strong><td><strong>10</strong></tr><tr><td>1<td>5<td>2<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>2<td>5<td>3<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>3<td>5<td>3<td>2<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>4<td>5<td>3<td>3<td>─<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>5<td>5<td>3<td>3<td>2<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>6<td>5<td>3<td>3<td>3<td>─<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>7<td>5<td>3<td>3<td>3<td>2<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>8<td>5<td>3<td>3<td>3<td>3<td>─<td>─<td>─<td>─<td>─<td>─</tr><tr><td>9<td>5<td>3<td>3<td>3<td>3<td>2<td>─<td>─<td>─<td>─<td>─</tr><tr><td>10<td>5<td>3<td>3<td>3<td>3<td>3<td>─<td>─<td>─<td>─<td>─</tr><tr><td>11<td>5<td>3<td>3<td>3<td>3<td>3<td>2<td>─<td>─<td>─<td>─</tr><tr><td>12<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>─<td>─<td>─<td>─</tr><tr><td>13<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>2<td>─<td>─<td>─</tr><tr><td>14<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>─<td>─<td>─</tr><tr><td>15<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>2<td>─<td>─</tr><tr><td>16<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>─<td>─</tr><tr><td>17<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>2<td>─</tr><tr><td>18<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>─</tr><tr><td>19<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>1*</tr><tr><td>20<td>5<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>3<td>1*</tr></table><strong>*大法师奥艺给妳的10环法术位跟其他法术位的运作方式有些不同。</strong><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div align="center"><span style="color: purple;" class="bbc_color"><span style="font-size: 18pt;" class="bbc_size"><strong>职业特性</strong></span></span></div>作为法师，你会获得这些能力。因为等级提升可获得的能力，其获得等级列在能力名称旁。<br><br><span style="color: brown;" class="bbc_color"><strong>族裔与背景</strong></span><br>除了职业在1级给你的能力外，你还会从自己选择的族裔与背景中获益，详情在第二章。<br><br><span style="color: brown;" class="bbc_color"><strong>起始熟练</strong></span><br>1级时，你会获得一些反应你基础训练的熟练。这些熟练已列在本职业开始处。<br><br><span style="color: brown;" class="bbc_color"><strong>奥术施法</strong></span><br>你献身于奥艺的研究与实践，驾驭奥术之力用以施法。你可以使用<strong>施放法术</strong>(Cast a Spell)行动来施展奥术法术，并且当你在施法时，可以提供材料、姿势和语言成分(见P.302的<strong>施放法术</strong>)。<br><br>1级时，你每天早上(each morning)最多可以从你的法术书(见下)里准备两个1环法术，以及5个戏法，而如果你是个专精法师，还可以从你选择的学派中，额外挑选1个戏法，以及在你可施放环级中每环一个法术。准备好的法术会维持可用状态，直到你施放或直到你再次准备法术。你可以准备的法术数量称为你的法术位。<br><br>当你的法师等级提升，你的法术位数量，以及可从法术位施放的最高环级也会随之提升，列在表格3-19：法师每日法术(P.205)。<br><br>有些法术会需要你尝试法术攻击骰(spell attack roll)，来决定效果如何，或是会要敌人掷骰对抗你法术的DC(通常是进行豁免检定)。因为你的关键属性为智力，你的法术攻击骰和法术DC会使用你的智力调整值。这些综合资讯在P.447有详细说明。<br><br><span style="color: brown;" class="bbc_color">升环法术</span><br>当你获得2环或更高环的法术位，你可以把低环法术的加强版塞进这些法术位中。这会增加这些法术的环级，将之升环到与法术位僵硬的环级中。许多法术在你升环到特定环级时会有具体的增强。<br><br><span style="color: brown;" class="bbc_color">戏法</span><br>戏法是一种不使用法术位的特殊法术。你可以随心所欲的使用戏法，没有每日次数的限制。戏法会自动升环到你等级的一半并向上取整，一般来说会跟你的法师目前能施放的最高环法术相等。举个例子，一个1级法师，戏法就是1环法术；而一位5级法师，戏法就是3环法术。<br><br><span style="color: brown;" class="bbc_color">法术书</span><br>每个奥术法术都有文字版本，往往会记录在法术书内。一开始你会有一本价值10银币或低于此价值的法术书(详情见P.291)，你可以免费获得，同时每日准备法术时你必须研读法术书。本书含有你选择的10个奥术戏法以及5个1环奥术法术。你可以在本书P.307的奥术法术列表中选择这些常见(common)法术，或是从你可以使用的奥术法术中选取。你法术书的样式与名称取决与你。它可能是发霉、皮革包复的典籍或是一个与花样各式的轻薄金属圆盘相连接的黄铜圆环；名字可以神秘点，像是「猩红教典」或更学术点，例如「实用变形术的田野调查」。<br><br>每当你获得等级，你就能在你的法术书中添加两个奥术法术，添加的法术要是你能施放的环级。你还可以使用<strong>奥术</strong>技能添加冒险途中发现的其他法术，详情见P.241。<br><br><span style="color: brown;" class="bbc_color"><strong>奥术学派(Arcane School)</strong></span><br>许多奥术施法者会深掘某一个魔法学派，好掌握其中奥秘。如果你想成为一个专精法师，请选择一个学派去专精。你会在所选学派上获得额外的法术与法术位。奥术学派的详情在P.207。<br><br>如果你不想选择某个学派，那你就是所谓的通才法师，这类法师相信魔法的真谛需要涉猎全部八大学派，并融为一体。虽然通才法师缺乏专精法师的专注，但他们的灵活性更高。通才法师的详细资料请见P.209。<br><br><span style="color: brown;" class="bbc_color"><strong>奥术连结(Arcane Bond)</strong></span><br>你将魔法之力储存在一件连结物品中。每天在你准备法术的时候，你可以指定一件属于你的物品作为你的连结物品。这件物品通常跟施法有关，像是魔杖、戒指或法杖，但你也可选择武器或其他物品作为连结物品​。你获得汲<strong>取连结物品</strong>这个自由动作。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 12pt;" class="bbc_size"><strong>汲取连结物品(Drain Bonded Item)</strong></span><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=112352.0;attach=89760;image" alt="" height="15" class="bbc_img resized"/><br><span style="color: brown;" class="bbc_color"><strong>奥术 法师</strong></span><br><strong>频率：每天一次</strong><br><strong>需求：你在你的回合中还没有行动过。</strong><br>你释放连结物品中储存的能量。在你的回合中，你会获得施放<em>一个你今天有准备并且已经放过的法术</em>的能力，并且无须使用法术位。你还是需要采取<strong>施放法术</strong>行动并满足法术的其他需求。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: brown;" class="bbc_color"><strong>奥术论题(Arcane Thesis)</strong></span><br>在你为了成为正式施法者而苦读时，你在众多课题中发表了一篇独特的魔法研究论题。你在该论题的研究获得了好处。本书的奥术论题如下，而你自己的论题名称可能更长或更专业，例如「对法术篡改方法与建构障碍魔法之起源的崭新发现」<br><br><span style="color: brown;" class="bbc_color">改良魔宠谐调(Improved Familiar Attunement)</span><br>你长久以来针对法师与魔宠之间契约进行魔法上的微调，相较于现在大部分法师通用但安全的契约，你的做法改良了双方间的神秘联系。你与自己的魔宠形塑了这样的联系，从中获得了比其他法师更多的优势。你获得<strong>魔宠(Familiar)</strong>法师专长作为奖励专长。你的魔宠获得一个额外能力，当你6、12、18级时各获得一个额外能力<br><br>你与你魔宠的联系改变你的<strong>奥术连结</strong>职业能力，所以你把你的魔法能量储存在你的魔宠身上，而不是自己的物品上；你还会获得<strong>汲取魔宠(Drain Familiar)</strong>自由动作而不会获得<strong>汲取连结物品</strong>自由动作。<strong>汲取魔宠</strong>可在任何你可以使用<strong>汲取连结物品</strong>的时候使用，并且效果相同，除了你是从魔宠身上汲取而不是从物品上汲取。<br><br><br><span style="color: brown;" class="bbc_color">超魔实验(Metamagical Experimentation)</span><br>你了解到被称为超魔的实践技艺其实从很久以前就开始了，那时候的法师必须自己设计法术与变化，而不是像现在倚靠他人记载与流传的法术。此论题能让你有效使用各种超魔专长。<br><br>你获得一个<strong>1级超魔</strong>法师专长作为奖励专长。4级开始，在你进行每日准备时，你可以选择一个等级需求不超过你等级一半的超魔法师专长，你可以使用此超魔专长直到你进行下一次每日准备。<br><br><div class="quoteheader"><div class="topslice_quote">引述: 边拦：简易法术书</div></div><blockquote class="bbc_standard_quote">你可以在自己的法术书添加任何你喜欢的法术，但下面列出来的法术对1级法师来说是个不错的选择。这些法术可以在<em>《奥术魔法的建构与解析》</em>中发现，这是一本奥术学院以及成熟法师用来传授在奥术研究中培养良好习惯的法术书。<br><br><strong>戏法</strong>：酸液飞溅、侦测魔法、电弧、光亮、法师之手、传讯、魔法伎俩、冰冻射线、护盾还有阅读灵气。<br><strong>1环</strong>：燃烧之手、七彩喷射、油腻、法师护甲和魔法飞弹，如果你是专精法师，还可以多加一个你专精学派的法术。<br><br>Cantrips: Acid splash, detect magic, electric arc, light,mage hand, message, prestidigitation, ray of frost, shield,and study aura.<br><br>1st Level: Burning hands, color spray, grease, mage armor, and magic missile, plus one spell of your school if you’re a specialist wizard.<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: brown;" class="bbc_color">法术交融(Spell Blending)</span><br>你认为法术位是所有施法本源的速记，并且你找到了一个修补法术位机制的方法，将它们合并以产生更强大的法术。<br><br>当你进行每日准备时，你可以把两个同环级法术位换成一个奖励法术位，这个奖励法术位的环位最高可以比你所提供的法术位的环级高2环。你想这样交换多少法术位都可以。奖励法术位的环级必须是你能施展的，同时每个奖励法术位的环级不可相同。你也可以将一个任何环级的法术位换成2个戏法，但你这样换成额外戏法的作法，每次只能用一个法术位去作交换。<br><br><span style="color: brown;" class="bbc_color">法术替换(Spell Substitution)</span><br>你不接受一旦法术准备好，直到你下一次日常准备之前都无法改变它们的事实，而你找到了一条捷径，让你可以用新法术代替那些你已经准备好的法术。<br><br>你可以花10分钟将一个准备好的法术位弄空，并从你的法术书里拿另一个法术放进去。如果你在替换途中被打断，原本的法术依然保持准备好的状态，还是可以施放。你之后可以继续尝试替换，但你必须重头来过。<br><br><span style="color: brown;" class="bbc_color"><strong>法师专长(wizard feats)</strong></span><br>2级以及之后偶数等级，你会获得一个法师职业专长。这些专长列在P.209。<br><br><span style="color: brown;" class="bbc_color"><strong>技能专长(Skill Feats)&nbsp; &nbsp; 2级</strong></span><br>2级时以及之后每2级，你会获得一个技能专长。技能专长出现在第五章并且拥有技能特性。你必须在相应技能上受训或有受训以上的熟练度才可以选择该技能专长。<br><br><span style="color: brown;" class="bbc_color"><strong>通用专长(General Feats)&nbsp; &nbsp; 3级</strong></span><br>3级时以及之后每4级，你会获得一个通用专长。通用专长出现在第五章。<br><br><span style="color: brown;" class="bbc_color"><strong>技能增强(Skill Increases)&nbsp; &nbsp; 3级</strong></span><br>3级时以及之后每2级，你会获得技能增强。你可以使用此增强来让一个你未受训的技能变成受训熟练度，或是让你一个有受训熟练度的技能提升至专家。<br><br>7级时，你可以把一个已经是专家熟练度的技能提升至大师，15级时，你可以把一个已经是大师熟练度的技能提升至传奇。<br><br><span style="color: brown;" class="bbc_color"><strong>属性增强(Ability Boosts)&nbsp; &nbsp; 5级</strong></span><br>5级时以及之后每5级，你能增强4个不同属性。你可以使用此能力将你属性升到18以上。如果属性已达18或更高，增强此属性只会提升1点，如果低于18，会提升2点。<br><br><span style="color: brown;" class="bbc_color"><strong>族裔专长(Ancestry Feats)&nbsp; &nbsp; 5级</strong></span><br>除了起始族裔专长，你在5级时以及之后每4级会获得一个族裔专长。你可以选择的族裔专长列表在第二章你选择的族裔条目那。<br><br><span style="color: brown;" class="bbc_color"><strong>闪电反射(Lightning Reflexes)&nbsp; &nbsp; 5级</strong></span><br>你的反射神经速度堪比闪电。你的反射豁免熟练度提升至专家。<br><br><span style="color: brown;" class="bbc_color"><strong>专家施法者(Expert Spellcaster)&nbsp; &nbsp; 7级</strong></span><br>对奥术长久的实践强化了你的实力。你在奥术法术攻击骰以及法术DC上的熟练度提升至专家。<br><br><span style="color: brown;" class="bbc_color"><strong>魔法强健(Magical Fortitude)&nbsp; &nbsp; 9级</strong></span><br>魔法之力强化了你身体的弹性。你的强韧豁免熟练度提升至专家。<br><br><span style="color: brown;" class="bbc_color"><strong>警戒(Alertness)&nbsp; &nbsp; 11级</strong></span><br>你随时保持对周围的警戒。你的察觉熟练度提升至专家<br><br><span style="color: brown;" class="bbc_color"><strong>法师武器专家(Wizard Weapon Expertise)&nbsp; &nbsp; 11级</strong></span><br>通过魔法与训练的结合培训后，你学会如何更有效率的使用法师的武器。你在木棒、弩、匕手、重弩还有法杖上的熟练度提升为专家。<br><br><span style="color: brown;" class="bbc_color"><strong>防御斗篷(Defensive Robes)&nbsp; &nbsp; 13级</strong></span><br>魔力的流动与你的训练结合，使你能躲避攻击。你在非武装防御上的熟练度提升为专家。<br><br><span style="color: brown;" class="bbc_color"><strong>武器专精(Weapon Specialization)&nbsp; &nbsp; 13级</strong></span><br>你了解如何使用你最了解的武器，造成更严重的伤害。你在使用熟练度为专家的武器或是非武装攻击实可以额外造成2点伤害。如果你的熟练度为大师则为3点，如果是传奇则为4点。<br><br><span style="color: brown;" class="bbc_color"><strong>大师施法者(Master Spellcaster)&nbsp; &nbsp; 15级</strong></span><br>你驱使至高的施法能力。你在奥术法术攻击骰和法术DC上的熟练度提升至大师。<br><br><span style="color: brown;" class="bbc_color"><strong>决意(Resolve)&nbsp; &nbsp; 17级</strong></span><br>你坚定的意志使你心如钢铁。你在抑制豁免上的熟练度提升为大师。当你在意志豁免上有成功时，你能用大成功代之。<br><br><span style="color: brown;" class="bbc_color"><strong>大法师奥艺(Archwizard’s Spellcraft)&nbsp; &nbsp; 19级</strong></span><br>你师使著最强大的奥术魔法，并且能施放真正不可思议的法术。你获得一个10环法术位，并且可以使用奥术施法能力准备这个法术位。不同于其他法术位，你不会因为等级提升而获得更多10环法术位，但你可以选择大法师伟力专长取得第二个10环法术位。<br><br><span style="color: brown;" class="bbc_color"><strong>传说大法师(Legendary Spellcaster)&nbsp; &nbsp; 19级</strong></span><br>你是个已达化境的施法者，在奥术的理论与实践层面上都有着无比全面的认知。你在奥术法术攻击骰和法术DC上的熟练度提升至传奇。<br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>奥术学派(Arcane Schools)</strong></span></span><br><br>如果你专精一个奥术学派，而不是对每个学派都加以研究(就是通才法师)，你在你能施放的法术环级中，每环会多一个额外法术位。在这个额外法术位里，只能准备你专精的奥术学派法术。此外，你还可以多准备一个所选专精学派的戏法。你还可以在你的法术书上增添一个所选专精学派的奥术法术。<br><br>你学会一个学派法术，这是一种授予奥术学派学徒的特殊法术。学派法术属于<strong>聚能法术(focus spell)</strong>，施放一个聚能法术会消耗1点聚能点，你一开始会有一个1点聚能点的聚能池。在每日准备时你的聚能池会回满，如果你在研读法术书或进行奥法研究时花10分钟使用<strong>再聚能行动(Refocus activity)</strong>，你可以恢复1点聚能点。<br>聚能法术会自动升环，升到你的等级取半并向上取整。聚能法术无须法术位，也不用你使用法术位施放。某些专长可以让你获得更多聚能法术，并增加你聚能池的容量，虽然你的聚能池永远不能超过3点聚能点。有关聚能法术的详细规则请见P.300。<br><br><span style="color: brown;" class="bbc_color"><strong>防护系(Abjuration)</strong></span><br>身为防护师，你熟知守护、强化防御、阻碍攻击甚至扭转针对自己魔法的真谛。你知晓预防胜于治疗的道理。你的法术书多一个1环防护系法术(例如<em>羽落术(feather fall)</em>)。你学到了<em>防护结界(protective ward)</em>学派法术(P.407)。<br><br><span style="color: brown;" class="bbc_color"><strong>咒法师(Conjuration)</strong></span><br>身为咒法师，你能召唤不在此处的生物与物体，使用魔法传送至遥远的场所。你知晓胜利的真谛在于数量。你的法术书多一个1环咒法系法术(例如<em>召唤动物summon animal</em>)。你学到了<em>增强召唤(augment summoning)</em>学派法术(P.406)。<br><br><span style="color: brown;" class="bbc_color"><strong>预言师(Divination)</strong></span><br>身为预言师，你掌握着远方的意象与先见，得到的资讯可以用来调查、研究和战争的战略。你知道知识就是力量。你的法术书多一个1环预言系法术(例如<em>克敌机先[true strike]</em>)。你学到了<em>预言师洞见(diviner’s sight)</em>学派法术(P.406)。<br><br><span style="color: brown;" class="bbc_color"><strong>惑控师(Enchantment)</strong></span><br>身为惑控师，你使用魔法操纵他人的内心。你能够巧妙的影响他人，或是夺取他人对自身的控制权。你知晓意念优于物质。你的法术书多一个1环惑控系法术(例如<em>魅惑术[charm]</em>)。你学到了<em>魅惑真言(charming words)</em>学派法术(P.406)。<br><br><span style="color: brown;" class="bbc_color"><strong>塑能师(Evocation)</strong></span><br>身为塑能师，你着迷于魔法的原始之力，用其创造和毁灭。你可以呼召元素、力场还有能量摧毁你的敌人，或以其他方式协助你。你知晓最直接的接触才最优雅。你的法术书多一个1环塑能系法术(例如<em>电爪术[shocking grasp]</em>)。你学到了<em>力场矢(force bolt)</em>学派法术(P.407)。<br><br><span style="color: brown;" class="bbc_color"><strong>幻术师(Illusion)</strong></span><br>身为幻术师，你用魔法创造画面、虚像和幻影迷惑你的敌人。你知晓知觉即真实。你的法术书多一个1环幻术系法术(例如<em>虚幻物体[illusory object]</em>)。你学到了<em>扭曲地形(warped terrain)</em>学派法术(P.407)。<br><br><span style="color: brown;" class="bbc_color"><strong>死灵师(Necromancy)</strong></span><br>身为死灵师，你驱使生与死之力。尽管你的学派常因为与复苏不死生物相关而遭到蔑视，但你知晓如何控制生命，意味着你知道如何治癒。你的法术书多一个1环死灵系法术(例如<em>残酷触手[grim tendrils]</em>)。你学到了<em>墓地之音(call of the grave)</em>学派法术(P.406)。<br><br><span style="color: brown;" class="bbc_color"><strong>变化师(Transmutation)</strong></span><br>身为变化师，你能改变物件的物理特性，只需你一个念头，你就能转化生物、物体、自然世界甚至你自己。你知晓永远不变的就是变。你的法术书多一个1环变化系法术(例如<em>魔化武器[magic weapon]</em>)。你学到了<em>身体增幅(physical boost)</em>学派法术(P.407)。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>法师范例</strong></span><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>咒法师</strong></span><br><br><em>你的魔法能召唤生物、传送自身，创造有用之物。你对古怪生物和遥远国度有所了解。</em><br><br><strong>属性值</strong><br>智力优先。敏捷、体质和感知能完善你的防御。<br><br><strong>技能</strong><br>奥法、手艺、交涉、自然、神秘、宗教、社群。<br><br><strong>专攻</strong><br>咒法系<br><br><strong>论题</strong><br>改良魔宠谐调<br><br><strong>高等级专长</strong><br>强化魔宠(2级)、进阶学派法术(8级)、随心专注(16级)。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1016924">
+&#171; <em>上次编辑: 2020-10-11, 周日 21:35:59 由 笨哈</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1016924_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1519.0" class="bbc_link new_win" target="_blank">PF各职业法术大全</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=86870.msg818322#msg818322" class="bbc_link new_win" target="_blank">PF官方骑士团汇整</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=85764.0" class="bbc_link new_win" target="_blank">PF战役设定：地狱骑士之道</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1016925"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+</h4>
+<ul class="reset smalltext" id="msg_1016925_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79040_1466754812.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3727<li class="karma">苹果币: 6<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1016925">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1016925#msg1016925" rel="nofollow">职业专长</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1016925'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1016925'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-10-11, 周五 00:00:04 &#187;</div>
+<div id="msg_1016925_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1016925"><span style="font-size: 14pt;" class="bbc_size"><span style="color: blue;" class="bbc_color"><strong>通才法师</strong></span></span><br>不同于专精某个奥术学法的法师，你是一名通才法师，你一视同仁研究所有学派，你将已身奉献给奥法技艺的所有枝节。在你能施放的法术环级，你每天都能在每一环使用一次汲取连结物品(而不是一天总共只能用一次)。你获得一个额外法师职业专长，同时你在法术书上额外获得一个一环法术。<br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>法师专长</strong></span></span><br>每当你获得法师专长，你就可以在下面的专长里挑一个。有前置要求的专长，你必须满足前置要求才能选。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>反制法术(COUNTERSPELL) [[R]]&nbsp; &nbsp;1级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>防护系 奥法 法师</strong></span><br><strong>触发</strong>：有个生物进行施放法术(Casts a Spell)行动，而施放的法术是你已经准备好的。<br>当你看到有个敌人进行施放法术(Casts a Spell)的行动，你可以使用自己的魔法去中断她。你要消耗一个准备好的法术，去反制引起触发并且施放跟你同个法术的生物。你会失去你的法术位，如同你施放了这个引起触发的法术。接着你需要中和(counteract)这个引起触发的法术(P.458)。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>施法免材(ESCHEW MATERIALS)&nbsp; &nbsp;1级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>你用巧妙的方法复制某些材料的奥法精华。在需要材料成分的施放法术(Casts a Spell)行动钟，你可以借由在大气中绘制复杂用以取代的法印，在没有法术材料包的情况提供材料成分。不同于提供姿势成分，你必须有一只完全自由的手。但这无法取代任何在法术花费项目上列出的材料。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔宠(FAMILIAR)&nbsp; &nbsp;1级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>你与生物建立契约，为你服务并协助你施法。你获得一个魔宠(P.217)。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>学徒之手(HAND OF THE APPRENTICE)&nbsp; &nbsp;1级</strong></span><br><strong>前置要求：通才法师</strong><br>你对你的敌人扔出你的武器。你获得学徒之手通用法术。通用法术是一种聚能法术，和学派法术类似。你的聚能池从1点聚能点开始。有关聚能法术，请见P.207的奥术学派。<br><br><div class="quoteheader"><div class="topslice_quote">引述: 边栏：关键词汇</div></div><blockquote class="bbc_standard_quote">接下来的法师能力中，你会看到很多关键词汇<br><br><strong>超魔</strong>：有超魔特征的动作能扭转你法术的性质。这些动作通常来自超魔专长。你必须在施放(Cast a Spell)你想要更改的法术前直接使用一个超魔动作。如果你使用超魔动作后不直接使用施放法术(Cast a Spell)行动(包含使用自由动作和反应动作)，那就会失去超魔动作的效益。任何借由超魔动作添加的效果都是法术效果的一部分，并不是超魔动作本身的效果。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <br><span style="font-size: 12pt;" class="bbc_size"><strong>及远法术(REACH SPELL) [[A]]&nbsp; &nbsp;1级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注 超魔 法师</strong></span><br>你能延伸自己法术的距离。如果你下个动作是施放法术，然后法术是有距离的，那法术的距离增加30呎。作为增加法术距离的标准，如果有法术的距离是接触，那你可以把它的距离变成30呎。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>扩展法术(WIDEN SPELL) [[A]]&nbsp; &nbsp;1级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>操纵 超魔 法师</strong></span><br>你能操纵你法术的能量，让它能影响更广的区域。如果你下个动作是施放法术，然后它的区域是爆发、圆锥或线型，并且没有持续时间，你就可以增加该法术的区域。如果爆发半径最短有10呎的法术，你可以把它的半径额外加5呎(如果连爆发10呎半径都没有，该法术不受影响)。 如果圆锥或线型长度最长是15呎或15呎以内的法术，你可以把它的长度额外加5呎，如果是长度超过15呎的圆锥或线型，那额外加10呎。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>戏法扩增(CANTRIP EXPANSION)&nbsp; &nbsp;2级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>致力研究让你可以准备更多简单的法术。你每天可以多准备两个戏法。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>藏匿法术(CONCEAL SPELL) [[A]]&nbsp; &nbsp;2级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注 操纵 超魔 法师</strong></span><br>你以其它的动作和语句隐藏你的手势与咒语，你试着隐藏自己正在施放法术的事实。 如果你下个动作是施放法术，你可以尝试隐秘技能检定对抗一个或数个观察者的察觉DC；如果法术有语言成分，你还必须尝试欺骗检定对抗观察者的察觉DC。如果你在和观察者的对抗检定成功(或好几个检定)，观察者就不会注意到你在施放法术，就算材料、姿势、语言成分通常引人注意，而有在感官方面呈现的法术还是会让附近的人感受到明显的施法迹象。<br><br>此能力只会隐藏法术的施法动作以及呈现，效果不会隐藏，所以观察者还是能看到有条射线从你那边飞射而出，或看到你消失在空气中。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>强化魔宠(ENHANCED FAMILIAR)&nbsp; &nbsp;2级</strong></span><br><strong>前置要求：一个魔宠</strong><br>你能向自己的魔宠灌注魔法能量。你每天可以选择四个魔宠或大师能力，而非原来的两个。<br><strong>特殊</strong>：如果你的奥术论题是改良魔宠谐调，那你魔宠的基础魔宠能力数目，在来自奥术论题添加的任何额外能力前，数目是四。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>附法武器(BESPELL WEAPON) [[F]]&nbsp; &nbsp;4级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：你最近一个动作要是施放一个非戏法法术。</strong><br>你的灌注法术能量到一把你正持有的武器上。直到你下一回合结束，该武器能额外造成1d6点伤害，伤害类型取决于你最近放的法术是什么学派的。<br><em>●防护系：力场伤害<br>●咒法系或变化系：与武器类型相同<br>●预言系、惑控系或幻术系：心灵伤害<br>●塑能系：法术造成的伤害类型，如果法术没造成伤害那就是力场<br>●死灵系：负能量伤害</em><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>连结专攻(LINKED FOCUS)&nbsp; &nbsp;4级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：奥术连结、奥术学派</strong><br><strong>频率：一天一次</strong><br>你将你的连结物品与供给学派法术的聚能池相连。当你汲取你的连结物品施放你奥术学派的法术时，你会恢复1点聚能点。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>默发法术(SILENT SPELL) [[A]]&nbsp; &nbsp;4级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注 超魔 法师</strong></span><br><strong>前置要求：藏匿法术</strong><br>你已学会如何施放让通常需要出声的法术，不必再提供言语之力。 如果你下个动作是施放法术，而且法术是需要语言成分以及至少一个其它的成分，那你能移除语言成分。这能让法术安静，让你能在不能出声的区域施放该法术。但是，此法术仍旧有视觉呈现，所以能看见你施法的人，还是能观察到这情况。在你使用默发法术时，你可以选择获得隐匿法术的益处，同时你不必进行欺骗检定，因为这法术已经没有语言成分了。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>法术穿透(SPELL PENETRATION)&nbsp; &nbsp;6级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>你潜心研究各种方法去克服像是龙、某些超凡脱俗的存在还有其他强大生物的魔法抗性。任何在对抗默法的豁免检定上有状态加值的生物，在对抗你的法术上，该加值减1。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>镇定施法(STEADY SPELLCASTING)&nbsp; &nbsp;6级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>自信就是你的武器，你在施放法术时不会轻易失去专注。如果有反应动作会打断你的施法动作，要进行DC15的纯检定。如果成功，你的动作就不会被打断。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>进阶学派法术(ADVANCED SCHOOL SPELL)&nbsp; 8级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：奥术学派</strong><br>你能使用更强大的新学派法术，什么法术取决于你的奥术学派。如果你是防护师，妳获得能量吸收(energy absorption )；如果你是预言师，妳获得警惕之眼(vigilant eye)；如果你是惑控师，妳获得恐惧灵光(dread aura )；如果你是塑能师，妳获得元素扰动(elemental tempest)；如果你是幻术师，妳获得隐型斗篷(invisibility cloak )；如果你是死灵师；妳获得生命虹吸(life siphon)；如果妳是变化师，妳获得变形(shifting form)。这些法术的详细内容都在P.406-407。妳聚能池的聚能点加1。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>连接保能(BOND CONSERVATION) [[A]]&nbsp; &nbsp;8级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>操作&nbsp; 超魔&nbsp; 法师</strong></span><br><strong>前置要求：奥术连接</strong><br>需求：妳最后使用的动作是使用汲取连接物品(Drain Bonded Item)<br>妳小心翼翼汲取自己连结物品的奥术能量，让妳可以留存足够的能量去施放下一个比较弱的法术。如果妳下一个动作是使用施放法术(Cast a Spell)，并使用汲取连结物品的能量，妳额外获得一次汲取连结物品的使用次数。妳必须在下一回合结束前使用，不然就会失去，并且妳只能把次使用次数用比首次使用汲取连结物品所施展法术环级低2环或更低的法术上。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>万法归一(UNIVERSAL VERSATILITY)&nbsp; &nbsp;8级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：通才法师、学徒之手</strong><br>妳能够使用所有魔法学派的基础能力。妳在日常准备时，可以选择一个八大学派中1级专精法师的学派法术。妳可以使用这个学派法术直到妳下次的日常准备。当你重新聚能(refocus)时，妳可以再次在八大学派中选择法术，取代先前的选择。妳聚能池的聚能点加1。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>强能(OVERWHELMING ENERGY) [[A]]&nbsp; &nbsp;10级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>操作&nbsp; 超魔&nbsp; 法师</strong></span><br>借由复杂的手势，妳改变了自身法术的能量去克服抗性。如果妳下一个动作是施放法术(Cast a Spell)，那施放的法术可以忽视目标对酸液、寒冷、电击、火或音波伤害的抗性，其数值等于妳的等级。这超魔效果会应用在所有由这法术造成的伤害上，包含来自这法术的持续伤害(persistent damage )以及持续性效果所造成的伤害，例如火墙(wall of fire )造出来的墙。免疫的生物则不受影响。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>瞬发施法(QUICKENED CASTING)&nbsp; [[F]]&nbsp; 10级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注&nbsp; 超魔&nbsp; 法师</strong></span><br><strong>频率：一天一次</strong><br>妳压榨自己的精神，缩短妳施放法术的时间。如果妳下一个动作是施放一个法师戏法或一个法师法术，并且环级至少比妳能施放的最高环法术低2环，那妳能把施放该法术的动作数减一(最少为一个动作)，<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 12pt;" class="bbc_size"><strong>法师范例</strong></span><br><br><br><em>妳能施放欺瞒感官的幻术魔法，妳擅长不诉诸暴力下避开威胁。</em><br><br><strong>属性值</strong><br>优先智力。敏捷和魅力让妳使用技能潜行或蒙蔽他人如同使用法术。<br><br><strong>技能</strong><br>奥法(Arcana)、欺骗(Deception)、交涉(Diplomacy)、神秘(Occultism )、社群(Society)、隐密(Stealth)、贼活(Thievery )<br><br><strong>专精</strong><br>幻术<br><br><strong>论题</strong><br>法术交融<br><br><strong>高等级专长</strong><br>藏匿法术(2级)、法术默发(4级)、进阶学派法术(8级)、魔法感知(12级)</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>卷轴学家(SCROLL SAVANT)&nbsp; 10级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：在手艺上有专家熟练度</strong><br>妳在日常准备中，可以创造两个两个临时卷轴，卷轴内的奥术法术需来自妳的法术书。这些卷轴的规则与一般卷轴相同(P.564)，但有一些额外限制。每个卷轴内含的法术环级必须不同，并且内含法术的环级必须至少低于你最高环级2级。妳用这种方式制作的卷轴在你下次进行日常准备时，会自动变成非魔法物品。临时卷轴没有任何价值。<br><br>如果妳在奥术法术DC上有大师级熟练度，妳能在日常准备之际创造三个临时卷轴；妳果妳有传奇熟练度，妳可以创造四个临时卷轴。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>精巧法制法术(CLEVER COUNTERSPELL)&nbsp; &nbsp;12级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：反制法术、迅速识别</strong><br>妳在使用已准备法术去反制法术(Counterspell)敌对魔法时更具巧思，之前妳想要使用反制法术(Counterspell)去反制敌人的法术，唯有妳要准备与他所施展相同的法术，现在只要妳的法术书中有敌人施放的法术，妳就可以使用反制法术(Counterspell)。当妳用这种方式使用反制法术(Counterspell)时，妳使用的法术必须与触发此行动的法术共享一项有别于传统的特性。在GM的允许下，妳可以使用与触发法术有着对立特性，或在其他合乎逻辑的情况下能反制的法术(例如使用寒冷或水法术去反制火球，或使用移除恐惧去反制恐惧法术)。无论你使用了什么法术，妳会在反制检定(counteract check)承受-2罚值，但如果你使用的法术特别合适，GM可以把此罚值抹掉。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔法感知(MAGIC SENSE)&nbsp; 12级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>奥法&nbsp; 侦测&nbsp; 预言&nbsp; 法师</strong></span><br>妳对周遭的魔法有着字面上的第六感。妳能感知到魔法灵气的存在，如同妳一直在使用1环侦测魔法(detect magic)法术。这个侦测范围仅在妳视线之内。当妳在搜索(Seek )时，妳对所见之物获得3环侦测魔法法术的效果(再加上一般搜寻会有的好处)。妳在妳的回合开始或结束时，可以使用自由动作关闭或开启这项感知能力。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>连结聚能(BONDED FOCUS)&nbsp; &nbsp;14级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：奥术连结</strong><br>妳与自身连结物品之间的联系壮大了妳的聚能池。如果妳在上次重新聚能(&nbsp;&nbsp;&nbsp;Refocused)后花了至少2点聚能点，并且妳还拥有着妳的连结物品，那当你重新聚能时会恢复2点聚能点而非1点。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>反射法术(REFLECT SPELL)&nbsp; &nbsp;14级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：反制法术(Counterspell)</strong><br>如果妳使用反制法术(Counterspell)并成功反制一个影响目标生物或一块区域的法术，妳能把这法术的效果返还给法术的施放者。当你反射法术时，反射的法术只会影响最初的施法者，就算这是一个区域性法术或这法术通常能影响不只一个生物。这位最初的施法者在对抗被反射的法术时，也可以正常尝试过或免或使用其他防御手段。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>高级连结(SUPERIOR BOND)&nbsp; &nbsp;14级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：奥术连结</strong><br>当妳从妳的连结物品汲能时，妳能留下一些能量以待下次使用。妳每天额外多一次汲取连结物品的次数，但法术必须低于最高环级两环级。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>随意专注(EFFORTLESS CONCENTRATION) [[F]]&nbsp; &nbsp;16级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>触发：妳回合开始</strong><br>妳只需一个念头即可维持法术。妳立刻获得维持法术(Sustain a Spell )动作的效果，让妳可以延长一个启动的法师法术。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>法术弥补(SPELL TINKER) [[AA]]&nbsp; 16级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注&nbsp; 法师</strong></span><br>妳学到如何去更改本该在自己施放法术即已做出的决定。在妳施放了一个唯有妳能在数个效果中做出选择的法术(例如抵抗能量、法术免疫或提供多种型态的变形法术)，妳能改变妳在施放法术时做出的选择(例如妳可以在抵抗能量上选择不同的伤害类型)。但是，这种弥补行为会弱化法术的完整性，它剩余的持续时间会减半。<br><br>如果该法术的效益已经被使用，或是如果第一次的选择会在转换之后依旧持续，那妳就不能使用此专长(例如如果其中一个选择是创造消耗品，而消耗品已经被妳已经用了，或是妳已经被治疗了)，如果专长能创造出比基础法术还要强的效果，那也不行。GM对法术弥补到底能怎么用有最终裁决。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>无限可能(INFINITE POSSIBILITIES)&nbsp; &nbsp;18级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>妳找到把法术准备在妳心中那个拥有无穷可能法术位的方法。在妳进行日常准备时，妳能把一个法术位赋予无穷的可能性，而不是就用来准备一个法术。妳可以使用这个法术位去施放妳法术书中的任何法术，这法术的环级必须要比妳所选定的法术位环级低2，并且这法术的效果在任何方面都比原始低2级。直到妳施放前，妳无须在此法术位上准备任何法术。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>重备法术(REPREPARE SPELL)&nbsp; 18级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>妳发现如何重复利用妳的法术位。妳能花10分钟去准备一个妳今天已经施放过的法术，并重获那个法术位。这法术必须是4环或低于4环，并且没有持续时间。就算妳在同一天之前已经重新准备过这个法术了，妳还是可以用这个方法重新准备。<br><br>如果妳有法术替换奥术论题，妳可以选择用已经消耗掉的法术位去准备不同的法术，只要新法术没有持续时间。当妳在那个法术位上重新准备了法术，哪怕只有一次，妳就可以使用妳的奥术论题在那个法术位上去替换没有持续时间的法术。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>大法师之力(ARCHWIZARD’S MIGHT)&nbsp; &nbsp;20级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br><strong>前置要求：大法师奥艺</strong><br>妳已掌握了奥术魔法的最大秘密。妳额外获得一个的10环法术位。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>超魔宗师(METAMAGIC MASTERY)&nbsp; &nbsp;20级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>改变妳的法术不会比正常施放他们来的久。妳能以自由动作使用需要一个动作的超魔专长。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>法术融合(SPELL COMBINATION)&nbsp; &nbsp;20级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>法师</strong></span><br>妳能将法术合并，在一次施法中就产生多重效果。妳在每个能施放环级中一个法术位(除了1环和2环)变成了融合法术位(戏法不行)。在妳准备法术时，妳可以用两个法术的合并来填充融合法术位。合并各法术需比该融合法术位至少低2环，并且两个法术都必须只针对一个生物或物体，或选择只针对一个生物或物体。融合的法术也必须有相同确认效果的方式，例如两个法术都需要远程法术攻击骰、需要相同的豁免类型检定，或自动影响目标。<br><br>在妳施放一个融合法术时，他只会影响一个目标，即便组成的法术正常来说会影响更多目标。如果组成的法术有更进一步的限制(例如只针对活物)，那所有限制都要用上。融合的法术会使用组成法术中比较短的范围。在处理融合法术上视其为一个法术，但使用两个组成法术的效果。举个例子，如果法术的目标在对抗融合法术的豁免为成功，那就使用组成法术在豁免为成功的结果；而如果大失败，那就使用两个组成法术在大失败上的结果。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1016925">
+&#171; <em>上次编辑: <strong>昨天</strong>08:35:21 由 原子能青蛙</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1016925_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1519.0" class="bbc_link new_win" target="_blank">PF各职业法术大全</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=86870.msg818322#msg818322" class="bbc_link new_win" target="_blank">PF官方骑士团汇整</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=85764.0" class="bbc_link new_win" target="_blank">PF战役设定：地狱骑士之道</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1017596"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=80051" title="检视会员资料:  creep">creep</a>
+</h4>
+<ul class="reset smalltext" id="msg_1017596_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 37<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1017596">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1017596#msg1017596" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）[未完成]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1017596'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1017596'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-10-16, 周三 19:56:58 &#187;</div>
+<div id="msg_1017596_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1017596">捉虫 避免使用发术</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1017596">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1019265"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+</h4>
+<ul class="reset smalltext" id="msg_1019265_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79040_1466754812.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3727<li class="karma">苹果币: 6<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1019265">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1019265#msg1019265" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）[未完成]</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1019265'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1019265'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-10-28, 周一 18:57:46 &#187;</div>
+<div id="msg_1019265_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1019265">完工，但还没校对，等九&amp;十章完成后一起校。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1019265">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1019265_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1519.0" class="bbc_link new_win" target="_blank">PF各职业法术大全</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=86870.msg818322#msg818322" class="bbc_link new_win" target="_blank">PF官方骑士团汇整</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=85764.0" class="bbc_link new_win" target="_blank">PF战役设定：地狱骑士之道</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1019347"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=59316" title="检视会员资料:  Garrise">Garrise</a>
+</h4>
+<ul class="reset smalltext" id="msg_1019347_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=59316">
+<img class="avatar" src="/bbs/upload/avatar/avatar_59316_1378384863.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 702<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1019347">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1019347#msg1019347" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(完工，但还没校对，等九&amp;十章完成后一起校。)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1019347'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1019347'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-10-29, 周二 04:46:28 &#187;</div>
+<div id="msg_1019347_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1019347">所有要花费动作或反应的动作类型都没有写 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1019347">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1019347_signature">莉维娅：限制解除AB<br>莉维娅：2D+26 回避<br>DiceBot : (2D6+26) → 2[1,1]+26 → 28<br>莉维娅：打击干扰<br>莉维娅：2D+26 回避<br>DiceBot : (2D6+26) → 2[1,1]+26 → 28<br>莉维娅：(？？？<br>DM：（？？？？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1044154"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=84895" title="检视会员资料:  Passer556">Passer556</a>
+</h4>
+<ul class="reset smalltext" id="msg_1044154_extra_info">
+<li class="title">AbadarPress翻译机 G5-P4<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=84895">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84895_1525777761.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 349<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1044154">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1044154#msg1044154" rel="nofollow">刚好Spellmaster有用到这个专长</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1044154'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1044154'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2020-03-28, 周六 14:10:56 &#187;</div>
+<div id="msg_1044154_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1044154"><span style="font-size: 12pt;" class="bbc_size"><strong>藏匿法术<span style="color: red;" class="bbc_color">[[A]]</span>&nbsp; &nbsp;2级</strong></span><br><span style="color: #5e0000;" class="bbc_color"><strong>专注 操纵 超魔 法师</strong></span><br>你<span style="color: red;" class="bbc_color">以其他的动作和语句伪装</span>你的手势与咒语，你试着隐藏自己正在施放法术的事实。 如果你下个动作是施放法术，你可以尝试<span style="color: red;" class="bbc_color">隐秘检定</span>对抗一个或数个观察者的察觉DC；如果法术有语言成分，你还必须尝试欺骗检定对抗观察者的察觉DC。如果你在和观察者<span style="color: green;" class="bbc_color">(们)</span>的对抗检定成功<span style="color: green;" class="bbc_color"><del><span style="color: black;" class="bbc_color">(或好几个检定)</span></del></span>，<span style="color: red;" class="bbc_color">观察</span>者就不会注意到你在施放法术，<span style="color: green;" class="bbc_color">即使</span>材料、姿势、语言成分通常引人注意，<span style="color: green;" class="bbc_color">以及法术常有能以五感捕捉的呈现而使你正在施法的事实对旁观者而言无比明显。</span><br><br>此能力只会隐藏法术的施法动作以及呈现，<span style="color: red;" class="bbc_color">效</span>果不会隐藏，所以观察者还是能看到有条射线从你那边飞射而出，或看到你消失在空气中。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">已修改，谢谢</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1044154">
+&#171; <em>上次编辑: 2020-06-10, 周三 13:58:12 由 月夜白雨</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1044154_signature">Nat One to screw them all, Nat One to botch plans.<br>Nat One to TPK. It&#039;s time to roll new sheets then.<br>On the Virtual Table where the GM lies.</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1092162"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6106" title="检视会员资料:  deng00p">deng00p</a>
+</h4>
+<ul class="reset smalltext" id="msg_1092162_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 49<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1092162">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1092162#msg1092162" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1092162'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1092162'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2020-12-23, 周三 11:19:41 &#187;</div>
+<div id="msg_1092162_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1092162">卷轴学家&nbsp; 10级<br>法师<br>前置要求：在手艺上有专家熟练度<br>妳在日常准备中，可以创造两个两个临时卷轴，卷轴内的奥术法术需来自妳的法术书。这些卷轴的规则与一般卷轴相同(P.564)，但有一些额外限制。每个卷轴内含的法术环级必须不同，<span style="color: red;" class="bbc_color">并且内含法术的环级必须是二环，或至少要低于妳所能施展的最高环级。</span>妳用这种方式制作的卷轴在你下次进行日常准备时，会自动变成非魔法物品。临时卷轴没有任何价值。<br><br>During your daily preparations, you can create two temporary <br>scrolls containing arcane spells from your spellbook. These <br>scrolls follow the normal rules for scrolls (page 564), with some <br>additional restrictions.<span style="color: red;" class="bbc_color"> Each scroll must be of a different spell <br>level, and both spell levels must be 2 or more levels lower than <br>your highest-level spell. </span>Any scrolls you create this way become <br>non-magical the next time you make your daily preparations. A <br>temporary scroll has no value.<br><br>此处应当是<span style="color: red;" class="bbc_color">至少低于你最高环级2级</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1092162">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1092849"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+</h4>
+<ul class="reset smalltext" id="msg_1092849_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79040_1466754812.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3727<li class="karma">苹果币: 6<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1092849">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1092849#msg1092849" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1092849'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1092849'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2020-12-28, 周一 00:00:23 &#187;</div>
+<div id="msg_1092849_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1092849">已订正<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1092849">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1092849_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1519.0" class="bbc_link new_win" target="_blank">PF各职业法术大全</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=86870.msg818322#msg818322" class="bbc_link new_win" target="_blank">PF官方骑士团汇整</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=85764.0" class="bbc_link new_win" target="_blank">PF战役设定：地狱骑士之道</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122269"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=96208" title="检视会员资料:  萨斯">萨斯</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122269_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=96208">
+<img class="avatar" src="/bbs/upload/avatar/avatar_96208_1580140034.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 171<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122269">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1122269#msg1122269" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122269'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122269'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-07-07, 周三 11:31:57 &#187;</div>
+<div id="msg_1122269_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122269">补上专长中英比对<br><br>1级专长<br>反制法术(COUNTERSPELL) [[R]] 1级 <br>施法免材(ESCHEW MATERIALS) 1级<br>魔宠(FAMILIAR) 1级<br>学徒之手(HAND OF THE APPRENTICE) 1级<br>及远法术(REACH SPELL) [[A]] 1级<br>扩展法术(WIDEN SPELL) [[A]] 1级<br><br>2级专长<br>戏法扩增(CANTRIP EXPANSION) 2级<br>藏匿法术(CONCEAL SPELL) [[A]] 2级<br>强化魔宠(ENHANCED FAMILIAR)<br><br>4级专长<br>附法武器(BESPELL WEAPON) [[F]] 4级<br>连结专攻(LINKED FOCUS) 4级<br>默发法术(SILENT SPELL) [[A]] 4级<br><br>6级专长<br>法术穿透(SPELL PENETRATION) 6级<br>镇定施法(STEADY SPELLCASTING) 6级<br><br>8级专长<br>进阶学派法术(ADVANCED SCHOOL SPELL) 8级<br>连接保能(BOND CONSERVATION) [[A]] 8级<br>万法归一(UNIVERSAL VERSATILITY) 8级<br><br>10级专长<br>强能(OVERWHELMING ENERGY) [[A]] 10级<br>瞬发施法(QUICKENED CASTING) [[F]] 10级<br>卷轴学家(SCROLL SAVANT) 10级<br><br>12级专长<br>精巧反制法术(CLEVER COUNTERSPELL) 12级<br>魔法感知(MAGIC SENSE) 12级<br><br>14级专长<br>连结专精(BONDED FOCUS) 14级<br>反射法术(REFLECT SPELL) 14级<br>高级连结(SUPERIOR BOND) 14级<br><br>16级专长<br>随意专注(EFFORTLESS CONCENTRATION) [[F]] 16级<br>法术弥补(SPELL TINKER) [[AA]] 16级<br><br>18级专长<br>无限可能(INFINITE POSSIBILITIES) 18级<br>重备法术(REPREPARE SPELL) 18级<br><br>20级专长<br>大法师之力(ARCHWIZARD’S MIGHT) 20级<br>超魔宗师(METAMAGIC MASTERY) 20级<br>法术融合(SPELL COMBINATION) 20级</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122269">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122271"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="检视会员资料:  笨哈">笨哈</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122271_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79040_1466754812.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3727<li class="karma">苹果币: 6<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122271">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1122271#msg1122271" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122271'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122271'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2021-07-07, 周三 11:37:32 &#187;</div>
+<div id="msg_1122271_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122271">OK，补惹，感谢</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122271">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1122271_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1519.0" class="bbc_link new_win" target="_blank">PF各职业法术大全</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=86870.msg818322#msg818322" class="bbc_link new_win" target="_blank">PF官方骑士团汇整</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=85764.0" class="bbc_link new_win" target="_blank">PF战役设定：地狱骑士之道</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1128555"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6106" title="检视会员资料:  deng00p">deng00p</a>
+</h4>
+<ul class="reset smalltext" id="msg_1128555_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 49<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1128555">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1128555#msg1128555" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1128555'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1128555'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2021-08-09, 周一 00:53:31 &#187;</div>
+<div id="msg_1128555_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1128555">高级连结(SUPERIOR BOND)&nbsp; &nbsp;14级<br>法师<br>前置要求：奥术连结<br>当妳从妳的连结物品汲能时，妳能留下一些能量以待下次使用。妳每天额外多一次汲取连结物品的次数，但法术环级必须是二环，或至少要低于妳所能施展的最高环级。<br><br>与卷轴学家一样是低于最高环级两级<br><br>连结专精(BONDED FOCUS) 建议更名为连结聚能，这里focus显然是聚能的意思</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1128555">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1129912"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="检视会员资料:  原子能青蛙">原子能青蛙</a>
+</h4>
+<ul class="reset smalltext" id="msg_1129912_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6023_1609727742.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 2046<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1129912">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1129912#msg1129912" rel="nofollow">Re: 【CRB】第三章：法师（Wizard）(2020/10/11校对</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1129912'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1129912'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> <strong>昨天</strong>08:35:39 &#187;</div>
+<div id="msg_1129912_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1129912"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.msg1128555#msg1128555">引述: deng00p 于 2021-08-09, 周一 00:53:31</a></div></div><blockquote class="bbc_standard_quote">高级连结(SUPERIOR BOND)&nbsp; &nbsp;14级<br>法师<br>前置要求：奥术连结<br>当妳从妳的连结物品汲能时，妳能留下一些能量以待下次使用。妳每天额外多一次汲取连结物品的次数，但法术环级必须是二环，或至少要低于妳所能施展的最高环级。<br><br>与卷轴学家一样是低于最高环级两级<br><br>连结专精(BONDED FOCUS) 建议更名为连结聚能，这里focus显然是聚能的意思<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>全部修改完毕。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1129912">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1129912_signature"><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i>签名折叠</i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=68485.0;attach=32784;image" alt="" class="bbc_img"/><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=630.0" class="bbc_link new_win" target="_blank">塞伯利亚蒸汽朋克</a></div></div></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=112320.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1724.0"><span>Pathfinder RPG 2nd</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1866.0"><span>核心规则书籍（Rulebook）</span></a> (版主群: <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=6023" title="版主">原子能青蛙</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=11383" title="版主">默 ’S’ oul-del</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=79040" title="版主">笨哈</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=112320.0"><span>【CRB】第三章：法师（Wizard）(2020/10/11校对</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 112320,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 112320,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b6a8112e" value="e8ec3fcb53e635cea755d88e80dad504" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="112320" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e8ec3fcb53e635cea755d88e80dad504\', \'b6a8112e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;' + '?topic=112320.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 10233 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1866,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "核心規則書籍（Rulebook）",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1866,
+							iTopicId: 112320,
+							sSessionId: "e8ec3fcb53e635cea755d88e80dad504",
+							sSessionVar: "b6a8112e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

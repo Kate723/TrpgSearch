@@ -1,0 +1,574 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="帖子, 投票和活动 - SMF 使用者帮助"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>帖子, 投票和活动 - SMF 使用者帮助</title>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;type=rss;action=.xml"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '7592c4a08583129481fc6a200d213e15');">
+<div class="info">请 <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=login">登录</a> 或 <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f37b8fbd',
+sSessionId: '7592c4a08583129481fc6a200d213e15'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="firstlevel" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="active firstlevel" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help"><span>说明</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=admin;area=posting_topics"><span>帖子, 投票和活动</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<div id="main_container">
+<div id="left_admsection"><span id="admin_menu"></span>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+新手上路
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=introduction">前言</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=main_menu">主选单</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=board_index">版块列表</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=message_view">帖子列表</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=topic_view">主题检视</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+注册
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=when_how">何时何地开始注册</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=registration_screen">注册画面</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=activating_account">启用帐号</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=logging_in">登录与登出</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=password_reminders">密码提示</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+个人资料
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=profile_info">个人资料</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=modify_profile">修改个人资料</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=actions">执行动作</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+发表功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<strong><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics">帖子, 投票和活动</a></strong>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=smileys">表情符号</a>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=bbcode">BB码</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+简讯功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=messages">简讯</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+论坛工具
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=searching">搜寻</a>
+</ul>
+</div>
+</div>
+<div id="main_admsection">
+<div class="cat_bar">
+<h3 class="catbg">说明</h3>
+</div>
+<div class="title_bar">
+<h4 class="titlebg">帖子, 投票和活动</h4>
+</div>
+<div id="help_container">
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div id="helpmain">
+<p>Since posting messages is basically what forums are all about, we will spend some time looking at the various options and techniques available. Those who are familiar with forum software, HTML or bulletin board code in general may prefer to skip straight to the <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=bbcode">Bulletin Board Code</a> and <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=smileys">Smileys</a> references.</p>
+<p><strong>Please note that, because an SMF forum may be customized extensively by its administrator(s), the presence of a feature in this documentation does not necessarily mean that it will be available to all users in all forums.</strong></p>
+<ol>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#basics">Posting Basics</a>
+<ol class="la">
+<li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#newtopic">Starting a New Topic</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#newpoll">Starting a New Poll</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#calendar">Posting an Event to the Calendar</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#reply">Replying to a Topic or Poll</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#quote">Quoting a Post</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#modify">Modifying or Deleting a Post</a></ol>
+<li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#standard">Standard Posting Options</a>
+<ol class="la">
+<li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#messageicon">Message Icon</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbc">Bulletin Board Code</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#smileys">Smileys</a></ol>
+<li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#tags">Tags and Nesting (for beginners)</a><li>
+<a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#additional">Additional Options</a>
+<ol class="la">
+<li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#notify">Notify me of replies.</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#return">Return to this topic.</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#nosmileys">Don't use smileys.</a><li><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#attachments">Attachments</a></ol>
+</ol>
+<h2 class="section" id="basics">Posting Basics</h2>
+<h3 class="section" id="newtopic">Starting a New Topic</h3>
+<p>Browse to the board where you wish to post and click the <strong>New Topic</strong> button (positioned by default at both the top and the bottom of the board, as shown in the <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=message_view">User Help Introduction</a>), which should take you to the <strong>Start new topic</strong> screen. While this presents a number of options, the two most important are the <strong>Subject</strong> field and main <strong>Message</strong> field (not labeled as such, but obvious by its size). So enter your subject and start to type (or paste) your message into the main text area, noting that a message missing either a subject or a body will not be accepted for posting until it has both. If you're happy with your plain text message, you can then post it by clicking the <strong>Post</strong> button and/or preview it first by clicking the <strong>Preview</strong> button, but there are many further <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#standard">options</a> available to make things that little bit more interesting.</p>
+<div class="help_sample">
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics" method="post" accept-charset="UTF-8" style="margin: 0;">
+<table width="100%" align="center" cellpadding="0" cellspacing="3">
+<tr>
+<td valign="bottom" colspan="2"><span class="nav"><img src="Themes/celeste/images/icons/folder_open.gif" alt="+" border="0"/>&nbsp; <strong><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=board_index" class="nav">Forum Name</a></strong><br>
+<img src="Themes/celeste/images/icons/linktree_side.gif" alt="|-" border="0"/> <img src="Themes/celeste/images/icons/folder_open.gif" alt="+" border="0"/>&nbsp; <strong><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=board_index" class="nav">Category Name</a></strong><br>
+<img src="Themes/celeste/images/icons/linktree_main.gif" alt="| " border="0"/> <img src="Themes/celeste/images/icons/linktree_side.gif" alt="|-" border="0"/> <img src="Themes/celeste/images/icons/folder_open.gif" alt="+" border="0"/>&nbsp; <strong><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=message_index" class="nav">Board Name</a></strong><br>
+<img src="Themes/celeste/images/icons/linktree_main.gif" alt="| " border="0"/> <img src="Themes/celeste/images/icons/linktree_main.gif" alt="| " border="0"/> <img src="Themes/celeste/images/icons/linktree_side.gif" alt="|-" border="0"/> <img src="Themes/celeste/images/icons/folder_open.gif" alt="+" border="0"/>&nbsp; <strong><em>Start new topic</em></strong></span></tr>
+</table>
+<table border="0" width="100%" align="center" cellspacing="1" cellpadding="3" class="bordercolor">
+<tr class="titlebg">
+<td>Start new topic</tr>
+<tr>
+<td class="windowbg">
+<table border="0" cellpadding="3" width="100%">
+<tr class="windowbg">
+<td colspan="2" align="center"><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#standard">Standard Options&nbsp;omitted for clarity and demonstrated below.</a></tr>
+<tr>
+<td align="right"><strong>Subject:</strong><td><input type="text" name="subject" size="80" maxlength="80" tabindex="1" class="input_text"/></tr>
+<tr>
+<td valign="top" align="right"><td>
+<textarea class="editor" name="message" rows="12" cols="60" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" onchange="storeCaret(this);" tabindex="2">
+</textarea></tr>
+<tr class="windowbg">
+<td colspan="2" align="center"><a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#additional">Additional Options&nbsp;omitted for clarity and demonstrated below.</a></tr>
+<tr>
+<td align="center" colspan="2"><span class="smalltext"><br>
+shortcuts: hit alt+s to submit/post or alt+p to preview</span><br>
+<input type="button" accesskey="s" tabindex="3" value="Post" class="button_submit"/> <input type="button" accesskey="p" tabindex="4" value="Preview" class="button_submit"/></tr>
+</table>
+</tr>
+</table>
+</form><br>
+</div>
+<ul>
+<li>Some forums show the <strong>navigation tree</strong> at the top in a space-saving horizontal mode.<li>Some forums may be configured to offer an additional <strong>Spell Check</strong> button alongside the <strong>Post</strong> and <strong>Preview</strong> options.</ul>
+<h3 class="section" id="newpoll">Starting a New Poll</h3>
+<p>A poll is basically a topic with an added question and voting options, started by clicking <strong>New Poll</strong> instead of <strong>New Topic</strong> <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#newtopic">as described above</a>. To post a poll it is necessary to fill out the <strong>Question</strong> field and at least two of the <strong>Option</strong> fields in addition to the <strong>Subject</strong> and <strong>Message</strong> fields required by a standard topic. Further options to configure how many choices the user may vote for, how long the poll should run, whether users can change their votes and what conditions must be fulfilled for the results to be displayed should be self-explanatory.</p>
+<p>To offer more than five choices in a poll, simply click <strong>Add Option</strong> as many times as necessary.</p>
+<p>Note that it may also be possible for some users in some forums to add a poll to an existing topic.</p>
+<h3 class="section" id="calendar">Posting an Event to the Calendar</h3>
+<p>Where this option has been configured (it's not standard 'out of the box'), you can post an event by selecting <strong>Calendar</strong> from the <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=main_menu">main menu</a> followed by <strong>Post Event</strong> from the calendar screen. What you see now is a <strong>Start new topic</strong> screen with supplementary fields for the event title, date and target board, which simply add your event to the calendar and create a link back to your post in that board.</p>
+<h3 class="section" id="reply">Replying to a Topic or Poll</h3>
+<p>Replying to a topic or poll is basically the same as <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#newtopic">starting a new topic</a>, but it's not necessary to enter anything in the <strong>Subject</strong> field unless you wish to change what's already there. To vote in a poll, you simply have to select your chosen option(s) and click <strong>Submit Vote</strong>.</p>
+<p>If 'Quick Reply' has been enabled, a simple reply field will also appear after the post(s) on a page, but you'll have to type your <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbc">Bulletin Board Code</a> and <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#smileys">Smileys</a> manually if you choose to use it.</p>
+<h3 class="section" id="quote">Quoting a Post</h3>
+<p>To reply to a post by quoting it, you can either click the <strong>Quote</strong> button for the relevant post and add your own message to the quoted text or click the <strong>Reply</strong> button followed by <strong>Insert Quote</strong> from the relevant post in the 'Topic Summary' below, but note that:</p>
+<ul>
+<li>Both these options add a link to the original post showing the name of the poster and the date and time of the post, whereas the <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbc">Bulletin Board Code</a> <strong>quote</strong> tag simply quotes the relevant post without this additional information.<li>You can also retain or add the 'author' attribute independently of the full <strong>Quote</strong> function, as demonstrated in the <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbcref">SMF Bulletin Board Code Reference</a> below.</ul>
+<h3 class="section" id="modify">Modifying or Deleting a Post</h3>
+<p>To modify a post, click the <strong>Modify</strong> button and make your changes. Note that most forums are likely to be configured to show the date and time of the last edit, but the administrator(s) may also allow a short period to elapse before this happens.</p>
+<p>To delete a post, click the <strong>Delete</strong> button followed by <strong>OK</strong> from the <strong>Remove this message?</strong> box that appears. Some forums may also allow you to remove topics or polls that you start, but the buttons for these are usually at the bottom of the page.</p>
+<h2 class="section" id="standard">Standard Posting Options</h2>
+<div class="help_sample">
+<br>
+<script>
+//
+function showimage()
+{
+document.images.icons.src = "http://45.79.87.129/bbs/Themes/celeste/images/post/" + document.forms.postmodify.icon.options[document.forms.postmodify.icon.selectedIndex].value + ".gif";
+document.images.icons.src ="http://45.79.87.129/bbs/Themes/celeste/images/post/" + document.forms.postmodify.icon.options[document.forms.postmodify.icon.selectedIndex].value + ".gif";
+}
+var currentSwap = false;
+function swapOptions()
+{
+document.getElementById("postMoreExpand").src = smf_images_url + "/" + (currentSwap ? "collapse.gif" : "expand.gif");
+document.getElementById("postMoreExpand").alt = currentSwap ? "-" : "+";
+document.getElementById("postMoreOptions").style.display = currentSwap ? "" : "none";
+if (document.getElementById("postAttachment"))
+document.getElementById("postAttachment").style.display = currentSwap ? "" : "none";
+if (document.getElementById("postAttachment2"))
+document.getElementById("postAttachment2").style.display = currentSwap ? "" : "none";
+currentSwap = !currentSwap;
+}
+//
+</script>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics" method="post" accept-charset="UTF-8" name="postmodify" style="margin: 0;" id="postmodify">
+<table border="0" width="100%" align="center" cellspacing="1" cellpadding="3" class="bordercolor">
+<tr>
+<td class="windowbg">
+<table border="0" cellpadding="3" width="100%">
+<tr>
+<td align="right"><strong>Message icon:</strong><td><select name="icon" id="icon" onchange="showimage();">
+<option value="xx" selected="selected">
+Standard
+
+<option value="thumbup">
+Thumb Up
+
+<option value="thumbdown">
+Thumb Down
+
+<option value="exclamation">
+Exclamation point
+
+<option value="question">
+Question mark
+
+<option value="lamp">
+Lamp
+
+<option value="smiley">
+Smiley
+
+<option value="angry">
+Angry
+
+<option value="cheesy">
+Cheesy
+
+<option value="grin">
+Grin
+
+<option value="sad">
+Sad
+
+<option value="wink">
+Wink
+
+</select> <img src="Themes/celeste/images/post/xx.gif" name="icons" border="0" hspace="15" alt="" id="icons"/></tr>
+<tr>
+<td align="right"><td valign="middle">
+<script>
+//
+function bbc_highlight(something, mode)
+{
+something.style.backgroundImage = "url(" + smf_images_url + "/bbc/" + (mode ? "bbc_hoverbg.gif)" : "bbc_bg.gif)");
+}
+//
+</script>
+<a href="javascript:void(0);" onclick="surroundText('[b]', '[/b]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/bold.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Bold"/></a><a href="javascript:void(0);" onclick="surroundText('[i]', '[/i]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/italicize.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Italicized"/></a><a href="javascript:void(0);" onclick="surroundText('[u]', '[/u]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/underline.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Underline"/></a><a href="javascript:void(0);" onclick="surroundText('[s]', '[/s]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/strike.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Strikethrough"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[glow=red,2,300]', '[/glow]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/glow.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Glow"/></a>
+<a href="javascript:void(0);" onclick="surroundText('[shadow=red,left]', '[/shadow]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/shadow.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Shadow"/></a><a href="javascript:void(0);" onclick="surroundText('[move]', '[/move]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/move.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Marquee"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[pre]', '[/pre]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/pre.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Preformatted Text"/></a>
+<a href="javascript:void(0);" onclick="surroundText('[left]', '[/left]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/left.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Left Align"/></a>
+<a href="javascript:void(0);" onclick="surroundText('[center]', '[/center]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/center.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Centered"/></a><a href="javascript:void(0);" onclick="surroundText('[right]', '[/right]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/right.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Right Align"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[hr]', '', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/hr.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Horizontal Rule"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[size=10pt]', '[/size]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/size.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Font Size"/></a><a href="javascript:void(0);" onclick="surroundText('[font=Verdana]', '[/font]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/face.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Font Face"/></a>
+<select onchange="surroundText('[color='+this.options[this.selectedIndex].value+']', '[/color]', document.forms.postmodify.message); this.selectedIndex = 0;" style="margin-bottom: 1ex; margin-left: 2ex;">
+<option value="" selected="selected">
+Change Color
+
+<option value="Black">
+Black
+
+<option value="Red">
+Red
+
+<option value="Yellow">
+Yellow
+
+<option value="Pink">
+Pink
+
+<option value="Green">
+Green
+
+<option value="Orange">
+Orange
+
+<option value="Purple">
+Purple
+
+<option value="Blue">
+Blue
+
+<option value="Beige">
+Beige
+
+<option value="Brown">
+Brown
+
+<option value="Teal">
+Teal
+
+<option value="Navy">
+Navy
+
+<option value="Maroon">
+Maroon
+
+<option value="LimeGreen">
+Lime Green
+
+</select><br>
+<a href="javascript:void(0);" onclick="surroundText('[flash=200,200]', '[/flash]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/flash.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Flash"/></a><a href="javascript:void(0);" onclick="surroundText('[img]', '[/img]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/img.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Image"/></a><a href="javascript:void(0);" onclick="surroundText('[url]', '[/url]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/url.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Hyperlink"/></a><a href="javascript:void(0);" onclick="surroundText('[email]', '[/email]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/email.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Email"/></a>
+<a href="javascript:void(0);" onclick="surroundText('[ftp]', '[/ftp]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/ftp.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert FTP Link"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[table]', '[/table]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/table.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Table"/></a><a href="javascript:void(0);" onclick="surroundText('[tr]', '[/tr]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/tr.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Table Row"/></a><a href="javascript:void(0);" onclick="surroundText('[td]', '[/td]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/td.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Table Column"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[sup]', '[/sup]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/sup.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Superscript"/></a><a href="javascript:void(0);" onclick="surroundText('[sub]', '[/sub]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/sub.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Subscript"/></a><a href="javascript:void(0);" onclick="surroundText('[tt]', '[/tt]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/tele.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Teletype"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/>
+<a href="javascript:void(0);" onclick="surroundText('[code]', '[/code]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/code.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Code"/></a><a href="javascript:void(0);" onclick="surroundText('[quote]', '[/quote]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/quote.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert Quote"/></a><img src="Themes/celeste/images/bbc/divider.gif" alt="|" style="margin: 0 3px 0 3px;"/><a href="javascript:void(0);" onclick="surroundText('[list][li]', '[/li][li][/li][/list]', document.forms.postmodify.message);"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/list.gif" align="bottom" width="23" height="22" border="0" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;" alt="Insert List"/></a>
+</tr>
+<tr>
+<td align="right"><td valign="middle">
+<a href="javascript:void(0);" onclick="replaceText(' :)', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/smiley.gif" align="bottom" alt="Smiley" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' ;)', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/wink.gif" align="bottom" alt="Wink" border="0"/></a>
+<a href="javascript:void(0);" onclick="replaceText(' :D', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/cheesy.gif" align="bottom" alt="Cheesy" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' ;D', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/grin.gif" align="bottom" alt="Grin" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' &gt;:(', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/angry.gif" align="bottom" alt="Angry" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :(', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/sad.gif" align="bottom" alt="Sad" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :o', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/shocked.gif" align="bottom" alt="Shocked" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' 8)', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/cool.gif" align="bottom" alt="Cool" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' ???', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/huh.gif" align="bottom" alt="Huh" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' ::)', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/rolleyes.gif" align="bottom" alt="Roll Eyes" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :P', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/tongue.gif" align="bottom" alt="Tongue" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :-[', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/embarrassed.gif" align="bottom" alt="Embarrassed" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :-X', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/lipsrsealed.gif" align="bottom" alt="Lips Sealed" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :-\\', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/undecided.gif" align="bottom" alt="Undecided" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :-*', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/kiss.gif" align="bottom" alt="Kiss" border="0"/></a> <a href="javascript:void(0);" onclick="replaceText(' :\'(', document.forms.postmodify.message);"><img src="/bbs/Smileys/converted/cry.gif" align="bottom" alt="Cry" border="0"/></a><br>
+</tr>
+<tr>
+<td valign="top" align="right"><td>
+<textarea class="editor" name="message" rows="12" cols="60" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" onchange="storeCaret(this);" tabindex="5">
+</textarea></tr>
+</table>
+</tr>
+</table>
+</form><br>
+</div>
+<h3 class="section" id="messageicon">Message Icon</h3>
+<p>This drop-down menu allows you to change the default icon for the subject line to something matching the mood or purpose of your post.</p>
+<h3 class="section" id="bbc">Bulletin Board Code</h3>
+<p>Bulletin Board Code (or BBC) is the essential tool for formatting and changing the appearance of your post. While it affects the plain text in much the same way as the formatting tools in any word processor, the main <strong>Message</strong> field does not behave in a WYSIWYG manner, so you should preview your message if you need to see what it will look like when posted.</p>
+<p>A complete <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbcref">SMF Bulletin Board Code Reference</a> is provided below.</p>
+<h3 class="section" id="smileys">Smileys</h3>
+<p>While smileys can be viewed as purely whimsical in nature, they can also play a valuable role in clarifying the written word in much the same way as vocal inflections and/or facial expressions clarify the spoken word. Like most forum software, SMF provides a standard range of smiley images which can be added to posts by clicking the relevant icons or typing the relevant codes. A <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#nosmileys">don't use smileys</a> option is naturally also provided for those occasions when you don't want typed character combinations that would normally be displayed as smileys to be converted to the expected images!</p>
+<p>A complete <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#smileysref">SMF Smileys Reference</a> is provided below.</p>
+<h2 class="section" id="tags">Tags and Nesting (for beginners)</h2>
+<p>Before listing the available <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#bbcref">BBC buttons</a> and their purposes, let's see how they work by imagining that we want to post some text in bold type. While we can start by clicking the <strong>B</strong> (Bold) button and typing our text between the tags it produces, it's often more practical to type the text first, highlight it and then click the button. So typing 'text', highlighting it and clicking the 'B' button should produce '[b]text[/b]', which renders as <strong>text</strong> when posted or previewed. (NB This doesn't work in Opera, which inserts the tags at the end of the post.) Subsequently highlighting '[b]text[/b]' and clicking the <strong>I</strong> (Italicized) button will produce '[i][b]text[/b][/i]', which not only renders as <em><strong>text</strong></em> when posted or previewed but also introduces the concept of nesting, which means that each new set of tags in a case like this should be seen as a new 'box' containing both the original text <em>and</em> any tags already applied to it.</p>
+<p>Note that the BBC tags can also be typed and edited direct instead of clicking the buttons.</p>
+<h2 class="section" id="additional">Additional Options</h2>
+<p>The following options may appear by default in some forums but be contained within an expanding/collapsing panel (try clicking the link with the arrow below!) in others:</p>
+<div class="help_sample">
+<br>
+<script>
+//
+var currentSwap = false;
+function swapOptions()
+{
+document.getElementById("postMoreExpand").src = smf_images_url + "/" + (currentSwap ? "collapse.gif" : "expand.gif");
+document.getElementById("postMoreExpand").alt = currentSwap ? "-" : "+";
+document.getElementById("postMoreOptions").style.display = currentSwap ? "" : "none";
+if (document.getElementById("postAttachment"))
+document.getElementById("postAttachment").style.display = currentSwap ? "" : "none";
+if (document.getElementById("postAttachment2"))
+document.getElementById("postAttachment2").style.display = currentSwap ? "" : "none";
+currentSwap = !currentSwap;
+}
+//
+</script>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics" method="post" accept-charset="UTF-8" style="margin: 0;">
+<table border="0" width="100%" align="center" cellspacing="1" cellpadding="3" class="bordercolor">
+<tr>
+<td class="windowbg">
+<table border="0" cellpadding="3" width="100%">
+<tr>
+<td colspan="2" style="padding-left: 5ex;"><a href="javascript:swapOptions();"><img src="Themes/celeste/images/expand.gif" alt="+" border="0" id="postMoreExpand" name="postMoreExpand"/></a> <a href="javascript:swapOptions();" class="board"><strong>Additional Options...</strong></a></tr>
+<tr>
+<td><td>
+<div id="postMoreOptions">
+<table width="80%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="smalltext"><input type="checkbox" class="input_check"/>&nbsp;Notify me of replies.</tr>
+<tr>
+<td class="smalltext"><input type="checkbox" class="input_check"/>&nbsp;Return to this topic.</tr>
+<tr>
+<td class="smalltext"><input type="checkbox" class="input_check"/>&nbsp;Don't use smileys.</tr>
+</table>
+</div>
+</tr>
+<tr id="postAttachment2">
+<td align="right" valign="top"><strong>Attach:</strong><td class="smalltext"><input type="file" size="48" name="attachment[]" class="input_file"/><br>
+<input type="file" size="48" name="attachment[]" class="input_file"/><br>
+Allowed file types: txt, jpg, gif, pdf, mpg, png<br>
+Maximum attachment size allowed: 128 KB</tr>
+<tr>
+<td align="center" colspan="2">
+<script>
+//
+swapOptions();
+//
+</script> <span class="smalltext"><br>
+shortcuts: hit alt+s to submit/post or alt+p to preview</span><br>
+<input type="button" accesskey="s" tabindex="6" value="Post" class="button_submit"/> <input type="button" accesskey="p" tabindex="7" value="Preview" class="button_submit"/>
+</tr>
+</table>
+</tr>
+</table>
+</form><br>
+</div>
+<h3 class="section" id="notify">Notify me of replies</h3>
+<p>Check this to subscribe to email notification for the topic.</p>
+<h3 class="section" id="return">Return to this topic</h3>
+<p>Check this to return to the topic (instead of the message index) after posting (NB you can also set this behavior as a preference in your profile).</p>
+<h3 class="section" id="nosmileys">Don't use smileys</h3>
+<p>Check this to prevent certain <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#smileysref">character combinations</a> in your post from being parsed and rendered as smileys.</p>
+<h3 class="section" id="attachments">Attachments</h3>
+<p>If enabled, this feature allows you to attach files to your posts in much the same way as most email clients, so you simply have to browse to the relevant file(s) on your computer before clicking <strong>Post</strong>. You can delete your attachment(s) or add more by <a href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=help;area=posting_topics#modify">modifying your post</a>, but please note that:</p>
+<ul>
+<li>The permitted file types and sizes are set by the forum administrator(s).<li>Although most forums are likely be configured to display attached images as part of the post, it's not possible to <em>preview</em> attachments so you should always browse to and attach your files just before you finally <em>post</em> your message.</ul>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+</div>
+</div>
+</div><br class="clear"/>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=f3c66386930feaf3b4808de7f0066512&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

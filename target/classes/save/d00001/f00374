@@ -1,0 +1,503 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[翻译]Conan RPG 战斗"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[翻译]Conan RPG 战斗</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="9568"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"><span>科南 RPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="版主">erwin</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0"><span>[翻译]Conan RPG 战斗</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg68297"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=9568.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [翻译]Conan RPG 战斗 &nbsp;(阅读 13957 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 关于战斗的一些,主要是新增的那些~</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=9568.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="检视会员资料:  erwin">erwin</a>
+</h4>
+<ul class="reset smalltext" id="msg_68297_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106">
+<img class="avatar" src="/bbs/upload/avatar/avatar_106_1285998610.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 412<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_68297">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.msg68297#msg68297" rel="nofollow">[翻译]Conan RPG 战斗</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_68297'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_68297'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2006-07-10, 周一 22:54:19 &#187;</div>
+<div id="msg_68297_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_68297">同样的我就省略不译了，这里主要是两种防御，以及后面的破甲和娴熟攻击。娴熟攻击足以让敏捷战士翻身了。接下来就剩专长了。<br><br>战斗顺序<br>略<br><br>攻击<br>略<br><br>伤害<br>略<br>最小伤害：即时伤害惩罚将伤害削减到1之下，成功命中也至少能造成1点伤害。<br><br>防御<br>每个人物有两种防御：<br>基本防御 = 10 + 体型调整值<br>闪避防御 = 基本防御 + 敏捷调整值 + 闪避加值<br>格档防御 = 基本格档 + 力量调整值 + 格档加值<br>基本防御对中体型人物来说是10<br><br>体型和体型调整值<br>体型　　　体型调整值<br>超巨型　　　–8<br>巨型　　　　–4<br>超大型　　　–2<br>大型　　　　–1<br>中型　　　　+0<br>小型　　　　+1<br>超小型　　　+2<br>微型　　　　+4<br>超微型　　　+8<br><br>一些调整会降低你的闪避或格档防御。比如，如果你被人团团围住（即周围的格子都被人占据），此时就不能有效闪避，在闪避防御上将受-2惩罚。这种的调整仅影响所涉及的防御类型。再如，如果你被人团团围住则在闪避防御上受到-2惩罚，但你的格档防御将不受影响。如果一种调整仅提到影响你的“防御”而没有具体指闪避还是格档，则不管使用哪种防御都将起作用，即使你不打算闪避或格档也要计算该防御调整。比如，在冲锋时你要承受防御-2的惩罚。<br>如果你的敏捷是减值而不是加值，则不但闪避防御将受惩罚，其他防御也要计入该惩罚。比如：一个中体型人物其敏捷因中毒而降到5，则它在防御上将受-3惩罚。睡着或无意识的人物其敏捷视为0，此时他不能移动，防御受到-5惩罚。<br>无论何时一个人物准备防御自己时，他必须选择闪避还是格档。切换两种防御模式是即时动作。每次遭到攻击时他都可以选择或切换哪种防御，但必须在对方投攻击骰之前决定。<br>注意盔甲限制了你的最大敏捷加值，如果穿着盔甲，就不能在闪避防御中计算所有敏捷加值了。<br>有些情况下你完全不能闪避或格档。有时你不能对攻击做出反应，比如当对方突袭你而使你处于措手不及状态，此时不能闪避也不能做格档。同样的，如果你失去行动能力，就不能有效地防御自己。一个努力抓住悬崖边缘不让自己掉下去的人物，不能进行闪避或格档防御。这种情况下，很容易遭到偷袭。<br>其他调整:许多其他因素都会影响你的闪避和格档防御.<br>*增强加值:一些增强效果能提高你的防御.<br>*装备:由于盾是专门用来阻挡对方攻击的，所以使用盾牌能比使用武器能更有效的格档。盾牌将各与额外的格档加值。<br>*闪避加值：一些其他加值描述的是躲开对方攻击的能力，这被称为闪避加值。盔甲只能影响敏捷对闪避防御的影响，而对闪避价值没有影响。闪避加值只能增加人物的闪避防御，对其格档防御无效。如果在某些情况下不能闪避，则闪避加值也不能计入。<br><br>闪避<br>人物全部的闪避加值包括其基本闪避加值（得自他的人物职业）和任何其他闪避加值，比如闪躲专长。<br>进行闪避的人物至少在其周围有一个空着的格子（该格子可以被友方占据）以进行有效地闪躲。他不避在闪避对方攻击时真的移动到该格子内，但他需要这个空间来进行其闪避攻击的动作。如果他闪避防御时周围没有这样的一个无人或只被友方占据的空间，则其闪避防御将受到-2惩罚。<br>闪避加值 = 基本闪避加值 + 额外闪避加值<br><br>格档<br>人物全部的格档加值包括其基本格档加值（得自他的人物职业）和任何其他格档加值，比如格档专长。<br>进行格档的人物必须手持武器，盾牌或类似的一些物品用于挡开对方的攻击。当然赤手空拳也可以接下对方的攻击，不过此时空手一方在格档防御上将受到-4惩罚。如果该人物拥有精通徒手攻击专长，则他在进行格档防御时不失为空手。<br>如果人物使用他所不擅长的武器进行格档或临时武器，比如条凳或废柴，他将在格档防御上受到-1惩罚。一个拥有野蛮人多武器掌握的人物由于他们对临时武器很在行，所以在这种情况下不受惩罚。GM可以试临时武器的种类和大小为其确定不同的格档加值或格档的惩罚。<br>如果你使用的是长武器，你也能用它格档临近的攻击，即使你不能攻击到他也一样。<br>无论如何都不能格档远程武器的攻击。<br>格档加值 = 基本格档加值 + 额外格档加值<br><br>接触攻击和措手不及时的防御<br>接触攻击是攻击者只需要命中目标的一部分就视为成功的命中。在对抗接触攻击或措手不及时需要进行不同的防御。对接触攻击只能进行闪避，而不能进行格档。由于武器或盾牌都会传递该类型的攻击，因此人物只能闪躲接触攻击。<br>当人物措手不及时，由于不能闪躲或格档，所以他们不能进行闪躲或格档防御。措手不及中他们还没有清醒过来也没时间保护自己，完全来不及躲避。此时他们只能计算基本防御，对于中型生物而言是10。直觉闪避该职业能力和反射格档专长使人物在措手不及时可以闪避防御和格档防御。<br><br>盔甲<br>在游戏中盔甲将能够减少一定的伤害，设计出色的盔甲能够吸收或者偏转攻击，提供很出色的保护。而很多武器它们的力量也足够穿透某些盔甲的保护。每种盔甲都列出了其伤害减免值。<br>当戴头盔时候头盔所提供的伤害减免将于盔甲的累计。<br><br>生命值<br>略<br><br>速度<br>略<br><br>豁免<br>略<br><br>先攻<br>介绍略<br>先攻检定 = 1d20 + 基本反射豁免调整 + 敏捷调整值 + 任何相关专长或额外加值<br>注意不要计算两次敏捷加值了！<br><br>措手不及<br>略<br><br>盔甲和伤害减免<br>盔甲提供伤害减免，每次攻击造成的伤害需要剪去盔甲提供的伤害减免，然后再计算生命的损失。<br><br>破甲<br>强力的武器有能力穿透盔甲的保护，每种武器都有破甲值（AP）。人物的力量调整与武器的破甲值合计，决定了他的破甲能力。<br>娴熟的战士使用不同的破甲方式。<br>如果一个人物使用武器命中一个穿盔甲的敌人，如果其总破甲值等于或大于对方盔甲的伤害减免值，则该盔甲的伤害减免在面对他的攻击时简办（向下取整）。<br>如果一种武器的AP为0，则表示它的攻击将很容易被盔甲的阻挡，所以伤害时要计算所有伤害减免。此外如果一种武器的AP为0，则它在计算破甲时不能计算力量调整值。就是说它完全不能用来对付盔甲，即使用再大的力来戳也是白搭。<br>多次射击和致命一击<br>如果一个人物被多次击中则其盔甲的伤害减免将对每次攻击分别计算。<br>如果受到致命一击，则盔甲提供的伤害减免也只计算一次。一般而言不论是什么类型的伤害减免都只能针对一次攻击骰起效。<br>所有怪物和动物的防御和伤害减免也适用该规则。<br><br>盔甲的损坏和修理<br>每次使用武器对盔甲的穿戴者造成20点以上的伤害（本伤害需在盔甲的伤害减免被计算后的结果），则该盔甲的DR将下降1d4。<br>盔甲的DR下降可以被拥有手艺（盔甲锻造armoursmith）的人修复，每修复1点DR需花费原盔甲价值的20%。在自己修理时该花费减半。需要通过DC10的手艺盔甲匠armourer技能检定或DC15的手艺铁匠blacksmith技能检定，并花费每点DR10分钟的时间。然而，如果盔甲的DR降到0，就被彻底损坏不能再修理，只能卖废铁了。<br><br>娴熟战斗<br>某些近战武器可以进行娴熟战斗而不知是需要总是依靠蛮力。这包括全部轻型武器和几种单手和双手穿刺武器。这些武器被称为可娴熟武器。娴熟武器详见武器列表。<br>任何装备了娴熟武器的人物都可以用敏捷调整来代替力量调整进行攻击检定。这样的攻击被称为娴熟战斗。<br>注意，人物很可能在战斗中改变他们的战斗方式，选择使用其敏捷调整或其力量调整。很多人物习惯选择一项而不是战斗中在两项之间来回切换。如果是这样，他需要在每个战斗轮开始时宣布要进行哪种战斗。<br>远程武器由于本来就是用敏捷而非力量进行攻击判定，所以不能被用来娴熟战斗。唯一例外是选择了远程娴熟专长以后。<br>娴熟和盔甲<br>娴熟战斗不是简单的击破对方盔甲，而是搜索盔甲在制造和穿着中必然会有的弱点和缝隙。比如板甲的接合处，或者是铁盔正面没有面甲保护的部分。娴熟战斗时其力量加值不能计算到武器的破甲值上。娴熟战斗中其攻击检定减去其目标所选择的防御值，如果得出的结果等于或大于目标所穿盔甲的伤害减免值，则该盔甲将被完全无视。<br>此外，由于娴熟战斗主要着眼于搜寻盔甲本身的缝隙和弱点，所以它不会损坏盔甲。 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_68297">
+&#171; <em>上次编辑: 2007-06-07, 周四 15:47:16 由 erwin</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_68297_signature">所有曾经的荣耀和辉煌，都如流沙般逐渐消失殆尽</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg104371"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=165" title="检视会员资料:  尤冈蒙多">尤冈蒙多</a>
+</h4>
+<ul class="reset smalltext" id="msg_104371_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=165">
+<img class="avatar" src="/bbs/upload/avatar/av-165.gif" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 202<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_104371">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.msg104371#msg104371" rel="nofollow">[翻译]Conan RPG 战斗</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_104371'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_104371'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2007-06-07, 周四 14:05:41 &#187;</div>
+<div id="msg_104371_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_104371"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"> 防御<br>每个人物有两种防御：<br>基本防御 = 10 + 体型调整值<br>闪避防御 = 基本防御 + 敏捷调整值 + 闪避加值<br>格档防御 = 基本格档 + 格档调整值 + 格档加值<br>基本防御对中体型人物来说是10 </blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> 不是挖坟，才看见这个……<br><br>Parry Defence = Base Defence + Strength Bonus + Parry Bonus<br><br>格档防御 = 基本防御 + 力量调整值 + 格档加值 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_104371">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_104371_signature">疯子，这男人是个疯子。<br>有时候大家会半开玩笑地说：“呵呵，那小子真够疯的。”<br>有时候甚至略带敬仰地说：“喔，他太疯狂了。”<br>但有时候，我们不得不沉重地说：“他，可能，真的是个疯子。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg104379"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="检视会员资料:  erwin">erwin</a>
+</h4>
+<ul class="reset smalltext" id="msg_104379_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106">
+<img class="avatar" src="/bbs/upload/avatar/avatar_106_1285998610.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 412<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_104379">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.msg104379#msg104379" rel="nofollow">[翻译]Conan RPG 战斗</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_104379'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_104379'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2007-06-07, 周四 15:48:29 &#187;</div>
+<div id="msg_104379_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_104379">嗯，已修正之。。。<br>嗯。。。 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_104379">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_104379_signature">所有曾经的荣耀和辉煌，都如流沙般逐渐消失殆尽</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg104702"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=782" title="检视会员资料:  xooom">xooom</a>
+</h4>
+<ul class="reset smalltext" id="msg_104702_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=782">
+<img class="avatar" src="/bbs/upload/avatar/av-782.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 561<li class="karma">苹果币: -1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_104702">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.msg104702#msg104702" rel="nofollow">[翻译]Conan RPG 战斗</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_104702'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_104702'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2007-06-09, 周六 01:38:44 &#187;</div>
+<div id="msg_104702_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_104702">为何不继续翻译呢 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_104702">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=9568.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"><span>科南 RPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="版主">erwin</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=9568.0"><span>[翻译]Conan RPG 战斗</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 9568,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 9568,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="9568" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=9568.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 13957 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 367,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "科南 RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 367,
+							iTopicId: 9568,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

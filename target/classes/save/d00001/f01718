@@ -1,0 +1,394 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="第十三章 怪物"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>第十三章 怪物</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1328.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="26915"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1328.0"><span>剑世界</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=216" title="版主">David Lee</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10578" title="版主">Astinus</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0"><span>第十三章 怪物</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg205794"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=26915.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 第十三章 怪物 &nbsp;(阅读 5605 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 妖精，妖魔，精灵</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=26915.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10578" title="检视会员资料:  Astinus">Astinus</a>
+</h4>
+<ul class="reset smalltext" id="msg_205794_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 45<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_205794">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.msg205794#msg205794" rel="nofollow">第十三章 怪物</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_205794'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_205794'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2009-10-16, 周五 13:52:44 &#187;</div>
+<div id="msg_205794_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_205794"><span style="font-family: 新宋体;" class="bbc_font">13.2.2 妖精<br>[皮克精](Pixie)<br>怪物等级：1<br>知名度：12<br>敏捷度：14<br>移动速度：4/7(空中)<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：友好<br>攻击点：武器8(1)<br>打击点：2<br>闪避点：10(3)<br>防御点：3<br>生命点/抵抗值：7/8(1)<br>精神点/抵抗值：15/9(2)<br>特殊能力：2级精灵魔法(魔法强度/魔力：11/4)，隐形<br>栖息地：森林，草原<br>语言：仙子语，精灵语<br>知觉：五感(红外视觉)<br>皮克精的外形像精灵(Elf)，但只有约30厘米高。背上长有类似昆虫的翅膀。大多为女性外形，也有男性外形的个体，穿着某种衣服一样的东西。他们对人类比较友好，但并不主动和人类交往，很少在人类面前现身。而且，他们和小妖精有非常密切的关系，小妖精向萨满提供的&#039;隐形术&#039;(Invisibility)力量，他们可以作为基本能力来使用，因而就更难看到他们的身影。他们可以无限使用此能力，而且不必消耗精神点。但是隐形需要保持专注，否则无法隐形，隐形状态中如果中断专注(攻击或使用其他魔法)则立即显形。<br>他们有时会对人类搞恶作剧。隐形后在人耳边低语，或者用手中的武器(针一样细的匕首)刺对方的屁股。<br>皮克精很少参加战斗，战斗时可以使用2级精灵魔法。<br><br>[小仙子](Faerie)<br>怪物等级：1<br>知名度：11<br>敏捷度：18<br>移动速度：9/10(空中)<br>出现数：数人<br>出现频度：罕见<br>智力：人类程度<br>反应：友好—中立<br>攻击点：武器8(1)<br>打击点：3<br>闪避点：10(3)<br>防御点：3<br>生命点/抵抗值：10/8(1)<br>精神点/抵抗值：18/10(3)<br>特殊能力：3级精灵魔法(魔法强度/魔力：12/5)<br>栖息地：不定<br>语言：仙子语，精灵语<br>知觉：五感(红外视觉)<br>小仙子是妖精中代表性的种族，大多仍然居住在妖精界，很少来到物质界，也就是我们所在的世界。但是在物质界也有若干和妖精界有接触的地点，人类在这些地方不小心迷路误入妖精界的故事广为流传。<br>在这种两个世界接触的地方，偶尔能见到小仙子。和人类误入妖精界一样，也有小仙子误入物质界。小仙子的样子像美丽的精灵(Elf)女性，几乎全裸，或者穿着薄绢做的衣服。身高也和精灵(Elf)相似，不同的是背后生有美丽的翅膀。这翅膀非常薄但是坚韧，虽然速度很慢，但她们可以在空中飞行。有时携带银制的短剑护身，但很少使用。如果确实遇到了麻烦，她们会优先使用魔法而不是武器。作为妖精界的居民，她们和精灵有很深的关系，可以使用不超过3级的精灵魔法。<br><br>[普卡精](Pooka)<br>怪物等级：3<br>知名度：12<br>敏捷度：18<br>移动速度：18<br>出现数：单独—数人<br>出现频度：罕见<br>智力：人类程度<br>反应：友好<br>攻击点：拳11(4)<br>打击点：4<br>闪避点：13(6)<br>防御点：5<br>生命点/抵抗值：10/10(3)<br>精神点/抵抗值：18/12(5)<br>特殊能力：3级精灵魔法(魔法强度/魔力：12/5)，变身(动物)<br>栖息地：森林<br>语言：仙子语，精灵语，地方语<br>知觉：五感(红外视觉)<br>普卡精是栖息在森林的妖精族的一种，和草原妖精的外貌相近，但更聪明一些。他们没有穿衣服的习惯，但并不总光着身子游荡，他们有变身成森林中动物的能力，一般都变身成动物形态生活。变身期间，他们不但可以使用所变动物的所有肉体能力，而且还可以说话。但是，不能变成熊和狼等大型的动物，只能变成狐狸，小鹿，兔子，栗鼠一类。这种变身即使用&#039;感知魔法&#039;(Sense Magic)或&#039;感知灵光&#039;(Sense Aura)也无法识破。<br>角色在森林中遇到他们时，会被当成朋友一样受到友好的对待。但是，他们喜好恶作剧，想要先惊吓对方一番，以动物形态或者隐身状态发出声音。但是一旦发生接触，他们会提供各种各样的帮助，指点森林中的道路，指明危险的地方等等。此外，对于曾经救助他们脱离危机的角色，他们会发誓终生保持忠诚，并且付诸行动。他们可以使用精灵魔法，萨满等级为3。<br><br>[羽人](Feather Folk)<br>怪物等级：4<br>知名度：9<br>敏捷度：16<br>移动速度：10/30(空中)<br>出现数：单独—数人<br>出现频度：罕见<br>智力：人类程度<br>反应：中立<br>攻击点：武器11(4)<br>打击点：8<br>闪避点：12(5)<br>防御点：7<br>生命点/抵抗值：12/12(5)<br>精神点/抵抗值：18/13(6)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6)<br>栖息地：山岳<br>语言：鸟妖语，精灵语，地方语<br>知觉：五感(红外视觉)<br>羽人和人类相似，但是肩头生有鸟类的翅膀，可以在空中飞行。羽人无论男女都形貌美丽，居住在险峻的山岳地带，性格温厚与世无争，但唯独厌恶弗利亚鸟妖。羽人的文化程度比人类稍低，语言和习惯都和人类近似，但对金子和宝石缺乏兴趣。<br>羽人使用剑，弓箭和枪作为武器，不能穿着重甲，至多可以穿软皮甲。他们使用精灵魔法，萨满技能等级为4。为了侦察和防身，他们饲养鹫和狮鹫。<br><br>[人鱼](Merman)<br>怪物等级：2<br>知名度：11<br>敏捷度：16<br>移动速度：3/20(水中)<br>出现数：数人—数十人<br>出现频度：罕见<br>智力：人类程度<br>反应：中立<br>攻击点：武器9(2)<br>打击点：5<br>闪避点：10(3)<br>防御点：4<br>生命点/抵抗值：14/10(3)<br>精神点/抵抗值：16/10(3)<br>特殊能力：水中适应<br>栖息地：海中<br>语言：人鱼语<br>知觉：五感(昏暗视觉)<br>人鱼是栖息在海中的种族，上半身是人下半身是鱼。女性人鱼称为Mermaid。他们对人类极度畏惧和厌恶，因而绝不会与之交流。说起来，这是由于百年以前流传着&quot;吃人鱼肉可以长寿&quot;的谣言，人类争相猎捕人鱼的缘故。从那以后，人鱼就躲避人类而到深海底部生活，他们的社会制度和风俗习惯都是个谜。<br>人鱼是在水中呼吸的种族，在陆地上无法呼吸。在陆地上只能行动不超过其生命点的回合数(14回合)，超过此限即会窒息。通常组成数十人的团体生活，团体中有首领和萨满统率部族。<br>他们用三叉戟作为武器。<br><br>人鱼萨满(Mermaid Shaman)<br>怪物等级：4<br>知名度：12<br>敏捷度：16<br>移动速度：3/20(水中)<br>出现数：单独—数人<br>出现频度：罕见<br>智力：人类程度<br>反应：中立<br>攻击点：武器10(3)<br>打击点：7<br>闪避点：12(5)<br>防御点：6<br>生命点/抵抗值：12/12(5)<br>精神点/抵抗值：18/13(6)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6，仅限水之精灵)，水中适应<br>栖息地：海中<br>语言：人鱼语，精灵语<br>知觉：五感(红外视觉，昏暗视觉)<br>人鱼部族中选择智慧和精神力出众的女子，从幼小时即进行萨满训练，最终成为人鱼萨满。人鱼萨满可以使用不超过4级的源于水之精灵(温蒂妮)的精灵魔法。一支人鱼战斗队伍中有一名萨满，作为人鱼首领的辅助。人鱼首领被打倒时，萨满接手指挥战斗。如果首领和萨满都被打倒，则人鱼们会加入其它战斗队伍，或者逃逸。无法逃走的话，人鱼会死战到底。<br><br>人鱼首领(Merman Leader)<br>怪物等级：4<br>知名度：13<br>敏捷度：16<br>移动速度：3/20(水中)<br>出现数：单独—数人<br>出现频度：罕见<br>智力：人类程度<br>反应：中立<br>攻击点：武器10(3)<br>打击点：8<br>闪避点：12(5)<br>防御点：6<br>生命点/抵抗值：15/12(7)<br>精神点/抵抗值：17/12(5)<br>特殊能力：水中适应<br>栖息地：海中<br>语言：人鱼语<br>知觉：五感(昏暗视觉)<br>人鱼部族中选择身体出众的男子，从幼小时即进行特别的训练。接受训练者长成后成为人鱼首领，作为10人左右的战斗队伍的首领指挥战斗。此外，他们当中特别出众者被选拔为统率部族的族长。<br><br>13.2.3 妖魔<br>[小魔鬼](Imp)<br>怪物等级：1<br>知名度：12<br>敏捷度：14<br>移动速度：7/7(空中)<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：尾8(1)<br>打击点：4+毒<br>闪避点：9(2)<br>防御点：3<br>生命点/抵抗值：8/8(1)<br>精神点/抵抗值：14/9(2)<br>特殊能力：1级黑暗魔法(魔法强度/魔力：10/3)，毒(毒性值10，麻痹，持续1小时)<br>栖息地：不详<br>语言：小魔鬼语<br>知觉：五感(黑暗视觉)<br>小魔鬼是皮肤褐色或暗褐色的小型妖魔，没有体毛，生有尾巴，尾巴的末端象枪尖一样锋利，可以用来攻击。它的尾巴带有麻痹毒素，受到小魔鬼的攻击并造成伤害者，必须做生命力抵抗判定，失败者受到毒素的影响，在下一回合结束时身体麻痹无法行动。<br>小魔鬼居住在什么地方，它的生态如何都不详，在大的街区也曾经出现过，在郊外废弃的房屋里也曾经发现有小魔鬼居住。此外，小魔鬼可以使用1级的黑暗魔法，有的邪恶魔法师(往往有黑暗祭司技能)将其用作魔宠。<br>小魔鬼同石像鬼、炎魔具有非常相似的外观，因而有的贤者认为它不属于妖魔，而可能是来自异界的生物。<br><br>[狗头人](Kobold)<br>怪物等级：1<br>知名度：6<br>敏捷度：14<br>移动速度：8<br>出现数：数只—数十只<br>出现频度：频繁<br>智力：低<br>反应：敌对<br>攻击点：武器或牙8(1)<br>打击点：5<br>闪避点：10(3)<br>防御点：3<br>生命点/抵抗值：8/8(1)<br>精神点/抵抗值：8/8(1)<br>特殊能力：腐蚀银？<br>栖息地：接近村镇的山、森林、洞穴<br>语言：地精语<br>知觉：五感(黑暗视觉)<br>狗头人是小型的妖魔，长着一张狗脸，生有尾巴，没有体毛。居住在接近村镇的森林、山丘之类地方，但因为生性畏缩，所以不大危害人类。然而狗头人性格卑劣，如果对方人数占劣或已经受伤，或者是没有战斗能力的女性和孩子，也可能发动攻击。它们通常用牙齿啮咬，也可以使用棍棒(数据相同)。<br>据说狗头人可以腐蚀银，所以与矿山有关的人和矮人都极其敌视狗头人。<br><br>[小鬼](Gremlin)<br>怪物等级：2<br>知名度：9<br>敏捷度：17<br>移动速度：6/8(空中)<br>出现数：单独—数只<br>出现频度：罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：牙9(2)<br>打击点：3<br>闪避点：11(4)<br>防御点：4<br>生命点/抵抗值：8/9(2)<br>精神点/抵抗值：14/10(3)<br>特殊能力：2级精灵魔法(魔法强度/魔力：11/4)<br>栖息地：山岳，高地<br>语言：小魔鬼语，精灵语<br>知觉：五感(红外视觉)<br>被称为&quot;空中的小鬼&quot;，可知是有翅膀的小型妖魔。身体为暗褐色，背上生有类似蝙蝠的黑色翅膀。依靠翅膀可以在空中飞行，但速度并不快。小鬼可以使用不超过2级的精灵魔法。<br>小鬼生性虽然不是攻击性的，但非常阴险，喜好恶意的玩笑，在Arecrast广泛流行的悲剧中，骑乘飞马珀加索斯的英雄格拉克斯因为小鬼的恶作剧而坠落身亡。<br><br>[大地精](Hobgoblin)<br>怪物等级：3<br>知名度：8<br>敏捷度：12<br>移动速度：8<br>出现数：数只<br>出现频度：一般<br>智力：低<br>反应：敌对<br>攻击点：武器或牙10(3)<br>打击点：10<br>闪避点：11(4)<br>防御点：7<br>生命点/抵抗值：15/11(4)<br>精神点/抵抗值：12/11(4)<br>特殊能力：无<br>栖息地：离村镇较远的山、森林、洞穴<br>语言：地精语<br>知觉：五感(黑暗视觉)<br>大地精是后面所述地精的近亲，皮肤赤褐色，几乎没有头发，但全身都生有浓密的体毛。大地精的体格不逊色于人类，甚至力量更胜，是危险的怪物。战斗时使用端头粗大的棍棒，或者两颚突出的牙齿。大地精生性好战却又意外地胆小，形势不利就会立即逃跑。<br>大地精单独行动，或者数只结成团伙，在离人类村镇稍远的地方生活，而且频繁变换居所。也有居住在地精群落当中的情况。<br><br>[地精](Goblin)<br>怪物等级：2<br>知名度：5<br>敏捷度：13<br>移动速度：8<br>出现数：数只—数十只<br>出现频度：频繁<br>智力：低<br>反应：敌对<br>攻击点：武器或牙9(2)<br>打击点：7<br>闪避点：10(3)<br>防御点：5<br>生命点/抵抗值：12/10(3)<br>精神点/抵抗值：12/9(2)<br>特殊能力：无<br>栖息地：接近村镇的山、森林、洞穴<br>语言：地精语<br>知觉：五感(黑暗视觉)<br>地精是居住在人类村镇附近的一种妖魔，在Arecrast是非常常见的怪物。它们的身材比人类小，皮肤为赤褐色。通常数只到数十只结成团伙，在森林或山丘居住。往往出现在人家袭击家畜，盗取财物。它们经常使用从人类那里抢夺的武器(基本都是短剑匕首一类小型武器)。在地精群落中，狗头人或人类小孩被当作奴隶驱使。此外，也有担当保卫的大地精和它们生活在一起。<br><br>地精萨满(Goblin Shaman)<br>怪物等级：3<br>知名度：10<br>敏捷度：13<br>移动速度：8<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：武器或牙10(3)<br>打击点：8<br>闪避点：11(4)<br>防御点：6<br>生命点/抵抗值：12/11(4)<br>精神点/抵抗值：15/11(4)<br>特殊能力：3级精灵魔法(魔法强度/魔力：12/5)，1级黑暗魔法(魔法强度/魔力：10/3)<br>栖息地：山，森林，洞穴<br>语言：地精语，精灵语，地方语<br>知觉：五感(黑暗视觉，红外视觉)<br>地精部族中，擅长精灵魔法的成员。肉体上和普通的地精没有太大区别，但头脑胜过同侪，而且熟习精灵语。考虑到地精很早以前曾经是妖精界的居民，这也不值得惊讶。地精萨满当中也有能使用黑暗魔法的黑暗祭司。地精在神话时代曾经侍奉黑暗神。地精萨满掌握3级的萨满技能(魔法强度/魔力：12/5)，或者1级黑暗祭司技能(魔法强度/魔力：10/3)，或者二者兼有。<br><br>地精领主(Goblin Lord)<br>怪物等级：4<br>知名度：10<br>敏捷度：12<br>移动速度：10<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：武器或牙11(4)<br>打击点：11<br>闪避点：12(5)<br>防御点：7<br>生命点/抵抗值：18/13(6)<br>精神点/抵抗值：15/12(5)<br>特殊能力：无<br>栖息地：山，森林，洞穴<br>语言：地精语，地方语<br>知觉：五感(黑暗视觉)<br>顾名思义，地精领主是地精中的王者。但是，并不是所有地精部族中都有地精领主，实际上不如说大多数部族都没有。地精领主还残留着部分过去地精族在妖精界居住时代的力量，可以说是地精的上位种。虽然没有魔法能力，但它们的身体有和人类与大地精相当，甚至更胜一筹的力量。据说在Arecrast大陆东面的妖魔森林，有相当多的地精领主。<br><br>[沼泽人](Marshman)<br>怪物等级：4<br>知名度：15<br>敏捷度：13<br>移动速度：6/18(水中)<br>出现数：单独-数人<br>出现频度：非常罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：爪12(5)/爪12(5)<br>打击点：11/11<br>闪避点：12(5)<br>防御点：9<br>生命点/抵抗值：18/13(6)<br>精神点/抵抗值：15/12(5)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6)，畏火，畏干燥<br>栖息地：沼泽<br>语言：小魔鬼语，地方语<br>知觉：五感(红外视觉)<br>沼泽人又称为水生小魔鬼，是栖息在沼地的妖魔。身体复盖着绿色的皮肤，后背有硬质化的背甲。沼泽人有人类程度的高智力，有初步的社会生活。沼泽人对其他种族非常排斥，如果进入其栖息的地域，会招致攻击性的反应。与水之精灵温蒂妮的关系密切，可以使用不超过4级的温蒂妮系精灵魔法。<br>火焰和炎热是其弱点，用火焰系魔法攻击沼泽人时，打击力+10。此外，他们害怕干燥，几乎无法离开所居住的沼泽。如果强行离开，则身体处于干燥状态，每小时损失1点生命。<br><br>[黑暗精灵](Dark Elf)<br>怪物等级：3<br>知名度：11<br>敏捷度：19<br>移动速度：19<br>出现数：单独—数人<br>出现频度：罕见<br>智力：高<br>反应：敌对<br>攻击点：武器9(2)<br>打击点：6+毒<br>闪避点：12(5)<br>防御点：6<br>生命点/抵抗值：10/10(3)<br>精神点/抵抗值：17/15(8)<br>特殊能力：3级精灵魔法(魔法强度/魔力：13/6)，1级黑暗魔法(魔法强度/魔力：11/4)， 毒(毒性值10，打击力10，追加伤害3)<br>栖息地：远离人类村镇的森林<br>语言：精灵(Elf)语，精灵语，地方语<br>知觉：五感(黑暗视觉，红外视觉)<br>在古时候神之间发生战争，精灵(Elf)站到了光明之神一方，然而其中也有站到黑暗神一方的。这些皮肤漆黑的精灵(Elf)，称为黑暗精灵(Dark Elf)。<br>他们是黑暗之神的信徒，喜好卑劣的行为，最拿手的就是利用&#039;隐形术&#039;(Invisibility)来暗杀。他们还在武器上涂毒，被喂毒武器攻击而受到伤害的角色需立即做目标值10的生命力抵抗判定，如果失败则受到打击力10，追加伤害3的毒伤。此伤害有别于武器的伤害，不能用冒险者等级来做伤害减免。如果抵抗成功则毒完全无效。<br>黑暗精灵往往和更强者(黑暗祭司等)密谋重大的恶行，人类等种族对黑暗精灵也抱有强烈的敌意。<br><br>黑暗精灵首领(Dark Elf Leader)<br>怪物等级：6<br>知名度：11<br>敏捷度：19<br>移动速度：19<br>出现数：单独<br>出现频度：非常罕见<br>智力：高<br>反应：敌对<br>攻击点：武器12(5)<br>打击点：9+毒<br>闪避点：15(8)<br>防御点：9<br>生命点/抵抗值：10/13(6)<br>精神点/抵抗值：17/18(11)<br>特殊能力：6级精灵魔法(魔法强度/魔力：16/9)，5级黑暗魔法(魔法强度/魔力：15/8)，毒(毒性值13，麻痹，持续12小时)<br>栖息地：远离人类村镇的森林<br>语言：精灵(Elf)语，精灵语，地方语<br>知觉：五感(黑暗视觉，红外视觉)<br>和冒险者一样，黑暗精灵(Dark Elf)的个体差异很大，能力的差别也很大。这里给出的是5-6人团队的首领的数据。率领更大集团的人更加强大。<br>首领也经常使用喂毒武器，他们使用的毒不同于一般人，毒性值更为强烈，效果是麻痹。中毒者如果生命力抵抗判定(目标值13)失败，则在下一回合结束时陷入麻痹状态。<br><br>13.2.4 精灵<br>[鬼火](Wil-O-Wisp)<br>怪物等级：2<br>知名度：12(但精灵使必定知道)<br>敏捷度：18<br>移动速度：20(空中)<br>出现数：单独—数只<br>出现频度：罕见<br>智力：相当于无<br>反应：中立—暴力<br>攻击点：崩坏—必定命中<br>打击点：打击力10，追加伤害2<br>闪避点：12(5)<br>防御点：0<br>生命点/抵抗值：1/8(1)<br>精神点/抵抗值：-/10(3)<br>特殊能力：崩坏放出能量，精神攻击无效，免疫毒和疾病<br>栖息地：沼泽或森林附近，也可能出现在任何地方<br>语言：无<br>知觉：魔法<br>鬼火是光之精灵，真身是直径约50厘米的青白色光球，发出的光可以照亮半径5米的空间。在精灵当中，它们是特别不安定的一种，而且几乎不具备智能。它们作为疯狂的精灵出现时，可能会采取两种行动。一种是缓缓地飘在某人之前，将其引到无底的沼泽或森林深处。这种鬼火不会直接发动攻击。<br>另一种对于进入视线范围者会立刻发动攻击。有精神活动者才会成为鬼火攻击的目标，没有智力的植物、矿物、物品等不会成为其目标。另外，没有精神的低级不死生物也不会受到攻击。但睡眠中的人类会成为攻击对象。判断的方法是&quot;是否有精神力(点)的数值”。鬼火的攻击必定成功，攻击目标的鬼火即会崩坏，而同时放出强力的冲击波。此冲击波的打击力10，追加伤害2。铠甲对于此攻击无效，只能用冒险者等级来减免。<br>用近战武器(不必是银或魔法武器)对鬼火造成打击时，可以将鬼火破坏，但攻击者自身也受到鬼火的冲击而受到伤害。<br>鬼火和后述的影精灵是相反的存在，与影精灵接触后即会消失而不放出能量。<br><br>[影精灵](Shade)<br>怪物等级：2<br>知名度：12(但精灵使必定知道)<br>敏捷度：18<br>移动速度：20(空中)<br>出现数：单独—数只<br>出现频度：罕见<br>智力：相当于无<br>反应：暴力<br>攻击点：崩坏—必定命中<br>打击点：打击力10，追加伤害2，精神伤害<br>闪避点：12(5)<br>防御点：0<br>生命点/抵抗值：1/8(1)<br>精神点/抵抗值：-/10(3)<br>特殊能力：崩坏放出能量，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：无<br>知觉：魔法<br>影精灵是黑暗之精灵，也是司掌恐怖的精神之精灵。其真身周围5米范围内的自然光均被消弭，形成闭合的黑暗空间。它的真身看起来像黑暗的球形，但因为处在黑暗中所以也无法确定。因此，攻击影精灵总要受到-4的惩罚。影精灵自身有12的闪避点，因此要攻击到它并不容易(一旦命中则立即崩坏)。对进入视线范围的生物，它们必然会发动冲撞攻击。除了不伤害生命力，而是造成精神力伤害之外，攻击的效果和鬼火一样。打击力10，追加伤害2，只能用冒险者等级来减免。<br>影精灵和前述的鬼火是相反的存在，与鬼火接触后即会消失而不放出能量。<br><br>[棕仙](Brownie)<br>怪物等级：3<br>知名度：14(但精灵使必定知道)<br>敏捷度：14<br>移动速度：特殊<br>出现数：单独—数人<br>出现频度：非常罕见<br>智力：人类程度<br>反应：中立—暴力<br>攻击点：家具10(3)<br>打击点：5-9<br>闪避点：-<br>防御点：-<br>生命点/抵抗值：-/-<br>精神点/抵抗值：-/-<br>特殊能力：物理攻击无效，精神攻击无效，免疫毒和疾病，瞬间运动(限定)，幻觉<br>栖息地：古老的建筑<br>语言：精灵语，建筑中住客的语言<br>知觉：魔法<br>棕仙是人类居住超过50年的古老建筑中产生的精灵。建筑中居住的人离去或者死亡，则棕仙会化为疯狂的精灵。<br>疯狂的棕仙具有造成幻觉的能力。有幻视也有幻听，见到幻影或者听到异样的声音，则可以知道棕仙的存在。<br>此外，棕仙还有一点意念操控物体的能力，用建筑中的东西击打不受欢迎的入侵者。此攻击命中时，打击点视所用物体而定。小型器皿为5点，刀子之类为7点，大的橱子则为9点。<br>疯狂的棕仙还有瞬间移动的能力，可以在建筑物中任意现身。此外，还可凭借魔法感觉感知建筑物内部任何地方的情况。<br>但是，这种能力仅限在建筑物中使用，棕仙不能离开该建筑物。<br>疯狂的棕仙深受以往住客行动的影响，根据不同的场合，在住客离去后，棕仙还会用幻觉和意念操控来忠实再现住客的行动。<br>棕仙没有实体，物理攻击对其一概无效。但是精神点被减到0，或者所住的建筑被毁则会消失。<br><br>[温蒂妮](Undine)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：10<br>移动速度：6/10(水中)<br>出现数：单独—数个<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：12(5)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6，仅限温蒂妮魔法)，入肺(闪避、抵抗目标值12)，精神攻击无效，通常武器无效，免疫毒和疾病<br>栖息地：水中<br>语言：精灵语<br>知觉：魔法<br>温蒂妮是水之精灵，它的身体是仅10升左右的液体。往往现身为小小的少女，但只要重量和体积不变，它可以呈现任意的形态。温蒂妮没有直接的攻击手段，可以向对手摊开，让对方感到不舒服，或者包裹住对手的脸令其难受，但如果对手要抗拒，只需简单逃开即可。然而，如果没能察觉温蒂妮的存在，在有这种精灵的泉水或河川中洗澡或游泳，疯狂的温蒂妮则有施展&#039;沉没术&#039;(Sink)夺取对手的浮力，以使其溺死，或者直接进入对手的肺中等等手段。<br>温蒂妮不需消耗自身的精神点，就可以使用源于温蒂妮之力的魔法(但无法扩大魔法)。温蒂妮的萨满技能等级为4。<br>只要饮用哪怕一点温蒂妮的真身，水之精灵就能直接进入目标的肺部。判断是否饮入，以[冒险者等级+敏捷加值]为基准值做成功判定，目标值12。在从温蒂妮所在的泉水或河川中逃出来之前每回合都要做此判定。不过，这种场合当然可以屏住呼吸。只要屏住呼吸，就不用担心喝到水。但是，温蒂妮最初的攻击一定是突袭，所以只有最初的回合要判定是否饮入温蒂妮。<br>判定失败的角色，将温蒂妮饮入体内。但是，受害者可以尝试将饮入的温蒂妮吐出来。这需要做生命力抵抗判定，目标值也是12。此判定每回合可以尝试一次，但饮入温蒂妮的情况下无法做其它任何行动。此外，在水中的时候无法吐出温蒂妮。<br>屏息、或者饮入温蒂妮后所能耐受的回合数与角色自身的生命力相同。详细规则参见10章水中战斗。<br>温蒂妮不会离开自己所居住的场所，因此从水中逃脱后即不再构成威胁。当然，对于不呼吸空气的生物(鱼、不死生物等)，温蒂妮的攻击没有意义。施有&#039;水中呼吸&#039;(Water Breathing)效果的角色也一样。<br>与其它精灵一样，要致伤温蒂妮，必须使用魔法武器或者银制武器。<br><br>[萨拉曼达](Salamander)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：10<br>移动速度：6<br>出现数：单独—数个<br>出现频度：罕见<br>智力：低<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：11(4)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：火焰(打击力10，追加伤害5，魔法强度/魔力：12/5)，通常武器无效，精神攻击无效，火焰无效，免疫毒和疾病，畏水<br>栖息地：任何地方，但需要有火<br>语言：精灵语<br>知觉：魔法<br>火焰之精灵萨拉曼达，又被称为火蜥蜴，样子为体长约1米的四足步行兽，但全身复盖火焰而没有兽皮，能够让周围的可燃物着火，是非常危险的生物。疯狂的萨拉曼达，会变成象征破坏的火焰精灵，唯一的目标就是烧尽所有的东西。萨拉曼达可以喷吐火焰，效果和1级精灵魔法&#039;火矢术&#039;(Fire Bolt)相同。此火焰喷吐必定命中，但冒险者可以和魔法一样尝试抵抗。萨拉曼达火焰喷吐的萨满等级为4，魔法强度12(魔力5)。喷吐消耗1点精神力。<br>萨拉曼达是精灵，它所谓的临时肉体也是由精灵力变化而成的，所以不受通常武器的伤害。铁可以阻碍精灵力的作用，但不能作为消灭其的手段。要伤害到萨拉曼达，必须使用魔法、魔法武器，或者银制武器。此外，带有精灵魔法&#039;水屏术&#039;(Water Screen)效果者，被萨拉曼达攻击时，受到通常效果之后，对萨拉曼达造成2点伤害(萨拉曼达无法减免此伤害)。另外，水浇到萨拉曼达身上也可以对其造成伤害，1升水可以造成1点伤害。此伤害萨兰曼达也无法减免。相反地，火焰攻击对萨拉曼达无效。<br><br>[睡魔](Sandman)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：18<br>移动速度：16/6(空中)<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：臂12(5)<br>打击点：5<br>闪避点：14(7)<br>防御点：6<br>生命点/抵抗值：10/11<br>精神点/抵抗值：20/13(6)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6，仅限睡魔)，通常武器无效，精神攻击无效，免疫毒和疾病，瞬间移动<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>睡魔是司掌睡眠的精神之精灵。它的样子是全裸的小孩，没有明显的性别特征。<br>疯狂的睡魔会无目的地使用&#039;睡眠术&#039;(Sleep)，使别人睡眠。无论使用多少次都不会消耗睡魔的精神点。睡魔能够瞬间出现在有精神活动的地方，战斗时可以瞬间移动并采取行动。<br>要伤及睡魔，需要魔法或银制武器。<br><br>[西尔芙](Sylph)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：10<br>移动速度：18(空中)<br>出现数：单独—数个<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：11(4)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：风镰(打击力10，追加伤害6，魔法强度/魔力：13/6)，4级精灵魔法(魔法强度/魔力：13/6，仅限西尔芙)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>西尔芙是风之精灵。以全裸的精灵女性的样子出现。上身为半透明，腰以下完全透明而不可见。西尔芙没有通常的攻击手段，但可以将目标缠住，引发强力的风镰。风镰可以视为打击力10的魔法，魔法强度13(魔力6)。此外，西尔芙可以使用源于风之力的精灵魔法，萨满技能等级为4。使用风镰或精灵魔法不消耗精神点。要伤及西尔芙，需要魔法或银制武器。<br><br>[小妖精](Sprite)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：18<br>移动速度：16<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：牙11(4)<br>打击点：7<br>闪避点：14(7)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：透明，使他人透明(抵抗目标值13)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>小妖精是司掌羞耻之情(精神作用)的精灵。疯狂的小妖精，保持透明状态并用牙袭击周围的生物。因为透明，所以其形貌无法确定，但据认为和矮妖精类似。对疯狂的小妖精进行攻击要-4。此外，不能以疯狂的小妖精为目标施放魔法。<br>疯狂的小妖精有使他人透明化的能力。疯狂的小妖精使用此种攻击时，目标生物要做精神力抵抗判定(目标值13)，失败则变得透明。透明的生物也无法看到自己的身体，任何肉体的判定都要-2。此种透明状态可以用&#039;解除魔法&#039;(Dispel Magic)，或者将疯狂的小妖精击倒来解除。<br>要伤及小妖精，需要魔法或银制武器。<br><br>[诺姆](Gnome)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：10<br>移动速度：6(地上)/10(地下)<br>出现数：单独—数个<br>出现频度：罕见<br>智力：低<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：11(4)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：飞石(打击力20，追加伤害5，魔法强度/魔力：12/5)，4级精灵魔法(魔法强度/魔力：12/5，仅限诺姆)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>诺姆是大地之精灵。样子和矮人相似，皮肤为灰色，乍看上去象岩石。它们在地下每回合可以移动10米，继而突然在地面现身，用飞石攻击。诺姆在一回合中，可以消失到地下，在地下移动，然后再在地上现身。但是，采取这样的行动的回合，无法再做其它任何行动。诺姆的飞石必然命中目标，视为打击力20的伤害魔法(魔法强度/魔力：12/5)。此外，它们可以使用源于大地之力的精灵魔法，萨满技能等级为4。飞石和使用精灵魔法都不消耗精神点。<br>要伤及诺姆，需要魔法或银制武器。<br><br>[弗劳](Frau)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：10<br>移动速度：10/18(空中)<br>出现数：单独—数个<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：12(5)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：冷气(打击力10，追加伤害6，魔法强度/魔力：13/6)，4级精灵魔法(魔法强度/魔力：12/5，仅限弗劳)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>弗劳是冰之精灵，外形和西尔芙类似。全身为霜所复盖，颜色纯白，到下半身逐渐透明。因而脚完全不可见。眼睛也是纯白色。弗劳只会在有冰或雪的地方以此形貌现身。<br>疯狂的弗劳在空中飞舞并喷出冷气进行攻击。此冷气视作打击力10的伤害魔法(魔法强度/魔力：13/6)。对弗劳自身基于冷气的魔法完全无效。此外，要伤及弗劳，需要魔法或银制武器。<br><br>[矮妖精](Leprechaun)<br>怪物等级：4<br>知名度：12(但精灵使必定知道)<br>敏捷度：18<br>移动速度：16/6(空中)<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：牙11(4)<br>打击点：7<br>闪避点：14(7)<br>防御点：6<br>生命点/抵抗值：10/11(4)<br>精神点/抵抗值：20/13(6)<br>特殊能力：4级精灵魔法(魔法强度/魔力：13/6，仅限矮妖精)，通常武器无效，精神攻击无效，免疫毒和疾病，瞬间移动<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>矮妖精是司掌混乱的精神之精灵。样子是全裸的小鬼，没有明显的性别特征。它们在通常移动之外，还可以瞬间移动。选择此种移动的矮妖精无法再采取其它任何行动。瞬间移动目的地的范围是矮妖精的视线所及。矮妖精虽然是精灵，但在这个世界有完全的实体，可以啮咬攻击。此外它们可以使用&#039;困惑术&#039;(Confusion)和&#039;遗忘术&#039;(Forget)来攻击(使对手混乱)。它们的萨满技能等级为4。要伤及矮妖精，需要魔法或银制武器。<br><br>[树精](Dyrad)<br>怪物等级：5<br>知名度：12(但精灵使必定知道)<br>敏捷度：19<br>移动速度：19<br>出现数：单独<br>出现频度：非常罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：徒手12(5)<br>打击点：6<br>闪避点：14(7)<br>防御点：7<br>生命点/抵抗值：10/12(5)<br>精神点/抵抗值：20/14(7)<br>特殊能力：魅惑(抵抗目标值14)，5级精灵魔法(魔法强度/魔力：14/7，仅限树精)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：森林<br>语言：精灵语<br>知觉：魔法<br>树精是植物之精灵，通常居住在树木中，但只要有植物的地方，精灵使就可以召唤它们。它的外貌为全裸的精灵(Elf)女性，长长的绿色头发包裹住全身，皮肤也是绿色的。<br>疯狂的树精用精灵魔法&#039;魅惑术&#039;(Charm)来离间对手，用&#039;纠缠术&#039;(Binding)来封住对手的行动。使用这些魔法并不消耗树精的精神点。<br>如果不对目标使用任何魔法，树精也可以用徒手攻击。<br>要伤及树精，需要魔法或银制武器。<br><br>[疯狂的生命之精灵]<br>怪物等级：6<br>知名度：12(但精灵使必定知道)<br>敏捷度：16<br>移动速度：16<br>出现数：单独<br>出现频度：罕见<br>智力：人类程度<br>反应：暴力<br>攻击点：-<br>打击点：-<br>闪避点：13(6)<br>防御点：8<br>生命点/抵抗值：15/14(7)<br>精神点/抵抗值：25/16(9)<br>特殊能力：年龄变化(抵抗目标值15)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>疯狂的生命之精灵，以闪光的白马的姿态现身。贤者们认为这暗示了它与独角兽之间的联系。疯狂的生命之精灵不进行肉体的攻击，但是它的力量失去控制会对周围的生命产生巨大的影响。<br>疯狂的生命之精灵每回合对一个目标，其生命之精灵力过度地流向目标。受到其影响者发生(身体上的)年龄变化。目标生物需做目标值15的精神力抵抗判定，失败则投2D，结果为8或者更大，则老化[结果-7]岁。结果为6或者更低，则会年轻[7-结果]岁。结果刚好为7则年龄不发生变化。关于老化和年轻的结果，由GM参见18章冒险者年龄和能力值变化指标来判断。<br>要伤及树精，需要魔法或银制武器。<br><br>[女武神](Valkyrie)<br>怪物等级：6<br>知名度：12(但精灵使必定知道)<br>敏捷度：14<br>移动速度：14/30(空中)<br>出现数：单独<br>出现频度：非常罕见<br>智力：人类程度<br>反应：敌对<br>攻击点：-<br>打击点：-<br>闪避点：14(7)<br>防御点：8<br>生命点/抵抗值：15/14(7)<br>精神点/抵抗值：25/16(9)<br>特殊能力：6级精灵魔法(魔法强度/魔力：15/8，仅限女武神)，通常武器无效，精神攻击无效，免疫毒和疾病<br>栖息地：任何地方<br>语言：精灵语<br>知觉：魔法<br>女武神是精神之精灵，司掌战斗的男人的勇气。它的样貌是身穿闪光白色铠甲的人类女性，据说这种高贵的形象可以迷住所有的男性。但是，疯狂的女武神是极度残忍恐怖的存在，她在剑打不到的上空使用&#039;女武神的标枪&#039;(Valkyrie Javelin)攻击。此外，还使用&#039;狂热术&#039;(Fanaticism)进行煽动。使用这些法术不消耗女武神的精神点。要伤及女武神，需要魔法或银制武器。</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_205794">
+&#171; <em>上次编辑: 2015-08-30, 周日 15:55:04 由 艾德琳</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg206263"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=216" title="检视会员资料:  David Lee">David Lee</a>
+</h4>
+<ul class="reset smalltext" id="msg_206263_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=216">
+<img class="avatar" src="/bbs/upload/avatar/av-216.gif" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 682<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_206263">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.msg206263#msg206263" rel="nofollow">第十三章 怪物</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_206263'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_206263'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2009-10-20, 周二 08:46:46 &#187;</div>
+<div id="msg_206263_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_206263">SWORD WORLD 小说常用译名<br><br>Dark Elf 黑妖精<br>GOBLIN 赤肌鬼<br>KOBOLD 狗头鬼<br>Imp&nbsp; &nbsp; &nbsp;&nbsp; 小鬼<br>MarshFOLK 河童<br>&nbsp;</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_206263">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=26915.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1328.0"><span>剑世界</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=216" title="版主">David Lee</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10578" title="版主">Astinus</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=26915.0"><span>第十三章 怪物</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 26915,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 26915,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="26915" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=26915.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 5605 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1328,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "剑世界",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1328,
+							iTopicId: 26915,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

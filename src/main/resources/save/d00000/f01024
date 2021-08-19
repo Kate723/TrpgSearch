@@ -1,0 +1,1111 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【PHB】基础职业：魔导士（Warlock）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【PHB】基础职业：魔导士（Warlock）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.80"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'b98e3a8add6adaeb68812f7788c636bf');">
+<div class="info">请 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">登录</a> 或 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="70370"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f37bd19',
+sSessionId: 'b98e3a8add6adaeb68812f7788c636bf'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0"><span>【PHB】基础职业：魔导士（Warlock）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg672226"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=70370.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.60">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php' + '?topic=70370.%1$d;start=%1$d', 20, 40, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.40">3</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.60">4</a> [<strong>5</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【PHB】基础职业：魔导士（Warlock） &nbsp;(阅读 115063 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 更新：官网UA专栏，2015.08期，新宗主和新祈唤</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=quickmod2;topic=70370.80" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('b98e3a8add6adaeb68812f7788c636bf', 'f37bd19') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+</h4>
+<ul class="reset smalltext" id="msg_672226_extra_info">
+<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=72616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_72616_1400691017.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1123<li class="karma">苹果币: 2<li class="blurb">或许会有更好的方法<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_672226">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg672226#msg672226" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_672226'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_672226'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #80 于:</strong> 2014-10-01, 周三 13:42:25 &#187;</div>
+<div id="msg_672226_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_672226"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg670534#msg670534">引述: Tin 于 2014-09-24, 周三 11:14:09</a></div></div><blockquote class="bbc_standard_quote">逗多克翻译辛苦了！<br>有几个地方：<br>1、战锁的可选熟练技能列表arcane, deception, history, intimidation, investigation, nature, religion. 少了arcane，应该是有奥术唬骗历史威吓调查自然宗教<br>2、3级锁链魔契，当你使用攻击动作时，你可以放弃你所有攻击中的&quot;一次攻击&quot;，使你的魔宠自己进行&quot;一次攻击&quot;<br>3、旧日支配者6级熵光结界，直到你的下一回合前，你对该生物的&quot;下一次攻击检定&quot;获得优势<br>4、旧日支配者14级创造奴仆，控制解除的条件第二个不一定是由魔导士解除控制吧，the charm condition is removed from it应该是只要通过某种手段解除魅惑状态就可以解除控制<br>5、魔能祈唤中的炼狱精力，你可以将虚假生命&quot;作为1环法术&quot;随意对自己施放<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>已改，多谢</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_672226">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_672226_signature"><span style="color: teal;" class="bbc_color"><strong>“BEHOLD, THE PROGRESS ENGINE.” </strong></span></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg672234"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74379" title="检视会员资料:  fomalhaut">fomalhaut</a>
+</h4>
+<ul class="reset smalltext" id="msg_672234_extra_info">
+<li class="title">中二病临近毕业<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74379">
+<img class="avatar" src="/bbs/upload/avatar/avatar_74379_1402986416.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 425<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_672234">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg672234#msg672234" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_672234'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_672234'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #81 于:</strong> 2014-10-01, 周三 14:40:51 &#187;</div>
+<div id="msg_672234_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_672234"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg660445#msg660445">引述: 不朽食物 于 2014-08-17, 周日 12:18:17</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg660300#msg660300">引述: 无衣师尹 于 2014-08-16, 周六 21:25:34</a></div></div><blockquote class="bbc_alternate_quote">宗主 旧日支配者&nbsp; 帮助我打到那个恐怖的敌人吧 突然一个果冻飞了过去糊在了怪物的脸上<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这啥梗（<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>沙耶的果冻<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_672234">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_672234_signature">成就更新<br>嘴炮侠诗人 0/1 圣言诗人 1/1&nbsp; 召唤师0/1 双人格炼金1/1 军人1/1 <br>运用头脑的法师0/1 无所谓的真名师1/1 轰轰轰的战法师 0/1 远程投掷重剑的战刃0/1 六脉神剑一样的魂弓0/1 我就是人形光环（划水）的元戎 1/1 老实刚正传统的核心矮人重甲战士1/1 八百里开外射爆boss的弓箭手0/1 神奥双修的滥强0/1 双持巨剑0/1 创生圣言的真名师0/1 法爷0/1 欧拉欧拉欧拉的武僧1/1 贫穷+和平誓言0/1 光伟正的帕帕丁0/1&nbsp; 贫穷武僧1/1 无限领域制1/1<br>密宗真言画皮1/1 <br><br>自己开团 2/5 <br>被dm说伤害太高 1/1<br>被dm说太弱 5/1<br>尝试变形 1/1<br>尝试灵能 1/1</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg675379"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=515" title="检视会员资料:  苍月溟">苍月溟</a>
+</h4>
+<ul class="reset smalltext" id="msg_675379_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=515">
+<img class="avatar" src="/bbs/upload/avatar/avatar_515_1287644429.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 422<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_675379">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg675379#msg675379" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_675379'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_675379'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #82 于:</strong> 2014-10-17, 周五 12:27:18 &#187;</div>
+<div id="msg_675379_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_675379"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg663619#msg663619">引述: jabberwocky 于 2014-08-26, 周二 20:28:14</a></div></div><blockquote class="bbc_standard_quote">第一次知道鬼婆也是fey= =<br><br>不过鬼婆倒真的是那种说不清道不明的东西，归类到Fey倒是真的没有多少违和感......<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>不只鬼婆是...在实际传说中归类为妖精的还有很多 例如:报丧女妖 无头骑士 哥布灵 食人魔 拉弥雅 人鱼...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_675379">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_675379_signature">天上白玉京，十二楼五城。仙人抚我顶，结发受长生。<br><br>发扬中华传统文化，请大家多爱用正体中文字<br><br>即日起拒绝Q群637414628（TRPG大厅）及Q号119419527使用本人于论坛内的所有相关翻译。并对其歧视繁中之行为提出严正抗议。觉得繁中阅读有障碍是你们的事，请不要要求人「入乡随俗」的打简中。有本事请不要使用任何繁中包含转简的资料。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg675381"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=515" title="检视会员资料:  苍月溟">苍月溟</a>
+</h4>
+<ul class="reset smalltext" id="msg_675381_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=515">
+<img class="avatar" src="/bbs/upload/avatar/avatar_515_1287644429.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 422<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_675381">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg675381#msg675381" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_675381'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_675381'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #83 于:</strong> 2014-10-17, 周五 12:38:41 &#187;</div>
+<div id="msg_675381_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_675381"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg659663#msg659663">引述: Zermon 于 2014-08-15, 周五 15:00:29</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg659525#msg659525">引述: 元虚子|ymjk1803 于 2014-08-15, 周五 09:33:34</a></div></div><blockquote class="bbc_alternate_quote">宗主比庇护主好听多了……<br>不过感觉还是有点怪……<br><br>神主你们能接受么？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>干脆叫阿婆主吧&nbsp; <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>patron 有庇护者 守护神 作保 主顾(眷顾?)这些意思...<br>宗在我的概念是拥立或者遵从遵行 但我比较想强调patron的庇荫守护职能....<br>就是这样... 巫者本身不会首先强调拥立与奉行 这些只是为了得到庇荫...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_675381">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_675381_signature">天上白玉京，十二楼五城。仙人抚我顶，结发受长生。<br><br>发扬中华传统文化，请大家多爱用正体中文字<br><br>即日起拒绝Q群637414628（TRPG大厅）及Q号119419527使用本人于论坛内的所有相关翻译。并对其歧视繁中之行为提出严正抗议。觉得繁中阅读有障碍是你们的事，请不要要求人「入乡随俗」的打简中。有本事请不要使用任何繁中包含转简的资料。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg675863"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=5275" title="检视会员资料:  夜星">夜星</a>
+</h4>
+<ul class="reset smalltext" id="msg_675863_extra_info">
+<li class="title">神圣欧塔库尼亚帝国科学院总政委<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=5275">
+<img class="avatar" src="/bbs/upload/avatar/avatar_5275_1320193936.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 408<li class="karma">苹果币: 0<li class="blurb">大膜法师<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_675863">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg675863#msg675863" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_675863'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_675863'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #84 于:</strong> 2014-10-19, 周日 02:10:59 &#187;</div>
+<div id="msg_675863_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_675863">跟大魔鬼中的贝利亚签合同之后的家伙是不是叫做克格勃……XD</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_675863">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_675863_signature">“是谁把正装裤带提到咯吱窝，我告诉你我身经百战见得多。西方哪一个国家我没有去过？荒烟蔓草的年头，辣妹子唱着小背篓。”</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg685884"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=75252" title="检视会员资料:  杀菌@深坑未填">杀菌@深坑未填</a>
+</h4>
+<ul class="reset smalltext" id="msg_685884_extra_info">
+<li class="title">人型谷歌翻译润色机<li class="membergroup">工程组<li class="stars"><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><img src="Themes/celeste/images/new_some.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=75252">
+<img class="avatar" src="/bbs/upload/avatar/avatar_75252_1417684376.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1434<li class="karma">苹果币: 4<li class="blurb">_(:з」∠)_<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_685884">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg685884#msg685884" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_685884'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_685884'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #85 于:</strong> 2014-12-10, 周三 08:58:27 &#187;</div>
+<div id="msg_685884_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_685884">中二:随身携带scp738的职业 <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_685884">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg706852"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40803" title="检视会员资料:  楚·天语流芳">楚·天语流芳</a>
+</h4>
+<ul class="reset smalltext" id="msg_706852_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40803">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40803_1358910731.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 300<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_706852">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg706852#msg706852" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_706852'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_706852'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #86 于:</strong> 2015-03-13, 周五 16:58:39 &#187;</div>
+<div id="msg_706852_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_706852">14级旧日支配者的能力<br>也就是说我可以有一个20级战士奴仆对不对？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_706852">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg706941"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_706941_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_706941">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg706941#msg706941" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_706941'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_706941'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #87 于:</strong> 2015-03-13, 周五 21:19:58 &#187;</div>
+<div id="msg_706941_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_706941"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg706852#msg706852">引述: 楚·天语流芳 于 2015-03-13, 周五 16:58:39</a></div></div><blockquote class="bbc_standard_quote">14级旧日支配者的能力<br>也就是说我可以有一个20级战士奴仆对不对？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>只要你有机会对一个20级战士用这能力...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_706941">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg707002"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40803" title="检视会员资料:  楚·天语流芳">楚·天语流芳</a>
+</h4>
+<ul class="reset smalltext" id="msg_707002_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=40803">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40803_1358910731.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 300<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_707002">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg707002#msg707002" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_707002'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_707002'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #88 于:</strong> 2015-03-14, 周六 06:03:45 &#187;</div>
+<div id="msg_707002_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_707002"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg706941#msg706941">引述: OckhamTheRazor 于 2015-03-13, 周五 21:19:58</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg706852#msg706852">引述: 楚·天语流芳 于 2015-03-13, 周五 16:58:39</a></div></div><blockquote class="bbc_alternate_quote">14级旧日支配者的能力<br>也就是说我可以有一个20级战士奴仆对不对？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>只要你有机会对一个20级战士用这能力...<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>多多黑科技2333<br>2战2术2法14魔导<br>瞬发电爪，预言，接触，动作如潮接触。。。<br>人定，预言，动作如潮接触。。。<br>233333你们区区类人型都得乖乖站好</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_707002">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711566"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3128" title="检视会员资料:  liberator">liberator</a>
+</h4>
+<ul class="reset smalltext" id="msg_711566_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3128">
+<img class="avatar" src="/bbs/upload/avatar/av-3128.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 66<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://" title="http://" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="http://" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711566">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg711566#msg711566" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711566'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711566'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #89 于:</strong> 2015-03-30, 周一 19:29:01 &#187;</div>
+<div id="msg_711566_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711566">14级旧日支配者的能力实际上是charm吧，只是在交涉的时候有奖励，又不能直接控制</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711566">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg721515"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2272" title="检视会员资料:  桑特">桑特</a>
+</h4>
+<ul class="reset smalltext" id="msg_721515_extra_info">
+<li class="title">超维宇宙怪兽<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2272">
+<img class="avatar" src="/bbs/upload/avatar/avatar_2272_1495024482.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 8437<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_721515">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg721515#msg721515" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_721515'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_721515'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #90 于:</strong> 2015-05-07, 周四 01:14:41 &#187;</div>
+<div id="msg_721515_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_721515"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg711566#msg711566">引述: liberator 于 2015-03-30, 周一 19:29:01</a></div></div><blockquote class="bbc_standard_quote">14级旧日支配者的能力实际上是charm吧，只是在交涉的时候有奖励，又不能直接控制<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>不是charm,是真的完全控制,不过也不是那么容易中的。。。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_721515">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_721515_signature">DND3R战力最强&nbsp; 1/1<br>DND4E战力最强&nbsp; 1/1<br>-----PF战力最强&nbsp; 1/1<br>DND5E战力最强&nbsp; 1/1<br><br><br>Unclean！Undead！Unholy！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg725121"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3128" title="检视会员资料:  liberator">liberator</a>
+</h4>
+<ul class="reset smalltext" id="msg_725121_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=3128">
+<img class="avatar" src="/bbs/upload/avatar/av-3128.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 66<li class="karma">苹果币: 0<li class="profile">
+<ul>
+<li><a href="http://" title="http://" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="http://" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_725121">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg725121#msg725121" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_725121'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_725121'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #91 于:</strong> 2015-05-23, 周六 16:24:44 &#187;</div>
+<div id="msg_725121_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_725121"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg721515#msg721515">引述: gugugu 于 2015-05-07, 周四 01:14:41</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg711566#msg711566">引述: liberator 于 2015-03-30, 周一 19:29:01</a></div></div><blockquote class="bbc_alternate_quote">14级旧日支配者的能力实际上是charm吧，只是在交涉的时候有奖励，又不能直接控制<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>不是charm,是真的完全控制,不过也不是那么容易中的。。。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><br>C r e a t e T h r a l l<br>At 14th level, you gain the ability to infect a humanoid’s<br>mind with the alien magic of your patron. You can use<br>your action to touch an incapacitated humanoid. That<br>creature is then<span style="color: red;" class="bbc_color"> charmed </span>by you until a remove curse<br>spell is cast on it, the charmed condition is removed<br>from it, or you use this feature again.<br>You can communicate telepathically with the charmed<br>creature as long as the two o f you are on the same plane<br>o f existence.<br><br>所以说还是要看原文。和一般的charmed不一样的是只要在同一个位面可以进行心灵感应来交流，应该是rp的好办法，比如把罗翰国王变成你说啥都照办的傀儡&nbsp; <img src="/bbs/Smileys/converted/em012.GIF" alt="&#58;em012" title="&#58;em012" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_725121">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg725122"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2272" title="检视会员资料:  桑特">桑特</a>
+</h4>
+<ul class="reset smalltext" id="msg_725122_extra_info">
+<li class="title">超维宇宙怪兽<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2272">
+<img class="avatar" src="/bbs/upload/avatar/avatar_2272_1495024482.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 8437<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_725122">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg725122#msg725122" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_725122'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_725122'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #92 于:</strong> 2015-05-23, 周六 16:32:11 &#187;</div>
+<div id="msg_725122_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_725122"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg725121#msg725121">引述: liberator 于 2015-05-23, 周六 16:24:44</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg721515#msg721515">引述: gugugu 于 2015-05-07, 周四 01:14:41</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg711566#msg711566">引述: liberator 于 2015-03-30, 周一 19:29:01</a></div></div><blockquote class="bbc_standard_quote">14级旧日支配者的能力实际上是charm吧，只是在交涉的时候有奖励，又不能直接控制<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>不是charm,是真的完全控制,不过也不是那么容易中的。。。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><br>C r e a t e T h r a l l<br>At 14th level, you gain the ability to infect a humanoid’s<br>mind with the alien magic of your patron. You can use<br>your action to touch an incapacitated humanoid. That<br>creature is then<span style="color: red;" class="bbc_color"> charmed </span>by you until a remove curse<br>spell is cast on it, the charmed condition is removed<br>from it, or you use this feature again.<br>You can communicate telepathically with the charmed<br>creature as long as the two o f you are on the same plane<br>o f existence.<br><br>所以说还是要看原文。和一般的charmed不一样的是只要在同一个位面可以进行心灵感应来交流，应该是rp的好办法，比如把罗翰国王变成你说啥都照办的傀儡&nbsp; <img src="/bbs/Smileys/converted/em012.GIF" alt="&#58;em012" title="&#58;em012" border="0" class="smiley"/><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>5e不要太尝试咬词，只要记住谁比较亲就往谁有利判就成，法狗想去咬词已经被作者打得脸都肿了。。。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_725122">
+&#171; <em>上次编辑: 2015-05-23, 周六 16:40:30 由 gugugu</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_725122_signature">DND3R战力最强&nbsp; 1/1<br>DND4E战力最强&nbsp; 1/1<br>-----PF战力最强&nbsp; 1/1<br>DND5E战力最强&nbsp; 1/1<br><br><br>Unclean！Undead！Unholy！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg858051"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=12917" title="检视会员资料:  吉黑尽阵">吉黑尽阵</a>
+</h4>
+<ul class="reset smalltext" id="msg_858051_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 229<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_858051">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg858051#msg858051" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_858051'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_858051'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #93 于:</strong> 2017-06-08, 周四 17:41:38 &#187;</div>
+<div id="msg_858051_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_858051">我想问一下，魔导士如果有一天和自己的宗主开战了，会受到什么惩罚么？没有相关规则的话，DM就可以随意解释？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_858051">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg858189"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=80889" title="检视会员资料:  不盲却哑的雷藏">不盲却哑的雷藏</a>
+</h4>
+<ul class="reset smalltext" id="msg_858189_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 55<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_858189">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg858189#msg858189" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_858189'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_858189'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #94 于:</strong> 2017-06-09, 周五 10:25:22 &#187;</div>
+<div id="msg_858189_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_858189">你的能力是跟你宗主签订契约才获得的，你要跟你宗主开战，宗主只要把你能力收回你不就废了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_858189">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg858336"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=78444" title="检视会员资料:  dark985620">dark985620</a>
+</h4>
+<ul class="reset smalltext" id="msg_858336_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 49<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_858336">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg858336#msg858336" rel="nofollow">Re: 【PHB】基础职业：魔导士（Warlock）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_858336'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_858336'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #95 于:</strong> 2017-06-09, 周五 22:53:52 &#187;</div>
+<div id="msg_858336_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_858336"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.msg858189#msg858189">引述: abcdffgssf 于 2017-06-09, 周五 10:25:22</a></div></div><blockquote class="bbc_standard_quote">你的能力是跟你宗主签订契约才获得的，你要跟你宗主开战，宗主只要把你能力收回你不就废了<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>记得老外们用了上百篇讨论这个议题，得出的结论是，你能保留之前的能力，但无法继续在这职业上提升等级，除非找到新的宗主</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_858336">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=70370.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.60">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://45.79.87.129/bbs/index.php' + '?topic=70370.%1$d;start=%1$d', 20, 40, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.40">3</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.60">4</a> [<strong>5</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=70370.0"><span>【PHB】基础职业：魔导士（Warlock）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 70370,
+iStart: 80,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 70370,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f37bd19" value="b98e3a8add6adaeb68812f7788c636bf" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="70370" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'b98e3a8add6adaeb68812f7788c636bf\', \'f37bd19\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;' + '?topic=70370.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 115063 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1140,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "核心规则",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1140,
+							iTopicId: 70370,
+							sSessionId: "b98e3a8add6adaeb68812f7788c636bf",
+							sSessionVar: "f37bd19",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

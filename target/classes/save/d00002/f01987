@@ -1,0 +1,348 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【6E】矩阵 The Matrix p. 170-173"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【6E】矩阵 The Matrix p. 170-173</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1809.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'eb1e78565e9cdf255590e0c1b5b28aca');">
+<div class="info">请 <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login">登录</a> 或 <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="110996"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'a9eee7e',
+sSessionId: 'eb1e78565e9cdf255590e0c1b5b28aca'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1145.0"><span>暗影狂奔</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1809.0"><span>Shadowrun 6E</span></a> (版主群: <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=40949" title="版主">Forty-Three</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=75772" title="版主">马非鱼</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0"><span>【6E】矩阵 The Matrix p. 170-173</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1008065"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=printpage;topic=110996.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【6E】矩阵 The Matrix p. 170-173 &nbsp;(阅读 3486 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 翻译：妖猫；介绍，矩阵历史，日常生活中的矩阵</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=quickmod2;topic=110996.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('eb1e78565e9cdf255590e0c1b5b28aca', 'a9eee7e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=82166" title="检视会员资料:  妖猫">妖猫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1008065_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=82166">
+<img class="avatar" src="/bbs/upload/avatar/avatar_82166_1545112937.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 626<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1008065">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.msg1008065#msg1008065" rel="nofollow">【6E】矩阵 The Matrix p. 170-173</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1008065'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1008065'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-08-04, 周日 22:30:08 &#187;</div>
+<div id="msg_1008065_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1008065"><div align="center"><span style="color: darkmagenta;" class="bbc_color">///////////////////////////////////////////////</span></div><div align="center"><strong><span style="font-size: 24pt;" class="bbc_size">矩阵 The Matrix</span></strong></div><div align="center"><span style="color: darkmagenta;" class="bbc_color">///////////////////////////////////////////////</span></div><br><span style="font-size: 10pt;" class="bbc_size">第六纪中，信息即是力量。<br>这点在矩阵中尤为正确。它随处可见，连接着从办公室工作站到智能家居系统的一切。从最尖端最先进的原型机，到用了十年的即抛通讯链，矩阵无处不在。<br>理论上说，矩阵是世界上所有使用同样交互协议和模式的设备之间的相互连接，无论是无线连接还是其他方式。更抽象的意义上说，矩阵是一片广袤的共享虚拟空间，容纳着泛人类知识的整体，其中也混了不少想象和鬼话。<br>普通用户在日常生活中会为了多项事务访问矩阵，搜索猫咪3D视频，接电话，远程启动车辆，控制行驶的无人机，或是监控摄像头，诸如此类。<br>但骇客却不同，他们让矩阵达成他们想做之事，无论合法与否。其中有些人用着被称为赛博碟板的高科技设备，因此被称为碟客。而另一些人，仅凭意愿操纵着矩阵，被称为超链者。这些数据恶棍不需要普通、受限的手段，而是用普通用户做梦也想不到的方式，展现着他们的虚拟魔法。<br>基于矩阵的设备和防护非常普遍，能使用设备或是绕过防护的角色在任何狂奔者小队中都不可或缺。骇客们为了挣那份钱，分内事包括瘫痪警报和自动防御、扰乱敌方通讯，甚至破坏与矩阵连接的一切。他们作为小队的通讯中枢，保护其免受虚拟攻击。在挖掘信息方面，他们也是灵通专家，无论是全面地泛泛搜索，还是专门寻找特定的一份能卖出去或是拿来勒索的数据。</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">In the Sixth World, information is power. <br>Nowhere is this more true than on the Matrix. It is ubiquitous, connecting everything from office workstations to home-automation systems. From bleeding-edge advanced prototypes to ten-year-old burner commlinks, the Matrix is everywhere. <br>Technically speaking, the Matrix is the interconnection of all worldwide devices, wireless or otherwise, that use the same protocols and methods for communication. In a more abstract sense, the Matrix is a vast shared virtual space, home to the entirety of metahuman knowledge, with a fair bit of imagination and outright lies mixed in. <br>Everyday users access the Matrix for many tasks in the course of their day, searching for trideos of cats, answering phone calls, remotely turning on their car, controlling a logging drone, or monitoring cameras, among other things. <br>Hackers, on the other hand, make the Matrix do what they want, legally or otherwise. Some, called deckers after the equipment they use, do it with high-tech devices called cyberdecks. Others, called technomancers, manipulate the Matrix through sheer force of will. These digital rogues have no use for the normal, regulated channels, instead working their virtual magic in ways a normal user could never dream about. <br>Matrix-based devices and defenses are so common that a character competent in using or bypassing such things is integral to any runner team. Hackers earn their pay disabling alarms and auto-defenses, scrambling enemy communications, and destroying anything that connects to the Matrix. They act as the team’s communications hub, safeguarding them from virtual attack. They’re also the go-to specialists when it comes to digging out information, either in a general search or a quest for specific piece of data they can fence or ransom for cash.</div></div></div><br><strong><span style="font-size: 14pt;" class="bbc_size">矩阵历史 Matrix History</span></strong><br><span style="color: darkmagenta;" class="bbc_color">—————————————————</span><br><span style="font-size: 10pt;" class="bbc_size">第六纪中现今的矩阵，是曾经的互联网或万维网的第三次迭代产物。在千禧年之交前后，它得到了迅猛发展，加上新的技术，稳定性和速度增强几乎日新月异。<br>随后，在2029年，一切急转直下。一种快速而具有破坏性的病毒开始传播，它不同于那之前曾见过的所有电子病毒，网络设施如同被收割的麦子一般大片倒下，同样地破坏着硬件和软件。美国组织了一队精英骇客、技术专家和网络奇才，为他们装备上最新研究出的直接神经接口技术，派遣他们对抗病毒。回声蜃影（曾经被称为“赛博敢死队”）伤亡巨大，由于崩溃病毒造成的致命生物反馈，他们的大脑被电击烤熟。他们坚毅不拔，持之以恒，最终将病毒从网络上清除——但破坏已经无法挽回。<br>旧互联网的消亡和29年崩溃使得矩阵崛起，这一先进的网络系统被设计为可以通过人机交互界面使用，它们曾经为像是回声蜃影这样的破解小队使用。直接神经链接曾经一度需要精神药物，大量线缆，以及感官抑制舱才能使用，但现在只需要小得多的计算机，还有一种名为数据插口的赛博改造。数据插口直接植入到使用者的大脑中，充当将计算机连接到泛人类大脑上的线缆端口。随着时间流逝，虚拟空间变得越来越复杂，工作人员也变得很经常整天都“接入（jacked in）”矩阵。不过，并不是所有技术突飞猛进都伴随着益处。联络突破了先进的半自动程序的极限，误打误撞创造出了第一个人工智能。随后，诞生于对联络造物的详细研究，另一个AI也怀着对泛人类的仇恨诞生。这一AI造成的冲击，加上其他因素造成的风暴，最终让矩阵不堪重负。这一网络在2064年一场被称为第二次崩溃（或崩溃2.0）的事件中完全崩塌。<br>在旧矩阵的余烬之中，我们迎来了如今我们熟悉的矩阵。它主要是一个无线网络，公司已经采取了许多措施，通过网域监管单位的执法阻止那些想要成为骇客的人。不过，尽管公司桎梏着矩阵，它的神秘之处却根深蒂固。有些设施已经有数十年之久，但即便是最博闻多识的虚拟十字军也未曾知晓。更怪异的是，有些泛人类能够不需要任何设备就接入矩阵。在公司眼中，这些超链者既是安全威胁，又是作为泛人类新进化的贵重商品。</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">The Matrix, as we know it in the Sixth World, is the third iteration of what used to be called the internet or World Wide Web. Around the turn of the millennium, it took off and grew incredibly fast, adding new technologies for enhanced stability and speed at an almost daily rate. <br>Then, in 2029, things took a turn for the worse. A fast-moving and destructive virus unlike anything the world had seen began taking down large swaths of network infrastructure, destroying software and hardware alike. The United States organized an elite squad of hackers, technicians, and network wizards and equipped them with newly developed techniques for direct neural interface, then sent them against the virus. Echo Mirage, as the “cyber-commandos” were known, took heavy casualties as lethal biofeedback from the Crash Virus shocked and cooked their brains. Undeterred, they pressed on, and eventually scrubbed the Virus from the network—but the damage had been done. <br>The demise of the old internet and the Crash of ’29 gave rise to the Matrix, an advanced network designed to run with the human-computer interfaces used exclusively by crack teams like Echo Mirage in the past. The direct neural links that at one point required psychoactive drugs, massive amounts of cable, and a sensory-deprivation tank to use now only took a much-smaller computer and a small piece of cyberware called a datajack. The datajack was implanted directly into a user’s head, acting as a port for a cable that would connect a computer to the metahuman brain. <br>As time went on, virtual space grew more and more complex, and it became commonplace for workers to spend their entire day “jacked in.” Not every technological leap forward was a boon, though. Pushing the envelope on advanced, semi-autonomous programs, Renraku stumbled into creating the first artificial intelligence. Later, born from the dissection of Renraku’s creation, another AI—one hostile to metahumanity—came into being. The shockwaves caused by this AI, in addition to a perfect storm of other factors, turned out to be too much for the Matrix. The network collapsed completely in 2064, an event now known as the Second Crash (or Crash 2.0).<br>Out of the ashes of the old Matrix came the Matrix as we know it today. It is primarily a wireless network, and corporations have taken extensive steps to stop would-be hackers through the implementation of the Grid Overwatch Division. Yet, despite the chokehold corporations hold over the Matrix, its mysteries run deep. Some infrastructure is decades old, and unknown to even the savviest virtual crusaders. Even more strangely, some metahumans are able to access the Matrix without using any sort of equipment at all. In the corporations’ eyes, these technomancers are both a security threat and a valuable commodity as a new evolution of metahumanity.</div></div></div><br><strong><span style="font-size: 14pt;" class="bbc_size">日常生活中的矩阵 The Matrix in Daily Life</span></strong><br><span style="color: darkmagenta;" class="bbc_color">———————————————————</span><br><span style="font-size: 10pt;" class="bbc_size">在第六纪的大多人都会在日常活动中使用矩阵，而一些人浸没其中，使其感官被拟感信号复写。无论方式如何，要想用矩阵做你想做的事情，你就要先理解你面对的是什么。如果你通过手中通讯链的屏幕与矩阵交互，你看到的事物会和通过增强现实（AR）或虚拟现实（VR）看到的东西大不相同。这是最基础的矩阵使用方式，允许通讯电话、发送信息、使用基础媒体，包括音乐和游戏。在使用通讯链时，许多不同的程序能帮你通过声音或触屏指令导航页面。由此，你能访问不同的主机，与附近的增强现实物体（ARO）互动，让它们能够作为某种弹出窗口显示在通讯链屏幕上。<br>在你进入增强现实时，无论你用的是植入的图像链、AR功能的眼镜、数据插口，还是超链者的内在感知，你对周围世界的视角都会发生极大的变化。“真实世界”仍然存在，但虚拟图标交互其中，复盖其上。机械师可能会用AR显示出引擎的电子轮廓和手册，帮助进行修理。走进时髦的新餐厅，你会受到酒单和菜单，还有本日特色菜的迎接，在你走进去的时候悬浮在你的身旁。破旧的仓库也可以变为热情似火的跳舞俱乐部，有着耀眼的图标和飘洒的光彩，却并没有物理上的实体。</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Using the Matrix is an everyday task for most of the Sixth World, though some immerse themselves in it, allowing their perceptions to be overridden by simsense. Either way, to make the Matrix do what you want, you must first understand what you’re looking at. If you’re interacting with the Matrix through the screen of a commlink held in your hand, what you see will look vastly different than if you were using augmented reality (AR) or virtual reality (VR). This is the most rudimentary use of the Matrix, allowing for things such as commcalls, messaging, and use of basic media, including music and games. When using a commlink, various programs can help you navigate from place to place through voice or touch commands. Through these, you can access various hosts and interface with augmented-reality objects (AROs) nearby, allowing them to appear as a sort of pop-up window on the commlink screen. <br>When you enter augmented reality, whether you use an implanted image link, AR-capable glasses, a datajack, or a technomancer’s innate perception, your perspective on the world around you will change dramatically. The “real world” still exists, but virtual icons interact and overlap with it. A mechanic might use an AR display to provide a digital outline and manual for an engine to assist them with repairs. Entering a posh new restaurant, you may be greeted with a wine list and a menu, along with the day’s specials, hovering alongside you as you walk. An old warehouse can be turned into a vibrant dance club with bright icons and swirling glitter that have no physical substance. </div></div></div><span style="font-size: 10pt;" class="bbc_size">使用AR本质上只是把脚趾探进矩阵的虚拟现实之中。你能看到矩阵在你身边丛生，但现实的法则仍然存在。你在AR中的速度只能达到你身体的运动极限，而你双眼映出的也不过是目力所及内的事物，有时会让你觉得矩阵的抽象和无穷都无比遥远。即便如此，对矩阵的浅尝辄止也会极大地改变你周围的世界，像是广告、虚拟复盖层，还有无穷的无线设备与昏暗的现实形成的鲜明对照。<br>更进一步，你就要浸入完全的虚拟现实之中。在VR模式下，现实世界的概念远去；你的意识融入矩阵，你的感官被ASIST（人工知觉感应系统技术）界面复写，这更常被叫做拟感。在你身后是无穷的漆黑地平线，点缀着耀眼的鲜艳图景。这些图标代表了矩阵中能够与之互动的一切事物。在默认模式下，图标呈现为无特征的白色球体——但由于可供定制的范围之广，这样的图标反而很少见。停泊的车辆图标看上去就像是本身的虚拟呈现，而个人的个域网（PAN）的图标通常呈现为动画角色，或是超现实版本的其所有者主观观念中的完美形象。根本上说，图标会呈现为所有者选择的样式，而高端的图标会极其细致，巧妙塑模。在个人的PAN之外，巨大的图标在虚拟地平线之上若隐若现，代表了那些在矩阵中最有权势的实体——运营它们的超级企业。这些纪念碑式的图标都是通向每个企业主机的公众大门，充满了颂扬公司美德的宣传，尽是热情光鲜的公司话——有些时候还有礼券！</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Using AR is essentially dipping a toe into the greater virtual reality of the Matrix. You can see the Matrix sprawling out around you, but real-life rules still apply. Your speed in AR is limited by how fast your body can move, and you can only see as far as you normally could, making the abstract infinity of the Matrix seem impossibly far away at times. Even so, this small dip into the Matrix can greatly alter the world around you, as advertisements, virtual overlays, and the myriad of wireless devices provide stark contrast with reality’s frequent dullness. <br>To take things a step further, you’ll have to immerse yourself in full virtual reality. In VR, the perceptions of the real world fall away; your consciousness is subsumed into the Matrix, and your senses are overridden by the ASIST (Artificial Sensory Induction Systems Technology) interface, more commonly known as simsense. Before you stretches an infinite black horizon, dotted with brightly colored images. These icons represent anything that can be interacted with in the Matrix. In their default mode, an icon appears as a featureless white sphere—but seeing such an icon is a rarity, thanks to the amount of customization available. Icons for parked cars look like virtual representations of what they are, and icons for individual personal area networks (PANs) are often represented by animated characters, or hyper-realistic versions of their owner’s subjective view of perfection. Ultimately, an icon can appear in whatever way the owner chooses, with the higher-end icons being incredibly detailed and sculpted. Beyond individual PANs, huge icons loom over the virtual horizon, representing those with the most power over the Matrix, the corporations that make it run. These monumental icons are the public gateways to the individual hosts of those corporations, replete with propaganda extolling the virtues of the company in glowing corporate-speak—and sometimes, coupons!</div></div></div><span style="font-size: 10pt;" class="bbc_size">和你的肉身越接近的主机图标就离你越近，而物理上很远的主机就可能会远在你的虚拟感知之外。当然，矩阵中的物理仅是参考，眨眼之间穿越这些距离简单得只需要你想要过去。其他图标和接入点仍然存在，所以全世界的人都能在任何地点登录矩阵。<br>不过，对所有官方控制而言，矩阵中仍然有未知的角落。这些角落究竟来源于坚持到了新矩阵的旧公司网络，还是人工智能的扩张，抑或是被超链者称为共鸣的神秘能量源，我们仍然不知道答案。</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Icons whose hosts are closest to your meat body appear closer, with physically far-away hosts seeming out of sight of your virtual perceptions. Of course, physics is just a suggestion within the Matrix, and traveling these distances in the blink of an eye is as simple as willing yourself to your destination. Still other icons and access points exist, so that people across the globe can log on whever they want. <br>For all of the official control, though, there are corners of the Matrix that are still unknown. Whether these are the result of older corporate networks hanging on as part of the new Matrix, the expansion of artificial intelligence, or the manifestation of the mysterious source of power that technomancers call the Resonance is yet to be revealed. </div></div></div><br><strong><span style="font-size: 12pt;" class="bbc_size">矩阵安保：网域监管单位 Matrix Security: Grid Overwatch Division</span></strong><br><span style="color: darkmagenta;" class="bbc_color">———————————————————————</span><br><span style="font-size: 10pt;" class="bbc_size">紧跟着2064年第二次矩阵崩溃，新矩阵诞生于旧矩阵的灰烬之中，促使无线技术广泛传播发展。用户不再需要用线缆接入矩阵——如今，只要在是能接收到信号的地方，他们就能无线连接。网络变得更加可靠，在网域间漫步变为常态。骇客真的可以不离开家就和全世界的设备和主机互动（并且破解进去），这一切只需要通讯链。<br>而在2070年代中期，这些都变了，企业法庭矩阵当局创造了网域监管单位（GOD）。最初，这一组织包括在崩溃后支撑着矩阵的十大超级企业，而它有着监视人工智能出现的任务。它们的权力随后增长，让他们变成了负责追踪非法使用矩阵的看门狗组织——也负责定义什么是合法的，什么是非法的。这一行动由不同的超企独自发展出来，随后建立了自己的内部组织，口头上会被称为次GOD。<br>随着GOD的权力增长，新矩阵的狂野西部时代已经几乎结束。仍然有人知道如何在雷达底下飞过去，或者在被抓之前，至少能飞上一会。</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">In the wake of the Second Crash in 2064, the new Matrix that was born from the ashes of the old one gave rise to widespread wireless technology. No longer did users have to use a cable to jack into the Matrix—now, they could wirelessly connect from anywhere they could receive a signal. The network had become such a reliable mesh that roaming between grids became the norm. A hacker could conceivably never leave their home and still interact with (and break into) any number of devices and hosts around the world, using only their commlink. <br>That all changed in the mid-2070s, when the Corporate Court Matrix Authority created the Grid Overwatch Division, or GOD. Initially, this organization comprised representatives of the Big Ten megacorporations who propped up the Matrix after the Crash, and it was tasked with keeping an eye on the emergence of artificial intelligences. Their authority was soon expanded to make them a watchdog group responsible for tracking down illegal use of the Matrix—and to help define what was and was not legal. This practice was adopted individually by other corporations, who formed their own internal groups, colloquially known as demi-GODs. <br>With the increase in GOD’s power, the Wild West era of the new Matrix was all but over. Still, there are those who know how to fly under the radar, at least for little while, before they are caught. </div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1008065">
+&#171; <em>上次编辑: 2019-10-19, 周六 17:01:48 由 马非鱼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1008065_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1145.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/EcdcRI.gif" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1690.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/Ecdgzt.gif" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1656.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/Ecd6JA.jpg" alt="" class="bbc_img"/></a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1707.0" class="bbc_link new_win" target="_blank"><img src="https://s2.ax1x.com/2019/05/09/EcdRQP.jpg" alt="" class="bbc_img"/></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=printpage;topic=110996.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1145.0"><span>暗影狂奔</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;board=1809.0"><span>Shadowrun 6E</span></a> (版主群: <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=40949" title="版主">Forty-Three</a>, <a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=profile;u=75772" title="版主">马非鱼</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;topic=110996.0"><span>【6E】矩阵 The Matrix p. 170-173</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 110996,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 110996,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="a9eee7e" value="eb1e78565e9cdf255590e0c1b5b28aca" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="110996" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'eb1e78565e9cdf255590e0c1b5b28aca\', \'a9eee7e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;' + '?topic=110996.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 3486 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1809,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Shadowrun 6E",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1809,
+							iTopicId: 110996,
+							sSessionId: "eb1e78565e9cdf255590e0c1b5b28aca",
+							sSessionVar: "a9eee7e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5447a8aa0052e7fb4ddef7b6bb1a3961&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="主题检视 - SMF 使用者帮助"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>主题检视 - SMF 使用者帮助</title>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"><span>说明</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=admin;area=topic_view"><span>主题检视</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<div id="main_container">
+<div id="left_admsection"><span id="admin_menu"></span>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+新手上路
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=introduction">前言</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=main_menu">主选单</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index">版块列表</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=message_view">帖子列表</a>
+<li>
+<strong><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view">主题检视</a></strong>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+注册
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=when_how">何时何地开始注册</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=registration_screen">注册画面</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=activating_account">启用帐号</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=logging_in">登录与登出</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=password_reminders">密码提示</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+个人资料
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=profile_info">个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=modify_profile">修改个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=actions">执行动作</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+发表功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics">帖子, 投票和活动</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=smileys">表情符号</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=bbcode">BB码</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+简讯功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=messages">简讯</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+论坛工具
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=searching">搜寻</a>
+</ul>
+</div>
+</div>
+<div id="main_admsection">
+<div class="cat_bar">
+<h3 class="catbg">说明</h3>
+</div>
+<div class="title_bar">
+<h4 class="titlebg">主题检视</h4>
+</div>
+<div id="help_container">
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div id="helpmain">
+<p>Once a specific topic has been selected, a list of its posts is displayed. A topic with a large number of posts may split them up across pages. A member can choose the number of posts to be displayed per page from their profile. Some forums may also provide next and previous links to allow quick navigation between topics.</p>
+<p>一篇主题通常都是这个样子:</p>
+<div class="help_sample">
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index"><span>纯美苹果园</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index"><span>类别名称</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=message_view"><span>版块名称</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view"><span>标题</span></a>
+</ul>
+</div>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<div class="buttonlist align_bottom">
+<ul>
+<li><a class="button_strip_reply active" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#reply"><span>回复</span></a><li><a class="button_strip_notify" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view"><span>订阅通知</span></a><li><a class="button_strip_markunread" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span>标示未读</span></a><li><a class="button_strip_sendtopic" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span>转寄帖子</span></a><li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span class="last">列印</span></a></ul>
+</div></div>
+<div class="pagelinks floatleft">页: [<strong>页码</strong>]</div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/>
+<span id="author">作者</span>
+<span id="top_subject">题目: 主题题目  (x 次观看)</span>
+</h3>
+</div>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=profile_summary" class="board">作者</a>
+</h4>
+<ul id="msg_1_extra_info" class="reset smalltext">
+<li class="title">自订头衔<li class="membergroup">会员群组<li class="postgroup">帖子数群组<li class="stars"><img border="0" alt="*" src="Themes/celeste/images/star.gif"/><li class="avatar flow_auto">
+<img class="avatar" alt="" src="Themes/default/images/admin/smilies_and_messageicons.png"/>
+<li class="postcount">帖子数: 已经发表的帖子数量<li class="profile">
+<ul>
+<li><a href="#"><img border="0" title="检视个人资料" alt="检视个人资料" src="Themes/celeste/images/icons/profile_sm.gif"/></a><li><a rel="nofollow" href="#"><img title="Email" alt="Email" src="Themes/celeste/images/email_sm.gif"/></a><li><a title="简讯" href="#"><img border="0" alt="简讯" src="Themes/celeste/images/im_off.gif"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_4">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view" class="board">帖子的题目</a>
+</h5>
+<div class="smalltext">&laquo; <strong>于:</strong> 发表日期和时间 &raquo;</div>
+</div>
+<ul class="reset smalltext quickbuttons">
+<li class="quote_button"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#quote">引用</a></ul>
+</div>
+<div class="post">
+<div class="inner">
+这是帖子的内文, 也就是我们来这儿的原因! <img src="/bbs/Smileys/converted/smiley.gif" align="bottom" alt="Smiley" border="0"/>
+</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_4">
+</div>
+<div class="smalltext reportlinks">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view" class="board">检举本文</a> &nbsp;
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>&nbsp; 记录
+</div>
+<div class="signature">签名档</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<a id="lastPost"></a>
+</div>
+<div class="pagesection">
+<div class="pagelinks floatleft">页: [<strong>页码</strong>]</div>
+<div class="buttonlist align_right">
+<div class="buttonlist align_bottom">
+<ul>
+<li><a class="button_strip_reply active" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#reply"><span>回复</span></a><li><a class="button_strip_notify" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view"><span>订阅通知</span></a><li><a class="button_strip_markunread" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span>标示未读</span></a><li><a class="button_strip_sendtopic" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span>转寄帖子</span></a><li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics#topic"><span class="last">列印</span></a></ul>
+</div></div>
+</div>
+<div class="navigate_section clear">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index"><span>纯美苹果园</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index"><span>类别名称</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=message_view"><span>版块名称</span></a>&nbsp;&#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view"><span>标题</span></a>
+</ul>
+</div>
+</div>
+<p>Tab menus are displayed along the top and bottom of each page, which makes participating in a topic easy. The tab menu may contain the following, depending on the forum's configuration.</p>
+<ul>
+<li><strong>Reply</strong> - The reply button enables a member to post a reply to the current topic, which will be appended to the end of the list of posts.<li><strong>Notify</strong> - The notify button enables a member to receive email notification when new posts are made within the current topic.<li><strong>Mark unread</strong> - The mark unread button enables a member to mark the current topic unread.<li><strong>Send this topic</strong> - The send this topic button enables a member to email the current topic to a specified email address.<li><strong>Print</strong> - The print button will generate a printer-friendly version of the current topic in order to aid in printing.</ul>
+<p>Usually, the list of posts in the current topic is displayed vertically with the oldest post at the top. A member may reverse this order by modifying their profile. Each post in the list is split into two sections. The left section contains information about the post author, while the right section contains the post itself.</p>
+<ul>
+<li>
+Author Section
+<ul>
+<li><strong>Post Author</strong> - The post author is the member or guest that wrote and submitted the post.<li><strong>Custom Title</strong> - Depending on how a forum is configured, a custom title may be assigned to a member, or they may choose it themselves. It serves no purpose other than labeling the member in some way.<li><strong>Membergroup</strong> - By default, all members are placed in the Regular Members membergroup, which does not display when they post. If assigned, the member's primary membergroup is displayed. If the post author is a guest, this will also be displayed.<li><strong>Post Group</strong> - Post groups are determined by the number of posts a member has made. This may not display if the member is part of a special membergroup.<li><strong>Stars</strong> - Usually, stars are also based on the number of posts a member has made. Special stars may be used to indicate administrators, moderators, and other special membergroups.<li><strong>Posts</strong> - A member's post count is also displayed and always reflects their current total number of posts.<li><strong>Communication Icons</strong> - Underneath all of the post author's information is a group of icons that allows interaction with the author, including email, private message, profile, web site, and various instant messaging applications.</ul>
+<li>
+Post Section
+<ul>
+<li><strong>Message Icon</strong> - The message icon is the one chosen by the post author when they made the post.<li><strong>Post Subject</strong> - The post subject usually resembles the topic subject, but it can be changed to virtually anything the post author may desire.<li><strong>Quick Buttons</strong> - Along the top, right-hand corner of each post is a set of buttons. For the most part only the quote button will be displayed, however there may be times when modify, remove, and split topic are also shown.<li><strong>Date and Time</strong> - The date and time are displayed immediately below the post subject and refer to the original posting time. An alert is shown below the post and above the signature when a post has been edited after the original post time.<li><strong>Body</strong> - Finally, the body or content of the post is displayed, which is the whole point of a forum, right?<li><strong>Signature</strong> - If a member has created a signature, it is displayed underneath the post body.<li><strong>Report to moderator</strong> - Each post may be reported to the forum moderators by selecting this link in the appropriate post.<li><strong>IP Logged</strong> - The IP address of the computer used by a member or guest to post is logged by the forum for moderation purposes.</ul>
+</ul>
+<p>While these are the most common elements for a post when viewing a topic, a member may choose to hide many of them from their profile.</p>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+</div>
+</div>
+</div><br class="clear"/>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

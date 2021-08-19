@@ -1,0 +1,855 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【翻译】战锤奇幻扮演4E第五章：规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【翻译】战锤奇幻扮演4E第五章：规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="126562"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0"><span>【翻译】战锤奇幻扮演4E第五章：规则</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1122824"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=126562.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【翻译】战锤奇幻扮演4E第五章：规则 &nbsp;(阅读 1101 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=126562.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122824_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122824">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122824#msg1122824" rel="nofollow">【翻译】战锤奇幻扮演4E第五章：规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122824'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122824'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-07-10, 周六 04:18:15 &#187;</div>
+<div id="msg_1122824_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122824"><strong><span style="font-size: 18pt;" class="bbc_size">规则 Rules</span></strong><br><hr />游戏正在晦暗与危险中进行着。玩家们从座位上探过身来，认真听着GM如何将情节展开，他们激动地描述其角色的回应，屏息等待着接下来将发生的事情……<br><br>角色扮演游戏通常最好避免打断叙事的流程．游戏进行得愈发流畅，玩家们也会愈发投入其中。然而，随着冒险继续，角色们行为的结果也会变得难易预料。如果一个角色们翻过墙壁来砍杀一只前来劫掠的哥布林，他到底会平稳落地还是摔个狗啃泥？<br><br>当事件不会太过影响玩家们的时候，GM可以简单地决定事件的结果然后告知队伍。但是，当一个行动的成功与否对玩家们有着重大影响时，骰几颗骰子，让命运和角色的能力来决定成败会是更刺激有趣的选择。同样的，让玩家利用游戏规则来判断他们成功的几率，并以此做出决定——这会是一个公平透明的处理事件的方法。<br><br>这些规则的核心是检定Test，即投骰子来决定结果。那些更复杂或是更特别的任务则有额外的规则。见下方的边栏来查找它们。GM应该熟悉这些规则，但作为玩家，只要你知道这些不同检定的大致内容就可以了。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 12pt;" class="bbc_size">规则参考</span></strong><br>简易检定 - <br>戏剧检定 -<br>对抗检定 -<br>持续检定 -<br>战斗 -<br>状态 -<br>命运与韧性 - <br>伤势 - <br>腐化 - <br>疾病与感染 -<br>心理 -<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 12pt;" class="bbc_size"><strong>黄金准则</strong></span><br>规则的用途是为了让你享受战锤世界中的传奇冒险，因此它们不该妨碍你获得乐趣。按理说，这本书中最重要的规则是：<br><br><strong>如果一条规则妨碍你的队伍获得乐趣，要么修改它，要么无视它。</strong><br><br>这条规则是如此地重要，你会在这本书中找到许多变体和可选项来打造一套适合你和你的玩家们的游玩风格。如果这是你的第一场游戏，无视这些额外规则。等到你对游戏更加熟悉的适合，你可以看情况试一试这些变体内容。<br><br>注意别把“有趣”和“一直成功”搞混了。危机感和失败的可能性是戏剧性的重要来源。情况变糟会给玩家们克服困难的机会，而这，正是一场英雄之旅的核心部分。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122824">
+&#171; <em>上次编辑: 2021-08-13, 周五 06:16:41 由 Caelum</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122832"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122832_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122832">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122832#msg1122832" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122832'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122832'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-07-10, 周六 07:56:04 &#187;</div>
+<div id="msg_1122832_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122832"><span style="font-size: 18pt;" class="bbc_size"><strong>检定 Test</strong></span><hr /><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">哎，有时候事情就是很倒霉，倒霉透顶那种。就像那次去伯根Bögen的半路上，奥拉夫想跳上一棵树，但他跳偏了，一头撞在那些交错的树枝上。要我说，他现在还在那，但考虑到他大概已经被那些动物们啃过，估计现在也不剩多少了。西格玛在上，老实蹲在家里，多吃点奶酪，外面没什么好看的！<br>　　　　　　　　　　　　　　&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－Dieter Käsegeier, 奶酪商，前探险家<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>当你的角色进行一个行动时，GM会让你知道发生了什么。有时，GM会让你根据你的角色的能力以及其他因素来决定你是否达成了目标。如果GM也不确定结果，或者该结果的意义重大，又或者情况非常危急，那么他们将用规则来结算这些行动。这样做的方式有几种，就像使用检定边栏里列出的那样。检定会将一次掷骰结果与你角色卡上的一个属性或技能进行比较，然后给出结果。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>简易检定 Simple Tests</strong></span><hr />当你需要决定你的角色会在一项简单的任务上成功或失败时，使用简易检定。茉莉能越过翻腾的溪流吗？威廉能够从咄咄逼人的商人那讲个好价钱吗？通常，一个简单的是与否便足以回答这些问题并让你继续自己的冒险。然而，当一次失败将严重影响到冒险的进程时，你应当使用一个戏剧检定。<br><br><strong>注意：</strong>GM可以对简易检定进行调整来应对特别简单或是特别困难的任务。<br><br>如果你投骰的结果低于或等于相应的技能或属性值，那么检定的结果为成功，你的角色完成了任务。<br><br>如果你投出的结果高于对应的技能或属性值，那么检定的结果为失败，你的角色便没能完成任务。<br><br>不论检定的结果为何，GM应当描述刚刚发生了什么，这样所有人就都能理解这个检定对故事产生了什么影响。<br><br><strong>例子：</strong><em>茉莉在一个寒冷的冬夜跑过阿尔道夫的纪念碑广场。地上的鹅卵石被层层积雪下的滑溜冰面所复盖着，但考虑到后面穷追不舍的歹徒们，茉莉不打算放慢脚步。GM要求进行一个简易运动检定来看茉莉能否安全地穿过滑溜的冰面。茉莉的运动是42，她的玩家骰了一颗d100并得到了17。因为17在茉莉的运动技能点数42以下，所以结果为成功，答案是没错，茉莉得以安稳地通过冰面。GM说茉莉穿过雪地，一头扎进对面那些黑巷子中的一条，她暂时安全了。如果她的玩家透出了42以上的结果，茉莉可能会滑倒，而那些歹徒可能就追上她了！</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">天赋与检定</span></strong><br>有些天赋可以提高一个检定的成功几率，或者为你提供某些特殊的检定来完成一些非凡壮举。你可以在xx页的天赋部分找到更多的信息。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><br><span style="font-size: 14pt;" class="bbc_size"><strong>自动失败与成功 Automatic Failure and Success</strong></span><br><hr />不论一个角色有多么技艺娴熟，天赋异禀，失败的可能性总是存在的。同样的，在<strong>WFRP</strong>中，不论形势看起来如何不利，你也总有一线成功的机会。<br><br>如果你在任何检定中扔出96-00，那么该检定<em>自动</em>失败。即使你的属性与技能最终数值超过或等于96也是如此。同样的，即使你的属性与技能在调整后小于5，若你在检定中扔出01-05，那么该检定<em>自动</em>成功。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">自动成功？想都别想！</span></strong><br>并非所有人都喜欢在任何鉴定上拥有5%的成功率。同样的，也有人对5%的自动失败率不感兴趣。如果你也这么想的话，按你的想法修改这个数值即可。最常见的做法是视96-00为自动失败，01为自动成功。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">Von Meinkopf的杰出概率工具</span></strong><br>用于修改或操纵百分骰的机制有许多种，以下将它们详细列出：<br><br><strong>骰出对子：</strong>骰出对子意味着一次百分骰结果中的十位和个位数的数值相同。例如：11，22，33，44，以此类推。<br><strong>重投：</strong>重投意味着你弃掉一次投骰的结果并重将其投一次。一旦一个检定被重投，通常来说它不能被再次重投。<br><strong>反转：</strong>要反转一次百分骰，将十位与个位数的数字调换即可。因此，一次结果为58的投骰会变为85，或者51变为15。显然，如果你骰出了对子，那么即使结果被反转，百分骰的最终结果也不变，比如77被反转后仍为77。<br><strong>调整值：</strong>视检定的难易程度而定，从你的技能数值中加上或减去这些数值。通常来说，投骰的难度会用到调整值。<br><br>如果你为某个特定的戏剧时刻改动检定的方式，你可以试试以上这些方法。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size"><strong>裁决动作</strong></span></strong><br>一个结果无法预测的事件或行动发生了<br>－成功与失败会是重要、刺激或是有戏剧性的吗？<br>　　－是：你需要知道这个检定失败或者成功的程度嘛？<br>　　　　　　－是：进行一次戏剧检定：你的成功或失败程度是？投d100来获得答案。<br>　　　　　　－否：进行一次简易检定：你成功了吗？投d100来获得是与否的答案。<br>　　－否：成功或失败的结果需要被随机决定吗？<br>　　　　　　－是：进行一次简易检定：你成功了吗？投d100来获得是与否的答案。<br>　　　　　　－否：GM根据角色相关的能力决定成功或者失败。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>游戏准则</strong></span><br>游戏规则建立了如何游玩WFRP的共识。它们的重要性体现在这些规则保证了公平性，也展现了设定的内核逻辑。但最棒的游戏体验也取决于你和其他玩家们的互动。以下是一些能帮助你的团变得更棒的建议：<br><br>所有人都是来寻求快乐的：对初学者或者新手玩家保持友好。<br><br>禁区：尊重那些不希望在游戏中出现性/暴力/恐怖或其他令人不舒服的话题的人，并接受他们不必说明原因这一点。这些情况背后可能有许多（甚至是创伤性的）缘由。<br><br>考虑他人：没有人的乐趣应该以他人的乐趣为代价。<br><br>桌上礼仪：讨论在桌上什么是可以的，什么是不可以的。吃东西、使用电子设备、饮酒、发短信、使用社交媒体？所有这些情况都是值得在游戏前讨论的。<br><br>让其他人参与进来：不要试图霸占每一个场景，让每个人都有机会成为焦点。<br><br>团队合作：不要无意义地陷入尴尬，也不要让你的角色在没有充分理由的情况下独自徘徊（分裂队伍会拖慢游戏速度）。<br><br>尊重你的GM：让GM操心规则问题，争论规则会损害乐趣（而且你总是可以在团后跟GM讨论）。<br><br>贡献：你的行动应该有助于故事的进展和角色成长。<br><br>接受现状：跑团并不是为了赢，而是为了那些你讲述的故事和你获得的乐趣。有时你的角色可能会死去，接受这一点，如果发生了，让它变得令人难忘和有趣。另外，请记住，有时候，逃跑会是个更好的选择。<br><br>良师益友：如果你的队伍里有更年幼的玩家，每个人都应当欢迎并提供帮助，同样，大家也有责任来确保彼此的行为举止对他们来说是恰当得体的。<br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>可选项：100%以上的检定</strong></span><br>拥有特别高的属性很有可能会让进行检定的属性或技能结果超过100%。如果你的游戏中有这种情况，你可能会想用以下的可选规则来展现此等的壮举。<br><br>当角色属性或技能超出100%时，每超出10%，成功检定的结果会获得额外的+1SL。<br><br><strong>例子：</strong><em>Emmanuelle von Liebwitz伯爵夫人有115%的魅惑技能：她的共情属性为80%，加上她35%的魅惑技能提升。因此，当她在一个魅惑检定中获得成功时，她会在投骰和其他才能的基础之上获得额外的+1SL。</em><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>戏剧检定 Dramatic Tests</strong></span><br><hr />有时候，单单知道你成功还是失败还不够，大家需要知道你成功或失败的程度是多少。尤其是当你用技能对抗他人的时候（见对抗检定），当你施法，战斗的时候也是如此。因此，当你想知道你在一个检定中究竟有多成功或者多失败时，你需要进行戏剧鉴定。另一个使用戏剧检定的原因是当冒险的进程取决于某个检定时，戏剧检定提供的结果不是简单的成功或失败，即使你的检定“失败”了，冒险仍旧可以继续，只不过相比“成功”，冒险接下来会变得更有挑战性。你可以用对待简易检定的方式处理戏剧检定，但视成功等级而定，检定的结果会包含更多的细节。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>成功等级 Success Levels</strong></span><br><hr />成功等级Success Levels（简写为SL）被用来衡量一个检定的成功度。要得出一个检定的成功等级，从进行检定的属性或技能的十位数（算上任何调整值，详情见难度）中减去骰子结果的十位数。SL越高，结果也就越好。SL越低，事情就越糟糕。靠近边缘的结果，例如分别对应着SL为+0或者-0的边缘成功与边缘失败可以被理解为勉强成功或失败，这样的成功或失败带来的影响是最微弱的，又或者，这意味着结果尚不明朗，而你应该再尝试一次检定。<br><br><strong>例子：</strong><em>艾辛格正策马穿过泥泞的田野，拼命地逃离一个心怀不满的贵族的领地。此时，一道墙拦住了他的去路。他决定驱使他的坐骑跳过障碍，GM要求他进行一次<strong>戏剧骑乘（马）</strong>检定。艾辛格扔出了29，而他的骑乘（马）技能为41。进行检定的技能的十位数字为4，而他投出的数字十位数则为2，因此，检定成功，其成功等级SL为+2（4-2=2），而他得以游刃有余地越过障碍。鼓舞于自己的成功，艾辛格在鞍上转过身来，对着身后的骑手比了个双尾彗星的手势。不幸的是，这意味着他并没有注意前方的道路。GM要求一个<strong>戏剧感知</strong>检定，艾辛格的玩家扔出了82，比他39点的感知技能要高上一大截。骰子结果的十位数是8，而检定技能的十位数为3，因此他以-3SL(3-8=-5)败于这次检定。他摔得很惨。当艾辛格对着那些前来捉拿他但是如今渐渐落后的卫兵发出嘲笑时，一根低矮的树枝砸到了他的侧身，把他直接撞飞了。</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选项：快速SL</span></strong><br>计算你的SL需要进行一些简单的数学运算，但在战斗中进行这样的计算可能会拖慢游戏。对那些追求速度的玩家们来说，有一种方法可以快速地计算SL。当你通过一个检定时，用你投出的数字的十位数来作为你的SL。因此，如果你骰出36并通过了检定，你获得+3SL。有了这条可选规则，你骰得越靠近你的技能越好，而非越低越好。如果检定失败，你照常计算SL，用技能数字的十位数减去投骰结果的十位数来获得你的负数SL。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>结果表</strong></span><br><table class="bbc_table"><tr><td><strong>SL</strong><td><strong>结果</strong><td><strong>你成功了吗？</strong></tr><tr><td>+6或更高<td>惊人成功<td><strong>是的！很完美！：</strong>加上一些额外的运气和幸运的巧合，不会有更好的结果了！</tr><tr><td>+4到+5<td>优秀成功<td><strong>是的，而且...：</strong>超乎了自己的预期，你派头十足地达成了目标。</tr><tr><td>+2到+3<td>成功<td><strong>是的：</strong>你稳稳地成功了。</tr><tr><td>+0到+1<td>边缘成功<td><strong>是的，但是...：</strong>你多少算是达成了目标，但结果并不完美，而且可能有些预想不到的副作用。</tr><tr><td>-0到-1<td>边缘失败<td><strong>没有，但是：</strong>你勉强失败了，也许达成了一部分的目标。</tr><tr><td>-2到-3<td>失败<td><strong>没有：</strong>你搞砸了。</tr><tr><td>-4到-5<td>惨烈失败<td><strong>没有，而且...：</strong>你不但搞砸了，而且还惹出了其他岔子。</tr><tr><td>-6或更低<td>惊人失败<td><strong>没有，完全没有！：</strong>所有事情都以最糟糕的方式搞砸了。GM可能会为你那悲惨的下场感到悲哀。没有人会这么不幸，你肯定是触怒了诸神。</tr></table></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>你可以参考结果表来了解自己有多成功或者多失败，它会给你一些灵感来描述刚刚发生的事情。就像简易检定提供了是与否的答案那样，戏剧检定也提供答案，只不过更为复杂罢了。<br><br>如果你通过投出01-05来获得了自动成功，你在+1SL和你得出的SL取高的那个作为结果。<br>如果你通过投出96-00来获得了自动失败，你在-1SL和你得出的SL取低的那个作为结果。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选项：大成功&amp;大失败</span></strong><br>我们在这章的后面介绍了一些用于大成功＆大失败的额外规则。它们可以被用来为<em>所有</em>检定增加戏剧性，随着极端结果变得可能，游戏会更有史诗感。如果你的队伍对这个感兴趣，可以使用下方的可选规则。<br><br>任何骰出对子（十位与个位数字相同）的成功检定被称为大成功，这意味着你获得了结果表中的惊人成功。任何骰出对子的失败检定则为大失败。这条可选规则很适合简易检定，这给那些简单的是与否的问题提供了更多的乐趣。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 10pt;" class="bbc_size"><strong>属性检定</strong></span><br>有时你会想做一些不依赖于某项技能的活动。在这些少见的情况下，你进行一次属性检定而非技能检定。GM会决定你所尝试的活动需要用到哪项属性，然后你照常进行检定即可。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>难度 Difficulty</strong></span><br><hr />不是所有的检定都是一样的。爬上栅栏非常简单，而爬上悬崖极度困难。为了体现这一点，GM为检定赋予一种叫难度的加值或减值。当发售的冒险模组为GM确定难度时——例如：要求一个<strong>困难（-20）研究</strong>检定——许多时候GM会临时判断如何使用它们。而进行这样的裁定是GM最常见的工作之一。不论检定的类型是简易还是戏剧，GM都应判断其难度然后参考难度表来给予这些检定相应的调整值。GM甚至可以使用比表格中更夸张的数字，但这样的调整值只应被用在最极端的环境下。<br><br><strong>例子：</strong><em>翡翠法师瓦伦丁正追踪着一只桀骜不驯的雄鹿。在通常情况下，他需要进行一个<strong>平均(+20)追踪</strong>检定，他的技能数值为41，这意味着他需要用骰出的数字与61进行对比。然而，GM判定昨晚的大雨冲刷掉了大部分痕迹，因此这项任务变得非常艰难，瓦伦丁在该检定上会承受-30的减值。因此，瓦伦丁必须骰出11或更低(41-30=11)来获得成功。他骰出了35，在通常情况下，这代表检定成功，但眼下，这会是一个失败，翡翠法师的努力被这场大雨搅黄了。</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>难度表</strong></span><br><table class="bbc_table"><tr><td><strong>难度</strong><td><strong>检定调整值</strong></tr><tr><td>非常简单<td>+60</tr><tr><td>简单<td>+40</tr><tr><td>普通<td>+20<td></tr><tr><td>棘手<td>无</tr><tr><td>困难<td>-10</tr><tr><td>艰难<td>-20</tr><tr><td>非常艰难<td>-30</tr></table></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>对抗检定 Opposed Tests</strong></span><br><hr />有时候你需要将你的实力与对手的实力进行对比。从规则的角度来说，这会是一种特殊的戏剧检定，名为对抗检定。对抗检定在本章后面所介绍的WFRP的战斗中扮演重要的角色，但其他时候也经常被用到。<br><br>一次对抗检定的处理方法与其他戏剧检定类似，但双方都需要进行检定。得到最高的SL的一方从对抗检定中胜出。如果双方都获得了相同的SL，那么在这项检定中有着更高的属性或技能的一方胜出。在少数双方仍旧平手的情况下，那GM从以下选项中选择一项：1）双方僵持不下，无事发生。2）让双方重投检定，直到一方胜出为止。<br><br><strong>例子：</strong><em>在派对上激怒一位重要的瑞克领男爵之后，萨伦多拉准备离开宴会厅。然而，一些紧张的守卫拦住了她的去路，他们知道自己受命看住这位贵族长官。萨伦多拉一边靠近，一边怒视着卫兵们。<br><br>GM要求一个威吓检定，并用守卫指挥官的领导力检定对抗之。玩家和GM都投了骰子。萨伦多拉的威吓是47。指挥官的领导力是46。萨伦多拉投出了04，获得了+4SL(4-0=4)，GM投出了16，获得+3SL(4-1=3)。因为萨伦多拉的SL更高(4对比指挥官的3)，她成功的喝退了守卫们，后者一言不发地给她让出了一条路。<br></em><br><br>就像其他检定那样，对抗检定也有难易之分，因此GM可以决定是否要引入调整值。在大多数时候，这些调整值都适用于双方，但并不总是如此。如果这次对抗检定没有难度调整，那么它被默认为<strong>棘手（+0）</strong>。<br><br><br>如果想要了解对抗检定中胜者的得胜程度，用双方SL的差值来决定结果。<br><br><strong>例子：</strong><em>热派周开始了，这场为了大家都爱的烘培食物所举办的年度节日将持续一周，而萨伦多拉已经身处一场吃派比赛中。她已经抵达了决赛，她的对手是胖子汤姆·布兰迪斯奈普，乌博瑞克蝉联5届的吃派大王。这个半身人的宽度超过了他的身高。<br><br>GM要求进行一次<strong>对抗耐力</strong>检定。萨伦多拉有45的耐力，胖汤姆有63。萨伦多拉可能有麻烦了！骰子被掷下，萨伦多拉扔出了51，结果为-1SL。萨利看起来有些生疏！但胖汤姆看起来更糟！他投出了91，获得-3SL。因此，即使败于自己的耐力检定，萨伦仍以2点SL赢得了对抗检定，不过她待会可能会吐出不少派！<br></em><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>持续检定 Extended Tests</strong></span><br><hr />有时候冒险可能会出现一些消耗时间或者非常累人的活动，这些活动通常需要积累一定数量的SL才能完成。进行这样的活动需要用到一种特殊的戏剧检定。这种检定被称为持续检定。持续检定的处理方法与其他戏剧检定相同，但是各次检定中获得的SL会累加在一起来达到某个特定的数字。如果总计的SL的数量降到0以下，那么你可以在下一次检定中从0开始累积SL。<br><br><strong>例子：</strong><em>又被人一路追赶着，茉莉试图在自己被发现之前撬开一把出奇复杂的锁。GM生命这把锁需要在一个<strong>棘手(+0)开锁</strong>检定中获得5个SL才能撬开这把锁。而她在卫兵到达之前有三轮的时间。茉莉的开锁技能是58，因此她有大概率能应付它，但时间不在她那边。不幸的是，她的第一次检定投出了63，以-1SL糟糕开局。她不会获得任何进展，但是下一轮中她可以从头开始。随着脚步声逼近，，茉莉喘着气暗骂了一句，她再次尝试，这次投出了11，获得了+4SL！随着锁几乎要弹开，她感觉到开锁器那段的压力，但脚步声愈发逼近了。<br><br>GM解释说下一次检定会是守卫赶到前所能进行的最后一次检定，因此茉莉要么现在放弃并开始躲避守卫，要么就把期望放到开锁所需要的最后一个SL上。知道自己该快点逃走了，茉莉冒险进行了最后一次检定，投出了……42！这会给她+1SL，让她累计获得+5SL。锁咔地一声打开了！大获成功的茉莉溜过那扇门，在守卫到来之前把它合上了。</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>可选项：持续检定与0个SL</strong></span><br>在持续检定中获得0SL对累计的SL没有任何影响。这一点可能有些古怪。考虑到你在该检定中取得了成功或失败，而这些结果理应带来某些优势或者劣势。如果你这么想的话，使用以下的可选规则。一个成功的检定会为总和提供至少+1SL，而失败的检定会从SL总和中减去最少-1SL。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><strong><span style="font-size: 14pt;" class="bbc_size">协助 Assistance</span></strong><br><hr />在某些情况下，相比单打独斗，角色间的互相合作会让完成任务的几率变高。在GM的许可之下，一个角色可以在其他角色进行检定时加以协助。这样的话，最可能通过这项检定的角色投掷骰子。<br><br>每个进行协助的角色会让检定获得+10的调整值。除此之外，这次检定照常结算。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">协助的限制</span></strong><br>角色们可以在大多数任务中相互协助，但限制依旧存在。<br><ul class="bbc_list"><li>如果要进行协助，你必须在进行检定的技能中拥有至少1点提升。<li>进行协助的角色通常都必须与进行检定的角色相邻。<li>你无法在对抗疾病、毒素、恐惧、灾害或是其他任何GM觉得不恰当的检定中进行协助。<li>协助你的角色的数量不能超过你对应属性的属性加值。</ul><br><strong>例子：</strong><em>阿德玛，佩迪塔和瓦伦丁正匆忙地搜索着一个房间。房间的主人，一位年迈的商人，此时刚离开去寻找一些记录。GM声明这需要一个<strong>困难(-10）察觉</strong>检定。因为佩迪塔和瓦伦丁都有察觉技能并且正在帮助，阿德玛（他有着最高的察觉技能，高达59点）在他的察觉检定中获得+20的加值，总计为69(59-10+20=69)。尽管如此，他扔出了74并失败了。这意味着在步履蹒跚的商人回来之前，他们什么也没找到。</em><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 14pt;" class="bbc_size"><strong>可选项：合并技能</strong></span><br>有时候，你会觉得某些情况应该需要一个角色为了一个任务进行两种技能检定，在这种情况下，合并技能会是一个好选择。这么做的原因主要有两个：1）这样做更快，并且不需要扔那么多骰子便可以继续游戏。2）为了一个任务连续进行两次检定会严重降低你通过该任务的几率。<br><br>最简单的方法是为两项技能进行一次检定，用检定的结果对比这两项技能的数值。如果都通过，那么你的检定获得成功。如果只有一个通过，视情况而定，你达成了部分目标。如果都失败，那么很明显，你便没有通过该检定。<br><br><strong>例子：</strong><em>在一连串看似不可能的事件之后，萨兰多拉正穿着黄红亮色的连衣裙，于瓦尔格·布鲁格尔纪念剧团的首部作品“在节日那天告诉我”中跳舞献歌。考虑到要求她分别进行一次检定会大大降低她成功的几率，GM要求一次<strong>棘手合并表演(舞蹈)及表演(歌唱)</strong>检定。萨兰多拉的宫廷生活让她有着53点的表演(舞蹈)，但是她并没有表演（歌唱），因此她必须得使用自己43点的共情属性。她投出了46，意味着她的舞蹈问题不大（以+1SL成功），但歌在几处有点走调（以-0SL失败）。这表演不算完美，但是足够吸引人群的注意了。但凯姆·纽曼，阿尔道夫乐手的戏剧评论家，可能不会给她写上一篇好评……</em><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122832">
+&#171; <em>上次编辑: 2021-08-13, 周五 08:04:54 由 Caelum</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122833"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122833_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122833">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122833#msg1122833" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122833'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122833'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-07-10, 周六 07:57:15 &#187;</div>
+<div id="msg_1122833_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122833"><span style="font-size: 18pt;" class="bbc_size"><strong>战斗 Combat</strong></span><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>衡量时间 Timing</strong></span><hr /><br><strong>例子：</strong><em><br><br></em><br><br><strong><span style="font-size: 14pt;" class="bbc_size">战斗简述 Comat Summary</span></strong><br><br><span style="font-size: 14pt;" class="bbc_size"><strong>先攻顺序 Initiative Order</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">投先攻！</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">战斗外的轮次</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>突袭 Surprise</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">突袭天赋</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>进行你的回合 Taking Your Turn</strong></span><br><hr /><br><strong>例子：</strong><em><br></em><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>移动</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>动作</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选规则：全力防御</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>免费动作</strong></span><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>攻击</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">默认战斗难度</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>1. 投命中</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>2. 判定命中位置</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">命中部位</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>3. 计算伤害</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>4. 应用伤害</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">近战攻击中的对抗</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>接战</strong></span><br><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">战斗中的成功等级</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>大成功与大失败</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>重击</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选规则：最后一击</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">对抗检定与失误</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>失误</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">失手表</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">走火！</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>远程战斗</strong></span><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>战斗难度</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">战斗难度</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">合并难度</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>无助的目标</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>对一群敌人射击</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">向近战中的目标射击</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>寡不敌众</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>体型</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">体型</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>双持战斗</strong></span><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>散射</strong></span><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>徒手战斗</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>擒抱</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选规则：使用技能擒抱</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 14pt;" class="bbc_size"><strong>骑乘战斗</strong></span><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><strong>优势</strong></span><br><hr /><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 14pt;" class="bbc_size">可选规则：有限的优势</span></strong><br><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong>获取优势</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>优势的好处</strong></span><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><strong>失去优势</strong></span><br><hr /></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122833">
+&#171; <em>上次编辑: 2021-08-13, 周五 08:32:57 由 Caelum</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122834"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122834_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122834">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122834#msg1122834" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122834'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122834'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-07-10, 周六 07:57:47 &#187;</div>
+<div id="msg_1122834_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122834"><span style="font-size: 24pt;" class="bbc_size">移动 Moving</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122834">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122835"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122835_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122835">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122835#msg1122835" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122835'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122835'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-07-10, 周六 07:58:35 &#187;</div>
+<div id="msg_1122835_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122835"><span style="font-size: 24pt;" class="bbc_size">状态 Conditions</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122835">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122836"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122836_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122836">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122836#msg1122836" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122836'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122836'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-07-10, 周六 07:59:11 &#187;</div>
+<div id="msg_1122836_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122836"><span style="font-size: 24pt;" class="bbc_size">命运&amp;坚韧 Fate&amp;Resilience</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122836">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122837"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122837_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122837">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122837#msg1122837" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122837'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122837'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2021-07-10, 周六 07:59:41 &#187;</div>
+<div id="msg_1122837_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122837"><span style="font-size: 24pt;" class="bbc_size">伤势 Injury</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122837">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122838"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122838_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122838">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122838#msg1122838" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122838'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122838'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-07-10, 周六 08:00:35 &#187;</div>
+<div id="msg_1122838_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122838"><span style="font-size: 24pt;" class="bbc_size">腐化 Corruption</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122838">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122839"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122839_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122839">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122839#msg1122839" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122839'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122839'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-07-10, 周六 08:01:06 &#187;</div>
+<div id="msg_1122839_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122839"><span style="font-size: 24pt;" class="bbc_size">疾病与感染 Disease and Infection</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122839">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1122840"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1122840_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1122840">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1122840#msg1122840" rel="nofollow">Re: 【翻译】【读书笔记】战锤奇幻扮演4版</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1122840'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1122840'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2021-07-10, 周六 08:01:37 &#187;</div>
+<div id="msg_1122840_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1122840"><span style="font-size: 24pt;" class="bbc_size">心理 Psychology</span><br>——施工中——</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1122840">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1129120"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273" title="检视会员资料:  Caelum">Caelum</a>
+</h4>
+<ul class="reset smalltext" id="msg_1129120_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84273">
+<img class="avatar" src="/bbs/upload/avatar/avatar_84273_1620096033.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 91<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1129120">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.msg1129120#msg1129120" rel="nofollow">Re: 【翻译】战锤奇幻扮演4E第五章：规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1129120'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1129120'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2021-08-12, 周四 14:30:38 &#187;</div>
+<div id="msg_1129120_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1129120"><strong><span style="font-size: 18pt;" class="bbc_size">完结分割线，此楼后可回复</span></strong></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1129120">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=126562.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=126562.0"><span>【翻译】战锤奇幻扮演4E第五章：规则</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 126562,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 126562,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="126562" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=126562.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 1101 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 44,
+							iCurBoardChildLevel: 0,
+							sCurBoardName: "TRPG譯文專區",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 44,
+							iTopicId: 126562,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

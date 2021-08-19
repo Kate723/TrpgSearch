@@ -1,0 +1,642 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="原创拓展规则-群星级（误）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>原创拓展规则-群星级（误）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="84820"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0"><span>原创拓展规则-群星级（误）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg797894"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84820.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 原创拓展规则-群星级（误） &nbsp;(阅读 6741 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 只是上班没事干的小娱乐</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=84820.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78006" title="检视会员资料:  积木王">积木王</a>
+</h4>
+<ul class="reset smalltext" id="msg_797894_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 34<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_797894">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg797894#msg797894" rel="nofollow">原创拓展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_797894'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_797894'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-05-28, 周六 17:27:43 &#187;</div>
+<div id="msg_797894_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_797894">rt，反正上班跑不了团就来写个自定义类别好了，neta的是机巧魔神。<br>平衡？平衡能吃吗 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/><br><br><br>■类别解说<br>群星级是以什么目的来制作这点无从考究，虽然是和初期的守护神一样，从遗迹或者其他地方挖掘出土，但因为其驱动方式的不人道而被封存起来，但强大的武器终究的战争所追求的东西，在第二次世界大战期间，一部分群星级被非法挪用，投入到战争之中，至此，群星级作为灾难被记载于历史之上。<br>不人道：启动群星级需要以连结者的生命作为祭品，其后再由另一名连结者作为驾驶员才能驱动。<br><br><br>■构筑资料<br>▼加护<br>《奥丁》<br>▼能力基本值<br>体力：4&nbsp; &nbsp; &nbsp; &nbsp; 理知：4<br>反射：3&nbsp; &nbsp; &nbsp; &nbsp;意志：8<br>知觉：3&nbsp; &nbsp; &nbsp; &nbsp;幸运：2<br>▼自动取得道具<br>常备化一件[种类：守护神（群星级）]的物品。从MGR的人类用武装·防具中，选择●手枪常备化，选择学生服常备化。<br><br><br><table class="bbc_table"><tr><td>●类别修正表<br>等级&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;10<br>命中&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+5<br>回避&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+7<br>炮击&nbsp;&nbsp;&nbsp;+0&nbsp;&nbsp;&nbsp;+0&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+4<br>防壁&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+6<br>行动&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+6<br>力场&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+13&nbsp;&nbsp;&nbsp;+18&nbsp;&nbsp;&nbsp;+25&nbsp;&nbsp;&nbsp;+30&nbsp;&nbsp;&nbsp;+36&nbsp;&nbsp;&nbsp;+43&nbsp;&nbsp;&nbsp;+49&nbsp;&nbsp;&nbsp;+57<br>耐久&nbsp;&nbsp;&nbsp;+3&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+14&nbsp;&nbsp;&nbsp;+17&nbsp;&nbsp;&nbsp;+19&nbsp;&nbsp;&nbsp;+22&nbsp;&nbsp;&nbsp;+25&nbsp;&nbsp;&nbsp;+28<br>感应&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+16&nbsp;&nbsp;&nbsp;+20&nbsp;&nbsp;&nbsp;+25&nbsp;&nbsp;&nbsp;+31&nbsp;&nbsp;&nbsp;+36&nbsp;&nbsp;&nbsp;+43&nbsp;&nbsp;&nbsp;+48&nbsp;&nbsp;&nbsp;+53<br>攻击&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+1&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+2&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+7<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>等级&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;15&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;17&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;&nbsp;20<br>命中&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+12<br>回避&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+13&nbsp;&nbsp;&nbsp;+14<br>炮击&nbsp;&nbsp;&nbsp;+4&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+5&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+6&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+9<br>防壁&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+13&nbsp;&nbsp;&nbsp;+14<br>行动&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+7&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+12<br>力场&nbsp;&nbsp;&nbsp;+65&nbsp;&nbsp;&nbsp;+81&nbsp;&nbsp;&nbsp;+88&nbsp;&nbsp;&nbsp;+95&nbsp;&nbsp;&nbsp;+102&nbsp;&nbsp;&nbsp;+108&nbsp;&nbsp;&nbsp;+115&nbsp;&nbsp;&nbsp;+122&nbsp;&nbsp;&nbsp;+129&nbsp;&nbsp;&nbsp;+136<br>耐久&nbsp;&nbsp;&nbsp;+32&nbsp;&nbsp;&nbsp;+34&nbsp;&nbsp;&nbsp;+37&nbsp;&nbsp;&nbsp;+40&nbsp;&nbsp;&nbsp;+43&nbsp;&nbsp;&nbsp;+48&nbsp;&nbsp;&nbsp;+51&nbsp;&nbsp;&nbsp;+54&nbsp;&nbsp;&nbsp;+56&nbsp;&nbsp;&nbsp;+61<br>感应&nbsp;&nbsp;&nbsp;+58&nbsp;&nbsp;&nbsp;+65&nbsp;&nbsp;&nbsp;+72&nbsp;&nbsp;&nbsp;+77&nbsp;&nbsp;&nbsp;+82&nbsp;&nbsp;&nbsp;+87&nbsp;&nbsp;&nbsp;+92&nbsp;&nbsp;&nbsp;+99&nbsp;&nbsp;&nbsp;+103&nbsp;&nbsp;&nbsp;+110<br>攻击&nbsp;&nbsp;&nbsp;+8&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+9&nbsp;&nbsp;&nbsp;+10&nbsp;&nbsp;&nbsp;+11&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+12&nbsp;&nbsp;&nbsp;+13&nbsp;&nbsp;&nbsp;+14&nbsp;&nbsp;&nbsp;+15<br></tr></table><br>■群星级守护神<br>群星级的特殊性-献祭，让它成为必须要凑齐适合条件的两个连结者才能使用的守护神，和同盟级或是副驾驶的定义不一样，群星级会将其中一名连结者作为献祭品放进群星级特有的机关“副葬<br>”之中的连结者作为能源驱使自身行动，但对于献祭的连结者来说，这并不是死亡，只是一种或许永远醒不过来的沉睡，据说一部分的群星级使用者可以和副葬机关中的连结者进行交流。<br>群星级机体虽然也使用ALTIMA能源，但更多的情况他们会直接驱动副葬机关使用连结者的生命作为战斗，通过消耗副葬的灵魂，群星级能够使用本身带有的特殊能力，甚至于左右战局，同时，只要副葬的灵魂还在，群星级便能不借助任何外力战斗到最后。<br>同时，群星级不能与任何类别的机体合体。<br>●群星级的能力<br>群星级守护神的数量是固定的，因为副葬机关的不稳定性，研究者们并不能直接对其进行研究，所以由始至终能够被使用的群星级也就是从遗迹挖掘出来的机体，似乎是为了彰显这个独特性一般，每台群星级都被赋予了强大能力，诸如控制物理法则，使用奥迹级类似的魔法，甚至于——穿越平行世界。<br><br>■副葬机关<br>群星级特有装置，使用连结者灵魂换取巨大力量的机关，当机关中灵魂被耗尽的时候，群星级会强制停止——直到有新的祭品成为副葬之前。<br>副葬灵魂的算式为：（人物耐久力÷5）+10，小数进位。<br>在每次模组过后进行一次2d6的r点，在出目为2或者12的时候，扣除一点灵魂最大值。（最大扣10）<br><br><br>■技能<br>副葬机关<br>等级：1<br>种类：自 机<br>时点：先攻阶段<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的群星级已经被献祭过一次，副葬机关中承载着某个为了世界而献身的连结者的灵魂，你的意志基本值常时+6。<br>可以消耗一点灵魂，机体fp回复3d6+X。<br><br>副葬的记忆（炮击）<br>等级：1<br>种类：选，操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是被选上的群星级连结者，在接下这个宿命以后，你通过机体看到了“副葬”的记忆。<br>你的暴击值-1,（最低10），在你暴击的时候自动消耗一点灵魂，暴击伤害提升至5d6。<br>炮击达成值+1。<br><br>副葬的记忆（命中）<br>等级：1<br>种类：选，操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是被选上的群星级连结者，在接下这个宿命以后，你通过机体看到了“副葬”的记忆。<br>你的暴击值-1,（最低10），在你暴击的时候自动消耗一点灵魂，暴击伤害提升至5d6。<br>命中达成值+1。<br><br>法则护盾<br>等级：1<br>种类：机、防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：en6<br>效果：使用群星级副葬机关创造的特殊护盾，通过调整能够防御任何攻击。<br>减轻受到的伤害。你（预定要）受到的伤害减轻[2d6+X]点。每轮可以使用一次。X=你的类别等级。<br>可以消耗1点灵魂，可以额外减少3d6点伤害。<br><br>演操收纳箱<br>等级：1<br>种类：操<br>时点：设置阶段<br>对象：自身<br>射程：无<br>代价：5hp<br>效果：群星级伴随挖掘发现的，还有他们各自的祭坛，祭坛基本形状类似于手提箱，虽然不明白具体的构造，但能够随身携带这点，就比其他机体要优秀。<br>通过宣读咒文，你可以于任何地方收纳及放出自己的群星级守护神，只能够在场景最初使用，在设置阶段时，你可以进行一次战斗移动。<br><br>黑铁斩击<br>等级：1<br>种类：机、命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：3hp<br>效果：使用群星级专用的白刃武装向敌人发起进攻。<br>伤害增加2d6，可以消耗1点灵魂，伤害再增加3d6，暴击-1。（最低9）<br><br>歪曲发射<br>等级：1<br>种类：机、炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：3hp<br>效果：使用群星级专用的炮击武装向敌人发起进攻。<br>伤害增加2d6，可以消耗1点灵魂，伤害再增加3d6，暴击-1。（最低9）<br>使用的武装种类为魔的时候伤害再增加2d6.<br><br>副葬演算<br>等级：2<br>种类：机、增<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：将攻击的一部分动作交给群星级中的另一个操控者——副葬，借此达成正常操作所不能做到的攻击。<br>伤害增加2d6，可以消耗一点灵魂，让伤害再增加2d6，同时将进行两次伤害投掷，取大值作为结果。<br><br>法则跳跃<br>等级：2<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：6en<br>效果：利用群星级的能力找到通往目的地点的“近路”。<br>进行全力移动，这次全力移动不会让你结束行动。同时可以在这之上消耗两点灵魂，可以自由移动到地图上任何一格。<br><br>燃烧灵魂的力量<br>等级：2<br>种类：操、增<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：只要灵魂还在，群星级就能继续以最强之力打击邪恶，但战斗同时副葬的灵魂会不断消逝，为了结束战斗，你不得不行动起来。<br>在场景中只要消耗过一点以上的灵魂，你造成的伤害常时+x，在此效果适用的时候，界限突破中伤害再加+x。<br><br>二心一体<br>等级：2<br>种类：机<br>时点：先攻动作<br>对象：自身<br>射程：无<br>代价：无<br>效果：副葬无时无刻都在和你一同对抗邪恶。<br>消耗一点灵魂，在场景结束之前，命中判定的达成值+1.<br><br>点火装置<br>等级：3<br>种类：操<br>时点：命中或防御判定后立刻<br>对象：自身<br>射程：无<br>代价：6en<br>效果：群星级的强大不仅依赖于副葬机关，他们的体内还埋藏有其他辅助的装置。<br>在你进行命中或防御判定后立刻使用。那次判定重投。对于每个判定只能使用一次该特技。每轮可以使用[X/6（小数进位）]次。在此之上，可以消耗一点灵魂，让重投的这次直接变成暴击。<br><br>安定装置（斩）<br>等级：3<br>种类：机、命、伤<br>时点：主要动作<br>对象：单体<br>射程：0<br>代价：10EN<br>效果：群星级的强大不仅依赖于副葬机关，他们的体内还埋藏有其他辅助的装置，安定装置是为了防止灵魂损耗过大而制作出来的装置，而你在使用群星级战斗的期间也学会了利用这个进行攻击的技术，通过一瞬间收缩副葬机关的能源发起攻击。<br>只有学了副葬的记忆（命中）才能使用该特技。使用近战武装对对象进行白刃攻击。该次伤害+4d6，并将对象的防御修正视作0来计算实际伤害。每模组可以使用一次。<br><br>安定装置（炮）<br>等级：3<br>种类：机、炮、伤<br>时点：主要动作<br>对象：单体<br>射程：0<br>代价：10EN<br>效果：群星级的强大不仅依赖于副葬机关，他们的体内还埋藏有其他辅助的装置，安定装置是为了防止灵魂损耗过大而制作出来的装置，而你在使用群星级战斗的期间也学会了利用这个进行攻击的技术，通过一瞬间收缩副葬机关的能源发起攻击。<br>只有学了副葬的记忆（炮击）才能使用该特技。使用远程武装对对象进行炮击攻击。该次攻击变成范围2，并将对象的防御修正视作0来计算实际伤害。每模组可以使用一次。<br><br><br>副葬机关活化<br>等级：3<br>种类：机<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：5hp<br>效果：活性化副葬机关，让群星级呈现原本该有的身姿。<br>直到场景终了为止，你给予的伤害+2d6。<br>可以消耗1点灵魂，可以让伤害再加x。<br><br><br>与恶魔的契约<br>等级：4<br>种类：自，机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：群星级真正被人称为灾难，是因为他们不仅吞噬灵魂，还能够与恶魔进行契约<br>取得这个技能的时候选择一个属性，对应属性的装甲+10，同时进行这个属性的攻击的时候，伤害+x。取得此技能后，初始灵魂+1。<br><br>魔神法则<br>等级：4<br>种类：机，防<br>时点：伤害投掷后立刻<br>对象：单体<br>射程：视界<br>代价：4HP<br>效果：群星级扭曲法则的能力不仅限于自身。<br>一轮一次，可以对自身以外的对象使用法则护盾，如果这么做，下次对象的伤害增加2d6，可以消耗一点灵魂，可以刷新这个技能的使用次数。<br><br>异象科学<br>等级：4<br>种类：机，防<br>时点：伤害投掷前<br>对象：自身<br>射程：无<br>代价：5en<br>效果：群星级的咒文是打开盒子的钥匙，同时也是它的秘密之一。<br>每轮可以使用一次，选择一个装甲属性，将与恶魔的契约效果变成该属性，假如选择本来的属性的话，则装甲值翻倍。<br><br>背德的使魔<br>等级：5<br>种类：—<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：使魔是与恶魔契约的副产品，通过这些使魔，群星级可以直接使用本来不属于自身的魔法。<br>不取得与恶魔的契约不能取得，你的机体可以装备奥迹级和魔幻级的魔法。<br><br>副葬机关II<br>等级：6<br>种类： 机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：通过灵魂的消耗累积，你的群星级能力更进一步。<br>副葬机关的效果+X，界限突破的时候，血量回复+X。<br><br>空间撕裂<br>等级：7<br>种类：魔、操、命<br>时点：宣言黑铁斩击后<br>对象：自身<br>射程：无<br>代价：10EN<br>效果：出自无底深渊之黑暗，制裁科学幻影之长剑！<br>必须要取得安定装置（斩），消耗一点灵魂，你取得的黑铁斩刃效果+x，射程变为视界，类别等级为12以上的时候，效果变为2x。<br><br>清净溶解<br>等级：7<br>种类：魔、操、命<br>时点：宣言歪曲发射后<br>对象：自身<br>射程：无<br>代价：10EN<br>效果：席卷黑暗的肆虐冰晶，科学之泪的漫布阴影。<br>必须要取得安定装置（炮），消耗一点灵魂，你取得的歪曲发射效果+x，射程变为0，范围3（选择），类别等级为12以上的时候，效果变为2x。<br><br>与恶魔的契约II<br>等级：8<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：群星级真正被人称为灾难，是因为他们不仅吞噬灵魂，还能够与恶魔进行契约，在此，你与恶魔的交流上升到一个新的层次，你即将明白，群星级真正的价值。<br>取得此技能后，初始灵魂+3。<br><br>二心一体II<br>等级：9<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：通过战斗的积累，你与副葬的心灵交织在一起，引发出新的力量。<br>移动力+1，二心一体生效的情况下，命中判定的达成值再加1。<br><br>魔神相克者<br>等级：10<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：群星级是世界交错而成的不应存在之物，而与恶魔一同孕育的使魔更是如此，通过连接使魔的守护神，群星级至此不再需要休息，但同时，你已经成为了灾难。<br>必须取得背德的使魔才能取得，fp跟en常时+x，暴击-1（最低8）在你宣言界限突破的回合，你不需要消耗任何灵魂。<br><br><br>恸哭的魔神<br>等级：11<br>种类：魔<br>时点：随时<br>对象：自身<br>射程：无<br>代价：40HP<br>效果：黑暗之源的深渊，科学之光的映影！<br>必须取得魔神相克者才能取得，消耗三点灵魂，将你全部加护变成盖亚。<br>这之后，你可以用10点灵魂作为代价，回复一次盖亚。<br><br><br>破灭的记忆<br>等级：13<br>种类：机<br>时点：设置步骤<br>对象：自身<br>射程：-<br>代价：-<br>效果：成为魔神相克者以后，你通过群星级看见了被毁灭的平行世界的你和副葬的记忆，即便那不是什么好的回忆，但现在知晓这些的你们，要做的事情就阻止这一切的发生。<br>不取得魔神相克者不能取得，一模组一次，回复界限突破状态。<br><br>魔神相克者II<br>等级：15<br>种类：机、魔<br>时点：随时<br>对象：自身<br>射程：-<br>代价：加护<br>效果：出自深邃黑暗之熔炉，科学之锤锻造之玉钢！<br>不取得魔神相克者不能取得，你造成的伤害属性全部变更为神，在此状态下，你视为界限突破。<br><br>重复不止的世界<br>等级：18<br>种类：魔<br>时点：常时<br>对象：自身<br>射程：——<br>代价：——<br>效果：群星级从最初就不是战斗兵器，在这之后也不会是，而为了到达群星级目标中的未来，你与使魔发现了延续副葬灵魂的方法。<br>不取得破灭的记忆不能取得，在你消耗的灵魂的时候，可以使用hp来代替，1点灵魂=10hp。<br><br>在这之后的意志<br>等级：20<br>种类：机<br>时点：主要动作<br>对象：自身<br>射程：无<br>代价：加护<br>效果：赌上群星级的一切，将自身也化成副葬机关的一部分，进行为了这之后的未来而发起的猛攻。<br>将连结者的耐久力按照（耐久力除以5）小数进位加算到灵魂之上，随后消耗全部灵魂，每有一点消耗的灵魂，伤害增加5d6，伤害属性变更为神。<br>在这次攻击以后，你的连结者和副葬都会从游戏中除外。 <img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_797894">
+&#171; <em>上次编辑: 2016-05-30, 周一 11:48:06 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg797925"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_797925_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_797925">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg797925#msg797925" rel="nofollow">Re: 扩展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_797925'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_797925'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-05-28, 周六 20:04:44 &#187;</div>
+<div id="msg_797925_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_797925">&nbsp;<img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/>谢提供脑洞，期待物品部分（<br>&nbsp;<img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/>顺带建议将前缀改成原创资源</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_797925">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg797931"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=42300" title="检视会员资料:  月夜白雨">月夜白雨</a>
+</h4>
+<ul class="reset smalltext" id="msg_797931_extra_info">
+<li class="title">萝莉控绅士<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/on.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=42300">
+<img class="avatar" src="/bbs/upload/avatar/avatar_42300_1344324179.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 2666<li class="karma">苹果币: 9<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_797931">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg797931#msg797931" rel="nofollow">Re: 扩展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_797931'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_797931'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2016-05-28, 周六 21:07:04 &#187;</div>
+<div id="msg_797931_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_797931">妈呀，这越看越像地球防bian卫dang少年啊</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_797931">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_797931_signature">我月夜白雨只想安静地过图书馆长的生活。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg797979"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78006" title="检视会员资料:  积木王">积木王</a>
+</h4>
+<ul class="reset smalltext" id="msg_797979_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 34<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_797979">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg797979#msg797979" rel="nofollow">Re: 扩展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_797979'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_797979'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2016-05-29, 周日 10:19:07 &#187;</div>
+<div id="msg_797979_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_797979"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg797931#msg797931">引述: 月夜白雨 于 2016-05-28, 周六 21:07:04</a></div></div><blockquote class="bbc_standard_quote">妈呀，这越看越像地球防bian卫dang少年啊<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>实际上地球便当少年我也做了一个类别，那个类别叫做“回忆级” <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_797979">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg798124"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=71271" title="检视会员资料:  杭程">杭程</a>
+</h4>
+<ul class="reset smalltext" id="msg_798124_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=71271">
+<img class="avatar" src="/bbs/upload/avatar/avatar_71271_1603900354.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_798124">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg798124#msg798124" rel="nofollow">Re: 扩展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_798124'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_798124'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2016-05-30, 周一 11:08:48 &#187;</div>
+<div id="msg_798124_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_798124">是否改一下标题改成国人原创扩展比较好，省的别人不知道，以为是官方扩展就用了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_798124">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg802127"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=11811" title="检视会员资料:  你的好友已断线">你的好友已断线</a>
+</h4>
+<ul class="reset smalltext" id="msg_802127_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=11811">
+<img class="avatar" src="/bbs/upload/avatar/avatar_11811_1511337797.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 868<li class="karma">苹果币: 0<li class="blurb">哇喀喀喀喀喀喀喀！！！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_802127">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg802127#msg802127" rel="nofollow">Re: 原创拓展规则-群星级（误）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_802127'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_802127'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-06-25, 周六 08:23:22 &#187;</div>
+<div id="msg_802127_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_802127">貌似没有写一级可以拿的特技的数量，以及升级后每级可以拿的特技的数量的样子？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_802127">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg805038"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78006" title="检视会员资料:  积木王">积木王</a>
+</h4>
+<ul class="reset smalltext" id="msg_805038_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 34<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_805038">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg805038#msg805038" rel="nofollow">Re: 原创拓展规则-群星级（误）http://www.goddessfantasy.net/bbs/index.php?board=1423.0</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_805038'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_805038'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-07-09, 周六 10:05:14 &#187;</div>
+<div id="msg_805038_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_805038"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.msg802127#msg802127">引述: 你的好友已断线 于 2016-06-25, 周六 08:23:22</a></div></div><blockquote class="bbc_standard_quote">貌似没有写一级可以拿的特技的数量，以及升级后每级可以拿的特技的数量的样子？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>偶尔没事上来看一眼……还真是忘记了。 <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/><br>一级自动取得副葬机关，然后从两个副葬的记忆选择一个取得（选择了一个不能再选择另外一个），并且在LV1的该类别特技中，任意选择2个取得。<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。<br>此外，到达4级时自动取得 与恶魔的契约<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_805038">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84820.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84820.0"><span>原创拓展规则-群星级（误）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 84820,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 84820,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="84820" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=84820.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 6741 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 84820,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

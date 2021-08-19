@@ -1,0 +1,736 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="舰ColleRPG"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>舰ColleRPG</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'd761fa95b993c84e3f1226aa27ade11a');">
+<div class="info">请 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login">登录</a> 或 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[1124]" value="1124"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'fa71e0d7782',
+sSessionId: 'd761fa95b993c84e3f1226aa27ade11a'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0"><span>舰ColleRPG</span></a> (版主群: <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=7581" title="版主">china11229</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="版主">町城安里</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<div class="pagesection">
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0;sort=subject">&#171;</a> <a class="navPages" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0;sort=subject">1</a> [<strong>2</strong>]   &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40;sort=subject;desc">主题 <img src="Themes/celeste/images/sort_up.gif" alt=""/></a> / <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40;sort=starter">作者</a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40;sort=replies">回复</a> / <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40;sort=views">阅读</a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.40;sort=last_post">最新帖子</a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_665082"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=70834.0">汉これ~幽灵来袭！三日月下的神户攻♂守！（上）</a></span>
+<p><span id="msg_descr_665082" class="topic_description">我的敌人为什么一个能打的都没有！</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages665082"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3143 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=70834.0#msg665082"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-08-31, 周日 14:57:29<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_668162"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71113.0">汉これ~幽灵来袭！三日月下的神户攻♂守！（下）</a></span>
+<p><span id="msg_descr_668162" class="topic_description">听说，你们还没大破？……他们的rp全用在开发上了</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages668162"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3406 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71113.0#msg668162"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-14, 周日 16:31:53<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_668146"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71110.0">汉これ~幽灵来袭！三日月下的神户攻♂守！（中）</a></span>
+<p><span id="msg_descr_668146" class="topic_description">吉娃娃，吉娃娃，一只吉娃娃~</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages668146"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3252 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71110.0#msg668146"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-14, 周日 14:47:14<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_669618"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71207.0">汉これ团无限期暂停</a></span>
+<p><span id="msg_descr_669618" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages669618"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3059 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=71207.0#msg669618"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-09-20, 周六 12:16:29<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_644881"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69065.0">燃烧的拉包尔温泉镇守府~幕间　资源夺回作战！</a></span>
+<p><span id="msg_descr_644881" class="topic_description">疒矢口女夕弓长</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages644881"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+3620 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69065.0#msg644938"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-29, 周日 09:03:21<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567">粉毛提督七宫涟</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_650051"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69481.0">燃烧的拉包尔温泉镇守府~柴犬町巡行！一</a></span>
+<p><span id="msg_descr_650051" class="topic_description">新人的运气系列</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages650051"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2972 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69481.0#msg650051"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-07-14, 周一 23:09:44<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_654564"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69853.0">燃烧的拉包尔温泉镇守府~柴犬町巡行！三</a></span>
+<p><span id="msg_descr_654564" class="topic_description">粪提督沉女儿</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages654564"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3073 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69853.0#msg654564"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-07-28, 周一 21:38:53<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_652605"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69667.0">燃烧的拉包尔温泉镇守府~柴犬町巡行！二</a></span>
+<p><span id="msg_descr_652605" class="topic_description">人参淫家夕张酱与中二病npc……只百合无战斗</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages652605"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+3280 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69667.0#msg652872"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-07-22, 周二 20:06:11<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567">粉毛提督七宫涟</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_641173"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68747.0">燃烧的拉包尔温泉镇守府~近海警备　迎击敌侦察部队！一</a></span>
+<p><span id="msg_descr_641173" class="topic_description">为何五航战小黄鸭下面有洞？凶手究竟是谁？</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages641173"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3117 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68747.0#msg641173"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-15, 周日 15:48:48<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_641217"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68752.0">燃烧的拉包尔温泉镇守府~近海警备　迎击敌侦察部队！三</a></span>
+<p><span id="msg_descr_641217" class="topic_description">“看，那边有只轻空母，轻空母能为我们提供充足的铝资源，我从后面慢慢接近她”</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages641217"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2727 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68752.0#msg641217"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-15, 周日 18:58:32<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_641196"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68750.0">燃烧的拉包尔温泉镇守府~近海警备　迎击敌侦察部队！二</a></span>
+<p><span id="msg_descr_641196" class="topic_description">婊驱逐，收废铁</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages641196"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3209 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68750.0#msg641196"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-15, 周日 17:48:54<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_790216"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=84129.0">系统升级指导书</a></span>
+<p><span id="msg_descr_790216" class="topic_description">加贺指导书</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=76489" title="检视会员资料:  狐狸姊姊">狐狸姊姊</a>
+<small id="pages790216"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+2829 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=84129.0#msg790216"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2016-04-18, 周一 16:45:48<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=76489">狐狸姊姊</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_640063"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68654.0">舰ColleRPG个性速查表&amp;固有/战术能力大全</a></span>
+<p><span id="msg_descr_640063" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages640063"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+7521 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68654.0#msg677883"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-10-28, 周二 21:05:36<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567">粉毛提督七宫涟</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_640411"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68681.0">舰ColleRPG家具表（译：白雪团子 校：町城安里）</a></span>
+<p><span id="msg_descr_640411" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages640411"></small>
+</p>
+</div>
+<td class="stats windowbg">
+1 回复
+<br>
+3192 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68681.0#msg654581"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-07-28, 周一 22:21:26<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_640396"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68679.0">舰ColleRPG装备能力表（译：白雪团子 校：町城安里）</a></span>
+<p><span id="msg_descr_640396" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages640396"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+6170 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68679.0#msg677926"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-10-28, 周二 22:56:24<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567">粉毛提督七宫涟</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_640394"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68678.0">舰Colle范例卡</a></span>
+<p><span id="msg_descr_640394" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages640394"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3546 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68678.0#msg640394"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-12, 周四 21:09:18<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_641055"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68728.0">舰CRPG游戏阶段说明</a></span>
+<p><span id="msg_descr_641055" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages641055"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+7548 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68728.0#msg641077"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-15, 周日 03:08:15<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_639754"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68624.0">舰队Collection《建造之书一》简明摘要翻译</a></span>
+<p><span id="msg_descr_639754" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages639754"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+4957 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68624.0#msg639754"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-10, 周二 23:38:08<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_649484"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69452.0">舰队Collection《建造之书二》简明摘要翻译</a></span>
+<p><span id="msg_descr_649484" class="topic_description">相关表格整理开始（固有，战术，家具，装备能力，FAQ）</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages649484"></small>
+</p>
+</div>
+<td class="stats windowbg">
+0 回复
+<br>
+3912 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=69452.0#msg649484"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-07-13, 周日 18:57:22<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906">町城安里</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_638935"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68536.0">舰队Collection《着任之书》简明摘要翻译</a></span>
+<p><span id="msg_descr_638935" class="topic_description">其实我很懒，大表格一张都没翻译</span>
+<br>作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="检视会员资料:  町城安里">町城安里</a>
+<small id="pages638935"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+11649 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=68536.0#msg639774"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2014-06-10, 周二 23:56:28<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567">粉毛提督七宫涟</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/clip.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_717724"><a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=75959.0">角色卡解说</a></span>
+<p><span id="msg_descr_717724" class="topic_description"></span>
+作者 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=76489" title="检视会员资料:  狐狸姊姊">狐狸姊姊</a>
+<small id="pages717724"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+5240 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=75959.0#msg717774"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2015-04-22, 周三 15:08:49<br>
+由 <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=76489">狐狸姊姊</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页: <a class="navPages" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0;sort=subject">&#171;</a> <a class="navPages" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0;sort=subject">1</a> [<strong>2</strong>]   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;board=1124.0"><span>舰ColleRPG</span></a> (版主群: <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=7581" title="版主">china11229</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=15906" title="版主">町城安里</a>, <a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 1124,
+iCurBoardChildLevel: 2,
+sCurBoardName: "舰ColleRPG",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("d761fa95b993c84e3f1226aa27ade11a", "fa71e0d7782");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("d761fa95b993c84e3f1226aa27ade11a", "fa71e0d7782");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=0f2c50de51f4a0870017eeec00e2dbec&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

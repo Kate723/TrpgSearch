@@ -1,0 +1,795 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="王牌进化TRPG玩家手册v2.5版bug汇总贴"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>王牌进化TRPG玩家手册v2.5版bug汇总贴</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=541.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'b98e3a8add6adaeb68812f7788c636bf');">
+<div class="info">请 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">登录</a> 或 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="124984"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f37bd19',
+sSessionId: 'b98e3a8add6adaeb68812f7788c636bf'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c3"><span>跑团活动区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=574.0"><span>私有分区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=541.0"><span>王牌进化TRPG</span></a> (版主: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10530" title="版主">球球猫</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0"><span>王牌进化TRPG玩家手册v2.5版bug汇总贴</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1111234"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=124984.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 王牌进化TRPG玩家手册v2.5版bug汇总贴 &nbsp;(阅读 1290 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=quickmod2;topic=124984.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('b98e3a8add6adaeb68812f7788c636bf', 'f37bd19') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10530" title="检视会员资料:  球球猫">球球猫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1111234_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10530">
+<img class="avatar" src="/bbs/upload/avatar/av-10530.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 14774<li class="karma">苹果币: 0<li class="blurb">永不言弃的猫<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1111234">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1111234#msg1111234" rel="nofollow">王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1111234'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1111234'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-05-01, 周六 23:12:36 &#187;</div>
+<div id="msg_1111234_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1111234">感谢大家的支持，不知不觉玩家手册的2.5版本也更新完成了，在增加了最近新出的规则以及资源后，这个版本便新鲜出炉了，当然这里面可能也有很多的问题，希望有发现的大家，也能回帖指出，我也会在下个版本中将这些错误一一改正，避免给跑团带来不必要的问题，再次感谢小伙伴们~</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1111234">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1111234_signature">记得曾经在遥远的北方有过一座专门供奉猫神大人的神殿,可惜很多年以后作为信徒的我们已经再也找不到它了...<br>-------------------------------<br>欢迎大家能来王牌进化TRPG区逛逛和提意见呢~<br><a href="http://www.goddessfantasy.net/index.php?board=541" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/index.php?board=541</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1111259"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1111259_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1111259">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1111259#msg1111259" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1111259'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1111259'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-05-02, 周日 11:57:05 &#187;</div>
+<div id="msg_1111259_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1111259">ST的掉落参考,不少品质高的情况比品质低的箱子价值还低,是BUG还是?<br><br>例如正式一<br>钥匙品质13：价值450积分武器（70%）或防具（30%）+价值350积分贵重品+价值150积分战外恢复90点/战内恢复45点生命值道具+价值150积分道具+未知品<br>钥匙品质14-15：价值500积分武器或防具+价值400积分贵重品+价值180积分战外恢复80点/战内恢复40点生命值道具+未知品</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1111259">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1111272"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74967" title="检视会员资料:  rhinoking">rhinoking</a>
+</h4>
+<ul class="reset smalltext" id="msg_1111272_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 55<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1111272">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1111272#msg1111272" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1111272'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1111272'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-05-02, 周日 15:15:35 &#187;</div>
+<div id="msg_1111272_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1111272">吉赛尔的练功服套装没有级别</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1111272">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114546"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=22876" title="检视会员资料:  kurykuy">kurykuy</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114546_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 767<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114546">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1114546#msg1114546" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114546'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114546'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-05-25, 周二 10:48:24 &#187;</div>
+<div id="msg_1114546_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114546">D级主动战斗技能十字刻纹Level---1卷轴（学习前提：精神力13+，枪械4+，可以换取1000积分，【无尽武装世界】）<br>每提升1级4/7/10，子弹攻击力+2/+3/+4<br>Level---1：消耗2点精神力值＋迅捷动作，对枪膛内的一发子弹进行加持强化，该子弹本回合发挥3倍子弹攻击力(子弹攻击力低于1的子弹视为1)，冷却时间2分钟。<br>Level---4：使用者可以消耗2+N点精神力值+全回合动作，一次过对枪械内复数弹药进行加持，N为加持弹药数量，子弹攻击力固定强化2倍，效果持续至脱离战斗状态，冷却时间为原定冷却时间*N。<br>Level---7：获得特效十字星：被加持强化后的子弹击中目标体内后爆发出一个十字星图案，持续3轮，使用者使用枪械再度击中十字星图案则暴击率+1(适用于部位攻击，不可叠加优先性)，十字星图案被击中后消失，攻击十字星图案是一次特定部位攻击，命中-10，如果十字星图案出现在特定部位，命中减值叠加，被Level---4效果加持的弹药只有第一发能触发特效。<br>Level---10：十字星持续时间+3轮，本技能冷却时间减半<br><br>Q1：本技能升级带来的子弹攻击力增加的效果，受到十字刻纹LV1主动效果发挥3倍子弹攻击力的加成么？<br>Q2：物品带来的子弹攻击力增加效果，受到十字刻纹LV1主动效果发挥3倍子弹攻击力的加成么？（举例漆黑火药项链）<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">漆黑火药项链，蓝色项链饰品，品质中等，人物的子弹攻击力+1。装备自带被动技能火药急救Level---1：消耗1点精神力值+迅捷动作，人物受到5点不可减免抵消的火属性伤害（优先性），并立刻结束人物身上所有不超过C级的流血异常状态，冷却时间3轮，可以兑换500积分。</div></div></div>Q3：其他技能效果带来的子弹攻击力增加的效果，受受到十字刻纹LV1主动效果发挥3倍子弹攻击力的加成么？（举例：穿透）<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">E级被动战斗技能穿透Level---1卷轴（学习前提：枪械4+，可以换取200积分，【无尽武装世界】）<br>每提升1级4/7/10，攻击力或破甲+1/+2/+3<br>Level---1：增强枪械子弹的威力，使用枪械攻击时子弹攻击力+1，破甲+1，复数子弹攻击只影响第一发子弹。<br>Level---4：使用枪械攻击时无视5点物理伤害减免<br>Level---7：使用枪械攻击时无视10点物理伤害减免<br>Level---10：破甲效果可转换为破魔效果</div></div></div>Q4：其他技能效果带来的“子弹伤害额外+X DP”，视为增加子弹攻击力么？受到十字刻纹LV1主动效果发挥3倍子弹攻击力的加成么？（举例：重影回廊)<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">D级枪械被动技能重影回廊（学习前提：敏捷13+，精神力13+，枪械5+，可以换取1000积分）<br>每提升一级4/7/10，破甲额外+1或命中额外+1，子弹伤害额外＋1dp/破甲额外+2或命中额外+2，子弹伤害额外＋2dp/破甲额外+2或命中额外+2，子弹伤害额外＋3dp<br>Level---1：所有在自然视线中看到本次枪械射击的目标（上限2），进行一次精神力对抗，对抗成功则无视本技能效果，失败则都将视为被一颗幻影子弹所攻击，但其中只有一颗真实，人物可以在被幻影子弹命中的目标中(分开进行命中判定)，选择一个进入伤害判定阶段。<br>Level---4：目标上限+1，目标精神力对抗结果-3<br>Level---7：目标上限+3，目标精神力对抗结果-5<br>Level---10：幻影之中有两颗真实的子弹，会消耗两颗子弹，对不同目标分别结算伤害，仍视为一次攻击，选择一个目标触发效果，本效果每120分钟只会触发一次</div></div></div>Q5：其他技能带来的子弹攻击力翻倍效果，会和十字刻纹LV1主动效果发挥3倍子弹攻击力的效果叠加么？如果叠加，叠加机制是 *2*3 = *6么？（举例：子弹伤害深化LV7效果)<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">E级主动技能子弹伤害深化Level---1卷轴(学习前提，敏捷11+，枪械4+，专业手枪，可换取200积分)：当人物手枪子弹攻击命中目标时，可消耗2点精神力值对其进行标记，标记后人物对被标记者手枪子弹攻击获得1点破甲，当人物连续射中被标记者，每回合增加1dp物理伤害，若连续命中中断则标记消失。<br>每提升一级4/7/10，破甲+1/+2/+3<br>Level---4：攻击被标记者时，命中增加技能等级点<br>Level---7：标记持续时候多于3回合、攻击被标记者时，子弹攻击力翻倍<br>Level---10：攻击被标记者，命中类效果触发率+10%</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114546">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1121101"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1121101_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1121101">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1121101#msg1121101" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1121101'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1121101'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-06-30, 周三 21:01:33 &#187;</div>
+<div id="msg_1121101_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1121101"><br>■冲锋攻击<br>这是一个整轮动作。<br>先用移动动作移动到目标面前，然后进行一次近战或投掷攻击。计算人物移动到目标身边之前直线移动的距离：每1米会使人物攻击力+1，防御力－1。这一行动不可使人物获得超过力量的加值（包括技能、装备、道具等带来的加值），亦不可使人物的防御力减低到0以下。<br>★冲锋时，人物必须沿直线移动，人物和目标之间必须有一条畅通无阻的清晰路径，不能有任何东西对人物的移动形成阻碍（比如困难地形或是障碍物）。所谓“畅通无阻的清晰路径”是指：第一，人物必须能够移动到正好可以对目标作出攻击的，离人物目前位置最近的地方。（如果该位置已经被其他人占据，或是被某种东西阻挡，那么人物就无法进行冲锋。）第二，从人物冲锋起点到终点的路上，如果会穿过能够阻挡移动、减缓移动、或是被某个生物所占据的地形，那么人物就无法进行冲锋。（处于无助异常状态下的生物不会阻碍冲锋动作。）<br>★如果在人物的回合开始的时候，人物和目标之间不存在视线相连，那么人物就无法对该目标进行冲锋。<br>★冲锋可以包含在直线移动中，举例：人物冲锋10米直线外的敌人，人物可以选择普通移动7米，最后3米冲锋，攻击力+3，防御力-3。<br><br>冲锋投掷也要冲到近身吗?</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1121101">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1125958"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1125958_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1125958">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1125958#msg1125958" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1125958'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1125958'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-07-25, 周日 23:16:30 &#187;</div>
+<div id="msg_1125958_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1125958">逆血魔装，蓝色剧情上身装备，装备前需灵魂绑定，装备后体质+2，生命值上限+20，装备前提：生命值上限220+，可以换取800积分。<br>装备自带被动技能血海无限Level---1：进入战斗场景后，出现杂兵/精英/小boss级敌人，人物获得15点/20点/30点临时生命值，临时生命值在战斗状态完结时消失。<br><br>应该是银色剧情</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1125958">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126937"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126937_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126937">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1126937#msg1126937" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126937'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126937'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2021-07-31, 周六 15:17:14 &#187;</div>
+<div id="msg_1126937_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126937">由于以上以下的定义改变,以下由我编译的资源需要修改<br><br><br>符文枪：淡绿色装备(可成长)，品质中等，装备前需灵魂绑定，攻击力+5，命中+5，射程20米，自带属性子弹（只能装填专有符文弹），本装备为可成长装备，需消耗魔法阵相关图纸提升其等级（0/26），不能在梦魇空间当中利用锻造提升装备等级，装备前提：基本远战2+，枪械3+，可换取1500积分。<br>技能：属性弹：lever1：迅捷动作+1点精神力值，制造一颗有属性的子弹（冰冻、燃烧、电击、腐蚀）， 造成相应子弹的属性伤害，最大存在数（7/7）。<br>装备+4附加属性：额外增加5点攻击力<br>装备+7附加属性：符文之力(被动)，使人物施展需要消耗精神力值的C级<span style="color: red;" class="bbc_color">或以上</span>战斗栏技能时，耗费的精神力值降低1（最低1）。<br>装备+10附加属性：自发弹幕：可以花费整轮动作，消耗x点精神力值＋x发子弹，发射弹幕攻击，弹幕造成消耗子弹数x·10点范围属性能量伤害。<br>“这是一把刻了无数符文的手枪”<br>符文枪升级专用图纸（只能装备附文枪击杀梦魇世界怪物后，由宝箱中一定几率获取魔法阵图纸碎片，每三块相同的图纸可以合同一个完整的魔法阵，每一个完整的魔法阵图纸可以提升一级符文枪的等级，并获得相应的效果。捡取后立即灵魂绑定，无法换取积分，+0到+3掉落率70%，+4到+6掉落率40%，＋6到＋9杂兵级以上怪物掉落率25%，＋10精英级以上怪物掉落率10%，获得的魔法阵图纸碎片随机）：<br>威力加强魔法阵图纸，D级道具(1/1)，用于符文枪升级，只适用于+0到+3的符文枪，升级后符文枪伤害额外+5dp。<br>命中加强魔法阵图纸，D级道具(1/1)，用于符文枪升级，只适用于+0到+3的符文枪，升级后符文枪命中额外+5。<br>射程加强魔法阵图纸，D级道具(1/1)，用于符文枪升级，只适用于+0到+3的符文枪，升级后符文枪射程额外+10米。<br>弹药加强魔法阵图纸，D级道具(1/1)，用于符文枪升级，只适用于+0到+3的符文枪，升级后符文枪弹匣容量额外+1。<br>轰击魔法阵图纸，C级道具(1/1)，用于符文枪升级，只适用于+4到+6的符文枪，升级后符文枪武器攻击力额外+4。<br>精准魔法阵图纸，C级道具(1/1)，用于符文枪升级，只适用于+4到+6的符文枪，升级后符文枪命中额外+10。<br>千里魔法阵图纸，C级道具(1/1)，用于符文枪升级，只适用于+4到+6的符文枪，升级后符文枪射程额外+15米。<br>暴雨魔法阵图纸，C级道具(1/1)，用于符文枪升级，只适用于+4到+6的符文枪，升级后符文枪弹匣容量额外+2。<br><br><span style="color: red;" class="bbc_color">除了+7属性,顺道改一下掉落率使其更符合实际</span><br><br><br>强化+10<span style="color: red;" class="bbc_color">及以上</span>的武器(白/蓝/绿/亮金/银色剧情/暗金/金色剧情)。需要耗费600/1000/1200/1400/1600/1900/？？？积分+3点潜能点，投1d10出现3-10本次强化失败，失败后，装备将破碎。<br><span style="color: red;" class="bbc_color"><br>顺道再说说锻造室改善提案<br><br>改动提案2：双手武器的力量要求相关规则(即体积带来的命中减值，达到力量要求2倍及3倍时的效果)不受因强化而提升的装备前提影响<br>改动提案3：无装备前置的武器在强化时不会增加前置<br>改动提案4：装备前置条件变化；基本技能及通用技能前置要求明确为提升到+4/+7/+10才提升<br></span><br><br>加投出现2、5(、8)：被动技能丛林的法则，丛林的法则：杀死1个含精英级<span style="color: red;" class="bbc_color">或以上</span>敌人后自动回复10(15)点生命值，在野外进行潜行、生存、调查判定得到+1自动成功及1DP1次额外重掷机会。生命值上限+30(45)，此能力不能重复出现。<br><br><br>Level---10获得特效弹幕：消耗5点精神力值+整轮动作，射出至少十件蓝色等级<span style="color: red;" class="bbc_color">或以上</span>武器，对一片2x2范围内的所有目标进行一次范围攻击，范围伤害=射出武器数量x10，射出25件武器或更多则可以把复盖范围提升到3x3，无法触发武器特效<br><br>自动获得被动技能投掷精通Level---1 ：传说中的忍者投射著忍具击杀敌人。投掷体积2<span style="color: red;" class="bbc_color">或以下</span>投掷道具时命中+4。<br><br><br>喷火式止血工具，D级道具(6/6），用火焰灼烧伤口强行止住流血的奇怪工具，对伤口使用后目标马上受到1d6*5点火属性灼烧伤害，然后消除目标身上所有C+级<span style="color: red;" class="bbc_color">或以下</span>的自然类型流血状态及所有D+级<span style="color: red;" class="bbc_color">或以下</span>的超自然类型流血状态，可以换取150积分。<br><br><br><br>臣具：普罗米修斯，银色剧情手枪，装备前需灵魂绑定，攻击力9，射程100米，弹数9/9，使用5.56mm口径子弹，敏捷+2，命中+10，装备前提：枪械4+，基本远战3+，敏捷16+，可以换取2950积分，装备自带主动技能花式射击Level---1：消耗迅捷动作+1点精神力值，本回合装备者可以进行曲射和弹跳射击使子弹能够击中不在直线范围中的目标，部位攻击减值－4，无视部份掩护<span style="color: red;" class="bbc_color">及以下</span>的减值，大量掩护命中减值改为-10，每使用一次，普罗米修斯命中-2，直到战斗场景结束。<br><br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126937">
+&#171; <em>上次编辑: 2021-07-31, 周六 15:37:47 由 凌枫</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1128869"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1128869_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1128869">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1128869#msg1128869" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1128869'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1128869'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-08-10, 周二 23:19:20 &#187;</div>
+<div id="msg_1128869_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1128869"><br>D级主动技能原力防御Level---1（学习前置条件：绝地学徒，神秘学5+，可以换取500积分）：原力强化生理机能中肌体防御力的成分。消耗移动动作+2点精神力值，人物防御力由60%体质加成提升到70%体质加成，持续3轮。<br>每提升一级4/7/10体质加成增加3%/体质加成增加4%/体质加成增加5%<br>Level-----4：获得5点物理伤害减免<br>Level-----7：获得20点全能量抗性<br>Level-----10：获得5点全伤害吸收<br><br>绝地武士流派技能 没有提到远程防御的算法</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1128869">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1128870"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778" title="检视会员资料:  凌枫">凌枫</a>
+</h4>
+<ul class="reset smalltext" id="msg_1128870_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=43778">
+<img class="avatar" src="/bbs/upload/avatar/avatar_43778_1364997208.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5912<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1128870">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1128870#msg1128870" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1128870'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1128870'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-08-10, 周二 23:33:44 &#187;</div>
+<div id="msg_1128870_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1128870">配方·护腕-次级耐力（学习前提：附魔6+，可以换取350积分），研读配方之后，可以学会附魔初级耐力，附魔材料：灵魂之尘x2，消耗标准动作+1点精神力值，给一件不超过亮金色等级的鞋子附魔次级耐力，该护腕获得装备者体质+3临时效果，无法叠加，持续6轮。<br>(前后不一致,施法目标到底是护腕还是鞋子?)<br><br><br>配方·武器-次级打击（学习前提：附魔7+，可以换取400积分），研读配方之后，可以学会附魔次级打击，附魔材料：灵魂之尘x2+大块微光碎片，消耗标准动作+1点精神力值，给一件不超过蓝色等级的近战武器附魔初级打击，该近战武器获得装备者造成物理伤害额外+9dp临时效果，无法叠加，持续6轮。<br>(次级效果应该是亮金色上限?)<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1128870">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1130104"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=156650" title="检视会员资料:  花庭">花庭</a>
+</h4>
+<ul class="reset smalltext" id="msg_1130104_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1130104">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.msg1130104#msg1130104" rel="nofollow">Re: 王牌进化TRPG玩家手册v2.5版bug汇总贴</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1130104'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1130104'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> <strong>今天</strong>15:28:38 &#187;</div>
+<div id="msg_1130104_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1130104">2.5版本没有详细的关于混合伤害的说明，仅在数码宝贝Cosplay系列中的零式巡航导弹中有一句模糊的说明，没有详细说明关于混合伤害减免判定的明细。混合伤害是的减免是多种减免一同计算还是取低计算？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1130104">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=124984.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c3"><span>跑团活动区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=574.0"><span>私有分区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=541.0"><span>王牌进化TRPG</span></a> (版主: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=10530" title="版主">球球猫</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=124984.0"><span>王牌进化TRPG玩家手册v2.5版bug汇总贴</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 124984,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 124984,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f37bd19" value="b98e3a8add6adaeb68812f7788c636bf" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="124984" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'b98e3a8add6adaeb68812f7788c636bf\', \'f37bd19\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;' + '?topic=124984.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 1290 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 541,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "王牌进化TRPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 541,
+							iTopicId: 124984,
+							sSessionId: "b98e3a8add6adaeb68812f7788c636bf",
+							sSessionVar: "f37bd19",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

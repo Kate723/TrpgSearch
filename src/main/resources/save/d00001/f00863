@@ -1,0 +1,677 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【规则翻译】全视之眼游戏示例"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【规则翻译】全视之眼游戏示例</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1944.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="124756"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1944.0"><span>迷雾之城（City of Mist）</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="版主">拂晓鵺啼</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83615" title="版主">莫茗</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0"><span>【规则翻译】全视之眼游戏示例</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1109457"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=124756.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【规则翻译】全视之眼游戏示例 &nbsp;(阅读 9413 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=124756.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109457_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109457">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109457#msg1109457" rel="nofollow">【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109457'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109457'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-04-19, 周一 00:53:06 &#187;</div>
+<div id="msg_1109457_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109457"><div style="text-align: right;">译：六号 校：拂晓鵺啼</div><hr /><span style="font-family: 楷体;" class="bbc_font"><strong>恩奇都警探</strong>是老练的硬派警探，近来她在“全知之眼调查团”秘密兼职。她的外表冷硬，但她的体内却寄宿着一只充满野性的怪物。这股源自苏美尔神话的力量驱使她去破坏的，恰恰是那些她竭力守护的规则。<br><br><strong>特拉洛克</strong>是个能说会道的三流骗子，实际上却是块未经雕琢的璞玉。他从来不想帮助别人，只想管好自己的事……但后来，神话存在特拉洛克在他身上觉醒，那是掌管雨水和雷电的阿兹特克神明。他在获得这份新的力量的同时，也背负起了守护城市的责任。</span><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109457">
+&#171; <em>上次编辑: 2021-04-19, 周一 01:19:10 由 拂晓鵺啼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109458"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109458_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109458">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109458#msg1109458" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109458'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109458'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-04-19, 周一 00:57:39 &#187;</div>
+<div id="msg_1109458_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109458"><strong>西蒙尼</strong>和<strong>格雷</strong>分别扮演<strong>恩奇都警探</strong>和<strong>特拉洛克</strong>。在被一个可疑的家伙欺骗并为之获取非法物品后，他们已经深入调查。<br><br><strong>MC：</strong>看来你们有这家伙足够多的信息，就那个拉尔斯·埃里克森，足以断定他就是想要骗你偷那箱子的幕后黑手。你们要怎么做？<br><br><strong>西蒙妮：</strong>我想我们会去蓝牡蛎餐厅，我们知道他总是出现在那里。是时候和他对质了。<br><br><strong>格雷：</strong>没错。我期待着弄清楚这家伙到底是什么人。<br><br><strong>MC：</strong>不错。你俩开着恩奇都警探的警车，到了蓝牡蛎所在的轻工业区。这是个阴雨连绵的下午。你们途经工厂、仓库和窗户上满是煤灰的红砖办公楼。你们最终发现了藏在两家工厂之间一条小巷里的蓝牡蛎的大招牌。外头很吵，在转入小巷时，蒸汽在你们前面的路面上翻腾。这家餐厅位于一座改建仓库的二楼。你们搭上电梯，它通向一个小型的等候区，还有一扇正开着的双开门。有位女招待站在前台旁边，她的写字夹板正放在那里。你们刚从电梯出来，她就发现了。海鲜和蚝油的气味欢迎着你们来到蓝牡蛎。爵士乐从里面传来。<br><br><strong>西蒙妮：</strong>恩奇都警探是典型的警察，所以她对特拉洛克保护过度了，众所周知，特拉洛克总会惹上各式各样的麻烦。她会说：“当心点。我们不知道他是谁，也不知道他的故事。让我来说话。”<br><br><strong>格雷：</strong>特拉洛克就只是耸耸肩。我要在恩奇都做她的事的时候四处转转，试着扫一眼女招待的写字夹板。我在找拉尔斯·埃里克森这个名字。<br><br><strong>MC：</strong>很好，这是调查动作，因为你毕竟是在寻求信息。你会用到哪些标签？<br><br><strong>格雷：</strong>我有<span style="color: orange;" class="bbc_color"><em>暗中观察</em></span>和<span style="color: orange;" class="bbc_color"><em>顺手牵羊</em></span>。两个力量标签，所以效力是2。<br><br><strong>MC：</strong>投吧：和平常一样两个六面骰，再加上你的效力。<br><br><strong>格雷：</strong>我掷出了5和3，再加2。总共是10，所以它在10+的范围里。<br><br><strong>MC：</strong>太棒了！这个调查动作给了你两条线索，你想怎么用就怎么用。每个线索你可以问我任何一个你想问的问题，我会给你一条信息。你投出了10+，所以这次没有情况复杂化。<br><br><strong>格雷：</strong>真爽。所以特拉洛克在等候区转来转去，嚼着口香糖，看上去很不起眼。恩奇都一走到女招待跟前，特拉洛克就试图把她的写字夹板拿过来瞅瞅，然后放回去。所以第一个线索，我想问的是“拉尔斯·埃里克森在这儿吗？”<br><br><strong>MC：</strong>很快你的眼睛就捕捉到了拉尔斯·埃里克森的名字，他今天预定了这个时段的两个位置。按理说，他现在应该就在这里。<br><br><strong>格雷：</strong>完美。我还想问“他坐在哪里？”<br><br><strong>MC：</strong>你看到了餐厅的地图，知道了他的位置。其实你越过双开门看到了他，在餐厅尽头那边。你看到一个40多岁的男人，头发大部是金色，两鬓斑白，穿着套灰色的西服。他旁边站着一个大块头，穿着黑色西装，看起来像个侍者或是保镖，你不确定。当然你也没办法知道这是不是拉尔斯·埃克里森，但那是他的桌子。恩奇都警探，你要做什么？<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109458">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109459"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109459_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109459">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109459#msg1109459" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109459'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109459'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-04-19, 周一 01:00:21 &#187;</div>
+<div id="msg_1109459_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109459"><strong>西蒙妮：</strong>警探仍然对这个神奇小子的所作所为一无所知，她走到女招待面前，亮出了她的警徽，说道“下午好，小姐。我正在找你的某位顾客，拉尔斯·埃克里森。” 我等着看她的回应。<br><br><strong>MC：</strong>她快速地浏览了下写字夹板上的名单，然后假笑着回答：“抱歉女士，今天没有叫这个名字的顾客。”<br><br><strong>西蒙妮：</strong>嗯？我回头困惑地看着特拉洛克。<br><br><strong>格雷：</strong>我摇头，表示她在撒谎。<br><br><strong>西蒙妮：</strong>我转头对女招待说：“你再看看，一定是搞错了。他应该就在这里。我得进去和他谈谈。”<br><br><strong>MC：</strong>她不安地踱步。“对不起，警探，但我们是体面的餐厅。客户的隐私对我们而言很重要，除非您有搜查令……”<br><br><strong>西蒙妮：</strong>我们走着瞧。我打算试试威胁她来让我进去。我有标签<span style="color: orange;" class="bbc_color"><em>警徽</em></span>和<span style="color: orange;" class="bbc_color"><em>你归我管</em></span>，这样可以吗。<br><br><strong>MC：</strong>可以。这是<strong>说服</strong>动作。你有两个力量标签，所以你的效力是2。<br><br><strong>西蒙妮：</strong>我说“听着，小姐。你想成为罪犯逍遥法外的帮凶吗？我不这么认为。所以让开。”我板着脸把徽章挂在皮带扣上。我掷骰的结果是5，总共是7，所以这是7~9。<br><br><strong>MC：</strong>作为<strong>说服</strong>动作，你让她做出选择：承受一个状态还是照你说的做。你投出了7~9，所以如果她选择照你说的做，她仍然可以维护自己的主张。如果她拒绝，你会给她什么样的状态？你掷骰的效力是2，所以这个状态的等级也是2。<br><br><strong>西蒙妮：</strong>警探不是坏人，但她很直率。比方说，如果女招待拒绝，她就需要承受<span style="color: green;" class="bbc_color"><em>动摇-2</em></span>。现在轮到她来选择是否帮我了，对吗？<br><br><strong>MC：</strong>对。她上下打量着你，不寒而栗，试图权衡自己是否应该掺合此事。然后她往餐厅里面看了看，好像在找她的老板。“请快点，如果有人询问，告诉他们你是顾客。”她让开了路。<br><br><strong>西蒙妮：</strong>“不是第一次了……”我进去了。<br><br><strong>格雷：</strong>特拉洛克紧跟在恩奇都警探后面，脱口而出：“我们一起的。”<br><br><strong>MC：</strong>女招待困惑地看了你一眼，但她后退了。<br><br><strong>格雷：</strong>在我们走进餐厅时，我赶紧把埃里克森的事告诉了警探。<br><br><strong>MC：</strong>当然可以。餐厅的空间很宽敞，分成了很多半圆形的卡座，与其他的卡座错位相对。墙壁和家具的装饰经过艺术设计。人们一边吃午餐，一边大声交谈，声音太大了，几乎听不到左手边爵士乐队演奏的声音。在右侧尽头，有一扇带两个圆形窗户的对开双向门，旁边是一个小窗口，服务员正排队取走热气腾腾的餐点。你认为是拉尔斯·埃里克森的那人衣领里塞着餐巾，独自在最远的卡座里用餐，这个座位略高，可以俯瞰整个餐厅。当你走近时，他那名站在卡座前的男仆低声说了些什么，拉尔斯抬起头来看着你。<br><br><strong>西蒙妮：</strong>我径直走向桌子。<br><br><strong>MC：</strong>男仆挡住了你的路。你近距离看清了他的样貌——他是个6尺4寸高的肌霸，黄褐皮肤，黑色短发，罗马鼻。“你找错桌了，在你被烤熟前趁早滚开。”<br><br><strong>西蒙妮：</strong>我对他露出了牙齿：“我们来看看谁会被烤熟。”<br><br><strong>格雷：</strong>当这俩牲口互相打量的时候，特拉洛克站了出来。“拉尔斯·艾克里森，对吧？听着伙计，我们是你派去给你偷箱子的。找你真难，你知道不？你似乎很容易让人忘记你。你能告诉我那个箱子里有什么重要的吗？还有你到底在为谁工作？”<br><br><strong>MC：</strong>你在调查吗？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109459">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109460"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109460_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109460">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109460#msg1109460" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109460'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109460'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-04-19, 周一 01:04:15 &#187;</div>
+<div id="msg_1109460_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109460"><strong>格雷：</strong>不，这会儿我只是看看他被揪出来的反应。<br><br><strong>MC：</strong>好的。你从他的眼神里中看出，他确实没想到你会找到他，这多少证实了他的确是你认为的那个人。他咀嚼着一小块儿牡蛎肉时，把牡蛎壳放在了盘子上——然后掀翻了桌子！<br><br><strong>西蒙妮：</strong>龟孙儿！<br><br><strong>MC：</strong>恩奇都，你还有其他问题要操心。男仆的眼睛里开始涌出燃烧的红色熔岩。当他张开嘴时，鼻孔里开始冒出烟来，他微微张开的嘴巴被喉咙深处仿佛电与火的光芒照亮了。而且，似乎这还不够，他的皮肤开始变得黝黑，金属化，就像块熟铁。<br><br><strong>西蒙妮：</strong>“你——他妈——是啥？”<br><br><strong>MC：</strong>透过他嘴里冒出的烟云，他说“伏尔~甘”。<br><br><strong>西蒙妮：</strong>好的，我要现出我的<span style="color: orange;" class="bbc_color"><em>荆棘触须</em></span>，他完蛋了。<br><br><strong>MC：</strong>当看到你俩上演的怪咖秀时，餐馆里的人开始惊慌、尖叫，躲在桌子后或跑向门口。<br><br><strong>格雷：</strong>埃里克森在哪儿？<br><br><strong>MC：</strong>他掀翻那张大圆桌的时候，你有那么一瞬间看不见他。现在桌子倒下来之后，他已经不在那里了。<br><br><strong>格雷：</strong>该死。我想找到他，所以我进行<strong>调查</strong>。我没有标签能帮上忙，所以效力是0。我投出了8，所以这是7~9。<br><br><strong>MC：</strong>即便你的效力是0，你还是能得到一条线索。<br><br><strong>格雷：</strong>太好了。关于我的这条线索，我想问：<em>他在哪儿？</em><br><br><strong>MC：</strong>你看到他冲向厨房的双向门，推开挡在他路上的服务员和顾客。你不太清楚他是怎么从高高的隔间桌子后面跑到地板上去的，但他就在那儿。不过这个7~9，我作为MC可以从列表中选择一项复杂情况。我选择你的调查使你暴露在危险之中，当你专注于你的空间知觉时，伏尔甘开始向你和警探喷射燃烧的熔岩。你可以很轻松地避开这股喷流，但只要它擦到了你，它也会给你施加<span style="color: green;" class="bbc_color"><em>严重烧伤-2</em></span>的状态。你们都得投<strong>直面危险</strong> 。<br><br><strong>格雷：</strong>啊！附近有一小片水体吗？我想变成水、潜入水中来尝试逃开。<br><br><strong>MC：</strong>嗯……附近都是牡蛎冰桶，我会让你用的，因为这是个有创意的点子。<br><br><strong>格雷：</strong>就这样！我要使用<span style="color: orange;" class="bbc_color"><em>化我为水</em></span>和<span style="color: orange;" class="bbc_color"><em>水体穿行</em></span>来避开喷流，从几英尺外的另外一个牡蛎冰桶出来。我投出了6，加上两点效力，是8。所以是7~9，我承受了这种状态，但是下调一级。<br><br><strong>MC：</strong>确实。就在你完全液化前，喷流击中了你。不过它是一级而不是两级。拿一张记录卡，然后写上<span style="color: green;" class="bbc_color"><em>刺痒灼伤-1</em></span>。<br><br><strong>西蒙妮：</strong>我要使用<span style="color: orange;" class="bbc_color"><em>野兽体魄</em></span>。我投出了11！总共是12，属于10+。根据这个动作，我毫发无伤，也无需承受状态。我得说恩奇都已经习惯了在战斗中躲闪，所以她通过跳跃和翻滚来避开了伏尔甘的喷流。<br><br><strong>MC：</strong>漂亮！伏尔甘似乎正沉迷于对周围大肆破坏，这给了你短暂的机会。接下来你要怎么做？<br><br><strong>西蒙妮：</strong>恩奇都真的生气了，所以她要消灭这个家伙。就在我转身的时候，我向他甩出半打荆棘触须，同时我向他扑去，想把他击倒。他毫无防备，所以我猜这是全力一击？我会用<span style="color: orange;" class="bbc_color"><em>荆棘触须</em></span>和<span style="color: orange;" class="bbc_color"><em>野兽体魄</em></span>来获得两点效力。<br><br><strong>MC：</strong>你觉得恩奇都现在是因为个人因素进入这场战斗吗？我将激活你的弱点标签，<span style="color: orange;" class="bbc_color"><em>别太自我</em></span>。这让你的效力减1，但你也能在这个主题上标记1点焦点。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109460">
+&#171; <em>上次编辑: 2021-04-19, 周一 01:09:05 由 拂晓鵺啼</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109461"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109461_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109461">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109461#msg1109461" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109461'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109461'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-04-19, 周一 01:08:41 &#187;</div>
+<div id="msg_1109461_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109461"><strong>西蒙妮：</strong>没问题！我想她确实把他当成了目标，她也没细想她的行动。所以我的掷骰是1点效力，而不是2点。我投出了8，总共是9。所以我可以从列表中选一项。我选择狠狠挫败，把我的状态等级提高1。基础等级和我的效力相同为1，所以我能施加一个2级的状态，例如<span style="color: green;" class="bbc_color"><em>不辨方向-2</em></span>。<br><br><strong>MC查看了伏尔甘的数据，他有个<span style="color: red;" class="bbc_color"><em>伤害：4</em></span>状态频谱，这就是说他承受4级的物理伤害状态时会被击溃。然而他有一项自制动作，金属皮肤，可以将他即将承受的物理伤害状态的等级降低1级。MC向玩家展示了这项自制动作并继续。</strong><br><br><strong>MC：</strong>你对他重重一击，他翻倒在地，仰面朝天，他像口空锅砸到地上一样发出了巨大的响声，但并没有达到你预期的效果——他看起来很惊讶但并没有完全晕头转向。他承受状态<span style="color: green;" class="bbc_color"><em>头晕目眩-1</em></span>。当他站起来的时候，你看到他衣服上被你触须命中的地方有几个破洞。破洞下面黑色的金属皮肤毫发无损。特拉洛克，拉尔斯和他被击倒的男仆之间有很大一段距离了。他快到门口了——你的行动是？<br><br><strong>格雷：</strong>我追赶拉尔斯！我想再次利用冰桶出现在他前面，绊倒他。我要用<span style="color: orange;" class="bbc_color"><em>化我为水</em></span>和<span style="color: orange;" class="bbc_color"><em>水体穿行</em></span>来达成到这个目的，效力为2。<br><br><strong>MC：</strong>因为这是你们两人之间的对抗，所以你将进行<strong>针锋相对</strong>。然而，你有<span style="color: green;" class="bbc_color"><em>刺痒灼伤-1</em></span>状态，会阻碍你将其绊倒的行动……将其等级从你的效力中减去，所以效力减1，总效力为1。<br><br><strong>格雷：</strong>好的。我投出了6，所以是7。在7~9中，我从以下三个选项中选择一个：达成我的目标——我估计就是绊倒他——保护自己、或给他施加一个状态。我选择第一项：特拉洛克变成水传送到埃里克森将要通过的门然后绊倒他！<br><br><strong>MC：</strong>哎呀！埃里克森先生从厨房的双向门撞了进来，滑倒在厨房油腻的地板上。他脸向下着地，但很快翻身起来，冷冷地瞪着你。既然你没有选择保护自己，那么他会赋予你一个状态。他摸索着西装外套，摸出根弯曲的木棍指着你。刚开始，这看起来很可笑，似乎没什么效果。但你看这个木棍越久，你就越不确定他到底是不是拉尔斯·埃里克森。实际情况是，你不知道这个人是谁，也不知道你来这里干什么。你即将承受状态<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>。<br><br><strong>格雷：</strong>不可能！这家伙是谁？！特拉洛克尖叫道：“滚出我的脑袋！“我能用标签<span style="color: orange;" class="bbc_color"><em>自我激励</em></span>来抵抗它吗？我还有个状态是<span style="color: green;" class="bbc_color"><em>刺痒灼伤-1</em></span> 。<br><br><strong>MC：</strong><span style="color: orange;" class="bbc_color"><em>自我激</em></span>励听起来不像是能帮你抵御它。<em><span style="color: green;" class="bbc_color">刺痒灼伤-1</span></em>对这种状况也没用。看来你没有能力<strong>直面危险</strong>，因此承受了完整的<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>……<br><br><strong>格雷：</strong>*叹气*西蒙妮，再给我一张记录卡。<br><br><strong>MC：</strong>你挣扎着回想这人是谁，为什么你要追他，但这些从你脑海中溜走了。从现在起，任何试图抓住他的动作都将效力减3。<br><br><strong>格雷：</strong>“恩奇都！救命啊！”<br><br><strong>MC：</strong>她得搞定她自己的问题……<br><br><strong>西蒙妮：</strong>我不喜欢这样。我得拿下这个伏尔甘，这样才能去帮助特拉洛克。我想<strong>改变局势</strong>，这样我就不用光是狂战了。这家餐馆有自动灭火系统，对吧？我要砸破几个喷淋器来开启它们。我使用<span style="color: orange;" class="bbc_color"><em>荆棘触须</em></span>，这样我的效力就是1。我投出了10！<br><br><strong>MC：</strong>真幸运！在10+时，你至少得到2点活力。你可以将活力花在创建或移除标签与状态上。通常情况下这是临时的 ，所以它只对一个动作起效，但是你投出了10+，你可以消耗一点活力来产生持续的效果。<br><br><strong>西蒙妮：</strong>就是这样——我想给这家餐厅加上<span style="color: orange;" class="bbc_color"><em>湿冷</em></span>的标签，让它持续下去。这是我2点活力的用法。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109461">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109462"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109462_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109462">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109462#msg1109462" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109462'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109462'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-04-19, 周一 01:15:10 &#187;</div>
+<div id="msg_1109462_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109462"><strong>MC：</strong>这应该能熄灭你的怒火。惊惶的尖叫声被喷淋装置喷出的“大雨”淹没了，现在那些原本躲着的人都争先恐后的朝门口跑去，离开了这里。你和伏尔甘面对面立在潮湿烧焦的地毯和家具当中。他比你高出许多，他肚子里发出的隆隆声让你知道，他将要喷吐地狱烈焰了。从你上次攻击中幸存下来让他有恃无恐，他骄傲的挺起胸膛，好像在等待你的下一次攻击。<br><br><strong>西蒙妮：</strong>他不是这间屋子里的最锋利的杀器，对吧？这是我除掉他的机会。我迅速掏出我的枪，试图射中他的锁骨，他这里的皮肤应该很薄。这次我要燃尽标签 。再见了，<span style="color: orange;" class="bbc_color"><em>制式手枪</em></span>，我得把你划掉了。所以我不需要掷骰，而且获得了3点效力，最终结果是10。因为他只是站在那里等着我打他，所以这是<strong>全力一击</strong>。是10+，我可以选两项。首先我选择狠狠挫败，+1等级。我的基础效力是3，所以最后是4级。比如说<span style="color: green;" class="bbc_color"><em>枪弹伤-4</em></span>。其次，我选择占据上风并得到1活力。利用活力给他加上临时状态<span style="color: green;" class="bbc_color"><em>穿透-1</em></span>。<br><br><strong>MC：</strong>哇哦！在这种情况下，我判定这个<span style="color: green;" class="bbc_color"><em>穿透-1</em></span>防止了他的自制动作把你造成的状态等级从4降为3。他被击中了胸口，金属皮肤龟裂，被冲击力撞到了墙上，摔在地上不省人事。熔岩从他身上涌出，他的皮肤变得白热，开始从他身上淌到地板上。<br><br><strong>西蒙妮：</strong>哦吼！<br><br><strong>MC：</strong>因为你在<strong>全力一击</strong>时没有选择保护自己，所以你也会受到攻击。飞溅的熔岩和金属冲向了你的方向，会导致你承受<span style="color: green;" class="bbc_color"><em>严重烧伤-2</em></span>。<br><br><strong>西蒙妮：</strong>我试着用<span style="color: orange;" class="bbc_color"><em>野兽体魄</em></span>躲避，但我的最终结果只有4，所以我吃满了状态。唉！记录卡，来妈妈这儿。<br><br><strong>MC回顾了伏尔甘的数据。他此前已经在<span style="color: red;" class="bbc_color"><em>伤害：4</em></span>频谱获得过1级状态。因为新的4级状态比之前的1级的状态等级更高，所以取代了原有状态。在4级时，这个频谱已经达到了最大值，这意味着这个危险因素已经被战胜。不过伏尔甘还有另外的自制动作。</strong><br><br><strong>MC：</strong>这个危险因素还有个自制动作，那就是：当你打败伏尔甘时，如果你弄破他的金属皮肤，他就会像火山一样爆发。<br><br><strong>西蒙妮：</strong>啥啥啥？我得说我已经打破它了！<br><br><strong>MC：</strong>你开始听到男仆无力的身体发出隆隆声。烟雾从金属皮肤被打破的地方升起，其下的正常皮肤下看起来是半透明的，发出橘红色的光芒，并且开始膨胀……厨房里的特拉洛克，这里的喷淋器是开着的，霓虹灯闪烁着。拉尔森·埃里克斯站起身来，小心翼翼地看着你，看你会怎么做。他还拿着那根弯曲的木棍。<br><br><strong>格雷：</strong>我忘了想从他身上得到什么，那我演一下。我试图通过闲聊来分散他的注意力，同时去抓他手里的棍子。这是<strong>针锋相对</strong>，但是我要燃尽我<span style="color: orange;" class="bbc_color"><em>无情的交际机器</em></span>标签。我的效力是3，最终结果是10，我的状态在这种情况会产生影响吗？<br><br><strong>MC：</strong>会。我得说<span style="color: green;" class="bbc_color"><em>刺痒灼伤-1</em></span>和<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>都会拖后腿，但只取用等级更高的。效力减3，所以就是你骰出了7，效力是0。<br><br><strong>格雷：</strong>好吧。我说：“先生，拜托，我不想打架。为什么我们不能像正常人一样坐下来谈谈呢？“然后我选择达成我的目标，抓住他的棍子。<br><br><strong>MC：</strong>他分心了，把棍子稍稍垂下了一小会，正好你从他手里将之夺了过来。然而，你又一次没有选择保护自己。你拿到了那根棍子，但在你抓住它之前，他又挥动了一下。骰直面危险对抗对又一个<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>。<br><br><strong>格雷：</strong>嗯，我也这么觉得。我没有任何东西可以保护我免受他巫术的伤害，所以需要承受完整的<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>。这和我现有的<span style="color: green;" class="bbc_color"><em>遗忘-3</em></span>频谱相同，所以我在同一张记录卡上再添上3个格子，对吧？这让我的状态变成了4级。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109462">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1109463"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="检视会员资料:  拂晓鵺啼">拂晓鵺啼</a>
+</h4>
+<ul class="reset smalltext" id="msg_1109463_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 101<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1109463">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1109463#msg1109463" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1109463'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1109463'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2021-04-19, 周一 01:18:32 &#187;</div>
+<div id="msg_1109463_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1109463"><strong>MC：</strong>所以你现在的状态是<span style="color: green;" class="bbc_color"><em>抓住记忆的最后一根稻草-4</em></span>。除了模糊地记得你为什么要追这个人，别的都不记得了。如果的状态到了5级，你会完全忘记。<br><br><strong>格雷：</strong>特拉洛克结结巴巴地问：“你……你是谁?”<br><br><strong>MC：</strong>“那不重要，”站在喷淋器喷出的水和闪烁的霓虹光线中，埃里克森用低沉而平静的声音中说道，“我在此地是来告诉你，我们的城市将会发生一起非常重大的事件。这事你曾经在你的启示中看到：第五纪的太阳被抹除。”<br><br><strong>格雷：</strong>哦，不！他触及了我的谜题！我的角色想知道“谁威胁要掩盖第五纪的太阳？”<br><br><strong>MC：</strong>这时，餐厅里发生了巨大的爆炸，把你们所有人都震倒在地。火焰似乎吞没了一切，而你，特拉洛克，当你重整旗鼓的时候，你看到熔岩般的物质滴在双向门的圆形玻璃窗上，随着它的淌下玻璃也被融化。在你周围的混乱中，你看到了拉尔斯·埃里克森朝后门走去。“我们走吧，我会告诉你我所知的第五纪太阳之死的讯息。”虽然你不记得这个人是谁，但你知道你的朋友陷入了餐厅里的大火中，可能需要你的帮助。你要做什么？<br><br><strong>格雷：</strong>这真是艰难的抉择。怎么办？我真的好想知道他有什么信息，我对他的怀疑最多也不超过路人的程度，因为我基本忘记了为什么要找他。另一方面我也不想让我的朋友死去。<br><br><strong>西蒙妮：</strong>我还没死呢！<br><br><strong>格雷：</strong>对，但是特拉洛克不知道。让第五太阳见鬼去吧，我要违背这个谜题去救恩奇都警探。我觉得特拉洛克深吸一口气，长叹一声，然后说：“我必须去帮我的朋友。”他即将转身背对拉尔斯，走向那扇双向门。我标记了淡出，表示他违背了他的谜题。<br><br><strong>MC：</strong>戏剧性的选择。<br><br><strong>格雷：</strong>不过……在我离开之前，我想做最后尝试一次阻止此人。我几乎不记得他是谁，也不记得我为什么要这么做，但我内心深处的某些东西告诉他不可信任。我觉得他现在浑身都湿透了。全力一击需要绝好机会——我有吗？<br><br><strong>MC：</strong>你有，他应该会认为你急着去救你的朋友。<br><br><strong>西蒙妮：</strong>哦，真的吗？为什么他会这么想？哈哈。<br><br><strong>格雷：</strong>别担心，我能搞定的，我能在冰桶里移动。所以我从<span style="color: orange;" class="bbc_color"><em>呼风唤雨</em></span>和<em><span style="color: orange;" class="bbc_color">掌控雷电</span></em>还有喷淋器的<span style="color: orange;" class="bbc_color"><em>湿冷</em></span>标签中获得了3点效力。但是我的负面状态把效力降到了-1。哦不，我投出了5。噫！六及以下。<br><br><strong>在所有的核心动作（除了直面危险）出现6及以下的时候，MC可以进行他自己的动作。他查看了MC动作列表选择了“拒绝他们想要的”，这看起来很合适。</strong><br><br><strong>MC：</strong>闪电迅疾，但是迷雾更快。当你在电光缭绕中积蓄力量时，你已经完全忘记了你为什么要这样做。一个你从未见过的穿灰色西装的男人站在后门，看上去很急躁。“这餐厅要塌了，你朋友有麻烦了！”他撂下这句话就冲出了门外，消失了。<br><br><strong>格雷：</strong>糟了。我要赶紧去帮恩奇都警探。<br><br><strong>MC：</strong>我们在这里中断。那么你们两位都从着火的大楼中死里逃生。消防队员，警察和急救人员到达了现场。如果你们在附近多呆会，你们会听到顾客向周围的警察报告这里发生的事情。有些人提到了你，恩奇都，要么说你是引发火灾的人，要么说你是启动灭火系统帮忙灭火的人。然而，他们都没有提到拉尔斯·埃里克森。如果在这里没有进一步的行动，那么接下来是你们的<strong>蒙太奇（幕间）</strong>动作。<br><br><strong>西蒙妮：</strong>太棒了！我整个下午的时间都呆在警局的健身房，打拳发泄情绪。我选择把花时间<em>聚焦于</em>我的硬派警探主题，所以我又得到了一个焦点。此前我已经有一点了，我在战斗中得到了一点，这样我总共有三点，所以我可以兑换一项提升！我觉得新的力量标签<span style="color: orange;" class="bbc_color"><em>无限制武力</em></span>好像很合适。<br><br><strong>格雷：</strong>特拉洛克整个下午都待在团队的办公室，坐在办公室旁端着一杯浓咖啡，摆弄着从拉尔斯那里偷来的棍子。我选择<em>从上次行动中恢复</em>的选项。我能移除当前的全部状态吗？<br><br><strong>MC：</strong>这种情况下，你当然可以。<br><br><strong>格雷：</strong>不错，所以特拉洛克治好了烧伤，这很好，但是当他坐在桌子前检查这个——我猜它是支魔杖吧？——他突然停了下来，自言自语：“我想起来了，全都想起来了。”<br><br><strong>MC：</strong>未完待续！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1109463">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1113211"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=89158" title="检视会员资料:  Star.G">Star.G</a>
+</h4>
+<ul class="reset smalltext" id="msg_1113211_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=89158">
+<img class="avatar" src="/bbs/upload/avatar/avatar_89158_1621562423.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 36<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1113211">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.msg1113211#msg1113211" rel="nofollow">Re: 【规则翻译】全视之眼游戏示例</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1113211'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1113211'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-05-17, 周一 16:40:43 &#187;</div>
+<div id="msg_1113211_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1113211">太有意思了！期待后续！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1113211">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=124756.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1944.0"><span>迷雾之城（City of Mist）</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79630" title="版主">拂晓鵺啼</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83615" title="版主">莫茗</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124756.0"><span>【规则翻译】全视之眼游戏示例</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 124756,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 124756,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="124756" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=124756.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9413 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1944,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "迷雾之城（City of Mist）",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1944,
+							iTopicId: 124756,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

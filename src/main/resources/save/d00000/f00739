@@ -1,0 +1,427 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="表情符号 - SMF 使用者帮助"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>表情符号 - SMF 使用者帮助</title>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"><span>说明</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=admin;area=smileys"><span>表情符号</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<div id="main_container">
+<div id="left_admsection"><span id="admin_menu"></span>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+新手上路
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=introduction">前言</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=main_menu">主选单</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index">版块列表</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=message_view">帖子列表</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view">主题检视</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+注册
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=when_how">何时何地开始注册</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=registration_screen">注册画面</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=activating_account">启用帐号</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=logging_in">登录与登出</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=password_reminders">密码提示</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+个人资料
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=profile_info">个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=modify_profile">修改个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=actions">执行动作</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+发表功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics">帖子, 投票和活动</a>
+<li>
+<strong><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=smileys">表情符号</a></strong>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=bbcode">BB码</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+简讯功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=messages">简讯</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+论坛工具
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=searching">搜寻</a>
+</ul>
+</div>
+</div>
+<div id="main_admsection">
+<div class="cat_bar">
+<h3 class="catbg">说明</h3>
+</div>
+<div class="title_bar">
+<h4 class="titlebg">表情符号</h4>
+</div>
+<div id="help_container">
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div id="helpmain">
+<p>Below is a list of the smileys available on this forum. Note that smileys may differ from forum to forum.</p>
+<p>Please note that not all of the smiley codes will be correctly parsed and converted to images unless their opening spaces are present.</p>
+<table cellspacing="1" cellpadding="3" class="table_grid">
+<thead>
+<tr class="catbg">
+<th class="first_th">Name<th>Image (click to insert)<th class="last_th">Code (type to insert)</tr>
+
+<tbody>
+<tr class="windowbg">
+<td>lipsrsealed<td><img src="/bbs/Smileys/converted/lipsrsealed.gif" alt="&#58;lipsrsealed&#58;" title="lipsrsealed" border="0" class="smiley"/><td>:lipsrsealed:</tr>
+<tr class="windowbg2">
+<td>embarrassed<td><img src="/bbs/Smileys/converted/embarrassed.gif" alt="&#58;embarrassed&#58;" title="embarrassed" border="0" class="smiley"/><td>:embarrassed:</tr>
+<tr class="windowbg">
+<td>undecided<td><img src="/bbs/Smileys/converted/undecided.gif" alt="&#58;undecided&#58;" title="undecided" border="0" class="smiley"/><td>:undecided:</tr>
+<tr class="windowbg2">
+<td>:rolleyes:<td><img src="/bbs/Smileys/converted/rolleyes.gif" alt="&#58;rolleyes&#58;" title="&#58;rolleyes&#58;" border="0" class="smiley"/><td>:rolleyes:</tr>
+<tr class="windowbg">
+<td>&lt;_&lt;<td><img src="/bbs/Smileys/converted/dry.gif" alt="&amp;lt;_&amp;lt;" title="&amp;lt;_&amp;lt;" border="0" class="smiley"/><td>&lt;_&lt;</tr>
+<tr class="windowbg2">
+<td>shocked<td><img src="/bbs/Smileys/converted/shocked.gif" alt="&#58;shocked&#58;" title="shocked" border="0" class="smiley"/><td>:shocked:</tr>
+<tr class="windowbg">
+<td>:mellow:<td><img src="/bbs/Smileys/converted/mellow.gif" alt="&#58;mellow&#58;" title="&#58;mellow&#58;" border="0" class="smiley"/><td>:mellow:</tr>
+<tr class="windowbg2">
+<td>:unsure:<td><img src="/bbs/Smileys/converted/unsure.gif" alt="&#58;unsure&#58;" title="&#58;unsure&#58;" border="0" class="smiley"/><td>:unsure:</tr>
+<tr class="windowbg">
+<td>cheesy<td><img src="/bbs/Smileys/converted/cheesy.gif" alt="&#58;cheesy&#58;" title="cheesy" border="0" class="smiley"/><td>:cheesy:</tr>
+<tr class="windowbg2">
+<td>smiley<td><img src="/bbs/Smileys/converted/smiley.gif" alt="&#58;smiley&#58;" title="smiley" border="0" class="smiley"/><td>:smiley:</tr>
+<tr class="windowbg">
+<td>police<td><img src="/bbs/Smileys/converted/police.gif" alt="&#58;police&#58;" title="police" border="0" class="smiley"/><td>:police:</tr>
+<tr class="windowbg2">
+<td>:wacko:<td><img src="/bbs/Smileys/converted/wacko.gif" alt="&#58;wacko&#58;" title="&#58;wacko&#58;" border="0" class="smiley"/><td>:wacko:</tr>
+<tr class="windowbg">
+<td>:blink:<td><img src="/bbs/Smileys/converted/blink.gif" alt="&#58;blink&#58;" title="&#58;blink&#58;" border="0" class="smiley"/><td>:blink:</tr>
+<tr class="windowbg2">
+<td>:ph34r:<td><img src="/bbs/Smileys/converted/ph34r.gif" alt="&#58;ph34r&#58;" title="&#58;ph34r&#58;" border="0" class="smiley"/><td>:ph34r:</tr>
+<tr class="windowbg">
+<td>angel<td><img src="/bbs/Smileys/converted/angel.gif" alt="&#58;angel&#58;" title="angel" border="0" class="smiley"/><td>:angel:</tr>
+<tr class="windowbg2">
+<td>blank<td><img src="/bbs/Smileys/converted/blank.gif" alt="&#58;blank&#58;" title="blank" border="0" class="smiley"/><td>:blank:</tr>
+<tr class="windowbg">
+<td>angry<td><img src="/bbs/Smileys/converted/angry.gif" alt="&#58;angry&#58;" title="angry" border="0" class="smiley"/><td>:angry:</tr>
+<tr class="windowbg2">
+<td>:em001<td><img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/><td>:em001</tr>
+<tr class="windowbg">
+<td>:em002<td><img src="/bbs/Smileys/converted/Lem02.GIF" alt="&#58;em002" title="&#58;em002" border="0" class="smiley"/><td>:em002</tr>
+<tr class="windowbg2">
+<td>:em003<td><img src="/bbs/Smileys/converted/Lem03.GIF" alt="&#58;em003" title="&#58;em003" border="0" class="smiley"/><td>:em003</tr>
+<tr class="windowbg">
+<td>:em004<td><img src="/bbs/Smileys/converted/Lem04.GIF" alt="&#58;em004" title="&#58;em004" border="0" class="smiley"/><td>:em004</tr>
+<tr class="windowbg2">
+<td>:em005<td><img src="/bbs/Smileys/converted/Lem05.GIF" alt="&#58;em005" title="&#58;em005" border="0" class="smiley"/><td>:em005</tr>
+<tr class="windowbg">
+<td>:em006<td><img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/><td>:em006</tr>
+<tr class="windowbg2">
+<td>:em007<td><img src="/bbs/Smileys/converted/Lem07.GIF" alt="&#58;em007" title="&#58;em007" border="0" class="smiley"/><td>:em007</tr>
+<tr class="windowbg">
+<td>:em888<td><img src="/bbs/Smileys/converted/goldpieces.gif" alt="&#58;em888" title="&#58;em888" border="0" class="smiley"/><td>:em888</tr>
+<tr class="windowbg2">
+<td>:em889<td><img src="/bbs/Smileys/converted/silverpieces.gif" alt="&#58;em889" title="&#58;em889" border="0" class="smiley"/><td>:em889</tr>
+<tr class="windowbg">
+<td>:em890<td><img src="/bbs/Smileys/converted/copperpieces.gif" alt="&#58;em890" title="&#58;em890" border="0" class="smiley"/><td>:em890</tr>
+<tr class="windowbg2">
+<td>:em008<td><img src="/bbs/Smileys/converted/em008.GIF" alt="&#58;em008" title="&#58;em008" border="0" class="smiley"/><td>:em008</tr>
+<tr class="windowbg">
+<td>:em009<td><img src="/bbs/Smileys/converted/em009.GIF" alt="&#58;em009" title="&#58;em009" border="0" class="smiley"/><td>:em009</tr>
+<tr class="windowbg2">
+<td>:em010<td><img src="/bbs/Smileys/converted/em010.GIF" alt="&#58;em010" title="&#58;em010" border="0" class="smiley"/><td>:em010</tr>
+<tr class="windowbg">
+<td>:em011<td><img src="/bbs/Smileys/converted/em011.GIF" alt="&#58;em011" title="&#58;em011" border="0" class="smiley"/><td>:em011</tr>
+<tr class="windowbg2">
+<td>:em012<td><img src="/bbs/Smileys/converted/em012.GIF" alt="&#58;em012" title="&#58;em012" border="0" class="smiley"/><td>:em012</tr>
+<tr class="windowbg">
+<td>:em013<td><img src="/bbs/Smileys/converted/em013.GIF" alt="&#58;em013" title="&#58;em013" border="0" class="smiley"/><td>:em013</tr>
+<tr class="windowbg2">
+<td>:em014<td><img src="/bbs/Smileys/converted/em014.GIF" alt="&#58;em014" title="&#58;em014" border="0" class="smiley"/><td>:em014</tr>
+<tr class="windowbg">
+<td>:em015<td><img src="/bbs/Smileys/converted/em015.GIF" alt="&#58;em015" title="&#58;em015" border="0" class="smiley"/><td>:em015</tr>
+<tr class="windowbg2">
+<td>:em016<td><img src="/bbs/Smileys/converted/em016.gif" alt="&#58;em016" title="&#58;em016" border="0" class="smiley"/><td>:em016</tr>
+<tr class="windowbg">
+<td>:em017<td><img src="/bbs/Smileys/converted/em017.gif" alt="&#58;em017" title="&#58;em017" border="0" class="smiley"/><td>:em017</tr>
+<tr class="windowbg2">
+<td>:em018<td><img src="/bbs/Smileys/converted/em018.GIF" alt="&#58;em018" title="&#58;em018" border="0" class="smiley"/><td>:em018</tr>
+<tr class="windowbg">
+<td>:em019<td><img src="/bbs/Smileys/converted/em019.gif" alt="&#58;em019" title="&#58;em019" border="0" class="smiley"/><td>:em019</tr>
+<tr class="windowbg2">
+<td>:em020<td><img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/><td>:em020</tr>
+<tr class="windowbg">
+<td>:em021<td><img src="/bbs/Smileys/converted/em021.gif" alt="&#58;em021" title="&#58;em021" border="0" class="smiley"/><td>:em021</tr>
+<tr class="windowbg2">
+<td>:em022<td><img src="/bbs/Smileys/converted/em022.gif" alt="&#58;em022" title="&#58;em022" border="0" class="smiley"/><td>:em022</tr>
+<tr class="windowbg">
+<td>:em023<td><img src="/bbs/Smileys/converted/em023.gif" alt="&#58;em023" title="&#58;em023" border="0" class="smiley"/><td>:em023</tr>
+<tr class="windowbg2">
+<td>:em024<td><img src="/bbs/Smileys/converted/em024.gif" alt="&#58;em024" title="&#58;em024" border="0" class="smiley"/><td>:em024</tr>
+<tr class="windowbg">
+<td>:em025<td><img src="/bbs/Smileys/converted/em025.gif" alt="&#58;em025" title="&#58;em025" border="0" class="smiley"/><td>:em025</tr>
+<tr class="windowbg2">
+<td>:em026<td><img src="/bbs/Smileys/converted/em026.gif" alt="&#58;em026" title="&#58;em026" border="0" class="smiley"/><td>:em026</tr>
+<tr class="windowbg">
+<td>:em027<td><img src="/bbs/Smileys/converted/em027.gif" alt="&#58;em027" title="&#58;em027" border="0" class="smiley"/><td>:em027</tr>
+<tr class="windowbg2">
+<td>:em028<td><img src="/bbs/Smileys/converted/em028.gif" alt="&#58;em028" title="&#58;em028" border="0" class="smiley"/><td>:em028</tr>
+<tr class="windowbg">
+<td>:em029<td><img src="/bbs/Smileys/converted/em029.gif" alt="&#58;em029" title="&#58;em029" border="0" class="smiley"/><td>:em029</tr>
+<tr class="windowbg2">
+<td>:em030<td><img src="/bbs/Smileys/converted/em030.gif" alt="&#58;em030" title="&#58;em030" border="0" class="smiley"/><td>:em030</tr>
+<tr class="windowbg">
+<td>:em031<td><img src="/bbs/Smileys/converted/em031.gif" alt="&#58;em031" title="&#58;em031" border="0" class="smiley"/><td>:em031</tr>
+<tr class="windowbg2">
+<td>:em032<td><img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/><td>:em032</tr>
+<tr class="windowbg">
+<td>grin<td><img src="/bbs/Smileys/converted/grin.gif" alt="&#58;grin&#58;" title="grin" border="0" class="smiley"/><td>:grin:</tr>
+<tr class="windowbg2">
+<td>evil<td><img src="/bbs/Smileys/converted/evil.gif" alt="&#58;evil&#58;" title="evil" border="0" class="smiley"/><td>:evil:</tr>
+<tr class="windowbg">
+<td>kiss<td><img src="/bbs/Smileys/converted/kiss.gif" alt="&#58;kiss&#58;" title="kiss" border="0" class="smiley"/><td>:kiss:</tr>
+<tr class="windowbg2">
+<td>afro<td><img src="/bbs/Smileys/converted/afro.gif" alt="&#58;afro&#58;" title="afro" border="0" class="smiley"/><td>:afro:</tr>
+<tr class="windowbg">
+<td>:mad:<td><img src="/bbs/Smileys/converted/mad.gif" alt="&#58;mad&#58;" title="&#58;mad&#58;" border="0" class="smiley"/><td>:mad:</tr>
+<tr class="windowbg2">
+<td>:huh:<td><img src="/bbs/Smileys/converted/huh.gif" alt="&#58;huh&#58;" title="&#58;huh&#58;" border="0" class="smiley"/><td>:huh:</tr>
+<tr class="windowbg">
+<td>:lol:<td><img src="/bbs/Smileys/converted/laugh.gif" alt="&#58;lol&#58;" title="&#58;lol&#58;" border="0" class="smiley"/><td>:lol:</tr>
+<tr class="windowbg2">
+<td>:wub:<td><img src="/bbs/Smileys/converted/wub.gif" alt="&#58;wub&#58;" title="&#58;wub&#58;" border="0" class="smiley"/><td>:wub:</tr>
+<tr class="windowbg">
+<td>cry<td><img src="/bbs/Smileys/converted/cry.gif" alt="&#58;cry&#58;" title="cry" border="0" class="smiley"/><td>:cry:</tr>
+<tr class="windowbg2">
+<td>azn<td><img src="/bbs/Smileys/converted/azn.gif" alt="&#58;azn&#58;" title="azn" border="0" class="smiley"/><td>:azn:</tr>
+<tr class="windowbg">
+<td>^_^<td><img src="/bbs/Smileys/converted/happy.gif" alt="^_^" title="^_^" border="0" class="smiley"/><td>^_^</tr>
+<tr class="windowbg2">
+<td>-_-<td><img src="/bbs/Smileys/converted/sleep.gif" alt="-_-" title="-_-" border="0" class="smiley"/><td>-_-</tr>
+<tr class="windowbg">
+<td>Smiley<td><img src="/bbs/Smileys/converted/smile.gif" alt="&#58;&#41;" title="Smiley" border="0" class="smiley"/><td>:)</tr>
+<tr class="windowbg2">
+<td>Wink<td><img src="/bbs/Smileys/converted/wink.gif" alt=";&#41;" title="Wink" border="0" class="smiley"/><td>;)</tr>
+<tr class="windowbg">
+<td>Cheesy<td><img src="/bbs/Smileys/converted/biggrin.gif" alt="&#58;D" title="Cheesy" border="0" class="smiley"/><td>:D</tr>
+<tr class="windowbg2">
+<td>Sad<td><img src="/bbs/Smileys/converted/sad.gif" alt="&#58;&#40;" title="Sad" border="0" class="smiley"/><td>:(</tr>
+<tr class="windowbg">
+<td>Shocked<td><img src="/bbs/Smileys/converted/ohmy.gif" alt="&#58;o" title="Shocked" border="0" class="smiley"/><td>:o</tr>
+<tr class="windowbg2">
+<td>Tongue<td><img src="/bbs/Smileys/converted/tongue.gif" alt="&#58;P" title="Tongue" border="0" class="smiley"/><td>:P</tr>
+<tr class="windowbg">
+<td>B)<td><img src="/bbs/Smileys/converted/cool.gif" alt="B&#41;" title="B&#41;" border="0" class="smiley"/><td>B)</tr>
+
+</table>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+</div>
+</div>
+</div><br class="clear"/>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

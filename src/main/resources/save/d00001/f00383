@@ -1,0 +1,707 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="补充规则：社群（施工中）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>补充规则：社群（施工中）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1334.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="119288"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1334.0"><span>真女神转生</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=42483" title="版主">维克那</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0"><span>补充规则：社群（施工中）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1064943"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=119288.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 补充规则：社群（施工中） &nbsp;(阅读 5642 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=119288.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1064943_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1064943">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1064943#msg1064943" rel="nofollow">补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1064943'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1064943'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2020-07-28, 周二 19:00:02 &#187;</div>
+<div id="msg_1064943_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1064943">一楼惯例留空，职业的帖子先搁置一下。放个感觉会比较有人感兴趣的规则。和这篇相关的还有一个绊规则，<del>之后看心情更</del>。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1064943">
+&#171; <em>上次编辑: 2020-07-28, 周二 19:02:53 由 戴耳环的少年</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1064957"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1064957_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1064957">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1064957#msg1064957" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1064957'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1064957'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2020-07-28, 周二 21:06:13 &#187;</div>
+<div id="msg_1064957_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1064957"><strong><span style="font-size: 18pt;" class="bbc_size">社群/コミュニティ</span></strong><br><br>当角色与“某人”（或“某物”）缔结羁绊时，“社群”就将从中诞生。同学，上司，同伴，契约的恶魔，敬拜的神灵……与通常被认为的不同，即使缔结了羁绊的伙伴已经消失了，或是从一开始就不存在的事物又或是没有形体的事物，只要角色能从中感受到羁绊，那么“社群”便存在于此。<br>每个社群都拥有“社群点数”、“社群等级”、“社群关键词”、“神威”和“认可等级”。<br>其中“社群点数”用于表示pc对相应社群的贡献度和联系的深刻程度。<br>“社群关键词”和“神威”用于表示该社群所拥有的特征和性格以及通过这个社群能得到的好处和坏处。<br><br>为了GM和PL自主制作社群时的需要，本文准备了数个社群模板。<br>基本上个人社群，概念上的社群，小规模的团体社群可以拥有最多八个神威，大规模的团体社群则有最多十个（可以比这个更少）。<br>在补充规则书《闇のプロファイル》上刊载的社群数据中，大规模的团体社群并不设置“○○的祝福”系神威，相反个人社群和概念上的社群有着重视“礼物/ギフト”和“○○的祝福”系神威的倾向。不过这充其量只是一个方针。希望GM在和PL商量的基础上决定适合的关键词和神威<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1064957">
+&#171; <em>上次编辑: 2020-07-29, 周三 14:26:39 由 戴耳环的少年</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1065081"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1065081_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1065081">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1065081#msg1065081" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1065081'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1065081'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2020-07-29, 周三 16:59:56 &#187;</div>
+<div id="msg_1065081_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1065081"><strong><span style="font-size: 18pt;" class="bbc_size">社群点数/コミュ・ポイント</span></strong><br><br><em>对于社群的绊点数及贡献点数全部视作“社群点数”处理</em>*。每10点社群点数对应一个社群等级。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">绊点数出自replay小说《退魔学生会》中收录的绊规则，贡献点数收录于扩展规则书《金刚神界》，没有启用这两种规则的话无视这句话就好。</div></div></div>如果PC对该社群做了某种程度的贡献，便能得到1d10〜3d10左右的社群点数（社群点数上升时社群等级也随之上升）。社群点数的上限是100点，社群等级的上限是10级。<br><ul class="bbc_list"><li>角色的制作和社群点数</ul>&nbsp; &nbsp; &nbsp;制作角色时可以向任意社群分配合计共“3*等级”的点数。<br>&nbsp; &nbsp; &nbsp;要为一个社群分配36点以上的话需要GM的许可。此外，除非在故事上有特殊的理由，否则不推荐在制作角色阶段就持有多个超过50点的社群。<br><ul class="bbc_list"><li>逆置*</ul>&nbsp; &nbsp;如果做出不利于社群的事情或背叛社群，依GM的判断将减少1d10~3d10点的社群点数。如果这导致当前社群等级下降，则该社群变成“逆置”状态，在认可等级的记入栏上填入“R”。处于逆置状态期间不能得到该社群认可，不得使用神威。逆置状态在得到社群点数，社群等级上升时解除。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">neta源大概是P3中引入的塔罗牌逆置机制</div></div></div><ul class="bbc_list"><li>社群精通*</ul>&nbsp; &nbsp; 社群点数达到100时，那个社群就被“精通”了。达到社群精通时如果社群等级下降了，以剩下的社群点数作为判定值进行PR，成功的话不会变成逆置状态（但点数还是照常下降）。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">コミュ・マスター，P4G繁中译：彻底熟悉社群。</div></div></div><ul class="bbc_list"><li>社群的变更</ul>&nbsp; &nbsp; 社群本身是会发生变化的。<br>&nbsp; &nbsp; GM可以应故事情节的发展指示PC变更社群。如果此时社群在发展的倾向上发生了改变，社群点数减少10点（不足20点时减半）。如果是诸如社群解体这般急剧变化的话，社群点数减半。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1065081">
+&#171; <em>上次编辑: 2020-08-23, 周日 11:27:41 由 戴耳环的少年</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1118219"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1118219_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1118219">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1118219#msg1118219" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1118219'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1118219'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-06-15, 周二 19:01:46 &#187;</div>
+<div id="msg_1118219_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1118219"><strong><span style="font-size: 18pt;" class="bbc_size">社群关键字/コミュ・キーワード</span></strong><br><br>社群持有的关键字被称作“社群关键字”。各角色依社群等级每三级获得一个该社群持有的关键字。从社群处得到的关键字最多可以持有命运上限值个。<br>社群关键字也可以被写作“社群关键字（社群关键字）”（这种情况被称为等价关键字），在适用交涉规则时这些关键字也可以当作括号内的关键字来使用。另外，等价关键字的形式也能够被解释成社群将“对原本关键字的看法”记述在括号内。<br>当然，GM也可以配合游戏的氛围或故事的进展对此作出不同的解释，如果有必要的话也可以对关键字进行更改。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1118219">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1118224"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1118224_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1118224">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1118224#msg1118224" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1118224'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1118224'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-06-15, 周二 19:17:38 &#187;</div>
+<div id="msg_1118224_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1118224"><strong><span style="font-size: 18pt;" class="bbc_size">社群的属性/コミュニティの属性</span></strong><br><br>每个社群都拥有1个属性，这个属性是根据该社群的性格或成员的属性，由GM和PL商量来决定的。这一属性表明了整个社区的方向性，同时也表达了PC是如何看待社区的。<br>社群的属性限制了能够使用的“神威”的种类。另外，根据上级职业的不同，会对持有特定属性社群的等级有要求*。<br>社群的属性可能会随着故事的进展和角色在世界中的地位的改变而改变。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">译者注：例如LawHERO就要求持有一个以上5级以上Law属性的社群，且持有的所有Chaos属性社群等级不得大于4</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1118224">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1118287"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1118287_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1118287">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1118287#msg1118287" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1118287'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1118287'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-06-15, 周二 20:32:44 &#187;</div>
+<div id="msg_1118287_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1118287"><strong><span style="font-size: 18pt;" class="bbc_size">个人社群/プライベート・コミュニティ</span></strong><br><br>特定角色之间缔结的社群被称作“个人社群”。GM可以将各PC的联系者替换为社群，这种情况下社群等级从一开始就被视为3级（30点社群点数）。如果这些联系者是某个组织的领导者之类的话，也可能会持有强力的神威。<br><ul class="bbc_list"><li>特别的关系</ul>&nbsp; &nbsp; &nbsp;如果对于某个人的社群等级达到了或以上的话，那个人和pc就会成为“特别的关系”。这表示两人之间已经构筑了诸如恋爱关系或家人般的关系等更加密切的信赖关系。<br>&nbsp; &nbsp; &nbsp;如果和复数的<strong>异性</strong>角色成为了特别的关系*，每上升其中一个角色的社群点数，其他角色则必然下降一点（即使一次性上升了2点以上，其他角色下降的社群点数也只会是1点）。若结果导致社群等级下降，则对应社群变为“逆置”状态。<br>&nbsp; &nbsp; &nbsp;此外，如果PC被另一个有特别关系的异性看到与一个异性亲密的样子，GM可以根据情况减少1d10-3d10的社群点数。然而，对于那些明显超越了嫉妒之类情绪的角色也可能不会受到这种影响。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">已经不能再回头了.jpg</div></div></div><ul class="bbc_list"><li>对于概念上存在的社群</ul>&nbsp; 可以对武器之类没有生命的东西或者信仰和骑士精神之类没有形体的东西建立社群。尽管这种社群的神威有着诸多限制，但是使用得当的话也能成为强大的助力。对于死者的社群也归到这一类当中。<br><ul class="bbc_list"><li>个人社群模板</ul><table class="bbc_table"><tr><td>角色名<td>解说<td>关键字<td> <td> <td> <td>神威<td> <td> <td> <td> <td> <td> <td> </tr><tr><td>爱慕的人<td>恋人或配偶等，最为重要的异性<td>爱<td>忠诚<td>献身<td>贞节<td>目撃者<td>事情通?<td>ギフト(异界GP+5以下のアイテム1つ/100)<td>命运の祝福<td>加护の祝福<td>解放の祝福<td>复活の祝福<td>敬天爱人</tr><tr><td>家族<td>血亲或同居者、当作家人一样抚养的义兄弟等。<td>家族（爱）<td>母爱（献身）<td>父亲的威严(高洁)<td> <td>定期収入<td>庇护<td>目撃者<td>贷与?<td>ギフト(异界GP以下のアイテム1つ/50)<td>命运の祝福<td>平等の祝福<td>正しき道</tr><tr><td>同学<td>同年级的学生，又或者前辈后辈等年龄相近的学生。<td>流言（知识）<td>恋爱<td>上课（勤勉）<td>社团（武艺）<td>たまり场<td>目撃者<td>事情通?<td>调达?<td>命运の祝福<td>加护の祝福<td>解放の祝福<td>复活の祝福</tr><tr><td>师傅<td>曾经师从的恩师，流派的师傅等<td>武艺/魔术（知识）<td>高洁<td>顽固<td>任性<td>たまり场<td>庇护<td>魔匠または合体施设<td>事情通?<td>贷与?<td>ギフト(异界GP+5以下のアイテム1つ/100)<td>邪悪の封印<td>正しき道</tr><tr><td>同事<td>在同一个职场工作的同事（也包含前同事）<td>家族(和平)<td>经济(世界の运命)<td>转职(救济)<td>工作（勤勉）<td>定期収入<td>派遣指令<td>事情通(特)<td>调达?<td>贷与?<td>命运の祝福<td>平等の祝福<td>敬天爱人</tr><tr><td>后援者<td>来自政治家和企业家朋友的强大支持。<td>政治（世界的命运）<td>敌对的政治活动家（宿敌）<td>支援者（守护）<td>政治信条（忠诚）<td>定期収入<td>庇护<td>集结命令<td>特别任务<td>事情通?<td>调达?、?<td>贷与? <td> </tr><tr><td>分开了的朋友<td>曾经特别亲近的朋友或家人<td>离别（孤独）<td>再会（梦）<td>回忆（前世）<td> <td>ギフト(日常GP以下の装备1つ/50)<td>ギフト(异界GP以下のアイテム1つ/70)<td>ギフト(异界GP+5以下のアイテム1つ/100)<td>命运の祝福<td>加护の祝福<td>解放の祝福<td>平等の祝福<td>复活の祝福</tr></table><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><em>译者注：神威是一个类似于技能的系统，因为数据量较大，这部分暂不翻译</em></div></div></div><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">有没有人教我一下怎么给表格画线 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1118287">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1118295"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1118295_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1118295">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1118295#msg1118295" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1118295'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1118295'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2021-06-15, 周二 20:50:26 &#187;</div>
+<div id="msg_1118295_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1118295"><strong><span style="font-size: 18pt;" class="bbc_size">团体社群/グループ・コミュニティ</span></strong><br><br><ul class="bbc_list"><li>小规模的团体社群</ul>&nbsp; &nbsp; &nbsp;指的是社团活动或职场这样由几人到二十人这样，最多也不足百人的对于团体的社群。虽然这样的团体只能行使低级的神威，但是相对的不需要对社群作出太大的贡献。<br>&nbsp; &nbsp; &nbsp;在大规模的团体中也可能会形成数个小规模的社群。<br><ul class="bbc_list"><li>大规模的团体社群</ul>&nbsp; &nbsp;“弥赛亚教会”、“盖亚教团”等少则百人以上，有时能达到数以亿万计的成员的社群。虽然有着强力的神威，但是相应的也被期待以较大的贡献作为交换。<br><ul class="bbc_list"><li>排他性的社群</ul>&nbsp; &nbsp; 如果同时对敌对关系中的两个社群做出贡献，对一方的贡献会降低另一方的社群点数。这被称作“排他性的社群”。<br>&nbsp; &nbsp; 举个例子，弥赛亚教会和盖亚教团互相具有排他性，因此每当弥赛亚教会的社群点数上升，对盖亚教团的社群点数就会下降1点（即使一次性上升的是两点以上也只下降1点）。 另外，如果对一个社群的贡献被另一个社群知道，GM可以根据情况减少1d10-3d10的社群点数。<br><br><ul class="bbc_list"><li>团体社群模板</ul>&nbsp; &nbsp; <table class="bbc_table"><tr><td>团体名<td>解说<td>关键字<td> <td> <td> <td>神威<td> <td> <td> <td> <td> <td> <td> </tr><tr><td>社团（体育系） <td>田径部、游泳部等体育系社团 <td>社团活动（武艺） <td>流言（知识） <td>バラエティ(享楽的) <td>サボタージュ(怠惰) <td>たまり场 <td>特待生 <td>集结命令 <td>目撃者 <td>事情通? <td>调达? <td>贷与? <td>平等の祝福 </tr><tr><td>社团（文化系） <td>摄影部、吹奏学部之类的文化系社团 <td>社团活动（艺术） <td>流言（知识） <td>奇妙的兴趣 <td>日常(平和) <td>たまり场 <td>集结命令 <td>目撃者 <td>事情通?〜? <td>调达? <td>命运の祝福 <td>&nbsp; <td>&nbsp; </tr><tr><td>职场 <td>普通打工人的职场 <td>流言（知识） <td>日常（和平） <td>工作（勤勉） <td>家族（守护） <td>たまり场 <td>定期収入 <td>目撃者 <td>事情通?、? <td>调达?、? <td>贷与? <td>&nbsp; <td>&nbsp; </tr><tr><td>宗教团体 <td>在大范围内拥有影响力的大规模宗教团体 <td>教义（献身） <td>保守性（顽固） <td>伟大目标（忠诚） <td>劝诱（战斗） <td>たまり场 <td>庇护 <td>回复施设?、? <td>事情通? <td>调达? <td>贷与?、? <td>信徒集结 <td>虚空蔵菩萨の慈悲 </tr><tr><td>秘密结社 <td>排他性的社群，如新兴宗教和邪教。 <td>团体的规定（献身） <td>信条（顽固） <td>不承认他人（自大） <td>对首领的忠诚（忠诚） <td>たまり场 <td>回复施设? <td>集结命令 <td>事情通?、? <td>贷与? <td>银の键 <td>五行遁甲の结界 <td>&nbsp; </tr><tr><td>政治团体 <td>拥有强大政治力的政党及其支援团体 <td>政治主张（顽固） <td>竞争政党（宿敌） <td>选举（战斗） <td>下届内阁（世界的命运） <td>定期収入 <td>庇护 <td>集结命令 <td>派遣指令 <td>特别任务 <td>事情通?、? <td>调达?、? <td>隠蔽 </tr></table></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1118295">
+&#171; <em>上次编辑: 2021-06-15, 周二 21:10:32 由 戴耳环的少年</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1118403"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534" title="检视会员资料:  ピアスの少年">ピアスの少年</a>
+</h4>
+<ul class="reset smalltext" id="msg_1118403_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=102534">
+<img class="avatar" src="/bbs/upload/avatar/avatar_102534_1623774588.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="blurb">ある时、私は蝶になった梦を见た<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1118403">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.msg1118403#msg1118403" rel="nofollow">Re: 补充规则：社群（施工中）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1118403'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1118403'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-06-16, 周三 10:12:49 &#187;</div>
+<div id="msg_1118403_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1118403">还差神威，就是游戏里commu和coop升级之后会得到的效果。先占个楼到时编辑掉 <img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1118403">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=119288.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1334.0"><span>真女神转生</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=42483" title="版主">维克那</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119288.0"><span>补充规则：社群（施工中）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 119288,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 119288,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="119288" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=119288.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 5642 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1334,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "真女神转生",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1334,
+							iTopicId: 119288,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

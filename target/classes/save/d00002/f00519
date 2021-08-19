@@ -1,0 +1,1335 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢之守护神RPG（メタリックガーディアンRPG）-基本规则书"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.20"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="77570"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0"><span>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg735854"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=77570.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">1</a> [<strong>2</strong>] <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">3</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.60">4</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">&#187;</a>   &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post_locked_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢之守护神RPG（メタリックガーディアンRPG）-基本规则书 &nbsp;(阅读 88014 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 超级机器人TRPG</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=77570.20" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_735854_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_735854">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg735854#msg735854" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_735854'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_735854'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #20 于:</strong> 2015-07-10, 周五 22:18:44 &#187;</div>
+<div id="msg_735854_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_735854"><span style="font-size: 18pt;" class="bbc_size"><strong>同盟级/ユニオン/Union</strong></span><br><br><span style="font-size: 14pt;" class="bbc_size">■类别解说</span><br>能够和其他守护神合体的特殊守护神，这就是同盟级。<br>作为合体机能的副产品，其也拥有极高的变形能力（毕竟如果不能变形的话合体便无从谈起）。坦克形态、列车形态、飞机形态……同盟级大多拥有各式各样姿态。<br>虽然说单体状态下也能凭借高机动性获得足够的战斗力，但要发挥出其最大力量的话果然还是得进行合体。<br><span style="color: white;" class="bbc_color">最合适的例子应该是GN弓手。其他的话……或许电童的数据武器和新大空魔龙的各种合体支援萝卜也算？<br>顺带，书中同盟级的范例妹子好萌prprprpr（死）。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■构筑资料</span><br>▼加护<br>《布拉基/ブラギ》<br>▼能力基本值<br>体力：5&nbsp; &nbsp; &nbsp; &nbsp; 理知：4<br>反射：4&nbsp; &nbsp; &nbsp; &nbsp; 意志：4<br>知觉：3&nbsp; &nbsp; &nbsp; &nbsp; 幸运：4<br>▼自动取得道具<br>常备化一件[种类：守护神（同盟级）]的物品。从人类用武装·防具中，选择●手枪常备化，选择驾驶员制服常备化。<br><br><span style="font-size: 14pt;" class="bbc_size">■加护</span><br><span style="font-size: 12pt;" class="bbc_size">布拉基/ブラギ</span><br>对象：单体<br>宣言：随时<br>效果：通过利用ALTIMA的同步机能，使其他机体的AL粒子活性化以增强加护。诗歌与雄辩之神布拉基是其名字由来。<br>对象取得的一个加护，使用次数增加一次。效果具体适用于哪个加护由你决定。指定加护还没使用过的场合，也能够增加使用次数。通过《布拉基/ブラギ》增加了使用次数的加护具体要如何使用，由对象（那个加护的持有者）决定。如果人物没有取得传导者的话，该加护不能通过自由选择被选作第三加护。<br><br><span style="font-size: 14pt;" class="bbc_size">●类别修正表</span><br><table class="bbc_table"><tr><td><div align="center"><strong>等级</strong></div><td><div align="center"><strong>1</strong></div><td><div align="center"><strong>2</strong></div><td><div align="center"><strong>3</strong></div><td><div align="center"><strong>4</strong></div><td><div align="center"><strong>5</strong></div><td><div align="center"><strong>6</strong></div><td><div align="center"><strong>7</strong></div><td><div align="center"><strong>8</strong></div><td><div align="center"><strong>9</strong></div><td><div align="center"><strong>10</strong></div></tr><tr><td><div align="center"><strong>命中</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>回避</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>炮击</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>防壁</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>行动</strong></div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+7</div><td><div align="center">+8</div><td><div align="center">+9</div></tr><tr><td><div align="center"><strong>力场</strong></div><td><div align="center">+6</div><td><div align="center">+12</div><td><div align="center">+18</div><td><div align="center">+24</div><td><div align="center">+30</div><td><div align="center">+36</div><td><div align="center">+42</div><td><div align="center">+48</div><td><div align="center">+54</div><td><div align="center">+60</div></tr><tr><td><div align="center"><strong>耐久</strong></div><td><div align="center">+3</div><td><div align="center">+7</div><td><div align="center">+10</div><td><div align="center">+14</div><td><div align="center">+18</div><td><div align="center">+22</div><td><div align="center">+26</div><td><div align="center">+30</div><td><div align="center">+34</div><td><div align="center">+38</div></tr><tr><td><div align="center"><strong>感应</strong></div><td><div align="center">+3</div><td><div align="center">+6</div><td><div align="center">+10</div><td><div align="center">+13</div><td><div align="center">+16</div><td><div align="center">+19</div><td><div align="center">+22</div><td><div align="center">+25</div><td><div align="center">+28</div><td><div align="center">+31</div></tr><tr><td><div align="center"><strong>攻击</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr></table><br><span style="font-size: 14pt;" class="bbc_size">■特技取得</span><br>▼初期取得<br>取得《合体守护神/ユナイトガーディアン》，并且在LV1的该类别特技中，任意选择2个取得。<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。<br><br><span style="font-size: 14pt;" class="bbc_size">■同盟级守护神</span><br>能够和守护神进行合体的守护神，这便是同盟级。<br>当然，就算不是同盟级（*）也可以进行合体。但是，同盟级在与其他守护神合体的同时，还能够进行进一步的强化，发挥出他人所不能及的力量。<br>不说用，单体的战斗能力也十分可观。同盟级被视作是担当了守护神的将来的存在而饱受期待。<br>此外，作为合体特化的副产品，同盟级大都能够变形为飞行形态或水中形态等特殊形态。可以说，同盟级持有守护神在“变形”上的进一步可能性；不少人也因此对其给予了更加强烈的关注。<br><span style="font-size: 12pt;" class="bbc_size">●同盟级的历史</span><br>虽然可能一说到合体就会觉得这是什么突破性的东西，但实际上，为了追加特定的机能而使复数载具结合本身并不是什么罕见的事情。<br>比如说为了输送不适合长距离移动的坦克而将其装上拖车、为了给战斗机加油而将其与空中加油机合体、或者是复数的宇宙空间站相互结合等。这些都能够被称作“合体”。<br>同盟级正是诞生自这种想法。人们主要将沃尔夫共和国的“MBG-5014L 瓦莱夫空艇型”当作最初的同盟级。<br>第二次大战，共和国在进行地球侵攻作战时，苦恼于如何在如此广大的地球上展开守护神。为此而开发的便是能够变形为圆盘形举升体的骑士级，“瓦莱夫空艇型”。该机能够在背部搭载一机骑士级进行飞行，在敌阵将骑士级投下后自己变形为守护神形态参加战斗。这可以说是成为了新的范例。<br>在这之后，出云的三桥技研所开发的，能够与超级级（*）合体的“绯红不死鸟”使同盟级的价值成为了无法动摇的存在。<br>“绯红不死鸟”不仅可以变形为飞行形态，还能够分离开来，作为强化装甲及强化武装与超级级合体，以发挥绝大的力量。<br>富有弹性的运用方法，使同盟级作为强化部件而秘藏有高度的潜力。<br><span style="font-family: 楷体;" class="bbc_font"><span class="bbc_u">*就算不是同盟级</span><br>在今后的拓展规则中，还会出现使同盟级以外的机体也能够进行合体的守护神特技。<br><span class="bbc_u">*超级级</span><br>这里指的是与华尔斯坦教授所率领的黑色危机团战斗的，同研究所制造的超级级守护神正义IV（合体后的称呼为正义不死鸟）。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■著名的同盟级</span><br>在此介绍各国著名的同盟级。希望能够给各位设定爱机带来灵感。也可以直接当作自己的机体使用。<br>▼MBG-5014L3 瓦莱夫·弗尔格<br>由“瓦莱夫空艇型”改修而来的强袭降下型同盟级。能够变形成圆盘状输送（*）其他守护神。也能够作为突入大气层用的举升体。不仅共和国在运用，也输出至联邦加盟国与Fortune的名机。<br>▼不死鸟III<br>三桥技研所开发的“绯红不死鸟”的后继机。能够从女性型守护神变形为飞行形态，还能够变形为增设装甲或不死鸟大剑。总共生产了十八机，几乎都交给了Fortune。<br>▼航行者X（Cross）<br>运用了来自遥远宇宙尽头的金属的同盟级。能够和所有守护神进行融合合体。由秘密结社特拉尼西亚制造，现在正借用给Fortune的驾驶员，不知是出于何意。<br>▼CS-2 施莱德<br>秘密结社特拉尼西亚开发的强行侦查型守护神。充分利用了同盟级优秀的变形能力与高速性能，但是完全放弃了合体的念头。<br>▼巨型电钻<br>为与恐龙王国希柏里尔进行战斗而开发的超级钢钻战车。不仅能够变形为守护神，还可以和其他守护神合体发动必杀技巨大钢钻击。<br>▼琳达·奥罗拉<br>雷姆利亚王国的合体型神灵机。装甲本身是使用魔法将极光物质化作为素材形成的。操纵者可以通过咏唱命令词，使其瞬间变形为魔法之铠与剑。被分类为同盟级。<br><span style="font-family: 楷体;" class="bbc_font"><span class="bbc_u">*输送</span><br>在规则上，变形成飞行形态搭载其他守护神也可以视作合体。</span><br><br><em>※书中插图<br>航行者X（Cross）<br>全高：15.7m<br>全备重量：32.8t<br>推进器总推力：275500kg</em><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww4.sinaimg.cn/mw690/8fee126cgw1ew6gj8jhxaj21kw1kw4ep.jpg" alt="" class="bbc_img"/></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">●特技</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">合体守护神/ユナイトガーディアン<br>等级：1<br>种类：自、机<br>时点：先攻步骤<br>对象：单体<br>射程：0<br>代价：4EN<br>效果：你的守护神搭载了合体机构。你可以敏捷地操控机体，瞬间进行合体。<br>在游戏前，从你所持有的守护神或载具中选择一个。与对象合体。此时，以在游戏前选择的（机体的）数据进行合体。<br>具体请参考后文。<br><span style="color: white;" class="bbc_color">因为我自己也不小心看错了所以特地说明一下。注意这里的对象是单体，也就是说合体的双方是“游戏前选择的机体”和“发动特技时选择的单体对象”，而不是“游戏前选择的机体”和“发动特技时正在操控的机体”。</span><br><br>快速变形/クイックトランス<br>等级：1<br>种类：机<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：2EN<br>效果：你操纵的守护神可以从守护神形态变形成其他形态。你可以敏捷地操控机体，瞬间进行变形。<br>进行变形。从你持有的机体中选择一个，与现在装备中的机体交换。<br>具体请参考后文。<br><br>加速推进/アクセルブースト<br>等级：1<br>种类：机<br>时点：即将进行移动时<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：使用推进器加速，一口气缩短距离，或者是利用其加速力瞬间甩开敌人。<br>在即将进行移动时宣言。在即将进行移动时宣言。【移动力】+2（若进行战斗移动，移速+2格；若进行全力移动，移速+4格）。此外，于脱离移动时使用的话，可以移动2格。<br><br>精密机动/トライフルマニューバ<br>等级：1<br>种类：操、命、伤<br>时点：主要动作<br>对象：单体<br>射程：0~2<br>代价：4EN<br>效果：你拥有卓越的操纵技术，可以灵巧地操纵机体玩弄、勾引敌人，令对手自取灭亡。敌人会在你的面前摔倒、撞上墙壁，以自己的手杀死自己。<br>对对象进行[攻击力：&lt;殴&gt;+14]的射击攻击。<br><br>力场扰乱/フィールドジャミング<br>等级：1<br>种类：操<br>时点：命中判定后立刻<br>对象：单体<br>射程：0~6<br>代价：2HP<br>效果：运用AL粒子力场扭曲空间，扰乱时空的平直度，降低攻击的精度。<br>在对象进行命中判定后立刻使用。那次判定的判定值-2。每轮可以使用一次。<br><br>合体武装/ユナイトアームズ<br>等级：1<br>种类：机、物<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的机体秘藏有只有与其他守护神合体时才能使用的特殊武器。其力量凌驾于任何现存的兵器之上。<br>取得该特技时，从[种类：合体武装]的物品中选择一件常备化。在（你）进行合体的同时装备该物品（不需要消费部位）。<br><br>合体激发/ユナイトアクティベイト<br>等级：2<br>种类：机<br>时点：合体中<br>对象：正文<br>射程：无<br>代价：无<br>效果：你所乘的守护神在合体后才能发挥出真正的力量。其解放出的破坏力与合体之前完全无法相提并论。<br>合体中，你，以及与你合体的对象造成的伤害+2d6。<br><br>助推器回避/ブースタードッジ<br>等级：2<br>种类：机<br>时点：防御判定后立刻<br>对象：自身<br>射程：无<br>代价：4EN<br>效果：使用助推器加速，一口气远离敌人的攻击，华丽地进行回避。<br>在进行防御判定后立刻使用。该次判定的达成值+2。每轮可以使用一次。合体中，合体对象也能将该特技当成自己的特技使用。<br><span style="color: white;" class="bbc_color">如果被合体对象使用的话该轮你就不能再用了。</span><br><br>合体供给/ユナイトサプライ<br>等级：2<br>种类：机<br>时点：正文<br>对象：单体<br>射程：0<br>代价：正文<br>效果：与其他守护神合体后，你可以代替其消耗能量或连结者的精神。<br>该特技只有在合体中才能使用。与你合体的对象使用特技或武装时，你可以代替其支付代价。但是，若代价为弹数则无法代替。<br><br>超限供能/オーバーキャスト<br>等级：3<br>种类：机、增<br>时点：即将进行伤害投掷时<br>对象：单体<br>射程：0<br>代价：5EN<br>效果：合体中，你可以为对象注入过剩的能量使攻击力大幅度增大。<br>该特技只有在合体中才能使用。在即将进行伤害投掷时使用。该次伤害投掷+3d6。每轮可以使用一次。<br><br>紧急分离/紧急分离<br>等级：3<br>种类：机、防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：4EN<br>效果：应对敌人的攻击，瞬间进行紧急分离，以将伤害抑制于最小。<br>该特技只有在合体中才能使用。减轻受到的伤害。对象（预定要）受到的伤害减轻[4d6+X]点。该特技使用后，你的机体解除合体。每个场景可以使用一次。X=你的类别等级。<br><br>力场干涉/フィールドインターフェア<br>等级：4<br>种类：机<br>时点：随时<br>对象：单体<br>射程：0~2<br>代价：8EN<br>效果：通过AL粒子力场进行干涉，使其他守护神的力场无效化。<br>随时可以使用。直到该步骤终了为止，对象所有的防御修正减半。每轮可以使用一次。<br><br>分身杀法/分身杀法<br>等级：5<br>种类：操<br>时点：命中、防御判定后立刻<br>对象：自身<br>射程：无<br>代价：3EN<br>效果：你所乘的机体能够向周围投射影像，制造出像是超高速运动一般的分身来眩惑敌人。<br>在你进行命中判定或防御判定后立刻使用。那次判定重投。对于每个判定只能使用一次该特技。每轮可以使用[X/8（小数进位）]次。X=你的类别等级。<br><br>合体统御/ユナイトシャープネス<br>等级：6<br>种类：机<br>时点：合体中<br>对象：正文<br>射程：无<br>代价：无<br>效果：合体之后，你可以统御所有机体的驱动，使机体更有效率地运动。合体的瞬间，无论谁都能看出你们机体的动作有了极大的改变。<br>合体中，你，以及与你合体的对象进行判定时，暴击值-1。该特技最多能使暴击值降至9。<br><br>合体激发II/ユナイトアクティベイトII<br>等级：7<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的守护神进行合体后，能够集中复数机体的能量，引发更强的力量。<br>《合体激发/ユナイトアクティベイト》的效果+[X]。X=你的类别等级。<br><br>精密机动II/トライフルマニューバII<br>等级：8<br>种类：-<br>时点：《精密机动/トライフルマニューバ》<br>对象：自身<br>射程：无<br>代价：3EN<br>效果：操控机体进行迅速机敏且难以预测的运动，引诱敌人到达超越其界限的领域，使其在重力加速度下自灭。<br>《精密机动/トライフルマニューバ》的伤害+[X]。X=你的类别等级。<br><br>觉醒转变/アウェイクシフト<br>等级：9<br>种类：机<br>时点：合体中<br>对象：正文<br>射程：无<br>代价：无<br>效果：你所乘的守护神与同伴的机体合体后，能够引出秘藏在机体中的真正力量。<br>该特技仅在合体中适用于你，以及与你合体的对象。若有特技或物品记载着只在界限突破中有效的效果，这些效果在非界限突破的状态下也有效。此外，在非界限突破的状态下，也可以使用只能在界限突破中使用的特技。<br><br>预射机动/プロシュートマニューバ<br>等级：10<br>种类：操<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：正文<br>效果：在移动攻击时，先射出导弹，然后于导弹命中的同时发起进攻。<br>该特技只有在进行了移动的主步骤中才能使用。只有在装备了弹数为1以上的[种类：导弹]的武装时才可以使用。装备中任意数量的[种类：导弹]的武装弹数变为0。每有一个武装弹数变为0，伤害就+4d6。<br></div></div></div><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><strong>部分相关名词的翻译对照</strong><br>琳达·奥罗拉/リンド・アウロラ<br><span style="color: white;" class="bbc_color">雷姆利亚我XXX，每次都是你给我出难题。前半部分リンド我搜了一下，应该是指北欧神话中和奥丁生下瓦利的琳达（Rindr、Rind）。后半部分アウロラ毫无疑问是指古罗马神话的奥罗拉（Aurora）。然而两个不同的神话放到一个名字里我也是醉的不行……</span></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_735854">
+&#171; <em>上次编辑: 2016-06-15, 周三 12:44:34 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg735855"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_735855_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_735855">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg735855#msg735855" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_735855'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_735855'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #21 于:</strong> 2015-07-10, 周五 22:18:53 &#187;</div>
+<div id="msg_735855_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_735855"><span style="font-size: 18pt;" class="bbc_size"><strong>闪电级/ライトニング/Lightning</strong></span><br><br><span style="font-size: 14pt;" class="bbc_size">■类别解说</span><br>全高4m左右的巷战特化小型守护神，这便是闪电级。设计思想偏重攻击，在紧凑的机体上装满大量火器，而连结者的生存率则在考虑范围之外。<br>只有大型拖车程度等级的体积赋予闪电级极高运动性。其最擅长的战术便是充分发挥自身的机动能力和火力，一占驻有利位置便迅速发起攻击。根据驾驶员的技术，引出最大级的战果也并非不可能。<br><span style="color: white;" class="bbc_color">むせる。显而易见是在捏他装甲骑兵——根据特技看的话倒不如说是在捏他激励哥。全金的AS和鸡鸭死的Knight Mare Frame应该也可以算作此类别。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■构筑资料</span><br>▼加护<br>《埃吉尔/エーギル》<br>▼能力基本值<br>体力：2&nbsp; &nbsp; &nbsp; &nbsp; 理知：4<br>反射：6&nbsp; &nbsp; &nbsp; &nbsp; 意志：2<br>知觉：6&nbsp; &nbsp; &nbsp; &nbsp; 幸运：4<br>▼自动取得道具<br>常备化一件[种类：守护神（闪电级）]的物品。从人类用武装·防具中，选择●手枪常备化，选择驾驶员制服常备化。<br><br><span style="font-size: 14pt;" class="bbc_size">■加护</span><br><span style="font-size: 12pt;" class="bbc_size">埃吉尔/エーギル</span><br>对象：单体<br>宣言：判定后立刻<br>效果：通过放出AL粒子瞬间阻碍他人的行动，或者是改变事件的几率。以海洋神埃吉尔为其冠名。<br>在对象进行判定后立刻使用。那次判定的达成值-20。如果判定达成暴击，则在达成值-20的基础上再取消暴击。但是，《埃吉尔/エーギル》不能打消因加护而达成的暴击。<br><br><span style="font-size: 14pt;" class="bbc_size">●类别修正表</span><br><table class="bbc_table"><tr><td><div align="center"><strong>等级</strong></div><td><div align="center"><strong>1</strong></div><td><div align="center"><strong>2</strong></div><td><div align="center"><strong>3</strong></div><td><div align="center"><strong>4</strong></div><td><div align="center"><strong>5</strong></div><td><div align="center"><strong>6</strong></div><td><div align="center"><strong>7</strong></div><td><div align="center"><strong>8</strong></div><td><div align="center"><strong>9</strong></div><td><div align="center"><strong>10</strong></div></tr><tr><td><div align="center"><strong>命中</strong></div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+6</div><td><div align="center">+7</div></tr><tr><td><div align="center"><strong>回避</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+7</div></tr><tr><td><div align="center"><strong>炮击</strong></div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+6</div><td><div align="center">+7</div></tr><tr><td><div align="center"><strong>防壁</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>行动</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+6</div><td><div align="center">+7</div><td><div align="center">+7</div></tr><tr><td><div align="center"><strong>力场</strong></div><td><div align="center">+5</div><td><div align="center">+10</div><td><div align="center">+15</div><td><div align="center">+20</div><td><div align="center">+25</div><td><div align="center">+30</div><td><div align="center">+35</div><td><div align="center">+40</div><td><div align="center">+45</div><td><div align="center">+50</div></tr><tr><td><div align="center"><strong>耐久</strong></div><td><div align="center">+4</div><td><div align="center">+8</div><td><div align="center">+12</div><td><div align="center">+16</div><td><div align="center">+20</div><td><div align="center">+24</div><td><div align="center">+28</div><td><div align="center">+32</div><td><div align="center">+36</div><td><div align="center">+40</div></tr><tr><td><div align="center"><strong>感应</strong></div><td><div align="center">+3</div><td><div align="center">+6</div><td><div align="center">+9</div><td><div align="center">+12</div><td><div align="center">+15</div><td><div align="center">+18</div><td><div align="center">+21</div><td><div align="center">+24</div><td><div align="center">+27</div><td><div align="center">+30</div></tr><tr><td><div align="center"><strong>攻击</strong></div><td><div align="center">+1</div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+6</div></tr></table><br><span style="font-size: 14pt;" class="bbc_size">■特技取得</span><br>▼初期取得<br>取得《心灵的渴望/心の渇き》，并且在LV1的该类别特技中，任意选择2个取得。<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。<br><br><span style="font-size: 14pt;" class="bbc_size">■闪电级守护神</span><br>头顶高3.5~5m。与大型拖车差不多高的小型守护神，这便是闪电级。<br>装甲被削减到极限以确保绝大的运动性，依靠全身满载的火器与立体机动粉碎所有敌人，闪电级可谓是都市的死神。因为极度廉价，该级连结者的育成难度也与其成比例的低。<br>从另一方面来说，因为防御性能极低，拥有被以往兵器甚至是步兵破坏的风险。驾驶闪电级的连结者以他们自暴自弃般的勇敢而广为人知。<br><span style="font-size: 12pt;" class="bbc_size">●闪电级的历史</span><br>虽然骑士级的开发使守护神广泛普及，但还无法做到驱逐所有兵器的程度。<br>在野外或宇宙空间的战斗中拥有无法比肩的破坏力的守护神，一旦面对市区或森林这样容易遭到伏击的局面，也有可能被以往类型的兵器击退。<br>为解决这些问题，人们自然开始追求能够侵入屋内、突入狭窄小巷的小型守护神。<br>最初被视作闪电级的机体是第一次大战中东亚联邦所投入的“G6M2b 雷刚”。该机近似于现在的超级级，是特务部队用的试作机。在量产之后，于太平洋的丛林战中创造了压倒性的战果。该机在CAS（*）侧的代号为“闪电”，日后成为了同类机体的类别名。<br>生产型优秀的闪电级于第一次大战末期被集中投入，残存下来的机体在大黑暗时期中又被大量发掘，因此能够在各种战场上看见它的身姿。特别是游击队和歹徒中，有许多爱用该类别的人。作为“恐怖分子的御用机”，闪电级可以说是恶名远扬。<br>第二次大战中，闪电级米勒斯被大量量产（*），并如同文字一般被云集投入。非米勒斯的闪电级被视作某种意味上的高级机体，一般被当作米勒斯的指挥官机（*），或者是在特殊部队中使用。<br><span style="font-size: 12pt;" class="bbc_size">●闪电级和犯罪者</span><br>随着技术的成熟，闪电级的控制对ALTIMA的依赖程度越来越低，连结者数量也与激突级并列首位。因此，存在有许多运用了闪电级的犯罪行动，例如同为闪电级之间的打赌战，或是使用闪电级的暴力团伙等。在其他类别中这种事是几乎看不到的。<br><span style="font-family: 楷体;" class="bbc_font"><span class="bbc_u">*CSA</span><br>支配了当时的罗雷西亚大陆的军事独裁国家，详细不明。<br><span class="bbc_u">*大量量产</span><br>闪电级就算是守护神也十分廉价。米勒斯的价格更是便宜到难以想象。现在如果是二手货的话甚至能用与卡车相当的价格买到。<br><span class="bbc_u">*指挥官机</span><br>对于乘坐只有自己能够存活下来的高性能机体的指挥官，米勒斯·闪电级的驾驶员们将其辱骂作“死神”。毕竟后者的死亡率太高了。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■著名的闪电级</span><br>在此介绍各国著名的闪电级。希望能够给各位设定爱机带来灵感。也可以直接当作自己的机体使用。<br>▼G6M5 雷刚<br>第一次大战中东亚联邦所开发的初期闪电级。制造了非常多的数量，因此现在黑市中流通有大量没有遭受奈落污染的机体。虽然被视作犯罪者与恐怖分子的御用机，但性能确实很高。依靠绳索发射器而得到了三次元机动能力，脚部装备有气体射出型跳跃装置。<br>▼G7G2 刚刃<br>据说是第一次大战末期开发的机体。比起雷刚体积更大，增加了对应湿地战与岛屿战的氧气储蓄罐、漂浮单元、喷水推进器等。<br>▼St.409 灰犬<br>以无视生存性的轻装甲以及与其成反比的重装备而广为人知的代表性闪电级。大量流出至佣兵部队，战争爱好者的爱机。<br>▼LGL-03 普罗提诺<br>经由拉夫帝国之手毁灭的小国，图勒王国的闪电级。外观切实地反映了该国的审美意识，雕刻了骑士甲胄般的花纹，以长枪为主武装。因为是反抗军在使用，为了保护贵重的连结者，在背部设计有独立的驾驶舱模块。这可谓是其特征。<br>▼XL-104 螺旋獠牙<br>较晚着手于闪电级的里士满工业所开发的试作机。为达成超高机动而没有装备驾驶员的脱出装置与生命维持装置。这种极度危险的机体当然无法由联邦军进行测试。里士满将该机秘密借出给佣兵或Fortune，半非合法地收集数据。<br><br><em>※书中插图<br>St.409 灰犬<br>全高：4.02m<br>全备重量：6.75t<br>装甲厚：4mm~16mm</em><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww4.sinaimg.cn/mw690/8fee126cgw1ew6gj2wr81j21kw1ogh3z.jpg" alt="" class="bbc_img"/></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">●特技</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">心灵的渴望/心の渇き<br>等级：1<br>种类：自、增<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：为终结战争而举起枪支，为带来和平而扣下扳机。于战场上度过的每一天中，你都将心中的渴望化作讨伐敌人的力量。<br>该主步骤中，你进行攻击时伤害+1d6。<br><br>被掠夺的过去/夺われた过去<br>等级：1<br>种类：-<br>时点：随时<br>对象：单体<br>射程：视界<br>代价：2HP<br>效果：你的仇敌曾从你那夺走了无比珍贵的东西。为了取回被掠夺的过去，你不会允许自己死去。<br>选择一名人物，以其为对象获得一个人物关系。该人物关系必须是杀意或憎恶。成为对象的人物或GM可以拒绝该效果。若如此做，该特技视作没有使用。每模组可以使用一次。<br><br>机动攻击/机动攻撃<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：以令人叹为观止的机动，迂回进敌人的死角，从致命的角度发起攻击。<br>你移动了一格以上的话，该轮你进行命中判定时判定值+2。<br><br>机动炮击/机动砲撃<br>等级：1<br>种类：操<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：就算在高速移动中，你也能毅然决然地不减速而进行炮击。<br>即使你进行了移动，该主步骤中，你依然可以使用[种类：炮击]的武装进行远距离攻击。<br><br>生死一线/死线の狭间<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你惊险地穿越了无数次死线才生存至今。唯有在决死的局面下，才能够将延续生命的力量发挥至最大限度。<br>界限突破中，你进行防御判定时判定值+2。<br><br>战场的直觉/戦场の勘<br>等级：1<br>种类：-<br>时点：判定后立刻<br>对象：单体<br>射程：0~2<br>代价：2HP<br>效果：在生死一线的境地中，你往往能发挥十分强大的直感。正是遵从着那直感，你才得以生存至今。<br>在对象进行判定后立刻使用。该次判定重投。对象可以拒绝这个效果。对于每个判定只能使用一次该特技。每轮可以使用一次。<br><br>战争的气味/戦争の匂い<br>等级：1<br>种类：增<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：战争的气味对你来说就是故乡的气味。<br>在伤害投掷时使用。该次伤害+1d6。<br><br>炎之宿命/炎のさだめ<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：生于战场，死于战场。你背负着绝对无法逃脱的，火焰（战火）的宿命。<br>你的任意四项【能力基本值】+1。<br><br>巨人杀手/巨人杀し<br>等级：2<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你擅长打倒比自己更加巨大的敌人。<br>若你装备着[种类：闪电级]的守护神，并对[体型：M]以上的角色进行攻击，计算伤害时，对手的防御修正-[Y]。此外，如果你给予的伤害的属性为&lt;神&gt;的话，伤害数值再+[Y]。Y=你的人物等级。<br><br>复苏的恶梦/苏る悪梦<br>等级：2<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你对于你发誓要复仇的对象来说，就如同是复苏的恶梦一般。作为恶梦的使者，你要挥下剑刃断绝邪恶。<br>若对方于你的人物关系为杀意或憎恶，你对其造成的伤害+2d6。<br><br>集中射击/集中射撃<br>等级：3<br>种类：增<br>时点：即将进行命中判定时<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：使用高射速的火器，对一点发起集中攻击，确实地贯穿敌人的弱点。<br>在即将使用[范围x]、[范围x（选择）]的武装进行命中判定时使用。使用武装的攻击对象变为[对象：单体☆]，伤害+[Y]。Y=你的人物等级。<br><br>机动防御/机动防御<br>等级：4<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你能够不断进行令人叹为观止的机动，不被敌人捕捉到地战斗。<br>你移动了一格以上的话，该轮你进行防御判定时判定值+2。<br><br>生死一线II/死线の狭间II<br>等级：5<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：穿越生死的界限对你来说已是家常便饭。即使是穷途末路到了极致，你也无法被轻易打到。<br>界限突破中，你进行防御判定时暴击值-1。该特技最多能使暴击值降至9。<br><br>归来的男人/帰ってきた男<br>等级：6<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你发誓复仇而归来。作为从你那夺走了过去的报复，你要给予仇敌数倍的恐怖。<br>若对方于你的人物关系为杀意或憎恶，你对其进行命中判定时判定值+2。<br><br>阳炎的荒野/阳炎の荒野<br>等级：7<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：放眼所见，目中只有摇晃着阳炎般的蜃气的战场，以及拼尽全力磨练自己以求生存的战士。<br>对应[对象：单体]和[对象：单体☆]以外的攻击进行防御判定时，判定值+2。<br><br>巨人杀手II/巨人杀しII<br>等级：8<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你擅长驾驶闪电级歼灭比你更加巨大的敌人。<br>不取得《巨人杀手/巨人杀し》的话无法取得该特技。若你装备着[种类：闪电级]的守护神，并对[体型：M]以上的角色进行攻击，伤害+[X]。X=你的类别等级。<br><br>复苏的恶梦II/苏る悪梦II<br>等级：9<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：无论怎样都难以消却恶梦——对你来说也好，对你的仇敌来说也罢。大概唯有将仇敌埋葬于永远的黑暗之中，才能从这恶梦之中获取些许的欣慰吧。<br>不取得《复苏的恶梦/苏る悪梦》的话无法取得该特技。若对方于你的人物关系为杀意或憎恶，你对其造成的伤害+[X]。X=你的类别等级。<br><br>九死一生/九死に一生<br>等级：10<br>种类：-<br>时点：死亡时<br>对象：自身<br>射程：无<br>代价：无<br>效果：常有人说你倒霉透顶。然而，就算身陷濒死的境地，你也总能捡回一条命。不知该说这是幸运还是不幸。<br>在你死亡时使用。该次死亡变更为战斗不能。每个模组可以使用一次。</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_735855">
+&#171; <em>上次编辑: 2016-06-15, 周三 12:43:45 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg735856"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_735856_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_735856">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg735856#msg735856" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_735856'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_735856'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #22 于:</strong> 2015-07-10, 周五 22:19:00 &#187;</div>
+<div id="msg_735856_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_735856"><span style="font-size: 18pt;" class="bbc_size"><strong>古强者/ベテラン/Veteran</strong></span><br><br><span style="font-size: 14pt;" class="bbc_size">■类别解说</span><br>古强者并不是连结者——即是说，他们并非守护神的驾驶员。该类别表示他们是米勒斯，或战斗机、坦克等的驾驶员。<br>持有该类别的PC们都能够依靠超人的努力与长年的经验，操控以往的兵器实现几乎是不可能的机动。在他们的把握之下，米勒斯也能够与守护神或奈落兽互角而战。<br><span style="color: white;" class="bbc_color">准确来说不算是守护神类别但却被分类在了守护神类别里。各种经验丰富的老兵。最好的例子就是杰刚小队长吧。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■构筑资料</span><br>▼加护<br>《缪斯/ミューズ》<br>▼能力基本值<br>体力：3&nbsp; &nbsp; &nbsp; &nbsp; 理知：5<br>反射：4&nbsp; &nbsp; &nbsp; &nbsp; 意志：4<br>知觉：3&nbsp; &nbsp; &nbsp; &nbsp; 幸运：5<br>▼自动取得道具<br>从泛用守护神（米勒斯）中选择一件物品常备化，或是从泛用载具中选择一件物品常备化。从人类用武装·防具中，选择●手枪常备化，选择驾驶员制服常备化。<br><br><span style="font-size: 14pt;" class="bbc_size">■加护</span><br><span style="font-size: 12pt;" class="bbc_size">缪斯/ミューズ</span><br>对象：单体<br>宣言：先攻步骤<br>效果：通过AL粒子引发的意识共鸣，将他机的ALTIMA（或者驱动机关）瞬间活性化。名字来源于给予灵感的神明缪斯。<br>对象立刻进行一次主步骤。主步骤的具体行动，可以由对象自行决定。未行动过的对象不会因为（该加护赋予的）这次主步骤变为行动终了状态，行动终了状态的对象也可以靠该加护进行主步骤。该加护不能以自身为对象。<br><span style="color: white;" class="bbc_color">所以说古强者都是一群aji人吗（死）？！</span><br><br><span style="font-size: 14pt;" class="bbc_size">●类别修正表</span><br><table class="bbc_table"><tr><td><div align="center"><strong>等级</strong></div><td><div align="center"><strong>1</strong></div><td><div align="center"><strong>2</strong></div><td><div align="center"><strong>3</strong></div><td><div align="center"><strong>4</strong></div><td><div align="center"><strong>5</strong></div><td><div align="center"><strong>6</strong></div><td><div align="center"><strong>7</strong></div><td><div align="center"><strong>8</strong></div><td><div align="center"><strong>9</strong></div><td><div align="center"><strong>10</strong></div></tr><tr><td><div align="center"><strong>命中</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>回避</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>炮击</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>防壁</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div></tr><tr><td><div align="center"><strong>行动</strong></div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+7</div><td><div align="center">+8</div><td><div align="center">+9</div></tr><tr><td><div align="center"><strong>力场</strong></div><td><div align="center">+6</div><td><div align="center">+12</div><td><div align="center">+18</div><td><div align="center">+24</div><td><div align="center">+30</div><td><div align="center">+36</div><td><div align="center">+42</div><td><div align="center">+48</div><td><div align="center">+54</div><td><div align="center">+60</div></tr><tr><td><div align="center"><strong>耐久</strong></div><td><div align="center">+3</div><td><div align="center">+7</div><td><div align="center">+10</div><td><div align="center">+14</div><td><div align="center">+18</div><td><div align="center">+22</div><td><div align="center">+26</div><td><div align="center">+30</div><td><div align="center">+34</div><td><div align="center">+38</div></tr><tr><td><div align="center"><strong>感应</strong></div><td><div align="center">+3</div><td><div align="center">+6</div><td><div align="center">+10</div><td><div align="center">+13</div><td><div align="center">+16</div><td><div align="center">+19</div><td><div align="center">+22</div><td><div align="center">+25</div><td><div align="center">+28</div><td><div align="center">+31</div></tr><tr><td><div align="center"><strong>攻击</strong></div><td><div align="center">+1</div><td><div align="center">+2</div><td><div align="center">+2</div><td><div align="center">+3</div><td><div align="center">+4</div><td><div align="center">+4</div><td><div align="center">+5</div><td><div align="center">+6</div><td><div align="center">+6</div><td><div align="center">+7</div></tr></table><br><span style="font-size: 14pt;" class="bbc_size">■特技取得</span><br>▼初期取得<br>取得《心头灭却/心头灭却》，并且在LV1的该类别特技及守护神特技中，任意选择2个取得。<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技及守护神特技中，任意选择2个取得。<br><br><span style="font-size: 14pt;" class="bbc_size">■何为古强者</span><br>古强者是特殊的类别。它并非守护神的分类，而是指那些能够凭借训练或才能，而能够发挥出匹敌连结者能力的非连接者驾驶员。<br>因此，并不存在所谓的古强者守护神。古强者说到底只是俗称，也并非所有老兵都拥有古强者类别。在某种意味上比连结者更加贵重的才能，十万人挑一的王牌驾驶员，这就是被称为古强者的类别。<br>他们使用的基本上都是被称为米勒斯的量产型守护神，但其中也有人使用坦克或战斗机等以往的兵器。<br><br><span style="font-size: 14pt;" class="bbc_size">■米勒斯</span><br>虽然守护神能够发挥压倒性的力量，但却并不适合量产；因此，守护神主要被当作决战兵器使用。然而在十年前，身为殖民卫星国家的沃尔夫共和国却成功开发了量产型守护神，那便是米勒斯。<br>“米勒斯”并非由ALTIMA，而是使用殖民卫星开发的星钛合金（*）构成框架。控制方面，则和通常一样是使用量子计算机。因此，就像坦克或战斗机那样，只要是经过训练的驾驶员，谁都能够操控。除此之外，生产米勒斯的费用也比守护神便宜。<br>集中投入米勒斯是共和国能在沃尔夫独立战争中取胜的原动力。虽然现在以联邦军为首的各国也都开始投入使用米勒斯，但能够精炼星钛的已然只有殖民卫星，共和国的技术优势并没遭到动摇。<br>米勒斯虽然维持了守护神的泛用性及武装，但因为中枢控制系中没有使用ALTIMA，所以无法散布AL粒子，也无法使用加护。然而，目前已经确认在一部分王牌驾驶员（*）中，也存在有能够散布AL粒子和引发加护的人物。这是一个在今后研究上饱受期待的分野。<br><span style="font-size: 12pt;" class="bbc_size">●米勒斯级的类别</span><br>米勒斯与守护神有着同样的分类。如果是骑士级的话便是“骑士级米勒斯”，如果是闪电级的话便被称作“闪电级米勒斯”。<br>但是，因为一种一体的原则，并不存在超级级米勒斯（*）；同样也不存在特化为与守护神连携运用的同盟级米勒斯。其他类别守护神的米勒斯还在开发途中或者是已经放弃开发。<br><span style="font-family: 楷体;" class="bbc_font"><span class="bbc_u">*星钛合金</span><br>仅能在无重力环境中进行精制的特殊钛合金。<br><span class="bbc_u">*一部分王牌驾驶员</span><br>身为PC的古强者人物都是这种例外。若是NPC，GM可以任意决定他们是否能够使用加护。<br><span class="bbc_u">*超级级米勒斯</span><br>量产拥有无敌之力的超级级的计划事实上也进行了许多次。特别是拉夫帝国，据说正在进行名为“幻胧作战”的极秘计划，其内容是通过奈落之力量产从Fortune夺取来的超级级。<br><span class="bbc_u">*同盟级米勒斯</span><br>虽然不少米勒斯能做到简易的合体，但想要模仿同盟级的机能的话，出力将是无法逾越的壁垒。</span><br><br><span style="font-size: 14pt;" class="bbc_size">■著名的米勒斯</span><br>在此介绍各国著名的米勒斯。希望能够给各位设定爱机带来灵感。也可以直接当作自己的机体使用。详情可以参考后文的米勒斯资料。<br>▼MBM-1012F 米勒斯·扎德<br>史上最初的量产型守护神。沃尔夫共和国的“扎德”的量产型，与其拥有几乎相同的外观（区别在于是否拥有指挥型的天线）。本来只被称为“米勒斯”，但因为后来米勒斯变成一类兵器的名称，所以改成现在这个称呼。<br>▼St.234I 隼<br>出云防卫军所采用的米勒斯·骑士级。防卫军的代表机体。素体是St.187 反击，但各种机能都大幅度降低，就连电子装备等使用的也是数个等级以下的劣化品。在第二次大战中出云迅速实现了该机的量产也是战后其在世界上引人注目的原因之一。<br>▼G-112/Block10 烈焰<br>作为G-12 灾厄的米勒斯型进行开发的机体。继承了能够依靠履带快速行动以及搭载大量火器的特点。话虽如此但引擎出力却远远不及守护神。主炮也降级为24cm轨道加农。<br>▼St.235C 马其顿<br>为迎击共和国从轨道上发起的奇袭，于大战末期赶急开发的灾厄级米勒斯。因为下半身直接使用了St.234的组件所以平衡性很差。直到战争结束也不曾与共和国交战，但对于拉夫的空军却发挥了超出想象的迎击性能。两腕可以搭载75mm速射机关炮或导弹舱。存在有宇宙舰队防空用的D型。<br>▼C3M1 五右卫门<br>三桥技研贩卖的民用级米勒斯。能够灵活操控铲子和鹤嘴镐，无论怎样的钢筋都能够扛得起来，可谓是施工现场的宝物。也可以用于阵地扎营，但并非战斗用机体。<br><br><em>※书中插图<br>St.234I 隼<br>全高：17.9m<br>全备重量：75.5t<br>推进器总推力：68500kg</em><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww1.sinaimg.cn/mw690/8fee126cgw1ew6giig7jij21kw1ogh3e.jpg" alt="" class="bbc_img"/></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">●特技</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">心头灭却/心头灭却<br>等级：1<br>种类：自<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：无论身受怎样的痛苦，只要灭却心头，便不会迷惘困惑。身经百战的你熟知消却痛苦的方法。<br>你所受到的实际伤害，延迟到该轮的清算步骤进行适用。每个场景可以使用一次。<br><br>隐藏技/里技<br>等级：1<br>种类：-<br>时点：判定后立刻<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：你在长久的战斗中，知晓了仅在关键时十分有效的隐藏技以及其所适用的局面。不用说，隐藏技的使用方法自然也是了如指掌。<br>在你进行判定后立刻使用。该次判定的达成值+2。每轮可以使用一次。<br><br>幸运的女神/幸运の女神<br>等级：1<br>种类：-<br>时点：判定后立刻<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：作为一名每次都能在战场上生存下来的士兵，你不得不相信幸运女神的存在。在超越自己力量的地方，确实有什么在为自己提供着帮助。<br>在你进行判定后立刻使用。该次判定重投。对于每个判定只能使用一次该特技。每轮可以使用一次。<br><br>战场的经验/戦场の経験<br>等级：1<br>种类：-<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：通过长年积累的战场经验，你可以瞬间分辨出致命的创伤与危害，并优先对其进行治疗。<br>回复你所遭受的任意一个负面状态。每轮可以使用[X/6（小数进位）]次。X=你的类别等级。<br><br>老兵/古强者<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你乃是生存于战场的一名老兵，积累了无数他人所没有的经验与锻炼。<br>你的任意一项【能力基本值】+4。<br><br>扑克脸/ポーカーフェイス<br>等级：1<br>种类：防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：痛苦根本算不上什么。屈服于其的话，不会丢了矜持与信赖，更会打击部下的士气——一想到这些，无论深陷怎样的痛苦之中，你都变得能够笑得出来了。<br>减轻受到的伤害。你（预定要）受到的伤害减轻[2d6+X]点。每轮可以使用一次。X=你的类别等级。<br><br>死神的契约/死神の契约<br>等级：2<br>种类：增<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：你与死神缔结了契约。虽然这只是比喻，但你的确如字面意思一般擅长杀人。然后，总有一天，你也会变成一具尸骨吧。<br>该主步骤中，你进行攻击时伤害+2d6。<br>此外，你进行防御判定时的暴击值总是+1。若暴击值为13以上，则不会发生暴击。<br><br>常在战场/常在戦场<br>等级：2<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：吃喝住行，你无论何时都不会忘记自己是一名身处战场的战士。你身处何处，战场便在何处。<br>你不会遭受恍惚和麻痹。此外，即使遭受伏击，你也不会因此行动终了。<br><br>叶隐/叶隠<br>等级：2<br>种类：增<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：忘却生死，时刻保持着无我与无私的精神。这便是战士理想的生存之道。<br>该主步骤中，你进行攻击时伤害+【意志】。<br><br>标记/マーキング<br>等级：3<br>种类：-<br>时点：次要动作<br>对象：单体<br>射程：0<br>代价：4HP<br>效果：为敌人刻下无法消失的屈辱的印记，使其灵魂深陷泥沼之中。<br>该场景中，对象进行反应动作时判定值-3。但在该场景中，你应对对象的攻击进行反应动作时，判定值也-3。该特技的效果在你陷入战斗不能或死亡时失去。<br><br>眼力/眼力<br>等级：3<br>种类：-<br>时点：设置步骤<br>对象：单体<br>射程：视界<br>代价：2HP<br>效果：通过常年置身战场者才能拥有的眼力，封杀敌人的动作。就算不直接眼对眼，光是被你看着，敌人就会吓得惊慌失措。<br>该轮中，对象进行判定时暴击值+1（最大值12）。<br><br>老兵的志气/古参兵の意地<br>等级：4<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有身为一名历战的老兵的志气，无论身处怎样困苦的境地也绝不会屈服。对，即使是面对死亡也一样。<br>你使用《扑克脸/ポーカーフェイス》和《叶隐/叶隠》时，效果+[X]。X=你的类别等级。<br><br>多重作业/マルチワーク<br>等级：5<br>种类：-<br>时点：设置步骤<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：凭借长久以来作为士兵的经验，你能够高效运用各种隐藏技、捷径，或是技术。<br>你可以使用两个[时点：设置步骤]的特技。但是，不能使用进行复数回设置步骤的特技。<br><br>先手必胜/先手必胜<br>等级：6<br>种类：-<br>时点：设置步骤<br>对象：自身<br>射程：无<br>代价：无<br>效果：先发者制人，后发者受人控制。在战场上，先手往往是通往胜利的捷径。长年往来于战场的你对此有着深切的了解。<br>增加行动值。你的【行动值】增加3d6点。每个场景可以使用一次。<br><span style="color: white;" class="bbc_color">呃，这个增加应该只持续一个场景。</span><br><br>标记II/マーキングII<br>等级：7<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：把目光倾注于你与送死是同义词。你会瞄准执拗的敌人，撕裂他的心灵，给予其全般的灾厄，直到他步入破灭的瞬间为止。<br>你可以在[时点：设置步骤]使用《标记/マーキング》。<br><br>换乘/乗り换え<br>等级：8<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：瞬间换乘机体的特技。<br>在装备中的守护神或载具FP变为0时使用。立刻解除装备中的守护神或载具，并装备上你所持有的另一架守护神或载具，将FP回复至1。该情况下，新装备上的守护神或载具，FP必须为1或以上。每个场景可以使用一次。<br><span style="color: white;" class="bbc_color">意思就是不能换乘已经坏了还没修的机体。</span><br><br>死亡标记/デッドマーク<br>等级：9<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：赋予对手灾厄的标记，在他毫无自觉的情况下将他引导向危险。身心都支离破碎的牺牲者，大概会悲哀地化作骸骨消失于战场吧。风水轮流转的战场上不需要慈悲。<br>你使用《标记/マーキング》时，效果追加上[该场景中，对象因攻击而受到的伤害+2d6]。<br><br>心火自凉/火もまた凉し<br>等级：10<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：即使是地狱的业火灼身，你也依旧铭记着没有完成的任务、不得不守护的人、土地，以及国家。这便是士兵的夙愿，你的生存之路。<br>因《心头灭却/心头灭却》延迟的实际伤害致使你死亡时使用。该次死亡变更为战斗不能。每个模组可以使用一次。<br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_735856">
+&#171; <em>上次编辑: 2016-06-15, 周三 12:45:22 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg735858"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_735858_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_735858">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg735858#msg735858" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_735858'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_735858'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #23 于:</strong> 2015-07-10, 周五 22:21:21 &#187;</div>
+<div id="msg_735858_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_735858"><strong><span style="font-size: 18pt;" class="bbc_size">守护神特技/ガーディアン特技</span></strong><br>以下是无论何种连结者类别都能取得的，对于连结者来说比较普遍的特技。这些相比于任何一种连结者类别的特技都要来得泛用，且效果也非常强力。<br><br>Lv.1~Lv.2<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">剑切/切り払い<br>等级：1<br>种类：操<br>时点：反应动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：通过白刃副武装挡开攻击进行回避。也有切开岩盘制造盾牌，或是将光束刃扩散来蒸发弹头这样的技法。<br>只有当装备中的近距离副武装为白刃武装时才可以使用。你进行防御判定时判定值+2。每轮可以使用[Y/6（舍小数进一）]次。Y=你的人物等级。<br><br>牵制射击/牵制射撃<br>等级：1<br>种类：操<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：使用副武装进行牵制射击，在威吓对手的同时提高攻击的命中率。<br>只有当装备中的近距离副武装为射击武装时才可以使用。该主步骤中，你以近距离武装进行命中判定时判定值+2。<br><br>钢机变形/钢机変形<br>等级：1<br>种类：机<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4EN<br>效果：你的机体可以变形。<br>进行变形。<br><br>接触射击/コンタクトシュート<br>等级：1<br>种类：操<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：在比原来更加游刃有余的至近距离下，使用射击武器攻击敌人。<br>该主步骤中，你装备在主武装的，[射程：1]、[射程：2]、[射程：1~2]的射击武器，变为[射程：0]。<br><br>对垒/コンフロント<br>等级：1<br>种类：操<br>时点：次要动作<br>对象：1方格<br>射程：0<br>代价：2HP<br>效果：通过释放烟幕、展开电磁索、设置陷阱之类的行动绊住对手的脚步。<br>封锁你所处的方格。该封锁不会解除，除非你宣言解除、进行移动、或者陷入战斗不能·操纵不能·死亡。（换言之，就是通过放弃移动维持封锁。）<br><span style="color: white;" class="bbc_color">注意一下这个和远距离封锁不一样啊。</span><br><br>护盾抵挡/シールドブロック<br>等级：1<br>种类：机、防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：4EN<br>效果：用盾抵挡攻击，减轻你受到的伤害。除了设置在机体上的盾牌外，使用随手捡来的装甲板或混凝土板也行。<br>减轻受到的伤害。你（预定要）受到的伤害减轻[1d6+Y]点。每轮可以使用一次。Y=你的人物等级。<br><br>烟雾释放/スモークディスチャージ<br>等级：1<br>种类：机<br>时点：次要动作<br>对象：1方格<br>射程：0<br>代价：弹数1<br>效果：投射烟雾弹阻碍视界，防范敌人的攻击于未然。<br>在一个场景间，你所处的方格发生部分遮蔽。该部分遮蔽适用于以下几种攻击：隔着你所处的方格进行的攻击、由你所处的方格对外进行的攻击、对你所处的方格进行的攻击。[弹数：3]。<br><br>制压射击/制圧射撃<br>等级：1<br>种类：机<br>时点：先攻步骤<br>对象：1方格<br>射程：0<br>代价：弹数1<br>效果：你的机体能够展开弹幕，或者火焰、雷电的屏障等，令敌人无法接近。<br>制压你所处的方格。你可以选择任意角色接受该（制压的）效果。[弹数：3]。<br><br>全弹发射/全弾発射<br>等级：1<br>种类：操、增<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：正文<br>效果：消耗武器的所有弹药，令攻击的威力一口气飞跃。<br>只有当装备中的武装弹数为1以上时才可以使用。装备中任意数量的武装弹数变为0。每有一个武装弹数变为0，伤害就+1d6。无法通过没有弹数的武装使用该特技。<br><span style="color: white;" class="bbc_color">意思就是不能把没有弹数的武装弹数变为0来增加伤害。</span><br><br>涡轮冲刺/ターボダッシュ<br>等级：1<br>种类：机<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：3EN<br>效果：使用涡轮滑轮展现出变幻自在的机动。<br>该特技取得后，只有在装备了能够取得涡轮滑轮的守护神时才能使用。进行全力移动或脱离移动。你不会因该移动而行动终了，并且可以继续进行主步骤（次要动作和主要动作）。若（所处的）方格被封锁则不能使用。<br><br>达人的指导/达人の指导<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你接受了格斗技达人的指导，并获得了能与其匹敌的格斗能力。<br>你常备化中的“空手”的攻击力+[Y]。Y=你的人物等级。<br><br>双重武装/ツインアームズ<br>等级：1<br>种类：操、命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：4HP<br>效果：你擅长同时使用两个武装。<br>对对象使用装备在主武装的近距离武装进行近距离攻击。该次攻击的伤害+[装备在近距离副武装位上的武装的副武装攻击力]。<br>具体参考后文。<br><br>爆裂射击/バーストショット<br>等级：1<br>种类：操、命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：2HP<br>效果：陆续打出二到四枪。在威力与命中精度间有不错的平衡性，可以说是守护神射击战的基本技法。<br>对对象使用[种类：射击]的近距离武装进行射击攻击。该次伤害+1d6。<br><br>渐行渐远/フェイドアウェイ<br>等级：1<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：敏捷地从敌人身边逃离。<br>进行脱离移动。若你所处的方格被封锁则不能使用。你不会因该脱离移动而行动终了，并且可以继续进行主步骤（次要动作和主要动作）。<br><br>近程直射/ポイントブランク<br>等级：1<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：随心所欲地操控机体，使用火箭筒攻击敌人的弱点。<br>进行战斗移动。该主步骤中，你可以使用[种类：火箭弹]的武装进行远距离攻击。但是，你所使用的[种类：火箭弹]的武装变为[射程：0]。<br><span style="color: white;" class="bbc_color">有点混淆，不过我觉得应该是只在该主步骤中射程变0。</span><br><br>炮击姿势/砲撃姿势<br>等级：1<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：采取安定的姿势，避免风或炮击时的振动降低命中率。<br>该主步骤中，你进行远距离攻击时，命中判定的判定值+2。<br><br>导弹马戏/ミサイルサーカス<br>等级：1<br>种类：操、炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：全弹<br>效果：放出雨点般密集的导弹，以莫大的火力进行攻击。<br>对对象使用[种类：炮击（导弹）]的武装进行远距离攻击。该次攻击的伤害+2d6。无论攻击成功与否，使用武装的弹数都变为0。无法通过没有弹数的武装使用该特技。<br><br>移动&amp;开火/ムーブ&amp;ファイア<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你总是在进行移动，并且擅长在最合适的位置展开攻击。<br>你移动了一格以上的话，该轮你进行攻击造成的伤害+1d6。<br><br>致命风暴/モータルストーム<br>等级：1<br>种类：操、炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：12HP<br>效果：解除火器管制系统的限制，同时使用全火器一起进行攻击。<br>对对象使用装备于主武装的远距离武装进行远距离攻击。该次攻击的伤害再加算上[种类：白刃]和[远距离武装的主武装]以外的所有装备中武装的攻击力。每个模组可以使用一次。<br>具体参考后文。<br><br>火箭助推器/ロケットブースター<br>等级：1<br>种类：机<br>时点：即将进行移动时<br>对象：自身<br>射程：无<br>代价：10EN<br>效果：增设火箭推进器。依靠其加速力，短时间内你能够移动比通常更远的距离。<br>在即将进行移动时宣言。【移动力】+2（若进行战斗移动，移速+2格；若进行全力移动，移速+4格）。此外，于脱离移动时使用的话，可以移动2格。<br><br>机体安定/机体安定<br>等级：2<br>种类：操<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：5HP<br>效果：强行安定机体，在移动后立刻采取炮击姿势。拥有这种技术的话，本来无法实现的重火器高速战斗也将变为可能。<br>即使你进行了移动，该主步骤中，你依然可以使用[种类：炮击]的武装进行远距离攻击。每个场景可以使用[Y/10（小数进位）]次。Y=你的人物等级。<br><br>最大火力攻击/フルブラストアタック<br>等级：2<br>种类：操、命<br>时点：主要动作<br>对象：单体<br>射程：0<br>代价：12HP<br>效果：削弱敌人，使用全武装对其进行舍身攻击。<br>对对象使用装备于主武装的近距离武装进行白刃攻击。该次攻击的伤害再加算上[近距离武装的主武装]以外的所有装备中武装的攻击力。每个模组可以使用一次。<br>具体参考后文。<br><br>弹仓交换/マガジンチェンジ<br>等级：2<br>种类：操<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：迅速交换弹仓的特技。尽量不让人抓到破绽，这便是在战场上生存的关键。<br>立刻使用一个[预备弹仓]。每轮可以使用一次。<br></div></div></div><br>Lv.3~Lv.10<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">支援专家/サポートエキスパート<br>等级：3<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你习得了各种瞬间增大伤害的方法。<br>你使用[种类：增]的特技与物品时，效果+[Y]。[对象：自身]的特技除外。Y=你的人物等级。<br><br>抵挡专家/ブロックエキスパート<br>等级：3<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你擅长减轻敌方攻击伤害的技巧。<br>你使用[种类：防]的特技与物品时，其伤害减轻效果+[Y]。Y=你的人物等级。<br><br>修理专家/リペアエキスパート<br>等级：3<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你精通回复守护神受到的损伤的技巧。<br>你使用[种类：回]的特技与物品时，效果+[Y]。Y=你的人物等级。<br><br>全弹发射II/全弾発射II<br>等级：4<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：更加有效地消费弹药，将火力集中于一点以增加伤害。<br>你使用《全弹发射/全弾発射》时，效果变为[每有一个武装弹数变为0，伤害就+2d6]。<br><br>超远距离射击/超远距离射撃<br>等级：4<br>种类：操<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：你在使用远距离武器时能以更高精度进行瞄准，超越有效射程进行炮击。<br>该主步骤中，你装备中的远距离主武装的射程+2。例如，若武装射程为[3~6]则变成[3~8]。<br><br>能力解放/能力解放<br>等级：5<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你与你操纵的守护神之间有高度的亲和性，并由此解放出更强的能力。<br>你操纵的守护神的【命中值】、【回避值】、【炮击值】、【防壁值】+2，【行动值】和【攻击力】+3，【力场值】和【感应值】+10，除&lt;神&gt;以外的防御修正值全部+3。<br><br>修理专家II/リペアエキスパートII<br>等级：5<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你精通了级别甚高的回复技巧，在守护神受到损伤的瞬间便能进行回复。<br>你取得的[种类：回]的特技，每轮可以使用的次数+1。<br><br>支援专家II/サポートエキスパートII<br>等级：6<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你精通了级别甚高的，瞬间增大伤害的技术。<br>你取得的[种类：增]的特技，每轮可以使用的次数+1。<br><br>抵挡专家II/ブロックエキスパートII<br>等级：6<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你精通了级别甚高的，减轻敌方攻击伤害的技巧。<br>你取得的[种类：防]的特技，每轮可以使用的次数+1。<br><br>双重抵挡/ダブルブロック<br>等级：7<br>种类：-<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：同时展开多重防御手段，使自己的守备固若金汤。<br>你可以使用两个[种类：防]且[时点：伤害投掷后立刻]的特技。不能同时使用相同的特技。每轮可以使用一次。<br><br>再一次/オーバーアゲイン<br>等级：9<br>种类：-<br>时点：自动动作<br>对象：自身<br>射程：无<br>代价：12HP<br>效果：突破自己的界限，唤醒令人难以置信的力量。<br>随时可以使用。你已经使用过的，记载有[每轮可以使用一次]或[每个场景可以使用一次]的特技或物品，使用次数回复一次。每个模组可以使用一次。<br><br>能力解放II/能力解放II<br>等级：10<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你与守护神间的联系已是灵魂相融的等级。<br>《能力解放/能力解放》的效果变更为以下内容。[你操纵的守护神的【命中值】、【回避值】、【炮击值】、【防壁值】+3，【行动值】和【攻击力】+5，【力场值】和【感应值】+20，除&lt;神&gt;以外的防御修正值全部+5。]<br></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_735858">
+&#171; <em>上次编辑: 2016-06-25, 周六 00:48:32 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg735860"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_735860_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_735860">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg735860#msg735860" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_735860'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_735860'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #24 于:</strong> 2015-07-10, 周五 22:23:50 &#187;</div>
+<div id="msg_735860_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_735860"><span style="font-size: 18pt;" class="bbc_size"><strong>泛用特技：人生经历/汎用特技：ライフパス</strong></span><br>在这里介绍的是，根据人生经历的出身表取得的泛用特技。这些特技不仅可以通过对应的出身取得，也可以通过消费经验点获得。但是，当GM觉得某个泛用特技不符合PC的背景设定时，可以予以驳回。<br><br>异世界人/异世界人<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你来自于外星或异次元等与这个机甲历世界相异的世界。因此，相比于其他连结者，你与守护神有着更加深刻紧密的联系。<br>你的【力场值】和【耐久力】和【感应值】+2。具体来自什么样的世界请与GM讨论决定。<br><br>实验体/実験体<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是为了操纵守护神而被“制造”出来的人造生命体、克隆人、人造人之类的存在。虽然与AL粒子有高度亲和性，但由于技术尚不稳定，你在身心的平衡方面有所欠缺，寿命也比常人更短。<br>你的【力场值】+6，【耐久力】-2。<br><br>名士/セレブリティ<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的言行举止往往会吸引来或好或坏的注目。你便是所谓的著名人士。只要报上大名，大概没有人会认不出你吧。<br>你进行交涉时，判定值+2。具体怎样的判定算是交涉类由GM判断决定。对于运用战斗值的判定，该技能无效。<br><br>天涯孤独/天涯孤独<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你举世无亲，但这悲惨的际遇也磨练了你强韧的意志力。千锤百炼，方成金刚。<br>你进行的【意志】判定的判定值+2。<br><br>见习者/アプレンティス<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：隶属神社佛阁或魔术结社、身上流淌着宗教巫师的血、抑或是来自于雷姆利亚王国的魔法使……你在神秘集团中长大，并从小接受正式的魔术训练。且不论你是否真的是个魔术师，这般训练锻炼了你的精神，令你与ALTIMA间的连接十分紧密。<br>你的【力场值】+4。<br><br>财力/财力<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你手持莫大的财富。你有可能是财阀当家或公司总经理，也可能是某个小国的王或贵族也说不定。<br>你的财产点数于游戏前+5。因为这个特技得到的财产点数在游戏后自动失去。<br><br>极致之美/天上の美<br>等级：1<br>种类：-<br>时点：即将进行判定时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有超越常人的美貌，并因此在各种行为上变得有利。<br>你进行的判定的判定值+3。但是如果GM认为在某项判定上你的美貌无法发挥作用的话，则不能使用该特技。每模组可以使用一次。<br><br>教育成果/教育成果<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你身受优越的教育，因而学识渊博。并不一定要和学历直接联系，但大多是从大学程度的教育机关中毕业的吧。<br>你进行的【理知】判定的判定值+2。<br><br>领袖魅力/カリスマ<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你有着确实的领袖气质，身边常常洋溢着吸引群众的魅力。这份判断给予人自信，而那些自信则给予了你钢铁般的意志。你的决断受人敬仰，就是因为这样的理由吧。<br>你进行的【理智】判定与【意志】判定的判定值+1。<br><br>忍耐之心/耐える心<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你因为某种理由而拥有脆弱的肉体。然而，那份不足却令你灵魂崇高，磨练了你强韧的精神力。<br>你的【耐久力】-2，【感应力】+6。<br><br>高等游民/高等游民<br>等级：1<br>种类：-<br>时点：购入判定后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在经济方面游刃有余，即使不工作也不会过上不自由的生活。那份财源既可以是父母的遗产，也可以是炒股赚来的钱。具体请与GM讨论决定。<br>你进行的购入判定的达成值+20。每模组可以使用三次。<br><br>大家族/大家族<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你有许多可以被称为家人的存在。并不一定要有血缘联系，对你来说如同家人即可。<br>你常备化的住宅的HP回复效果+2d6。但如果住宅效果与骰子无关的话，该技能无效。<br><br>纯血统/纯血统<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你生来便是连结者。相比其他连结者，你与ALTIMA的结合能力更高。在危机时，你能够将力量发挥至最大限度。<br>你进行界限突破时，FP回复至[【意志基本值】+5]。<br><br>第六感/第六感<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有非常敏锐的直感。你擅长跳过理论与思考付诸正确的行动。有点像是超能力，大概就是隐约理解了事物本质的感觉吧。<br>你进行的【知觉】判定的判定值+2。<br><br>调整人/ジェネテック<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是经由基因操作诞生的试管婴儿。你有比常人更高的空间认识能力和火器管制能力，反之身体则比较脆弱。<br>你进行的攻击的伤害+2，【耐久力】-4。<br><br>格斗技的心得/格闘技の心得<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你习得了空手道、骨法、职业摔跤技巧、拳击技巧，或者是功夫之类的武斗技巧。普通的打架技巧（所谓我流之类的）也包含在内。<br>你常备化的“空手”的攻击力+2。<br><br>火事场的底力/火事场の底力<br>等级：1<br>种类：-<br>时点：判定后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：你作为连结者的适性，会在生死的境界线上发挥至极致。<br>那次判定的达成值+2。每模组可以使用一次，仅可在界限突破状态下使用。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_735860">
+&#171; <em>上次编辑: 2017-09-28, 周四 04:31:24 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg736478"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_736478_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_736478">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg736478#msg736478" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_736478'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_736478'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #25 于:</strong> 2015-07-13, 周一 22:50:46 &#187;</div>
+<div id="msg_736478_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_736478"><span style="font-size: 18pt;" class="bbc_size"><strong>加护列表/加护リスト/DIVINE List</strong></span><br>以下是在建立人物时可以得到，但无法通过类别得到的加护。<span style="color: white;" class="bbc_color">（仅限基础规则书而言。拓展规则中某些追加类别可以直接取得以下的一些加护。）<br></span>可以选作PC的第三加护，或者由GM设定为敌机持有的加护。<br><br><span style="font-size: 12pt;" class="bbc_size">不动明王/アカラナータ</span><br>对象：范围2（选择）<br>宣言：先攻步骤<br>效果：将压缩的AL粒子爆炸式射出，用足以弯曲空间的能量摧毁一定的范围。名字来源于艾尔西亚的古代神明不动明王。<br>给予对象10d6点的&lt;神&gt;属性伤害。该加护的射程为[射程：0~5]。<br>该加护并非攻击，不会诱发反应动作。如果人物没有取得歼灭者的话，该加护不能通过自由选择被选作第三加护。<br><br><span style="font-size: 12pt;" class="bbc_size">欣/スィン</span><br>对象：参照效果<br>宣言：设置步骤<br>效果：展开反AL场，否定一切加护的力量。<br>直到这轮的清算步骤终了为止，场景中所有登场人物不能使用加护，《奥丁/オーディン》除外。<br>如果在该加护发挥效果期间使用《奥丁/オーディン》，反AL场会被打消，之后可以自由使用加护。<br><br><span style="font-size: 12pt;" class="bbc_size">提尔/ティール</span><br>对象：自身<br>宣言：伤害投掷后立刻<br>效果：将压缩的AL粒子对空间平面释放，制造出无法侵入的护罩，将所有攻击弹开。名字由来是战神提尔。<br>（预定要）适用于你的实际伤害变为0。（预定要）在受到伤害的同时遭受的负面状态、物品效果也一并打消。<br>但是该加护无法作用于已经适用的伤害。<br><br><span style="font-size: 12pt;" class="bbc_size">内尔伽勒/ネルガル</span><br>对象：单体<br>宣言：参照效果<br>效果：瞬间解放AL粒子，扭曲事象，使得同时攻击复数对象变为可能。名字由来是冥府之神内尔伽勒。<br>在对象进行攻击宣言时使用。那次攻击的对象变为[范围5（选择）]、射程变为[视界]。该对象无法经由特技的效果（例如《攻击延展/アタックエクステンション》）进一步扩大。具体指定谁为对象，由进行攻击的人物自行决定。如果人物没有取得歼灭者的话，该加护不能通过自由选择被选作第三加护。<br><br><span style="font-size: 12pt;" class="bbc_size">尼奥尔德/二ョルド</span><br>对象：单体☆<br>宣言：先攻步骤<br>效果：通过AL粒子分解构成对象的分子，将一切敌人粉碎。名字由来是精灵神尼奥尔德。<br>给予对象15d6点的&lt;神&gt;属性伤害。<br>该加护并非攻击，不会诱发反应动作。如果人物没有取得强袭者的话，该加护不能通过自由选择被选作第三加护。<br><br><span style="font-size: 12pt;" class="bbc_size">巴德尔/バルドル</span><br>对象：单体<br>宣言：判定后立刻<br>效果：通过AL粒子扭曲事件几率，随心所欲上升任何行为的成功率。名字由来是光之神巴德尔。<br>在对象进行判定后立刻使用。那次判定的达成值+20。如果判定达成大失败，则在达成值+20的基础上再取消大失败。若对运用了《巴德尔/バルドル》的判定使用《埃吉尔/エーギル》，则双方效果相互抵消，反之亦然。<br><br><span style="font-size: 12pt;" class="bbc_size">赫尔莫德/ヘルモード</span><br>对象：自身<br>宣言：判定后立刻<br>效果：瞬间移动的加护。<br>在反应动作时进行的判定后立刻使用。那次判定变为暴击。<br>除了这个效果之外，该加护还有另一种使用方式。于[宣言：先攻步骤]使用的话，可以移动到场景内任意一处场所，或者直接从场景中退场也行。该移动或退场无法用加护外的任何方式加以阻碍。如果是在操纵状态或搭乘状态下使用，与你处于同乘状态的人物也会同时移动。<br><br><span style="font-size: 12pt;" class="bbc_size">楼陀罗/ルドラ</span><br>对象：参照效果<br>宣言：先攻步骤<br>效果：使AL粒子暴走，将守护神与其周围的时空本身爆破粉碎。名字由来是艾尔西亚的破坏之神楼陀罗。<br>[射程：0]，[对象：范围3（选择）]。给予对象人物[Yd6+你的力场值]点的&lt;雷&gt;属性伤害。Y=你的人物等级。<br>该加护并非攻击，不会诱发反应动作。使用该加护后，你的机体会爆炸。<br><span style="color: white;" class="bbc_color">就我个人而言，我极度不推荐（大概也不会允许）玩家选择该加护。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">为了方便也顺便把之前各类别的加护列出。<br><br><span style="font-size: 12pt;" class="bbc_size">托尔/トール</span><br>对象：单体<br>宣言：即将进行伤害投掷时<br>效果：将压缩的AL粒子一口气解放出来，弯曲空间，捕捉对方并将其粉碎的加护。名字来源于雷神托尔。<br>在投掷攻击伤害时使用，增加产生的伤害。那次攻击的属性变更为&lt;神&gt;，伤害+10d6。此外，这个伤害无法以加护以外的方式变更适用的人物（意思就是只有加护能够把那次攻击的伤害转移给别人）。攻击对象为复数的场合，这个效果只能增加对其中一人产生的伤害。该加护在同一次伤害投掷中重复使用时，效果能够叠加。<br><br><span style="font-size: 12pt;" class="bbc_size">伊登/イドゥン</span><br>对象：单体<br>宣言：随时<br>效果：通过AL粒子，将细胞或机体高速活性化·复原。名字来源于常春之神伊登。<br>完全回复对象的HP。对象处于操纵状态或搭乘状态的话，FP和EN等也能完全回复。对象所持有的负面状态、战斗不能、死亡、操纵不能、爆炸等也能一并回复。但从死亡或爆炸的情况下回复时，只能够回复在那个场景中死亡或爆炸的角色。<br><br><span style="font-size: 12pt;" class="bbc_size">奥丁/オーディン</span><br>对象：加护<br>宣言：随时<br>效果：发出能够与AL粒子的波动对抵的波动，用加护之力打消加护。因此以万能之神奥丁为其冠名。<br>将已宣言的加护的效果打消，或者是将正在持续的加护的效果消除。被打消的加护被视作已使用，因此不要忘记标记。只是，已经适用了效果的加护，无法使用该加护打消。<br><br><span style="font-size: 12pt;" class="bbc_size">海姆达尔/ヘイムダル</span><br>对象：单体<br>宣言：判定后立刻<br>效果：将AL粒子瞬间解放，干涉周围的量子，操纵事象以达到自己想要的结果。因为会发出虹色的光辉，所以以虹神海姆达尔的名字称呼之。<br>在主要动作的判定后立刻使用。对象可以拒绝这个效果。那次判定暴击。如果你在对决中使用《海姆达尔/ヘイムダル》，防御侧不使用相关加护的话自动算作失败。<br><br><span style="font-size: 12pt;" class="bbc_size">布都御魂/フツノミタマ</span><br>对象：自身<br>宣言：即将进行伤害投掷时<br>效果：将积蓄在ALTIMA上的伤害转换成AL粒子后一齐释放，使出力超越界限。以剑神布都御魂为其冠名。<br>在你进行的，以单体为对象的攻击，即将进行伤害投掷时使用。那次伤害+[你受到的实际伤害]。换言之，就是伤害+[力场值-当前FP]。<br><br><span style="font-size: 12pt;" class="bbc_size">盖亚/ガイア</span><br>对象：参照效果<br>宣言：随时<br>效果：通过AL粒子引发超越万物事象的奇迹。以大地之神盖亚为其冠名。<br>实现你的一个愿望。具体实现到什么程度请与GM讨论后决定。未经GM允许不能使用该加护。如果GM在判断上有所迷惘的话，直接照搬其他加护的内容也没有问题。此外，该加护不能靠《布拉基/ブラギ》等加护增加使用次数，或被选作复制的对象。<span style="color: red;" class="bbc_color">再度声明，该加护不能通过自由选择被选作第三加护。</span><br><br><span style="font-size: 12pt;" class="bbc_size">赫尔/ヘル</span><br>对象：单体<br>宣言：即将进行伤害投掷时<br>效果：通过放出AL粒子来强化弹体或光学武器的威力。虽然是名字来源是死之国的女王赫尔，但也有很多连结者直接解释成将对手送往地狱（Hell）。<br>在即将进行攻击的伤害投掷时使用。增加对象造成的伤害。那次攻击的属性变更为&lt;神&gt;，伤害+5d6。<span style="color: red;" class="bbc_color">（与《托尔/トール》不同，）攻击对象为复数的场合，对所有攻击对象造成的伤害都能增加。</span><br><br><span style="font-size: 12pt;" class="bbc_size">武御雷/タケミカヅチ</span><br>对象：单体<br>宣言：于实际伤害适用时宣言<br>效果：将给予ALTIMA的伤害瞬间转换成AL粒子，以超光速发起反击。虽然以出云剑神武御雷为其冠名，但具体理由还不得而知。<br>若宣言《武御雷/タケミカヅチ》，给予你伤害的对手也将同时受到<span style="color: red;" class="bbc_color">实际伤害</span>，其数值与你所受到的实际伤害相等。（该加护所产生的）伤害的最大值与你的耐久力相等；如果处于操纵中的话，则不用耐久力改用力场值。你通过《武御雷/タケミカヅチ》给予的实际伤害无法以加护外的途径减轻。<br><br><span style="font-size: 12pt;" class="bbc_size">布拉基/ブラギ</span><br>对象：单体<br>宣言：随时<br>效果：通过利用ALTIMA的同步机能，使其他机体的AL粒子活性化以增强加护。诗歌与雄辩之神布拉基是其名字由来。<br>对象取得的一个加护，使用次数增加一次。效果具体适用于哪个加护由你决定。指定加护还没使用过的场合，也能够增加使用次数。通过《布拉基/ブラギ》增加了使用次数的加护具体要如何使用，由对象（那个加护的持有者）决定。如果人物没有取得传导者的话，该加护不能通过自由选择被选作第三加护。<br><br><span style="font-size: 12pt;" class="bbc_size">埃吉尔/エーギル</span><br>对象：单体<br>宣言：判定后立刻<br>效果：通过放出AL粒子瞬间阻碍他人的行动，或者是改变事件的几率。以海洋神埃吉尔为其冠名。<br>紧跟在对象进行判定后使用。那次判定的达成值-20。如果判定达成暴击，则在达成值-20的基础上再取消暴击。但是，《埃吉尔/エーギル》不能打消因加护而达成的暴击。<br><br><span style="font-size: 12pt;" class="bbc_size">缪斯/ミューズ</span><br>对象：单体<br>宣言：先攻步骤<br>效果：通过AL粒子引发的意识共鸣，将他机的ALTIMA（或者驱动机关）瞬间活性化。名字来源于给予灵感的神明缪斯。<br>对象立刻进行一次主步骤。主步骤的具体行动，可以由对象自行决定。未行动过的对象不会因为（该加护赋予的）这次主步骤变为行动终了状态，行动终了状态的对象也可以靠该加护进行主步骤。该加护不能以自身为对象。</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_736478">
+&#171; <em>上次编辑: 2016-05-07, 周六 15:31:41 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738934"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738934_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738934">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738934#msg738934" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738934'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738934'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #26 于:</strong> 2015-07-25, 周六 22:39:21 &#187;</div>
+<div id="msg_738934_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738934"><span style="font-size: 18pt;" class="bbc_size"><strong>物品/アイテム/Item</strong></span><br><em>“这颗星球的文明，不久就将成为整个宇宙的祸乱之源。”——某监视者</em><br><br><span style="font-size: 14pt;" class="bbc_size">什么是物品？</span><br>在“钢之守护神RPG”之中，不论敌我都可以使用包括守护神及其武装在内的各种物品。在这一章中，会对角色们使用的多种多样的物品进行解说。<br><span style="font-size: 12pt;" class="bbc_size">●常备化点数与购入难度</span><br>物品分别设有购买难易度和必要常备化点数。如果没有设定难易度或必要点数的话，就无法购买或不能常备化。<br>无法购入而可以常备化的场合，必须在游戏前或游戏后取得GM的许可，通过消费常备化点数取得。这些道具的取得和常备化必须同时进行。<br>若物品既没设定购买难易度也没设定常备化点数（比如守护神或合体武装），则说明该物品无法靠正常手段获得。获得这些物品的手段可能是选择特定类别、取得特定特技等。<br><span style="font-size: 12pt;" class="bbc_size">●守护神</span><br>“钢之守护神RPG”的最大特征，便是PC们操纵的机器人兵器“守护神”。“守护神”在原则上仅能通过选取特定类别才能够取得与常备化。<br>另外，在这之中也存在有特定类别专用的武装或附加组件等。这些也同样必须在获得特定的类别后，才有权利取得与常备化。<br>这部分的物品，原则上仅在角色作成的时候能够自动取得，或在游戏前或游戏后得到GM的许可才能入手。<br>再者，入手了的特定类别专用的物品，仅有将其取得·常备化的角色才能使用，转让或借予他人原则上都是禁止的。<br><span style="font-size: 12pt;" class="bbc_size">●住宅</span><br>住宅是表示角色住所情况的数据资料。<br>基本上，在住宅内进行场景，就能够得到住宅的效果。不过，同一个住宅的效果每个剧本只能获得一次。另外，有关住宅的布局和形状，室内的装饰和家具的有无等等细节都由玩家自行设定。<br><span style="font-size: 12pt;" class="bbc_size">●生活方式</span><br>生活方式能够表示角色的经济状况如何，或是过着怎样的生活。当然，生活方式的细节都由玩家自行设定。临时收入以外的生活方式，基本上每一个角色只能取得一个。<br><br><span style="font-size: 12pt;" class="bbc_size">■共通项目</span><br>·名称<br>物品的名称。名称开头标记有“●”的话，说明那是[对象：范围1（选择）]的攻击用物品。<br>·种类<br>表示物品的分类。种类大致有以下几种：守护神、航空机、战车、列车、车辆、机兽、白刃、射击、远距离、附加组件、辅助、防具、服务、回、消耗、住宅、生活方式。这些种类中的一部分有更加详细的划分，并于（）内进行描述。分类为守护神、航空机、战车、机兽、白刃、射击、炮击、附加组件的物品，不装备不能使用，也无法得到它们对【战斗值】的修正或特殊效果。<br>此外，种类“消耗”的道具使用后便会失去。<br>·购入难易度<br>斜杠左侧为购入判定的难易度，右侧为将其常备化需要消耗的常备化点数。设定为“-”的话便是没有，表示该物品无法购入/常备化。<br>·解说<br>记述有对该物品的大致解说。如果物品有特殊效果的话也会写在这里。<br>▼弹数<br>某些武装或物品的解说中会记载有[弹数]。使用这些物品会减少弹数，弹数为0的话便无法使用。原则上，减少的弹数将在场景终了时回复。<br><br><span style="font-size: 12pt;" class="bbc_size">■守护神</span><br>·命中<br>对【命中值】的修正。<br>·回避<br>对【回避值】的修正。<br>·炮击<br>对【炮击值】的修正。<br>·防壁<br>对【防壁值】的修正。<br>·行动<br>对【行动值】的修正。若适用修正后【行动值】为0以下，则不能够装备该物品。<br>·力场<br>对【力场值】的修正。解除会对【力场值】产生修正的物品的话，【力场值】会减少，并导致【FP】减少。<br>·感应<br>对【感应值】的修正。解除会对【感应值】产生修正的物品的话，【感应值】会减少，并导致【EN】减少。<br>·攻击力<br>对【攻击力】的修正。<br>·固定武装<br>附属在该守护神上的武装。将该守护神常备化的话，自动常备化该武装。可以选择是否将该武装作为通常武装进行装备。<br>守护神的固定武装，或者是将特定守护神常备化时自动得到的物品，不装备相应守护神的话，便无法（将那道具）装备，也无法从它那里得到任何效果<br>·移动力<br>表示这个守护神可以移动多少距离。将这个【移动力】与从人物【体力】算出的修正相加，便能够计算得出实际进行战斗移动或全力移动时可以移动的距离。<br>·防御修正<br>装备状态下，受到特定属性攻击，可以减少伤害数值。具体请参考后文。<br><br><span style="font-size: 12pt;" class="bbc_size">■武装</span><br>·命中<br>对【命中值】的修正。<br>·回避<br>对【回避值】的修正。<br>·炮击<br>对【炮击值】的修正。<br>·防壁<br>对【防壁值】的修正。<br>·行动<br>对【行动值】的修正。若适用修正后【行动值】为0以下，则不能够装备该物品。<br>·主攻击力、副攻击力<br>武装的攻击力，包括武装的伤害属性与伤害修正。具体请参考后文。主攻击力是该武装装备在主武装栏时的攻击力，副攻击力是该武装装备在副武装栏时的攻击力。<br>·射程<br>表示武装的有效射程距离，以格为单位。具体参考后文。<br>射程为[视界]时，使用者可以将任何自己看得见的角色作为对象。<br>·部位<br>表示该武装是否可以装备为主武装或副武装。[主]表示只能作为主武装，[副]表示只能装备为副武装，[主/副]表示既可以作为主武装也可以作为副武装。<br>·代价<br>表示使用该物品时需要消费的代价。代价为【HP】或【EN】的话，界限突破中不需要消费。<br><br><span style="font-size: 12pt;" class="bbc_size">■附加组件</span><br>·命中<br>对【命中值】的修正。<br>·回避<br>对【回避值】的修正。<br>·炮击<br>对【炮击值】的修正。<br>·防壁<br>对【防壁值】的修正。<br>·行动<br>对【行动值】的修正。若适用修正后【行动值】为0以下，则不能够装备该物品。<br>·力场<br>对【力场值】的修正。解除会对【力场值】产生修正的物品的话，【力场值】会减少，并导致【FP】减少。<br>·感应<br>对【感应值】的修正。解除会对【感应值】产生修正的物品的话，【感应值】会减少，并导致【EN】减少。<br>·攻击力<br>对【攻击力】的修正。<br>·移动力<br>给予【移动力】的修正。若适用修正后【移动力】为0以下，则不能够装备该物品。<br>·防御修正<br>装备时，受到特定属性攻击，可以减少伤害数值。具体请参考后文。<br><br><span style="font-size: 12pt;" class="bbc_size">■一般物品</span><br>·时点<br>表示使用物品，使其发挥解说中的效果的时点。时点的标记方式与特技相同，具体请参考前文。<br><br><span class="bbc_u">载具</span><br>航空机、战车、机兽等，所有守护神外的乘具都当作载具处理。<br>出于方便，载具的格式与守护神相同。<br><span class="bbc_u">白刃</span><br>近距离武装。进行白兵攻击的武装。用【命中值】进行命中判定。用【回避值】进行防御判定。<br><span class="bbc_u">射击</span><br>近距离武装。进行射击攻击的武装。用【命中值】进行命中判定。用【回避值】进行防御判定。<br><span class="bbc_u">炮击</span><br>远距离武装。进行远距离攻击的武装。移动后无法使用。用【炮击值】进行命中判定。用【防壁值】进行防御判定。<br><span class="bbc_u">人类用武装·防具</span><br>人类用武装或防具的效果，在乘坐守护神或在载具时，全都不会反映于数据上。<br><br><span style="font-size: 14pt;" class="bbc_size">相当品</span><br>原文比较冗长，这里择取要点进行说明。<br>所谓相当品，说白了就是给物品改名，或添加额外的设定。<br>虽然我想应该不会有那么恶意的人，但这里还是提几点需要注意的。<br>1、就算设定或演出上再怎么夸张，实际效果也是和数据相同。倒不如说，考虑到演出的合理性，请参照数据设定相当品。<br>2、注意不要与已经存在的物品混淆。比如不要出现“守护神之剑相当的光束军刀”这样的设定。<br>3、同样，也不要出现像“与大型光束加农相当的拳头”这样已经完全搞不清楚是什么东西的设定。<br>4、出于搞笑演出的缘由，姑且可以容忍“喊的是剑斩但用的是飞踢”这种事。但凡事有分寸，不要得寸进尺破坏RP气氛。<br>5、TRPG是游戏，大家是为了寻求乐趣来玩的。千万不要给其他PC（以及GM）造成困扰，留下不愉快的回忆。<br><span style="color: white;" class="bbc_color">ex.在一定程度上，就我个人而言，修改物品数据或原创物品之类的事情是可以允许的。但这建立在玩家和GM对该规则的数据有一定了解的情况下。同样，为了游戏体验（以及GM和其他玩家的胃），请不要设定出过分滥强的物品。</span><br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738934">
+&#171; <em>上次编辑: 2016-02-12, 周五 13:10:37 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738935"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738935_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738935">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738935#msg738935" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738935'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738935'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #27 于:</strong> 2015-07-25, 周六 22:41:54 &#187;</div>
+<div id="msg_738935_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738935"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：骑士级/アイテムデータ：カバリエ</strong></span><br>在此介绍骑士级专用的物品。这些物品只有获得了骑士级类别的角色才能够入手、常备化。<br><br>骑士级试作型/カバリエ级试作型<br>种类：守护神（骑士级）<br>命中：+3<br>回避：+3<br>炮击：±0<br>防壁：±0<br>行动：+4<br>力场：+12<br>感应：+12<br>攻击力：+3<br>固定武装：机械手<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：10/4/6/6<br>购入难易度：-/-<br>解说：特化了格斗战与攻击力的骑士级试作机。<br><br>骑士级普及型/カバリエ级普及型<br>种类：守护神（骑士级）<br>命中：+2<br>回避：+1<br>炮击：+2<br>防壁：+1<br>行动：+2<br>力场：+12<br>感应：+12<br>攻击力：+2<br>固定武装：机械手<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：12/6/8/8<br>购入难易度：-/-<br>解说：应用广泛的骑士级基础型。没有特别的短板，无论在怎样的战局之中都能稳定地发挥性能。<br><br><br>光束步枪/ビームライフル<br>种类：射击（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;光&gt;+6<br>副攻击力：&lt;光&gt;+3<br>射程：1~2<br>部位：主/副<br>代价：6EN<br>购入难易度：-/8<br>解说：将重粒子加速·共振激发后以高能量射出的骑士级用手持光束炮。操作不当（大失败）会导致功率低下。<br><br>光束短枪/ショートビームラーフル<br>种类：射击（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+2<br>射程：1~2<br>部位：副<br>代价：4EN<br>购入难易度：-/4<br>解说：能够将重粒子加速·共振激发的小型光束炮。由于设计上相对简化且更加紧凑，通常当作备用武器使用。操作不当（大失败）会导致功率低下。<br><br>光束军刀/ビームサーベル<br>种类：白刃（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;光&gt;+6<br>副攻击力：&lt;光&gt;+3<br>射程：0<br>部位：主/副<br>代价：3EN<br>购入难易度：-/5<br>解说：通过共振激发使重力子处于高能量状态，然后用电磁场定型为刃状的光束刃。形状各种各样，如斧形与小刀形。<br><br>光束长刀/ロングビームサーベル<br>种类：白刃（光束）<br>命中：±0<br>回避：-2<br>炮击：-2<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;光&gt;+10<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：4EN<br>购入难易度：-/15<br>解说：用电磁场将重粒子约束为光刃状所形成的大型光束剑。长枪形、长刀形、亦或是将两把光束军刀的握柄拼接起来的形状，各种形状的都有。<br><br>骑士机枪/カバリエマシンガン<br>种类：射击（全自动）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：-1<br>行动：-2<br>主攻击力：&lt;殴&gt;+8<br>副攻击力：&lt;殴&gt;+4<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/4<br>解说：骑士级所使用的，以攻击重装甲目标为目的设计出的机枪。比起压制射击更倾向集中射击。除了手持外，也有搭载在前腕部或手指部的类型。[弹数：5]。<br><br>光束狙击步枪/ビームスナイパーライフル<br>种类：炮击（狙击/光束）<br>命中：-2<br>回避：-2<br>炮击：+1<br>防壁：-1<br>行动：-6<br>主攻击力：&lt;光&gt;+10<br>副攻击力：-<br>射程：4~6<br>部位：主<br>代价：10EN<br>购入难易度：-/15<br>解说：非常强力但却难以使用的狙击用手持光束炮。使用的时候必须有友军的护卫。操作不当（大失败）会导致功率低下。<br><br>光束加农/ビームキャノン<br>种类：炮击（光束）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;光&gt;+8<br>副攻击力：&lt;光&gt;+4<br>射程：3~4<br>部位：主/副<br>代价：6EN<br>购入难易度：-/4<br>解说：由动力炉直接供给能量的光束炮。大多数搭载于肩部，也有设置在躯干部位的。操作不当（大失败）会导致功率低下。<br><br>骑士加农/カバリエキャノン<br>种类：炮击（火炮）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：&lt;殴&gt;+5<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/4<br>解说：骑士级专用的对空与支援用的搭载火器。根据不同的目的有着各种各样的大小不同的类型。该武装对飞行状态的目标造成的伤害增加2d6。[弹数：3]。<br><br>护盾导弹/シールドミサイル<br>种类：炮击（导弹）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-1<br>主攻击力：&lt;炎&gt;+6<br>副攻击力：&lt;炎&gt;+6<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/1<br>解说：装载于骑士级专用盾牌内的导弹发射器。容易操纵，几乎不会妨碍到动作。如果没有取得《护盾防御》的话就无法取得也不能装备这个物品。[弹数：2]。<br><br>辅助飞行系统（Sub Flight System）/SFS（サブフライトシステム）<br>种类：附加组件<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-2<br>行动：-4<br>力场：±0<br>感应：+0<br>攻击力：±0<br>移动力：+1<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/10<br>解说：能够承载骑士级飞行的高推力运输机。驾驶型和无人型的都存在，能够接受骑士级的指令进行飞行。装备即可获得飞行状态。<br><br>全装甲系统（Full Armor System）/フルアーマーシスタム<br>种类：附加组件<br>命中：+1<br>回避：-2<br>炮击：+1<br>防壁：-2<br>行动：-6<br>力场：+20<br>感应：+10<br>攻击力：+3<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：3/0/3/3<br>购入难易度：-/20<br>解说：骑士级专用的，统和了附加装甲和追加火器管制机构的强化战斗系统。作为耐久性上升的代价，机动性有所下降。<br><br>悬浮系统（Hover System）/ホバーシスタム<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：+1<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>解说：在骑士级的脚部或腰部增设悬浮单元。装备时获得疾驱状态。<br><br>高机动推进翼/高机动バインダー<br>种类：附加组件<br>命中：±0<br>回避：+2<br>炮击：±0<br>防壁：+2<br>行动：+4<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/15<br>解说：主要搭载在背部的可动翼。操作灵活，用于制御惯性，能够提升骑士级机动性的附加组件。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738935">
+&#171; <em>上次编辑: 2016-04-20, 周三 04:37:04 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738936"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738936_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738936">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738936#msg738936" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738936'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738936'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #28 于:</strong> 2015-07-25, 周六 22:42:43 &#187;</div>
+<div id="msg_738936_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738936"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：激突级/アイテムデータ：クラッシャー</strong></span><br>在此介绍激突级专用的物品。这些物品只有获得了激突级类别的角色才能够入手、常备化。<br><br>激突级打击型/クラッシャー级打撃型<br>种类：守护神（激突级）<br>命中：+3<br>回避：+2<br>炮击：±0<br>防壁：±0<br>行动：+2<br>力场：+12<br>感应：+8<br>攻击力：+1<br>固定武装：铁拳<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：8/3/5/5<br>购入难易度：-/-<br>解说：重视近距离搏击的平均型激突级。<br><br>激突级重装型/ラッシャー级重装型<br>种类：守护神（激突级）<br>命中：+2<br>回避：±0<br>炮击：±0<br>防壁：+2<br>行动：-2<br>力场：+15<br>感应：+8<br>攻击力：+3<br>固定武装：铁拳<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：11/5/7/7<br>购入难易度：-/-<br>解说：强化了装甲，倾向于承受攻击后反击的激突级。<br><br>激突级高速型/ラッシャー级高速型<br>种类：守护神（激突级）<br>命中：+4<br>回避：+4<br>炮击：±0<br>防壁：±0<br>行动：+8<br>力场：+11<br>感应：+8<br>攻击力：±0<br>固定武装：机械手<br>移动力：3<br>体型：M<br>防御修正（斩/刺/殴/炎）：7/3/5/5<br>购入难易度：-/-<br>解说：高速战斗特化的激突级，多数机体都有着忍者一样的外貌。<br><br>光束剑/ビームソード<br>种类：白刃（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;光&gt;+6<br>副攻击力：&lt;光&gt;+3<br>射程：0<br>部位：主/副<br>代价：3EN<br>购入难易度：-/3<br>解说：为激突级而专门调整过的光束剑。形状各种各样，如鞭形或锤形。似乎很多人喜欢用形状比较奇妙的。<br><br>光束斧枪/ビームハルバード<br>种类：白刃（光束）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;光&gt;+10<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：4EN<br>购入难易度：-/8<br>解说：用电磁场将重粒子约束为光刃状所形成的大型光束枪状的武器。从死神大镰到巨大的大剑，甚至还有三叉戟和长棍形状，各种形状的都有。<br><br>热能镰/ヒートハルパー<br>种类：白刃（热能）<br>命中：±0<br>回避：±0<br>炮击：-1<br>防壁：±0<br>行动：-１<br>主攻击力：&lt;炎&gt;+8<br>副攻击力：&lt;炎&gt;+8<br>射程：0<br>部位：主/副<br>代价：2EN<br>购入难易度：-/3<br>解说：刀身如弯曲的镰状的等离子剑。利用超高热将敌方的装甲熔断。做成了适合二刀流的结构。<br><br>激突利刃/クラッシャーブレード<br>种类：白刃（实剑）<br>命中：±0<br>回避：±0<br>炮击：-1<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;斩&gt;+10<br>副攻击力：&lt;斩&gt;+5<br>射程：0<br>部位：主/副<br>代价：无<br>购入难易度：-/1<br>解说：主要由高速战斗型激突级使用的实体剑。常见的是日本刀型或装在肘部的类型等。该武装与激突级高速型同时装备的场合，获得[行动：+1]。<br><br>●光束圈/●ビームリング<br>种类：白刃（光束）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;光&gt;+5<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：4EN<br>购入难易度：-/8<br>解说：用电磁场将约束重粒子，形成圆环状的光束立场。常见的战法有像用呼啦圈或丝带一样斩切敌人，或者是缠在全身向敌人发起冲撞。<br><br>光束射击器/ビームショット<br>种类：射击（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+2<br>射程：1~2<br>部位：副<br>代价：4EN<br>购入难易度：-/2<br>解说：军用激突级搭载的，用于防御或牵制等的小型光束炮。多数搭载于前臂，其中也有从双手放出气弹攻击的类型。<br><br>飞龙棍/ドラゴンロッド<br>种类：射击（撞角）<br>命中：+1<br>回避：±0<br>炮击：-2<br>防壁：±0<br>行动：-1<br>主攻击力：-<br>副攻击力：&lt;斩&gt;+10<br>射程：1~3<br>部位：副<br>代价：4EN<br>购入难易度：-/4<br>解说：该武装不能用于《双重武装/ツインアームズ》。为了对中距离目标进行攻击而设计的，如龙一般可以伸缩的手腕或震动鞭。为了方便分类为射击武装。<br><br>光束布带/ビームクロス<br>种类：射击（光束）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+6<br>射程：1~3<br>部位：副<br>代价：8EN<br>购入难易度：-/15<br>解说：该武装不能用于《双重武装/ツインアームズ》。用电磁场将重粒子约束为布状所形成的牵制武器。握于守护神之手，可以展现由指尖抖出的精妙动作。<br><br>●流星锤/●メテオハンマー<br>种类：射击（质量兵器）<br>命中：+1<br>回避：-1<br>炮击：-2<br>防壁：-1<br>行动：-1<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+6<br>射程：1~3<br>部位：副<br>代价：4EN<br>购入难易度：-/4<br>解说：这个武装不能用于《双重武装/ツインアームズ》。用电磁链连接大重量锤头，旋转着挥舞起来砸向敌人的质量兵器。破坏力有如陨星。<br><br>●苦无发射器/●クナイランチャー<br>种类：射击（实剑）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;刺&gt;+4<br>射程：1~2<br>部位：副<br>代价：弹数1<br>购入难易度：-/4<br>解说：能够投射出无数苦无、手里剑或撒菱的射击武装。其范围能够有效牵制敌人。对骑士级等使用的话效果很好。[弹数：3]。<br><br>雷光矢/ライトニングアロー<br>种类：炮击（电击）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;雷&gt;+8<br>副攻击力：&lt;雷&gt;+4<br>射程：3~4<br>部位：主/副<br>代价：4EN<br>购入难易度：-/4<br>解说：能够射出轰雷之矢的弓状远程攻击武装。除了直接射出雷击之外，也能够利用箭矢命中时引发的离子效果从天空诱导落雷。<br><br>金刚指/アダマスナックル<br>种类：附加组件<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-2<br>力场：+10<br>感应：±0<br>攻击力：+2<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：3/0/3/3<br>购入难易度：-/20<br>解说：为了进一步强化激突级的格斗性能，加装大型白刃战用组件，以及支持其的出力强化系统。选择装备中的一种[种类：白刃（机拳）]武装攻击力+4。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738936">
+&#171; <em>上次编辑: 2017-03-21, 周二 13:26:01 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738937"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738937_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738937">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738937#msg738937" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738937'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738937'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #29 于:</strong> 2015-07-25, 周六 22:43:30 &#187;</div>
+<div id="msg_738937_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738937"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：超级级/アイテムデータ：スーパー</strong></span><br>在此介绍超级级专用的物品。这些物品只有获得了超级级类别的角色才能够入手、常备化。<br><br>超级级守护神/スーパー级ガーディアン<br>种类：守护神（超级级）<br>命中：+2<br>回避：±0<br>炮击：+1<br>防壁：±0<br>行动：-4<br>力场：+15<br>感应：+12<br>攻击力：+8<br>固定武装：铁拳<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：10/10/10/8/8/8/4/4<br>购入难易度：-/-<br>解说：用超能量驱动，以超合金打造身躯的无敌超级机器人。<br><br>超级级飞行形态/スーパー级飞行形态<br>种类：航空机（超级级）<br>命中：+1<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-1<br>力场：+15<br>感应：+12<br>攻击力：+2<br>固定武装：无<br>移动力：3<br>体型：M<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：5/5/5/4/4/4/2/2<br>购入难易度：-/20<br>解说：超级级飞行形态。该物品装备中可以获得飞行形态，并且不能装备[种类：突击]以外的白刃武装。<br><br>超级级战车形态/スーパー级戦车形态<br>种类：战车（超级级）<br>命中：+1<br>回避：-3<br>炮击：+2<br>防壁：-3<br>行动：-6<br>力场：+15<br>感应：+12<br>攻击力：+5<br>固定武装：无<br>移动力：1<br>体型：M<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：15/15/15/10/10/10/4/4<br>购入难易度：-/20<br>解说：超级级战车形态。该物品装备中不可以装备白刃武装。<br><br>超级级列车形态/スーパー级列车形态<br>种类：列车（超级级）<br>命中：+1<br>回避：+1<br>炮击：+1<br>防壁：+1<br>行动：-4<br>力场：+15<br>感应：+12<br>攻击力：+2<br>固定武装：无<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：10/10/10/8/8/8/4/4<br>购入难易度：-/20<br>解说：装备中获得疾驱状态，并且不可装备白刃武装。<br><br>守护神利刃/ガーディアンブレード<br>种类：白刃（实剑）<br>命中：±0<br>回避：±0<br>炮击：-1<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;斩&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>购入难易度：-/6<br>解说：仅次于拳的超级级守护神用近战兵器。平时收纳在机体的各个部分，通过ALTIMA瞬间变化形成。也有其他形式。<br><br>超级钢钻/スーパードリル<br>种类：白刃（撞角/突击）<br>命中：±0<br>回避：-2<br>炮击：-2<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;刺&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：4EN<br>购入难易度：-/15<br>解说：超级级守护神用的巨大的回转掘岩机。虽然作为威力巨大的必杀武器难以操控，但喜欢的人也有很多。大型的圆锥形或三刃剑形的都有。<br><br>●等离子震破/●プラズマスマッシャー<br>种类：炮击（热能）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-3<br>主攻击力：&lt;炎&gt;+12<br>副攻击力：-<br>射程：3~4<br>部位：主<br>代价：4EN<br>购入难易度：-/6<br>解说：放射出超高热将敌人溶解的远程攻击用武装。其中也有火球乱射、卷起火焰漩涡的类型。<br><br>●冰霜射线/●フロストレーザー<br>种类：炮击（冻结）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-3<br>主攻击力：&lt;冰&gt;+12<br>副攻击力：-<br>射程：3~4<br>部位：主<br>代价：4EN<br>购入难易度：-/6<br>解说：从着弹地点的中心引发强烈冷气的冷冻光线炮。一口气放出的冷气足以将周围的大气冻结，卷起猛烈的暴风雪。<br><br>●闪耀狂雷/●ボルトサンダー<br>种类：炮击（电击）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-3<br>主攻击力：&lt;雷&gt;+12<br>副攻击力：<br>射程：3~4<br>部位：主<br>代价：4EN<br>购入难易度：-/6<br>解说：向指定的一点砸下落雷的超级级远程攻击武装。放出雷击从着弹点四散奔驰的类型也存在。<br><br>●守护神光线/●ガーディアンレイ<br>种类：炮击（光束）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-3<br>主攻击力：&lt;光&gt;+8<br>副攻击力：&lt;光&gt;+4<br>射程：3~4<br>部位：主/副<br>代价：4EN<br>购入难易度：-/6<br>解说：散乱射出高能量光束将敌群歼灭的远程攻击武装。多数超级级都会装备，特别是具有飞行形态的机体会用做牵制敌人。<br><br>●强酸风暴/●アシッドストーム<br>种类：炮击（腐蚀）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-2<br>主攻击力：&lt;殴&gt;+6<br>副攻击力：&lt;殴&gt;+3<br>射程：3~4<br>部位：主/副<br>代价：2EN<br>购入难易度：-/4<br>解说：卷起带有腐蚀性强酸的风暴的武装。如果该武装给予目标1点以上的伤害，攻击目标直到场景结束为止，除&lt;神&gt;属性以外的全部属性防御修正-5点。<br><br>喷射飞翼/ジェットキャリバー<br>种类：附加组件<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-2<br>行动：-1<br>力场：±0<br>感应：±0<br>攻击力：+2<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>解说：给予超级级守护神飞行能力的附加组件装备。大多数都是安装在背后的飞行翼或是喷射推进器的类型。装备即可获得飞行状态。<br><br>直接连结系统（Direct Linkage System）单元/DLS（ダイレクトリンケージシステム）ユニット<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：+2<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>解说：将操纵者的肉体动作直接变换为机体动作信号的系统。[种类：机拳]的武装给予的伤害+[你使用“空手”的攻击力]。<br><br>宏伟单元/グレートユニット<br>种类：辅助<br>时点：设置步骤<br>购入难易度：-/20<br>解说：对超级级守护神追加装甲，强化打击力的专用辅助单元。大多是鸟形或狮子型，飞行器或列车一类的机械通过变形与守护神一体化的部件。也有通过复数机械共同构成的类型。<br>直到场景结束为止，你所给予的伤害增加2d6，除&lt;神&gt;属性之外的全部属性防御修正+3。每个剧本可以使用一次。<br><br>支援机械/サポートロボ<br>种类：辅助<br>时点：命中判定后立刻<br>购入难易度：-/10<br>解说：你的同伴乘上这个支援用机械以支援你的行动。大多数都是飞行器或车辆，其中也有分类为米勒斯的机体存在。<br>在你进行命中判定之后立刻使用。那次判定重骰。每个场景能够使用一次。该物品每个角色最多可以常备化一个。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738937">
+&#171; <em>上次编辑: 2017-03-21, 周二 13:26:23 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738938"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738938_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738938">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738938#msg738938" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738938'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738938'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #30 于:</strong> 2015-07-25, 周六 22:44:09 &#187;</div>
+<div id="msg_738938_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738938"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：灾厄级/アイテムデータ：ディザスター</strong></span><br>在此介绍灾厄级专用的物品。这些物品只有获得了灾厄级类别的角色才能够入手、常备化。<br><br>灾厄级守护神/ディザスター级ガーディアン<br>种类：守护神（灾厄级）<br>命中：+2<br>回避：±0<br>炮击：+4<br>防壁：-1<br>行动：±0<br>力场：+18<br>感应：+18<br>攻击力：+5<br>固定武装：撞击<br>移动力：1<br>体型：L<br>防御修正（斩/刺/殴/炎/光）：10/4/10/10/6<br>购入难易度：-/-<br>解说：常见的灾厄级基本框架。对这个框架进行定制改造便是灾厄级的基本设计思路。<br><br>●导弹臂/●ミサイルアーム<br>种类：射击（导弹）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+4<br>副攻击力：&lt;炎&gt;+4<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/2<br>解说：加装于腕部的小型导弹舱。也有替换掉整个腕部的类型。为了简化操作将其设置为近距离防御用的辅助武装也不错。[弹数：2]。<br><br>●广域火焰放射器/●広域火炎放射器<br>种类：射击（热能）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+8<br>副攻击力：&lt;炎&gt;+8<br>射程：1~2<br>部位：主/副<br>代价：2EN<br>购入难易度：-/6<br>解说：主要用于对人扫射或都市歼灭的火焰放射器。大范围散步药剂或等离子，用高温烧尽一切。<br><br>加农臂/キャノンアーム<br>种类：炮击（火炮）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：&lt;殴&gt;+5<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/2<br>解说：搭载于腕部的加农炮。将整个腕部换装成加农炮的也很多。作为灾厄级用的廉价装备有很多机体都有搭载。[弹数：2]。<br><br>大型磁轨炮/大型レールキャノン<br>种类：炮击（火炮）<br>命中：-2<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+14<br>副攻击力：&lt;殴&gt;+7<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/4<br>解说：长炮身大口径的电磁加速式加农炮。主要装载于背部或肩部，能够通过曲射充分发挥远程炮击的效力。[弹数：2]。<br><br>大型光束炮/大型ビームキャノン<br>种类：炮击（光束）<br>命中：-2<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;光&gt;+12<br>副攻击力：&lt;光&gt;+6<br>射程：3~4<br>部位：主/副<br>代价：6EN<br>购入难易度：-/4<br>解说：装载于肩部或背部的大型重粒子光束加农炮。擅长直线射击，多用于宇宙空间。使用该武器攻击时若操作不当（大失败）会导致功率低下。<br><br>●长距离榴弹炮/●长距离榴弾砲<br>种类：炮击（火炮）<br>命中：-2<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：&lt;殴&gt;+5<br>射程：3~6<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/7<br>解说：向远程目标射出复数小型HEAT弹的榴弹炮。主要对坦克使用。[弹数：2]。<br><br>轰爆塔/爆射塔<br>种类：炮击（热能/规格外）<br>命中：-2<br>回避：-4<br>炮击：±0<br>防壁：-4<br>行动：-8<br>主攻击力：&lt;炎&gt;+40<br>副攻击力：&lt;炎&gt;+40<br>射程：0<br>部位：主/副<br>代价：30EN<br>购入难易度：-/-<br>解说：用AL粒子引发聚变反应，将其爆发力用塔形能量聚焦线圈集中于一点的规格外武装。外表看起来像是铁塔。每个模组可以使用一次。<br><br>高能加速炮/HEA（High Energy Accelerator）砲<br>种类：炮击（热能/规格外）<br>命中：-2<br>回避：-4<br>炮击：-2<br>防壁：-4<br>行动：-8<br>主攻击力：&lt;光&gt;+30<br>副攻击力：&lt;光&gt;+30<br>射程：0<br>部位：主/副<br>代价：30EN<br>购入难易度：-/-<br>解说：通过粒子加速器将重粒子压缩·简并·加速，以高出力的光束将一带完全毁灭的规格外武装。这个武装根据[对象：直线6（选择）]来选择对象。每个模组可以使用一次。<br><br>多联装脉冲射线炮/多连装パルスレーザー砲<br>种类：炮击（射线/规格外）<br>命中：-2<br>回避：-4<br>炮击：-2<br>防壁：-4<br>行动：-8<br>主攻击力：&lt;光&gt;+30<br>副攻击力：&lt;光&gt;+30<br>射程：0<br>部位：主/副<br>代价：30EN<br>购入难易度：-/-<br>解说：将高出力的脉冲射线炮像刺猬一样装备，对全方位进行攻击的规格外武装。这个武装根据[对象：范围3（选择）]来选择对象。每个模组可以使用一次。<br><br>●灾厄导弹/●ディサスターミサイル<br>种类：炮击（导弹/规格外）<br>命中：-2<br>回避：-4<br>炮击：-2<br>防壁：-4<br>行动：-8<br>主攻击力：&lt;炎&gt;+40<br>副攻击力：&lt;炎&gt;+40<br>射程：5~10<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/-<br>解说：于第二次大战中最早投入使用的规格外武装。强行将中距离弹道导弹运用于守护神，称得上是无谋的武装。[弹数：1]。每个模组可以使用一次。<br><br>多足下肢/多脚レッグ<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：+2<br>防壁：±0<br>行动：±0<br>力场：+20<br>感应：±0<br>攻击力：+5<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：5/5/5/5<br>购入难易度：-/5<br>解说：将灾厄级的下半身变更为四足或六足的多足型的附加组件。为了提升炮击时的安定性，还加装了厚重的装甲以抵抗力矩。<br><br>坦克下肢/タンクレッグ<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：+6<br>力场：±0<br>感应：±0<br>攻击力：+2<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：2/2/2/2<br>购入难易度：-/5<br>解说：将下半身变更为坦克型的附加组件。反应灵敏，可以装载更多的武装。选择装备中的一件武装，将其对【回避值】和【行动值】的修正变更为±0。<br><br>鸟类下肢/バードレッグ<br>种类：附加组件<br>命中：±0<br>回避：+2<br>炮击：±0<br>防壁：+2<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：2/2/2/2<br>购入难易度：-/5<br>解说：将下半身变更为逆关节的鸟类下肢形态的附加组件。装备中获得疾驱状态。选择装备中的两件武装，将它们对【回避值】和【防壁值】的修正变更为±0。<br><br>悬浮下肢/ホバーレッグ<br>种类：附加组件<br>命中：+2<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：+6<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：+2<br>防御修正（斩/刺/殴/炎）：2/2/2/2<br>购入难易度：-/5<br>解说：将灾厄级的下半身变更为利用地面效应，能够在地面上高速行动的气垫型的附加组件。除了提升了移动能力外，近距离射击性能也很优秀。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738938">
+&#171; <em>上次编辑: 2016-02-11, 周四 04:07:13 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738939"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738939_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738939">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738939#msg738939" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738939'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738939'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #31 于:</strong> 2015-07-25, 周六 22:44:36 &#187;</div>
+<div id="msg_738939_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738939"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：魔幻级/アイテムデータ：ファンタズム</strong></span><br>在此介绍魔幻级专用的物品。这些物品只有获得了魔幻级类别的角色才能够入手、常备化。<br><br>魔幻级轻装型/ファンタズム级軽装型<br>种类：守护神（魔幻级）<br>命中：+3<br>回避：+3<br>炮击：-2<br>防壁：+3<br>行动：+8<br>力场：+12<br>感应：+12<br>攻击力：+1<br>固定武装：机械手<br>移动力：3<br>体型：S<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：6/6/6/6/6/6/10/10<br>购入难易度：-/-<br>解说：装备时获得飞行状态。机动性优异，同时也是最普遍的魔幻级守护神。<br><br>魔幻级重装型/ファンタズム级重装型<br>种类：守护神（魔幻级）<br>命中：+2<br>回避：+2<br>炮击：-1<br>防壁：+3<br>行动：+4<br>力场：+12<br>感应：+15<br>攻击力：+2<br>固定武装：爪<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：8/8/8/8/8/8/10/10<br>购入难易度：-/-<br>解说：装备时获得飞行状态。强化了装甲，重视格斗战的机体。<br><br>魔幻级重骑士型/ファンタズム级重骑士型<br>种类：守护神（魔幻级）<br>命中：+3<br>回避：+3<br>炮击：-3<br>防壁：+3<br>行动：+4<br>力场：+15<br>感应：+12<br>攻击力：+3<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：10/10/10/10/10/10/10/10<br>购入难易度：-/-<br>解说：取得时自动获得涡轮滑轮。作为翼的代替取得了强力格斗能力的机体。<br><br>魔幻级重炮击型/ファンタズム级重砲撃型<br>种类：守护神（魔幻级）<br>命中：+2<br>回避：+2<br>炮击：±0<br>防壁：+3<br>行动：+2<br>力场：+15<br>感应：+15<br>攻击力：+2<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：10/10/10/10/10/10/10/10<br>购入难易度：-/-<br>解说：为加强火力和装甲而去除了飞行能力的机体。在魔幻级之中以炮击能力见长。<br><br>魔幻级人马型/ファンタズム级人马型<br>种类：守护神（魔幻级）<br>命中：+3<br>回避：+2<br>炮击：-5<br>防壁：+3<br>行动：+6<br>力场：+12<br>感应：+12<br>攻击力：+3<br>固定武装：机械手<br>移动力：4<br>体型：S<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：8/8/8/8/8/8/10/10<br>购入难易度：-/-<br>解说：装备时获得疾驱状态。人马型的魔幻级，其突击能力称得上是威胁。<br><br>幻影剑/ファンタズムソード<br>种类：白刃（实剑）<br>命中：±0<br>回避：±0<br>炮击：-1<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;斩&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>购入难易度：-/2<br>解说：作为魔幻级基本武装的实体剑。基本上是将人类用的剑等比例扩大到守护神的尺寸，与机体有高度适应性，伤害效率也非常好。<br><br>长鞭利刃/ウィップブレード<br>种类：白刃（实剑）<br>命中：+1<br>回避：-1<br>炮击：-2<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;斩&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>购入难易度：-/4<br>解说：将实体剑的刀身分解成蛇腹状，制作成带刃的鞭子的形状。挥舞起来迷惑敌人，向其空隙发起突袭。不过使用的感觉比较微妙，难以用于防御。<br><br>绳索飞爪/ワイヤークロー<br>种类：射击（撞角）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;刺&gt;+4<br>射程：1~2<br>部位：副<br>代价：无<br>购入难易度：-/1<br>解说：大多数魔幻级皆有装备的，带绳索的射出式爪。对骑士级等有效性较高。<br><br>雷古火炮/レーグショット<br>种类：炮击（火箭筒）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+10<br>副攻击力：&lt;炎&gt;+10<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/1<br>解说：魔幻级装备的远程攻击用滑膛炮。廉价易购，主要用来替代以往的主流武装魔幻爆燃。[弹数：3]。<br><br>●魔幻爆燃/●ファンタズムナパーム<br>种类：炮击（热能）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-2<br>主攻击力：&lt;炎&gt;+8<br>副攻击力：<br>射程：2~3<br>部位：主<br>代价：2EN<br>购入难易度：-/1<br>解说：老式魔幻级搭载的燃烧弹。能够将着弹点周围引燃。在喜欢一对一单挑的雷姆利亚骑士之中没什么人气。<br><br>伊修卡炮/イシュカキャノン<br>种类：炮击（火炮）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：&lt;殴&gt;+5<br>射程：4~6<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/4<br>解说：魔幻级用的远程攻击武装，适合进行远距离炮击，使用的则是在水中也不会衰减威力的特殊弹头。这个武装造成的伤害在深水方格中不会减半。[弹数：3]。<br><br>线性磁轨炮/リニアレールガン<br>种类：炮击（火炮）<br>命中：-2<br>回避：-1<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;殴&gt;+8<br>副攻击力：&lt;殴&gt;+4<br>射程：1~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/6<br>解说：以超远的射程称傲的魔幻级用远程攻击武装。破绽极少，装弹速度快，无论距离多近也能够瞬间击发。[弹数：3]。<br><br>●元素召唤/●サモンエレメンタル<br>种类：炮击（魔法）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：正文<br>副攻击力：-<br>射程：4~6<br>部位：主<br>代价：4EN<br>购入难易度：-/6<br>解说：描绘魔法阵召唤精灵来攻击敌人的魔导兵器。常备化时从&lt;殴&gt;、&lt;斩&gt;、&lt;炎&gt;、&lt;冰&gt;、&lt;雷&gt;属性之中选择一个，主攻击力变为[&lt;选择的属性&gt;+8]。<br><br>●光子射手/●フォトンシューター<br>种类：炮击（魔法）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;光&gt;+6<br>副攻击力：&lt;光&gt;+3<br>射程：4~6<br>部位：主/副<br>代价：6EN<br>购入难易度：-/5<br>解说：从混沌之中引出创造万物的创世之光，以开天辟地的伟力将敌群碾碎的魔导兵器。耀眼的光芒会吞没一切，将所有的存在分解消灭。<br><br>●诅咒之矢/●カースアロー<br>种类：炮击（魔法）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;暗&gt;+6<br>副攻击力：&lt;暗&gt;+3<br>射程：4~6<br>部位：主/副<br>代价：6EN<br>购入难易度：-/5<br>解说：将放出诅咒之矢的弓召唤至守护神的手中，向敌群洒下箭雨的魔导兵器。漆黑的饿兽啊，将钢铁的巨人啃噬殆尽吧。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738939">
+&#171; <em>上次编辑: 2017-03-21, 周二 13:27:02 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738940"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738940_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738940">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738940#msg738940" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738940'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738940'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #32 于:</strong> 2015-07-25, 周六 22:45:04 &#187;</div>
+<div id="msg_738940_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738940"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：同盟级/アイテムデータ：ユニオン</strong></span><br>在此介绍同盟级专用的物品。这些物品只有获得了同盟级类别的角色才能够入手、常备化。<br><br>同盟级守护神/ユニオン级ガーディアン<br>种类：守护神（同盟级）<br>命中：+1<br>回避：+1<br>炮击：+1<br>防壁：+1<br>行动：+3<br>力场：+9<br>感应：+9<br>攻击力：+3<br>固定武装：机械手<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：6/2/4/4<br>购入难易度：-/-<br>解说：同盟级的基本框架。外观一般是人型机器人。<br><br>同盟级飞行形态/ユニオン级飞行形态<br>种类：航空机（同盟级）<br>命中：±0<br>回避：+3<br>炮击：±0<br>防壁：+3<br>行动：+5<br>力场：+9<br>感应：+9<br>攻击力：+3<br>固定武装：无<br>移动力：4<br>体型：M<br>防御修正（斩/刺/殴/炎）：3/1/2/2<br>购入难易度：-/4<br>解说：装备中获得飞行状态，并且不能装备[种类：突击]以外的白刃武装。拥有喷气式或航天飞机一类的形态。<br><br>同盟级机兽形态/ユニオン级机獣形态<br>种类：机兽（同盟级）<br>命中：+2<br>回避：+2<br>炮击：±0<br>防壁：±0<br>行动：+5<br>力场：+9<br>感应：+9<br>攻击力：+5<br>固定武装：爪<br>移动力：3<br>体型：M<br>防御修正（斩/刺/殴/炎）：6/2/4/4<br>购入难易度：-/4<br>解说：装备中获得疾驱状态，并且不能装备[种类：机拳]、[种类：突击]以外的白刃武装。动物形态。<br><br>同盟级车辆形态/ユニオン级车両形态<br>种类：车辆（同盟级）<br>命中：±0<br>回避：+5<br>炮击：±0<br>防壁：+2<br>行动：+3<br>力场：+9<br>感应：+9<br>攻击力：+3<br>固定武装：无<br>移动力：3<br>体型：S<br>防御修正（斩/刺/殴/炎）：3/1/2/2<br>购入难易度：-/4<br>解说：装备中获得疾驱状态，并且不能装备白刃武装。轿车或拖车一类的车辆形态。<br><br>力场切刀/フィールドせイバー<br>种类：白刃（突击/光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;光&gt;+6<br>副攻击力：&lt;光&gt;+3<br>射程：0<br>部位：主/副<br>代价：3EN<br>购入难易度：-/4<br>解说：高速运动使得AL粒子力场变得锋利，并以此切裂敌人。从某种意义上讲，与其说是武装不如说是活用机体的秘技。<br><br>●光束冲锋枪/●ビームサブマシンガン<br>种类：射击（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;光&gt;+4<br>副攻击力：&lt;光&gt;+2<br>射程：1~2<br>部位：主/副<br>代价：6EN<br>购入难易度：-/10<br>解说：在骑士级光束炮的基础上，牺牲出力增强了射速。操作不当（大失败）会导致功率低下。<br><br>●导弹舱臂/●アームミサイルボット<br>种类：射击（导弹）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+4<br>副攻击力：&lt;炎&gt;+4<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/5<br>解说：易于操纵的小型导弹舱，虽然射程较短，但却不会妨碍行动。大多装载于腕部等的不会造成妨碍的部位。[弹数：2]。<br><br>合体利刃/ユナイトブレード<br>种类：白刃（合体武装/实剑）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;斩&gt;+16<br>副攻击力：-<br>射程：0<br>部位：无<br>代价：无<br>购入难易度：-/-<br>解说：合体状态下才能装备的巨大实体剑。不论是怎样的防御与何种的敌人，一刀之下皆能两断。这个武器不需要消费部位便能装备。<br><br>合体贯击枪/ユナイトランサー<br>种类：白刃（合体武装/撞角/突击）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;刺&gt;+12<br>副攻击力：-<br>射程：0<br>部位：无<br>代价：无<br>购入难易度：-/-<br>解说：合体状态下才能装备的巨大钢钻。贯穿敌人的装甲，打出巨大的空洞。这个武器不需要消费部位即可装备。<br><br>●重力子粉碎者/●グラビトンクラッシャー<br>种类：白刃（合体武装/重力兵器）<br>命中：±0<br>回避：±0<br>炮击：-2<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;暗&gt;+12<br>副攻击力：-<br>射程：0<br>部位：无<br>代价：无<br>购入难易度：-/-<br>解说：利用重力波歪曲时空，将敌人分解·消灭的超兵器。被这个攻击命中的话便会化成光。大多为锤型的。这个武器不需要消费部位即可装备。<br><span style="color: white;" class="bbc_color">本来以为是重力子破坏炮结果是黄金巨锤吗！</span><br><br>合体冲击炮/ユナイトバスター<br>种类：炮击（合体武装/火炮）<br>命中：-2<br>回避：-1<br>炮击：±0<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;殴&gt;+16<br>副攻击力：-<br>射程：3~6<br>部位：无<br>代价：无<br>购入难易度：-/-<br>解说：合体状态下才能装备的巨大加农炮。以超长的射程为傲，能从远处将敌人直接粉碎。这个武器不需要消费部位即可装备。<br><br>合体爆裂炮/ユナイトブラスター<br>种类：炮击（合体武装/光束）<br>命中：-2<br>回避：-1<br>炮击：±0<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;光&gt;+10<br>副攻击力：-<br>射程：0<br>部位：无<br>代价：无<br>购入难易度：-/-<br>解说：合体状态下才能装备的长距离光束炮。这个武装根据[对象：直线6（选择）]来选择对象。这个武器不需要消费部位即可装备。<br><br>光学偏转器/オプティカルディフレクター<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：+0<br>移动力：±0<br>防御修正（斩/刺/殴/光/暗）：0/0/0/10/10<br>购入难易度：-/20<br>解说：利用同盟级的特殊装甲材料和力场出力，展开的特殊能量场的发生装置。对光束攻击或重力波攻击极其有效。<br><br>反冲控制组件/リアクトセーバー<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/15<br>解说：将武器管制系统与机体控制系统联动，将高速运动下的导弹攻击变为可能的附加组件。进行移动后的主要步骤也能够使用[种类：炮击（导弹）]的武器。<br><br>辅助无人机/アシストドローン<br>时点：即将进行判定时<br>购入难易度：-/10<br>解说：对你进行辅助，需要的时候可以作为变形合体部件的AI操纵型的支援机械。大多为人型，不过没有战斗能力。<br>在你即将进行判定时使用。那次判定的判定值+2。每个场景可以使用一次。该物品每个角色最多可以常备化一个。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738940">
+&#171; <em>上次编辑: 2017-03-21, 周二 13:27:19 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738941"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738941_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738941">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738941#msg738941" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738941'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738941'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #33 于:</strong> 2015-07-25, 周六 22:45:35 &#187;</div>
+<div id="msg_738941_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738941"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：闪电级/アイテムデータ：ライトニング</strong></span><br>在此介绍闪电级专用的物品。这些物品只有获得了闪电级类别的角色才能够入手、常备化。<br><br>闪电级守护神/ライドニング级ガーディアン<br>种类：守护神（闪电级）<br>命中：+3<br>回避：+6<br>炮击：+2<br>防壁：+3<br>行动：+6<br>力场：+6<br>感应：+6<br>攻击力：+3<br>固定武装：飞拳<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：6/0/6/6<br>购入难易度：-/-<br>解说：取得时自动取得涡轮滑轮。闪电级基本框架。<br><br>闪电机枪/ライドニンングマシンガン<br>种类：射击（全自动）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;殴&gt;+7<br>副攻击力：&lt;殴&gt;+3<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/2<br>解说：专为闪电级开发的重机枪。相较其原型更易操纵，作为闪电级的标准武装广受喜爱。[弹数：3]。<br><br>短管机枪/ショートバレルマシンガン<br>种类：射击（全自动）<br>命中：-2<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：&lt;殴&gt;+7<br>副攻击力：&lt;殴&gt;+3<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/2<br>解说：将闪电机枪原本的枪身和枪托除去，进一步提升操纵性的武装。不过，由于命中精度的下降，没有一定的能力是无法使用的。[弹数：3]。<br><br>●转轮式发射器/●ガトリングランチャー<br>种类：射击（全自动）<br>命中：+1<br>回避：±0<br>炮击：+1<br>防壁：±0<br>行动：-4<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+5<br>射程：1~3<br>部位：副<br>代价：弹数1<br>购入难易度：-/15<br>解说：加装于闪电级两肋的小型转轮式机枪与导弹发射器。主要用作牵制，展开枪弹与导弹的弹幕。[弹数：3]。<br><br>●手持导弹发射器/●ハンドミレイルランチャー<br>种类：射击（导弹）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+6<br>副攻击力：&lt;炎&gt;+6<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/5<br>解说：手持式的导弹舱。虽然火力和射程稍显不足但容易操纵且压制力高。[弹数：2]。<br><br>弹头投射器/ソリッドシューター<br>种类：炮击（火箭筒）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+10<br>副攻击力：&lt;炎&gt;+10<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/3<br>解说：为闪电级开发的火箭筒。尺寸合适且经过轻量化，操纵性非常良好。作为闪电级的标准装备广受喜爱。[弹数：2]。<br><br>磁轨枪/ロックガン<br>种类：炮击（加农）<br>命中：-2<br>回避：-2<br>炮击：-4<br>防壁：-1<br>行动：-6<br>主攻击力：&lt;殴&gt;+14<br>副攻击力：-<br>射程：5~6<br>部位：主<br>代价：弹数1<br>购入难易度：-/15<br>解说：在闪电级武装中拥有最强火力的手持式磁轨炮。适合对闪避能力低下的大型目标使用。对体型：XL的目标造成的伤害+14。[弹数：3]。<br><br>折叠式加农/フォールディングキャノン<br>种类：炮击（火炮）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;刺&gt;+10<br>副攻击力：-<br>射程：3~4<br>部位：主<br>代价：弹数1<br>购入难易度：-/15<br>解说：背负于背部，拥有折叠式炮身的对空炮。穿甲能力非常强。该武装对飞行状态的角色造成的伤害增加2D6点。[弹数：3]。<br><br>●导弹吊舱/●ミサイルガンポッド<br>种类：炮击（导弹）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-2<br>主攻击力：&lt;炎&gt;+7<br>副攻击力：&lt;炎&gt;+7<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/1<br>解说：多数闪电级皆有使用的，搭载于肩部的小型导弹舱。[弹数：2]。<br><br>强袭化改造（R）/强袭化改修（R）<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：＋2<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：0/0/0<br>购入难易度：-/5<br>解说：以在荒野或崎岖地形等无法自由行动的场所执行强袭任务为假想情况，为此而设计的改造型附加组件。无视移动困难方格带来的移动力需求提升。<br><br>轻量化改造（R）/軽量化改修（R）<br>种类：附加组件<br>命中：±0<br>回避：+2<br>炮击：±0<br>防壁：±0<br>行动：+2<br>力场：-3<br>感应：-3<br>攻击力：±0<br>移动力：+1<br>防御修正（斩/刺/殴/炎）：-3/0/-3/-3<br>购入难易度：-/10<br>解说：进一步削减原本就非常薄弱的闪电级装甲，将机体轻量化至极限来提升机动性和速度的改造型附加组件。<br><br>装甲强化改造（R）/装甲强化改修（R）<br>种类：附加组件<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>力场：+10<br>感应：±0<br>攻击力：+2<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：3/0/3/3<br>购入难易度：-/10<br>解说：加装大量粘合剂、履带和钢板，提升闪电级的装甲和防御力的改造。能够得到两倍以上的装甲强度，但机动性大幅下降。<br><br>沙漠战装备（R）/砂漠戦装备（R）<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/5<br>解说：以在沙漠中进行战斗作为假想情况开发的滑雪板状的附加组件单元。无视沙漠方格带来的移动力需求提升。<br><br>湿地战装备（R）/湿地戦装备（R）<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/5<br>解说：以在湿地或沼泽进行战斗作为假想情况开发的闪电级用漂浮单元与推进装置。无视水地、深水方格带来的移动力需求提升。<br><br>钢索发射器/ワイヤーランクャー<br>种类：辅助<br>时点：移动动作<br>购入难易度：-/10<br>解说：主要以巷战用为目标开发的三次元机动辅助装备。<br>你可以在飞行状态下进行战斗移动。这个主步骤中，对非飞行状态的目标进行的命中判定判定值+2。该物品带来的飞行状态在主步骤终了时解除。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738941">
+&#171; <em>上次编辑: 2016-09-22, 周四 06:01:54 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738942"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738942_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738942">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738942#msg738942" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738942'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738942'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #34 于:</strong> 2015-07-25, 周六 22:47:50 &#187;</div>
+<div id="msg_738942_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738942"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：泛用守护神（米勒斯）/アイテムデータ：汎用ガーディアン（ミーレス）</strong></span><br>在此介绍就算不取得特定类别，各角色也能够使用的量产型守护神——米勒斯。这些物品无论是谁都能够入手·常备化。<br><br>St.243I 隼/St.243I フャルコン<br>种类：守护神（骑士级/米勒斯）<br>命中：+1<br>回避：+1<br>炮击：-2<br>防壁：-2<br>行动：+4<br>力场：+8<br>感应：+8<br>攻击力：+1<br>固定武装：机械手<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：8/2/4/4<br>购入难易度：-/100<br>解说：出云防卫军所采用的普遍的骑士级·米勒斯。既没有优点也没有缺点的稳定的机体。<br><br>MBM-1012F 米勒斯·扎德/MBM-1012F ミーレス·ザード<br>种类：守护神（骑士级/米勒斯）<br>命中：+1<br>回避：+1<br>炮击：±0<br>防壁：-2<br>行动：+4<br>力场：+6<br>感应：±0<br>攻击力：+1<br>固定武装：机械手<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：6/0/4/4<br>购入难易度：-/80<br>解说：沃尔夫共和国的量产型守护神。第二次大战的主力兵器，虽然老旧但性能仍然足以作为现役。<br><br>G-112/Block10 烈焰/G-112/Block10 ブレイズ<br>种类：守护神（灾厄级/米勒斯）<br>命中：±0<br>回避：-2<br>炮击：+2<br>防壁：-3<br>行动：+2<br>力场：+12<br>感应：+12<br>攻击力：+5<br>固定武装：撞击<br>移动力：1<br>体型：L<br>防御修正（斩/刺/殴/炎/光）：8/2/8/8/4<br>购入难易度：-/100<br>解说：装备履带的量产型灾厄级。重装甲，动作迟钝。<br><br>St.235C 马其顿/St.235C マケドニア<br>种类：守护神（灾厄级/米勒斯）<br>命中：±0<br>回避：-2<br>炮击：+2<br>防壁：-3<br>行动：-2<br>力场：+12<br>感应：+12<br>攻击力：+3<br>固定武装：撞击<br>移动力：2<br>体型：L<br>防御修正（斩/刺/殴/炎/光）：8/2/8/8/4<br>购入难易度：-/100<br>解说：为对空作战而开发的双足步行型灾厄级。由于是紧急赶工的产品平衡性有些差劲。<br><br>G6M5/M M型雷刚/G6M5/M M型雷刚<br>种类：守护神（闪电级/米勒斯）<br>命中：+1<br>回避：+4<br>炮击：±0<br>防壁：+1<br>行动：+6<br>力场：+2<br>感应：±0<br>攻击力：+1<br>固定武装：飞拳<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：3/0/3/3<br>购入难易度：-/100<br>解说：取得时自动取得涡轮滑轮。闪电级·米勒斯。<br><br>C3M1 五右卫门/C3M1 ゴエモン<br>种类：守护神（民用级/米勒斯）<br>命中：+1<br>回避：+3<br>炮击：-1<br>防壁：-2<br>行动：+3<br>力场：+4<br>感应：±0<br>攻击力：±0<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：4/0/3/3<br>购入难易度：-/40<br>解说：普通的作业用民用级·米勒斯。设计上并非战斗用机械，而用于进行土木工程。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：泛用载具/アイテムデータ：汎用ヴィークル</strong></span><br>在此介绍就算不取得特定类别，各角色也能够使用的泛用载具。这些物品无论是谁都能够入手·常备化。<br><br>战斗攻击机/戦闘攻撃机<br>种类：航空机<br>命中：±0<br>回避：+2<br>炮击：±0<br>防壁：+1<br>行动：±0<br>力场：+2<br>感应：±0<br>攻击力：+1<br>固定武装：●航空机关炮<br>移动力：3<br>体型：M<br>防御修正（斩/刺/殴/炎）：3/0/3/3<br>购入难易度：-/20<br>解说：将●航空机关炮作为固定武装，中型导弹舱作为标准装备的战斗攻击机。装备时获得飞行状态。另外，装备这个物品的时候无法装备白刃武装。<br>同时具备空对空战斗能力和空对地战斗能力的一种战斗机。机甲历0060年代的战斗攻击机，几乎都是V/STOL机，也即是具备垂直起降能力，即便在全装备状态也仅需要极短的跑道就能起降的一种能力。（之所以不使用完全的垂直起降专用机，是因为使用跑道或弹射器的话就能将重量加重，也就代表着可以进一步强化武装。）<br>代表的机种有：出云防卫军与地球联邦军所采用的F-135、沃尔夫共和国的DP3000“猎豹”（Jaguar），拉夫帝国的Sur-7“破坏者”（Buster）。<br><br>重坦克/重戦车<br>种类：战车<br>命中：±0<br>回避：-4<br>炮击：+2<br>防壁：-4<br>行动：-6<br>力场：+6<br>感应：±0<br>攻击力：+3<br>固定武装：坦克炮<br>移动力：１<br>体型：M<br>防御修正（斩/刺/殴/炎）：8/4/8/8<br>购入难易度：-/20<br>解说：将坦克炮作为固定武装、●机枪作为标准装备的重坦克。装备这个物品的时候无法装备白刃武装。<br>机甲历0060年代开始，坦克从MBT（主战坦克）再次划分为重坦克和轻坦克。<br>重坦克指的是拥有第一次大战中主战坦克的体型，甚至在那之上的大型坦克。由于材料工程的进步，一部分巨大化的重坦克甚至持有与守护神等同的体型。容易量产且持有重装甲和高火力的重坦克，即便是现在也依旧被大部分陆军列为主力。<br>代表的机种有：出云防卫队独自研发的T-110坦克、在联邦军广泛使用的A-2“夜枭”（NightOwl）坦克、拉夫帝国的RT-60“九曜”（Navagraha）坦克等。<br><br>主战直升机/戦闘ヘリ<br>种类：旋翼机<br>命中：+1<br>回避：+3<br>炮击：±0<br>防壁：+1<br>行动：-3<br>力场：+4<br>感应：±0<br>攻击力：+2<br>固定武装：●机炮<br>移动力：2<br>体型：M<br>防御修正（斩/刺/殴/炎）：4/2/4/4<br>购入难易度：-/20<br>解说：将●机炮作为固定武装、中型导弹舱作为标准装备的主战直升机。装备时获得飞行状态。另外，装备这个物品的时候无法装备白刃武装。<br>能够执行对地攻击任务、侦察任务、能够排除敌方主战直升机与无人机的新世代主战直升机（Main Battle Helicopter）。积极地引进了新材料和高机动推进器，将短翼大型化，具备高隐身性能（一部分机体也导入了光学迷彩），具备凌驾于旧时代的战斗武装直升机之上的支援能力。能够空运闪电级的直升机也不在少数。<br>防卫军与联邦军使用的是MBH-57“赤色”（Red），拉夫帝国则使用Si-5“嘉尔文”（Galvin）。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738942">
+&#171; <em>上次编辑: 2016-06-22, 周三 03:37:38 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738944"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738944_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738944">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738944#msg738944" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738944'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738944'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #35 于:</strong> 2015-07-25, 周六 22:50:25 &#187;</div>
+<div id="msg_738944_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738944"><span style="font-size: 18pt;" class="bbc_size"><strong>泛用武装/汎用武装</strong></span><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种类</strong><td><strong>命中</strong><td><strong>回避</strong><td><strong>炮击</strong><td><strong>防壁</strong><td><strong>行动</strong><td><strong>主攻</strong><td><strong>副攻</strong><td><strong>射程</strong><td><strong>部位</strong><td><strong>代价</strong><td><strong>购入难易度</strong><td><strong>解说</strong></tr><tr><td>机械手/マニピュレーター<td>白刃（机拳）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+4<td>&lt;殴&gt;+2<td>0<td>主／副<td>无<td>－／－<td>守护神的手，主要用于工作和握持武装。</tr><tr><td>铁拳/ナックル<td>白刃（机拳）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+8<td>&lt;殴&gt;+4<td>0<td>主／副<td>无<td>－／－<td>适用于激斗级或超级级的格斗战的钢腕。</tr><tr><td>撞击/タックル<td>白刃（机拳）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+4<td>&lt;殴&gt;+4<td>0<td>主／副<td>无<td>－／－<td>活用机体重量所进行的冲撞攻击。</tr><tr><td>爪/クローアーム<td>白刃（机拳）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;斩&gt;+4<td>&lt;斩&gt;+4<td>0<td>主／副<td>无<td>－／－<td>锐爪形状的手。也有仅改变指甲部分的机体。</tr><tr><td>飞拳/アームパンチ<td>白刃（机拳）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+5<td>&lt;殴&gt;+5<td>0<td>主／副<td>无<td>－／－<td>闪电级腕部搭载的爆炸式飞拳。</tr><tr><td>金属匕首/メタルダガー<td>白刃（实剑）<td>±0<td>＋1<td>±0<td>±0<td>±0<td>&lt;斩&gt;+5<td>&lt;斩&gt;+5<td>0<td>主／副<td>无<td>11／1<td>守护神用的格斗战用小刀。</tr><tr><td>热能索/ヒートワイヤー<td>白刃（热能）<td>±0<td>±0<td>±0<td>±0<td>－1<td>&lt;炎&gt;+4<td>&lt;炎&gt;+1<td>0<td>主／副<td>无<td>11／1<td>高速振动着，给予高热与振动双重伤害的鞭。</tr><tr><td>工具斧/ツールアックス<td>白刃（实剑）<td>±0<td>±0<td>±0<td>－1<td>－2<td>&lt;斩&gt;+6<td>&lt;斩&gt;+3<td>0<td>主／副<td>无<td>11／1<td>守护神用的土木工程工具。镐或铲又或是破碎斧之类的。</tr><tr><td>金属剑/メタルソード<td>白刃（实剑）<td>±0<td>±0<td>±0<td>－1<td>－2<td>&lt;斩&gt;+8<td>&lt;斩&gt;+4<td>0<td>主／副<td>无<td>12／2<td>守护神用的剑。也可以说成是是仪式用的武装吧。</tr><tr><td>热能斧/ヒートパチェット<td>白刃（热能）<td>±0<td>－1<td>±0<td>－1<td>－3<td>&lt;炎&gt;+10<td>&lt;炎&gt;+5<td>0<td>主／副<td>1EN<td>12／2<td>利用等离子化作的高热利刃将敌人撕裂的守护神用的斧。</tr><tr><td>金属钻/メタルドリル<td>白刃（突击/撞角）<td>±0<td>－1<td>±0<td>－1<td>－3<td>&lt;刺&gt;+6<td>&lt;刺&gt;+3<td>0<td>主／副<td>2EN<td>13／3<td>守护神用的钻头。也可以说成是土木工程工具吧。</tr><tr><td>热能剑/ヒートブレイド<td>白刃（热能）<td>±0<td>±0<td>±0<td>－1<td>－2<td>&lt;炎&gt;+10<td>&lt;炎&gt;+5<td>0<td>主／副<td>2EN<td>13／3<td>利用等离子刃形成的高热将装甲熔断的守护神用剑。</tr><tr><td>电击索/ショックワイヤー<td>白刃（电击）<td>＋1<td>±0<td>－2<td>－1<td>－2<td>&lt;雷&gt;+6<td>&lt;雷&gt;+3<td>0<td>主／副<td>2EN<td>13／3<td>引导高压电流攻击敌人的电磁鞭。</tr><tr><td>金属长枪/メタルランス<td>白刃（突击/实剑）<td>±0<td>－2<td>－1<td>－2<td>±0<td>&lt;刺&gt;+8<td>&lt;刺&gt;+1<td>0<td>主／副<td>无<td>14／4<td>大型枪。持有[类别：魔幻级]的话购入难易度变为「12／2」。</tr><tr><td>打桩机/パイルバンカー<td>白刃（撞角）<td>±0<td>－2<td>－1<td>－2<td>±0<td>&lt;刺&gt;+10<td>&lt;刺&gt;+5<td>0<td>主／副<td>弹数1<td>18／8<td>利用炸药将撞角打出，贯穿装甲给与伤害的武装。[弹数：3]</tr><tr><td>链状雷/チェーンマイン<td>白刃（榴弹）<td>±0<td>±0<td>－2<td>－1<td>－2<td>—<td>&lt;炎&gt;+12<td>0<td>副<td>弹数1<td>20／10<td>在鞭状的钢丝之中编入大量地雷的武器。[弹数：1]</tr><tr><td>ML 光束军刀/ML ビームサーベル<td>白刃（光束）<td>±0<td>±0<td>±0<td>－1<td>－2<td>&lt;光&gt;+6<td>&lt;光&gt;+3<td>0<td>主／副<td>6EN<td>25／15<td>米勒斯用的光束剑。使用时操作不当（大失败）会导致功率低下。</tr><tr><td>重机枪/ヘビーマシンガン<td>射击（全自动）<td>±0<td>－1<td>±0<td>±0<td>－2<td>&lt;殴&gt;+7<td>&lt;殴&gt;+3<td>1~2<td>主／副<td>弹数1<td>15／5<td>弹道精度很高，以击穿敌方装甲为设计理念的重机枪。[弹数：3]</tr><tr><td>霰弹枪/ショットガン<td>射击（霰弹）<td>±0<td>±0<td>±0<td>±0<td>－2<td>&lt;殴&gt;+10<td>&lt;殴&gt;+5<td>1~2<td>主／副<td>弹数1<td>18／8<td>守护神用霰弹枪。这个武器的命中判定+2。[弹数：2]</tr><tr><td>ML 光束步枪/ML ビームライフル<td>射击（光束）<td>±0<td>－1<td>±0<td>±0<td>－2<td>&lt;光&gt;+6<td>&lt;光&gt;+3<td>1~2<td>主／副<td>12EN<td>34／24<td>米勒斯用的光束枪。使用时操作不当（大失败）会导致功率低下。</tr><tr><td>●航空机关炮/●航空机関砲<td>射击（全自动）<td>±0<td>±0<td>±0<td>±0<td>－2<td>&lt;殴&gt;+4<td>&lt;殴&gt;+2<td>1~2<td>主／副<td>弹数1<td>－／－<td>作为战斗机的标准装备搭载的机炮。[弹数：3]</tr><tr><td>●机炮/●チェーンガン<td>射击（全自动）<td>±0<td>－1<td>±0<td>－1<td>－2<td>&lt;殴&gt;+6<td>&lt;殴&gt;+3<td>1~2<td>主／副<td>弹数1<td>－／－<td>多数反坦克直升机都有装备的对地攻击机炮。[弹数：3]</tr><tr><td>●手枪/●ハンドガン<td>射击（加农）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+3<td>&lt;殴&gt;+3<td>1~2<td>主／副<td>弹数1<td>12／2<td>容易操纵的守护神用手枪。[弹数：3]</tr><tr><td>●机枪/●マシンガン<td>射击（全自动）<td>±0<td>±0<td>±0<td>±0<td>－2<td>&lt;殴&gt;+4<td>&lt;殴&gt;+2<td>1~2<td>主／副<td>弹数1<td>13／3<td>用于压制和牵制敌方的守护神用机枪。[弹数：3]</tr><tr><td>●联装机关加农/●连装マシンキャノン<td>射击（全自动）<td>±0<td>－1<td>±0<td>－1<td>－2<td>&lt;殴&gt;+6<td>&lt;殴&gt;+3<td>1~2<td>主／副<td>弹数1<td>15／5<td>联装式的守护神用、车载的小型旋转机枪。[弹数：3]</tr><tr><td>坦克炮/戦车砲<td>炮击（加农）<td>－2<td>－1<td>±0<td>±0<td>－4<td>&lt;殴&gt;+8<td>&lt;殴&gt;+4<td>3~4<td>主／副<td>弹数1<td>－／－<td>多数现代战车都有装备的坦克炮。[弹数：2]</tr><tr><td>加农炮/キャノン砲<td>炮击（加农）<td>－2<td>－1<td>±0<td>±0<td>－4<td>&lt;殴&gt;+8<td>&lt;殴&gt;+4<td>3~4<td>主／副<td>弹数1<td>11／1<td>远程炮击、支援用的大型加农炮。[弹数：2]</tr><tr><td>火箭筒/バズーカ<td>炮击（火箭筒）<td>±0<td>－2<td>±0<td>－1<td>－3<td>&lt;炎&gt;+10<td>&lt;炎&gt;+10<td>3~4<td>主／副<td>弹数1<td>13／3<td>破坏力优秀的守护神用无后坐力炮。[弹数：2]</tr><tr><td>骑士“铁拳”榴弹/カバリエファウスト<td>炮击（火箭筒）<td>±0<td>－1<td>±0<td>－1<td>－1<td>—<td>&lt;炎&gt;+12<td>3~4<td>副<td>弹数1<td>16／6<td>原本是骑士级用的反装甲榴弹炮，如今已经变成一般武装了。[弹数：1]</tr><tr><td>狙击步枪/スナイパーライフル<td>炮击（狙击）<td>－2<td>－2<td>＋1<td>－1<td>－6<td>&lt;殴&gt;+10<td>—<td>4~6<td>主<td>弹数1<td>20／10<td>以超长的有效射程称傲的守护神用狙击步枪。[弹数：1]</tr><tr><td>ML 光束加农/ML ビームキャノン<td>炮击（光束）<td>±0<td>－2<td>±0<td>±0<td>－4<td>&lt;光&gt;+8<td>&lt;光&gt;+4<td>3~4<td>主／副<td>12EN<td>22／12<td>米勒斯用光束炮。使用时操作不当（大失败）会导致功率低下。</tr><tr><td>●榴弹/●グレネード<td>炮击（榴弹）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;炎&gt;+3<td>&lt;炎&gt;+3<td>3~4<td>主／副<td>弹数1<td>11／1<td>守护神用榴弹发射器。也有手榴弹型的。[弹数：1]</tr><tr><td>●小型导弹舱/●小型ミサイルボット<td>炮击（榴弹）<td>±0<td>－1<td>±0<td>±0<td>－1<td>&lt;炎&gt;+4<td>&lt;炎&gt;+4<td>3~4<td>主／副<td>弹数1<td>11／1<td>小型导弹舱。[弹数：2]</tr><tr><td>●弹幕/●バレットシャワー<td>炮击（霰弹）<td>±0<td>－1<td>±0<td>－1<td>±0<td>&lt;殴&gt;+10<td>&lt;殴&gt;+5<td>1~2<td>主／副<td>弹数1<td>11／1<td>射出无数钢弹的武装。射程很短。[弹数：2]</tr><tr><td>●中型导弹舱/●中型ミサイルボット<td>炮击（导弹）<td>±0<td>－2<td>±0<td>±0<td>－2<td>&lt;炎&gt;+8<td>&lt;炎&gt;+8<td>3~4<td>主／副<td>弹数1<td>12／2<td>一次发射复数导弹的中型导弹舱。[弹数：2]</tr><tr><td>●大型旋转机枪/●大型ガトリングガン<td>炮击（全自动）<td>±0<td>－2<td>±0<td>±0<td>－4<td>&lt;殴&gt;+10<td>&lt;殴&gt;+5<td>3~4<td>主／副<td>弹数1<td>14／4<td>善于压制和扫射的守护神用旋转机枪。[弹数：2]</tr><tr><td>●大型导弹舱/●大型ミサイルボット<td>炮击（导弹）<td>±0<td>－4<td>±0<td>±0<td>－4<td>&lt;炎&gt;+12<td>&lt;炎&gt;+12<td>3~4<td>主／副<td>弹数1<td>14／4<td>射出若干导弹的大型导弹舱。[弹数：2]</tr><tr><td>●对舰导弹/●対舰ミサイル<td>炮击（导弹）<td>±0<td>－4<td>±0<td>±0<td>－4<td>&lt;炎&gt;+12<td>&lt;炎&gt;+12<td>3~4<td>主／副<td>弹数1<td>14／4<td>对大型目标用导弹。对L和XL体型的目标造成的伤害+12。[弹数：1]</tr></table><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738944">
+&#171; <em>上次编辑: 2016-07-08, 周五 19:06:18 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738982"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738982_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738982">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738982#msg738982" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738982'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738982'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #36 于:</strong> 2015-07-26, 周日 01:29:01 &#187;</div>
+<div id="msg_738982_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738982"><span style="font-size: 18pt;" class="bbc_size"><strong>泛用附加组件/汎用オプション</strong></span><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种别</strong><td><strong>命中</strong><td><strong>回避</strong><td><strong>炮击</strong><td><strong>防壁</strong><td><strong>行动</strong><td><strong>力场</strong><td><strong>感应</strong><td><strong>攻击力</strong><td><strong>移动力</strong><td><strong>防御修正</strong><td><strong>购入难易度</strong><td><strong>解说</strong></tr><tr><td>辅助变流器/补助コンパーター<td>附加组件<td>±0<td>±0<td>±0<td>±0<td>-5<td>±0<td>±0<td>±0<td>±0<td>-／-／-<td>15／5<td>紧急时用的变流器。免疫功率低下。</tr><tr><td>强化型传感器/强化型センサー<td>附加组件<td>+1<td>±0<td>±0<td>±0<td>-2<td>±0<td>±0<td>±0<td>±0<td>-／-／-<td>60／50<td>追随·把握近距离敌人动作的攻击用传感器</tr><tr><td>导航OS/ナビゲーションOS<td>附加组件<td>±0<td>+1<td>±0<td>-1<td>±0<td>±0<td>±0<td>±0<td>±0<td>-／-／-<td>60／50<td>指示最合适动作的导航OS。</tr><tr><td>精密射击观测器/精密射撃スコープ<td>附加组件<td>±0<td>±0<td>+1<td>±0<td>-2<td>±0<td>±0<td>±0<td>±0<td>-／-／-<td>60／50<td>为进行精密射击而设计的复眼式复合观测器。</tr><tr><td>AL护罩系统/ALバリアシステム<td>附加组件<td>±0<td>-1<td>±0<td>+1<td>±0<td>±0<td>±0<td>±0<td>±0<td>-／-／-<td>60／50<td>增幅AL粒子的放出量，防御远程攻击的系统。</tr><tr><td>追加装甲/増加装甲<td>附加组件<td>±0<td>±0<td>±0<td>±0<td>-1<td>+10<td>±0<td>±0<td>±0<td>-／-／-<td>40／20<td>强化守护神装甲的附加组件。</tr><tr><td>复合强化装甲/复合强化装甲<td>附加组件<td>±0<td>±0<td>±0<td>±0<td>-2<td>+20<td>±0<td>±0<td>-1<td>-／-／-<td>60／50<td>由复数素材组成的追加装甲。其重量会导致机动性降低。</tr><tr><td>能源贮箱/プロペラントタンク<td>附加组件<td>±0<td>±0<td>±0<td>±0<td>-1<td>±0<td>+10<td>±0<td>±0<td>-／-／-<td>40／20<td>追加的能量贮箱。</tr><tr><td>增设发电机/増设ジェネレーター<td>附加组件<td>±0<td>±0<td>±0<td>±0<td>-2<td>±0<td>+20<td>±0<td>±0<td>-／-／-<td>60／50<td>追加简易动力炉的附加组件。</tr><tr><td>增设助推器/増设ブースター<td>附加组件<td>±0<td>-2<td>±0<td>-2<td>±0<td>±0<td>±0<td>±0<td>+1<td>-／-／-<td>60／50<td>牺牲机动性来提升速度的追加推进器。</tr></table><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738982">
+&#171; <em>上次编辑: 2016-02-11, 周四 04:17:50 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg738986"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_738986_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_738986">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg738986#msg738986" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_738986'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_738986'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #37 于:</strong> 2015-07-26, 周日 01:57:27 &#187;</div>
+<div id="msg_738986_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_738986"><span style="font-size: 18pt;" class="bbc_size"><strong>人类用武装资料/人间用武装データ</strong></span><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种类</strong><td><strong>命中</strong><td><strong>回避</strong><td><strong>炮击</strong><td><strong>防壁</strong><td><strong>行动</strong><td><strong>主攻</strong><td><strong>副攻</strong><td><strong>射程</strong><td><strong>部位</strong><td><strong>代价</strong><td><strong>购入难易度</strong><td><strong>解说</strong></tr><tr><td>空手/素手<td>白刃（格斗）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+0<td>&lt;殴&gt;+0<td>0<td>主／副<td>无<td>－／－<td>赤手空拳作战时的数据。</tr><tr><td>匕首/小刀/ナイフ/ダガー<td>白刃（剑）<td>±0<td>±0<td>±0<td>±0<td>－1<td>&lt;斩&gt;+2<td>&lt;斩&gt;+2<td>0<td>主／副<td>无<td>11／1<td>简单的工作用小刀和短剑的数据。</tr><tr><td>竹刀/竹刀（しない）<td>白刃（刀）<td>±0<td>±0<td>－1<td>±0<td>－1<td>&lt;殴&gt;+3<td>&lt;殴&gt;+1<td>0<td>主／副<td>无<td>12／2<td>剑道中使用的竹刀。</tr><tr><td>西洋剑/レイピア<td>白刃（刺剑）<td>±0<td>＋1<td>±0<td>±0<td>－1<td>&lt;刺&gt;+4<td>－<td>0<td>主<td>无<td>13／3<td>细长的螺纹剑。并非用于斩击，而是用于突刺的刺剑。</tr><tr><td>长剑/ロングソード<td>白刃（剑）<td>±0<td>±0<td>±0<td>±0<td>－2<td>&lt;斩&gt;+4<td>&lt;斩&gt;+2<td>0<td>主／副<td>无<td>14／4<td>雷姆利亚所使用的长剑。充分利用其重量就是足以杀人的凶器。</tr><tr><td>棍/棍<td>白刃（棍）<td>±0<td>＋1<td>±0<td>±0<td>－3<td>&lt;殴&gt;+4<td>－<td>0<td>主<td>无<td>14／4<td>东洋武术所使用的细长木棒。</tr><tr><td>日本刀/日本刀<td>白刃（刀）<td>±0<td>±0<td>±0<td>±0<td>－2<td>&lt;斩&gt;+7<td>&lt;斩&gt;+3<td>0<td>主／副<td>无<td>20／10<td>具有优美刀反的单刃。</tr><tr><td>投掷用小刀/投げナイフ<td>射击（短剑）<td>－1<td>±0<td>±0<td>±0<td>±0<td>&lt;斩&gt;+0<td>&lt;斩&gt;+0<td>0<td>主／副<td>弹数1<td>11／1<td>重心与尺寸都适合投掷的小刀。[弹数：3]。</tr><tr><td>马格南/マグナム<td>射击（手枪）<td>＋0<td>±0<td>±0<td>－1<td>－1<td>&lt;殴&gt;+3<td>－<td>0<td>主<td>弹数1<td>16／6<td>发射马格南弹的大型左轮手枪。[弹数：2]。</tr><tr><td>防暴枪/ライアットガン<td>射击（步枪）<td>＋2<td>－2<td>±0<td>－2<td>－3<td>&lt;殴&gt;+5<td>－<td>0<td>主<td>弹数1<td>18／8<td>防暴霰弹枪。将攻击目标的防御修正双倍计算得出伤害值。[弹数：2]。</tr><tr><td>●手枪/●拳铳<td>射击（手枪）<td>±0<td>±0<td>±0<td>±0<td>±0<td>&lt;殴&gt;+1<td>&lt;殴&gt;+1<td>0<td>主／副<td>弹数1<td>15／5<td>很普遍的9mm弹手枪。[弹数：3]。</tr><tr><td>●冲锋枪/●サブマシンガン<td>射击（手枪）<td>±0<td>±0<td>±0<td>－1<td>－1<td>&lt;殴&gt;+2<td>&lt;殴&gt;+2<td>0<td>主／副<td>弹数1<td>17／7<td>可以全自动射击的手枪。[弹数：3]。</tr><tr><td>●突击步枪/●アサルトライフル<td>射击（步枪）<td>－1<td>－2<td>±0<td>－2<td>－2<td>&lt;殴&gt;+4<td>－<td>0<td>副<td>弹数1<td>19／9<td>可以全自动射击的步枪。[弹数：3]。</tr><tr><td>●雷击弹/●サンダーバレット<td>射击（雷击）<td>±0<td>±0<td>±0<td>－2<td>－2<td>&lt;雷&gt;+2<td>&lt;雷&gt;+2<td>0<td>主／副<td>2HP<td>20／10<td>雷姆利亚的魔法使们所使用的，投射数个雷球的魔法。</tr><tr><td>狙击步枪/スナイパーライフル<td>炮击（步枪）<td>－2<td>－2<td>±0<td>－4<td>－4<td>&lt;殴&gt;+8<td>－<td>1<td>副<td>弹数1<td>25／15<td>用于攻击远距离对象的狙击枪。[弹数：2]。</tr><tr><td>反器材步枪/対戦车ライフル<td>炮击（步枪）<td>－2<td>－3<td>－4<td>－4<td>－6<td>&lt;殴&gt;+10<td>－<td>1<td>副<td>弹数1<td>30／20<td>反器材狙击枪。以载具和守护神目标的达成值+4。[弹数：2]。</tr><tr><td>●手榴弹/●手榴弾<td>炮击（榴弹）<td>±0<td>±0<td>±0<td>±0<td>±0<td>－<td>&lt;炎&gt;+3<td>1<td>主<td>弹数1<td>12／2<td>引发大范围爆炸和碎片散射的投掷武器。[弹数：1]。</tr><tr><td>●冰雪风暴/●アイシクルストーム<td>炮击（冰雪）<td>－2<td>－2<td>±0<td>－2<td>－2<td>&lt;冰&gt;+4<td>&lt;冰&gt;+4<td>1<td>主／副<td>4HP<td>20／10<td>雷姆利亚的魔法使们所使用广域破坏魔法。用暴风雪与冰弹将周围全部压制。</tr><tr><td>●火箭弹发射器/●ロケットランチャー<td>炮击（导弹）<td>－2<td>－2<td>－4<td>－2<td>－2<td>&lt;炎&gt;+2<td>－<td>1<td>副<td>弹数1<td>35／25<td>无视载具与守护神的体型带来的伤害补正。[弹数：1]。</tr></table><br><span style="font-size: 18pt;" class="bbc_size"><strong>人类用防具资料/人间用防具データ</strong></span><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种类</strong><td><strong>命中</strong><td><strong>回避</strong><td><strong>炮击</strong><td><strong>防壁</strong><td><strong>行动</strong><td><strong>防御修正（斩／刺／殴／炎／冰／雷）</strong><td><strong>购入难易度</strong><td><strong>解说</strong></tr><tr><td>学生服/学生服<td>防具<td>±0<td>±0<td>±0<td>－1<td>±0<td>1／0／1／0／0／0<td>11／1<td>学生穿的学校制服。种类花式繁多。</tr><tr><td>传统服装/伝统衣装<td>防具<td>－1<td>－2<td>±0<td>±0<td>－1<td>2／0／2／0／1／1<td>12／2<td>世界各国的民族传统服装。</tr><tr><td>改造服/改造服<td>防具<td>±0<td>±0<td>±0<td>－3<td>－1<td>4／2／0／0／0／0<td>13／3<td>缝入凯夫拉纤维或FRP（纤维增强复合材料）等来增加防御力的服装。</tr><tr><td>DLS制服/DLSスーツ<td>防具<td>±0<td>±0<td>－2<td>－3<td>±0<td>2／2／2／2／2／2<td>14／4<td>驾驶采用了DLS（直接连结系统）的守护神时穿着的服装。</tr><tr><td>军服/军服<td>防具<td>±0<td>±0<td>±0<td>±0<td>－1<td>2／1／4／0／0／0<td>14／4<td>军队配发的服装。也包含典礼仪式用的礼装。</tr><tr><td>军用大衣/军用コート<td>防具<td>±0<td>±0<td>±0<td>±0<td>－2<td>3／2／4／0／0／0<td>14／4<td>军人在寒冷地带穿的厚实大衣。</tr><tr><td>驾驶员制服/パイロットスーツ<td>防具<td>±0<td>±0<td>±0<td>－1<td>－1<td>2／1／3／3／3／3<td>15／5<td>连结者在搭乘守护神时穿着的服装。</tr><tr><td>防弹衣/ボディアーマー<td>防具<td>±0<td>－1<td>±0<td>－2<td>－3<td>3／4／6／0／0／0<td>20／10<td>军队战斗所使用的防弹衣，防弹性很强。</tr><tr><td>神官服/神官服<td>防具<td>±0<td>＋1<td>±0<td>＋1<td>±0<td>3／1／0／3／3／3<td>20／10<td>各国宗教者穿着的简易礼服。雷姆利亚的魔法使们的衣服也属于这一类。</tr><tr><td>铠甲/甲冑<td>防具<td>±0<td>－2<td>±0<td>－5<td>－5<td>11／9／7／3／3／3<td>30／20<td>金属制成的铠甲。也有礼仪用或美术品的需求。</tr></table><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww3.sinaimg.cn/large/8fee126cgw1f6ts8os0gej20u00fkdj0.jpg" alt="" class="bbc_img"/><br><img src="http://ww1.sinaimg.cn/large/8fee126cgw1f6ts8q8070j20sk0f6dil.jpg" alt="" class="bbc_img"/></div></div></div><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_738986">
+&#171; <em>上次编辑: 2016-08-15, 周一 01:27:53 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg739041"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_739041_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_739041">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg739041#msg739041" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_739041'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_739041'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #38 于:</strong> 2015-07-26, 周日 15:35:48 &#187;</div>
+<div id="msg_739041_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_739041"><strong><span style="font-size: 18pt;" class="bbc_size">一般物品资料/一般アイテムデータ</span></strong><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种类</strong><td><strong>购入难易度</strong><td><strong>时点</strong><td><strong>解说</strong></tr><tr><td>涡轮滑轮/ターボローラー<td>其他<td>－／－<td>—<td>作为闪电级标准装备的滑行滚轮。</tr><tr><td>手机/携帯电话<td>其他<td>2／0<td>随时<td>可以进行移动无线通信的小巧电话机。</tr><tr><td>便携终端/携帯端末<td>其他<td>2／0<td>随时<td>具备通话功能、邮件功能和网络功能的小型终端。</tr><tr><td>Fortune徽章/フォーチュン徽章<td>其他<td>2／0<td>随时<td>“Fortune”组织的身份证，兼具通信器和发信器机能。</tr><tr><td>降落伞/パラシュート<td>其他<td>2／0<td>随时<td>免除坠落伤害，但不能在低高度时使用。</tr><tr><td>生存套装/サバイバルキット<td>其他<td>3／0<td>—<td>提供约四日生存所必须的食物和药品。也带有隔热服、防水防寒披风、简易野营工具之类的东西。</tr><tr><td>额外人员/エキストラ<td>服务<td>5／1<td>—<td>亲信的部下或副官，女仆或执事一类的，辅助你工作或生活的额外NPC。</tr><tr><td>衣服/衣服<td>其他<td>5／0<td>随时<td>普通衣服或者正式西服、又或是便衣一类，所有服装的资料。名牌一类的高价服装（购入难易度更高的服装）也是存在的。</tr><tr><td>自动脱出装置/自动脱出装置<td>其他<td>5／0<td>随时<td>能够即刻从载具或守护神中脱出。无法操纵的场合也能够使用，其中也设置有降落伞和生存套件。</tr><tr><td>纹章/エンブレム<td>其他<td>5／0<td>—<td>特有的个人纹章。有将人名变形后绘制成的图案、动物、神话中的幻兽与神明，或者是模仿现象绘制成的图案，种类繁多。</tr><tr><td>专用涂装/専用カラー<td>其他<td>5／0<td>—<td>作为自己的标志而喷涂在守护神上的特有涂装。大多数都不是单纯地涂上单色而是在机体的各处涂上不同的颜色。</tr><tr><td>预备弹仓/予备弾仓<td>消耗<td>2／1<td>次要动作<td>将一个武装、特技或道具的弹数为完全回复。取得时就需要指定特定的武装、特技或道具，不能用来回复其他的东西。</tr><tr><td>装饰品/装饰品<td>其他<td>6／1<td>—<td>项链或者手环一类的身上的小道具的资料。根据所使用的宝石与材质或是品牌，购入难易度会发生变化。</tr><tr><td>摩托车/自动二轮<td>其他<td>11~13／1~3<td>—<td>摩托车或三轮车之类的轻型车辆</tr><tr><td>汽车/自动车<td>其他<td>12~15／2~5<td>—<td>轿车与单箱式汽车一类的车辆。</tr><tr><td>中和剂/中和剤<td>消耗<td>12／2<td>次要动作<td>你从侵蚀状态中回复。能够中和腐蚀效果的特殊修补剂。</tr><tr><td>战斗营养剂/戦闘サプリメント<td>消耗<td>12／2<td>次要动作<td>你从麻痹状态中回复。能够回复肉体或精神的麻痹效果的药剂。</tr><tr><td>GPS/GPS<td>消耗<td>15／5<td>登场判定后立刻<td>在登场判定之后立刻使用。那次判定重骰。通过卫星通信把握现在的位置，避免迷路的系统。</tr><tr><td>赋活剂/赋活剤<td>回／消耗<td>20／10<td>次要动作<td>回复HP。你的HP回复4D6点。通过赋活血液循环与神经反射取回活力的药剂</tr><tr><td>粒子电容器/粒子コンデンサ<td>回／消耗<td>20／10<td>次要动作<td>回复FP。你的FP回复4D6点。蓄积AL粒子的电容，能够回复力场的出力。</tr><tr><td>能量补充包/エネルギーパック<td>回／消耗<td>30／20<td>次要动作<td>回复EN。你的EN回复4D6点。回复能量的强化电池。</tr><tr><td>强化赋活剂/强化赋活剤<td>回／消耗<td>40／30<td>次要动作<td>回复HP。你的HP回复6D6点。效果更好的赋活剂。</tr><tr><td>强化粒子电容器/强化粒子コンデンサ<td>回／消耗<td>40／30<td>次要动作<td>回复FP。你的FP回复6D6点。强化型粒子电容。</tr><tr><td>净化活性膜/浄化活性シェル<td>消耗<td>60／50<td>主要动作<td>从你受到的不良状态中选择一个回复。将ALTIMA机能活性化，净化所有毒害的特殊结晶体。</tr><tr><td>神经加速剂/神経加速剤<td>消耗<td>60／50<td>次要动作<td>在这个场景之中，你所进行的近距离攻击伤害上升1D6。加速神经速度，提升伤害效率的药剂。</tr><tr><td>高能量补充包/ハイエネルギーパック<td>回／消耗<td>60／50<td>次要动作<td>回复EN。你的EN回复6D6点。效果更强的能量补充包。</tr></table><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_739041">
+&#171; <em>上次编辑: 2016-06-23, 周四 09:21:23 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg739046"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_739046_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_739046">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg739046#msg739046" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_739046'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_739046'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #39 于:</strong> 2015-07-26, 周日 16:14:27 &#187;</div>
+<div id="msg_739046_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_739046"><strong><span style="font-size: 18pt;" class="bbc_size">生活方式表/ライフスタイル表</span></strong><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><strong>种类</strong><td><strong>购入难易度</strong><td><strong>时点</strong><td><strong>财产点数</strong><td><strong>解说</strong></tr><tr><td>贫困/贫乏<td>生活方式<td>－／0<td>—<td>0<td>由于经济上的理由而生活困难。</tr><tr><td>流浪者/风来坊<td>生活方式<td>－／0<td>—<td>0<td>居无定所，随意地旅居。</tr><tr><td>中流家庭/中流家庭<td>生活方式<td>－／1<td>—<td>1<td>虽然称不上奢侈但也不会为衣食住行所困的生活。</tr><tr><td>临时收入/临时収入<td>生活方式<td>－／2<td>—<td>1<td>从副业取得了收入，工作的内容请自行决定。临时收入可以与其他生活方式同时取得，也能够重复取得。</tr><tr><td>组织成员/组织の构成员<td>生活方式<td>－／2<td>—<td>2<td>所属于特定的团体或企业，从中得到收入或援助。</tr><tr><td>组织干部/组织の干部<td>生活方式<td>－／3<td>—<td>3<td>所属于特定的组织，在其中任职教官、领导或者部队长一类的干部。</tr><tr><td>当主/当主<td>生活方式<td>－／3<td>—<td>3<td>某集团或一族的领导者，一边训练后继者一边度日。</tr><tr><td>富豪/富豪<td>生活方式<td>－／5<td>—<td>5<td>经济充裕的生活。</tr><tr><td>行政人员/エグゼクティブ<td>生活方式<td>－／7<td>—<td>7<td>作为企业或结社一类的团体的主要人物度日。</tr><tr><td>大富豪/大富豪<td>生活方式<td>－／10<td>—<td>10<td>名满天下的大富豪，过着无法想象的富裕生活。</tr></table><span class="bbc_u">※财产点数在游戏前取得。<br>※通过生活方式取得的财产点数在游戏后失去。</span><br><br><span style="font-size: 18pt;" class="bbc_size"><strong>住宅表/住宅表</strong></span><br><br><table class="bbc_table"><tr><td><strong>名称</strong><td><div align="center"><strong>种类</strong></div><td><div align="center"><strong>购入难易度</strong></div><td><div align="center"><strong>时点</strong></div><td><strong>解说</strong></tr><tr><td>住宿设施/宿泊施设<td><div align="center">住宅</div><td><div align="center">10/-</div><td><div align="center">正文</div><td>酒店或旅馆的单间。服务和房间的等级都很普通。场景结束时，以登场角色为对象回复HP。对象的HP回复2D6点。</tr><tr><td>废屋/廃屋<td><div align="center">住宅</div><td><div align="center">-/0</div><td><div align="center">正文</div><td>废弃的建筑物，或是用纸板和废料制作的住宅。</tr><tr><td>一般住宅/一般住宅<td><div align="center">住宅</div><td><div align="center">-/1</div><td><div align="center">正文</div><td>独屋或租赁公馆，公寓或是基地之中的一间。场景结束时，以登场角色为对象回复HP。对象的HP回复2D6点。</tr><tr><td>单间/个室<td><div align="center">住宅</div><td><div align="center">-/1</div><td><div align="center">正文</div><td>你自己的私人房间。在后台使用和处理。回复HP。你的HP回复[Y+2]点。Y=你的人物等级。</tr><tr><td>隐秘住所/隠れ家<td><div align="center">住宅</div><td><div align="center">-/2</div><td><div align="center">正文</div><td>隐藏起来不让无关者发现的住宅。对场景内已登场角色进行情报收集判定时判定值+1。</tr><tr><td>小型设施/小型施设]<td><div align="center">住宅</div><td><div align="center">-/3</div><td><div align="center">正文</div><td>学校的活动室或道场，卡拉OK室之类的小型设施。场景结束时，以登场角色为对象回复HP。对象的HP回复3D6点。</tr><tr><td>大型设施/大型施设<td><div align="center">住宅</div><td><div align="center">-/5</div><td><div align="center">正文</div><td>学校或建筑、研究所或公馆一类的，由你管理的大型建筑物。场景结束时，以登场角色为对象回复HP。对象的HP回复4D6点。</tr><tr><td>豪宅/豪邸<td><div align="center">住宅</div><td><div align="center">-/10</div><td><div align="center">正文</div><td>有很多房间，空间广阔的住宅。场景结束时，以登场角色为对象回复HP。对象的HP回复6D6点。</tr></table><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_739046">
+&#171; <em>上次编辑: 2016-02-17, 周三 09:01:43 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=77570.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">1</a> [<strong>2</strong>] <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">3</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.60">4</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">&#187;</a>   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0"><span>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 77570,
+iStart: 20,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 77570,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="77570" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=77570.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 88014 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 77570,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,932 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e1988d2cbd3553672340dc04637127c3');">
+<div class="info">请 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">登录</a> 或 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="43786"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f17810e16',
+sSessionId: 'e1988d2cbd3553672340dc04637127c3'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0"><span>ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg377369"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=43786.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法 &nbsp;(阅读 16232 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 看 就这么简单</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=quickmod2;topic=43786.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e1988d2cbd3553672340dc04637127c3', 'f17810e16') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377369_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377369">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377369#msg377369" rel="nofollow">ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377369'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377369'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2011-10-29, 周六 02:21:19 &#187;</div>
+<div id="msg_377369_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377369"><div align="center"><strong><span style="font-family: 宋体-PUA;" class="bbc_font">简单作成的顺序一览表</span></strong></div> <br><span style="font-family: 宋体-PUA;" class="bbc_font">简单作成的方法按照下表顺序进行。</span><br>&nbsp;<br>&nbsp; &nbsp; <table class="bbc_table"><tr><td>&nbsp; &nbsp; <div align="center">1.<span style="font-family: 宋体-PUA;" class="bbc_font">选择样本角色</span></div> </tr></table>&nbsp; &nbsp; &nbsp; <div align="center">↓</div>&nbsp; &nbsp; <table class="bbc_table"><tr><td>&nbsp; &nbsp; <div align="center">2.<span style="font-family: 宋体-PUA;" class="bbc_font">决定经历</span></div> </tr></table>&nbsp; &nbsp; &nbsp; <div align="center">↓</div>&nbsp; &nbsp; <table class="bbc_table"><tr><td>&nbsp; &nbsp; <div align="center">3.<span style="font-family: 宋体-PUA;" class="bbc_font">简单作成</span>PC<span style="font-family: 宋体-PUA;" class="bbc_font">完成</span></div> </tr></table>&nbsp; &nbsp; &nbsp; <div align="center"> </div> <br><div align="center"><strong><span style="font-family: 宋体-PUA;" class="bbc_font">样本角色</span></strong></div>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">本书会为大家介绍</span>7<span style="font-family: 宋体-PUA;" class="bbc_font">个样本角色。记载有各个种族的特性和，该角色的使用向导、成长指南等等的解说。第一步先不用考虑得过于复杂，从插图和感觉试着选出你所喜欢的角色吧。</span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>人类战士</strong></span><br><strong> </strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「我的剑、在诉说着要打倒你</span></strong><strong>……</strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">所以，我将全力以赴」</span></strong><br><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font"><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb04.png" alt="" class="bbc_img"/></span></strong><br><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">人类是兰古希亚里面最为繁荣，作为使用角色来说也是最有亲切感的种族。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">这个角色是装备着双刃剑，全身包裹着皮革铠甲的战士。手持的利剑双手都可以使用，能够连续使出一击必杀的攻击。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">率先站在部队前方与敌人战斗，以攻击为专门的角色。关键时候能够使出《全力攻击》，给予敌人巨大的伤害。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">人类乃是被称为「受命运所爱戴的种族」，能够使用改变自己命运的名为</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">命运变换</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">的种族特性。其特性能改变掷骰后的骰子点数，是个非常便利的特性。无论如何都不想失败的时候、希望在此时活跃一番的时候，一定能够派上用场。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">再者还拥有着侦查、游击战的技能，搜索和感觉敌人的气息也是这个角色的擅长领域，简直就是个与冒险者之名相称的角色。和碰友们一起，相信那个相信你的我，一起在兰古希亚的世界里尽情遨游吧！</span></strong><br><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><br><strong>人类妖精使</strong></span><br><strong> </strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「过来吧，妖精们。</span></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">是时候到你们出场了哦」</span></strong><br>&nbsp;<span style="font-family: 宋体-PUA;" class="bbc_font"><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb05.png" alt="" class="bbc_img"/></span><span style="font-family: 宋体-PUA;" class="bbc_font"> </span><br><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span></strong><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">能召唤出各种各样的妖精施放魔法，人类的妖精使。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">妖精魔法是能在各种状况下，都发挥出作用的非常便利的魔法。攻击的话【火焰球】、回复的话【耳语治愈（ウィスパーヒール）】、探索的话【妖精之愿（フェアリーウィッシュ）】，不论怎样的场合也能应对的魔法一应齐全。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">这个角色拥有着名为《魔法诱导》的战斗特技，能使魔法攻击确切地，命中和同伴处于乱战中的敌人。和战士合作，一起把敌人逐个击破吧。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">人类乃是被称为「受命运所爱戴的种族」，能够使用改变自己命运的名为</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">命运变换</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">的种族特性。因为魔法的效果是能确切地施放到目标身上，到了紧急情况的时候乃是十分值得依靠的能力。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">因为妖精使也拥有剑术技能的，万一发生问题的时候也是能够上前方战斗的。但是，装备比战士要薄弱因此决不可大意。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">魔法的攻击与掩护，再加上探索也是非常靠得住的辅助角色。随机应变各种场面，支援你的队友吧！</span><br><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>精灵神官</strong></span><br><strong> </strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「不要动。</span></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">我现在，就来帮你疗伤」</span></strong><br>&nbsp;<br><strong><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb07.png" alt="" class="bbc_img"/></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span></strong><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">侍奉太阳神提坦（ティダン）的精灵神官。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">精灵是一种身高比人类高，容姿大多数都长得比较优美的种族。虽然人口数量并不是很多，但是寿命比一般人类要长，以熟练水性而闻名的种族。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">神官所使用的神圣魔法擅长回复和掩护，拥有众多帮助同伴的魔法。同伴受伤了的时候可以使用【创伤治愈（キュアーウーンズ）】进行回复，与强敌战斗的时候就使用【区域防御（フィールド</span>·<span style="font-family: 宋体-PUA;" class="bbc_font">プロテクション）】来减少同伴承受的伤害吧。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">再者还拥有着名为《魔法扩大</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">数》的战斗特技，回复和掩护魔法能够同时施放给复数的同伴。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">精灵拥有</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">慈祥之水</span>][<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">这两个种族特性。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">慈祥之水</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是个能使持有者在水中长时间活动的能力，</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">即使在漆黑一片的地方也能像白天一样看清楚周围的能力。在水域地区的话，唯独精灵能够不受行动限制地进行移动。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">仅仅是有一名神官，就能使队伍的生存率得到飞跃的提升。使用这份力量，把太阳神提坦的信仰传遍整个世界吧！</span><br><br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377369">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377370"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377370_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377370">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377370#msg377370" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377370'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377370'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2011-10-29, 周六 02:30:04 &#187;</div>
+<div id="msg_377370_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377370"><strong><span style="font-family: 宋体-PUA;" class="bbc_font">矮人神官战士</span></strong><br><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「放马过来吧。</span></strong><br><strong>“</strong><strong><span style="font-family: 宋体-PUA;" class="bbc_font">骑士神</span></strong><strong>”</strong><strong><span style="font-family: 宋体-PUA;" class="bbc_font">塞亚的教谕，让你见识见识」</span></strong><br><br><br>&nbsp;<img src="http://www.fujimi-trpg.jp/common/res/sw_thumb08.png" alt="" class="bbc_img"/><br><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">以斧头和金属铠、盾牌武装自己的矮人族，是为信奉骑士神塞亚的神官战士。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">矮人族虽然比人类要矮小，但是其肌肉型的体质，是以战斗为专门的种族。顽强的身体与灵活的灵巧度为其特征。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">塞亚（</span><span style="font-family: 宋体-PUA;" class="bbc_font">ザイア</span><span style="font-family: 宋体-PUA;" class="bbc_font">）是保护弱者的守护神，这名角色也是以保护同伴为己任，拥有能承受任何攻击的顽强度。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">作为神官不仅有能使用帮忙同伴的神圣魔法，战斗特技《庇护》还能代替同伴挡下攻击。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">矮人还拥有着</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">炎身</span>][<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">这两个种族特性。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">剑之加护</span>/<span style="font-family: 宋体-PUA;" class="bbc_font">炎身</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是个能保护自己免受各种火焰或火焰属性攻击伤害的种族特性。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">即使在黑暗之中也能像白天一样看清楚四周。炎属性的魔法和攻击，就连烧焦矮人的一根头发也无法做到。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">要是提及保护同伴的话，没有其他人能胜过这名角色的了。尽情地，发挥你作为队伍守护神的力量吧！</span><br><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>兔耳</strong><strong>魔法使</strong></span><br><br><strong>[</strong><strong><span style="font-family: 宋体-PUA;" class="bbc_font">论魔法本领，</span></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">你认为能赢得了我吗？</span></strong><strong>]</strong><br>&nbsp;<br><strong><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb09.png" alt="" class="bbc_img"/></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span></strong><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">能灵活运用</span>2<span style="font-family: 宋体-PUA;" class="bbc_font">大种类魔法，兔耳魔法使。</span><br>&nbsp; 兔耳<span style="font-family: 宋体-PUA;" class="bbc_font">身高约</span>1m<span style="font-family: 宋体-PUA;" class="bbc_font">，是个外表看起来有点像站立起来的兔子的种族。头脑非常聪明，和其他种族一样过着文化的生活。虽然拥有非常高的魔法使素质，但是完全不会使用武器。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">这个角色能灵活地使用真语魔法和操灵魔法，这</span>2<span style="font-family: 宋体-PUA;" class="bbc_font">大种类的魔法。真语魔法能使出【能量伏特（</span><span style="font-family: 宋体-PUA;" class="bbc_font">エネルギー</span>·<span style="font-family: 宋体-PUA;" class="bbc_font">ボルト</span><span style="font-family: 宋体-PUA;" class="bbc_font">）】等等的强力攻击魔法，</span><br><span style="font-family: 宋体-PUA;" class="bbc_font">操灵魔法则是能使出【反击幻术（</span><span style="font-family: 宋体-PUA;" class="bbc_font">カウンター</span>·<span style="font-family: 宋体-PUA;" class="bbc_font">マジック</span><span style="font-family: 宋体-PUA;" class="bbc_font">）】等等的掩护魔法。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">再者因为还拥有名为《魔法诱导》的战斗特技，所以能令攻击魔法准确地只瞄准敌人。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">驱使着众望所归能应对各种状况并发挥出最高效果的魔法，其身姿简直就是个不负魔法专家之名的角色。</span><br>&nbsp;兔耳<span style="font-family: 宋体-PUA;" class="bbc_font">还有着名为</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">第六感</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">的种族特性。能比同伴们更迅速地察觉到危险，使其陷入危机的可能性大幅减少。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">以最强的魔法为目标的角色。用擅长的魔法打倒强敌，为同伴们带来胜利的美酒吧！</span><br><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>机娘魔动机师</strong></span><br><br>&nbsp;<span style="font-family: 宋体-PUA;" class="bbc_font"><strong>「目标确认。掩护请交给我吧，</strong></span><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">主人」</span></strong><br>&nbsp;<span style="font-family: 宋体-PUA;" class="bbc_font"><strong><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb06.png" alt="" class="bbc_img"/></strong></span><br><strong>P49</strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span></strong><br>&nbsp; <br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">机娘和其他种族不一样，是使用古代文明制造出来的人造人类的后裔。虽然容姿制作得和人类相似，但身体必定会有一部分为人工构造物。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">魔动机术是，以古代文明遗产的魔动机械创造出来的，操纵魔法。能够制造出各种各样的枪械子弹。能使用【实体巴雷特（ソリッド</span>·<span style="font-family: 宋体-PUA;" class="bbc_font">バレット）】攻击敌人，而【治愈巴雷特（ヒーリング</span>·<span style="font-family: 宋体-PUA;" class="bbc_font">バレット）】能帮助同伴回复。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">《精密射击》是使其即使在乱战中也能令攻击只瞄准敌人的战斗特技，对枪手来说是必不可缺的。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">机娘拥有</span>[MP<span style="font-family: 宋体-PUA;" class="bbc_font">变换</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">和</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">这两种种族特性。</span>[MP<span style="font-family: 宋体-PUA;" class="bbc_font">变换</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是玩家可以随意减少自己的</span>HP<span style="font-family: 宋体-PUA;" class="bbc_font">，其减少的数值可以变换为</span>MP<span style="font-family: 宋体-PUA;" class="bbc_font">值。即使是魔法使用过度</span>MP<span style="font-family: 宋体-PUA;" class="bbc_font">不够用的时候，机娘也有办法能继续使用魔法。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">夜视</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是即使在黑暗中也能看得见的种族特性。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">灵活运用枪械，善于使出确切且强力攻击的角色。用你的爱枪，尽情地射倒敌人吧！</span><br><br><br><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>梦魔魔法拳士</strong></span><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「我会尽情地，以拳相会</span></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">做好觉悟吧」</span></strong><br><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">「哈哈！能看清我的拳法的话，</span></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">赞你一个！」</span></strong><br><br><strong><img src="http://www.fujimi-trpg.jp/common/res/sw_thumb11.png" alt="" class="bbc_img"/></strong><br><strong><span style="font-family: 宋体-PUA;" class="bbc_font">角色解说</span></strong><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">能够同时使用格斗术和操灵术，梦魔的魔法拳士。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">梦魔是人类和精灵、矮人等等突然变异而成的。一般的时候容姿和人类没什么不一样，头上长有小小的不显眼的角。所有的能力都很高，不论是战士或魔法使的素质都具备。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">格斗家技能是专门为空手战斗而备的战斗技能。灵活使用格斗家技能才能使出的战斗特技，能够迅速给予敌人伤害。《追加攻击》能使出</span>2<span style="font-family: 宋体-PUA;" class="bbc_font">回攻击，《投掷攻击》能令对手摔倒封住其动作，是个能使出各种多彩的战斗方式的角色。而且这个角色，还能用操灵魔法使自己或者是同伴得到强化。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">梦魔有着</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">异貌</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">和</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">弱点</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">这</span>2<span style="font-family: 宋体-PUA;" class="bbc_font">个种族特性。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">异貌</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是令角巨大化，肌肤变为苍白色姿态的种族特性，这个姿态下，即使不发声，光靠念力也能够施放出魔法。</span>[<span style="font-family: 宋体-PUA;" class="bbc_font">弱点</span>]<span style="font-family: 宋体-PUA;" class="bbc_font">是在银制武器和特定属性下会变弱种族特性。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">人族中的异端，尽管有着不可靠的弱点，但是无与伦比的肉体素质以及卓越的魔法才能正好弥补了不足。同时驱使魔法与拳头，让其冒险者之名响遍世界吧！</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377370">
+&#171; <em>上次编辑: 2011-10-29, 周六 02:31:55 由 lijiagb</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377373"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377373_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377373">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377373#msg377373" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377373'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377373'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2011-10-29, 周六 02:54:30 &#187;</div>
+<div id="msg_377373_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377373"><div align="center"><strong><span style="font-size: 2pt;" class="bbc_size"><span style="font-family: 宋体-PUA;" class="bbc_font">决定经历</span></span></strong></div><strong> </strong> <span style="font-family: 宋体-PUA;" class="bbc_font">决定好要使用哪个样本角色的话，接下来就要决定经历了。经历能显示出</span>PC<span style="font-family: 宋体-PUA;" class="bbc_font">的出生以及过去体验过的心路历程，在建立该</span>PC<span style="font-family: 宋体-PUA;" class="bbc_font">的设定和性格之类的时候将利用到这些经历。</span><br>&nbsp; <span style="font-family: 宋体-PUA;" class="bbc_font">根据经历，能力值等等的资料一律不会有任何变化。经历会成为</span>PC<span style="font-family: 宋体-PUA;" class="bbc_font">扮演角色的时候的指针，</span>GM<span style="font-family: 宋体-PUA;" class="bbc_font">会根据人物的经历与事件是否有关联等等决定出场。</span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font">PS：原本的规则书有一张随机经历，不过因为大人的原因，不做翻译。</span><br><br><div align="center"><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>简单作成</strong><strong>PC</strong><strong>完成</strong></span></div><span style="font-family: 宋体-PUA;" class="bbc_font"><strong>&nbsp; </strong>从样本角色之中选出想要使用的其中一名角色后，将其角色卡复印一份做好准备。</span><br><span style="font-family: 宋体-PUA;" class="bbc_font">&nbsp; 然后，填写好名字和年龄、经历决定的空栏目之后，简单作成就完成了。</span><br><span style="font-family: 宋体-PUA;" class="bbc_font">&nbsp; 这样子你的作为你分身的PC就诞生了，在兰古希亚大展身手的准备这就全部完成了。剩下的就是等其他玩家们制作好他们的角色之后，跑团就可以开搞了。</span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font">PS：其实这章节 是官方的人物模板+介绍 可以直接拿来用的 </span><br><span style="font-family: 宋体-PUA;" class="bbc_font">因此附上原书附带的人物数据</span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font">下次介绍怎么重头建立一张完全属于自己的人物卡</span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font">PS2： 注明下几个种族的译名 </span><br><br><span style="font-family: 宋体-PUA;" class="bbc_font">[size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">人间&nbsp; -&nbsp; &nbsp;人类</span>[/size]</span><br><span style="font-family: 宋体-PUA;" class="bbc_font">[size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">エルフ&nbsp; -&nbsp; 精灵</span>[/size]</span><br><span style="font-family: &#039;microsoft jhenghei&#039;, sans-serif;" class="bbc_font">[size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">ドワーフ - 矮人</span>[/size]</span><br><span style="font-family: 宋体-PUA;" class="bbc_font">[/size][size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">タビット - 塔比特（兔耳）</span>[/size]<span style="font-size: 14px;" class="bbc_size"></span></span><br><span style="font-family: 宋体-PUA;" class="bbc_font">[/size][size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">ルーンフォーク - 符文之民（机娘）</span>[/size]<span style="font-size: 14px;" class="bbc_size"></span></span><br><span style="font-family: 宋体-PUA;" class="bbc_font">[/size][size=0pt]<span style="font-family: Microsoft JhengHei;" class="bbc_font">ナイトメア -梦魇</span>[/size]<span style="font-size: 14px;" class="bbc_size"></span></span><br><span style="font-family: &#039;microsoft jhenghei&#039;, sans-serif;" class="bbc_font">[/size]<span style="font-size: 14px;" class="bbc_size">人物数据下载：</span><span style="font-size: 14px;" class="bbc_size"></span></span><a href="http://www.rayfile.com/files/cd4ff6fd-0195-11e1-969b-0015c55db73d/" class="bbc_link new_win" target="_blank">http://www.rayfile.com/files/cd4ff6fd-0195-11e1-969b-0015c55db73d/</a><br><span style="font-family: 宋体-PUA;" class="bbc_font">[/size][size=0pt][/size]<span style="font-size: 14px;" class="bbc_size"></span></span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377373">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377384"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=11718" title="检视会员资料:  夜歌白忧伶">夜歌白忧伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_377384_extra_info">
+<li class="title">崩坏妹子和胡茬大叔<li class="postgroup">Diver<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=11718">
+<img class="avatar" src="http://1dmuvw.sn2.livefilestore.com/y1pXFrlfYVzuj7LpNVmq1FprBmB-3geK0b0fLH0PSKNKFcwHnum--qCnL5BOe7BSc9czZmivj466dN8Va-xK2TI4d9a22rhkF0I/1.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3334<li class="karma">苹果币: 0<li class="blurb">闲来无事种菊花<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377384">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377384#msg377384" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377384'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377384'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2011-10-29, 周六 09:30:50 &#187;</div>
+<div id="msg_377384_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377384">水性，精灵。<br><div class="meaction">* 夜歌白忧伶 顿时脑子里只有水性杨花这个字眼</div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377384">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_377384_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=35663.0" class="bbc_link new_win" target="_blank">绯红色乐团</a><br><br>一群笨蛋而已了。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377432"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377432_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377432">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377432#msg377432" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377432'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377432'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2011-10-29, 周六 14:59:26 &#187;</div>
+<div id="msg_377432_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377432">目前带的团 女性角色都买了水着 问题这团没有水战啊 = =</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377432">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377471"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459" title="检视会员资料:  涅薇儿·德拉诺尔">涅薇儿·德拉诺尔</a>
+</h4>
+<ul class="reset smalltext" id="msg_377471_extra_info">
+<li class="title">世间万物都需要锱铢必较<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13459_1326653997.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5794<li class="karma">苹果币: 1<li class="blurb">LV5滥弱<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377471">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377471#msg377471" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377471'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377471'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2011-10-29, 周六 19:45:19 &#187;</div>
+<div id="msg_377471_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377471">字太小了不是很容易辨认，不知道是不是我的问题</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377471">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_377471_signature">下辈子一定要当个蛮子，免得想太多。<br>帕拉丁冲锋破鞋必出1，这是一种真理<br>每当我出carry的时候总有人抢中路，每当我出辅助的时候总让我去中单<br>自从当了DM，豁免骰那是一个比一个大……<br>[21:54] &lt;玛多卡&gt; .r d20+13 出1我就掀桌<br>[21:54] &lt;DnDBot&gt; 玛多卡 投掷 出1我就掀桌: 1d20+13=(1)+13=14</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377486"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=3724" title="检视会员资料:  伊贝兰">伊贝兰</a>
+</h4>
+<ul class="reset smalltext" id="msg_377486_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 255<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377486">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377486#msg377486" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377486'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377486'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2011-10-29, 周六 20:31:38 &#187;</div>
+<div id="msg_377486_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377486">求详细。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377486">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377544"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377544_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377544">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377544#msg377544" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377544'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377544'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2011-10-30, 周日 00:22:12 &#187;</div>
+<div id="msg_377544_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377544"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377471#msg377471">引述: 涅薇儿·德拉诺尔 于 2011-10-29, 周六 19:45:19</a></div></div><blockquote class="bbc_standard_quote">字太小了不是很容易辨认，不知道是不是我的问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>原书是B5大小的 所以字相对有些小 不过就本人在电脑上的看的效果 还不错的 = =&nbsp; 如果你看图的时候没有点实际大小</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377544">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377548"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459" title="检视会员资料:  涅薇儿·德拉诺尔">涅薇儿·德拉诺尔</a>
+</h4>
+<ul class="reset smalltext" id="msg_377548_extra_info">
+<li class="title">世间万物都需要锱铢必较<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13459_1326653997.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5794<li class="karma">苹果币: 1<li class="blurb">LV5滥弱<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377548">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377548#msg377548" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377548'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377548'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2011-10-30, 周日 01:06:50 &#187;</div>
+<div id="msg_377548_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377548"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377544#msg377544">引述: lijiagb 于 2011-10-30, 周日 00:22:12</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377471#msg377471">引述: 涅薇儿·德拉诺尔 于 2011-10-29, 周六 19:45:19</a></div></div><blockquote class="bbc_alternate_quote">字太小了不是很容易辨认，不知道是不是我的问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>原书是B5大小的 所以字相对有些小 不过就本人在电脑上的看的效果 还不错的 = =&nbsp; 如果你看图的时候没有点实际大小<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>我说的是你的帖子里的字……并非是图里的。。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377548">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_377548_signature">下辈子一定要当个蛮子，免得想太多。<br>帕拉丁冲锋破鞋必出1，这是一种真理<br>每当我出carry的时候总有人抢中路，每当我出辅助的时候总让我去中单<br>自从当了DM，豁免骰那是一个比一个大……<br>[21:54] &lt;玛多卡&gt; .r d20+13 出1我就掀桌<br>[21:54] &lt;DnDBot&gt; 玛多卡 投掷 出1我就掀桌: 1d20+13=(1)+13=14</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377549"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377549_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377549">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377549#msg377549" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377549'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377549'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2011-10-30, 周日 01:09:49 &#187;</div>
+<div id="msg_377549_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377549">估计是浏览器的问题 我是用Chrome&nbsp; <br>因为原本的译文 是在DOC里面编辑的 估计复制过来的是 用了可视编辑导致的<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377549">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377614"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459" title="检视会员资料:  涅薇儿·德拉诺尔">涅薇儿·德拉诺尔</a>
+</h4>
+<ul class="reset smalltext" id="msg_377614_extra_info">
+<li class="title">世间万物都需要锱铢必较<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=13459">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13459_1326653997.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5794<li class="karma">苹果币: 1<li class="blurb">LV5滥弱<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377614">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377614#msg377614" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377614'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377614'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2011-10-30, 周日 12:10:52 &#187;</div>
+<div id="msg_377614_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377614">恩，这样的字就很合适了。<br>另外吐槽一下，为啥魔法拳士会扛着一把重剑？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377614">
+&#171; <em>上次编辑: 2011-10-30, 周日 12:13:40 由 涅薇儿·德拉诺尔</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_377614_signature">下辈子一定要当个蛮子，免得想太多。<br>帕拉丁冲锋破鞋必出1，这是一种真理<br>每当我出carry的时候总有人抢中路，每当我出辅助的时候总让我去中单<br>自从当了DM，豁免骰那是一个比一个大……<br>[21:54] &lt;玛多卡&gt; .r d20+13 出1我就掀桌<br>[21:54] &lt;DnDBot&gt; 玛多卡 投掷 出1我就掀桌: 1d20+13=(1)+13=14</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377619"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=10040" title="检视会员资料:  yamikala">yamikala</a>
+</h4>
+<ul class="reset smalltext" id="msg_377619_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=10040">
+<img class="avatar" src="/bbs/upload/avatar/av-10040.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 63<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377619">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377619#msg377619" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377619'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377619'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2011-10-30, 周日 12:47:56 &#187;</div>
+<div id="msg_377619_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377619"><br>那个，エネルギー·ボルト是Energy Bolt，可以按1.0版的汉字表记翻译为光之矢或力之矢，能量伏特有点怪唉。还有ヒーリング·バレット感觉直接翻成治愈弹什么的更顺口些</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377619">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg377682"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=5383" title="检视会员资料:  lijiagb">lijiagb</a>
+</h4>
+<ul class="reset smalltext" id="msg_377682_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 26<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_377682">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377682#msg377682" rel="nofollow">Re: ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_377682'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_377682'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2011-10-30, 周日 18:24:08 &#187;</div>
+<div id="msg_377682_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_377682"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377619#msg377619">引述: yamikala 于 2011-10-30, 周日 12:47:56</a></div></div><blockquote class="bbc_standard_quote"><br>那个，エネルギー·ボルト是Energy Bolt，可以按1.0版的汉字表记翻译为光之矢或力之矢，能量伏特有点怪唉。还有ヒーリング·バレット感觉直接翻成治愈弹什么的更顺口些<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>感谢提出建议 - - 整个规则书1魔法翻译的会一次放出<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.msg377614#msg377614">引述: 涅薇儿·德拉诺尔 于 2011-10-30, 周日 12:10:52</a></div></div><blockquote class="bbc_standard_quote">恩，这样的字就很合适了。<br>另外吐槽一下，为啥魔法拳士会扛着一把重剑？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>其实机娘和梦魇的图 是规则书3的插图 - - 官网只有这个的彩图 所以复制过来了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_377682">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=43786.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=43786.0"><span>ソードワールド2.0 规则手册1 第一章 玩家角色 第二章 简单易懂的PC制造方法</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 43786,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 43786,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f17810e16" value="e1988d2cbd3553672340dc04637127c3" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="43786" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e1988d2cbd3553672340dc04637127c3\', \'f17810e16\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;' + '?topic=43786.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 16232 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 497,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "剑世界2.0",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 497,
+							iTopicId: 43786,
+							sSessionId: "e1988d2cbd3553672340dc04637127c3",
+							sSessionVar: "f17810e16",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

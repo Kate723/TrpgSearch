@@ -1,0 +1,924 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【第八章】背景特性（Traits）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【第八章】背景特性（Traits）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '5a4cbc40001a2138af41dd9b1cb45b3e');">
+<div class="info">请 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">登录</a> 或 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="59876"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b3ff423',
+sSessionId: '5a4cbc40001a2138af41dd9b1cb45b3e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"><span>《进阶玩家指南》</span></a> (版主: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0"><span>【第八章】背景特性（Traits）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg556538"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=59876.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【第八章】背景特性（Traits） &nbsp;(阅读 20484 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 原译：背景元素</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=quickmod2;topic=59876.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('5a4cbc40001a2138af41dd9b1cb45b3e', 'b3ff423') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556538_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/thumbup.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556538">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556538#msg556538" rel="nofollow">【第八章】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556538'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556538'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2013-06-26, 周三 15:36:15 &#187;</div>
+<div id="msg_556538_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556538"><span style="font-size: 18pt;" class="bbc_size"><span style="color: brown;" class="bbc_color"><strong>背景特性（Traits）</strong></span></span><br><br>　　角色的背景特性是不与种族或职业挂钩的能力。它们能够强化角色的技能、种族能力、职业能力或其他数据，使你得以深化塑造角色。一项背景基本上等同于半个专长，因此两项背景和一个专长大致等价。背景特性并非可为角色添加的新能力，仅在充实角色的背景、使其更适于战役的世界观时提供一些量化加值。不妨将背景当作基于角色背景的“伏笔”；在选择两项背景后，你将会在设计角色性格和经历时从中获得若干启发。反之亦然：若你已经描绘好了自己角色的背景，你可以选择两项与该背景对应的背景，如同选择种族、职业、属性一般地去刻画角色的优缺点。<br><br>　　很多背景特性提供了一种新类型的加值：背景加值（Trait Bonus）。背景加值互不叠加——它们仅给予角色微小的优势，而非是通过堆叠数据走向滥强的捷径。举例而言，假如有一项与「无畏者（Courageous）」类似的背景出现在矮人种族背景列表中，那么哪怕你分别在战斗背景和种族背景中分别选择了这两项，也不会意味着比只选择一项更加勇敢。<br><br>　　背景特性仅为玩家的角色提供。如果你希望NPC拥有背景，该NPC必须通过选择「额外背景特性（Additional Traits）」专长来“购买”背景。玩家角色是与众不同的；他们是冒险故事中的闪亮星辰，无论如何都该比路人甲更具优势。<br><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>获得背景（Gaining Traits）</strong></span></span><br><br>　　在你为某个战役或模组准备角色时，请向你的GM咨询可以选择的背景特性数量。大多数情况下，一位新角色应该获得两项背景，大致强度对应于一个奖励专长。某些GM会根据其风格调整背景特性的数量；你可能仅被允许选择一项背景，或是能选择三项以上。即便你的GM不允许选择多于正常数量的背景，你仍然可以通过选择「额外背景特性」专长来满足需求。<br><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>背景类型（Types of Traits）</strong></span></span><br><br>　　背景特性可以从以下五种类型中选择：基本（又可细分为战斗、信念、魔法和社会四个子类）、战役、种族、地区、宗教。此处列出的背景特性仅仅是部分而已；更多隶属于不同类型的背景可以在《寻路者：玩家伴侣（Pathfinder Player Companions）》系列丛书中寻获。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>基本背景（Basic Traits）</strong></span>：共计40项的基本背景特性可被均分为战斗、信念、魔法和社会等子类。注意这四个子类大体上对应了四种冒险的范式，但并不绑定于特定的职业。举例而言，拥有宗教背景的盗贼或者魔法背景的战士都完全可能存在。基本背景是普遍性的，通常作极少调整便能适用于任何战役设定。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>战役背景（Campaign Traits）</strong></span>：此类背景特性为角色融入特定战役的世界中服务。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>种族背景（Race Traits）</strong></span>：种族背景和特定种族或族群挂钩，你的角色必须属于某个种族才能选取对应背景。如果你的种族或族群在某一时刻发生改变（这可能是变形系列法术或者「转生术」的效果），背景效果依然保留——唯有当你的心智和记忆遭到改变时，才会失去背景特性带来的增益。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>地区背景（Regional Traits）</strong></span>：地区背景与特定的大型（譬如国家或地域）或小型（譬如城市或某座山）区域挂钩。你的角色必须在该区域生活至少一年才能够选择对应的地区背景。1级时，无论你的角色背景描述中遍历过多少地区，你只能选择一项地区背景（通常是你的角色的出生地或故乡）。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>宗教背景（Religion Traits）</strong></span>：宗教背景体现了你的角色对特定神祗的信仰；你无需拥有神术施法者职业等级便能选择宗教背景，但你必须有崇拜的神祗，并在你的背景描述中说明你与该宗教背景的接点。与其他类型的背景不同，宗教背景可以在你放弃信仰时一并舍弃，详见下文的背景选择限制部分。<br><br><hr /><br><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>背景的选择限制（Restrictions on Trait Selection）</strong></span></span><br><br>　　背景特性的选择有几条规则制约。首先，你的GM决定PC起始拥有的背景数量；默认为两项。你不能在选择背景特性时从同一个列表中选择超过一项背景（此处基本背景的四个子类分别被视为不同的列表）。特定类型的背景特性可能会有额外的前提条件。<br><br>　　请记住，背景特性刻画了角色在成长道路上的经历的事件，既包括他成为冒险者之前的经历，亦涵盖他在冒险途中的体会（此即为通过「额外背景特性」专长获得的额外背景）。即便你的角色决定出世隐居，他依然能因保留了曾身为望族时的社交经验而从社会背景中获益。宗教背景则是个例外——由于该背景特性要求信仰特定神祗，你的角色在改变信仰时亦会失去宗教背景。此时不妨与你的GM商榷，她可以简单地处理为从此失去一项背景特性，也可以允许你选择另一项你的新信仰所对应的宗教背景。另一种处理方式是你的角色在放弃信仰时失去宗教背景，并在下次升级时选择一项基本背景中的信仰背景加以替代。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556538">
+&#171; <em>上次编辑: 2020-10-22, 周四 12:39:59 由 沉沦</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556538_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556542"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556542_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556542">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556542#msg556542" rel="nofollow">基本背景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556542'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556542'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2013-06-26, 周三 15:41:01 &#187;</div>
+<div id="msg_556542_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556542"><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>基本背景（Basic Traits）</strong></span></span><br><br>　　基本背景被划分为四个子类。战斗背景体现了角色背景的武技和体能方面；信念背景体现了角色的宗教和哲学理念；魔法背景体现了角色曾接受的训练或遭遇的魔法事件；社会背景体现了角色的社会阶层和教养。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>战斗背景（Combat Traits）</strong></span></span><br><br>　　此类背景特性与格斗、搏杀和其他肉体对抗相关；它们在战斗中给予角色微弱的加值，并体现了角色过往的搏斗和物理对抗经验。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>解剖师（Anatomist）</strong></span>：作为一介大学医科生或是死灵师学徒，你接受过解剖学的系统训练。你知晓如何瞄准对方最致命的器官，并在重击确认的投骰中获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>甲胄士（Armor Expert）</strong></span>：无论是作为见习骑士的训练、或单纯地出于对英雄的模仿，从记事起你便身披甲胄。儿时所穿的铠甲未必真具备防护力，但这种仿真的负重练习毕竟是一种磨练，使长大的你如今披甲行动时姿态更加优雅。你身穿任何种类的盔甲时，该盔甲的防具检定减值下降1点，最低为0。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>受气包（Bullied）</strong></span>：你幼时常受人欺负，以致今日你也在敌人接近时惯于紧握双拳以自卫。你在通过徒手进行借机攻击时，攻击检定获得+1背景加值。注意此背景特性并不赋予你通过徒手进行借机攻击的能力——你必须拥有武僧等级或「精通徒手打击」专长，或者其他类似能力才能使用本背景。但这并不妨碍你预先选择本背景；只是在满足上述条件前暂时无法使用而已。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>无畏者（Courageous）</strong></span>：你的童年充斥着暴力，但你通过不屈不挠的意志与信念之力在苦境中成长，只要保持神志清醒便能勇敢面对任何威胁。你在对抗恐惧效果的意志豁免中获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>机灵鬼（Deft Dodger）</strong></span>：在危险环境或恶邻之侧长大的你不断地磨练自己的感官与直觉。你的反射豁免获得+1背景加值。<br><br>　　<del>好基友</del><span style="color: blue;" class="bbc_color"><strong>好搭档（Dirty Fighter）</strong></span>：若是没有那个可靠的兄弟、朋友或是伙伴帮你牵制敌人、让你将对方揍得更痛，你根本不可能长大成人活到今天。这名伙伴可以是另一位玩家或一个NPC。当你们夹击时，你对攻击命中的敌人造成1点额外伤害（该伤害计入你的基础伤害并可以在重击时加倍）。该额外伤害是一项背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>击剑士（Fencer）</strong></span>：也许是父母出钱让你修习击剑礼仪的入门课程，亦或是师从一位因犯罪而隐姓埋名的老剑士，你从儿时起便长期接受剑术训练。你在通过匕首、刀剑或类似武器进行借机攻击时，攻击检定获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>杀人鬼（Killer）</strong></span>：无论是战场职责还是蓄意谋杀，你早在非常幼小时便初次体验了杀人的感觉。你傲于用准备周全的一击结果对手，或惯于从扭转刀刃造成更大痛苦之类的行为中获取下流的快感。当你用武器成功造成重击时，可以造成等同于该武器重击倍率数值的额外伤害；该额外伤害计入最终总伤害值，因此不会再因重击本身而翻倍。该额外伤害是一项背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>反制者（Reactionary）</strong></span>：你幼时长受人欺负，但从来都不会主动发难。取而代之的是你精于预见突然袭击、并能够快速应对威胁。你的先攻检定获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>铁胃人（Resilient）</strong></span>：在穷困环境或贫瘠荒野中长大的你，经常强迫自己摄取来源可疑的食物和水。这磨练了你的勇气，并让你的强韧豁免获得+1背景加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>信念背景（Faith Traits）</strong></span></span><br><br>　　此类背景特性基于精神、冥思和宗教等等，但并不直接与特定神祗的信仰挂钩。你无需信奉神祗便能获得一项信念背景，因为此类背景特性可以轻易地体现你个人的价值观与人生哲学。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>刻印使（Birthmark）</strong></span>：你出生时便携带着某种特殊胎记，其形状恰似你日后所信奉神祗的圣徽。此胎记可以在你施法时作为圣法器使用，同时也是你的信仰的肉体具现、增添了你对神祗的虔敬之心——你在对抗魅惑和胁迫效果的意志豁免中获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>医护师（Caretaker）</strong></span>：作为药草师家庭的孩子、或神庙治疗室的助手，你经常不得不忙于照料伤病者。你的医疗检定获得+1背景加值，并且总能将医疗视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>庙之子（Child of the Temple）</strong></span>：你长期侍奉于城市的神庙，除了学习到不少贵族礼仪，你用更多时间在神庙的藏书中追寻自己的信仰。你的知识（贵族）和知识（宗教）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>绿信众（Devotee of the Green）</strong></span>：你对自然世界或一位掌管自然的神祗的信仰，使你易于接受相关的知识与理解。你的知识（地理）和知识（自然）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>变通者（Ease of Faith）</strong></span>：在你儿时便指引你信仰之途的那位导师，循循善诱地致力于让你理解一个信条：你的信仰之力，与魔法之力和其他宗教力量相较并无二致。这种哲学使你和持有异见者交流时更为从善如流。你的交涉检定获得+1背景加值，并且总能将交涉视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>异端客（History of Heresy）</strong></span>：你在抱有异端思想的环境中长大，这使你难以接受大多宗教理念，并时常致使你或你所爱之人沦为被流放者。作为结果，你背弃一切宗教的宣教，只要你没有获得神术施法职业的等级，你就能在抵抗神术的全豁免中获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>坚信徒（Indomitable Faith）</strong></span>：你出生在自己的信仰并不受欢迎的地区，但你决不背弃信仰。为保持信仰所付出的持之以恒的努力，鞭策着你一路前行。你的意志豁免获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>圣能渠（Sacred Conduit）</strong></span>：你的降生对母亲而言痛苦而又艰辛，以致需要借助圣能来确保你顺利存活（你的母亲则不一定有如此幸运）。那种魔法能量从儿时便萦绕在你身畔，如今你可以轻松自如地引导神圣能量。当你引导能量时，其豁免DC获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>救死师（Sacred Touch）</strong></span>：也许是你的出生受到群星呵护、也许由于你的双亲之一是为天赋异禀的治疗师，你在孩提时便常置身于正能量富集之所。以一个标准动作，你能够仅通过触碰便使一个濒死生物的伤势自动稳定。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>静思者（Scholar of the Great Beyond）</strong></span>：从幼时起，你的兴趣便不在身边凡俗之事——你时常感到不自在，仿佛自己生错了时空。你的哲学理念使你更易于理解遥远星界的彼端、或是历史长河的波涛。你的知识（历史）和知识（位面）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>魔法背景（Magic Traits）</strong></span></span><br><br>　　此类背景特性与魔法相关，专注于施法和控法。你无需身为施法者就能选择魔法背景（尽管部分此类背景特性对非施法者而言受益较少）。魔法背景体现了角色早年与魔法效果的接触或是幼时对魔法的学习。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>学院派（Classically Schooled）</strong></span>：你的学徒生活或是早年教育特别专注于魔法的直接运用。你的法术辨识检定获得+1背景加值，并且总能将法术辨识视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>好奇猫（Dangerously Curious）</strong></span>：你总是被魔法所吸引，这也许由于你是魔导士或神术师家庭的孩子。你经常偷偷摸进父母的实验室或神庙去捣蛋，把玩法术材料或是魔法装置，并且频繁地造成小破坏、令你爹娘头痛不已。你的使用魔法装置检定获得+1背景加值，并且总能将使用魔法装置视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>心无尘（Focused Mind）</strong></span>：你的童年可能被某种科班课程（音乐、学术等等）所占据；又或是糟糕的家庭氛围迫使你专注于手头的工作、锻炼了你不被干扰的本领。你的专注检定获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>天生咒（Gifted Adept）</strong></span>：你对魔法的兴趣，可能是在目击了某次以特别拉风的手段施法后被激发的，这种偏好也许在肉体和精神上都影响着你。这种早期对魔法的接触，使得你在自己施展类似法术时也更易上手。在你选择此背景特性时，指定一个法术。从此刻起，你施展该法术的施法者等级+1。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>隐居匠（Hedge Magician）</strong></span>：你在一段时期内做过某位魔法物品工匠的学徒，他教会了你许多节约工序和成本的窍门。当你制造魔法物品时，降低5%的GP成本消耗。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>法理通（Magical Knack）</strong></span>：你的全部或部分童年，是由某位魔法生物陪伴度过的——也许是它发现了被遗弃在林中的你，又或许是父母常把你丢给魔宠照顾。这种成长环境使你更易于理解魔法的神秘所在，哪怕你早已投身其他行业。在你选择此背景特性时，指定一个职业。你在该职业的施法者等级获得+2背景加值，最高不超过你当前的生命骰数。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>魔法裔（Magical Lineage）</strong></span>：你的双亲之一是为极具天赋的施法者，他/她不但擅长超魔强化，更能够自行创造若干新法术或奇物——而你恰好通过遗传从中获得了一些恩惠。在你选择此背景特性时，指定一个法术。当你超魔施展该法术时，其最终占用的法术环位视为比正常状况降低1级。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>鬼把戏（Magical Talent）</strong></span>：也许是诸神一时兴起的赠礼、也许是出于研究诡异卷轴的痴迷，你掌握了一种戏法的窍门。选择一个0级法术。你能够每日以类法术能力的形式施展该法术1次。该类法术能力采用你所拥有的最高施法者等级；如果你并无施法者等级，则视为1级。该类法术能力的豁免DC基于魅力。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>数理通（Mathematical Prodigy）</strong></span>：数学这门学科对你而言很轻松，而你也常常能“看见”物质和魔法世界中的数学本质。你的知识（神秘）和知识（工程）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>无信者（Skeptic）</strong></span>：你的成长历程被魔法效果所围绕，而你逐渐认识到其中大部分仅仅是烟尘和镜像罢了。你在对抗幻术效果的全豁免中获得+2背景加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>社会背景（Social Traits）</strong></span></span><br><br>　　社会背景是一类大杂烩——此类背景特性体现了角色的后天教养、家族地位的高低、以及与亲属敌友之间的关系史，等等。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>异族儿（Adopted）</strong></span>：你是一名养子，并且在与你自身种族和社群不同的环境下长大。你可以从养父母所属的种族和社群中选择一项种族背景。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>小霸王（Bully）</strong></span>：在你所成长的环境中，谦恭只会招致轻视，而你不得不用拳头来面对和解决问题。你的威吓检定获得+1背景加值，并且总能将威吓视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>暗语通（Canter）</strong></span>：你混迹在窃贼和歹徒之中长大，如今他们之间的暗号和黑话已难以让你不知所措。任何人想通过唬骗技能向你秘密传达信息时，其唬骗检定+5。而当你试图通过察言观色技能识破秘密情报时，你的检定获得+5背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>颜如玉（Charming）</strong></span>：拜天生美貌所赐，你意识到自己对他人具有非凡的吸引力。当你对某个可能对你产生性趣的角色使用唬骗或交涉技能时，检定可获+1背景加值，同时，你对上述角色或生物施展的基于语言的法术DC也获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>小扒手（Child of the Streets）</strong></span>：你在大城市的街头长大，逐渐地精于顺手牵羊和藏匿小物件。你的手上工夫检定获得+1背景加值，并且总能将手上工夫视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>诈欺师（Fast-Talker）</strong></span>：你还是个熊孩子时超会惹麻烦，但为了让屁股不挨板子，你早早地练就了三寸不烂之舌。你的唬骗检定获得+1背景加值，并且总能将唬骗视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>领袖派（Natural-Born Leader）</strong></span>：你发觉自己总是被周围的人视为领导者；而你也记得还在穿开裆裤时，就带领着其他顽童们共同完成过独力绝不可及的伟业。你领导下的所有部属、随从和召唤生物在对抗心智影响效果的豁免中获得+1士气加值。如果你有「领导力」专长，你的领导力点数获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>寒门子（Poverty-Stricken）</strong></span>：你的童年相当艰苦，双亲必须为每一个铜板精打细算。饥饿常与你做伴，背井离乡、风餐露宿如同家常便饭。你的生存检定获得+1背景加值，并且总能将生存视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>富二代（Rich Parents）</strong></span>：你出生在富贵之家，即便决定踏上冒险旅途，也能获得不俗的初始资金支援——你的起始资金增加至900GP。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>多疑者（Suspicious）</strong></span>：你在幼时便发现某位你信任的兄长或亲属常常信口开河、令你困惑不已；很快你就开始质疑他人的任何话语。你的察言观色检定获得+1背景加值，并且总能将察言观色视为你的本职技能。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556542">
+&#171; <em>上次编辑: 2013-06-27, 周四 11:40:15 由 Falengel</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556542_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556546"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556546_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556546">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556546#msg556546" rel="nofollow">战役背景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556546'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556546'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2013-06-26, 周三 15:44:34 &#187;</div>
+<div id="msg_556546_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556546"><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>战役背景（Campaign Traits）</strong></span></span><br><br>　　战役背景是为参加某个战役或模组的角色量身打造的，往往能帮你找到加入冒险生涯的理由。正因如此，GM时常会为PC设计自己的战役背景。如果你的GM使用战役背景，你的起始背景特性之一必须为战役背景。你的另一项背景特性则可以在其他类型中挑选。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>「神眷之子/神眷之女（Favored Son/Daughter）」</strong></span></span><br><br>　　你生长在砂点镇（Sandpoint）或其周边农场。你知晓不少乡间八卦，也在当地混了个脸熟。你在镇上颇受欢迎，而你也有不少熟人朋友；但镇上的恶势力则视你为眼中钉肉中刺。你的知识（本地）检定获得+1背景加值，并且总能将知识（本地）视为你的本职技能。此外你还能选择以下一位砂点镇的守法公民作为同伴；根据你所指定的对象，你能获得不同的收益。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>酒吧主（Tavern Owner）</strong></span>：镇上最有影响力和受人爱戴的贵族。她的旅店/酒馆在镇上最出名；作为她的朋友之一，你的吃住都有免费保障。她在商界的人脉甚广，会帮你售卖任何冒险中收获的战利品——因此你能在出售财宝时获取比正常多出10%的GP。<br>　　（译者注：这位多半便是「天衣子」姐姐。请参见 <a href="http://www.goddessfantasy.net/bbs/index.php?topic=56663" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=56663</a>）<br><br>　　<del>我爸是李刚</del><span style="color: blue;" class="bbc_color"><strong>警探长（Sherriff）</strong></span>：这位法律的忠实守卫者，就像是你素未谋面的亲叔叔。与这位警长为友的好处甚多，你可以在每个篇章（game session）向他求助1次。这次求助可以令你从一场法律纠纷中脱身，或是受到一位小镇守卫随从护卫，或是让你在对任何当地人士的唬骗、交涉、威吓单次检定中获得+10加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>「黑道暗徒（Black Sheep）」</strong></span></span><br><br>　　你在镇上出生长大。你知晓不少乡间八卦，也在当地混了个脸熟。你在镇上并不至于人人喊打，不过居民们似乎把你当作惹事鬼和不靠谱的人渣。镇上的恶势力倒是看重你，守法公民们则不然。你的知识（本地）检定获得+1背景加值，并且总能将知识（本地）视为你的本职技能。此外你还能选择以下一位镇上的黑道人士作为同伴；根据你所指定的对象，你能获得不同的收益。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>药剂师（Apothecary）</strong></span>：每个人都怀疑这位脸上挂着谄媚奸笑的药剂师在他气味诡异的店子里私售毒剂。你是知晓该猜测确为事实的为数不多的人之一。你在游戏起始时携带者价值400GP的毒药，并且只要你不泄露秘密，药剂师还会继续向你贩售毒药。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>落魄客（Bitter Nobleman）</strong></span>：一个当地飞扬跋扈的家族最近遭逢重创，其罪行被公之于众，也因此声名扫地。一位贵族急于恢复家族在镇上的形象，而你正是他的代理人和密探之一。选择以下一项技能：唬骗、手上工夫或隐匿。你为该家族的工作使你在该技能上获得+1背景加值，并且总能将其视为你的本职技能。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>「外乡来客（Outlander）」</strong></span></span><br><br>　　你并不来自本镇；前不久你才从别处而来，冀望在此发迹。指定以下选项之一作为新来客的冒险理由。<br>　　<span style="color: brown;" class="bbc_color">（译者吐槽：下面那两个施法者用的背景特性，这种强度叫做“半个专长”真的没问题？？）</span><br><br>　　<span style="color: blue;" class="bbc_color"><strong>探寻者（Lore Seeker）</strong></span>：某个远古失落文明的秘密、尤其是其极度深邃的魔法传统深深地吸引着你。你专心研习魔法，并想要通过古代秘仪来强化自身知识。你为研究而来到此地，并且选择远离大都市的该镇——意味着研究远古文明遗迹的同行较少——作为临时基地。你的知识（神秘）检定获得+1背景加值，并且总能将知识（神秘）视为你的本职技能。如果你施展奥术，从你的法术列表中选择3个法术。你对这些法术了熟于心，在施放它们时施法者等级+1，同时豁免DC（如果有豁免）+1。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>流放徒（Exile）</strong></span>：出于某种理由，你被迫背井离乡。命运的齿轮指引你来到此地，而你的盘缠也恰好在此告罄；所以你不得不滞留在这个小镇。你仍在被来自故乡的敌人追杀，这使你产生受害妄想、并能快速应对危机。你的先攻检定获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>传教士（Missionary）</strong></span>：在受到神启、得知此地需要你的信仰——却不知具体需要何物之后，你决定来到这个小镇，看看能否传播自己的信仰。你的知识（宗教）检定获得+1背景加值，并且总能将知识（宗教）视为你的本职技能。如果你施展神术，从你的法术列表中选择3个法术。你对这些法术了熟于心，在施放它们时施法者等级+1，同时豁免DC（如果有豁免）+1。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556546">
+&#171; <em>上次编辑: 2013-06-27, 周四 11:45:04 由 Falengel</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556546_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556547"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556547_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556547">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556547#msg556547" rel="nofollow">种族背景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556547'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556547'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2013-06-26, 周三 15:47:06 &#187;</div>
+<div id="msg_556547_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556547"><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>种族背景（Race Traits）</strong></span></span><br><br>　　种族背景与特定种族或族群相关。你的角色必须属于特定种族或族群才能够选择对应的种族背景。以下为每个玩家可选种族的背景特性范例。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>矮人种族背景（Dwarf Race Traits）</strong></span></span><br><br>　　只有矮人才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>淘金者（Goldsniffer）</strong></span>：你的敏锐感官将你引向隐藏的财宝。你在与金属、首饰和宝石相关的察觉检定上获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>坑斗士（Tunnel Fighter）</strong></span>：洞窟和坑道是你的第二家园。在地下环境中，你的先攻检定获得+2背景加值，武器造成重击时伤害获得+1背景加值（该伤害能够因重击加倍）。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>精灵种族背景（Elf Race Traits）</strong></span></span><br><br>　　只有精灵才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>拓荒者（Forlorn）</strong></span>：你的大半生都生活在远离精灵传统社会的荒野。你了解世界的残酷与危险，身为弱者则不可原谅。你的强韧豁免获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>百战兵（Warrior of Old）</strong></span>：你从小就花费大量时间进行格斗训练。尽管岁月让那些训练成为了模糊的记忆，你依然从中学会如何快速应对麻烦。你的先攻检定获得+2背景加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>侏儒种族背景（Gnome Race Traits）</strong></span></span><br><br>　　只有侏儒才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>动物使（Animal Friend）</strong></span>：长期以来你都是动物之友，并在动物身边才感到安心。当30尺内有动物（体型为超小型以上，对你的态度至少为冷漠）存在时，你的意志豁免获得+1背景加值。同时驯养动物总是你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>通缉犯（Rapscallion）</strong></span>：你一辈子都在挑战法律权威，并以此为傲。然而尽管作恶多端，你却从未落网。你的脱逃和威吓检定获得+1背景加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>半精灵种族背景（Half-Elf Race Traits）</strong></span></span><br><br>　　只有半精灵才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>机敏客（Elven Reflexes）</strong></span>：你的双亲之一来自野精灵部落，你也从精灵亲族中遗传到了快速的反应力。你的先攻检定获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>半瓶醋（Failed Apprentice）</strong></span>：小时候父母就送你到远方的法师塔去做学徒，以便学习奥术技巧。不幸的是你的奥术天赋略尴尬，尽管你还是从中学到了很多法术原理、以及如何加以抵抗。你对抗奥术的豁免获得+1背景加值。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>半兽人种族背景（Half-Orc Race Traits）</strong></span></span><br><br>　　只有半兽人才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>看家狗（Brute）</strong></span>：你作为打手或者门卫为一位罪恶领主卖命，并精于吓跑人群。你的威吓检定获得+1背景加值，并且总能将威吓视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>边缘人（Outcast）</strong></span>：血统迫使你颠沛流离，而你也习惯了离群索居。你的生存检定获得+1背景加值，并且总能将生存视为你的本职技能。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>半身人种族背景（Halfling Race Traits）</strong></span></span><br><br>　　只有半身人才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>解放军（Freedom Fighter）</strong></span>：你的父母将逃脱的奴隶藏匿在家中，而他们所讲述的故事让你对蓄奴制度恨之入骨。在解放奴隶、或是协助奴隶逃跑的行动中，你的任何技能和攻击检定获得+1背景加值，同时脱逃总是你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>消息通（Well-Informed）</strong></span>：你致力于结交众人，并将周围的人脉从点连为线。你常造访酒馆获悉时事，并慷慨地向他人伸出援手。正因如此，你在收集信息时的交涉检定、以及知识（本地）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br><hr /><br><span style="font-size: 12pt;" class="bbc_size"><span style="color: purple;" class="bbc_color"><strong>人类种族背景（Human Race Traits）</strong></span></span><br><br>　　只有人类才能选择以下背景特性之一。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>考古师（Scholar of Ruins）</strong></span>：从学会走路说话起，远古文明的遗迹就迷倒了你。正因如此，你在地理学和探索古迹方面有着独到的洞察力。你的知识（地理）和知识（地城）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>旅行家（World Traveler）</strong></span>：你的家庭以漫游世界为乐。你目睹了种类难以计数的社群和文化，并学会对世界的万般多样性表示敬意。选择以下一项技能：交涉、知识（本地）或察言观色。你在该技能上获得+1背景加值，并且总能将其视为你的本职技能。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556547">
+&#171; <em>上次编辑: 2013-06-27, 周四 11:47:31 由 Falengel</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556547_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556548"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556548_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556548">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556548#msg556548" rel="nofollow">地区背景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556548'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556548'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2013-06-26, 周三 15:48:29 &#187;</div>
+<div id="msg_556548_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556548"><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>地区背景（Regional Traits）</strong></span></span><br><br>　　地区背景与特定的区域有关，通常是某个战役中特定的国家、地域或城市。以下地区背景是一些通用地区的范例，可适用于大多数战役设定。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>沙之子（Desert Child，沙漠）</strong></span>：你在荒漠中出生长大。你习惯了沙漠的酷热，并在抵抗因环境高温造成的状态时全豁免获得+4背景加值，同时对抗火焰效果的全豁免获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>山脉民（Highlander，丘陵或山脉）</strong></span>：你在荒地或山丘地带出生长大，并成为了躲避猛兽和怪物的专家。你的隐匿检定获得+1背景加值，并且总能将隐匿视为你的本职技能。该背景加值在山区增至+2。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>滚木人（Log Roller，森林）</strong></span>：人们砍伐树木后让其滚至河中以便运往市场，而在圆木上蹦蹦跳跳的经历磨练了你的步法。你的特技检定获得+1背景加值，此外你在对抗绊摔攻击的CMD亦获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>护卫兵（Militia Veteran，任意村镇）</strong></span>：你初出茅庐的第一份差事就是作为守护家园的民兵。从日常训练和护卫任务中学到的技巧使你对军旅生涯有了更深刻的洞悉。选择以下一项技能：专业（士兵）、骑术或生存。你在该技能上获得+1背景加值，并且总能将其视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>夜泳者（River Rat，湿地或河流）</strong></span>：你学会走路没多久就开始下水了。早在幼时江贼就命令你做些口衔匕首夜渡河川、切断商船锚绳之类勾当。你持用匕首造成的伤害获得+1背景加值；此外你的游泳检定获得+1背景加值，并且总能将游泳视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>游牧民（Savanna Child，平原）</strong></span>：你在一望无际的大平原或草原上出生长大。青涩时光的大半都被你用来探索周边，你也因此学到了不少大草原的奥秘。选择以下一项技能：驯养动物、知识（自然）或骑术。你在该技能上获得+1背景加值，并且总能将其视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>流浪儿（Vagabond Child，城市）</strong></span>：你的童年与社群的流浪汉和不法之徒为伍，学到了在城市环境中的掠食和生存之道。选择以下一项技能：解除装置、脱逃或手上工夫。你在该技能上获得+1背景加值，并且总能将其视为你的本职技能。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556548">
+&#171; <em>上次编辑: 2013-06-27, 周四 11:48:58 由 Falengel</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556548_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556552"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409" title="检视会员资料:  Falengel">Falengel</a>
+</h4>
+<ul class="reset smalltext" id="msg_556552_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=15409">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39217;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1352<li class="karma">苹果币: 0<li class="blurb">ウミトソラ　キレイ<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556552">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556552#msg556552" rel="nofollow">宗教背景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556552'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556552'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2013-06-26, 周三 15:51:05 &#187;</div>
+<div id="msg_556552_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556552"><span style="font-size: 14pt;" class="bbc_size"><span style="color: green;" class="bbc_color"><strong>宗教背景（Religion Traits）</strong></span></span><br><br>　　宗教背景与特定神祗绑定。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>郊野客（Child of Nature，绝对中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（哥兹莱，Gozreh）</strong></span>：你所受到的祝福令你置身荒野时如同在家中般舒适惬意。你在寻找饮食的生存检定中获得+2背景加值，并在知识（自然）检定中获得+1背景加值。以上二者之一（自行选择）将视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>猎魔师（Demon Hunter，秩序邪恶）</strong></span><span style="color: brown;" class="bbc_color"><strong>（阿斯摩蒂斯，Asmodeus）</strong></span>：在教会中长大（无论你本身是否为信众），你被灌输的主要信条就是剪除恶魔。你对恶魔（demons）的知识（位面）检定获得+3背景加值，并在对抗恶魔影响心智的法术和效果的意志豁免中获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>圣娼姬（Divine Courtesan，混乱中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（卡莉斯翠，Calistria）</strong></span>：你作为圣妓在女神的神殿里工作，并知晓如何取悦和聆听他人（尤其是后者）。你的察言观色检定和用于收集信息的交涉检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>圣战使（Divine Warrior，秩序善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（艾奥梅黛，Iomedae）</strong></span>：你早年曾受训于一所军事修会。你全身心地投入到女神的教义，以及用力量传播教义中去。当你施放一个影响武器的神术时，你的近战武器伤害获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>乐理通（Ear for Music，中立善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（纱琳，Shelyn）</strong></span>：你的童年几乎完全在女神的神庙中度过，侧耳倾听乐师与歌手的精彩表演。你在一项表演检定中获得+1背景加值，并在与当地艺术和音乐相关的知识（本地）技能中获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>城壁使（Eyes and Ears of the City，秩序中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（阿巴达尔，Abadar）</strong></span>：你的宗教修行内容包括任职于大城市的守备队，其首要工作正是站在城墙上担任哨卫。你的察觉检定获得+1背景加值，并且总能将察觉视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>晨花焰（Flame of the Dawnflower，中立善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（莎伦莱，Sarenrae）</strong></span>：你在“将自己视为侍奉女神的利刃”的教条中长大，或者你已经身为践行女神教义的使者。当持用弯刀造成重击时，你对目标造成2点额外火焰伤害。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>豪饮客（Fortified Drinker，混乱善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（凯登•凯连，Cayden Cailean）</strong></span>：神祗在你的心神中亦灌注了佳酿，令你不易为精神攻击所动。在你饮酒之后的1小时内，你在对抗影响心智的效果的豁免中获得+2背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>熔炉卫（Guardian of the Forge，秩序善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（托拉格，Torag）</strong></span>：你的神祗的神职是保护虔信者、从过往的伟大匠人和策士身上学习、以及预备黑暗时刻的到来。你的知识（工程）和知识（历史）检定获得+1背景加值，并且总能将二者之一（自行选择）视为你的本职技能。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>法化命（Magic is Life，绝对中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（内希斯，Nethys）</strong></span>：你对魔法的信仰允许你反射性地利用任何自身魔法效果来抵御死亡侵袭。只要处于任何法术的作用效果之下，你在对抗即死攻击的豁免中获得+2背景加值。如果你处于任何法术效果时生命值被降至负值，你的伤势稳定检定自动成功，并不再出血。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>乐天派（Patient Optimist，秩序善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（埃拉斯蒂尔，Erastil）</strong></span>：你知道一切都会随时间过去，并习惯了再三尝试去说服那些最顽固的信徒。你在影响敌对和不友好生物的交涉检定中获得+2背景加值，如果该次交涉失败还能够重试1次。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>星之子（Starchild，混乱善良）</strong></span><span style="color: brown;" class="bbc_color"><strong>（黛丝娜，Desna）</strong></span>：女神感受到了你对旅行的热爱，并允诺你将永远能找到回家的路。你能自动确定北方的方向。你在避免迷路的生存检定中获得+4背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>屠亡使（Undead Slayer，绝对中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（法莱斯玛，Pharasma）</strong></span>：信仰的核心教条从幼时起就在影响你，你将不死生物视为必须消灭的可憎秽物，这样他们的灵魂才能够前往彼方接受审判。你对抗不死生物的武器伤害获得+1背景加值。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>精锐军（Veteran of Battle，混乱中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（古拉姆，Gorum）</strong></span>：你跨越了无数战阵，每一次都感受到神祗在指引着你挥剑的臂膀，使你在瞬息之间一闪逆转。你的先攻检定获得+1背景加值，此外只要你能在突袭轮行动，你能在该轮以自由动作拔出一件武器（但不能是药水或魔法物品）。<br><br>　　<span style="color: blue;" class="bbc_color"><strong>心御体（Wisdom in the Flesh，秩序中立）</strong></span><span style="color: brown;" class="bbc_color"><strong>（义洛理，Irori）</strong></span>：你对内在完美、力量与速度本质的长时冥思，使你能将精神与思考高度集中，完成那些仅凭肉体无法办到的事情。选择一项基于力量、敏捷或体质的技能。你在使用该技能时，用感知修正取代原本的属性。该技能将视为你的本职技能。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556552">
+&#171; <em>上次编辑: 2013-06-27, 周四 11:50:12 由 Falengel</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556552_signature"><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=48461.0;attach=39216;image" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556556"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=14819" title="检视会员资料:  四月">四月</a>
+</h4>
+<ul class="reset smalltext" id="msg_556556_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=14819">
+<img class="avatar" src="/bbs/upload/avatar/avatar_14819_1341484398.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 4315<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556556">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556556#msg556556" rel="nofollow">Re: 【APG】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556556'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556556'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2013-06-26, 周三 15:57:43 &#187;</div>
+<div id="msg_556556_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556556">&nbsp;<img src="/bbs/Smileys/converted/Lem03.GIF" alt="&#58;em003" title="&#58;em003" border="0" class="smiley"/><br>法兰子搞定了背景元素，我还没弄好专长<br><div class="meaction">* 四月 羞愧</div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556556">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556556_signature">没有团，为什么还要翻译规则呢？<br>当然是为了友情了</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556589"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+lesser
+</h4>
+<ul class="reset smalltext" id="msg_556589_extra_info">
+<li class="membergroup">访客</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556589">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556589#msg556589" rel="nofollow">Re: 【APG】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556589'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556589'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2013-06-26, 周三 17:29:33 &#187;</div>
+<div id="msg_556589_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556589">译名好评！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556589">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg556644"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42724" title="检视会员资料:  柳深龙佐性">柳深龙佐性</a>
+</h4>
+<ul class="reset smalltext" id="msg_556644_extra_info">
+<li class="title">Wanderer<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42724">
+<img class="avatar" src="http://i.imgur.com/fhSKNs5.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1582<li class="karma">苹果币: 4<li class="profile">
+<ul>
+<li><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1228.0" title="皇帝圣印RPG" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="皇帝圣印RPG" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_556644">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg556644#msg556644" rel="nofollow">Re: 【APG】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_556644'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_556644'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2013-06-26, 周三 22:10:35 &#187;</div>
+<div id="msg_556644_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_556644">译名竟然能全部都是三个字！ <img src="/bbs/Smileys/converted/em017.gif" alt="&#58;em017" title="&#58;em017" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_556644">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_556644_signature"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1228.0" class="bbc_link new_win" target="_blank"><img src="https://i.imgur.com/Ej7HyD4.jpg" alt="" width="476" height="100" class="bbc_img resized"/></a><br>身随心动。<br>这是个角色扮演游戏，不是一个坐着等打架游戏！<br><em>比起决定好的故事，人类的历史美得叫人心醉。</em></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg561970"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10837" title="检视会员资料:  格里菲因">格里菲因</a>
+</h4>
+<ul class="reset smalltext" id="msg_561970_extra_info">
+<li class="title">填坑中的苦力甲<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10837">
+<img class="avatar" src="/bbs/upload/avatar/avatar_10837_1470244509.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 244<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_561970">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg561970#msg561970" rel="nofollow">Re: 【APG】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_561970'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_561970'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2013-07-13, 周六 03:09:54 &#187;</div>
+<div id="msg_561970_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_561970">赞一个。话说有些背景的强度绝对不止‘半个专长’了吧……<br><br>另外这是何等的强迫症…………<br><br><div class="meaction">* 格里菲因 被拖走了</div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_561970">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_561970_signature">施工中：<br>神裔 <a href="http://www.goddessfantasy.net/bbs/index.php?topic=50415.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=50415.0</a><br>UC专长详述 <a href="http://www.goddessfantasy.net/bbs/index.php?topic=49740.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=49740.0</a><br>完工：<br>PF法师法术 <a href="http://www.goddessfantasy.net/bbs/index.php?topic=46685.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=46685.0</a><br>PF牧师法术 <a href="http://www.goddessfantasy.net/bbs/index.php?topic=45515.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=45515.0</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg562004"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=9889" title="检视会员资料:  小狼希诺">小狼希诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_562004_extra_info">
+<li class="title">白狼天狗<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=9889">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9889_1378862055.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1210<li class="karma">苹果币: 9<li class="blurb">是只可爱的冬狼w<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_562004">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg562004#msg562004" rel="nofollow">Re: 【APG】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_562004'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_562004'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2013-07-13, 周六 10:15:34 &#187;</div>
+<div id="msg_562004_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_562004">格子姐姐发现！<br><div class="meaction">* 小狼希诺 投食</div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_562004">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_562004_signature">我不知道你们在说什么，因为我只是一只傻狗。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1129298"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913" title="检视会员资料:  犬良人">犬良人</a>
+</h4>
+<ul class="reset smalltext" id="msg_1129298_extra_info">
+<li class="title">犭良人<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77913_1621571989.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1788<li class="karma">苹果币: 1<li class="blurb">爆裂吧，现实！粉碎吧，精神！放逐这个世界！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1129298">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.msg1129298#msg1129298" rel="nofollow">Re: 【第八章】背景特性（Traits）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1129298'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1129298'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2021-08-13, 周五 15:57:47 &#187;</div>
+<div id="msg_1129298_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1129298">刻印使（Birthmark）：你出生时便携带着某种特殊胎记，其形状恰似你日后所信奉神祗的圣徽。此胎记可以在你施法时作为<span style="color: red;" class="bbc_color">圣法器</span>使用，同时也是你的信仰的肉体具现、增添了你对神祗的虔敬之心——你在对抗魅惑和胁迫效果的<span style="color: red;" class="bbc_color">意志豁免</span>中获得+2背景加值。<br><br><a href="https://aonprd.com/TraitDisplay.aspx?ItemName=Birthmark" class="bbc_link new_win" target="_blank">https://aonprd.com/TraitDisplay.aspx?ItemName=Birthmark</a><br><br>Birthmark<br>Source Ultimate Campaign pg. 54, Second Darkness Player&#039;s Guide pg. 12, Advanced Player&#039;s Guide pg. 1<br>Category Basic (Faith)<br>You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, and it increases your devotion to your god. You gain a +2 trait bonus on<span style="color: red;" class="bbc_color"> all saving throws against charm and compulsion effects.</span><br><br>圣法器=圣徽<br>不只是意志豁免，是所以豁免（虽然不知怎么存在别的豁免，但的确有机会…吧？）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1129298">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1129298_signature">强烈谴责向施法怪物套幼年模版的流氓行为！<br>四环施法者是世界上最好的施法者！<br><del>永远纪念的盖丁一族，强烈谴责P子无视历史的行为！</del><br>记念从下水道永远冲走的唤魂师！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=59876.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"><span>《进阶玩家指南》</span></a> (版主: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=59876.0"><span>【第八章】背景特性（Traits）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 59876,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 59876,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b3ff423" value="5a4cbc40001a2138af41dd9b1cb45b3e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="59876" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'5a4cbc40001a2138af41dd9b1cb45b3e\', \'b3ff423\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;' + '?topic=59876.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 20484 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1847,
+							iCurBoardChildLevel: 3,
+							sCurBoardName: "《进阶玩家指南》",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1847,
+							iTopicId: 59876,
+							sSessionId: "5a4cbc40001a2138af41dd9b1cb45b3e",
+							sSessionVar: "b3ff423",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

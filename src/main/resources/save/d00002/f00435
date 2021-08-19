@@ -1,0 +1,1080 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="Fate加速版（FAE）简译"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>Fate加速版（FAE）简译</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="75947"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0"><span>Fate加速版（FAE）简译</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg717532"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=75947.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: Fate加速版（FAE）简译 &nbsp;(阅读 19657 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=75947.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717532_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717532">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717532#msg717532" rel="nofollow">Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717532'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717532'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2015-04-21, 周二 16:52:54 &#187;</div>
+<div id="msg_717532_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717532">一共只有50页，还有很多是面向TRPG新手的介绍性内容，于是就不分帖了。<br>封面和封底上是四个范例角色的形象。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717532">
+&#171; <em>上次编辑: 2015-05-20, 周三 10:58:08 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717532_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717533"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717533_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717533">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717533#msg717533" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717533'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717533'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2015-04-21, 周二 16:52:59 &#187;</div>
+<div id="msg_717533_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717533">一、创建人物<br>步骤如下：<br>1、剪影Aspect<br>•首要概念High Concept是一个短语或句子，用以对角色进行简洁概括，描述了你是谁、是干什么的。当你构思高阶概念的时候，考虑下面两个方向：它将如何帮助你，以及它是否可能会让事情变得困难。好的高阶概念应当两者兼有。例如：卷云掠行者号的船长、Andral沙漠的唤阳者、IGEMA的首席探员（注：至于这些究竟是什么，请参见范例人物卡）<br>•麻烦Trouble是那些总让你卷入麻烦的东西。它可能是个人弱点、反复出现的敌人、或是重要的义务——任何使你的生活复杂化的东西。例如：想要我命的钢铁刺客、先干再想的鲁莽性格、必须要找到弟弟的责任<br>•其他剪影：构思一个关于你的角色的最重要的或者最有趣的东西。Ta是故乡最强大的角色吗？Ta有历代传承的宝剑吗？Ta健谈吗？Ta满身铜臭吗？<br>•更多剪影：两个（也就是总计五个），可选。这两个剪影描述了你的角色与其他玩家角色或者NPC的关系。或者象第三个剪影那样描述关于你的角色的特别有趣的东西。你可以暂时留白而在游戏开始之后再充实。<br>2、姓名和外观<br>•给你的角色起个名字，并描述TA的外观。<br>2、做派Approach<br>•做派描述的是你倾向于如何达成目的。每个人都有这六种做派：细心Careful、聪明Clever、显赫Flashy、强力Forceful、快速Quick、隐秘Sneaky。每种做派都需要分配对应加值。选择一项为+3，两项为+2，两项为+1，一项为+0。这些加值在后期可以改善。<br>做派的具体含义下文有述。这些做派对你做了更深入的描述。下面有一些例子：<br>莽汉：强力+3，细心和显赫+2，快速和隐秘+1，聪明+0<br>明星人物：快速+3，显赫和强力+2，细心和聪明+1，隐秘+0<br>骗子：聪明+3，显赫和隐秘+2，强力和快速+1，细心+0<br>守护者：细心+3，聪明和强力+2，快速和隐秘+1，显赫+0<br>窃贼：隐秘+3，细心和快速+2，聪明和显赫+1，强力+0<br>传奇人物：显赫+3，聪明和快速+2，强力和隐秘+1，细心+0<br>3、充能点Refresh<br>充能点是你在每个游戏章节session开始时拥有的命运点数量，但上一章节结束时未使用的命运点比充能点多的话可以保留。<br>•将你的充能点标记为3。从你拥有的第四个特技开始，每个新特技将减少1点充能点。充能点不能小于1。当你的角色升级时可以有机会增加充能点。<br>4、特技Stunt<br>特技是一种改变你角色的做派的作用方式的特殊特性。通常来说，特技会给你在特定环境特定行动上使用做派时提供额外价值（几乎都是+2）。<br>•选择一项特技，或是你可以在游戏中再选第一项特技。之后在角色升级时可以选择更多。如充能点中所提到的，前三项特技是免费的。对于有经验的玩家想要塑造强力角色时也可以在初始就选择三项特技。<br>特技表下文有述。<br>5、耐力条Stress Track<br>•记为3格。用以表示受伤程度。下文有述。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717533">
+&#171; <em>上次编辑: 2016-09-22, 周四 16:20:43 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717533_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717534"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717534_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717534">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717534#msg717534" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717534'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717534'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2015-04-21, 周二 16:53:08 &#187;</div>
+<div id="msg_717534_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717534">二、如何进行游戏：结果、行动和做派<br>1、描述你的角色想要做什么<br>剪影提供了你“会”做什么的引导。例如：如果剪影描述你会施展魔法，那么就释放某个法术；如果剪影描述你是个剑客，那么就拔剑砍人。注意这只是单纯描述，不提供对抗加值，除非你选择花费一个命运点来激活Invoke一个合适的剪影。<br>如果行动很简单，而且没有人试图阻止你，那么就直接判定成功了。但如果失败可能导致故事发生有趣的转折，或是有不可预测的意外发生，你就需要用到骰子了。<br>FAE使用特殊的六面骰，两个对面标记+，两个对面标记-，剩下两个面没有标记。检定时投四枚骰并相加面值（4df），结果在-4到+4之间。例如+，-，0，+，结果+1。<br>（注：如果没有FATE骰，面团可以用普通六面骰代替，将1和2记为-，3和4记为0，5和6记为+；网团可以用骰子机器人投4d3-8代替。）<br>结果：当你投骰后，加上你的做派加值（稍后叙述）以及任何来自剪影或者特技的加值。将总数与对抗目标（固定值或是NPC骰值）比较。小于为“失败”，等于为“平局”，大于为“成功”，相差3点以上的胜利为“大成功”。<br><br>2、选择你将采取什么行动：制造优势、克服、进攻和防御<br>指出哪个行动分类更符合你想要做什么。所有言行举止大约都可以用四种基本行动来归类。<br>•制造优势：任何帮助自己或盟友的都可以归入此类。例如：花费功夫仔细瞄准你的质子炮，耗费几个小时在学校图书馆做研究，或者绊倒试图抢劫你的恶棍。行动的目标或许会使用防御行动来阻止你。<br>你制造的优势让你获得以下三类效果：创造新的情景剪影、发现未知的已有情景剪影或者其他角色的剪影、用已有剪影获得优势。<br>如果你是想创造新的剪影或发现已有的：<br>••失败：要么你未能创造或者发现这个剪影，要么你创造或发现了它，但一个对手可以免费激活它。第二种选择适用于在别人也能利用这个剪影（如崎岖地面）时。<br>你也许会需要重新描述这个剪影以使别人而不是你合情合理地从中获益。你仍然可以花费命运点来激活它。<br>••平局：如果你创造了新剪影，你获得了一个增益boost（注：详见下文）。描述这个剪影并可以免费激活它一次，然后剪影消失。如果是发现已有剪影，视同成功。<br>••成功：你创造或发现了此剪影，你或者你的盟友可以免费激活它一次。<br>••大成功：你创造或发现了此剪影，你或者你的盟友可以免费激活它两次，甚至可以在一次投骰中激活同一个剪影两次，而通常不能。<br>如果你是想用已有剪影获得优势：<br>••失败：毫无作用。你仍然可以花费命运点来激活它。<br>••平局或成功：你或者你的盟友可以免费激活它一次。<br>••大成功：你或者你的盟友可以无偿激活它两次，甚至可以在一次投骰中激活同一个剪影两次。<br><br>•克服：任何要越过你和特定目标之间阻碍的都可以归入此类。例如：撬锁、从镣铐下脱身、跳过裂缝、驾驶飞船穿过小行星带。采取行动以消除或改变不利的情景剪影通常都是克服行动。行动的目标或许会使用防御行动来阻止你。<br>••失败：你可以选择单纯地失败—门仍然锁着、恶棍仍然拦在你和出口之间、敌方飞船仍然追着你；你也可以选择成功，但有严重代价—丢下了至关重要的物品、受到了伤害。GM可以帮助你确定合适的代价。<br>••平局：你达到了目标，只付出了微小代价。GM可以引入一个乱局，或给你提供一个艰难抉择（你只能救出两个朋友之一），或其他的故事转折。FATE核心规则里的主持游戏章节对此有更多点子。<br>••成功：你达到了目标。<br>••大成功：不仅达到了目标，还可以获得一个增益。<br><br>•攻击：任何伤害他人肢体或精神的都可以归入此类。例如：挥剑砍人、发射爆破枪、辱骂对手以伤害Ta。我们会在伤害、耐力和损伤章节中详细叙述，基本原则是如果某人受到严重伤害，那么Ta就得出局了。行动的目标或许会使用防御行动来阻止你。<br>••失败：你的攻击没有奏效。目标格挡了你的剑、你的射击打偏了，对手嘲笑了你的辱骂。<br>••平局：攻击的效果不够显著，不足以造成伤害，但你可以获得一个增益。<br>••成功：攻击成功并造成伤害。<br>••大成功：攻击成功并造成伤害，并可以选择是否降低1格伤害以获得一个增益。<br><br>•防御：任何阻止他人进行以上三类行动的都是防御行动。例如：格挡剑、保持站立、堵门。通常防御行动都是在他人的回合进行的，是对他人行动的反应。如果你能合理说明、针对特定的情景剪影或取得多数人同意，也可以防御一个非攻击行动或者针对他人的攻击行动。此时你成为任何负面结果的对象。<br>••失败、平局或成功：参见对方相应行动结果。<br>••大成功：你不仅阻止对方达成目标，而且可以获得一个增益。<br><br>•协助<br>盟友可以协助你进行行动。Ta放弃自己的行动作为交换，描述如何提供协助。你将从每个协助者那里获得+1加值。通常只有1-2人可以通过这种方式协助，再多的人就会互相干扰，不过GM可以决定最大人数。<br><br>3、选择你的做派<br>根据描述的行动确定相应的做派，将角色相应的加值加入结果。理论上最初考虑如何描述自己的行动时可以结合自己较高加值的做派来确定，但也并非所有做派都能适用于任何环境和剪影。你不能强力地一边躲避守卫一边匍匐穿过黑暗的房间，那得是隐秘。你也不能快速地推动拦住马车去路的巨石，那得是强力。<br>•细心：你关注细节并耗费时间来把事情做好。例如：精心瞄准一发长距离箭矢射击、聚精会神地站岗、解除银行的警报系统。<br>•聪明：你迅速思考、解决难题、或计算复杂变量。例如：寻找对手剑术风格的弱点、寻找要塞城墙的薄弱环节、修电脑。<br>•显赫：你吸引周围人的注意。这做派充满个人风格和派头。例如：向你的军队进行一次激动人心的演讲、在决斗中羞辱你的对手、表演一场魔法宴会秀。<br>•强力：这做派并不巧妙，完全是强硬的力量。例如：与熊搏斗、威吓恶棍使其屈服、施展强力攻击魔法。<br>•快速：你快速而灵巧地行动。例如：闪避箭矢、抢先出手、在最后关头解除定时炸弹。<br>•隐秘：误导、欺骗或潜行。例如：用谈话技巧来避免被捕、扒窃、佯攻。<br><br>4、投骰并加上加值<br>如上所述。<br><br>5、决定是否以剪影修正骰值<br>将在下文详细叙述。<br><br>6、查看结果<br>如上所述。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717534">
+&#171; <em>上次编辑: 2015-06-08, 周一 11:15:00 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717534_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717535"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717535_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717535">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717535#msg717535" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717535'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717535'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2015-04-21, 周二 16:53:11 &#187;</div>
+<div id="msg_717535_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717535">三、挑战、竞争和冲突<br>通常当你要直接做一件事情，比如游过一条湍急的河、黑进别人的手机，仅需要做一次克服行动，对抗GM设定的固定难度。但有些事情比较复杂。<br>•挑战：挑战是一系列克服和制造优势行动，用以解决特别复杂的情况。每个克服行动只针对其中一项目标或者情况的一部分，将这些独立的结果放在一起才能确定情况解决得如何。<br>确定情况由哪些目标组成，然后将每个目标当成独立的克服行动。根据情况不同，一名角色可能需要完成若干投骰，或多名角色可以一起参与。GM无需事先声明挑战由哪些步骤组成，可以随着挑战的逐步深入而调整。<br>例如：玩家是一艘遭遇到暴风雨的船只的船员。他们决定尝试抵御恶劣天气，坚持抵达目的地。GM提出这像是一场挑战，可能包括安抚惊慌的乘客、修理损坏的索具、保持正确的航向等步骤。<br><br>•竞争：竞争是两名及以上的角色相互竞逐同样的目标，但并不试图相互伤害。例如：赛车、公开辩论、箭术竞标赛。<br>竞争包括一系列轮次，其中每个参与者进行一次克服行动以确定他们表现如何。如果你表现最好，那么你赢得本轮并标记一次胜利，可以描述你如何领先。如果你是大成功那么可以标记两次胜利。<br>如果出现平局那么没有人获胜，发生意外的转折。根据情况不同可能有许多展开，比如地面或环境改变了、竞争的限制因素变更了、或是一个未曾预料的变数影响了所有参与者。GM创造一个新的情景剪影以反映这个变化。<br>首个获得三个胜利标记的参与者赢得竞争。<br><br>•冲突：冲突用以解决角色间尝试相互伤害。这可能是肢体伤害，比如剑斗、巫师决斗、激光炮大战，也可能是精神伤害，比如唇枪舌剑的争吵、艰难的审讯、魔法心灵攻击。<br>1、设定场景scene<br>描述发生了什么，每个人在哪里，周围环境如何。敌人是谁？GM应当确定一组情景剪影，玩家也可以建议。GM也确定区域，宽泛地定义了每个角色在哪里。区域确定的原则是通常同一个区域内的角色可以互动，只有在有远距离动作（例如有远程武器或是法术）时才能与相邻区域互动。<br>你可以无偿移动到相邻区域。如果途径上有障碍，比如有人试图阻止你，或你想要一次移动两个以上的区域，需要耗费一次行动。有时候一张简易示意图有助于展现区域。<br>例如：恶棍在房屋内袭击玩家角色。起居室、厨房、玄关和庭院分别是一个区域。同一个区域内的人可以很容易地相互搏斗。从起居室可以向厨房投掷东西，或是无偿移动到厨房里，除非门口被拦住了。从起居室移动到玄关或是庭院需要耗费行动。<br><br>2、确定行动次序<br>行动次序由做派决定。在肢体冲突中快速做派最高者——也就是反射最迅速的先行动，在精神冲突中细心做派最高者——也就是警觉性最高的先行动，其余人按对应做派高低依次排序。GM可以根据实际情况合理调整顺序。<br>为了简化流程，GM可以用最有利于排序的NPC来确定全体NPC在整个轮次中的行动顺序，但也可以为每个NPC分别排序。<br><br>3、进行轮次<br>每个角色依序进行自己的回合，可以进行一次行动。当冲突的一方全军复没时，冲突结束。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717535">
+&#171; <em>上次编辑: 2015-04-24, 周五 20:08:20 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717535_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717537"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717537_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717537">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717537#msg717537" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717537'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717537'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2015-04-21, 周二 16:53:56 &#187;</div>
+<div id="msg_717537_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717537">四、伤害，耐力和损伤<br>当你被攻击命中时，伤害严重性是由攻击骰和防御骰的差值决定的。例如对手攻击+5而你的防御骰+3，那么攻击造成2点伤害。然后发生以下两种情况之一：你的耐力减少 和/或 你受到损伤，但你仍然在战斗中；或者你出局了，在一段时间内无法行动。<br>1、计算伤害值<br><br>2、选择伤害形式<br>•耐力：耐力减少表示你疲劳了、恼怒了或是受到擦伤，或是其他可以迅速恢复的情况。你的角色有一个耐力条，初始为3格，分别可以吸收1、2、3点伤害。单次命中只能耗费1格（不一定要按次序）。你可以既耗费耐力格又承受一项或多项损伤。已耗费的耐力格在恢复前无法再次耗费。<br>•损伤：损伤是一种新的剪影，反映了你受到某种程度的严重伤害。你的角色表也有三个栏目可以让你记下损伤，均标有对应数字：2为轻度，4为中度，6为重度。这些数字表示了该栏目可以吸收多少点伤害。你可以任意使用空白栏目来处理命中、吸收伤害。<br>损伤主要的负面影响是对手可以激活这一新的剪影来对抗你。你的损伤越多，也就越容易受到进一步伤害。和情境剪影一样，作为这个剪影的创造者，攻击你的角色可以无偿激活它一次。Ta也可以让其盟友使用这次无偿激活。<br>例如：你被狠狠地命中了，受到了4点伤害。你耗费第二格耐力格以吸收2点，然后在损伤栏2中写下一个新的剪影，比如脚踝扭伤。伤害处理完毕，你可以继续战斗了。<br><br>3、如果你无法以上面两种形式处理伤害，或决定不处理伤害，那么你“出局”。<br>•出局：你将无法在这个场景继续行动，而让你出局的对手决定并描述你的下场。描述要符合你是如何出局的，例如你丢脸地逃出了房间，或是被击昏了。<br><br>4、在你对手的回合前退让give in可以让你决定自己的下场，并让你获得命运点。<br>•退让：如果前景不妙，你可以让步。但你需要在对手投骰之前声明。与出局不同，你可以描述自己的下场。你需要向你的对手做出一些符合情理的重要让步，但总比出局而没有任何话语权好。<br>此外你还可以因为让步而获得一个命运点，每一项损伤还能再让你获得一个命运点。这样你就可以说“这次算你狠，咱们走着瞧。”然后下回带着一大堆命运点卷土重来了。<br><br>5、所有的耐力和轻度损伤在场景结束后得以恢复，前提是有休息的机会。其他损伤持续得更久。<br>你需要描述你是如何从损伤中恢复的，例如造访急诊室、散步以冷静下来，或其他符合损伤的描述。你也需要等待合适的时间。<br>•中度损伤：在下一个章节session结束时恢复，前提是符合故事。<br>•重度损伤：在下一个剧本scenario结束时恢复，前提是符合故事。<br>•重新描述中度和重度损伤：这两者会持续一段时间，因此有时你可能会想要对其重新描述一下以更好地符合故事内容。例如在接受了医疗帮助后，把疼痛的断腿换成拄着拐杖蹒跚更合适。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717537">
+&#171; <em>上次编辑: 2015-04-23, 周四 14:23:27 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717537_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717538"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717538_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717538">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717538#msg717538" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717538'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717538'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2015-04-21, 周二 16:53:59 &#187;</div>
+<div id="msg_717538_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717538">五、剪影与命运点<br>剪影是描述人、地点、食物、情景或者群体的一个词或者短语。你能想到的任何事情几乎都可以有剪影。例如：一个人也许是“云海最伟大的剑客”；一个房间在你踢翻一盏油灯后也许是“着火了”；在一次时间旅行后遭遇到恐龙，你也许是“惊恐了”。剪影让你根据你角色的倾向、技能或者问题来改变故事走向。<br>你花费命运点来解锁剪影的力量以帮助你。当一个角色剪影迫使面临的情况变得更复杂，或是你的生活更困难的时候，你获得命运点。保持记录你的命运点，在每个章节结束后如果剩余的命运点比你的充能点多，那么你可以带着这些命运点进入下一章节。<br><br>剪影的分类<br>剪影种类无穷无尽，但不论它们怎么描述，基本上都是以同样的方式运作的。最主要的差别是它们在消失前能持续多久。<br>•角色剪影：这类剪影是在你的角色表上的，例如你的高阶概念和麻烦。它们描述了个性特征、过往的重要细节、与他人的关系、拥有的重要物品或头衔、正在处理的问题、努力实现的目标、或是拥有的名声和义务。这些剪影只有在非同寻常的情况下才会变化，大多数甚至永远不变。例如：飞空艇Nimbus的船长、从圆环骑士团手中逃亡、关注细节、我必须保护我的兄弟<br>•情景剪影：这类剪影描述了行动发生的环境。它们包括你用“制造优势”行动创造或发现的剪影。一个情景剪影通常在所在场景结束后消失，或是某人采取了行动来让场景发生改变。本质上，情景剪影只会和所代表的情景元素持续相同的时间。例如：着火了、明亮的日光、愤怒的人群、击倒在地<br>要消除情景剪影，你可以试图采取“克服”行动来消除它，前提是你得想出你的角色如何完成这一点，例如往“大火”上浇水、用闪避机动来甩开“追着你”的敌机。对手也可以采用“防御”动作来维持这个剪影，前提是他也能描述如何做到。<br>•损伤：这类剪影表示你被攻击命中后带来的损伤或其他持续性的症状。它们恢复的很慢，详见上一章节的叙述。例如：脚踝扭伤、蜘蛛恐惧、脑震荡、使你虚弱的自我怀疑。<br>•增益：增益是一个临时性的剪影，在使用一次后就消失了。未使用的增益在它被创造的场景结束时消失，或是它们所代表的优势不再存在时消失。它们代表你与其他人起冲突时的简洁的、短暂的优势。例如：在我的视线内、被分心了、立足不稳、靴子里的石子<br><br>剪影的用途<br>剪影有三种主要的用途：激活、强制发生、建立事实<br>1、激活：你激活一个剪影来给你提供加值或是给对手增加点难处。只要你知道某个剪影，并且可以解释你如何能利用这个剪影获取优势，你就可以激活剪影，包括情景剪影或其他角色的剪影。通常激活剪影需要耗费一个命运点交给GM，并描述此剪影如何在当前情景下帮助你。当玩家间对抗且你激活了对方的剪影时，Ta可以获得一个命运点。<br>例如：我用剑砍僵尸，我知道僵尸有“迟钝”这个剪影，可以帮助我；我非常想吓唬某个家伙，我听说他有“老鼠恐惧”，于是我在他的卧室里放出一只；守卫“分心”了，我可以从他边上溜过；这个法术必须非常强力，而我是“远古隐士团的大巫师”，强力法术对我而言如呼吸般自然。<br>激活剪影可以选择产生以下效果之一：<br>•给你的投骰+2，可以在骰值得出后再用；<br>•重新投骰。如果你先前的骰值太糟，比如-3或-4，你可以采用这个选项。可以在骰值得出后再用；<br>•让你的对手面对此剪影。当对手尝试做什么，而你认为一个已知的剪影可能让此事变得更困难时，你可以采用这个选项。例如一个外星恶棍想要拔出爆破手枪，但他“被碎块半埋了”，那么你激活这个剪影可以让对手的困难等级+2；<br>•用此剪影帮助盟友。当盟友尝试做的事可以接受协助，而你认为一个已知的剪影可能让此事变得更简单时，你可以采用这个选项。你激活这个剪影可以让盟友的投骰+2。<br><br>特别注意：在特定的一次投骰中任何剪影你都只能激活一次，不能耗费一大堆命运点来获得巨大加值。不过你可以在同一个投骰中激活许多不同的剪影。<br>•无偿激活：有时你可以无偿激活剪影，而不需要耗费命运点。如果你在“制造优势”行动中创造或发现一个剪影，你或盟友首次激活是无偿的，如果大成功则有两次。如果你在攻击中造成损伤，你或盟友可以无偿激活一次。增益是一种特殊的剪影，本身就提供一次无偿激活，然后消失。<br><br>2、强制发生compel<br>如果你处于这样的情景下：含有特定剪影、可以让你角色的生活更加戏剧化或者复杂，任何人可以让此剪影强制发生。你甚至可以让自己的剪影强制发生。强制发生是玩家获取更多命运点的最常见手段。强制发生包括以下两类：<br>•强制决定：这类强制提议了你的角色必须做出的决定。例如：你的角色是“Alaria的公主”，你也许需要坚持领导Alaria皇家城堡的守卫而不是安全溜走；或是你有“强烈的挑衅倾向”，哪怕没什么用处也会在自夸地戒律院长对你质疑时大放厥词。<br>•强制事件：这类强制反映了一些让你的生活更复杂的事件。例如：如果你有“诡异的运气”，那么你在课堂上施展的法术会意外地把严厉的魔药教师的头发变成橙色；或是你“欠Don Valdeon一个人情”，那么他会在你最不便的时候现身并要求你为他服务。<br>不论在任何情况下，如果剪影被强制发生以针对你，那么发动者给你一个命运点并提议这个强制发生有特定效果——你将做出特定的决定或是特定的事件会发生。你们可以就此展开讨论，对提议的强制提出调整或改变。你最终需要做出决定是否接受这个强制。如果你同意，你收下命运点，让你的角色按照提议做出决定或是让事件发生。如果你拒绝，你必须付出自己的一个命运点。换句话说当你没有命运点时无法拒绝一个强制。<br><br>3、确立事实<br>剪影最后的用途是在游戏中确立事实。你无需花费任何命运点、投骰或做任何事以使其发生。例如：只要凭着你有“Ruddy Duck的飞行员”这个剪影，你就确立了你的角色是一名飞行员，驾驶着一架名为Ruddy Duck的飞机的事实；拥有“红色忍者会不共戴天的敌人”这个剪影确立了有一个名为红色忍者会的组织并因为某些原因追捕你的事实；如果你有“神秘圆环会的术士”这个剪影，你不仅确立了有一群名为“神秘圆环会”的术士的事实，同时也说明了故事设定中是有魔法的、而你能施展。<br>当你以此方式确立故事设定事实时，确保你与GM和其他玩家充分沟通合作了。如果大多数人想要玩一个没有魔法的设定，你不应该单方面地通过剪影引入魔法。确保你以剪影确立的事实让大家都觉得有趣。<br><br>如何创作好的剪影<br>当你要构思好的剪影（主要是角色和情境）时，想想这两件事：剪影在被激活时如何帮助你；剪影在被强制发生以对抗你时如何伤害你。<br>例如有这样一个剪影“我会逮到你的，von Stendahl！”，可以在对抗von Stendahl此人时激活剪影来提高你的机会，当你对他的厌恶使得你为了逮到他而做出一些蠢事时可以获得命运点。<br>又如有这样一个剪影“谨小慎微的神经”，可以在特别警惕和小心能帮到你时激活剪影，当它使得你疑神疑鬼、对并不存在的威胁分心时可以获得命运点。<br>显然你的麻烦剪影应当带来问题，因而使角色的生活更有趣，并带给你命运点。因此麻烦剪影可以有所偏向，但其他角色和情景剪影应当是双面的。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717538">
+&#171; <em>上次编辑: 2015-04-24, 周五 15:10:57 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717538_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717539"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717539_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717539">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717539#msg717539" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717539'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717539'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2015-04-21, 周二 16:54:03 &#187;</div>
+<div id="msg_717539_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717539">六、特技<br>特技是你的角色掌握的把戏、花招或技术，用以改变此角色做派的作用方式。通常这意味着你可以在特定情景下获得加值，不过有时它给你提供其他的能力或者个性。一个特技也可以反映你角色拥有的特别的、高水平的、或异乎寻常的装备，以让你的角色频繁地获得对其他角色的优势。<br>并没有一个限定的特技列表来让你从中选择。和剪影类似，每个人都可以创作自己的特技。不过确实有两个基本模板来引导你的创作，给你提供依据。<br>•第一种特技类型在你在特定情境下使用特定做派时提供+2加值。采用这个模板：因为我[描述了某些方面自己很杰出、有件很酷的装备、或者其他方面很棒]，我可以在[描述一个环境]下[选择一种做派]地[选择一种行动]时获得+2。<br>例如：因为我是“圆滑的交际者”，我可以在与他人对话中隐秘地制造优势时+2；因为我是“解谜爱好者”，我可以在面临谜题、谜语或者类似难题时聪明地克服时+2；因为我是“世界级的决斗家”，我可以在一对一剑斗中快速地攻击时+2；因为我“有一面大筝形盾”，我可以在持盾近战中强力地防御时+2。<br>有时，如果环境特别受约束，你可以将特技既作用于制造优势行动，又作用于克服行动。<br><br>•第二种特技类型让你能使某些事情成真、做某些酷炫的事情、或是某种程度上忽视常理。采用这个模板：因为我[描述了某些方面自己很杰出、有件很酷的装备、或者其他方面很棒]，每章节一次我可以[描述自己能做的酷炫事情]。<br>例如：因为我“人际羁绊很好”，每章节一次我可以“在最需要的地方找到有用的盟友”；因为我“拔武器神速”，每章节一次我可以“在肢体冲突中首先行动”（注：无视快速做派）；因为我“快得可以大大超过豹子”，每章节一次我可以“出现在任何能跑得到的地方，而不论我是从哪儿起步的。”<br><br>这些模板是帮你明白特性是如何创作出的，但只要你有好点子，不用完全遵循它们。如果你想要了解更多关于创作特性的内容，参阅FATE核心规则书的技能与特性章节。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717539">
+&#171; <em>上次编辑: 2015-04-24, 周五 20:07:18 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717539_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717540"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717540_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717540">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717540#msg717540" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717540'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717540'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2015-04-21, 周二 16:54:15 &#187;</div>
+<div id="msg_717540_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717540">七、角色提升<br>人是在变化中的。你的技能随着你的练习而提高，你的个性随着生活经历而积聚和鲜明。Fate加速版也有对角色提升的反应，让你改变你的剪影，增加或者改变特技，提高你的做派加值。你在你的角色抵达一个里程碑milestone时进行这些提升。<br><br>里程碑<br>电视剧的故事、漫画书、电影和电子游戏通常都是一集接一集的、一季接一季的。Frodo花了三大本书才把戒指丢进末日火山。Aang花了三季才击败火焰领主（降世神通）。这使你建立了这个概念。<br>FAE也可以讲述这类故事。你可以用同一个角色玩许多个游戏章节，通常称为战役。不过在这样的长期故事之中包含有更简短的事件轴，象是完整讲述了一个简短故事的电视剧的一集或是漫画连载的一期。FAE也可以做到这一点，且在进行长期战役时也一样。<br>在FAE中，不论这些完整讲述的简短故事是一个简单的故事、还是在许多章节之后的宏大高潮，我们都称之为里程碑。FAE定义了三种里程碑，每一种都可以让你以特定方式改变自己的角色。<br><br>小minor里程碑<br>小里程碑通常发生在一个游戏章节结束后，或是一段故事完结后。小里程碑更侧重于使你的角色发生变化、按你的需求调整反映故事中发生的事情，而不是让Ta更加强大。有时从小里程碑中获得好处是毫无意义的，不过当你想要这样做的时候总会获得机会。<br>达到小里程碑后，你可以选择进行一项（且仅一项）下列事项：<br>•交换两项做派的加值<br>•重命名你的剪影，高阶概念除外<br>•将一项特技更换为另一项<br>•选择一项新的特技。如果此前你已经有3项特技，则需调整充能点。<br>此外，如果你有一个中度损伤，看看它是否已经持续了两个章节（注：包括它产生时的那个），如是则消除它。<br><br>重要significant里程碑<br>重要里程碑通常发生在一个游戏剧本结束后，或是一个重大故事情节的结局。它也可以设定成在每两到三个章节后必然发生，但这点尚有争议。与主要关注变化的小里程碑不同，重要里程碑关注于学习新的事情——处理问题和挑战让你的角色通常对自己能做的更在行。<br>达到重要里程碑后，•除了小里程碑的好处外，你还可以同时获得以下两项：<br>•如果你有一个已经持续了两个章节的重度损伤（注：包括它产生时的那个），消除它。<br>•将你的一项做派的加值+1，但最高不能超过+5。<br><br>主要major里程碑<br>主要里程碑只有在战役出现大幅度动荡时才会发生——一个重大事件轴的结局、一个主要NPC反派最终被击败，或是在你的游戏世界里产生全面反响的大规模改变。主要里程碑关注于获取力量。过往的挑战不再足以对角色构成威胁，他们将要对抗的威胁需要变得更加巧妙、周密和顽固。<br>达到主要里程碑后，•除了重要里程碑和小里程碑的好处外，你还可以同时获得以下两项：<br>•获得一个充能点，并且如有需要可以立即用来选择新的特技。<br>•如有需要，重命名你的高阶概念。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717540">
+&#171; <em>上次编辑: 2016-09-07, 周三 10:46:04 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717540_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg717802"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_717802_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_717802">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg717802#msg717802" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_717802'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_717802'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2015-04-22, 周三 16:12:23 &#187;</div>
+<div id="msg_717802_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_717802">八、成为GM<br>GM有许多责任，比如将冲突呈现给玩家、控制NPC、并帮助所有人将规则套用在游戏环境上。成为GM并主持游戏起初看起来会显得困难和有挑战性。这是一门可以通过练习来掌握的技巧，所以别担心，你会越来越上手的。如果你想要读到更多关于主持Fate游戏的技艺，在Fate核心规则书中有若干章节可以供你参考。主持游戏，场景、章节和剧本，长期游戏等都是特别有用的。<br>让我们来谈谈GM的工作。<br><br>创造战役<br>一个战役是一系列与相同角色一同进行的游戏，故事随着之前的章节而继续发展。所有玩家应当与GM合作以谋划战役。通常这是涉及全员的交流，决定你想要扮演怎样的英雄，处在怎样的世界，对付怎样的反派。沟通游戏的严谨程度和期望的持续时间。<br>例如：驾驶着飞艇的猫人天空海盗，总是在想要抓住他们的皇家海军手下逃亡；使用魔法的沙漠镇民对抗入侵的邪恶钢铁帝国士兵；寄宿魔法学校的年轻学生解开奥秘并揭开学校过往的秘密。<br><br>创造剧本和运作游戏章节<br>剧本是一个短事件轴，大约相当于冒险类电视节目一到二集的剧情量，哪怕它是更大故事的一小部分。通常你可以在一到三个游戏章节里把一个剧本过掉，每次大约玩3-4小时。但剧本究竟是什么，又如何创造剧本呢？<br>•剧本：剧本需要两个元素：一个有目标的反派，以及PC无法忽视他的理由。<br>••有目标的反派：你或许已经把他设定好了。战役的主要对手、他的盟友之一，或许就是你要的反派。<br>••PC无法忽视的事物：现在你需要给PC一个关注的理由。确保反派的目标是PC迫在眉睫的，他们必须要做些什么否则就会有坏事对他们、他们珍视的人或物发生。<br>•运作游戏章节：现在你的反派在做PC关注的事情了，可以让他们动起来了。有时候最佳方式就是把他们直接放在事件中，特别是对于一个新事件轴的第一个章节来说。一旦PC知道他们为何应当关注正发生的事情，你就可以让到一边，让他们来解决了。<br>即便如此，为了运作章节GM有一系列需要完成的任务：<br>••运作场景：章节是由独立的场景组成的。确定场景从哪里开始、都涉及到哪些人、发生了什么事。确定何时场景中有趣的事情都发生完了，场景需要结束了。<br>••裁决规则：如果有规则适用的问题，你有最终话语权。<br>••设定难度：你确定行动目标的难度。<br>••扮演NPC：所有玩家控制他们自己的角色，但其他的都归你，包括反派。<br>••保持活跃：如果玩家不知道下一步要干啥，你需要轻推他们一下。永远不要让做决定时停滞不前的情况出现，或是因为没有充足的信息而无法决定。做点事情保持活跃。<br>••确保机会均等：你的目标不是击败玩家，而是让他们感到挑战。从大个勇猛的战士到小个隐秘的盗贼，确保所有PC都有一阵子当明星角色的机会。<br><br>设定难度等级<br>当另一个角色对抗PC时，他们的投骰决定了这次冲突、竞争或者挑战的对抗值。不过当没有有效的对抗者的时候，你需要决定任务目标的难度。<br>低难度用在当你想要给PC一个显摆和觉得自己很棒的机会的时候。接近其做派加值的难度用在当你想要营造紧张但不想压垮他们的时候。高难度用在当你想要强调情景的极端或不寻常、让PC全力以赴的时候。<br>一般标准：<br>•如果目标一点也不难，设定为+0或者直接告诉PC无需投骰也能成功。<br>•如果你能想到目标为何困难的至少一个理由，设定为+2。<br>•如果目标非常困难，设定为+4。<br>•如果目标难到几乎不可能实现，你觉得设多高合理就设。PC需要投入一些命运点并获取大量帮助才能成功，那没问题。<br>•可选规则：做派相关的难度等级。有时细心点可以让事情简单很多，有时只是花费太多时间。GM或许想要根据所选用的做派是合适的还是存疑的来调整难度等级，增减1到2。这会让事情更为复杂，但对于有些人群这是值得的。<br><br>反派<br>当你创作一个反派的时候，你可以采用与创作PC完全一样的方法，采用做派、剪影、耐力和损伤。对于那些重要的或者反复出现的、打算给PC一些真正挑战的反派，你应当采用这种方式，不过在一个剧本中只需要一两个。<br>杂兵Mooks：其他反派都是杂兵，例如无名的恶棍或者怪物，用来让PC的日子稍许难过。但其设计出来就是为了或多或少地被轻易地扫荡掉，特别对强力PC来说。下面是你如何创作他们的属性。<br>1、做一个这些杂兵擅长什么的清单。他们在这些事情上所有投骰+2。<br>2、做一个这些杂兵不擅什么的清单。他们在这些事情上所有投骰-2。<br>3、其他事情都+0。<br>4、给杂兵一两个剪影来强化他们的擅长和不擅，或者表现他们的特定力量或弱点。简单点也没关系。<br>5、杂兵的耐力条有0到2格，取决于你想要让他们有多顽强。<br>6、杂兵不能承受损伤，一旦用光了耐力格或是最初就没有，下一击就可以放倒他们。<br>范例杂兵：<br>独眼巨人学院的混混<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">独眼巨人学院的混混，没有后援就胆怯<br>擅长+2：吓唬其他学生，躲开麻烦，打碎东西<br>不擅-2：计划，学习<br>耐力：无</div></div></div>钢铁刺客<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">钢铁刺客，夜晚属于我们<br>擅长+2：潜行、伏击<br>不擅-2：对抗坚定的对手<br>耐力：□</div></div></div>天空鲨鱼<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">我是条鲨鱼，腹部柔软易伤<br>擅长+2：飞行、噬咬<br>不擅-2：其他任何事情<br>耐力：□□</div></div></div><br>杂兵群：如果你有一大堆低级反派来面对PC，你可以把他们当成一个或少数几个群组来让处理更简单。跟踪记录三群、每群四个的反派的信息可以用来取代跟踪记录十二个反派。每群都象单个角色一样行动并有着单个杂兵一样的属性：<br>1、选择几个他们擅长的事情。你可以将“成群结队”列为其中之一。<br>2、选择几个他们不擅的事情。<br>3、给他们一个剪影。<br>4、群组里每有2个个体就给他们一个耐力格。<br>范例杂兵群：<br>一帮恶棍<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">斧头和撬棍<br>擅长+2：成群结队，威吓无辜群众<br>不擅-2：预判，在人数劣势下战斗<br>耐力：□□（4人）</div></div></div><br>Fate核心规则书还有一套处理此事的方法，叫做mobs。（参见“运作游戏”章节的“创作对手”一段）如果你更倾向那种方式，请随意使用。注意其可能会导致非常强大的mob，除非你从非常弱小的杂兵开始。如果你想要给予PC严重的挑战，那是一种可行方式。<br>GM命运点<br>作为GM，你不需要为每个NPC单独跟踪记录命运点，不过这也不代表者你有无限的数目。场景开始时，每有一个PC你就拥有一个命运点。花费这些命运点来激活剪影（或损伤）来对抗PC，没有则不能。<br>你如何获得额外的命运点呢？当一个玩家强制NPC的剪影发生时，增加命运点。（注，根据前文，应当也能获得PC激活剪影消耗的命运点）如果这个强制发生终结了本场景、或让NPC退让了，改为将命运点加到下一场景初始。<br>你因为强制发生剪影而奖励给PC的命运点不从此处消耗。你永远不必担心用光命运点以至于无法强制发生剪影。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_717802">
+&#171; <em>上次编辑: 2015-05-28, 周四 09:29:55 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_717802_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg718430"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_718430_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_718430">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg718430#msg718430" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_718430'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_718430'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2015-04-24, 周五 20:12:36 &#187;</div>
+<div id="msg_718430_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_718430">范例人物卡<br>Reth<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Reth14岁。他有着暗棕肤色和编成长发绺的暗色头发。他穿着轻便的、宽松的布衣和凉鞋，精通武术。他是历代以来最强大的唤阳者，拥有召唤火焰力量的魔力。他来自广阔的Andral沙漠，和他的朋友们对抗入侵的钢铁帝国并自此不断逃亡。<br>高阶概念：Andral沙漠的唤阳者<br>麻烦：想要我命的钢铁（帝国）刺客<br>其他剪影：我的功夫超强；暗恋Avasa；我可以从Serio的经验中学习<br>做派：细心+2，聪明+1，显赫+0，强力+3，快速+2，隐秘+1<br>特技：猛阳式：因为我精通了猛阳式（武术流派），我可以在近战中强力地防御时+2。<br>耐力：□□□<br>损伤：<br>轻度（2）：<br>中度（4）：<br>重度（6）：<br>充能点：3</div></div></div>Voltaire<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Voltaire是卷云掠行者号的船长，卷云掠行者号是一艘在广阔云海上漫游的飞艇。她是一个猫娘，身体混合了人和猫科动物的特征。她穿着花色华丽的海盗服，包括棕色长夹克、及膝长靴、羽毛帽和带篮形护手的短剑。作为一名猫娘，她的确有着在奇怪的时候打盹的倾向……<br>高阶概念：卷云掠行者号的船长<br>麻烦：“哈欠~~”<br>其他剪影：“那个？哦，那是个陷阱”；Martin是个大骗子；Sanchez是世上最好的大副。<br>做派：细心+1，聪明+1，显赫+3，强力+0，快速+2，隐秘+2<br>特技：华丽剑客：因为我是一名时髦剑客，我可以在与单一对手交剑中显赫地攻击时+2。<br>耐力：□□□<br>损伤：<br>轻度（2）：<br>中度（4）：<br>重度（6）：<br>充能点：3</div></div></div>Abigail Zhao<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Abigail是巫师学校的学生，也是骏鹰学院的成员。她有着浅肤色和带粉色条纹的黑长发。她在学生制服的搭配打扮上有点急功近利，除了规定的短上衣、裤子和领带之外还增加了珠宝、满是装饰钉的皮带和染色设计。她特别专精附魔术。她很喜欢羞辱那些独眼巨人学院的呆子们，这说明她的确有先干再想的鲁莽性格。<br>高阶概念：骏鹰学院的专精附魔师<br>麻烦：先干再想的鲁莽性格<br>其他剪影：我讨厌独眼巨人学院的家伙们；Sarah支持我；Dexter Fitzwilliam快完蛋了。<br>做派：细心+0，聪明+2，显赫+1，强力+2，快速+1，隐秘+3<br>特技：教师宠儿：因为我是一名教师宠儿，每章节一次我可以宣称有一个用得上的教师来到当前场景。<br>耐力：□□□<br>损伤：<br>轻度（2）：<br>中度（4）：<br>重度（6）：<br>充能点：3</div></div></div>Bethesda Flushing<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Bethesda Flushing博士是引力与机电进步会（IGEMA）的研究员，也是IGEMA的测试工程师和外勤特工领队之一。IGEMA时常与其它各类国际组织发生冲突，有的是想要偷窃其技术，有的是想要征服世界，也有的两者兼有。Gustaf von Stendahl是所属不明的一个秘密间谍组织头目，时常成为Bethesda的心头大患。Flushing博士有着亮丽红发，小装置永不离身，包括她的个人直升机背包。<br>高阶概念：IGEMA的首席特工<br>麻烦：“我会逮到你的，von Stendahl！”<br>其他剪影：我的发明几乎总会起作用，几乎嗯；我教的毕业生总会过来，就是不按我的期望来；我信任Alemieda博士的天分。<br>做派：细心+2，聪明+3，显赫+1，强力+2，快速+1，隐秘+0<br>特技：<br>试验性英雄背包：当我使用我的试验性英雄背包时，我可以在快速地创造一项优势或是克服一项障碍时+2，前期是飞行对此可行且有帮助。<br>小装置专家：因为我是一个小装置专家，每章节一次我可以申称拥有一件对消除某个情景剪影特别有用的装置。<br>耐力：□□□<br>损伤：<br>轻度（2）：<br>中度（4）：<br>重度（6）：<br>充能点：3</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_718430">
+&#171; <em>上次编辑: 2015-08-28, 周五 17:17:46 由 聪明伶俐琪露诺</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_718430_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg719868"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_719868_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_719868">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg719868#msg719868" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_719868'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_719868'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2015-04-30, 周四 12:58:15 &#187;</div>
+<div id="msg_719868_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_719868">有人能战掉这里提到过的核心规则书的主持游戏和特技章节么</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_719868">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_719868_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg719899"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=75538" title="检视会员资料:  海豚">海豚</a>
+</h4>
+<ul class="reset smalltext" id="msg_719899_extra_info">
+<li class="title">静心讲故事<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=75538">
+<img class="avatar" src="/bbs/upload/avatar/avatar_75538_1458442587.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 389<li class="karma">苹果币: -2<li class="profile">
+<ul>
+<li><a href="http://2092131911.wix.com/sigma" title="欢迎来到海豚之家！（创界）" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="欢迎来到海豚之家！（创界）" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_719899">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg719899#msg719899" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_719899'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_719899'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2015-04-30, 周四 14:30:59 &#187;</div>
+<div id="msg_719899_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_719899"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg719868#msg719868">引述: 聪明伶俐琪露诺 于 2015-04-30, 周四 12:58:15</a></div></div><blockquote class="bbc_standard_quote">有人能战掉这里提到过的核心规则书的主持游戏和特技章节么<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>我可以来试试看吗～？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_719899">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_719899_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1168.0" class="bbc_link new_win" target="_blank"><img src="http://i.imgur.com/jYYstXV.png" alt="" class="bbc_img"/></a>← 喜欢开团，<a href="https://shimo.im/doc/hA3bvelkvD0vOgQd" class="bbc_link new_win" target="_blank">在用《绿茶》轻规则</a>。跑团有点像冲浪，计划总是被打散，所以练好身材，专心跟着大浪漂泊吧。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg724590"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105" title="检视会员资料:  聪明伶俐琪露诺">聪明伶俐琪露诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_724590_extra_info">
+<li class="title">侵略！バガ娘！<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=6105">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6105_1295686554.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7203<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_724590">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg724590#msg724590" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_724590'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_724590'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2015-05-20, 周三 10:39:44 &#187;</div>
+<div id="msg_724590_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_724590">全书完成，接下来就是准备开团了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_724590">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_724590_signature">完美算数教室<br><a href="http://www.goddessfantasy.net/index.php?showforum=344" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/...p?showforum=344</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg810988"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_810988_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_810988">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg810988#msg810988" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_810988'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_810988'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2016-08-07, 周日 21:27:45 &#187;</div>
+<div id="msg_810988_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_810988">很多名词和月伶老爷的不同，看着有些别扭</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_810988">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg873803"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850" title="检视会员资料:  狂阳">狂阳</a>
+</h4>
+<ul class="reset smalltext" id="msg_873803_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13850_1593774474.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 799<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_873803">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.msg873803#msg873803" rel="nofollow">Re: Fate加速版（FAE）简译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_873803'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_873803'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2017-08-19, 周六 23:06:49 &#187;</div>
+<div id="msg_873803_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_873803">这个网站也有规则翻译能参考<br><a href="https://sites.google.com/site/faterpg/accelerated" class="bbc_link new_win" target="_blank">https://sites.google.com/site/faterpg/accelerated</a></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_873803">
+&#171; <em>上次编辑: 2017-09-02, 周六 23:38:48 由 cmjh625</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=75947.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=75947.0"><span>Fate加速版（FAE）简译</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 75947,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 75947,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="75947" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=75947.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 19657 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 75947,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

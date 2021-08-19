@@ -1,0 +1,774 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="85457"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0"><span>钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg804790"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=85457.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技 &nbsp;(阅读 7941 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 电子の闪光とともに、今こそ立て、巨人！</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=85457.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804790_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804790">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804790#msg804790" rel="nofollow">钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804790'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804790'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-07-08, 周五 00:15:55 &#187;</div>
+<div id="msg_804790_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804790">因为我正在准备开包括电子前线扩的背景的含有PVP决斗要素的团，所以开始着手翻译电子前线。仅供个人学习使用。是不是加了这句话我就不会被版权掉？顺便天道老爷真是厉害啊，翻译好累，给你点赞。总之我目前已经把扩展的守护神特技翻译完了。现在在这里贴上来。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804790">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804793"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804793_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804793">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804793#msg804793" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804793'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804793'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-07-08, 周五 00:29:54 &#187;</div>
+<div id="msg_804793_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804793">IIG/IIG(イデアインスタンスガーディアン)<br>等级：1<br>种类：机，回<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：3HP<br>效果：你的机体是由于IDA instance现象将电脑空间的虚拟数据实体化的IDA机体。你可以通过再编程将机体分解与再构成，及时修复损伤。<br>你的守护神视为IDA机体。进行FP回复。你回复[3d6+3*Y]点FP。每轮可以使用一次。Y=你的人物等级。<br><br>高分玩家/ハイスコアゲーマー<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是非常强大的游戏直觉与控制器操作打出高分的优秀玩家。这个技术在操作守护神的时候也能活用。<br>这个特技只在操纵IDA机体的时候才有效果。你的命中判定和防御判定的暴击-1。这个特技的暴击下限是9。<br><br>塑模IDA/プラモイデア<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的守护神是读取塑料模型构成的虚拟数据，由IDA instance现象将电脑空间的虚拟数据实体化的IDA机体。你的守护神反映了你对塑料模型的改造成果。<br>取得【塑膜IDA】以外的两个【种类：塑】的特技。你的守护神视为IDA机体（勘误）。<br><br><br>驱动强化：关节交换/駆动强化：関节交换<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果。这是一种通过换成耐久度更高并能平滑地活动的部件，提升塑胶模型的关节敏捷度的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。机体的【行动值】+4。这个效果在人物等级7以上的时候【行动值】再+6。<br><br>装甲强化：塑料板/装甲强化：プラ板<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是在塑胶模型表面粘贴重叠起来的塑料板，增加耐久性的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。机体的【力场值】+10，【行动值】-2。这个效果在人物等级7以上的时候【力场值】再+10。<br><br>内部加工：增加重物/内部加工：锤入れ<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是安装让脚步和腰有重量感，并且使姿势安定的重物的改造。虽然简单，但是效果很好。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。机体的【攻击力】+2，【行动值】-2。并且你不受【狼狈】的效果。<br><br>内部加工：棉充填/内部加工：绵充填<br>等级：1<br>种类：机，塑，防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：3hp<br>效果：这是一种在模型外装的内部充填毛绒玩具一样的棉花，缓和冲击减少伤害的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才能使用。减轻受到的伤害。你（预定要）受到的伤害减轻[1d6+Y]点。每轮可以使用一次。Y=你的人物等级。<br><br>武装强化：金属部件交换/武装强化：金属パーツ交换<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种把模型武装换成更硬更重的金属部件，提升威力的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。装备的武装中，原属性是【斩】【刺】【殴】的武装的攻击力+2。（勘误前是+3）<br><br>武装强化：透明部件交换/武装强化：クリアパーツ交换<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种把模型武装换成透明素材做成的华丽的特效部件，提升威力的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。装备的武装中，原属性是【炎】【雷】【光】的武装的攻击力+2。（勘误前是+3）<br><br>武装强化：打孔/武装强化：削り込み<br>等级：1<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种对模型的武装的强度不下降的打孔，使其操作性提高的改造。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。选择常备化的一个武装。那个武装的行动值修正+4（最大到±0）。<br><br>驱动强化：可动范围扩大/駆动强化：可动范囲拡大<br>等级：2<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种通过剪切关节，消磨部件增加可动范围的改造。但是模型的强度会下降。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。机体的【回避值】和【放壁值】+1，【力场值】-5。<br><br>装甲强化：补土/装甲强化：パテ盛り<br>等级：2<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种在塑料模型涂上补土（一种树脂或者热化型塑料的材料），强化装甲的改造。但是因为重量增加，对回避有负效果。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。你装备的机体【斩】【殴】【炎】防御修正+4。但是你的防御判定的大失败值+3。（勘误前+1）<br><br>涂装名人/涂装名人<br>等级：2<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是非常擅长涂装的名人。除了积层涂装，你可以随你想要地进行风化或者装饰等。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。你的命中判定和防御判定的暴击-1。这个特技的暴击下限是10。<br><br>装甲强化：电镀加工/装甲强化：メッキ加工<br>等级：3<br>种类：机，塑<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：这是一种对塑料模型的表面进行电镀加工从而提升对能量攻击的耐性的改造。但是关节会变硬，动作会迟钝。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才有效果。你装备的机体【雷】【光】【暗】防御修正+4。但是你的防御判定的大失败值+2。（勘误前+1）<br><br>塑膜理心流/プラモ理心流<br>等级：9<br>种类：操，塑<br>时点：掷骰子之后<br>对象：自身<br>射程：0<br>代价：10hp<br>效果：你无心乐在制作与把玩塑料模型的心境，升华到天地之理的领域，可以自在地操纵AL粒子的跃动。<br>这个特技必须在获得【塑模IDA】的时候才能获得，只有在装备IDA机体的时候才能使用。掷骰子之后使用。判定骰子的话就将一个改成6，伤害骰子的话将3个改成6。每个剧本可以用一次。<br><br>炮艇骑士/ガンシップライダー<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是在战场打倒大量敌人的历战的战斗直升机驾驶员。不熟练的人无法捕捉到你纵横无尽的操纵技术。<br>这个特技只有在你搭乘【种类：直升机】的泛用载具并且处于【飞行】的时候才有效果。你搭乘的机体的【回避值】和【防壁值】+2，【行动值】+5。<br><br>急降攻击/急降下攻撃<br>等级：1<br>种类：操<br>时点：飞行状态解除时<br>对象：自身<br>射程：无<br>代价：4hp<br>效果： 你擅长利用高低差，借用急降的势头发动急袭攻击。<br>你的飞行状态被解除的时候使用。这个主要阶段中你进行的近战攻击增加1d6。如果你在这个主要阶段进行过移动的话，伤害再+【知觉】。（勘误前是+角色等级。由于FAQ里面提到由变形造成的飞行状态解除也会发动，所以翻译成被动句。）<br><br>血盟突击歌/血盟突撃歌<br>等级：1<br>种类：歌<br>时点：先攻阶段<br>对象：场面（选择）<br>射程：视界<br>代价：8hp<br>效果：唱起同甘苦共患难的同志一起战斗的快乐与荣耀，和必定守护住身后的无反击之力的人们的决死的觉悟的歌。<br>同意的对象在这个场景中，可以无视封锁，压制，移动力增大的效果移动。但是受到这个效果的角色直到场景结束，不能从撤退区域退场。一个场景可以使用一次。<br><br>防人哀歌/防人哀歌<br>等级：1<br>种类：歌<br>时点：先攻阶段<br>对象：场面（选择）<br>射程：视界<br>代价：8hp<br>效果：唱起做好应对敌人攻击的思想准备的歌。提高听众的防范意识，从而提高在战场的生存率。<br>这个回合对象进行的所有防御判定的判定值+1。<br><br>水中战适性/水中戦适性<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你习惯在水中战斗。你可以无视水压集中惯性，利用水高效处理废热，对敌人造成巨大伤害。<br>你在水地，深水区域并不处于飞行状态的时候，造成的伤害+Y。Y=你的角色等级。<br><br>坦克王牌/タンクエース<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是在大地驰骋，用压倒性的炮击驱逐敌人的坦克驾驶员。正确的弹道计算使你可以进行精密的远隔炮击。<br>这个特技只有在你搭乘【种类：战车】的泛用载具的时候才有效果。你搭乘的机体的【炮击值】+2，【力场值】=10。并且你使用的【种类：炮击（加农炮）】射程+4。<br><br>坦克破坏者/タンクバスター<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是从空中狩猎在地面匍匐的敌人的猎手。<br>这个特技只在你处于【飞行】状态的时候才有效果。你对没有飞行状态，高机动状态的角色造成的伤害+1d6。这个效果在你角色等级在7级以上的时候变为+2d6，在你12级以上的时候变为+3d6。<br><br>低输出光线枪/低出力ビームガン<br>等级：1<br>种类：操，命，伤<br>时点：主要动作<br>对象：单体<br>射程：1-3<br>代价：2en<br>效果：控制光刀的光线束带效果，转用为光线枪的特技。<br>这个特技只能在你装备【种类：白兵（光线）】的武装的时候才能使用。对对象进行【攻击力：《光》+5】的射击攻击。这个特技在命中判定大失败的时候，你受到【功率下降】。<br><br>电磁斗篷/电磁クローク<br>等级：1<br>种类：机<br>时点：任意<br>对象：自身<br>射程：0<br>代价：1en<br>效果：给机体施加迷彩，让一般人不能发现。<br>这个特技从机体离开之后也能使用。战斗中不能使用。你乘坐的机体变为【隐秘状态】。这个隐秘状态在你离开机体后也能持续，但是额外人员以外的角色的发现判定只要不出现大失败就一定会发现。<br><br>变形幻影/トランスイリュージョン<br>等级：1<br>种类：操<br>时点：进行变形之后<br>对象：自身<br>射程：无<br>代价：4en<br>效果：利用变形的战术迷惑敌人，使自己在守护神战斗处于优势。<br>你进行变形之后使用。你在这个回合进行的命中判定和防御判定的暴击值-1。由于这个特技造成的暴击值的下降的下限是11。<br><br>粒子装甲/パーティクルアーマー<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你和ALTIMA进行特殊的共鸣，形成更坚固的AL粒子护盾。<br>你的【力场值】+10。并且你使用的进行援护的特技射程+2。但是这个效果不和传导者以外的级别的特技的【延长进行援护的特技射程的效果】重复。<br><br>BURNING MIND/バーニングマインド<br>等级：1<br>种类：歌<br>时点：随时<br>对象：单体☆<br>射程：0-6<br>代价：7hp<br>效果：演奏振奋人心的音乐，唱响奋发精神的歌曲，燃起听众的灵魂产生活力。燃烧的灵魂引出你沉睡在深处的力量，一定可以誓约胜利！<br>那个阶段对象进行的一次判定的暴击值-1（下限10）。这个特技一回合可以使用一次。<br><br>螺旋夹具的心脏/ビス留めの心臓<br>等级：1<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是擅长在空中战斗的历战的战斗机驾驶员。天空中没有人能从你这里逃跑。<br>这个特技只有在你搭乘【种类：航空机】的泛用载具并且处于【飞行】的时候才有效果。你搭乘的机体【防壁值】+2，【行动值】+5，【移动力】+2。<br><br>光线军刺/ビームバイオネット<br>等级：1<br>种类：操，命，伤<br>时点：主要动作<br>对象：单体<br>射程：0<br>代价：4en<br>效果：控制光线来复枪的输出功率，在枪口形成光刃进行斩击。<br>这个特技只能在装备【种类：射击（光线）】，【种类：炮击（光线）】的装备的时候才能使用。对对象进行【攻击力：《光》+6】的白兵攻击。这个特技在命中判定大失败的时候，你受到【功率下降】。<br><br>刃锚/ブレードアンカー<br>等级：1<br>种类：操，命，伤<br>时点：主要动作<br>对象：单体<br>射程：1-3<br>代价：2en <br>效果：将钢索发射器的固定用的锚转用成攻击武装。像翻滚的浪潮一样的钢缆的先端的刀刃，用变换自在的动作追逐敌人。<br>这个特技必须在持有钢索发射器的时候才能使用。对对象进行【攻击力：《斩》+8】的射击攻击。（钢索发射器是ワイヤーランチャー，基础里面闪电级特有的装备）<br><br>连接者AI/リンケージAI<br>等级：1<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你不是持有有机的肉体的人类，而是将守护神作为身体的AI。<br>你视为【人机融合体】，不能将守护神从装备去除，不能脱出。详细参照《RDB》P7。你是守护神这件事情的详细，由GM决定。（光耀貌似翻译了？那就不是第七页，总之参考光耀的新规则。）<br><br>钢缆特技/ワイヤーアクション<br>等级：1<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：3hp<br>效果：利用钢缆等武装把自己拉向高处，进行三次元机动移动。（调查兵团！）<br>这个特技必须装备名称带有【钢缆】【钓竿】的武装的时候才能使用。你以飞行状态进行战斗移动。这个主要阶段进行的，对飞行状态以外的目标进行的命中判定的判定值+2。这个飞行状态主要阶段结束时解除。（注：【ワイヤー】和【ロッド】，因为之前天道发布的翻译的物品里面，ワイヤークロー被翻译成绳爪，ワイヤーランチャー被翻译成钢索，所以没有一个统一。这个目前只能对照日文，或者GM和PC们参考下解说，这个东西总之是需要长长的绳索才能用。）<br><br>极限直觉/纸一重の勘<br>等级：2<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你至今为止数次在战场距离死亡只有毫厘之差的时候捡回一条命。在穷途末路的绝地中工作，是没有道理的知觉救了你。<br>你进行的防御判定的暴击-1（下限10）。<br><br>ALTIMA深化/ALTIMA深化<br>等级：2<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：由于与ALTIMA有更深的感应，将表达那力量的加护，随着你应用的用途，用强化的形态表现出来。<br>你使用的【代价：加护】的特技和物品造成的伤害+4d6。这个效果在角色等级10以上的时候再+Y。Y=你的角色等级。<br><br>多重起重机Ⅱ/マルチクレーンⅡ<br>等级：4<br>种类：-<br>时点：多重起重机<br>射程：0<br>代价：3EN<br>效果：你的机体设置有大型的装载用起重机，可以将稍微离开点距离的友军迅速收容起来。<br>多重起重机的对象变为【对象：范围3（选择）】。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804793">
+&#171; <em>上次编辑: 2016-12-20, 周二 23:18:25 由 黒鉄游帝</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804794"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804794_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804794">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804794#msg804794" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804794'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804794'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2016-07-08, 周五 00:34:52 &#187;</div>
+<div id="msg_804794_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804794">这次没按照等级顺序排列。我把IDA相关放在前面了。IDA机体是电子前线的新规则。跟在物理次元通过守护神干涉电脑空间相反，本来是电脑空间的虚拟数据的机体在物理次元实体化，就是被称作IDA-instance的现象。（话说instance就是例子的意思啊233神重复）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804794">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804795"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804795_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804795">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804795#msg804795" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804795'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804795'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2016-07-08, 周五 00:35:24 &#187;</div>
+<div id="msg_804795_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804795">总之天道你看这样行不，你是版主我是不是应该先打个招呼？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804795">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804804"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804804_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804804">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804804#msg804804" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804804'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804804'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2016-07-08, 周五 01:11:23 &#187;</div>
+<div id="msg_804804_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804804">顺便之后打算翻译震怒，彩色金属还有梅塔特隆的特技与物品，骑士和灾厄追加的特技与物品，闪电和战鸟追加的物品，还有人类用的武装，还有一般物品，生活习惯，以及住宅。不过全本好长啊。。。。。。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804804">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804806"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_804806_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804806">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804806#msg804806" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804806'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804806'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-07-08, 周五 01:17:21 &#187;</div>
+<div id="msg_804806_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804806">顺便后面的话还有图雷国（你们还记不记得上级的闪电物品拓展有图雷制品），圣提普托利（也是上级挖的坑，观星者那一段设定），罗雷西亚大陆（忘了），还有电子世界的设定以及追加NPC，以及范例战斗地图及敌人配置模版，和boss模板，以及追加的敌人。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804806">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg804924"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_804924_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_804924">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg804924#msg804924" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_804924'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_804924'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-07-08, 周五 18:18:59 &#187;</div>
+<div id="msg_804924_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_804924">自便即可。请记得弄在一个帖子里，放进导航帖比较方便（ <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/><br><br>不过我自己有空估计也会弄个个人版翻译，毕竟翻这规则也相当于是我个人兴趣（ <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_804924">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg805464"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78994" title="检视会员资料:  天宫零介">天宫零介</a>
+</h4>
+<ul class="reset smalltext" id="msg_805464_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 24<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_805464">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg805464#msg805464" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_805464'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_805464'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2016-07-11, 周一 02:47:06 &#187;</div>
+<div id="msg_805464_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_805464">＞天道，黑铁<br>那一齐努力吧 <img src="/bbs/Smileys/converted/em012.GIF" alt="&#58;em012" title="&#58;em012" border="0" class="smiley"/><br><br>＞Idea Instance<br>因为是本书重要名词之一，我特地查了日文用法，得出了形象实体这个造词出来，可以拿来参考</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_805464">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg805877"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=79120" title="检视会员资料:  黒鉄游帝">黒鉄游帝</a>
+</h4>
+<ul class="reset smalltext" id="msg_805877_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 16<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_805877">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg805877#msg805877" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_805877'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_805877'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-07-12, 周二 13:39:41 &#187;</div>
+<div id="msg_805877_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_805877">我之前也查过，イデア跟アイデア还是有区别，前者是西班牙语，虽然意思差不多，但是字母的拼写一样，为了避免混淆于是用的IDA，而且这样看起来高端（误），就当成是跟奥拉斩一样的恶趣味吧</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_805877">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg807035"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=11811" title="检视会员资料:  你的好友已断线">你的好友已断线</a>
+</h4>
+<ul class="reset smalltext" id="msg_807035_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=11811">
+<img class="avatar" src="/bbs/upload/avatar/avatar_11811_1511337797.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 868<li class="karma">苹果币: 0<li class="blurb">哇喀喀喀喀喀喀喀！！！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_807035">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.msg807035#msg807035" rel="nofollow">Re: 钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_807035'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_807035'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-07-19, 周二 05:03:01 &#187;</div>
+<div id="msg_807035_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_807035">这个是用来跑类似高达男朋友那样的模型战的扩展吗？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_807035">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=85457.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=85457.0"><span>钢铁守护神RPG 扩展规则 电子前线 【デジタルフロント】 守护神特技</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 85457,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 85457,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="85457" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=85457.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 7941 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 85457,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

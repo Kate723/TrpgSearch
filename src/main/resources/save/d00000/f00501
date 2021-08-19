@@ -1,0 +1,169 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.0"/>
+<title>列印本页 - 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</title>
+<style type="text/css">
+body, a
+{
+color: #000;
+background: #fff;
+}
+body, td, .normaltext
+{
+font-family: Verdana, arial, helvetica, serif;
+font-size: small;
+}
+h1#title
+{
+font-size: large;
+font-weight: bold;
+}
+h2#linktree
+{
+margin: 1em 0 2.5em 0;
+font-size: small;
+font-weight: bold;
+}
+dl#posts
+{
+width: 90%;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+dt.postheader
+{
+border: solid #000;
+border-width: 1px 0;
+padding: 4px 0;
+}
+dd.postbody
+{
+margin: 1em 0 2em 2em;
+}
+table
+{
+empty-cells: show;
+}
+blockquote, code
+{
+border: 1px solid #000;
+margin: 3px;
+padding: 1px;
+display: block;
+}
+code
+{
+font: x-small monospace;
+}
+blockquote
+{
+font-size: x-small;
+}
+.smalltext, .quoteheader, .codeheader
+{
+font-size: x-small;
+}
+.largetext
+{
+font-size: large;
+}
+.centertext
+{
+text-align: center;
+}
+hr
+{
+height: 1px;
+border: 0;
+color: black;
+background-color: black;
+}
+</style>
+</head>
+<body>
+<h1 id="title">纯美苹果园</h1>
+<h2 id="linktree">译文资料区 => 克苏鲁神话相关TRPG => Cthulhu Tech => 主题作者是: moonsang 于 2016-01-20, 周三 17:15:37</h2>
+<dl id="posts">
+<dt class="postheader">
+主题: <strong>【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>moonsang</strong> 于 <strong>2016-01-20, 周三 17:15:37</strong>
+<dd class="postbody">
+貌似论坛里关于CthulhuTech规则的翻译非常少，抱着好奇心我对核心规则进行了粗略的翻译（感谢凉凉的网盘分享），在此先介绍一下其很有特色的骰子概率系统，希望能说明不同概率系统对跑团体验的影响。<br>在介绍之前我们先看一下大家比较熟知的Cthulhu跑团规则如何处理概率：<br>Call of Cthulhu：玩家投D100，和自己的技能比较，低于技能则通过。难度较高时技能会打折，但没有明确的难度。<br>Trail of Cthulhu：玩家先决定花费对应技能池中多少点数，然后投1D6，将结果加上自己花费的技能点与难度比较，高于难度则通过。难度分布为2~8。<br>========================================<br>CthulhuTech（以下简称CT）的规则系统被称为Framewerk，是一套D10骰子规则。<br>技能检定可以分成4个步骤，首先玩家分析自己想做的事情用到哪种技能，然后城主决定该次检定的难度，然后玩家扔骰子查看结果，最后进行比较得到该次检定是否成功。<br>1&nbsp;&nbsp;&nbsp;决定技能和相关属性<br>&nbsp; &nbsp; CT规则下，做那些有点挑战性的事情都要求玩家拥有相应技能。而每个技能都与某个基础属性（力量、智力等）挂钩。因此，玩家做某事的能力被表现为：对应基础属性值+技能骰子点数+修正值。注意骰子的点数不是简单相加的，见后文。<br>2&nbsp;&nbsp;&nbsp;决定难度<br>&nbsp; &nbsp; CT规则下难度可分为6级：简单（7~9），一般（10~14），有挑战（15~19），困难（20~25），非常困难（26~31），传奇（32+）。<br>3&nbsp;&nbsp;&nbsp;扔骰子的结果<br>&nbsp; &nbsp; 玩家扔N个D10骰子，N等于技能等级。玩家可以取最高结果（结果3、4、7则取7），或把多个相同结果相加（结果4、4、6取4+4=8）。如果一次扔了3个或更多的骰子，还可以取顺子（结果9、4、5、6取4+5+6=15），顺子至少由3个骰子组成。<br>4&nbsp;&nbsp;&nbsp;确定是否成功<br>&nbsp; &nbsp; 将上一步骰子的结果与对应基础属性相加得到技能检定值，然后和难度比大小。检定值比难度高或相等，则为成功，反之为失败。<br><br>当然，这套规则也有各种修正，比如常见的大成功——检定值比难度大10+，那么你就大成功；大失败——如果你扔出的全是1，或在多于3个骰子的情况下扔出3个1，那么你就大失败了。<br><br>并且，CT有戏剧点的设定（类似PF英雄点）：花费1个戏剧点，玩家可以将自己或盟友1个骰子的结果提高1。或将敌人的1个骰子的结果减少1。在投骰前，花费1个戏剧点还可以增加1个己方骰子数量（最多同时投10个），或减少敌方1个骰子数量（可以减到0）。<br>==================================================<br>可能这样说，很多人看不出与之前介绍的两种规则有多少区别，跑团不都是充满随机的吗？但我在好奇心的驱使下，进行了一些较真的”研究“。<br>下面是使用3D10骰子（CT规则下中等级别技能熟练度），按照CT规则计算结果和3D10简单相加进行对比，找朋友用统计学软件做了图。<br>(http://i4.tietuku.com/9361796e71f08cdd.jpg)CT规则<br>(http://i4.tietuku.com/ec9b1a6c0e18c805.jpg)简单相加<br>可以看出，CT规则下，骰子的结果更加集中，密集分布在5~10，高数值有（可达30）但非常少。<br>也就是说通过这种规则，改变了骰子平均分布的结果，而COC 和TOC全是简单的平均分布。<br>这有什么意义呢？我认为作为克苏鲁这类悬疑剧情类剧本的KP，更希望自己设定的难度可以使得剧情节奏顺畅，不会因为玩家的手气造成偏离非常大的情况。因此这种非常集中的分布，更加有利于难度设计，平常的低难度不至于卡剧情，高潮的高难度，玩家可多投入戏剧点，在技能有限等级时靠运气爆发高数值。<br><br>以上就是本帖想表达的想法，希望获得大家意见。
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2016-01-21, 周四 01:43:50</strong>
+<dd class="postbody">
+有趣的设定，但似乎对数学不好的人不太友好……<br>咱就无法在7秒内算出6+7+8=多少……
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>弑君者伊恩</strong> 于 <strong>2016-01-21, 周四 03:13:09</strong>
+<dd class="postbody">
+如主楼所说，骰子系统带来的分布很好，但是缺陷是如果要经常掷骰，反复的口算会明显将人带出戏。
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>jimraynor</strong> 于 <strong>2016-01-21, 周四 06:25:00</strong>
+<dd class="postbody">
+其实相比之下，“计算顺子和相同数字的加和”比“计算n个任意数字的加和”已经容易了很多不是嘛……
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>弑君者伊恩</strong> 于 <strong>2016-01-21, 周四 06:46:36</strong>
+<dd class="postbody">
+都很笨，我觉得最好不要有计算——尤其是这种无法预知的计算
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>moonsang</strong> 于 <strong>2016-01-21, 周四 09:26:53</strong>
+<dd class="postbody">
+其实出现顺子的概率并不多，大部分情况只要简单的看最高值或者把对子x2就行了。在玩家渴望获得高数值时，玩家也不介意仔细想想是改变骰子结果凑顺子还是赌一把增加骰子了。
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>弑君者伊恩</strong> 于 <strong>2016-01-21, 周四 18:09:42</strong>
+<dd class="postbody">
+顺子其实也不难算，奇数骰就是取中间数x骰数，偶数就是取头尾相加然后乘骰数一半，不过就是要费下心呢
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>user8786</strong> 于 <strong>2016-01-21, 周四 19:49:32</strong>
+<dd class="postbody">
+N个骰子出5 6通过，N=属性是啥版本的COC规则呢？
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>粉毛提督七宫涟</strong> 于 <strong>2016-01-22, 周五 20:52:56</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774040#msg774040">引述: user8786 于 2016-01-21, 周四 19:49:32</a></div></div><blockquote class="bbc_standard_quote">N个骰子出5 6通过，N=属性是啥版本的COC规则呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>魔镇惊魂
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>数据删除</strong> 于 <strong>2016-01-23, 周六 00:02:05</strong>
+<dd class="postbody">
+唔，能麻烦分享一下CthulhuTech规则书吗，试着啃啃
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>moonsang</strong> 于 <strong>2016-01-24, 周日 17:09:05</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=82059.msg774222#msg774222">引述: 数据删除 于 2016-01-23, 周六 00:02:05</a></div></div><blockquote class="bbc_standard_quote">唔，能麻烦分享一下CthulhuTech规则书吗，试着啃啃<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请在凉凉版主的网盘里找。
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>无名的巫妖</strong> 于 <strong>2016-01-26, 周二 14:45:35</strong>
+<dd class="postbody">
+楼主这个统计叼得飞起！！！！
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>星空意面</strong> 于 <strong>2016-02-11, 周四 21:04:19</strong>
+<dd class="postbody">
+恩，这个的话，已经翻译一部分了<br>链接：http://pan.baidu.com/s/1eQL2IJ4 密码：vyy3<br>早期是由台湾翻译基础上进行的，原网址<br>sites.google.com/site/cthulhutech/
+<dt class="postheader">
+主题: <strong>Re: 【规则翻译】【CthulhuTech 核心规则】骰子系统介绍</strong><br>
+作者: <strong>（Light</strong> 于 <strong>2016-02-11, 周四 22:07:44</strong>
+<dd class="postbody">
+跑过的只能说，呃，这规则在一些战斗下的结算会显得有些......麻烦。虽然习惯以后会稍微快一些，但是依旧会因为步骤耗时（以至于我不敢开一些虽然有趣但更多结算步骤的可选规则（当然也有可能是我自己数学能力弱鸡）。当然寻常的技能检定自然不会怎样，总之和之前的楼层有说的一样，反复的口算确实会让人出戏（
+</dd>
+</dl>
+<div id="footer" class="smalltext">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span>
+</div>
+</body>
+</html>
