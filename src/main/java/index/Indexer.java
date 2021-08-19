@@ -62,7 +62,7 @@ public class Indexer {
             urls = urlRead(indexFile[0]);
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("[WARNING]url读取失败！File:" + srcDir.getName());
+            System.out.println("[WARNING]url读取失败！File:" + srcDir.getName() + "/" + indexFile[0].getName());
         }
 
         /** 对于爬取的html文件按照名称排序以便与url对应 */
