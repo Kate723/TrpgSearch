@@ -1,0 +1,229 @@
+header,footer,nav,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,hr,pre,form,fieldset,input,button,textarea,p,blockquote,th,td{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color:#ededef;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+fieldset,img,html,body,iframe{
+    border:0;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+li{
+    list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+}
+
+caption,th{
+    font-weight:normal;
+    font-style:normal;
+    text-align:left;
+}
+
+em,strong{
+    font-weight:bold;
+    font-style:normal;
+}
+
+small{
+    font-size:100%;
+}
+
+body,textarea,select,input,button{
+    font-family:"Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    font-size:12px;
+    color:#444;
+}
+
+html,body{
+    width:100%;height:100%;
+}
+
+html{
+    overflow:hidden;overflow-y:scroll;
+}
+
+textarea{
+    overflow:auto;
+    resize:none;
+}
+
+a,button{
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    color:#444;
+    outline:none;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:#7594B3;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../images/coc.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    box-sizing: border-box;
+    min-height: 10%;
+    height: fit-content;
+    width: 100%;
+    background: #222222;
+    margin:0;
+    border:0;
+    padding: 10px 30px;
+}
+.header_text{
+    color: #efefef;
+    max-width: 200px;
+    display: inline-block;
+}
+header h1{
+    font-size: 1cm;
+}
+
+hr{
+    width: 99%;
+    height: 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #fff;
+}
+
+.vr{
+    width: 2px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.vr::before{
+    content: " ";
+    display: block;
+    float: left;
+    width: 1px;
+    height: 100%;
+    background: #d8d8d8;
+}
+
+.vr::after{
+    content: " ";
+    display: block;
+    float: left;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+
+footer{
+    box-sizing: border-box;
+    height: 10%;
+    width: 100%;
+    background: #222222;
+    border:0;
+    clear: both;
+}
+
+.main{
+    width: 60%;
+    min-height: 70%;
+    height: fit-content;
+    background: transparent;
+    background: #dfdfdfdf;
+    margin: 3%;
+    padding: 30px;
+    float: left;
+    text-align: left;
+}
+.main h2{
+    font-size: 20px;
+    margin: 10px 5px 0px;
+}
+.main h6{
+    font-size: 14px;
+    margin: 5px;
+}
+.main p{
+    font-size: 14px;
+    margin: 0px 5px 10px;
+}
+
+input{
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding: 0 24px;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+input:required{
+    background: transparent;
+    border: none;
+}
+
+form {
+    display: inline;
+}
+
+.inputBox{
+    max-width: 200px;
+    min-width: 120px;
+    height: 48px;
+    background: #ffffff;
+    transition: all 0.3s;
+    border: 1px solid #d4d4d5;
+    border-radius: 24px 0 0 24px;
+    margin: 8px auto;
+
+    float: right;
+    font-size: 14px;
+    color: #1F1F1F;
+    align-items: center;    
+    overflow: hidden;
+}
+
+.Button{
+    min-width: 100px;
+    height: 48px;
+    border-radius: 0px 24px 24px 0px;
+    border: 1px solid;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: #4EB7BA;
+    background-color: #4EB7BA;
+    margin: 8px auto;
+    float: right;
+} 
+
+.input_area{
+    padding: 8px;
+}
