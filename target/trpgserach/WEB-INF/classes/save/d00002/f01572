@@ -1,0 +1,549 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【BotC】牧师变体：三元教士（Triadic Priest）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【BotC】牧师变体：三元教士（Triadic Priest）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '5a4cbc40001a2138af41dd9b1cb45b3e');">
+<div class="info">请 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">登录</a> 或 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="125460"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b3ff423',
+sSessionId: '5a4cbc40001a2138af41dd9b1cb45b3e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> (版主群: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76071" title="版主">丞相</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0"><span>【BotC】牧师变体：三元教士（Triadic Priest）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1114515"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=125460.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【BotC】牧师变体：三元教士（Triadic Priest） &nbsp;(阅读 2481 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: “万事皆三，三元归一，三位一体，三生万物……”</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=quickmod2;topic=125460.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('5a4cbc40001a2138af41dd9b1cb45b3e', 'b3ff423') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654" title="检视会员资料:  阿贝里昂">阿贝里昂</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114515_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76654_1490027722.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 387<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114515">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114515#msg1114515" rel="nofollow">【BotC】牧师变体：三元教士（Triadic Priest）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114515'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114515'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-05-25, 周二 02:33:26 &#187;</div>
+<div id="msg_1114515_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114515"><span style="color: yellow;" class="bbc_color"><strong><span style="font-size: 20pt;" class="bbc_size">三元教士（Triadic Priest）</span></strong></span><br><br>出自《巫团血脉》（Blood of the Coven）第19页<br><br>力量不仅可以来自于和神祇的交流，也可以来自于神圣三位一体的形成。这类团体的首领就是三元教士。虽然女巫集会和替换儿们最有可能奉行这一传统，不过这种习俗有时也会出现在其他信仰之中。<br><br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">三元联结（Triadic Bond，Su）：</span></strong></span><br>三元教士可以和两个队友进行10分钟的仪式，从而在彼此之间建立持续的联结，直到三元教士解除联结（这个过程需要1分钟的专注）或者创建一个新的联结为止。<br>在进行联结仪式时，三元教士可以将她任何队友的魔宠或魂兽也包括在内；这些生物获得“联结引导”能力的好处和联结中存在的不利，但在判断三元教士的“联结领域”时，它们不被视为联结的盟友。只有聪明并且完全独立的生物才能成为她的两个联结伙伴。动物伙伴、幻灵、魔宠、魅影以及类似的无自我意识或依赖性的生物都不合适。<br><br>联结的盟友可以获得许多好处，并且可以帮助强化三元教士的施法能力，如同以下能力所述。然而，如果一个联结的盟友死亡，那么联结中的其他成员必须通过一个强韧豁免（DC=10+三元教士的职业等级）否则获得1个永久的负向等级。<br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">联结引导（Bonded Channeler，Su）：</span></strong></span><br>当三元教士使用她的引导能量能力时，她必须选择只影响她联结的队友或者是除了她联结的队友之外的所有人。<br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">联结领域（Bonded Domain，Su）：</span></strong></span><br>三元教士只能选择一个由她的神祇授予的领域。然而，当她的10尺内拥有至少一位她联结的队友时，她获得以下好处。<br><br><span style="color: red;" class="bbc_color">这修改了领域职业特性。</span><br><br><br><span style="color: teal;" class="bbc_color"><strong>联结之力（Bonded Power，Su）：</strong></span><br>三元教士获得女巫的战团（Coven）巫术或者团队法师（Allied Spellcaster）专长作为奖励专长。<br><br><span style="color: teal;" class="bbc_color"><strong>联结协同（Bonded Unity，Su）：</strong></span><br>以一个移动动作，三元教士可以和最多两个距离她10尺范围内的联结伙伴分享一个团队专长。她的联结伙伴无需满足专长的前提条件，并且可以在1轮+每5个三元教士职业等级额外1轮的时间内获得专长的好处。一个联结伙伴一次只能以这种方式获得一个团队专长。<br>三元教士每天可以使用本能力的次数等于3+她的感知修正。<br><br><span style="color: teal;" class="bbc_color"><strong>联结秘仪（Bonded Ritual）：</strong></span><br>三元教士可以准备以下任意法术，就如同它们是领域法术一样，不过她只有在10尺范围内至少拥有一个联结盟友时才能施放这些领域法术。<br><br>8级起，每天一次，当位于她的10尺范围内拥有两个联结盟友时，三元教士可以不用花费法术位，在她所能施放的法术环级中施放她的任意一个领域法术，无论她是否已经准备了该法术。如果一个领域法术的施法时间超过了标准动作，那么三元教士必须通过一个专注检定（DC=20+法术环位×2）否则在施法过程中的任何时刻若她的10尺范围内没有至少一个联结队友，那么她将失去该法术。<br><br><span style="color: teal;" class="bbc_color"><strong>领域法术（Domain Spells）：</strong></span><br>1环：凶兆（Ill Omen）<br>2环：目盲/耳聋术（Blindness/Deafness）<br>3环：降咒（Bestow Curse）<br>4环：魅惑怪物（Charm Monster）<br>5环：恶意变形术（Baleful Polymorph）<br>6环：操控天气（Control Weather）<br>7环：力场监牢（Forcecage）<br>8环：心灵屏障（Mind Blank）<br>9环：星界投射（Astral Projection）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114515">
+&#171; <em>上次编辑: 2021-05-25, 周二 03:14:19 由 阿贝里昂</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114517"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654" title="检视会员资料:  阿贝里昂">阿贝里昂</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114517_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76654_1490027722.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 387<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114517">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114517#msg1114517" rel="nofollow">Re: 【BotC】牧师变体：三元教士（Triadic Priest）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114517'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114517'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-05-25, 周二 02:57:49 &#187;</div>
+<div id="msg_1114517_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114517">常用速查：<br><br>战团（Coven, Ex）：女巫能够被视为一名鬼婆加入鬼婆战团，战团中至少有一名鬼婆。此外，若2名以上具备此巫术的女巫相互距离30尺以内，则她能够通过协助他人动作使另一位女巫的施法者等级+1，持续1轮。该加值可作用于女巫的法术和所有巫术。<br><br>团队法师（Allied Spellcaster）〔团队〕<br>你十分擅长在盟友的帮助下，使用自身的法术突破其他生物的防护。<br>　　先决条件：施法者等级1级。<br>　　专长效果：若你邻近一名同样拥有该专长的盟友，那么你在克服法术抗力的施法者等级检定中获得+2表现加值。如果你的盟友准备了相同的法术（或者在盟友为自发施法者的情况下，他的已知法术有这个法术并且还有可用法术位），这个加值会提升至+4，并且在确定所有与CL相关的变量（如持续时间，范围和效果）时，你的CL获得+1加值。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114517">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114526"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913" title="检视会员资料:  犬良人">犬良人</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114526_extra_info">
+<li class="title">犭良人<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77913_1621571989.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1788<li class="karma">苹果币: 1<li class="blurb">爆裂吧，现实！粉碎吧，精神！放逐这个世界！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114526">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114526#msg1114526" rel="nofollow">Re: 【BotC】牧师变体：三元教士（Triadic Priest）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114526'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114526'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-05-25, 周二 08:38:47 &#187;</div>
+<div id="msg_1114526_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114526">最大的问题是只能连2个人，明明是个4人团，但有1个人不配拥有连结 <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114526">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1114526_signature">强烈谴责向施法怪物套幼年模版的流氓行为！<br>四环施法者是世界上最好的施法者！<br><del>永远纪念的盖丁一族，强烈谴责P子无视历史的行为！</del><br>记念从下水道永远冲走的唤魂师！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114538"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=6400" title="检视会员资料:  Tekkaman Last">Tekkaman Last</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114538_extra_info">
+<li class="title">最古の制裁<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=6400">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6400_1341573939.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1273<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114538">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114538#msg1114538" rel="nofollow">Re: 【BotC】牧师变体：三元教士（Triadic Priest）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114538'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114538'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-05-25, 周二 09:55:37 &#187;</div>
+<div id="msg_1114538_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114538"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114526#msg1114526">引述: 犬良人 于 2021-05-25, 周二 08:38:47</a></div></div><blockquote class="bbc_standard_quote">最大的问题是只能连2个人，明明是个4人团，但有1个人不配拥有连结 <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>战牧法贼，贼死在找夹击的路上了，没资格蹲在牧师身边蹭BUFF</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114538">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1114538_signature">人在动，天在看，一轮万动留祸患，众生皆为先攻来，乱插动作忘前缘</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1114545"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=126336" title="检视会员资料:  璀璨星炬">璀璨星炬</a>
+</h4>
+<ul class="reset smalltext" id="msg_1114545_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 545<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1114545">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114545#msg1114545" rel="nofollow">Re: 【BotC】牧师变体：三元教士（Triadic Priest）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1114545'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1114545'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-05-25, 周二 10:47:39 &#187;</div>
+<div id="msg_1114545_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1114545"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.msg1114526#msg1114526">引述: 犬良人 于 2021-05-25, 周二 08:38:47</a></div></div><blockquote class="bbc_standard_quote">最大的问题是只能连2个人，明明是个4人团，但有1个人不配拥有连结 <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/><br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">在进行联结仪式时，三元教士可以将她任何队友的魔宠或魂兽也包括在内</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>三人团加个宝宝就行了，刚好凑成四个 <img src="/bbs/Smileys/converted/em020.gif" alt="&#58;em020" title="&#58;em020" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1114545">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=125460.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> (版主群: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76071" title="版主">丞相</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=125460.0"><span>【BotC】牧师变体：三元教士（Triadic Priest）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 125460,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 125460,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b3ff423" value="5a4cbc40001a2138af41dd9b1cb45b3e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="125460" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'5a4cbc40001a2138af41dd9b1cb45b3e\', \'b3ff423\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;' + '?topic=125460.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 2481 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1723,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Pathfinder RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1723,
+							iTopicId: 125460,
+							sSessionId: "5a4cbc40001a2138af41dd9b1cb45b3e",
+							sSessionVar: "b3ff423",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

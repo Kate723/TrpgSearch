@@ -1,0 +1,867 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢之守护神RPG SSS 钢铁的守护神"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢之守护神RPG SSS 钢铁的守护神</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="84240"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0"><span>钢之守护神RPG SSS 钢铁的守护神</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg791023"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84240.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post_locked.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢之守护神RPG SSS 钢铁的守护神 &nbsp;(阅读 11638 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: あなたに、力を…</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=84240.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791023_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791023">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791023#msg791023" rel="nofollow">钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791023'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791023'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-04-22, 周五 11:06:14 &#187;</div>
+<div id="msg_791023_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791023"><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww4.sinaimg.cn/large/8fee126cgw1f0gegu44taj205k07t3zf.jpg" alt="" class="bbc_img"/>封面</div></div></div>BGM：DREAMS<br><br>官方发售的模组集（Super Scenario Support），附带了新的人物经历表、进取级的追加物品、领主级的追加物品&amp;特技。<br>特技方面，领主级追加了X高达的主路线以及独角兽的支线。<br>物品方面，领主级追加了大量捏他独角兽的东西，进取级则是追加了大量雷姆利亚相关的物品。<br>オ　ー　バ　ー　ロ　ー　ド　<span style="color: red;" class="bbc_color">完　全　胜　利</span><br>オ　ー　バ　ー　ロ　ー　ド　厨　歓　喜<br>エ　ン　タ　プ　ラ　イ　ズ　厨　激　怒<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791023">
+&#171; <em>上次编辑: 2016-05-25, 周三 07:50:06 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791026"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791026_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791026">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791026#msg791026" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791026'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791026'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-04-22, 周五 11:11:56 &#187;</div>
+<div id="msg_791026_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791026"><strong><span style="font-size: 18pt;" class="bbc_size">目录/Index</span></strong><br><br><span style="font-size: 14pt;" class="bbc_size">INTRODUCTION</span><br>&nbsp; &nbsp;2楼&nbsp; &nbsp; &nbsp; &nbsp; 本书的使用方法<br><br><span style="font-size: 14pt;" class="bbc_size">CAMPAIGN SCENARIO</span><br>&nbsp; &nbsp;3楼&nbsp; &nbsp; &nbsp; &nbsp; 模组下载<br><br><span style="font-size: 14pt;" class="bbc_size">DATA SECTION</span><br>&nbsp; &nbsp;4楼&nbsp; &nbsp; &nbsp; &nbsp; 追加数据的使用方法<br>&nbsp; &nbsp;5楼&nbsp; &nbsp; &nbsp; &nbsp; 追加邂逅表&amp;追加出身表<br>&nbsp; &nbsp;6楼&nbsp; &nbsp; &nbsp; &nbsp; 追加泛用特技<br><span style="color: red;" class="bbc_color">&nbsp; &nbsp;7楼&nbsp; &nbsp; &nbsp; &nbsp; 类别资料：领主级</span><br><span style="color: blue;" class="bbc_color">&nbsp; &nbsp;8楼&nbsp; &nbsp; &nbsp; &nbsp; 物品资料：领主级<br>&nbsp; &nbsp;9楼&nbsp; &nbsp; &nbsp; &nbsp; 物品资料：进取级</span><br><br><span style="font-size: 14pt;" class="bbc_size">APPENDIX</span><br>&nbsp; &nbsp;10楼&nbsp; &nbsp; &nbsp; &nbsp;范例人物：白银之刃Ver.2</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791026">
+&#171; <em>上次编辑: 2016-04-23, 周六 11:47:46 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791027"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791027_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791027">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791027#msg791027" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791027'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791027'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2016-04-22, 周五 11:12:41 &#187;</div>
+<div id="msg_791027_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791027"><strong><span style="font-size: 18pt;" class="bbc_size">本书的使用方法/本书の使い方</span></strong><br>《SSS01 钢铁的守护神》收录了3篇以凰市为主题的模组。<br><br><span style="font-size: 14pt;" class="bbc_size">■模组的游玩方法</span><br>本书的模组共有两种游玩方式。<br><br><span style="font-size: 12pt;" class="bbc_size">●作为战役模组游玩</span><br>这次收录的3篇模组能够作为战役模组，让相同的PC连续参加。<br>作为战役模组游玩，能够更加凸显人际关系的变化以及PC的成长等要素，为游戏带来更多乐趣。<br>▼PC死亡<br>若PC因为死亡等原因半路脱离游戏，GM必须以现有的文字资料为基础撰写新的导入剧情。<br>考虑到立场等因素，将新人物设计成Fortune凰市支部的追加人员大概是最为方便的。<br>在此之上，为了令新人物更圆滑地继承死亡PC的立场，还可以将其设计成与死亡PC有所关联，或让其继承死亡PC的机体。<br><br><span style="font-size: 12pt;" class="bbc_size">●作为单独的模组游玩</span><br>模组1《无敌机器人，兰佩加》与模组2《Dark Moon Rises》都能单独拿出来游玩。模组2的开头写有单独游玩时的指针。<br>模组3并不适合单独游玩。<br><br><span style="font-size: 12pt;" class="bbc_size">●关于PC号码</span><br>为了方便记述，各模组中都为PC进行了编号。在作为战役模组游玩时，请务必注意不同模组中的PC号码所对应的人物也不同。此外，请GM在游戏前按照自己对剧情的把握分配文字资料。<br><br><span style="font-size: 14pt;" class="bbc_size">■规制</span><br>战役模组是以所有PC都从模组1开始参加作为前提的。PC们将在团中获得足够的经验点数进行升级。<br>该书所收录的3篇模组全都要用到《MGR》与《MGA》。当然，若GM认为有必要，也可以引入其他拓展规则。<br><br><span style="font-size: 14pt;" class="bbc_size">■追加数据</span><br>除了3篇模组之外，本书还收录了以下追加数据：<br>1.追加人物经历，可在制作人物时使用；<br>2.追加泛用特技，与追加人物经历相对应；<br>3.领主级的追加特技与追加物品;<br>4.进取级的追加物品;<br>5.范例人物：白银之刃Ver.2。<br>其中，仅有范例人物用到了《DGF》、《SOF》的内容，是本书唯一的例外。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791027">
+&#171; <em>上次编辑: 2016-04-23, 周六 11:09:24 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791028"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791028_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791028">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791028#msg791028" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791028'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791028'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2016-04-22, 周五 11:16:15 &#187;</div>
+<div id="msg_791028_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791028"><span style="font-size: 18pt;" class="bbc_size"><strong>模组下载</strong></span><br><br><a href="http://yun.baidu.com/share/link?shareid=1599500178&amp;uk=755618810" class="bbc_link new_win" target="_blank">http://yun.baidu.com/share/link?shareid=1599500178&amp;uk=755618810</a><br>全部文件&gt;钢之守护神RPG&gt;模组&gt;SSS1--MGA<br>总共4个文件，分别是3篇模组以及模组中所使用的敌人数据。该书的模组使用的全是原创的敌人，没有使用基本或上级规则书中的数据。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791028">
+&#171; <em>上次编辑: 2016-04-22, 周五 22:30:49 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791173"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791173_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791173">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791173#msg791173" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791173'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791173'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2016-04-23, 周六 11:13:03 &#187;</div>
+<div id="msg_791173_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791173"><span style="font-size: 18pt;" class="bbc_size"><strong>追加数据的使用方法/追加データの使い方</strong></span><br><em>“连结者，新装备已经送到，请随意运用。望助狩猎一臂之力。”——东云椿</em><br><br><span style="font-size: 16pt;" class="bbc_size">新的力量</span><br>在此对本书收录的追加数据进行解说。<br><br><span style="font-size: 14pt;" class="bbc_size">■新装备</span><br>追加了进取级与领主级的新装备。这些装备必须经过GM的许可才能使用。<br>进取级新装备中的进取级伪装形态能够如同字面一般将机体伪装成地形或天体。只要不进行移动或只按照一定（自然的）轨道移动，该伪装便无法被额外人员看破。与此相对的，从原则上来说，若进行了自发的移动或突入战斗，该伪装将自动视作被看破。<br><br><span style="font-size: 12pt;" class="bbc_size">●[对象：●●Σ]</span><br>跟有“Σ”的对象无法被任何效果附加上“（选择）”，除非使用加护。<br>例：[对象：范围2Σ]。<br><br><span style="font-size: 14pt;" class="bbc_size">■新特技</span><br>该书追加了领主级的新特技，其中包含有数个[种类：选]的特技。<br>在1级时，可以不取得《望见群星者/星を见る者》或《强化人类/强化人间》，而是选择《新时代的预兆/新时代の先触れ》作为代替。取得该特技的人物在升上3级与7级时将不会取得《卡瑞林效应/カレルレンエフェクト》与《卡瑞林效应II/カレルレンエフェクトII》，而是获得以下特技作为代替。<br>3级：《迈进的明日/歩き出した明日》<br>7级：《被托付的大志/讬された志》<br>此外，效果内文中的“BOSS”指的是持有《☆BOSS属性/☆BOSS属性》、《☆中BOSS属性/☆中BOSS属性》，或《☆对手属性/☆ライバル属性》的人物。<br><br><span style="font-size: 14pt;" class="bbc_size">■人物经历</span><br>追加了新的邂逅表和出身表。<br>可以在基本规则书的表格与这些表格间随意选择使用。<br>相应的追加泛用特技具体请参考后文。<br><br><span style="font-size: 12pt;" class="bbc_size">●泛用特技的取得限制</span><br>导入本书之后，能够取得泛用特技便会大大增加。若GM想要防止PC为求得有利数据而大量取得泛用特技弄得人物乱七八糟，可以让其在游戏前选择2种已取得的泛用特技；在团中，将只有这2个特技拥有实际效果。<br>此外，GM有权拒绝玩家取得相互矛盾的泛用特技。反过来说，若玩家能够对于设定矛盾做出合理解释，或觉得将会变成有趣的展开，GM也可以认同这种取得方式。当然，若举棋不定还是直接拒绝为好。<br><br><span style="font-size: 14pt;" class="bbc_size">■范例人物：白银之刃Ver.2</span><br>白银之刃是基本规则书中的范例人物。在其之后发售的拓展追加了许多骑士级的新物品·特技，而白银之刃Ver.2正是使用这些新数据重新构筑的范例人物。在开团时，GM可以随意在原版的白银之刃与Ver.2之间选择；无论选择哪边，都最好事先对玩家进行说明。<br>作为本书的唯一的特例，该范例人物需要使用到《DGF》与《SOF》。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791173">
+&#171; <em>上次编辑: 2016-04-24, 周日 04:51:39 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791177"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791177_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791177">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791177#msg791177" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791177'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791177'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-04-23, 周六 13:24:24 &#187;</div>
+<div id="msg_791177_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791177"><strong><span style="font-size: 18pt;" class="bbc_size">追加邂逅表&amp;追加出身表</span></strong><br><br><span style="font-size: 14pt;" class="bbc_size">●追加邂逅表 D66 ROC</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><table class="bbc_table"><tr><td><strong>投骰结果</strong><td><strong>邂逅</strong><td><strong>对象</strong><td><strong>描述</strong><td><strong>关系</strong></tr><tr><td>00<td>任意<td>任意<td>请设定任意关系·内容。<td>任意</tr><tr><td>11-12<td>恩惠<td>厄里斯·李<td>你认为自己曾给予他极大的恩惠。且不论对方怎么想，你自己对于这件事难以忘怀。<td>恩惠</tr><tr><td><td><td>伊凡·伊修瓦尔<td><td></tr><tr><td><td><td>午夜<td><td></tr><tr><td>13-14<td>亏欠<td>伊凡·伊修瓦尔<td>你认为自己从他那里收到过极大的恩惠。无论对于对方的好恶，你都认为自己应当偿还这份亏欠。至于对方怎么想，那又是另一回事了。<td>亏欠</tr><tr><td><td><td>罗伯特·奥斯瓦尔德 Jr<td><td></tr><tr><td><td><td>弗里达·维罗妮卡<td><td></tr><tr><td>15-16<td>劣等感<td>拉斐尔·周防<td>你对他抱有劣等感。他的存在，他的一举一动，你就算拼命想从脑中抹去，也依然会时不时地想起。<td>劣等感</tr><tr><td><td><td>伊丽莎白·诺伊斯坦<td><td></tr><tr><td><td><td>金刚亮儿<td><td></tr><tr><td>21-22<td>嫉妒<td>拉斐尔·周防<td>你对他抱有嫉妒心。这可能是出于对方的容貌、立场、才能，抑或是与对方因为恋爱而争风吃醋。请随意设定。<td>嫉妒</tr><tr><td><td><td>格奥尔格·舒马赫<td><td></tr><tr><td><td><td>千岁·威尔·那须花<td><td></tr><tr><td>23-24<td>遗志<td>玛格丽特·林<td>你因为某人的遗志而对他抱有好感。至于那究竟是你的义务感还是其他什么所致，请随意设定。<td>遗志</tr><tr><td><td><td>亨德里克·锡根<td><td></tr><tr><td><td><td>千岁·威尔·那须花<td><td></tr><tr><td>25-26<td>铭感<td>库尔特·冯·魏德勒<td>他对你而言就如同是人生的规范一般。其言行在你眼中无一不是教诲。<td>铭感</tr><tr><td><td><td>天城博士<td><td></tr><tr><td><td><td>菲克达·里肯巴克<td><td></tr><tr><td>31-32<td>信赖<td>东云椿<td>你打心底信赖着他。在你看来，就算把自己的一切都托付给他也没有问题。<td>信赖</tr><tr><td><td><td>罗德尼·张<td><td></tr><tr><td><td><td>菲克达·里肯巴克<td><td></tr><tr><td>33-34<td>庇护<td>玛格丽特·林<td>对你而言，他是就算豁出性命也不得不守护的存在。这可能是出于忠义，也可能是出于仁义。<td>庇护</tr><tr><td><td><td>神山贵斗<td><td></tr><tr><td><td><td>远峰早苗<td><td></tr><tr><td>35-36<td>尊敬<td>伊丽莎白·诺伊斯坦<td>你打心底对他的态度与处世之道感到尊敬。在某种程度上，你想要将他的生存方式当作你的人生规范。<td>尊敬</tr><tr><td><td><td>库尔特·冯·魏德勒<td><td></tr><tr><td><td><td>菲克达·里肯巴克<td><td></tr><tr><td>41-42<td>同情<td>拉斐尔·周防<td>你对他的立场、境遇打心底感到同情。这可能是因为你遭遇过同样的境遇而产生了同情心，也可能只是义务感所致。<td>同情</tr><tr><td><td><td>玛格丽特·林<td><td></tr><tr><td><td><td>索菲娅·拉夫<td><td></tr><tr><td>43-44<td>敌忾心<td>埃德加·莫德海姆<td>你无法原谅他，与他不共戴天。具体的理由请随意设定。<td>敌忾心</tr><tr><td><td><td>伊凡·伊修瓦尔<td><td></tr><tr><td><td><td>库尔特·冯·魏德勒<td><td></tr><tr><td>45-46<td>执着<td>埃德加·莫德海姆<td>姑且不论是出于好意还是恶意，你对他十分执着。你无法想象没有他的人生。<td>执着</tr><tr><td><td><td>伊凡·伊修瓦尔<td><td></tr><tr><td><td><td>午夜<td><td></tr><tr><td>51-52<td>恐怖<td>伊丽莎白·诺伊斯坦<td>你对他抱有挥之不去的恐怖心。具体是因为他的力量、权力，还是其他什么，请随意设定。<td>恐怖</tr><tr><td><td><td>迪斯克洛姆将军<td><td></tr><tr><td><td><td>梵加德<td><td></tr><tr><td>53-54<td>肉欲<td>伊丽莎白·诺伊斯坦<td>你对他抱有肉欲。将他变为自己的所有之物，这便是你的生存目的。<td>肉欲</tr><tr><td><td><td>罗伯特·奥斯瓦尔德 Jr<td><td></tr><tr><td><td><td>东云椿<td><td></tr><tr><td>55-56<td>复仇心<td>午夜<td>你发誓向他复仇。他或许是你双亲的敌人、你师长的敌人，也或许只是你自己的敌人。不论如何，你都认为自己必须报仇雪恨。复仇便是你生存于世的意义。<td>复仇心</tr><tr><td><td><td>库尔特·冯·魏德勒<td><td></tr><tr><td><td><td>迪斯克洛姆将军<td><td></tr><tr><td>61-62<td>连带感<td>伊丽莎白·诺伊斯坦<td>你对他抱有同志一般的连带感。说不定你们的价值观从根本上就相差甚远，但即便如此，你也依然对他抱有连带感。<td>连带感</tr><tr><td><td><td>罗伯特·奥斯瓦尔德 Jr<td><td></tr><tr><td>63-64<td>有用<td>罗伯特·奥斯瓦尔德 Jr<td>你认为他有利用价值。若充分利用他的力量，应该便能够达到你的目的。<td>有用</tr><tr><td><td><td>厄里斯·李<td><td></tr><tr><td><td><td>伊凡·伊修瓦尔<td><td></tr><tr><td>65-66<td>好奇心<td>东云椿<td>你对他抱有好奇心。不知怎的，你觉得自己想要更多地知道他的事情。<td>好奇心</tr><tr><td><td><td>拉斐尔·周防<td><td></tr></table></div></div></div><br><span style="font-size: 14pt;" class="bbc_size">●追加出身表 D66 ROC</span><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><table class="bbc_table"><tr><td><strong>投骰结果</strong><td><strong>出身</strong><td><strong>描述</strong><td><strong>取得特技</strong></tr><tr><td>00<td>GM任意决定<td>GM与玩家讨论决定。<td>GM任意决定</tr><tr><td>11<td>机械改造人<td>你因为某种理由而将身体的一部分改造为机械。这既有可能是因为生理障碍或负伤，也可能只是进一步追求战斗能力的结果。<td>电子化改造</tr><tr><td>12<td>完全机械人<td>你除了脑髓以外都完全换装成机械，可以说是极度稀少的存在。尽管你确实是人类，但周围的人或许仍将你看作机械。<td>完全义体</tr><tr><td>13<td>世界的破坏者<td>你的父亲（或母亲）是涂炭世界的大罪人。你自出生起便背负着这份罪孽。至于周围人是否知道这一点，请随意设定。<td>罪孽的烙印</tr><tr><td>14<td>来自木星<td>你在木星出生长大，而后回归地球。地球上的人们大概无法理解你在木星的体验吧。<td>木星人</tr><tr><td>15<td>火星人<td>你出生长大在拓殖中的火星。横断星球的巨大水手峡谷、贯穿天际的奥林帕斯山，这便是你的故乡。<td>火星人</tr><tr><td>16<td>技术者<td>你的父亲或母亲是守护神技术者。至于其究竟是军方或企业的人，还是无所属的天才发明家，请自己随意设定。<td>技术者的血统</tr><tr><td>21<td>观星者<td>你的双亲（或其中一方）是新人类观星者。至于你自己怎样看待这件事实，以及你是否继承了同样的力量（包括特技的取得与否在内），请随意决定。<td>群星的呼唤声</tr><tr><td>22<td>特拉尼西亚<td>你们一族是秘密结社特拉尼西亚的中枢干部。为了继承特拉尼西亚的伟大目标，你也自小受到相关的教育。<td>特拉尼西亚的睿智</tr><tr><td>23<td>天涯孤独<td>你自幼便独自一人。朋友也好、家人也好、温暖的家庭也好，这些都与你无缘。<td>孤独的灵魂</tr><tr><td>24<td>丧失<td>你丧失了幸福生活的一切。这既有可能是因为战争，也有可能是因为恐怖袭击。不论如何，这份经历都令你变得坚强。<td>丧失的疤痕</tr><tr><td>25<td>军人<td>你们家代代都是军人，说不定从第一次大战的时代起便是如此。对你来说，为和平而战是再自然不过的事情。<td>战人之血</tr><tr><td>26<td>长大在战场<td>你出生长大于地狱一般的战场。以枪代替玩具，以战场代替学校，这些对你来说都是再自然不过的事情。<td>战场的记忆</tr><tr><td>31<td>猎人<td>你作为猎人被培养长大，自小纵横于山野，狩猎危险的野兽与凶暴化的无人兵器。尽管并非战争的专家，但你却是生存的专家。<td>狩猎者</tr><tr><td>32<td>特技飞行员<td>你出生自表演特技飞行的马戏团或特技飞行队家族。并非为了战斗，而是用飞行给人带来欢笑，这便是你的骄傲。<td>特技飞行</tr><tr><td>33<td>忍者<td>你出生自出云等地自古传承的忍者家族。忍者确实存在，世间的人是否承认并不要紧。<td>忍者之魂</tr><tr><td>34<td>拉夫帝国<td>你出生于拉夫帝国（正确来说应当是建国前的艾尔西亚）。然而，你舍弃了故乡，现在正作为Fortune的一员进行战斗。<td>帝国子民</tr><tr><td>35<td>月面居住者<td>你出生在月面，这件事就算放眼全地球圈也十分稀奇。你是仰望着地球长大的。<td>月球人</tr><tr><td>36<td>毁灭的故乡<td>你的故乡因为恐龙王国希柏里尔的侵略而遭到压制。<td>屠龙者</tr><tr><td>41<td>背叛者<td>你背叛了自己的故乡——比如说希柏里尔、拉夫、帕提亚——来到了现在的所在。与周围人的关系请与GM商谈决定。<td>背叛的烙印</tr><tr><td>42<td>混血<td>你是人类与其他智慧生命体（恐龙人类、帕提亚人等）的混血。至于你自己是怎样看待这件事实的，请随意决定。<td>混血</tr><tr><td>43<td>睡美人<td>你出生于第一次大战或是更久以前，因为冷冻睡眠而在现代觉醒。至于你具体知道多少关于过去世界的知识，请与GM商谈决定。<td>过去的记忆</tr><tr><td>44<td>贫困<td>你出生于贫困家庭。其他年轻人理所当然就能入手的东西对你而言遥不可及。<td>生机勃勃</tr><tr><td>45<td>堕落的家族<td>你的家人舍弃了你。而后，为了毁灭这个世界，你投身于Destiny这样的秘密结社之中。<td>堕落的耳语</tr><tr><td>46<td>宇宙人之血<td>你们一族的祖先是在遥远过去漂流到地球的宇宙人。至于你自己是否知道这一点，请随意设定。<td>宇宙人之血</tr><tr><td>51<td>被检体<td>你因为父亲或母亲而成为了非人道实验的素材。虽然活了下来，但这却对你的心灵造成了极大的创伤。<td>被检体</tr><tr><td>52<td>冰冷的家庭<td>你所长大的家庭虽然富裕但却丝毫没有温暖。违背人伦、漠不关心、傲慢，构成你的家庭的尽是这些东西。<td>冰冷的心</tr><tr><td>53<td>失落的王族<td>你虽然出生自某处的王室或贵族家庭，但却因为某种理由而被隐藏起身份抚养长大。至于你自己是否知道这一点，请随意设定。<td>失落的王族</tr><tr><td>54<td>邪教的信徒<td>你们一族是邪恶秘密结社的一族，崇拜奈落或者邪神。你在那里作为人类的敌人被抚养长大，而后逃出了那里。<td>邪神知识</tr><tr><td>55<td>专长<td>为了令你作为连结者拯救人类，你的父母从小就开始锻炼你。就算是现在，你也依然无法参透父母为何这么做。<td>连结者意识</tr><tr><td>56<td>艺术家<td>你们家是从事唱歌、跳舞，或是歌舞伎一类职业的艺术家庭。你自小便受到艺术方面的耳濡目染。<td>文娱技艺</tr><tr><td>61<td>潜入工作员<td>你是出生自帕提亚骑士家族的异星人，为了将来的侵略行动而被送往地球成长。然而，你现在已经舍弃了帕提亚。<td>骑士的血统</tr><tr><td>62<td>西部大陆<td>你出生于因战争而一片荒芜的大地。那里是无法无天的荒野地带。枪便是你所相信的道德，钢铁才是值得依赖之物。<td>荒野之魂</tr><tr><td>63<td>疯狂科学家<td>你的家族成员是疯狂的科学家。至于你自己是怎样看待这件事实的，请随意决定。<td>科学知识</tr><tr><td>64<td>英雄之子<td>你的家族成员是传说中的超级英雄，曾多次拯救过世界。<td>英雄的一族</tr><tr><td>65<td>犯罪<td>你们家是职业犯罪者。既有可能是传说中的怪盗一族，也有可能是地痞流氓或黑手党。<td>黑钱</tr><tr><td>66<td>玩家任意决定<td>玩家任意决定背景设定。不要忘记与GM商谈。<td>任意符合背景的泛用特技</tr></table></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791177">
+&#171; <em>上次编辑: 2016-04-24, 周日 06:18:48 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791545"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791545_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791545">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791545#msg791545" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791545'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791545'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-04-24, 周日 05:58:41 &#187;</div>
+<div id="msg_791545_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791545"><strong><span style="font-size: 18pt;" class="bbc_size">追加泛用特技</span></strong><br>在此介绍与追加出身表相对应的泛用特技。必须经过GM许可才能取得这些特技。<br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">电子化改造/サイバネティックス<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你肉体的一部分接受过半机械改造强化，变得更加有利于战斗。<br>取得《完全义体/完全义体》、《人机融合体/人机融合体》的人物无法取得该特技。你不搭乘载具或守护神时，防御修正得到以下补正：斩+8/刺+4/殴+6。此外，你所常备化的“空手”攻击力+2。<br><span style="color: white;" class="bbc_color">サイバネティックス（cybernetics）的原意是控制论，因为怎么看怎么不搭所以直接根据描述另外取了个译名。</span><br><br>完全义体/完全义体<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：除去大脑的一部分以外，你的肉体全都被改造成机械。至于这件事是否能从外表上看出，请随意设定。此外，维护这具躯体自然需要相应的开销。<br>取得《电子化改造/サイバネティックス》、《人机融合体/人机融合体》的人物无法取得该特技。你的【耐久力】+6，游戏前能够得到的财产点数-1（最低0）。<br><br>罪孽的烙印/罪の烙印<br>等级：1<br>种类：-<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：你继承了毁灭世界的灾厄之种。<br>在伤害投掷后立刻使用。该次伤害+Y，你失去Y点【HP】。每模组可以使用一次。Y=你的人物等级。<br><br>木星人/ジュピトリアン<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：木星圈极端残酷的高重力环境培养了你异于他人的超常感觉。<br>你进行【知觉】判定时暴击值-1（下限值10）。<br><br>火星人/マーシアン<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是从事火星拓殖工作的勇敢开拓民。无论怎样的逆境，你都能将其变为机遇。<br>在你受到负面状态的时点使用。你的【HP】回复3点。每轮可以使用一次。<br><br>技术者的血统/技术者の血统<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：你运用传承而来的技术对爱机进行了调整。<br>在游戏前选择一架你所常备化的载具或守护神，令其【力场值】-3/【行动值】+1，亦或是【力场值】+3/【行动值】-1。当然，也可以不进行任何改变。<br><br>群星的呼唤声/星の呼び声<br>等级：1<br>种类：-<br>时点：即将进行判定时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有成为观星者的先兆，有时能够发挥出超能力者一般的预读能力。<br>在即将进行判定时使用。该次判定暴击值-1（下限值11）。每模组可以使用一次。<br><br>特拉尼西亚的睿智/テラネシアの叡智<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有特拉尼西亚上级部层的知识。你知道某些常人所不知道的事情。<br>你在进行与特拉尼西亚及奈落兽有关的情报收集判定时，达成值+2。<br><br>孤独的灵魂/孤独な魂<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：无论在何种状况下你都能独自继续战斗。<br>仅在场景内没有其他我方人物（额外人员除外）时，该特技有效。你使用【战斗值】进行判定时，暴击值-1（下限值10）。<br><br>丧失的疤痕/丧失の疵痕<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在逆境中变得坚强。你拥有即便失去重要的东西也能再度奋起的强大。<br>你界限突破时能够回复的【FP】或【HP】，数值+【意志】点。<br><br>战人之血/戦人の血<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你出生于军人之家，因此擅长杀人的技巧。<br>你依靠人类用武装进行射击攻击时，伤害+【反射】点。<br><br>战场的记忆/戦场の记忆<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你从残酷的战场上幸存下来，练就了几乎能够说是异样的反射神经。<br>你不搭乘载具或守护神时，【回避值】+1，【行动值】+2。<br><br>狩猎者/狩猟者<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你生为猎人，擅长使用狙击枪击杀他人。<br>你使用[种类：步枪]的武装进行攻击时，伤害+【反射】点。此外，你使用[种类：狙击]的武装进行攻击时，伤害+2。<br><br>特技飞行/曲芸飞行<br>等级：1<br>种类：-<br>时点：回避判定后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：你擅长在飞行中使用杂技一般的动作重整体势。<br>飞行状态中，在你防御判定成功之后立刻使用。你的【HP】回复【意志】点。每模组可以使用一次。<br><br>忍者之魂/ニンジャソウル<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：身为忍者，你依靠非人的修行练就了令人惊异的身体能力。<br>你进行【反射】判定时，暴击值-1（下限值10）。<br><br>帝国子民/帝国の民<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你逃走自拉夫帝国、Destiny，亦或是帝国的占领地，并且加入了Fortune。<br>你在进行与拉夫帝国及Destiny有关的情报收集判定时，达成值+2。<br><br>月球人/ルナリアン<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你出生长大在重力仅有六分之一G的月球，虽然受到人工重力的辅助，但肉体还是比地球人更加脆弱。与此相对，你拥有奇妙的直感。<br>你的【耐久力】-2，【行动值】+1。<br><br>屠龙者/竜杀し<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：你对希柏里尔抱有强烈的憎恶。<br>你对恐龙人类以及装甲恐龙造成的伤害+【意志】点。对象是否是恐龙人类（以及你是否知道）由GM进行判断。<br><span style="color: white;" class="bbc_color">这个时点看起来像常时，不知道是不是写错了。</span><br><br>背叛的烙印/里切りの烙印<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是敌对组织的背叛者。虽然能够得到丰富的情报，但你也树了不少敌人。<br>取得时选择一个组织·国家。你在进行与该组织·国家有关的情报收集判定时，达成值+3。此外，你进行任何情报收集判定时，大失败值+2。<br><br>混血/ハイブリッド<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是人类与其他智慧种族——比如恐龙人类、帕提亚、金属生命、兽人、深潜者——的混血。<br>你的【耐久力】+1。<br><br>过去的记忆/过去の记忆<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你自第一次大战之前便开始冷冻睡眠，可以说是来自过去的旅人。<br>你在进行与第一次大战前的世界有关的情报收集判定时，达成值+2。<br><br>生机勃勃/バイタリティ<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在贫困的深渊之中能够爆发出惊人的战力。<br>你的财产点数在0以下时，【攻击力】+2。<br><br>堕落的耳语/堕落の嗫き<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：你受到了暗黑力量的诱惑。那既能给予你力量，也会将你引向破灭的道路。<br>在你判定大失败的时点使用。该次判定结果变更为暴击，你失去[2Y]点【HP】。每模组可以使用一次。Y=你的人物等级。<br><br>宇宙人之血/宇宙人の血<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你体内流有宇宙人的血脉。既可以是帕提亚这样已知的宇宙人，也可以是你自己原创的外星种族。<br>你进行【体力】判定时，暴击值-1（下限值10）。<br><br>被检体/被検体<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你接受过危险的实验，身体·精神变得极不平衡。<br>选择两项【能力基本值】，其中一项+2，另外一项-2。但是，若会使其降至0以下，则不能选择。<br><br>冰冷的心/冷めた心<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在没有丝毫温暖的环境中长大，对于残酷的状况、讽刺、责骂等拥有耐性。<br>当你受到重压时，若给予者并非自己或我方人物，则【HP】回复[2Y]点。Y=你的人物等级。<br><br>失落的王族/ロストロイヤル<br>等级：1<br>种类：-<br>时点：正文<br>对象：单体☆<br>射程：视界<br>代价：无<br>效果：你出生自已经消逝的王族或贵族。你拥有能够证明自己身份的物品，只要让周围人看到，他们便会理解你的身世。<br>随时可以使用。令对象知道你。具体关系请与GM商谈决定。GM有权驳回此特技的使用；若是如此，则不消耗使用次数。每模组可以使用一次。<br><br>邪神知识/邪神知识<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你通晓邪神教团、邪神、可怖的侍奉种族、仪式等。<br>你在进行与邪神及奈落教团有关的情报收集判定时，达成值+2。<br><br>连结者意识/リンケージセンス<br>等级：1<br>种类：-<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：因为从小受到与连结者相关的教育，你与守护神的亲和性高于常人。<br>在游戏前选择一架你所常备化的守护神，其【攻击力】+1。<br><br>文娱技艺/艺事<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在艺术分野有所长处，像是流行乐、摇滚、歌舞伎、芭蕾、舞蹈等。<br>取得时选择一项艺术分野，像是《文娱技艺：钢琴/艺事：ピアノ》这样记述。你在进行与所选分野有关的判定·情报收集判定时，达成值+2。使用【战斗值】的判定除外。<br><br>骑士的血统/骑士の血统<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你继承了帕提亚骑士的血统，拥有超越常人的强大。你的一击能够分裂大地，斩断钢铁。<br>你依靠人类用武装进行白刃攻击时，伤害+【体力】点。<br><br>荒野之魂/荒野の魂<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：为了在残酷的西部大陆生存下来，你对机体进行了增设装甲的强行改造。当然，你也有可能只是单纯依靠自己的毅力变得顽强。<br>在游戏前选择一架你所常备化的载具或守护神，其一个属性的防御修正+3。但是，只能选择防御修正本来就在+1以上的属性。<br><br>科学知识/科学知识<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的家人是疯狂的科学家。从小受其耳濡目染，你也了解了不少科学方面的知识。<br>你在进行与科学知识有关的情报收集判定时，达成值+2。<br><br>英雄的一族/英雄の一族<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你与某位英雄有血缘关系。<br>得到GM的许可之后，你可以与一名人物缔结关系。该人物关系必须为[家人]，且自动常备化。<br><br>黑钱/ブラックマネー<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你拥有大量依靠见不得人的手段获得的财产。<br>你在游戏前能够得到的财产点数+1d6。但是，你在情报收集判定时若发生大失败，你的财产点数将当场清零。</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791545">
+&#171; <em>上次编辑: 2016-04-24, 周日 22:56:32 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg791585"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_791585_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_791585">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg791585#msg791585" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_791585'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_791585'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2016-04-24, 周日 13:58:55 &#187;</div>
+<div id="msg_791585_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_791585"><strong><span style="font-size: 18pt;" class="bbc_size">类别资料：领主级/クラスデータ：オーバーロード</span></strong><br>在此介绍17种领主级的追加特技。<br>取得《微波接收/マイクロウェーブ受信》之后，每模组只能使用一个卫星加农炮（就算常备化了复数个卫星加农炮也只能使用其中一个）。<br>取得《不会重蹈复辙/过ちを缲り返させない》之后，虽然能够装备并使用●米勒斯炎之座，但必须要先将其常备化才行；并且，你也必须正常消耗一个装备部位（远副）来装备●米勒斯炎之座。<br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">新时代的预兆/新时代の先触れ<br>等级：1<br>种类：选<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你被奇妙的命运所引导。就算不是观星者，你也能够成为领主级的连结者。<br>取得《AS/AS（アーティフィシャルスターゲイザー）》、《观星者/スターゲイザー》的人物无法取得该特技，并且取得该特技后也无法取得上述两个特技。你无法装备·使用[种类：觉醒]的武装。此外，你的【耐久力】+10，且不会受到憎恶与重压。<br><br>突击炎之座/アサルトイグニス<br>等级：1<br>种类：操、命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：4HP<br>效果：令攻击终端炎之座进行一定程度的自律行动。你将跟在它之后发起攻击，或令其的进攻与自己的攻击产生时间差。<br>对对象使用装备在主武装的近距离武装进行近距离攻击。该次攻击的伤害+[你所装备的一件[种类：炮击（光束/觉醒）]的武装的攻击力]。该特技视作复数武装使用系特技（详情见MGR）。<br><br>可能性之兽/可能性の獣<br>等级：1<br>种类：操<br>时点：投骰后立刻<br>对象：自身<br>射程：无<br>代价：6HP<br>效果：你是可能性的化身，能够超越现实看到未来。<br>拥有强袭者以外的连结者类别的人物无法取得该特技。在投掷骰子后立刻使用（既可以是判定也可以是伤害投掷）。将其中一个骰子的出目从1修改成6。取得该特技后，你将无法装备·使用[种类：觉醒]的武装。每轮可以使用一次。<br><span style="color: white;" class="bbc_color">注意只能改点数是1的骰子。</span><br><br>星空的叹息/星空の叹き<br>等级：1<br>种类：操<br>时点：即将进行次要动作时<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：你能够听见他人所无法听见的声音，这其中便包括星空的叹息声。那是对于人们的愚昧的叹息。<br>不取得《望见群星者/星を见る者》或《强化人类/强化人间》的话无法取得该特技。该主步骤中，你使用[种类：炮击（觉醒）]的武装进行攻击时，伤害+2d6。若你的类别等级在6以上，则伤害再+X；若你的类别等级在11以上，则伤害进一步+X。X=你的类别等级。<br><br>微波接收/マイクロウェーブ受信<br>等级：1<br>种类：机<br>时点：正文<br>对象：自身<br>射程：无<br>代价：10HP<br>效果：通过卫星系统更加精密地接受能量照射。<br>不取得《新时代的预兆/新时代の先触れ》的话无法取得该特技。在你通过卫星系统的效果回复【EN】时使用。该主步骤中，你使用卫星加农炮进行攻击时，伤害+5d6，属性变更为&lt;神&gt;，对象无法被加护以外的效果变更。<br>取得该特技后，你每模组只能使用一个卫星加农炮（就算常备化了复数个卫星加农炮也只能使用其中一个）。<br><br>历史的见证人/歴史の立会人<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你虽然是被称为天才的人种，但也知道自己并非历史的主角。<br>所持类别中包含强袭者的人物无法取得该特技。你的【行动值】+6，【回避值】与【防壁值】各+2。此外，你所取得的《歼灭爆风/スウィープブラスト》效果+2d6。你无法装备·使用[种类：觉醒]的武装。<br><br>予你力量……/あなたに力を…<br>等级：2<br>种类：机<br>时点：正文<br>对象：自身<br>射程：无<br>代价：无<br>效果：来自重要之人的心意，令你觉醒强大的力量。<br>在你即将使用《微波接收/マイクロウェーブ受信》时使用。该主步骤中，你使用卫星加农炮进行攻击时，为命中判定附加《海姆达尔/ヘイムダル》的效果。但是你将失去[3Y]点【HP】。Y=你的人物等级。<br><br>展开式多联装护盾重粒子炮/展开式多连装シールド重粒子砲<br>等级：2<br>种类：机、命、伤<br>时点：主要动作<br>对象：范围2（选择）<br>射程：1~3<br>代价：20EN<br>效果：使用搭载在护盾上的展开式多联装重粒子炮进行攻击。<br>该特技仅在你能够使用名称带有“护盾/シールド”且[种类：防]的特技时才能使用。对对象进行[攻击力：&lt;光&gt;+8]的射击攻击。若你处于界限突破状态，则伤害再+6d6。此外，若你无法装备[种类：觉醒]的武装，则战斗移动的【移动力】常时+1（全力移动的【移动力】+2）。<br><br>陨星破碎/メテオブレイカー<br>等级：2<br>种类：机、炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：6EN<br>效果：利用OVL系统带来的优越管制能力，释放就连陨石也能打碎的高精度炮击。<br>对对象使用炮击武装进行远距离攻击。然而，此时不能使用[种类：炮击（觉醒）]的武装。该次伤害+2d6。若使用的是领主级的武装，则伤害再+1d6。<br><br>炎之座精确操控/イグニスプレシジョン<br>等级：2<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：使用炎之座进行正确无比的攻击或反击以驱逐敌人。<br>若你使用[种类：炮击（觉醒）]的武装进行命中判定并暴击，则该次攻击能够无视对象的防御修正；在此基础上，若该次攻击属性为&lt;神&gt;，则伤害再+2d6。此外，若你装备了●炎之座并在命中判定时暴击，则施加攻击的人物变为操纵不能（该效果对BOSS无效）；对方可以消耗5点【HP】来使该效果无效。<br><br>迈进的明日/歩き出した明日<br>等级：3<br>种类：选、机<br>时点：正文<br>对象：自身<br>射程：无<br>代价：12EN<br>效果：怀抱着向明日迈进的决意甩开敌人。<br>不取得《新时代的预兆/新时代の先触れ》的话无法取得该特技。可在以下时点使用：即将进行移动动作时、主要动作后立刻、反应动作后立刻。进行脱离移动。此时可以无视封锁。此外，该脱离移动不会妨碍你进行远距离攻击，也不会导致你行动终了。每轮可以使用一次。<br><br>被托付的大志/讬された志<br>等级：7<br>种类：选、机<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：20EN<br>效果：你继承了先人克服“为和平而战”这一矛盾的大志，并被授予二联装卫星加农炮。<br>不取得《新时代的预兆/新时代の先触れ》的话无法取得该特技。该主步骤中，你使用卫星加农炮时对象变更为[对象：5幅直线10（选择）]。<br><br>ALTIMA炎之座/ALTIMAイグニス<br>等级：10<br>种类：机、增、防<br>时点：正文<br>对象：自身<br>射程：无<br>代价：15EN<br>效果：将所有ALTIMA制成的无人之物当作炎之座支配操纵。<br>不取得《可能性之兽/可能性の獣》的话无法取得该特技。在判定或伤害投掷后立刻使用。从以下效果中选择一项发动：该次判定的达成值+4、该次伤害投掷+[2X]、你（预定要）受到的伤害减轻[3d6+2X]点。每轮可以使用一次。X=你的类别等级。<br><br>卡瑞林结晶/カレルレンクリスタル<br>等级：11<br>种类：机<br>时点：正文<br>对象：自身<br>射程：无<br>代价：加护<br>效果：卡瑞林效应所引起的发光现象不再只对光线产生影响，而是拥有物理层面的力量。这份力量几乎与物质具现化无二。<br>仅在《卡瑞林效应/カレルレンエフェクト》发动效果的时点才能使用。《卡瑞林效应/カレルレンエフェクト》效果适用中，你所装备的[种类：机拳]的武装攻击力+X，且你所给予的所有伤害变更为&lt;神&gt;属性。X=你的类别等级。<br><br>可能性力场/ポシビリティフィールド<br>等级：13<br>种类：机<br>时点：伤害投掷后立刻<br>对象：正文<br>射程：正文<br>代价：50EN<br>效果：通过ALTIMA与OVL系统引发奇迹，将所有的破坏抑制在最小限度。<br>不取得《可能性之兽/可能性の獣》的话无法取得该特技。在场景内发生伤害投掷后立刻使用。该次伤害投掷的结果变为0。该效果视作加护，因此可以被《奥丁/オーディン》打消。每模组可以使用一次。<br><br>不会重蹈复辙/过ちを缲り返させない<br>等级：15<br>种类：机、炮<br>时点：主要动作<br>对象：单体☆<br>射程：装备<br>代价：10EN<br>效果：背负过去的罪孽，展望崭新的未来，这份意志令你敢于扣下扳机造成巨大的破坏。<br>不取得《新时代的预兆/新时代の先触れ》的话无法取得该特技。取得该特技后，你将变得能够装备·使用●米勒斯炎之座。使用卫星加农炮进行远距离攻击，伤害+[10d6+2X]。X=你的类别等级。<br><br>相信名为可能性的神明/可能性という神を信じて<br>等级：17<br>种类：机<br>时点：随时<br>对象：正文<br>射程：正文<br>代价：加护<br>效果：通过ALTIMA与OVL系统引发奇迹，将周围一带机体的动力全部停止。<br>不取得《可能性之兽/可能性の獣》的话无法取得该特技。仅在《卡瑞林效应/カレルレンエフェクト》效果适用中才能使用。在场景内任意选择对象，将他们全都变为操纵不能状态。但是，对象可以消耗5点【HP】或一个加护来使自己不受该特技影响。此外，该特技对BOSS以及界限突破状态下的人物无效。</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_791585">
+&#171; <em>上次编辑: 2016-04-29, 周五 03:44:52 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg792169"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_792169_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_792169">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg792169#msg792169" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_792169'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_792169'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-04-28, 周四 10:57:42 &#187;</div>
+<div id="msg_792169_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_792169"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：领主级/アイテムデータ：オーバーロード</strong></span><br>在此介绍领主级专用的物品。这些物品只有获得了领主级类别的角色才能够入手、常备化。<br>另外，若取得《新时代的预兆/新时代の先触れ》，将无法取得卡瑞林共鸣器。<br>再者，因SLD系统的效果而得到的憎恶状态将持续到那名观星者人物从场景中退场为止。<br><br>领主级高机动飞翔型/オーバーロード级高机动飞翔型<br>种类：守护神（领主级）<br>命中：+2<br>回避：±0<br>炮击：+2<br>防壁：+2<br>行动：±0<br>力场：+15<br>感应：+9<br>攻击力：+4<br>固定武装：机械手<br>移动力：3<br>体型：L<br>防御修正（斩/刺/殴/炎）：12/6/8/8<br>购入难易度：-/-<br>解说：高速飞行型大型领主级。装备中获得飞行状态，并且●导弹炎之座的攻击力+4。<br><br>CAL噩兆剑/CALシニスター<br>种类：白刃（光束）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+[【反射】+1]<br>射程：0<br>部位：副<br>代价：4EN<br>购入难易度：-/3<br>解说：与超震动爪同时运用的光束军刀。必须装备超震动爪才能装备。用于《双重武装/ツインアームズ》时伤害+2D6点。该武装不受●剑刃炎之座的效果影响。<br><br>CAL双光束拐/CALツインビームトンファー<br>种类：白刃（光束）<br>命中：±0<br>回避：+1<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+[【反射】-2]<br>射程：0<br>部位：副<br>代价：2EN<br>购入难易度：-/5<br>解说：装备于双腕的近距离防御武装。《卡瑞林效应/カレルレンエフェクト》效果适用中，使用该武装攻击时，SLD核心的伤害提升量再+2D6。该武装不受●剑刃炎之座的效果影响。<br><br>OVL光束标枪/OVLビームジャベリン<br>种类：白刃（光束）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：-<br>副攻击力：&lt;光&gt;+[【反射】+7]<br>射程：0<br>部位：副<br>代价：4EN<br>购入难易度：-/10<br>解说：领主级用大型光束白刃武装。也有斧枪型与长枪型。该武装不受●剑刃炎之座的效果影响，也无法用于《双重武装/ツインアームズ》。<br><br>复合火箭筒/コンポジットバズーカ<br>种类：炮击（火箭筒）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：&lt;炎&gt;+10<br>副攻击力：&lt;炎&gt;+10<br>射程：3～4<br>部位：主/副<br>代价：弹数1<br>购入难易度：-/15<br>解说：能够与导弹同时搭载的复合式实弹火箭筒。装备中，可以把人物卡上的两个[其他]栏当作[远距离副武装]栏使用，但只能用来装备[种类：导弹]的武装。[弹数：3]。<br><span style="color: white;" class="bbc_color">注意一下人物卡上的两个[其他]栏和物品资料中的[种类：其他]不是一回事。[其他]栏是用来记录特技等产生的战斗值修正，而[种类：其他]只是表示该物品无法装备且不装备也能发动效果。换言之，这个物品的效果说白了只是给你追加两个导弹用的武装位，并没有产生任何负面影响。</span><br><br>OVL全兵装组件/OVLフルアーマメントオプション<br>种类：附加组件<br>命中：+2<br>回避：-3<br>炮击：+2<br>防壁：+4<br>行动：-6<br>力场：±0<br>感应：+15<br>攻击力：+5<br>移动力：+1<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/200<br>解说：附加大型推进器与燃料罐，提升机体速度与战斗时间的附加组件。拥有强袭者以外的连结者类别的人物无法持有该物品。必须取得《可能性之兽/可能性の獣》才能装备该物品。装备中获得高机动状态。<br><br>智能系统：R/スマートシステム：R<br>种类：辅助<br>时机：次要动作<br>购入难易度：-/1<br>解说：安装了展开式光束智能枪专用的特殊瞄准程序与出力调整机构。将光束以螺旋长带状射出，击破轨道上的敌人。<br>使用该物品的效果是一个次要动作，且需要额外消耗[代价：6EN]，该消耗视作代价处理。该主步骤中，展开式光束智能枪的射程变更为[射程：0]，对象变更为[对象：直线6（选择）]。<br><br>智能系统：S/スマートシステム：S<br>种类：辅助<br>时机：次要动作<br>购入难易度：-/1<br>解说：安装了特殊的瞄准程序与出力调整机构。能使光束长带沿着复杂的轨道射出。<br>使用该物品的效果是一个次要动作，且需要额外消耗[代价：6EN]，该消耗视作代价处理。该主步骤中，展开式光束智能枪的射程变更为[射程：2～5]，对象变更为[对象：范围2（选择）]。<br><br>SLD系统/SLDシステム<br>种类：辅助<br>时机：主步骤开始时<br>购入难易度：-/1<br>解说：用于抹杀观星者的特殊OVL系统。为了隐藏真正的含义，通常只用SLD来称呼。<br>必须取得《卡瑞林效应/カレルレンエフェクト》才能使用该物品。你任意选择场景内一名观星者人物，视作被他给予憎恶状态。在因此而处于憎恶状态的期间，《卡瑞林效应/カレルレンエフェクト》的效果将作用于你，即使你没有界限突破。<br>因该物品的效果而得到的憎恶状态将持续到那名观星者人物从场景中退场为止。<br><span style="color: white;" class="bbc_color">SLD的注音：スターレスドライブ（StarLess Drive/星灭驱动）。<br><del>出于好心的</del>提示：SLD还可以是什么的缩写呢？</span><br><br>SLD核心/SLDコア<br>种类：其他<br>购入难易度：-/1<br>解说：可以说是SLD系统之核心的程序。如同噩梦的产物一般，能够将连结者变为杀戮机器。<br>必须取得SLD系统才能取得该物品。《卡瑞林效应/カレルレンエフェクト》效果适用期间，你所给予的伤害+2d6；在此基础上，若你没有强袭者以外的连结者类别，你所给予的伤害再+10。但是，在你因为SLD系统的效果而陷入憎恶状态的期间，你还得承受侵蚀[Y/2（小数进位）]。Y=你的人物等级。<br><span style="color: white;" class="bbc_color">同上。</span><br><br>OVL震啸单元/OVLハワリングユニット<br>种类：其他<br>购入难易度：-/2<br>解说：如同金色鬃毛一般的辅助OVL系统。能够引出强化人类的凶暴性，同时还能给予特定武装平衡补正。<br>必须取得《强化人类/强化人间》，该物品才会生效。若你同时装备CAL噩兆剑与展开式光束智能枪，则展开式光束智能枪的数据变更为[回避：±0][防壁：±0]。此外，在你因为SLD系统的效果而陷入憎恶状态的期间，你所给予的伤害+2d6。<br><br>卡瑞林共鸣器/カレルレンレゾネイター<br>种类：其他<br>购入难易度：-/3<br>解说：强制发生卡瑞林效应的系统。能够与SLD系统并用。<br>无关类别等级，你获得《卡瑞林效应/カレルレンエフェクト》。但是，直到类别等级升至3为止，你只能依靠SLD系统来使用《卡瑞林效应/カレルレンエフェクト》的效果。此外，就算升上3级，你也不能另外取得一个特技来代替《卡瑞林效应/カレルレンエフェクト》。<br><span style="color: white;" class="bbc_color">在正常的情况下，升上3级时除了手动自选一个特技取得之外，还会自动获得[种类：自]的《卡瑞林效应/カレルレンエフェクト》。但是，该物品能使人物更早地取得《卡瑞林效应/カレルレンエフェクト》，使他在3级时失去自动获得特技的机会。按照个人理解，这里的意思应该是说就算失去自动获得的机会，也不能够另选一个特技作为替代，但是那个手动自选的特技依旧能够取得。换句话说，这个物品只能使人物更早取得特技，而无法使人物多取得特技；同时，它也不会使人物少取得特技。<br>暂时处理为该物品对于取得了《新时代的预兆/新时代の先触れ》的人无效。</span><br><br>OVL兵装/OVLアーマメント<br>种类：其他<br>购入难易度：-/2<br>解说：特殊的演算辅助系统，能够通过OVL系统直接控制特定武装。<br>你只能持有一件该物品。在游戏前选择一件你所持有的武装。该武装视作[种类：觉醒]，且不受其他物品（如●炎之座）[不能与其他[种类：觉醒]的武装同时装备]的内文影响。<br><br>马格南FCS/マグナムFCS<br>种类：其他<br>购入难易度：-/3<br>解说：领主马格南专用的特殊火控系统。虽然能令难以使用的领主马格南变得稍微好用一点，但没有才能的话依然无法驾驭。<br>必须取得《可能性之兽/可能性の獣》，该物品才会生效。你所装备的领主马格南攻击力+【知觉】点，射程变更为[射程：2~4]，对象变更为[对象；范围2Σ]。<br><br>FOCS/FOCS<br>种类：其他<br>购入难易度：-/5<br>解说：通过OVL系统，使驾驶员能够纯粹利用脑波操控机体的系统。但是，该系统无法运用于炎之座。<br>持有该物品时，你无法装备[种类：觉醒]的武装。此外，你根据自身所取得的特技得到以下相应效果。<br>《望见群星者/星を见る者》：该特技效果中的[暴击值-1]变更为[暴击值-2]。<br>《强化人类/强化人间》：你所给予的伤害+【知觉】点。你暴击时受到的伤害+【知觉】点。<br><span style="color: white;" class="bbc_color">FOCS的注音：フォアサイトオートマティックコンバットシステム（Foresight autOmatic Combat System/先兆自动作战系统）。</span><br><br>未明破晓/アンサーテンティブレイカー<br>种类：其他<br>购入难易度：-/20<br>解说：用于控制OVL系统的特殊OS之一。能从无数的可能性中呼唤确定的未来。<br>拥有强袭者以外的连结者类别的人物无法持有该物品。持有该物品时，若你在命中判定中暴击，则该次伤害+[攻击对象的【炮击值】]。若你的类别等级在7以上，则上述场合的伤害再+[攻击对象的【命中值】]。若你是对复数对象进行攻击，则采用其中数值最大者的【战斗值】。<br><span style="color: white;" class="bbc_color">如果炮击最大的人和命中最大的人不一样，应该是分别取最大（对玩家最有利）。</span><br><br>OVL狮鹫单元/OVLグリフォンユニット<br>种类：其他<br>购入难易度：-/200<br>解说：复合装备，包括了能够强化护盾的翼状追加OVL系统，以及安装于其背面的增设式精神共振系统。<br>必须取得《BC护盾防御/BC（ビームコーティング）シールド防御》，该物品才会生效。《BC护盾防御/BC（ビームコーティング）シールド防御》的伤害减轻量+1d6。就算不取得《强化人类/强化人间》，你也能发挥OVL震啸单元的效果。此外，你能够以[副攻击力：&lt;光&gt;+[【反射】+10]][射程：1~4]的数据将领主马格南装备于[远距离副武装]栏。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_792169">
+&#171; <em>上次编辑: 2016-08-19, 周五 00:24:30 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg792179"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_792179_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_792179">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg792179#msg792179" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_792179'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_792179'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-04-28, 周四 11:52:04 &#187;</div>
+<div id="msg_792179_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_792179"><span style="font-size: 18pt;" class="bbc_size"><strong>物品资料：进取级/アイテムデータ：エンタープライズ</strong></span><br>在此介绍进取级专用的物品。这些物品只有获得了进取级类别的角色才能够入手、常备化。 白刃不可：该载具无法装备白刃武装。<br>突击可：该载具无法装备[种类：突击]以外的白刃武装。<br><br>进取级万能战舰形态/エンタープライズ级万能戦舰形态<br>种类：舰船（进取级）<br>命中：-3<br>回避：-3<br>炮击：+5<br>防壁：-2<br>行动：-2<br>力场：+24<br>感应：+24<br>攻击力：+2<br>固定武装：●火神密集阵<br>移动力：2<br>体型：XL<br>防御修正（斩/刺/殴/炎）：20/10/20/20<br>购入难易度：-/-<br>解说：拥有潜水机能与突入能力的进取级。装备中获得飞行状态与突入状态。水陆两用。突击可。<br><br>进取级机动巡洋舰形态/エンタープライズ级机动巡洋舰戦舰<br>种类：舰船（进取级）<br>命中：±0<br>回避：-3<br>炮击：+2<br>防壁：±0<br>行动：+2<br>力场：+18<br>感应：+18<br>攻击力：+2<br>固定武装：●火神密集阵<br>移动力：3<br>体型：XL<br>防御修正（斩/刺/殴/炎）：12/2/12/12<br>购入难易度：-/-<br>解说：牺牲炮击能力换取速度的战舰。装备中获得飞行状态与突入状态。水陆两用。白刃不可。<br><br>进取级潜水舰形态/エンタープライズ级潜水舰形态<br>种类：舰船（进取级）<br>命中：±0<br>回避：-5<br>炮击：+4<br>防壁：±0<br>行动：-2<br>力场：+24<br>感应：+24<br>攻击力：+3<br>固定武装：●火神密集阵<br>移动力：2<br>体型：XL<br>防御修正（斩/刺/殴/炎）：20/10/20/20<br>购入难易度：-/-<br>解说：进取级的潜水舰形态。水陆两用。白刃不可。在地面上时自动受到狼狈。<br><br>进取级城郭形态/エンタープライズ级城郭形态<br>种类：舰船（进取级）<br>命中：-1<br>回避：-3<br>炮击：+2<br>防壁：-5<br>行动：-5<br>力场：+32<br>感应：+32<br>攻击力：+6<br>固定武装：光子弩炮<br>移动力：1<br>体型：XL<br>防御修正（斩/刺/殴/炎/冰/雷/光/暗）：20/20/20/20/20/20/20/20<br>购入难易度：-/-<br>解说：飞行堡垒形态的进取级。装备中获得飞行状态。水陆两用。白刃不可。<br><br>进取级机车形态/エンタープライズ级バイク形态<br>种类：舰船（进取级）<br>命中：±0<br>回避：-3<br>炮击：+2<br>防壁：±0<br>行动：+4<br>力场：+18<br>感应：+18<br>攻击力：+5<br>固定武装：碾压<br>移动力：2<br>体型：XL<br>防御修正（斩/刺/殴/炎）：15/5/15/15<br>购入难易度：-/10<br>解说：奔驰于大地的巨大机车状进取级变形形态。装备中获得疾驰状态。水陆两用。突击可。<br><br>进取级伪装形态/エンタープライズ级伪装形态<br>种类：舰船（进取级）<br>命中：-5<br>回避：-5<br>炮击：-5<br>防壁：-5<br>行动：+15<br>力场：+24<br>感应：+24<br>攻击力：-2<br>固定武装：无<br>移动力：1<br>体型：XL<br>防御修正（斩/刺/殴/炎/光/暗）：25/25/25/25/25/25<br>购入难易度：-/5<br>解说：伪装成地形或天体的形态。装备中获得飞行状态。水陆两用。白刃不可。额外人员无法识破。<br>具体请参考前文“追加数据的使用方法”章节。<br><br>碾压/地ならし<br>种类：白刃（突击）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：&lt;殴&gt;+12<br>副攻击力：&lt;斩&gt;+16<br>射程：0<br>部位：主/副<br>代价：6EN<br>购入难易度：-/-<br>解说：用轮胎压碎敌人的攻击。必须装备进取级机车形态才能装备该武装。根据[对象：突破4Σ]选择对象，不能以飞行状态的人物为对象。无法用于复数武装使用系特技。<br><br>光子弩炮/フォトンバリスタ<br>种类：射击（魔法）<br>命中：±0<br>回避：+1<br>炮击：±0<br>防壁：+1<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;光&gt;+6<br>射程：0<br>部位：副<br>代价：8EN<br>购入难易度：-/-<br>解说：城郭形态的对空防御用魔法炮台。对飞行状态或高机动状态的目标造成的伤害+2D6。该武装根据[对象：范围3（选择）]选择对象。<br><br>●舰载伊修卡炮/●舰载イシュカキャノン<br>种类：炮击（火炮）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：-<br>射程：4～8<br>部位：主<br>代价：弹数1<br>购入难易度：-/4<br>解说：舰载炮，魔幻级的伊修卡炮的大型版。拥有能够引以为傲的超远射程，但有些难以操作。必须装备进取级城郭形态才能装备该武装。拥有对潜能力。[弹数：3].<br><br>●超威伊修卡炮/●ハイパーイシュカキャノン<br>种类：炮击（火炮/魔法）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+14<br>射程：3～4<br>部位：副<br>代价：弹数1<br>购入难易度：-/4<br>解说：魔幻级的伊修卡炮的大型版，能够通过魔法术式加速弹体的舰载炮。必须装备进取级城郭形态才能装备该武装。拥有对潜能力。[弹数：3]。<br><br>烈焰冲击/フレイムインパクター<br>种类：炮击（火炮/狙击/转移）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;炎&gt;+10<br>副攻击力：-<br>射程：4～8<br>部位：主<br>代价：6EN<br>购入难易度：-/12<br>解说：将高热源物体跃迁以进行攻击的火炮。能够无视射线与部分遮蔽攻击射程内（包括位于密闭空间内）的目标。命中判定暴击时，无视防御修正；在此基础上，若攻击属性为&lt;神&gt;则伤害再+2d6。<br><br>元素新星炮/エレメンタルノヴァ砲<br>种类：炮击（热兵器/魔法）<br>命中：±0<br>回避：-1<br>炮击：±0<br>防壁：±0<br>行动：-4<br>主攻击力：&lt;炎&gt;+15<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：15HP<br>购入难易度：-/20<br>解说：将“炎”之概念通过魔法高度压缩后进行发射的热兵器。必须装备进取级城郭形态才能装备该武装。该武装根据[对象：直线5（选择）]选择对象。<br><br>魔幻骑士团/ファンタズム骑士団<br>种类：附加组件<br>命中：±0<br>回避：+2<br>炮击：±0<br>防壁：+2<br>行动：±0<br>力场：+10<br>感应：±0<br>攻击力：+5<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>解说：由魔幻级构成的直属守城骑士团。必须常备化进取级城郭形态才能将此物品常备化。装备中，你的仆从造成的伤害+2d6，《强攻战术/强攻戦术》的伤害+2d6点。<br><br>暴龙大激震/暴竜大激震<br>种类：辅助<br>时机：即将进行次要动作时<br>购入难易度：-/5<br>解说：刺激恐龙型进取级的野生本能，使暴走的野兽之魂完全狂暴的辅助装备。难以预测的突进攻击将会化作毁灭一切的灾祸。<br>在即将进行次要动作时使用。该主步骤中，你使用●暴龙大突进进行白刃攻击时，对象变更为[对象：突破4]。<br><br>力场冲击/フィールドインパクター<br>种类：其他<br>购入难易度：-/2<br>解说：进取级的特殊兵装。令AL粒子力场旋转成螺旋状，使舰船能够无视水压与水的质量发起撞角攻击。<br>你所装备的 [种类：白刃（突击）]武装全部获得对潜能力。此外，你所装备的进取级恐龙形态获得水陆两用。<br><br>力场空穴装甲/フィールドキャビテーションアーマー<br>种类：其他<br>购入难易度：-/2<br>解说：大气圈突入用系统。将AL粒子力场层叠展开，在层与层之间形成名为AL粒子泡的特殊波，用来阻隔突入大气圈时发生的绝热压缩效应。<br>你在以下情况中常时获得突入状态。<br>[装备有[种类：舰船（进取级）]的物品，并处于飞行状态。]<br>[装备有进取级潜水舰形态。]<br><br>进取安定器/エンタープライズバラスト<br>种类：其他<br>购入难易度：-/5<br>解说：为进取级开发的流体重力制御系统。能够平衡船体并确保守护神形态下的驱动安定。<br>在游戏前，从你所常备化的[种类：舰船]与[种类：守护神]的物品中各指定一件（也可以不指定）。装备指定物品期间，你的【行动值】固定为X（最大10）。X=你的类别等级。<br><br><div style="text-align: right;">该层译者萌空，在此表示感谢。<br><span style="color: white;" class="bbc_color">我和你们说，太阳有很多个，而萌空萌只有一个。</span></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_792179">
+&#171; <em>上次编辑: 2016-06-29, 周三 06:32:11 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg792181"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_792181_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_792181">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.msg792181#msg792181" rel="nofollow">Re: 钢之守护神RPG SSS 钢铁的守护神</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_792181'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_792181'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2016-04-28, 周四 12:02:15 &#187;</div>
+<div id="msg_792181_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_792181"><strong><span style="font-size: 18pt;" class="bbc_size">范例人物：白银之刃Ver.2</span></strong><br>看了下官网没给这张卡的下载，姑且放上来图片版。因为用到了DGF和SOF的数据，所以暂时无法使用（虽然实际上没有大碍）。<br>翻译就不翻了，而且我估计应该没人真的有兴趣用吧……<br><br>点击查看图片↓<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://ww1.sinaimg.cn/large/8fee126cgw1f30tpv2nltj21jn21aqv6.jpg" alt="" class="bbc_img"/></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_792181">
+&#171; <em>上次编辑: 2016-04-29, 周五 03:58:26 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84240.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84240.0"><span>钢之守护神RPG SSS 钢铁的守护神</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 84240,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 84240,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="84240" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=84240.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 11638 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 84240,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

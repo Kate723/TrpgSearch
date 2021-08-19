@@ -1,0 +1,624 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.0"/>
+<title>列印本页 - 【Call of Cthulhu 7th】半自动人物卡v2.0.5</title>
+<style type="text/css">
+body, a
+{
+color: #000;
+background: #fff;
+}
+body, td, .normaltext
+{
+font-family: Verdana, arial, helvetica, serif;
+font-size: small;
+}
+h1#title
+{
+font-size: large;
+font-weight: bold;
+}
+h2#linktree
+{
+margin: 1em 0 2.5em 0;
+font-size: small;
+font-weight: bold;
+}
+dl#posts
+{
+width: 90%;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+dt.postheader
+{
+border: solid #000;
+border-width: 1px 0;
+padding: 4px 0;
+}
+dd.postbody
+{
+margin: 1em 0 2em 2em;
+}
+table
+{
+empty-cells: show;
+}
+blockquote, code
+{
+border: 1px solid #000;
+margin: 3px;
+padding: 1px;
+display: block;
+}
+code
+{
+font: x-small monospace;
+}
+blockquote
+{
+font-size: x-small;
+}
+.smalltext, .quoteheader, .codeheader
+{
+font-size: x-small;
+}
+.largetext
+{
+font-size: large;
+}
+.centertext
+{
+text-align: center;
+}
+hr
+{
+height: 1px;
+border: 0;
+color: black;
+background-color: black;
+}
+</style>
+</head>
+<body>
+<h1 id="title">纯美苹果园</h1>
+<h2 id="linktree">译文资料区 => 克苏鲁神话相关TRPG => COC 规则及扩展 => 主题作者是: 秋叶EXODUS 于 2015-11-02, 周一 16:37:24</h2>
+<dl id="posts">
+<dt class="postheader">
+主题: <strong>【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2015-11-02, 周一 16:37:24</strong>
+<dd class="postbody">
+自2.0.0开始发布双版本<br><strong>桌面版</strong>加入了几个实用的按钮，会更方便一些，但因为使用了宏，所以只能在桌面平台使用<br><strong>通用版</strong>依旧兼容移动平台，对旧版本的Office支持更好<br>如果你在PC或Mac上使用这张人物卡，建议选择桌面版<br>规则书Version2002中重翻了武器列表，在此不再提供<br><br><span style="font-size: 12pt;" class="bbc_size">人物卡下载地址见附件，需要登录后才能看到。</span><br><br>经典蓝白配色，在建卡页选中技能会跳出一段简短的技能介绍。<br>(通用版)移动端完全兼容，在应用商店中搜索并安装Excel即可使用。<br>请使用<strong>2013或更新版本的Office</strong>(而不是WPS)打开表格，以免出现兼容性问题。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>更新日志</strong></span><br>2.0.5与规则书Version2002统一部分译名；修复txt输出时部分技能无法显示的Bug；调整排版。<br>2.0.4修复已知Bug<br>2.0.2修好了属性掷骰的Bug<br>2.0.1增加“建卡”页的单元格宽度，以期在不完善的DPI缩放中正常显示<br>2.0.0添加“建卡”标签，将原有“人物卡”页的部分功能移至“建卡”页，一并加入了建卡指导；对人物卡前半页进行重排版，解决技能栏过长的问题，完全重制状态属性，放大了头像框；重写大部分函数；在职业列表中添加此前漏掉的非熟练工人，为自定义职业增加职业属性选单；移除了武器参考表；并且与规则书Version1809统一部分译名<br>1.x.x版本：<br><div>1.7.3 武器参考表勘误：120mm坦克炮伤害应为15d10，5英寸舰炮的伤害应为12d10，时代应为现代<br>1.7.2 武器参考表勘误：手斧/手镰的所用技能应为格斗(斧)，连射改为全自动，3连射改为3发点射；人物卡勘误：个人描述改为形象描述<br>1.7.0 添加信用评级资产对照表，修正手里剑的射程，统一一大票译名<br>1.6.2 添加武器参考表，修BUGs<br>1.6.1 修BUGs<br>1.6.0 技能简介全部重写，添加txt输出功能，与规则书统一译名<br>1.5.6 修BUGs<br>1.5.3 去掉了工作表保护的密码，掷骰中添加了多面骰以供临时使用。<br>1.5.1-1.5.2 修bug<br>1.5 更新了不计其数的东西……管它呢……<br>1.4.1 滚回以前的版本<br>1.3.5 修复职业技能点计算bug<br>1.3.3 修正从右往左数第三列的列宽错误，删除技能经验标记复选框，合并mov计算公式，修复bug若干<br>1.3 重做职业列表，统一翻译，修改错位的技能提示，求生的格子减少到一个<br>1.2.7 修改MOV算式<br>1.2.6 修正排版，添加属性生成页<br>1.2.5 统一了部分翻译</div>
+<dt class="postheader">
+主题: <strong>Re: 7th仿真自动计算人物卡v1.25</strong><br>
+作者: <strong>无名的巫妖</strong> 于 <strong>2015-11-02, 周一 19:27:43</strong>
+<dd class="postbody">
+这个好！多谢<br><br>
+<dt class="postheader">
+主题: <strong>Re: 7th仿真自动计算人物卡v1.25</strong><br>
+作者: <strong>无名的巫妖</strong> 于 <strong>2015-11-04, 周三 13:26:21</strong>
+<dd class="postbody">
+原来如此我又2了
+<dt class="postheader">
+主题: <strong>Re: 7th仿真自动计算人物卡v1.25</strong><br>
+作者: <strong>游侠sid</strong> 于 <strong>2015-11-09, 周一 12:33:14</strong>
+<dd class="postbody">
+那啥 头像不知为何无法替换= =
+<dt class="postheader">
+主题: <strong>Re: 7th仿真自动计算人物卡v1.25</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2015-11-12, 周四 00:33:56</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg763278#msg763278">引述: 游侠sid 于 2015-11-09, 周一 12:33:14</a></div></div><blockquote class="bbc_standard_quote">那啥 头像不知为何无法替换= =<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>呃……咱在这边试了一下，是可以替换的……<br>这边是office2016。用10和之前的版本的office可能会有问题……
+<dt class="postheader">
+主题: <strong>Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>Raymond</strong> 于 <strong>2016-01-15, 周五 10:38:40</strong>
+<dd class="postbody">
+新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？
+<dt class="postheader">
+主题: <strong>Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>Raymond</strong> 于 <strong>2016-01-15, 周五 10:55:36</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_standard_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br>
+<dt class="postheader">
+主题: <strong>Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2016-01-15, 周五 12:20:50</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773031#msg773031">引述: Raymond 于 2016-01-15, 周五 10:55:36</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_alternate_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>嗯……看了一下确实有这个问题<br>已更新
+<dt class="postheader">
+主题: <strong>Re: [12.21更新]7th蓝白自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>Raymond</strong> 于 <strong>2016-01-15, 周五 13:06:58</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773043#msg773043">引述: 秋叶EXODUS 于 2016-01-15, 周五 12:20:50</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773031#msg773031">引述: Raymond 于 2016-01-15, 周五 10:55:36</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg773027#msg773027">引述: Raymond 于 2016-01-15, 周五 10:38:40</a></div></div><blockquote class="bbc_standard_quote">新人首先感谢您的卡，不过有一点疑问，在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，在体格大于力和敏的情况下为什么会出现职业点数为教育×2+体格×2。是规则使然还是bug还是我这边操作错误了？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>更正一下，刚刚重新测试了一下，是在选择6或者76这种教育×2+力量或敏捷×2的职业的时候，体格会被当力量使用，修改力量属性不会产生任何变化。擅自查找替换把文本中的J7换成J3就正常了。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>嗯……看了一下确实有这个问题<br>已更新<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>OK,多谢大大
+<dt class="postheader">
+主题: <strong>Re: COC 7th 自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>aabb244567</strong> 于 <strong>2016-11-30, 周三 19:26:39</strong>
+<dd class="postbody">
+<span style="font-family: 楷体;" class="bbc_font">楼主大人！onedrive网址打不开怎么解决？需要科学上网吗？迟一点想和朋友开个《涠洲岛》玩，需要这一个人物卡 :em023</span>
+<dt class="postheader">
+主题: <strong>Re: COC 7th 自动计算人物卡v1.33 (附送中文现代面团用卡)</strong><br>
+作者: <strong>FreedomGX</strong> 于 <strong>2016-12-04, 周日 09:12:08</strong>
+<dd class="postbody">
+这个不错，谢谢了！
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.5</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-01-07, 周六 19:25:24</strong>
+<dd class="postbody">
+更新啦！
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.5</strong><br>
+作者: <strong>千羽</strong> 于 <strong>2017-01-15, 周日 19:09:10</strong>
+<dd class="postbody">
+您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.5</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-01-16, 周一 18:38:39</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832929#msg832929">引述: 千羽 于 2017-01-15, 周日 19:09:10</a></div></div><blockquote class="bbc_standard_quote">您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请随意~
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.5</strong><br>
+作者: <strong>千羽</strong> 于 <strong>2017-01-17, 周二 20:55:21</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg833012#msg833012">引述: 秋叶EXODUS 于 2017-01-16, 周一 18:38:39</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg832929#msg832929">引述: 千羽 于 2017-01-15, 周日 19:09:10</a></div></div><blockquote class="bbc_alternate_quote">您好<br>因为下到了一张不明原因保护没有密码的卡<br>于是私自根据本群状况做出了一些改动<br>请问能不能传播这张卡呢wwwww<br>大概有武器选单 一个简单的调查员属性描述 还有其他的一些细节问题<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>请随意~<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>谢谢~
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.53</strong><br>
+作者: <strong>zweipet</strong> 于 <strong>2017-03-18, 周六 16:13:46</strong>
+<dd class="postbody">
+请问下，我这边是office2016，为什么打开这个卡的时候显示是文件 已损坏呢？
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.53</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-03-18, 周六 17:47:26</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg842136#msg842136">引述: zweipet 于 2017-03-18, 周六 16:13:46</a></div></div><blockquote class="bbc_standard_quote">请问下，我这边是office2016，为什么打开这个卡的时候显示是文件 已损坏呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>试试重新下载一次？
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.0</strong><br>
+作者: <strong>巫筮</strong> 于 <strong>2017-05-04, 周四 11:33:23</strong>
+<dd class="postbody">
+【分页技能】里【特殊技能】下技能的批注标错了，没有对应技能
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.0</strong><br>
+作者: <strong>agamemnon</strong> 于 <strong>2017-05-08, 周一 13:58:12</strong>
+<dd class="postbody">
+哦哦哦，厉害了！谢分享制作！<br>那么问题来了，要去搞更高版本的Office去了(¬_¬)
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.1</strong><br>
+作者: <strong>974451146</strong> 于 <strong>2017-05-17, 周三 22:22:23</strong>
+<dd class="postbody">
+啊哈，准备用这个表开始练习，谢谢楼主
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.1</strong><br>
+作者: <strong>AmosC</strong> 于 <strong>2017-05-27, 周六 23:05:31</strong>
+<dd class="postbody">
+话说有个问题想问一下，因为之前弃坑了好长一段时间，所以这次回来发现人物卡有些功能弄不懂了。<br>人物卡技能旁边的√是成长标记吗？还是说是什么功能。
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.1</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-05-28, 周日 12:11:05</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg855679#msg855679">引述: AmosC 于 2017-05-27, 周六 23:05:31</a></div></div><blockquote class="bbc_standard_quote">话说有个问题想问一下，因为之前弃坑了好长一段时间，所以这次回来发现人物卡有些功能弄不懂了。<br>人物卡技能旁边的√是成长标记吗？还是说是什么功能。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>是成长标记
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.1</strong><br>
+作者: <strong>千羽</strong> 于 <strong>2017-06-19, 周一 19:12:17</strong>
+<dd class="postbody">
+规则书写的自定义职业的技能数量是八个啊 :em032
+<dt class="postheader">
+主题: <strong>Re: COC 7th 半自动人物卡v1.6.1</strong><br>
+作者: <strong>弱水三千3000</strong> 于 <strong>2017-07-01, 周六 09:09:09</strong>
+<dd class="postbody">
+楼主您好，请问在属性和掷骰那个工作区，幸运#2是什么意思？还有平时roll骰子的话直接按f9就可以了么？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.6.2</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-08-19, 周六 00:05:46</strong>
+<dd class="postbody">
+咱悄悄更新了一版……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.6.2</strong><br>
+作者: <strong>Zetetic</strong> 于 <strong>2017-08-22, 周二 12:08:16</strong>
+<dd class="postbody">
+请问怎么可以像你的技能说明一样,拉上去就会自动显示出来@@?
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.6.2</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2017-08-26, 周六 20:03:41</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg874416#msg874416">引述: Zetetic 于 2017-08-22, 周二 12:08:16</a></div></div><blockquote class="bbc_standard_quote">请问怎么可以像你的技能说明一样,拉上去就会自动显示出来@@?<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>审阅标签里有一个数据验证，里面可以设置输入信息
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.6.2</strong><br>
+作者: <strong>mima210</strong> 于 <strong>2018-02-03, 周六 18:24:44</strong>
+<dd class="postbody">
+请问，半自动人物卡还会更新么？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.6.2</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2018-02-13, 周二 01:08:57</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg907766#msg907766">引述: mima210 于 2018-02-03, 周六 18:24:44</a></div></div><blockquote class="bbc_standard_quote">请问，半自动人物卡还会更新么？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>之后会不会不好说，反正现在是更新了……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.0</strong><br>
+作者: <strong>mima210</strong> 于 <strong>2018-02-13, 周二 13:46:55</strong>
+<dd class="postbody">
+感谢~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.0</strong><br>
+作者: <strong>奖励品</strong> 于 <strong>2018-05-10, 周四 14:51:21</strong>
+<dd class="postbody">
+突然想起来这张卡少了非熟练工人，过来说一下
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.0</strong><br>
+作者: <strong>Yangon</strong> 于 <strong>2018-05-18, 周五 20:22:04</strong>
+<dd class="postbody">
+这个好！多谢
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>响骨</strong> 于 <strong>2018-06-21, 周四 22:48:21</strong>
+<dd class="postbody">
+悄悄下载一个
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>2419642602</strong> 于 <strong>2018-06-27, 周三 18:47:37</strong>
+<dd class="postbody">
+感谢~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>1012457291</strong> 于 <strong>2018-07-05, 周四 13:45:09</strong>
+<dd class="postbody">
+非常啊感谢
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>2005430253</strong> 于 <strong>2018-07-14, 周六 11:52:22</strong>
+<dd class="postbody">
+谢谢楼主啊&nbsp; 万分感谢
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>TBPSHIN</strong> 于 <strong>2018-07-16, 周一 16:24:59</strong>
+<dd class="postbody">
+感谢楼主了~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>lixiangtai</strong> 于 <strong>2018-07-22, 周日 19:25:22</strong>
+<dd class="postbody">
+首先谢谢楼主的分享！&nbsp; （这个排版我很喜欢）<br><br>关于职业的选择，可以直接将数字替换成文字吗？新人要一个一个查看感觉比较繁琐，谢谢！
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>TKSHK</strong> 于 <strong>2018-07-31, 周二 21:30:26</strong>
+<dd class="postbody">
+方便了很多，谢谢大佬
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>sqq114356</strong> 于 <strong>2018-08-02, 周四 14:24:53</strong>
+<dd class="postbody">
+谢谢LZ
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>夜想幻雷</strong> 于 <strong>2018-08-03, 周五 13:47:52</strong>
+<dd class="postbody">
+非常感谢，谢谢LZ的工作
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>wazcy</strong> 于 <strong>2018-08-04, 周六 21:38:24</strong>
+<dd class="postbody">
+谢谢&nbsp; 萌新很需要的东西
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>kofkoskof</strong> 于 <strong>2018-08-12, 周日 11:16:21</strong>
+<dd class="postbody">
+刚开始玩，这个可是帮了大忙啊！
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v1.7.1</strong><br>
+作者: <strong>2495059661</strong> 于 <strong>2018-08-13, 周一 13:20:16</strong>
+<dd class="postbody">
+那个在wps上面信息可以正常显示，但用了office之后只能显示一小部分了...
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.0</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2018-09-27, 周四 12:22:10</strong>
+<dd class="postbody">
+2.0.1已更新！
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>q6161217</strong> 于 <strong>2018-10-07, 周日 22:21:22</strong>
+<dd class="postbody">
+谢谢大大。请问能不能加一个控制属性总值的功能？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2018-10-08, 周一 09:33:48</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952695#msg952695">引述: q6161217 于 2018-10-07, 周日 22:21:22</a></div></div><blockquote class="bbc_standard_quote">谢谢大大。请问能不能加一个控制属性总值的功能？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>什么叫“控制属性总值”呢？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>厄火与葬礼女神</strong> 于 <strong>2018-10-08, 周一 11:59:53</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952764#msg952764">引述: 秋叶EXODUS 于 2018-10-08, 周一 09:33:48</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952695#msg952695">引述: q6161217 于 2018-10-07, 周日 22:21:22</a></div></div><blockquote class="bbc_alternate_quote">谢谢大大。请问能不能加一个控制属性总值的功能？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>什么叫“控制属性总值”呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>应该就是“指定roll出的属性总数”（和购点有点类似）
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2018-10-08, 周一 13:47:20</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952764#msg952764">引述: 秋叶EXODUS 于 2018-10-08, 周一 09:33:48</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952695#msg952695">引述: q6161217 于 2018-10-07, 周日 22:21:22</a></div></div><blockquote class="bbc_alternate_quote">谢谢大大。请问能不能加一个控制属性总值的功能？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>什么叫“控制属性总值”呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>能显示一下八维总和，以及八维+幸运总和的话，购点时候会方便一些
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2018-10-08, 周一 14:05:43</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952798#msg952798">引述: 冰铜刃岚=两两包子 于 2018-10-08, 周一 13:47:20</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952764#msg952764">引述: 秋叶EXODUS 于 2018-10-08, 周一 09:33:48</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg952695#msg952695">引述: q6161217 于 2018-10-07, 周日 22:21:22</a></div></div><blockquote class="bbc_standard_quote">谢谢大大。请问能不能加一个控制属性总值的功能？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>什么叫“控制属性总值”呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>能显示一下八维总和，以及八维+幸运总和的话，购点时候会方便一些<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>新版的卡里已经有属性之和了
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>dongfangfaye</strong> 于 <strong>2018-10-10, 周三 16:51:19</strong>
+<dd class="postbody">
+新人求学习资料<br>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2018-10-10, 周三 19:56:06</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg953156#msg953156">引述: dongfangfaye 于 2018-10-10, 周三 16:51:19</a></div></div><blockquote class="bbc_standard_quote">新人求学习资料<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>不知道你指的是什么，或许是这个 (http://www.jianshu.com/p/9805bbba4606)？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.1</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2018-10-11, 周四 01:33:15</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg953175#msg953175">引述: 冰铜刃岚=两两包子 于 2018-10-10, 周三 19:56:06</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg953156#msg953156">引述: dongfangfaye 于 2018-10-10, 周三 16:51:19</a></div></div><blockquote class="bbc_alternate_quote">新人求学习资料<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>不知道你指的是什么，或许是这个 (http://www.jianshu.com/p/9805bbba4606)？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>感谢宣传……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.2</strong><br>
+作者: <strong>锈色沙漠</strong> 于 <strong>2018-11-07, 周三 01:24:17</strong>
+<dd class="postbody">
+2.0.2版的人物卡页面无法通过选中技能来显示技能说明，请问这个是正常的吗（（（（（<br>目前看起来人物卡页面的所有东西都是引用的建卡页面的？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.2</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2018-11-07, 周三 21:55:11</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg958080#msg958080">引述: 锈色沙漠 于 2018-11-07, 周三 01:24:17</a></div></div><blockquote class="bbc_standard_quote">2.0.2版的人物卡页面无法通过选中技能来显示技能说明，请问这个是正常的吗（（（（（<br>目前看起来人物卡页面的所有东西都是引用的建卡页面的？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>这是正常的，咱认为在人物卡页弹出一个悬浮窗是很碍事的……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.2</strong><br>
+作者: <strong>YauLok</strong> 于 <strong>2018-11-13, 周二 22:19:47</strong>
+<dd class="postbody">
+通用卡，职业列表68，工人-非熟练工人，信誉显示43373
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>a870813494</strong> 于 <strong>2018-12-05, 周三 17:03:59</strong>
+<dd class="postbody">
+非常感谢了
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>932079391</strong> 于 <strong>2019-01-15, 周二 21:00:57</strong>
+<dd class="postbody">
+dd，非常感谢。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>自燃</strong> 于 <strong>2019-02-18, 周一 16:53:24</strong>
+<dd class="postbody">
+希望可以增加自定义年代的功能。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>苍穹canopy</strong> 于 <strong>2019-02-19, 周二 19:17:55</strong>
+<dd class="postbody">
+感谢<br>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>Okami丶</strong> 于 <strong>2019-03-21, 周四 17:01:49</strong>
+<dd class="postbody">
+萌新入坑 感谢lz
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>零蛋</strong> 于 <strong>2019-04-09, 周二 05:47:32</strong>
+<dd class="postbody">
+桌面版中，掷骰工作表的按钮无法使用。<br>提示内容为无法找到 D:\Onedriver\TRPG\Call of Cthulhu\Pulp Cthulhu半自动人物卡v0.0.1.xlsm<br><br>实际上一打开文件的时候就会因为找不到这个文件而出现提示。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>874334561</strong> 于 <strong>2019-04-16, 周二 20:04:54</strong>
+<dd class="postbody">
+xiexie!!!
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>马戏团的疯人宇</strong> 于 <strong>2019-05-23, 周四 17:32:07</strong>
+<dd class="postbody">
+&nbsp;:blink: :em001 :em001 :em001 :太好了~明天出去玩开始~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>nx19961008</strong> 于 <strong>2019-05-26, 周日 09:14:14</strong>
+<dd class="postbody">
+萌新入坑 感谢lz
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>xzf842516424</strong> 于 <strong>2019-07-12, 周五 22:26:19</strong>
+<dd class="postbody">
+很好很实用 ，新手入坑了
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>维夏</strong> 于 <strong>2019-07-25, 周四 21:46:41</strong>
+<dd class="postbody">
+桌面版中，掷骰工作表的按钮无法使用。<br>提示内容为无法找到 D:\Onedriver\TRPG\Call of Cthulhu\Pulp Cthulhu半自动人物卡v0.0.1.xlsm<br>而通用版，明明下载好了却提示‘找不到文件’而无法打开...<br>_(:3不知道是我使用方法不对还是新版office不兼容所以出了bug？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2019-07-26, 周五 22:01:06</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1006611#msg1006611">引述: 维夏 于 2019-07-25, 周四 21:46:41</a></div></div><blockquote class="bbc_standard_quote">桌面版中，掷骰工作表的按钮无法使用。<br>提示内容为无法找到 D:\Onedriver\TRPG\Call of Cthulhu\Pulp Cthulhu半自动人物卡v0.0.1.xlsm<br>而通用版，明明下载好了却提示‘找不到文件’而无法打开...<br>_(:3不知道是我使用方法不对还是新版office不兼容所以出了bug？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>office365打开是一切正常。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>Looox</strong> 于 <strong>2019-08-10, 周六 10:37:31</strong>
+<dd class="postbody">
+&nbsp;:em021非常感谢分享~<br>试用了一下感觉职业列表的分类超详细，太棒啦~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>千夜荨</strong> 于 <strong>2019-08-17, 周六 19:25:16</strong>
+<dd class="postbody">
+为什么我一直打不开，始终显示文件或文件扩展名无效 :em006
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>千夜荨</strong> 于 <strong>2019-08-17, 周六 19:27:08</strong>
+<dd class="postbody">
+WPS倒是能打开，但全是乱码 :em005
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>乡巴佬</strong> 于 <strong>2019-09-28, 周六 09:46:06</strong>
+<dd class="postbody">
+抱歉，请问2.0.4版的卡是没有st指令快捷输入了吗？还是我没有找到呢？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2019-09-28, 周六 10:17:22</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1015177#msg1015177">引述: 乡巴佬 于 2019-09-28, 周六 09:46:06</a></div></div><blockquote class="bbc_standard_quote">抱歉，请问2.0.4版的卡是没有st指令快捷输入了吗？还是我没有找到呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>该功能毫无意义，只有一些未经允许的魔改卡上才有。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>乡巴佬</strong> 于 <strong>2019-09-28, 周六 10:30:12</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1015181#msg1015181">引述: tangys 于 2019-09-28, 周六 10:17:22</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1015177#msg1015177">引述: 乡巴佬 于 2019-09-28, 周六 09:46:06</a></div></div><blockquote class="bbc_alternate_quote">抱歉，请问2.0.4版的卡是没有st指令快捷输入了吗？还是我没有找到呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>该功能毫无意义，只有一些未经允许的魔改卡上才有。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>原来是这样，我还以为都有的。主要是跑网团用q群图方便<br>谢谢~
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>必须努力的薪火</strong> 于 <strong>2019-09-30, 周一 11:00:20</strong>
+<dd class="postbody">
+一直以来用的卡原来出自这里。十分感谢
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>朱加什维利</strong> 于 <strong>2019-11-18, 周一 17:17:59</strong>
+<dd class="postbody">
+谢谢
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>hanxuetao</strong> 于 <strong>2019-12-31, 周二 04:08:49</strong>
+<dd class="postbody">
+谢谢大佬提供的车卡器！
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>阿撒托斯</strong> 于 <strong>2020-02-07, 周五 22:35:54</strong>
+<dd class="postbody">
+请问这张人物卡有没有根据规则书的更新来更改译名呢？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.4</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2020-02-07, 周五 23:04:01</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1032940#msg1032940">引述: 阿撒托斯 于 2020-02-07, 周五 22:35:54</a></div></div><blockquote class="bbc_standard_quote">请问这张人物卡有没有根据规则书的更新来更改译名呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>v2.0.4之后的新版本人物卡将会支持。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2020-02-07, 周五 23:39:51</strong>
+<dd class="postbody">
+&nbsp;<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1032940#msg1032940">引述: 阿撒托斯 于 2020-02-07, 周五 22:35:54</a></div></div><blockquote class="bbc_standard_quote">请问这张人物卡有没有根据规则书的更新来更改译名呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>如你所愿……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>GengarPoo2</strong> 于 <strong>2020-02-09, 周日 13:24:41</strong>
+<dd class="postbody">
+感谢分享 请问为什么移动这一栏一直显示错误 :em003
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2020-02-09, 周日 13:55:13</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033441#msg1033441">引述: GengarPoo2 于 2020-02-09, 周日 13:24:41</a></div></div><blockquote class="bbc_standard_quote">感谢分享 请问为什么移动这一栏一直显示错误 :em003<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>试了试，应该是因为必须在建卡分页中输入年龄，只在人物卡分页中输入没用。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>Angani</strong> 于 <strong>2020-02-11, 周二 01:25:16</strong>
+<dd class="postbody">
+请问大大，为什么卡里没有用于导入骰娘的.st部分呢，是为了让参与者们更熟悉人物的各项数值吗？<br><br>编辑：<br>谢谢大大制作的卡片。<br>上面的原因是我自己的猜想，希望得到求证。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2020-02-11, 周二 01:49:32</strong>
+<dd class="postbody">
+同希望加上.st输出，挺节省时间的
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2020-02-11, 周二 02:13:02</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033889#msg1033889">引述: Angani 于 2020-02-11, 周二 01:25:16</a></div></div><blockquote class="bbc_standard_quote">请问大大，为什么卡里没有用于导入骰娘的.st部分呢，是为了让参与者们更熟悉人物的各项数值吗？<br><br>编辑：<br>谢谢大大制作的卡片。<br>上面的原因是我自己的猜想，希望得到求证。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>我们很久以前就一致认为这个. st没什么用处。<br>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2020-02-11, 周二 03:09:26</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_standard_quote">我们很久以前就一致认为这个. st没什么用处。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>挺节省时间维持节奏的嘛，不用跑到一半去查一下人物卡。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2020-02-11, 周二 08:43:19</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033903#msg1033903">引述: 冰铜刃岚=两两包子 于 2020-02-11, 周二 03:09:26</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_alternate_quote">我们很久以前就一致认为这个. st没什么用处。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>挺节省时间维持节奏的嘛，不用跑到一半去查一下人物卡。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>应当避免这种不常开着人物卡的行为，不做这个功能至少能让跑自己团用这张卡的玩家不是用手机跑文字网团，还是很有必要的。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2020-02-11, 周二 10:55:36</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033917#msg1033917">引述: tangys 于 2020-02-11, 周二 08:43:19</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033903#msg1033903">引述: 冰铜刃岚=两两包子 于 2020-02-11, 周二 03:09:26</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_standard_quote">我们很久以前就一致认为这个. st没什么用处。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>挺节省时间维持节奏的嘛，不用跑到一半去查一下人物卡。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>应当避免这种不常开着人物卡的行为，不做这个功能至少能让跑自己团用这张卡的玩家不是用手机跑文字网团，还是很有必要的。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>就算开着找数值经常也得花掉几十秒，略不爽的XD，而且很烦。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2020-02-11, 周二 11:29:55</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033924#msg1033924">引述: 冰铜刃岚=两两包子 于 2020-02-11, 周二 10:55:36</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033917#msg1033917">引述: tangys 于 2020-02-11, 周二 08:43:19</a></div></div><blockquote class="bbc_alternate_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033903#msg1033903">引述: 冰铜刃岚=两两包子 于 2020-02-11, 周二 03:09:26</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_alternate_quote">我们很久以前就一致认为这个. st没什么用处。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>挺节省时间维持节奏的嘛，不用跑到一半去查一下人物卡。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>应当避免这种不常开着人物卡的行为，不做这个功能至少能让跑自己团用这张卡的玩家不是用手机跑文字网团，还是很有必要的。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>就算开着找数值经常也得花掉几十秒，略不爽的XD，而且很烦。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>我认为提需求的时候需要想清楚其需求的应用场景。<br><br>我们做一下论证：<br>1. .st功能的必要性<br>&nbsp; &nbsp; .st功能是仅限于溯回骰子这类用的功能，对于我们主要使用的catdice, qb, oicebot都不存在。<br>&nbsp; &nbsp; 根据一款特定的骰子来改造一张通用的人物卡，并没有很强的必要性。<br><br>2. .st功能的主要使用场景是什么<br>&nbsp; &nbsp; 其功能主要适用于手机跑团不便开卡的玩家，或者电脑跑团懒得开卡的玩家。<br>&nbsp; &nbsp; 或者说如您所言查个技能要几十秒的玩家。<br>&nbsp; &nbsp; 这类玩家的需求是否需要去满足，反过来想，如果不支持该功能是否可以一定程度上筛选掉这些玩家。<br><br>从另外一点私人的角度来说，我看到过很多溯回骰子，现在有不少类似于废话，还有st中灵感和智力相同，甚至还有不少自带房规。<br>满足核心需求，足够精简的功能是非常必要的，不应该为了满足某些玩家能做到什么就去让所有的玩家跟着适应。<br>电子版人物卡本身的影响非常之远，例如当下许多人用的职业80兴趣60房规基本都是从这而来。<br>但是如果看过官方的pdf人物卡不难发现，其实这都是一列，但是由于电子人物卡的关系，许多人都会认为这是两个独立分开的。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>Anganii</strong> 于 <strong>2020-02-11, 周二 12:04:00</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_standard_quote">我认为提需求的时候需要想清楚其需求的应用场景。<br><br>我们做一下论证：<br>1. .st功能的必要性<br>&nbsp; &nbsp; .st功能是仅限于溯回骰子这类用的功能，对于我们主要使用的catdice, qb, oicebot都不存在。<br>&nbsp; &nbsp; 根据一款特定的骰子来改造一张通用的人物卡，并没有很强的必要性。<br><br>2. .st功能的主要使用场景是什么<br>&nbsp; &nbsp; 其功能主要适用于手机跑团不便开卡的玩家，或者电脑跑团懒得开卡的玩家。<br>&nbsp; &nbsp; 或者说如您所言查个技能要几十秒的玩家。<br>&nbsp; &nbsp; 这类玩家的需求是否需要去满足，反过来想，如果不支持该功能是否可以一定程度上筛选掉这些玩家。<br><br>从另外一点私人的角度来说，我看到过很多溯回骰子，现在有不少类似于废话，还有st中灵感和智力相同，甚至还有不少自带房规。<br>满足核心需求，足够精简的功能是非常必要的，不应该为了满足某些玩家能做到什么就去让所有的玩家跟着适应。<br>电子版人物卡本身的影响非常之远，例如当下许多人用的职业80兴趣60房规基本都是从这而来。<br>但是如果看过官方的pdf人物卡不难发现，其实这都是一列，但是由于电子人物卡的关系，许多人都会认为这是两个独立分开的。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>谢谢大大的解惑，我决定尝试不使用.st，但我个人对这种主持方式尚不熟悉，请问可以旁观一下学习吗？
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>GengarPoo2</strong> 于 <strong>2020-02-12, 周三 13:12:44</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033456#msg1033456">引述: 冰铜刃岚=两两包子 于 2020-02-09, 周日 13:55:13</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033441#msg1033441">引述: GengarPoo2 于 2020-02-09, 周日 13:24:41</a></div></div><blockquote class="bbc_alternate_quote">感谢分享 请问为什么移动这一栏一直显示错误 :em003<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>试了试，应该是因为必须在建卡分页中输入年龄，只在人物卡分页中输入没用。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>解决了 十分感谢您 :em016
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>tangys</strong> 于 <strong>2020-02-12, 周三 13:14:47</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033931#msg1033931">引述: Anganii 于 2020-02-11, 周二 12:04:00</a></div></div><blockquote class="bbc_standard_quote"><div><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_alternate_quote">我认为提需求的时候需要想清楚其需求的应用场景。<br><br>我们做一下论证：<br>1. .st功能的必要性<br>&nbsp; &nbsp; .st功能是仅限于溯回骰子这类用的功能，对于我们主要使用的catdice, qb, oicebot都不存在。<br>&nbsp; &nbsp; 根据一款特定的骰子来改造一张通用的人物卡，并没有很强的必要性。<br><br>2. .st功能的主要使用场景是什么<br>&nbsp; &nbsp; 其功能主要适用于手机跑团不便开卡的玩家，或者电脑跑团懒得开卡的玩家。<br>&nbsp; &nbsp; 或者说如您所言查个技能要几十秒的玩家。<br>&nbsp; &nbsp; 这类玩家的需求是否需要去满足，反过来想，如果不支持该功能是否可以一定程度上筛选掉这些玩家。<br><br>从另外一点私人的角度来说，我看到过很多溯回骰子，现在有不少类似于废话，还有st中灵感和智力相同，甚至还有不少自带房规。<br>满足核心需求，足够精简的功能是非常必要的，不应该为了满足某些玩家能做到什么就去让所有的玩家跟着适应。<br>电子版人物卡本身的影响非常之远，例如当下许多人用的职业80兴趣60房规基本都是从这而来。<br>但是如果看过官方的pdf人物卡不难发现，其实这都是一列，但是由于电子人物卡的关系，许多人都会认为这是两个独立分开的。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div><br>谢谢大大的解惑，我决定尝试不使用.st，但我个人对这种主持方式尚不熟悉，请问可以旁观一下学习吗？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这里是译文区，如果有带团方面的问题，不妨去COC讨论区 (http://www.goddessfantasy.net/bbs/index.php?board=1570)提问把。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>Yain</strong> 于 <strong>2020-02-13, 周四 13:53:14</strong>
+<dd class="postbody">
+先感谢制卡的大大。<br>请问下能不能在背景板块加个关键链接的勾选框，然后还有一个问题就是魅惑改取悦没改完，职业列表和建卡说明里都还是魅惑。<br>&nbsp;:em002<br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1032951#msg1032951">引述: 秋叶EXODUS 于 2020-02-07, 周五 23:39:51</a></div></div><blockquote class="bbc_standard_quote"> <div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1032940#msg1032940">引述: 阿撒托斯 于 2020-02-07, 周五 22:35:54</a></div></div><blockquote class="bbc_alternate_quote">请问这张人物卡有没有根据规则书的更新来更改译名呢？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>如你所愿……<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>Anganii</strong> 于 <strong>2020-02-13, 周四 14:01:09</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1034168#msg1034168">引述: tangys 于 2020-02-12, 周三 13:14:47</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033931#msg1033931">引述: Anganii 于 2020-02-11, 周二 12:04:00</a></div></div><blockquote class="bbc_alternate_quote"><div><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1033898#msg1033898">引述: tangys 于 2020-02-11, 周二 02:13:02</a></div></div><blockquote class="bbc_standard_quote">我认为提需求的时候需要想清楚其需求的应用场景。<br><br>我们做一下论证：<br>1. .st功能的必要性<br>&nbsp; &nbsp; .st功能是仅限于溯回骰子这类用的功能，对于我们主要使用的catdice, qb, oicebot都不存在。<br>&nbsp; &nbsp; 根据一款特定的骰子来改造一张通用的人物卡，并没有很强的必要性。<br><br>2. .st功能的主要使用场景是什么<br>&nbsp; &nbsp; 其功能主要适用于手机跑团不便开卡的玩家，或者电脑跑团懒得开卡的玩家。<br>&nbsp; &nbsp; 或者说如您所言查个技能要几十秒的玩家。<br>&nbsp; &nbsp; 这类玩家的需求是否需要去满足，反过来想，如果不支持该功能是否可以一定程度上筛选掉这些玩家。<br><br>从另外一点私人的角度来说，我看到过很多溯回骰子，现在有不少类似于废话，还有st中灵感和智力相同，甚至还有不少自带房规。<br>满足核心需求，足够精简的功能是非常必要的，不应该为了满足某些玩家能做到什么就去让所有的玩家跟着适应。<br>电子版人物卡本身的影响非常之远，例如当下许多人用的职业80兴趣60房规基本都是从这而来。<br>但是如果看过官方的pdf人物卡不难发现，其实这都是一列，但是由于电子人物卡的关系，许多人都会认为这是两个独立分开的。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div><br>谢谢大大的解惑，我决定尝试不使用.st，但我个人对这种主持方式尚不熟悉，请问可以旁观一下学习吗？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这里是译文区，如果有带团方面的问题，不妨去COC讨论区 (http://www.goddessfantasy.net/bbs/index.php?board=1570)提问把。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>好的，谢谢大大们的坚守。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>alaya</strong> 于 <strong>2020-05-23, 周六 23:55:40</strong>
+<dd class="postbody">
+您好您好，十分感谢您提供如此好用的半自动人物卡。不知您是否有意在新版本增加属性调整栏呢？这样能更清晰的看到这个人物由于年龄或者经历实际产生的属性变化，比如初始教育50的25岁青年，一个成功的检定提升了5，就是‘50 5 55 27/11’。 :D
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>ma666</strong> 于 <strong>2020-05-26, 周二 13:51:47</strong>
+<dd class="postbody">
+使用手机下载的文档为什么不能点击呢？<br>发出了萌新的叫声<br>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>ShinoriWhiteCrystallize.</strong> 于 <strong>2020-08-06, 周四 16:02:50</strong>
+<dd class="postbody">
+反馈下问题……<br>人物卡通用2.0.5版本的技能栏里现代技能（计算机使用Ω、电子学Ω）的技能名称似乎消失了，只剩下一个Ω符号的样子。<br>我本来以为是我自己把表格玩坏了，没想到重新下载之后也是这样。<br>和宏禁用似乎没有关系。<br>啊，我的office版本是2016专业增强版，已经激活。
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>秋叶EXODUS</strong> 于 <strong>2020-08-06, 周四 22:40:48</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1066613#msg1066613">引述: ShinoriWhiteCrystallize. 于 2020-08-06, 周四 16:02:50</a></div></div><blockquote class="bbc_standard_quote">反馈下问题……<br>人物卡通用2.0.5版本的技能栏里现代技能（计算机使用Ω、电子学Ω）的技能名称似乎消失了，只剩下一个Ω符号的样子。<br>我本来以为是我自己把表格玩坏了，没想到重新下载之后也是这样。<br>和宏禁用似乎没有关系。<br>啊，我的office版本是2016专业增强版，已经激活。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>建卡页左上角的时代背景选择现代即可……
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>ShinoriWhiteCrystallize.</strong> 于 <strong>2020-08-07, 周五 21:49:36</strong>
+<dd class="postbody">
+<div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1066685#msg1066685">引述: 秋叶EXODUS 于 2020-08-06, 周四 22:40:48</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=80472.msg1066613#msg1066613">引述: ShinoriWhiteCrystallize. 于 2020-08-06, 周四 16:02:50</a></div></div><blockquote class="bbc_alternate_quote">反馈下问题……<br>人物卡通用2.0.5版本的技能栏里现代技能（计算机使用Ω、电子学Ω）的技能名称似乎消失了，只剩下一个Ω符号的样子。<br>我本来以为是我自己把表格玩坏了，没想到重新下载之后也是这样。<br>和宏禁用似乎没有关系。<br>啊，我的office版本是2016专业增强版，已经激活。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>建卡页左上角的时代背景选择现代即可……<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>啊……<br>习惯了以前的版本，没想到是这个问题（<br>麻烦了，不好意思x
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>SophieCarlson</strong> 于 <strong>2020-09-13, 周日 11:51:12</strong>
+<dd class="postbody">
+谢谢楼主，正在学习
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>tequila1998</strong> 于 <strong>2020-11-03, 周二 21:04:08</strong>
+<dd class="postbody">
+谢分享制作！
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>Necroslayer</strong> 于 <strong>2020-11-14, 周六 16:07:07</strong>
+<dd class="postbody">
+反馈一个职业点数计算公式的错误。<br><br>依据《调查员手册》，海员（军舰海员/民船海员）的两个分支的点数计算方式均应该为“教育*2+敏捷或力量*2”。但人物卡的职业列表中（军舰序号97/民船序号98），两者点数的计算公式均显示为“教育*4”。<br><br>顺便把其他《调查员手册》上的职业和卡中的核对了下，没发现类似错误。<br><br>
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>冰铜刃岚=两两包子</strong> 于 <strong>2020-12-07, 周一 12:31:32</strong>
+<dd class="postbody">
+有几个没和调查员手册的勘误同步：<br>7号动物训练师的本职技能。心理学→驯兽<br>21号男仆的本职技能，删除外语（同时大概任选一项变两项）<br>111号白领工人-职员的本职技能，语言→母语或外语
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>ASANOkkk</strong> 于 <strong>2021-06-18, 周五 13:06:44</strong>
+<dd class="postbody">
+&nbsp;:wub:
+<dt class="postheader">
+主题: <strong>Re: 【Call of Cthulhu 7th】半自动人物卡v2.0.5</strong><br>
+作者: <strong>zxy051001</strong> 于 <strong>2021-08-18, 周三 11:36:45</strong>
+<dd class="postbody">
+你好，请问我下到的表格有保护密码，密码是什么呢？
+</dd>
+</dl>
+<div id="footer" class="smalltext">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,1180 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="狂野世界（Savage Worlds）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>狂野世界（Savage Worlds）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="brd[1818]" value="1818"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0"><span>狂野世界（Savage Worlds）</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="版主">白药君</a>)
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section"><table class="table_list"><tr><td class="catbg"><a href="http://www.GoddessFantasy.net/bbs/index.php?board=1818">狂野世界（Savage Worlds）</a></tr><tr><td class="info"><hr /><br><table class="bbc_table"><tr><td><a href="http://www.goddessfantasy.net/bbs/index.php?board=1818.0" class="bbc_link"><sup><img src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=97577.0;attach=89845;image" alt="" width="225" height="115" class="bbc_img resized"/></sup></a><td> &nbsp; &nbsp; <td><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1818.0" class="bbc_link"><sub><span style="font-family: STXingkai;" class="bbc_font"><span style="color: brown;" class="bbc_color"><span style="font-size: 16pt;" class="bbc_size"><strong>狂野世界（Savage Worlds）</strong></span></span></span></sub></a><br><hr /><sup><a href="http://www.goddessfantasy.net/bbs/index.php?board=1818.0" class="bbc_link"><span style="color: black;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong><span style="font-family: YouYuan;" class="bbc_font">快速激烈的战斗，简单明快的系统，多元化的游戏体验<br>大量富有特色的官方及第三方世界设定，同时也适合粉丝DIY自设，一切应有尽有，无所不包。</span></strong></span></span></a></sup><br></tr></table><br><hr /></tr></table>
+<a id="top"></a>
+<div class="tborder" id="childboards">
+<div class="cat_bar">
+<h3 class="catbg">子版块</h3>
+</div>
+<div class="table_frame">
+<table class="table_list">
+<tbody class="content">
+<tr class="windowbg2">
+<td class="icon windowbg">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1963.0">
+<img src="Themes/celeste/images/off.png" alt="没有新帖子" title="没有新帖子"/>
+</a>
+<td class="info">
+<a class="subject" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1963.0" name="b1963">Savage Pathfinder RPG</a>
+<p></p>
+<p class="moderators">版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="版主">白药君</a></p>
+<td class="stats windowbg">
+<p>451 帖子 <br>
+114 主题
+</p>
+<td class="lastpost">
+<p><strong>最新帖子</strong>  由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a><br>
+在 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125741.msg1130013#new" title="Re: 【扩展】【SWPF】【BestiaryⅠ】生物图鉴Ⅰ【更新中】">Re: 【扩展】【SWPF】【BestiaryⅠ...</a><br>
+于 <strong>今天</strong>19:59:33
+</p>
+</tr>
+
+</table>
+</div>
+</div>
+<div class="pagesection">
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.40;sort=starter;desc">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.40;sort=starter;desc">&#187;</a>  &nbsp;&nbsp;<a href="#bot"><strong>页底</strong></a></div>
+</div>
+<div class="tborder topic_table" id="messageindex">
+<table class="table_grid" cellspacing="0">
+<thead>
+<tr>
+<th scope="col" class="smalltext first_th" width="8%" colspan="2">&nbsp;<th scope="col" class="smalltext"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0;sort=subject">主题</a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0;sort=starter">作者 <img src="Themes/celeste/images/sort_down.gif" alt=""/></a><th scope="col" class="smalltext center" width="14%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0;sort=replies">回复</a> / <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0;sort=views">阅读</a><th scope="col" class="smalltext last_th" width="22%"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0;sort=last_post">最新帖子</a></tr>
+
+<tbody>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1038006"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115382.0">【模组】【SWADE】至高宝藏 The Greatest Treasure</a></span></strong>
+<p><span id="msg_descr_1038006" class="topic_description">基于TRPG规则Savage Worlds狂野世界游戏系统的官方奇幻冒险短模组</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1038006"></small>
+</p>
+</div>
+<td class="stats stickybg">
+7 回复
+<br>
+7510 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115382.0#msg1103760"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-03-15, 周一 08:16:25<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=90297">catcatcat123</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/veryhot_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1031104"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114360.0">【整合】【SW】狂野世界Savage Worlds各世设扩展简介节选（2021年7月30日更新《业瘴》Effluvium）</a></span></strong>
+<p><span id="msg_descr_1031104" class="topic_description">挑选了Savage Worlds狂野世界中一些有趣/经典世设或扩展的简介，来源不一</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1031104">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114360.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114360.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114360.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats stickybg">
+33 回复
+<br>
+30593 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114360.20#msg1126785"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-07-30, 周五 10:42:54<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1035925"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115065.0">【模组】【SWADE】格兰·阿托米卡之祸 Disaster at Gran Atomica</a></span></strong>
+<p><span id="msg_descr_1035925" class="topic_description">基于TRPG规则Savage Worlds狂野世界游戏系统的官方现代科幻短模组</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1035925"></small>
+</p>
+</div>
+<td class="stats stickybg">
+7 回复
+<br>
+7527 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115065.0#msg1036083"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-02-23, 周日 01:21:52<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79040">笨哈</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/normal_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1030495"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114269.0">【索引】【SWADE】狂野世界Savage Worlds Adventure Edition全书内容索引目录</a></span></strong>
+<p><span id="msg_descr_1030495" class="topic_description">狂野世界Savage Worlds Adventure Edition 5.4版全部翻译完成，此为方便查阅内容的快速跳转索引链接</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030495"></small>
+</p>
+</div>
+<td class="stats stickybg">
+8 回复
+<br>
+8868 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114269.0#msg1075576"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-09-26, 周六 19:41:12<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/hot_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_979471"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107447.0">【译名】【SWADE】《狂野世界》核心规则译名参考表</a></span></strong>
+<p><span id="msg_descr_979471" class="topic_description">Savage worlds adventure edition参考译名表</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages979471"></small>
+</p>
+</div>
+<td class="stats stickybg">
+17 回复
+<br>
+12286 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107447.0#msg1129548"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-08-14, 周六 23:13:56<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/hot_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1053751"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=117564.0">【FAQ】【SWADE】狂野世界冒险版官方规则FAQ答疑摘录</a></span></strong>
+<p><span id="msg_descr_1053751" class="topic_description">官方针对Savage Worlds Adventure Edition中部分规则的解惑摘录，缓慢更新</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1053751">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=117564.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=117564.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=117564.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats stickybg">
+20 回复
+<br>
+16077 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=117564.20#msg1123401"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-07-12, 周一 13:08:12<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 stickybg">
+<img src="Themes/celeste/images/topic/veryhot_post_sticky.gif" alt=""/>
+<td class="icon2 stickybg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject stickybg2">
+<div >
+<strong><span id="msg_1034973"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.0">【下载】【SWADE】Savage Worlds狂野世界冒险版核心规则书-中文全彩PDF电子书下载(2021年6月14日更新v3.3)</a></span></strong>
+<p><span id="msg_descr_1034973" class="topic_description">基于狂野世界Savage Worlds Adventure Edition 5.4版翻译，5.7版更正</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1034973">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.40">3</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats stickybg">
+46 回复
+<br>
+35997 阅读
+<td class="lastpost stickybg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114912.40#msg1123504"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-07-13, 周二 09:47:19<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1109518"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124772.0">【扩展】【世设】【Hellfrost】玩家指引书:拉西隆的生活</a></span>
+<p><span id="msg_descr_1109518" class="topic_description">注意此书采用的规则并非如今的ADV版。</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=42483" title="检视会员资料:  维克那">维克那</a>
+<small id="pages1109518"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+5446 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=124772.0#msg1110701"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-04-27, 周二 00:58:06<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=42483">维克那</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1058273"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118217.0">【参考】【SW】狂野世界之世界创建与GM指南—大能游戏High Powered Games</a></span>
+<p><span id="msg_descr_1058273" class="topic_description">狂野世界Savage Worlds的角色能力成长曲线以及投骰机制背后的设计精神</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1058273"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+4857 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118217.0#msg1058786"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-06-14, 周日 11:52:34<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83003">啦啦啦雷饭饭</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1022937"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113148.0">【规则】【SWADE】狂野世界-追逐与载具Chases &amp; Vehicles</a></span>
+<p><span id="msg_descr_1022937" class="topic_description">狂野世界Savage Worlds 规则中关于追逐遭遇、战术行动以及载具判定规则的相关内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1022937"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+5304 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113148.0#msg1089255"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 20:00:13<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1036732"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115174.0">【世设】【漫画】狂野世界-泰坦效应 Titan Effect 规则书漫画部分</a></span>
+<p><span id="msg_descr_1036732" class="topic_description">狂野世界Savage Worlds官方授权的现代异能科幻谍战设定</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1036732"></small>
+</p>
+</div>
+<td class="stats windowbg">
+10 回复
+<br>
+9006 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115174.0#msg1116274"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-05, 周六 02:19:32<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1015406"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112113.0">【规则】【SWADE】狂野世界-装备Gears</a></span>
+<p><span id="msg_descr_1015406" class="topic_description">【入门向】狂野世界Savage Worlds核心规则中囊括的范例装备</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1015406"></small>
+</p>
+</div>
+<td class="stats windowbg">
+13 回复
+<br>
+9211 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112113.0#msg1067239"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-08-10, 周一 12:21:29<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030456"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114261.0">【规则】【SWADE】狂野世界-盟友Allies</a></span>
+<p><span id="msg_descr_1030456" class="topic_description">狂野世界Savage Worlds规则中的盟友相关规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030456"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3136 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114261.0#msg1030461"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-01-21, 周二 16:41:19<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030536"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114275.0">【参考】【SWD】狂野世界-盖板详述Template Specifications</a></span>
+<p><span id="msg_descr_1030536" class="topic_description">狂野世界Savage Worlds规则里的爆散及锥形盖板尺寸大小</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030536"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+3817 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114275.0#msg1030551"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-01-22, 周三 08:54:24<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=79634">Ghost-1008</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1014363"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111962.0">【规则】【SWADE】狂野世界-负赘Hindrances</a></span>
+<p><span id="msg_descr_1014363" class="topic_description">【入门向】狂野世界Savage Worlds规则中的角色塑造相关要素，与扮演及建卡时的资源换取息息相关</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1014363"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+5781 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111962.0#msg1089246"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:48:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1013154"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111774.0">【规则】【SWADE】狂野世界-角色要素Characters</a></span>
+<p><span id="msg_descr_1013154" class="topic_description">【入门向】狂野世界Savage Worlds规则里的角色卡里都包含什么？</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1013154"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+5112 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111774.0#msg1015726"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-10-02, 周三 19:01:46<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030102"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114209.0">【规则】【SWADE】狂野世界-旅行Travel</a></span>
+<p><span id="msg_descr_1030102" class="topic_description">狂野世界Savage Worlds 规则中关于旅行、长途跋涉以及随机遭遇的相关内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030102"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3290 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114209.0#msg1030105"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-01-18, 周六 12:41:44<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1024882"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113448.0">【规则】【SWADE】狂野世界-设定规则Setting Rules</a></span>
+<p><span id="msg_descr_1024882" class="topic_description">狂野世界Savage Worlds 规则中根据游戏风格选用/替代的规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1024882"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+4653 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113448.0#msg1089250"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:54:33<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1075185"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120626.0">【扩展】【SWAG】狂野世界Savage Worlds现代战术枪械扩展Tactical Modern Gun Options【完结】</a></span>
+<p><span id="msg_descr_1075185" class="topic_description">按照SWAG协议编撰的第三方资源，适用于现代以及近未来的战术向世设</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1075185"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+4919 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120626.0#msg1075255"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-09-24, 周四 13:58:59<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1016559"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112273.0">【规则】【SWADE】狂野世界-角色创建概要Character Creation Summary</a></span>
+<p><span id="msg_descr_1016559" class="topic_description">【入门向】狂野世界Savage Worlds玩家角色车卡快速上手指南</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1016559"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+4203 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112273.0#msg1016564"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-10-08, 周二 12:17:52<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1014732"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112010.0">【规则】【SWADE】狂野世界-奇术Powers</a></span>
+<p><span id="msg_descr_1014732" class="topic_description">【入门向】狂野世界Savage Worlds规则中的魔法、神术、灵能等等</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1014732"></small>
+</p>
+</div>
+<td class="stats windowbg">
+17 回复
+<br>
+11163 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112010.0#msg1089251"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:56:12<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030483"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114267.0">【规则】【SWADE】狂野世界-速查Summaries</a></span>
+<p><span id="msg_descr_1030483" class="topic_description">狂野世界Savage Worlds规则中的状态、伤害结算、负赘、特性和专长速查简表</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030483"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+4312 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114267.0#msg1089252"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:57:46<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1013754"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111884.0">【规则】【SWADE】狂野世界-战斗与恢复Combat &amp; Healing</a></span>
+<p><span id="msg_descr_1013754" class="topic_description">【入门向】狂野世界Savage Worlds规则中的战斗与恢复部分</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1013754"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+5448 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111884.0#msg1030464"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-01-21, 周二 16:58:26<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030151"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114216.0">【规则】【SWADE】狂野世界-创造种族Making Races</a></span>
+<p><span id="msg_descr_1030151" class="topic_description">狂野世界Savage Worlds规则中关于自设种族的参考规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030151"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+4721 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114216.0#msg1089245"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:46:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1026613"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113669.0">【规则】【SWADE】狂野世界-财富Wealth</a></span>
+<p><span id="msg_descr_1026613" class="topic_description">狂野世界Savage Worlds 规则中关于财富计算的可选替代规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1026613"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3470 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113669.0#msg1026617"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-12-20, 周五 22:28:55<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1077695"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120846.0">【世设】【TE】狂野世界-泰坦效应 Titan Effect 圣枪部SPEAR全球特遣队简介</a></span>
+<p><span id="msg_descr_1077695" class="topic_description">狂野世界Savage Worlds官方授权的现代异能科幻谍战设定扩展内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1077695"></small>
+</p>
+</div>
+<td class="stats windowbg">
+10 回复
+<br>
+6911 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=120846.0#msg1116275"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-05, 周六 02:19:37<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1057361"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118077.0">【参考】【SW】狂野世界之世界创建与GM指南—世设创建World Building</a></span>
+<p><span id="msg_descr_1057361" class="topic_description">狂野世界Savage Worlds GM创造自己世设和冒险时的思路参考，程序步骤，以及常见问题</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1057361"></small>
+</p>
+</div>
+<td class="stats windowbg">
+2 回复
+<br>
+3432 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=118077.0#msg1057365"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-06-04, 周四 15:02:02<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1020415"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112777.0">【规则】【SWADE】狂野世界-危难Hazards</a></span>
+<p><span id="msg_descr_1020415" class="topic_description">狂野世界Savage Worlds 规则中关于寒冷，高温，火焰，坠落、溺水等险境的部分</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1020415"></small>
+</p>
+</div>
+<td class="stats windowbg">
+6 回复
+<br>
+8177 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112777.0#msg1092657"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-26, 周六 15:15:43<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=100246">ambog</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1015125"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112068.0">【规则】【SWADE】狂野世界-情景规则Situational Rules</a></span>
+<p><span id="msg_descr_1015125" class="topic_description">【入门向】狂野世界Savage Worlds规则中的特定情景下的规则判定及可选行动</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1015125"></small>
+</p>
+</div>
+<td class="stats windowbg">
+5 回复
+<br>
+5133 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112068.0#msg1089248"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:51:06<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1102788"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.0">【扩展】【SWAG】战士与武将 Fighters &amp; Warlords—狂野世界泛用奇幻冷兵器拓展【完结】</a></span>
+<p><span id="msg_descr_1102788" class="topic_description">按照SWAG协议编撰的第三方资源，适用于各种类型的奇幻世设或是冷兵器时代世设</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1102788">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.40">3</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+48 回复
+<br>
+44791 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123880.40#msg1113421"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-05-18, 周二 13:56:31<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030445"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114259.0">【规则】【SWADE】狂野世界-生物图鉴Bestiary</a></span>
+<p><span id="msg_descr_1030445" class="topic_description">狂野世界Savage Worlds-SWADE核心规则中用于参考的范例怪物数据</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030445"></small>
+</p>
+</div>
+<td class="stats windowbg">
+8 回复
+<br>
+7030 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114259.0#msg1089253"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-12-02, 周三 19:58:49<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1014338"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111957.0">【规则】【SWADE】狂野世界-升级Advancement</a></span>
+<p><span id="msg_descr_1014338" class="topic_description">【入门向】狂野世界Savage Worlds规则中的角色升级细节</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1014338"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+4115 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=111957.0#msg1015729"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-10-02, 周三 19:02:16<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1026763"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113689.0">【规则】【SWADE】狂野世界-幕间Interludes</a></span>
+<p><span id="msg_descr_1026763" class="topic_description">狂野世界Savage Worlds 规则中关于丰富或是补充间章以及非主线部分的内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1026763"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3770 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113689.0#msg1026768"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-12-21, 周六 22:52:26<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1024874"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113447.0">【规则】【SWADE】狂野世界-快速遭遇Quick Encounters</a></span>
+<p><span id="msg_descr_1024874" class="topic_description">狂野世界Savage Worlds 规则中不按标准轮数进行/快速结算的遭遇规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1024874"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3863 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=113447.0#msg1024881"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-12-08, 周日 19:44:25<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1098580"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123401.0">【扩展】【SWAG】城寨浪客 Sprawlrunners—狂野世界赛博朋克世设科幻工具集【完结】</a></span>
+<p><span id="msg_descr_1098580" class="topic_description">按照SWAG协议编撰的第三方资源，同时具备适配魔幻向或纯科幻赛博朋克世设的内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1098580">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123401.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123401.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123401.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+27 回复
+<br>
+22758 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=123401.20#msg1101643"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-03-06, 周六 12:07:37<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1067373"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119610.0">【扩展】【SWAG】书典与祷文 Tomes &amp; Prayers—狂野世界奇幻设定奇术拓展【更新至v1.2】</a></span>
+<p><span id="msg_descr_1067373" class="topic_description">按照SWAG协议编撰的第三方资源，适用于高魔向的奇幻世设</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1067373">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119610.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119610.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119610.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+20 回复
+<br>
+24604 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=119610.20#msg1113420"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-05-18, 周二 13:51:28<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1037068"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115221.0">【世设】【TE】狂野世界-泰坦效应 Titan Effect 世设-历史|机构|异能|各大组织|人物</a></span>
+<p><span id="msg_descr_1037068" class="topic_description">狂野世界Savage Worlds官方授权的现代异能科幻谍战设定</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1037068">&#171;  <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115221.0">1</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115221.20">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115221.20">&#187;</a>  &#187;</small>
+</p>
+</div>
+<td class="stats windowbg">
+20 回复
+<br>
+15477 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=115221.20#msg1116276"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-06-05, 周六 02:19:53<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1015720"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112162.0">【规则】【SWADE】狂野世界-载具Vehicles</a></span>
+<p><span id="msg_descr_1015720" class="topic_description">狂野世界Savage Worlds-SWADE核心规则中列举的范例载具</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1015720"></small>
+</p>
+</div>
+<td class="stats windowbg">
+7 回复
+<br>
+5016 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=112162.0#msg1016405"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2019-10-07, 周一 15:38:45<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1030471"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114264.0">【规则】【SWADE】狂野世界-集团战斗Mass Battles</a></span>
+<p><span id="msg_descr_1030471" class="topic_description">狂野世界Savage Worlds规则中的大型战役以及战争情景相关内容</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1030471"></small>
+</p>
+</div>
+<td class="stats windowbg">
+3 回复
+<br>
+3483 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114264.0#msg1030474"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2020-01-21, 周二 19:33:54<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+<tr>
+<td class="icon1 windowbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt=""/>
+<td class="icon2 windowbg">
+<img src="Themes/celeste/images/post/xx.gif" alt=""/>
+<td class="subject windowbg2">
+<div >
+<span id="msg_1031073"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114351.0">【参考】【SW1E】狂野世界-用骰点替代抽卡判定先攻Alternative Initiative</a></span>
+<p><span id="msg_descr_1031073" class="topic_description">狂野世界Savage Worlds 1版规则(2003年)的先攻判定替代规则</span>
+<br>作者 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="检视会员资料:  白药君">白药君</a>
+<small id="pages1031073"></small>
+</p>
+</div>
+<td class="stats windowbg">
+4 回复
+<br>
+6887 阅读
+<td class="lastpost windowbg2">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=114351.0#msg1112902"><img src="Themes/celeste/images/icons/last_post.gif" alt="最新帖子" title="最新帖子"/></a>
+2021-05-15, 周六 12:49:10<br>
+由 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809">白药君</a>
+</tr>
+
+</table>
+</div>
+<a id="bot"></a>
+<div class="pagesection">
+<div class="pagelinks">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.40;sort=starter;desc">2</a> <a class="navPages" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.40;sort=starter;desc">&#187;</a>  &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1818.0"><span>狂野世界（Savage Worlds）</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77809" title="版主">白药君</a>)
+</ul>
+</div>
+<div class="tborder" id="topic_icons">
+<div class="description">
+<p class="align_right" id="message_index_jump_to">&nbsp;</p>
+<p class="align_left smalltext">
+<img src="Themes/celeste/images/topic/normal_post.gif" alt="" align="middle"/> 一般主题<br>
+<img src="Themes/celeste/images/topic/hot_post.gif" alt="" align="middle"/> 热门主题 (10 回复)<br>
+<img src="Themes/celeste/images/topic/veryhot_post.gif" alt="" align="middle"/> 超热门主题 (30回复)
+</p>
+<p class="smalltext">
+<img src="Themes/celeste/images/icons/quick_lock.gif" alt="" align="middle"/> 封锁主题<br>
+<img src="Themes/celeste/images/icons/quick_sticky.gif" alt="" align="middle"/> 置顶帖子<br>
+<img src="Themes/celeste/images/topic/normal_poll.gif" alt="" align="middle"/> 投票
+</p>
+<script>//<![CDATA[
+if (typeof(window.XMLHttpRequest) != "undefined")
+aJumpTo[aJumpTo.length] = new JumpTo({
+sContainerId: "message_index_jump_to",
+sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+iCurBoardId: 1818,
+iCurBoardChildLevel: 1,
+sCurBoardName: "狂野世界（Savage Worlds）",
+sBoardChildLevelIndicator: "==",
+sBoardPrefix: "=> ",
+sCatSeparator: "-----------------------------",
+sCatPrefix: "",
+sGoButtonLabel: "继续！"
+});
+// ]]></script>
+<br class="clear"/>
+</div>
+</div>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+// Hide certain bits during topic edit.
+hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+// Use it to detect when we've stopped editing.
+document.onclick = modify_topic_click;
+var mouse_on_div;
+function modify_topic_click()
+{
+if (in_edit_mode == 1 && mouse_on_div == 0)
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+}
+function modify_topic_keypress(oEvent)
+{
+if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+{
+modify_topic_save("05cf4466b95b292a7b39808b16e83f25", "b01458d970");
+if (typeof(oEvent.preventDefault) == "undefined")
+oEvent.returnValue = false;
+else
+oEvent.preventDefault();
+}
+}
+// For templating, shown when an inline edit is made.
+function modify_topic_show_edit(subject)
+{
+// Just template the subject.
+setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/><input type="hidden" name="topic" value="' + cur_topic_id + '"/><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '"/>');
+setInnerHTML(cur_description_div, '<input type="text" name="description" value="' + description + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text"/>'); //-Topic description MOD-
+}
+// And the reverse for hiding it.
+function modify_topic_hide_edit(subject)
+{
+// Re-template the subject!
+setInnerHTML(cur_subject_div, '<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=' + cur_topic_id + '.0">' + subject + '<' +'/a>');
+setInnerHTML(cur_description_div, description); //-Topic description MOD-
+}
+// ]]></script>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

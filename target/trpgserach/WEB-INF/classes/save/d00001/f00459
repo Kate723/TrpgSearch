@@ -1,0 +1,391 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="第五章：能力"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>第五章：能力</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1646.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="125081"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1646.0"><span>Ars Magica</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76871" title="版主">一盏大师</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0"><span>第五章：能力</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1111806"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=125081.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 第五章：能力 &nbsp;(阅读 3498 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=125081.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84130" title="检视会员资料:  Yakumo_S">Yakumo_S</a>
+</h4>
+<ul class="reset smalltext" id="msg_1111806_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 81<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1111806">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.msg1111806#msg1111806" rel="nofollow">第五章：能力</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1111806'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1111806'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-05-07, 周五 16:26:56 &#187;</div>
+<div id="msg_1111806_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1111806"><span style="font-size: 24pt;" class="bbc_size"><strong>第五章：能力</strong></span><br><br>能力代表角色在其人生过程中掌握的能力和技巧。人们会不断学习，因此能力通常会在战役进行的过程中逐渐增加。<br><br>需要使用能力的时候，通常将属性+能力+掷骰结果的值与难度值相比较。原则上，任何属性都能和任何能力搭配使用，但一些属性和能力的配对并不常见；例如，力量+赫尔墨斯秘会学识的搭配不太可能被频繁用到。合适的属性应当根据“角色”一章所给出的属性描述进行选择，但施法和战斗的相关规则对一些重要情形中属性和能力如何选择配对进行了说明。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>专精</strong></span><br><br>你为角色选择每一项能力时，都应为该能力决定一项专精。如果你使用能力的场合涉及专精，结算该行动时你的能力值视作比实际数值高1点。例如，如果你有“单手武器3级”的能力，专精是长剑，那么当你使用长剑时，你的行动将单手武器能力视作4级。<br><br>每一项能力描述的末尾都有一些建议专精。只要故事向导同意，你也可以选择其他专精。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>没有等级的能力</strong></span><br><br>如果角色在一项能力中没有等级，她可能仍然可以使用这项能力，也可能不行。如果在63页的列表中，该能力没有星号标注，角色可以将能力视作0级，并使用该能力，但需要多掷3颗大失败骰。如果能力有星号标注，她就完全不能使用该能力。<br><br>如果角色在一项能力中投入了1点经验值，那么无论该能力是否有星号标注，她都可以将该能力视作0级并使用，而且不需要多掷失败骰。经验值代表了大量的训练，因此有1点经验值的角色也可以使用能力。<br><br>除非角色在超自然能力中投入至少1点经验值，否则她们不能使用这些能力。只有拥有灵光或相关美德的角色才能向超自然能力投入经验值。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>附页：能力类型</strong></span><br><br>能力一共有五类：一般能力，学术能力，奥法能力，作战能力，以及超自然能力。使用所有能力时的规则都相同，区别在于哪些角色能够习得对应类型的能力。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>一般能力</strong></span><br>几乎所有神秘欧洲的人都有机会学习这些能力，因此谁都能掌握这些能力，规则对可以掌握一般能力的角色没有任何限制。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>学术能力</strong></span><br>掌握学术能力需要学习者接受正式训练。起始角色只有通过购置某项美德且该美德明确许可她购置学术能力，或者是一名巫师，才可以购置学术能力。没有上述特定美德的巫师只有在学徒期间或期后才可以购置学术能力。此外，掌握学术能力需要至少3级的拉丁语、希腊语、希伯来语或是阿拉伯语，具体语言取决于你在欧洲的哪一区域。对大多数角色而言，她们需要拉丁语3级。<br><br>在中世纪，每个学科的学习都是在该学科的权威(auctores)基础之上进行。人们并不会把这些权威的观点当成毫无瑕疵的真理，或是认为他们在该学科上的研究已经完备。但大家都认为，这些权威对相应学科的本质有着正确认识，且对该学科的主题进行了准确的分类。因此，中世纪的学者可以表态说“亚里士多德对一种逻辑谬误的理解是错误的”，但他不会说，“亚里士多德对逻辑的理解是完全错误的”，或者说“存在着一些无法根据他的标准归类的逻辑谬误”。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>奥法能力</strong></span><br>在创建角色阶段，只有当该角色是巫师时，或是有美德许可时，角色才能购置奥法能力。有些美德允许角色购置一种奥法能力，而不允许她购置其他能力，另一些美德则允许角色购置任意奥法能力。没有上述特定美德的巫师只有在学徒期间或期后才可以购置奥法能力。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>作战能力</strong></span><br>在创建角色阶段，只有当该角色是巫师时，或是有美德许可时，角色才能购置作战能力。没有上述特定美德的巫师只有在学徒期间或期后才可以购置作战能力。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>超自然能力</strong></span><br>在创建角色阶段，只有当该角色有美德赋予对应能力时，角色才能获得超自然能力。有灵光但不是巫师的角色在创建角色阶段可以学习一项超自然能力。<br><br>大部分超自然能力都是由秘法领域或精灵领域的力量赋予的，因此需要参照异域交互图的对应列。大部分能力也可亦由下界领域赋予，但获得这样的能力意味着角色和下界势力达成了一些契约。侦测圣邪则是一项例外，属于神圣能力。如果你没有理由选择特定异域，那么默认你的能力是由秘法领域赋予的，这让你免疫因为强秘法场导致的晦变。由其他异域赋予的超自然能力会让你免疫对应种类的强异域场导致的晦变。<br><br>灵光让角色可以在进行游戏时掌握超自然能力。但灵光属于秘法域，因此灵光只能让角色掌握秘法域相关的能力。<br><br><hr /><span style="font-size: 18pt;" class="bbc_size"><strong>按类型划分的能力列表</strong></span><br><br><table class="bbc_table"><tr><td><span style="font-size: 14pt;" class="bbc_size"><strong>一般能力</strong></span><br>驯养动物<br>（地区）学识*<br>运动<br>察觉<br>议价<br>斗殴<br>欢宴<br>魅力<br>手术<br>专注<br>手艺（类型）<br>礼仪<br>察言观色<br>瞒骗<br>狩猎<br>权术<br>领袖<br>戏法*<br>（现用语言）*<br>音乐<br>（组织）学识<br>行业（类型）<br>骑术<br>隐匿<br>生存<br>游泳<br>教学<br><td><span style="font-size: 14pt;" class="bbc_size"><strong>学术能力</strong></span><br>七艺*<br>公民法与教会法*<br>普通法*<br>（衰亡语言）*<br>医学*<br>哲学*<br>神学*<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>奥法能力</strong></span><br>赫尔墨斯规仪*<br>神圣学识*<br>精灵学识*<br>灵巧施法<br>下界学识<br>秘法学识<br>魔法理论<br>保护咒*<br>法术穿透<td><span style="font-size: 14pt;" class="bbc_size"><strong>作战能力</strong></span><br>弓术<br>双手武器<br>单手武器<br>投掷武器<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>超自然能力</strong></span><br>动物伙伴<br>寻物术<br>迷乐<br>催眠<br>秘法敏锐<br>预知<br>灵视<br>侦测圣邪<br>化形<br>荒野灵知<br></tr></table><br><span style="font-size: 18pt;" class="bbc_size"><strong>能力列表</strong></span><br><br>这个列表按照字母顺序列出了所有能力。能力类型在描述结尾以括号形式给出。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>（地区）学识*</strong></span><br>对某一特定区域、结社或村庄的知识。这项能力包括：了解周遭的分布、当地的历史传说，以及地区的权力中心。地区越小，学识的内容就更细致。<strong>专精：</strong>地理、历史、传说、政治、人物。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>驯养动物</strong></span><br><br>照顾和驱使动物，包括抚育、管理、梳洗、治疗。<strong>专精：</strong>训鹰、特定动物。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>动物伙伴</strong></span><br><br>你能把动物视作人类进行交流。将你的动物伙伴等级看作动物流利使用的语言的等级，以此决定你们交流的顺畅程度，你还能用驯养动物替代任何与人类的社交能力。除此之外，这项美德没有其他作用。它不会影响动物对你的态度，也不会影响你对它们的态度。其他人无法理解你和动物的交流过程。<strong>专精：</strong>一种特定类型的动物、一种特定类型的交流。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>七艺*</strong></span><br><br>七艺，也作博雅，是中世纪高等教育的基础学科。在大学，所有人在学习其他科目前，都需要学习七艺。角色在其他学术能力有等级，但在七艺连1级都没有的情况十分罕见。<br>七艺被分为两组，三科（文法、辩证、修辞）和四学（算数、几何、天文、音乐）。在游戏设定的时期，学习重点在三科上，但三科和四学都会进行教授。（注意七艺是一项技能，而非七项分开。）<br><br>文法关注的是语言组织的理论问题，而非使用具体语言的能力（使用具体语言属于语言能力）。文法的权威是普里西安和多纳图斯。辩证研究亚里士多德讨论的三段论和其他推理形式。这是本时期最重要的七艺。亚里士多德是辩证权威，著有《旧逻辑》《新逻辑》。修辞是研究修辞形式理论的学科：这指的是演说家使用的技巧的理论知识，而非实际使用的技巧。修辞权威是西塞罗，尤其是他的著作《论创造力》。<br><br>算数是加减乘除的能力。权威是波爱修斯的《论算数》。几何研究平面和立体的形体，权威是欧几里得的《几何原本》。几何还设计对光线的研究，权威是欧几里得的《光学》。天文关注的是预测星体和行星的位置，权威是托勒密的《至大论》。七艺的音乐是纯理论，而非歌唱和演奏乐器的能力。权威是波爱修斯的《论音乐》。<br><br>七艺还包括读写的能力。角色在本能力每有1级，就可以读写一套文字系统，只要他知道使用这套文字的语言：例如拉丁字母，希腊字母，阿拉伯字母等等。<strong>专精：</strong>文法，辩证，修辞，算数，几何，天文，音乐，仪式魔法，典仪魔法。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>运动</strong></span><br><br>运动能力代表常规的身体技能，包括如何流畅、自信、优雅的移动。使用运动技能在大部分需要运用身体大肌群的行动中可以提升协调性。<strong>专精：</strong>杂技，柔韧，优雅，跳跃，奔跑。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>察觉</strong></span><br><br>注意到你在寻找的事物或是预料之外的事物。察觉能力还用在决定你在需要警觉的环境中有多警惕。<strong>专精：</strong>护卫、守夜、警觉、搜索。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>议价</strong></span><br><br>知道如何能够花最少的钱得到最好的商品和服务。议价能力包括观察你议价的对象，对货物价值的大致了解，以及使用特定方法表现自己的技巧。好的议价者可以轻松打消新顾客的顾虑，或是看穿过分夸耀商品价值的行为。<strong>专精：</strong>特定类型的商品，强买强卖。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>弓术</strong></span><br><br>使用弓箭的能力。<strong>专精：</strong>任意一种武器。（作战能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>斗殴</strong></span><br><br>不使用武器徒手战斗，或是用随手抄起的临时武器战斗的能力，也包括使用小刀的能力。如果你没有任何作战能力，斗殴还是你用于闪避攻击的能力。<strong>专精：</strong>拳击，擒抱，小刀，闪避。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>欢宴</strong></span><br><br>自酌自乐，而不会受到负面效果的能力。例如，拥有这一能力的人可以痛饮大量的烈酒却不会醉倒。这项技能还包括对各种场合下合理行为的认识，以及如何平衡享乐和节制的技巧。有欢宴技能的人可以在任何属于下层阶级的场所享乐并结交朋友，甚至包括文化不同的朋友。<strong>专精：</strong>痛饮，饮酒歌，赌博，保持清醒。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>魅力</strong></span><br><br>引诱他人和让他人喜爱自己的能力，但魅力能力仅限于对个人使用。这一能力可以用来赢得某人的芳心，尤其是异性。<strong>专精：</strong>宫廷爱情，第一印象，诙谐幽默。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>手术</strong></span><br><br>这一能力指的是中世纪的手术，用于帮助他人恢复身体所受的伤害。手术能力涵盖了所有照料和缝合伤口的方法，以及关键但残忍的技能：烧灼疗法。具体规则见“受伤”一节。<strong>专精：</strong>烧灼疗法，诊断，缝合伤口，接骨。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>公民法和教会法*</strong></span><br><br>公民法是罗马帝国的法律。大多数法律系统都是在公民法的基础上发展而来（英格兰是一个知名的例外），而公民法也是处理国际事务所需要参考的法律。公民法的权威是查士丁尼一世的《学说汇纂》。教会法是教廷的法律。它应用于神秘欧洲所有国家的教会事务和一些其他领域，例如婚姻；这一法律因此十分重要。需要注意的是，所有神职人员只需要遵守教会法，而不受市民法的管辖。多数高级的教会人员并非神学家，而是资深的教会法律师。教会法根据教皇诏书颁布，但教会法的权威是格拉提安，著作是《教会法汇要》。这一能力包括对两套法律系统的认识。其他宗教，例如犹太教和伊斯兰教也有各自版本的本能力，那些能力需要角色另行掌握。<strong>专精：</strong>特定区域的法律和习俗，教皇法令。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>赫尔墨斯规仪*</strong></span><br><br>根据赫尔墨斯规仪和外层规仪决断案件和事件的能力。这一能力除了回忆重要的判例以外，还包括实际执行赫尔墨斯法的知识，例如知道什么时候应该推行投票进行，或是如何进行辩护。<strong>专精：</strong>巫师征战，学徒，世俗交际，议庭进程，政治权术。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>一般法*</strong></span><br><br>英格兰法律的知识。这一能力没有任何权威，也只在英格兰进行教授。<strong>专精：</strong>当地法律，财政法律。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>专注</strong></span><br><br>集中精神专注执行一件事的能力，尤其是需要持久注意的能力。如果你想要进行的行动需要你额外的注意力，或是想要再次尝试一项刚刚失败的行动，故事向导可能会让你先进行一次专注检定，通过后才能开始尝试。这一能力对巫师尤为重要，因为专注能力能让他们在受到干扰时仍能维持法术。<strong>专精：</strong>施法专注，阅读，实验室研究。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>手艺（类型）</strong></span><br><br>手艺能力是无数能力的统称，每种具体能力都对应某种手工艺。一般而言，不同的手艺能力按照原材料的类型进行划分，不过手艺能力也可以是用多种材料制造一类物品的能力。你可以多次购置手艺能力，但每次需要选择不同的手艺种类。拥有一项手艺能力的技能并不代表你通晓任意其他手艺能力。<strong>专精：</strong>根据具体手艺决定。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>（衰亡语言）*</strong></span><br><br>这一技能和其他（语言）能力类似，但这种能力只对受教育的角色开放，它让角色可以说一种不再作为母语使用的语言。衰亡语言最重要的一种是拉丁语。所有西方世界受教育的角色都懂的拉丁语，因为如果没有这项能力，你无法学习任何学术能力。这种语言也是教会和赫尔墨斯秘会的通用语言。在世界的不同区域，阿拉伯语、希腊语和希伯来语起到了类似的作用，但这些语言中只有希伯来语是衰亡语言。<strong>专精：</strong>学术用语、教会仪式、赫尔墨斯秘会用语。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>神圣学识*</strong></span><br><br>关于神圣力量如何显现的知识。这一能力和教廷学识（一种（组织）学识）不同，因为神圣学识复盖的是奇迹的知识，而非教廷政治的知识。神圣学识和神学也不同，因为神圣学识关心力量，而神学关注学说和理论。<strong>专精：</strong>天使、圣徒、神圣生物。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>寻物术</strong></span><br><br>你可以使用占卜杖（通常是一根分叉的棍子）运用直觉找到周遭的事物。你把注意力集中到你想要找到的事物上，将占卜杖举在面前，根据它的轻微移动找到东西。如果你在寻找特定事物，你必须和寻找的事物有合适的共鸣联系（例如在搜寻水流的时候，一瓶从溪流中取得的水就是共鸣联系）。在掷骰之前，你需要先指定你搜索的区域。如果你想要搜寻的物体不在指定区域内，行动自动失败。搜索的时间取决于区域面积，无论你是否成功，都需要消耗同样的时间。搜寻25步距离内的物品需要一个日身的时间（约2分钟，或20个战斗轮），距离翻倍则时间变为四倍。在25步内找到常见的事物，例如水源，需要感知+寻物术的9+检定。增加范围或是寻找不太常见的物品会增加难度值，举例而言，在100步内找到黄金的难度值为15。<strong>专精：</strong>寻找特定种类的物品（水源、黄金），在特定种类的区域寻物。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>迷乐</strong></span><br><br>如果你下定决心，你可以用音乐影响他人。如果你想要达到特定效果，你需要用人们可以理解的语言吟唱。你可以只用音调让悲戚的人平静下来，但你必须用歌词劝说农民揭竿而起反抗领主。笼统的效果可以在动物身上起效，但想要达成具体的效果，迷乐只能用于通晓人语的动物。当你使用迷乐时，掷骰（具体情境决定是压力骰还是简单骰）结果，加上交流和迷乐的总值作为结果。难度值9+的检定可以安抚情绪，12可以赢得某人芳心，15可以煽动暴乱，而24也许能从黑暗王子手中赢回灵魂。大失败会在目标心中唤起一种你不愿引发的情感。<br><br>如果目标有魔法抗性，你必须穿透他们的抗性。规则见184页。<br><br>你还需要掷骰决定音乐表演的质量，但除非你得到大失败，不然表演质量并不会影响是否引发魔法效果，如果你的音乐检定大失败，这意味着你因为某种原因没有奏出音乐，因此超自然能力也自动失败。<strong>专精：</strong>一种特定情感，一类人物目标（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>催眠</strong></span><br><br>你有操控人心的力量。你凝视某人双眼几秒钟（在战斗中通常难以做到），你就可以用语言命令这个人执行一项行动。掷风度+催眠，对抗目标的体质掷骰。故事向导可以根据下表，决定被控制的人在抵抗催眠时有相应加值。赫尔墨斯巫师仍然可以应用他们具有的心灵魔法抗性，如果催眠效果穿透魔法抗性，他们还可以进行体质检定。盲人和双目紧闭的人免疫此能力，111页有更多关于进行目光接触的指导。但除非你的对抗检定成功，不然你无法在被催眠时移开目光。<br><br><table class="bbc_table"><tr><td>命令<td>样例<td>受害者的加值</tr><tr><td>无害<td>与我交谈<td>+3</tr><tr><td>可疑<td>在深夜和我单独见面<td>+6</tr><tr><td>危险<td>收好武器<td>+9</tr><tr><td>凶恶<td>杀掉你的同伴<td>+12</tr><tr><td>自灭<td>跳下悬崖<td>+15</tr></table><br><strong>专精：</strong>特定类型的命令，特定的人物目标。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>礼仪</strong></span><br><br>你懂得社交礼仪，明白在不同的场合如何言行举止。礼仪和魅力不同，因为礼仪是举止合适的能力，而不是吸引他人的能力。你不能用礼仪诱惑某人，但你也不能仅靠魅力完成与教皇的会见。<strong>专精：</strong>贵族礼仪，宫廷礼仪，农民礼仪，精灵礼仪，教廷礼仪。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>精灵学识*</strong></span><br><br>了解精灵的能力、弱点、动机和精灵的分布区域。<strong>专精：</strong>精灵森林，精灵山丘，特定类型的精灵。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>灵巧施法</strong></span><br><br>操控法术，并用法术实现特定技巧的能力。你需要使用这一能力精确控制物体，或是发射法术。<strong>专精：</strong>优雅，精确，任意一种型式。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>察言观色</strong></span><br><br>理解另一人的背景、性格与动机。在使用这一能力时，故事向导往往会掷秘密骰；因此，你不知道你的角色的猜测是否正确，甚至有可能引发了大失败。<strong>专精：</strong>农民、镇民、贵族、牧师、巫师、异性。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>巨型武器</strong></span><br><br>使用双手武器进行战斗。<strong>专精：</strong>任意一种武器。（作战能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>瞒骗</strong></span><br><br>编造信服的谎言，伪装情感、信念或心理状态的能力。如果你了解你想要瞒骗的人（感知+察言观色检定得到9+），你的瞒骗检定获得+1加值。这一能力也涵盖伪装自己，扮成其他身份的技能。瞒骗检定通常是对抗检定，对抗目标的感知+察言观色，在进行伪装时，则是对抗目标的感知+觉察。<strong>专精：</strong>特定的骗术，欺瞒权威，口若悬河，巧妙的谎言。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>狩猎</strong></span><br><br>放置陷阱，选择合适的狩猎地点，跟踪和鉴定各种动物的足迹。这一能力还能让你掩盖自己的踪迹，或是让你从一开始就毫无痕迹。<strong>专精：</strong>追踪、掩盖踪迹、狩猎特定动物。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>下界学识*</strong></span><br><br>理解和熟悉世界的邪恶一面，尤其是下界及其代理者。这包括了解恶魔的习性和弱点、不死生物的习性和弱点，以及了解诅咒。<strong>专精：</strong>恶魔、不死生物、诅咒。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>权术</strong></span><br><br>谋划和布局的能力，包括巧妙运用权力，用非对抗的方法达成目的的能力。权术不一定是阴谋或者暗算，这一能力还包括了对谈判规则和礼节的认识，无论这些规则是否属于明面的规则。此外，权术还能让角色通过传言了解事实，掌握当权者的情报。对于那些频繁出入于宫廷和赫尔墨斯议庭的人来说，权术是至关重要的才能之一。<strong>专精：</strong>分析流言、谋划、散播传言、结盟。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>领导</strong></span><br><br>让人们服从你的指挥并跟随你。领导能力也能用于唤起他人的恐惧，迫使他们屈服于你。<strong>专精：</strong>威吓，用于战斗，激励。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>巧术*</strong></span><br><br>耍把戏，了解需要用到双手把戏的骗局。巧术需要巧手和高度的手眼协调。巧术包括从市场的货亭顺走东西，扒窃，撬锁，以及使用“魔法”把戏从信以为真的群众手中敛财。巧手的受害者需要掷感知+觉察，以发现你的巧手尝试。如果观察的人有巧手技能，他可以选择把觉察能力换成巧手进行检定。如果角色想要用巧手进行一些精密的行动，例如扒窃，那么想要用巧术发现角色行动的人在检定时得到+3加值。<strong>专精：</strong>顺手牵羊，扒窃，“魔法”把戏。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>（现用语言）*</strong></span><br><br>一种特定现用语言的流利程度。这一领域的等级不作为掷骰的调整值，而是直接衡量你用该语言交流的能力。<br><br><table class="bbc_table"><tr><td>等级<td>流利度</tr><tr><td>0<td>指物嘟囔的程度。如果有1点或更多的经验点数，那么你知道如何说“请”，“谢谢”，以及另外几个短语。</tr><tr><td>1<td>进行基本问答的程度。“教堂在哪里？”“你卖吃的吗？”你说话一直犯错误，而且口音重得令人发指。人们和你说话时必须要放慢速度，时不时还需要重复。你无法进行顺畅的会话。</tr><tr><td>2<td>基础对话的程度。你能够围绕一个常见话题进行简短的对话。你仍然会犯很多错误，而且经常无法理解其他人的意思。</tr><tr><td>3<td>结结巴巴的程度。你能够就日常话题进行对话，但你需要很长的时间思考表达。你会犯许多错误，口音仍然很重。</tr><tr><td>4<td>可用的程度。你能够就非技术性的话题进行对话，几乎不怎么犯错。人们通常不需要通过重复说过的话让你理解。这是能够通过书本学习所需要的最低等级。</tr><tr><td>5<td>流利的程度。如果这种语言不是你的母语，那么你还是有轻微口音。你说的和大多数母语者一样好。这是写书所需要的最低等级。</tr><tr><td>6<td>文雅的程度。你的遣词用句很确切，即使这不是你的母语，你也没有口音。</tr></table><br>当两个人交谈的时候，两人中较低的语言等级决定他们交流的顺畅程度。说相近语言的角色会在语言等级上受到罚值（由故事向导决定）但仍可以相互交流。罚值取决于两种语言有多近。<br><br>需要注意的是，拉丁语和希伯来语在神秘欧洲的多数地区都不是现用语言。但如果有角色生活在把这些语言作为现用语言的地区（例如一些结社），他们不需要任何特定的美德就可以掌握这些语言能力。<br><br>仅有这一能力的角色并不识字，除非他们在七艺也有等级。<br><br>这一能力还涵盖了使用该语言进行艺术表达的能力，以及满怀热情讲述现有故事的能力。有关故事内容的知识则由相应的学识能力表示。<br><br><strong>专精：</strong>诗歌、散文、特定方言、高词汇量、特定的技术用词、俗语、讲述故事。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>秘法学识*</strong></span><br><br>有关魔法生物、区域和传统的知识。<strong>专精：</strong>魔法生物、魔法传统、魔法秘境。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>魔法敏锐</strong></span><br><br>你可以鉴别场所或物品是否有魔法。但你的敏锐特质也让你更容易受到魔法效果的影响：你需要从所有的魔法抗性骰的结果减去你的魔法敏锐等级。当你尝试感知场所或物品是否有魔法特性时，故事向导会设置难度值，你只需要掷简单骰+感知+魔法敏锐即可。<br><br>侦测魔法场的难度值通常是12-魔法场强度，因此侦测3级场的难度值是9，侦测6级场的难度值是6。<br><br>侦测法术和附魔物品时，比较适当的难度值可以是21-效果的量级。计算附魔物品的难度值时，用最强大效果的量级进行计算。<br><br>侦测魔法生物时，15-生物魔力的五分之一比较恰当，因此魔力25的生物，难度值是10。<br><br><strong>专精：</strong>魔法场，魔法生物，附魔物品，生效法术。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>魔法理论*</strong></span><br><br>有关魔法本质和运作原理的知识。这种能力主要用于实验室。魔法理论探讨的是赫尔墨斯魔法的技术细节；秘法学识则是关注一般意义上的魔法存在。只要能够找到教师或书籍（通常由美德表示），任何人都能够掌握魔法理论，但这项能力对于没有灵光的人而言几乎没有任何用途。<strong>专精：</strong>发明法术，附魔物品，一项秘艺。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>医学*</strong></span><br><br>医学是研究身体和疾病的正式学科。行医诊断的基础是四体液说：血液、粘液、黄胆汁、黑胆汁。学者相信疾病是四体液的失衡导致的，因此才有形如放血疗法的技术，使得体液恢复平衡。医学还负责治疗中毒、饥饿等症状，但并不负责处理伤口（见上“手术”部分）。医学权威是盖伦和希波克拉底，他们著有许多著作。<strong>专精：</strong>解剖，药学，外科。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>音乐</strong></span><br><br>歌唱、演奏乐器和谱写新曲目的能力。<strong>专精：</strong>歌唱、作曲、任意一种乐器。（一般）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>（组织）学识*</strong></span><br><br>有关特定组织的历史传说、架构、手段和目的的相关知识。组织可以大如教廷，小如当地的某个工艺行会。组织越小，学识的内容就越细致。<strong>专精：</strong>名人、历史、政治。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>守护咒*</strong></span><br><br>防御魔法的能力。这是一项需要约两分钟施行的特殊仪式（不是仪式法术）。这项仪式会让你把守护咒等级的5倍加到魔法抗性上，直到下一次日出或日落为止，以较早发生的为准。你可以通过专注暂时压抑守护咒的效果，这相当于维持一项时长为专注的法术（见82页）。守护咒生效的时候不需要你专注。<br><br>你在守护咒能力每有1级，就可以在得到他人同意后，多保护1个人。为了启用守护咒，你必须接触你要保护的人，只要你与受保护者两人至少有一人能看到另一人，守护咒就不会中断。巫师可以不限距离，随时结束守护咒效果。当巫师用守护咒保护他人时，他的有效守护咒等级减少3点，这一减少对他自己和其他受保护者都生效。如果巫师的守护咒等级为3或更低，他的守护咒为包括他自己在内的每名角色提供0级的魔法抗性。法师施于自身的守护咒等级会与型式抗性相加作为抗性值，而受到其他巫师保护的巫师也可以在抵抗魔法时加上型式抗性。<br><br>只有拥有灵光的角色可以学习守护咒，但守护咒是作为奥法能力，而非超自然能力，被灵光拥有者习得的。只有赫尔墨斯巫师才知晓守护者，因为秘会对所有知道守护咒的人都严格奉行“加入秘会，否则格杀勿论”的政策，还会对向非秘会成员教授守护咒的巫师发起巫师征战。守护咒是巫师学徒学习的最后一项知识，只有在他许下誓约之后，守护咒的最后一个关键要点才会传授给他。<strong>专精：</strong>防御任何一种特定型式。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>法术穿透</strong></span><br><br>让你的法术克服目标的魔法抗性。法术穿透规则的细节见82页。<strong>专精：</strong>任何一种秘艺。（奥法能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>哲学*</strong></span><br><br>哲学共有三种：自然哲学、道德哲学、以及形而上学。亚里士多德是所有三种哲学的权威，他针对不同种类的哲学各自著有权威书籍。大部分学者在学习七艺之后，学习法律、神学、医学之前，进行哲学的学习。自然哲学研究月下世界，大致与当今的科学相当。主要的著作是《物理学》《气象学》《动物志》。道德哲学研究人类如何适当地生活，包括伦理、政治、经济，著作有《伦理学》《政治学》《经济学》。形而上学是探讨世界本质的学科。主要著作是亚里士多德的《形而上学》。<strong>专精：</strong>自然哲学、道德哲学、形而上学、仪式魔法、典仪魔法。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>预知</strong></span><br>你能够用直觉察觉到不对劲或者即将发生的坏事。在你有机会避开危险的时候，如果合适，你或者故事向导都可以发起你的这项能力进行检定。掷感知+预知对抗场景相应的难度值。难度值取决于具体情况，对即将发生的致命危险进行预知的难度值为3，危险程度越轻，越是在更远的未来，难度值越高。一周后发生的致命危险对应的难度值为9，而即将发生的小问题对应的难度值为15。如果你的检定结果超出难度值3点及以上，你还能感知到这种危险的一些特性，你的点数越高，了解就越详细。<strong>专精：</strong>对特定人物或人群的危险，特定类型的危险。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>行业（类型）</strong></span><br><br>进行某种不需制作物品的工作的能力。一些例子包括吟游诗人，治安官，水手，管家，赶车人，洗涤工。专精取决于具体行业。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>骑术</strong></span><br><br>骑乘和控制马匹，特别是在有压力的情景下的马术技巧。<strong>专精：</strong>战斗，竞速，戏法。（一般）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>灵视</strong></span><br><br>你能够看穿包括隐形术在内的幻术和伪装，还能看到原本就无法看见的物体，比如精魂和秘境层级的边界。看穿幻术和伪装的难度值通常是6+赫尔墨斯法术的量级。一般来说，这项美德能让你看穿赫尔墨斯象型的伪装，但不包括其他种类的伪装。即使被伪装的生物有魔法抗性，这种抗性也不会干扰你的灵视。如果一件物品确实变形了，例如受到了MuCo法术的作用，你无法判断变形物品的原本形态。看到本质上隐形的物品的难度值一般是9，看到秘境层级的难度值在189页进行了说明。所有灵视掷骰都是感知+灵知。<strong>专精：</strong>秘境，隐形物品，幻象伪装，精灵，鬼魂。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>侦测圣邪</strong></span><br><br>你能够感知善恶。通过难度值为9的感知+侦测圣邪检定能让你侦测一片大致区域的神圣和邪恶氛围，通过难度值为15的上述检定能让你侦测一个具体人物或物品的神圣和邪恶氛围。因为恶魔通常想要掩盖它们的本质，因此你必须要在检定中击败它们的魔法抗性。但你只需要比恶魔的魔法抗性高1点即可，因为恶魔是极度邪恶的存在。天堂的信使很少隐藏它们的本质，但如果它们确实隐藏了，你必须要穿透它们的魔法抗性（见184页）。在特别强大的神圣场和下界场中，你的敏锐感官可能会压垮你。这项能力由神圣域赋予你，而非秘法域和精灵域，因此在查阅秘域交互表的时候使用神圣一列（183页）。<strong>专精：</strong>善或恶。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>化形</strong></span><br><br>你可以变换自己的身体形态，成为一种平凡的动物，体型可以小如雀鸟（-5），大如灰熊（+2）。化形需要几秒钟（一轮）的专注，并难度值为9的通过体质+化形检定。返回人类形态需要同样的专注时间和检定。<br><br>你的化形能力的形态列表有限，你在化形能力每有1级，就可以变为一种动物。每次你提升化形能力等级时，可以选择一种新形态。<br><br><strong>专精：</strong>你的一种形态，化形时满足特定条件。（超自然能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>单手武器</strong></span><br><br>使用单手武器作战的能力，另一只手可以持盾。这项能力包括在马背上用长枪作战的能力。<strong>专精：</strong>任意一种武器或盾牌，武器专精包括使用任意盾牌或不使用盾牌的场合，盾牌专精包括使用任意武器的场合。（作战能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>隐匿</strong></span><br><br>暗中移动而不被发现的能力，也包括藏匿。这项能力包括跟踪他人而不被发现的用法，此时掷骰对抗被跟踪者的感知。<strong>专精：</strong>藏匿，潜行，跟踪，城镇区域，自然区域。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>生存</strong></span><br><br>在野外找到食物、水源、路线和安全区域的能力（神秘欧洲的野外非常危险）。这一能力包括建造营火和不用厨具烹饪食物的能力。<strong>专精：</strong>特定环境类型。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>游泳</strong></span><br><br>在水中快速高效地行进的能力。<strong>专精：</strong>长距离，潜水，水下机动。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>教学</strong></span><br><br>向他人教授能力的能力。<strong>专精：</strong>教授特定能力，面向特定类型的学生。（一般能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>神学*</strong></span><br><br>神学是研究上帝及祂在世间功业的学问。神学权威是《圣经》和彼得·伦巴德的《四部语录》，圣经无可辩驳，在神学意义上占首要地位，而《四部语录》则是研究最多的。神学理论非常深奥，许多神学家因此被指控为传播异端学说。有些被指控者会宣称放弃观点，而另一些时候他们能够让教廷信服自己理论的正确性。像伊斯兰教和犹太教等其他宗教的神学也能作为一项单独购置的能力。<strong>专精：</strong>圣经知识，异端学说，神学历史。（学术能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>投掷武器</strong></span><br><br>在一段距离外使用投掷武器的能力。<strong>专精：</strong>任意一种武器。（作战能力）<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>荒野灵知</strong></span><br><br>你通过某种神秘的方式洞察荒野之道。通过难度值为9的感知+荒野灵知检定可以让你分辨方位，预测天气，或是判断自然灾害或资源是否存在。一次检定只会揭露一条情报。<strong>专精：</strong>方位、天气、灾害、资源。（超自然能力）<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1111806">
+&#171; <em>上次编辑: 2021-05-07, 周五 16:39:59 由 Yakumo_S</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1111809"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=84130" title="检视会员资料:  Yakumo_S">Yakumo_S</a>
+</h4>
+<ul class="reset smalltext" id="msg_1111809_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 81<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1111809">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.msg1111809#msg1111809" rel="nofollow">Re: 第五章：能力</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1111809'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1111809'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-05-07, 周五 16:37:13 &#187;</div>
+<div id="msg_1111809_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1111809">并不在本章作为主要说明对象出现的，但并没有翻译的术语：<br><table class="bbc_table"><tr><td>原文<td>译文<td>备注</tr><tr><td>Art<td>秘艺<td>赫尔墨斯魔法的组成要素，分为Form与Technique</tr><tr><td>Ceremonial magic<td>典仪魔法<td>利用仪式增强自发施法强度的方式</tr><tr><td>Diameter<td>（一）日身<td>指代太阳在天空中行进自身直径路程所经过的时间，约为两分钟或二十个战斗轮</tr><tr><td>Form<td>型式<td>赫尔墨斯魔法的两个组成要素之一，对应操控对象的种类</tr><tr><td>Penetration<td>法术穿透/穿透<td>衡量法术克服魔法抗性的能力强弱</tr><tr><td>Warp[ing]<td>晦变<td>暴露在高强度异域场下发生的过程</tr><tr><td>Wizard’s March<td>巫师征战<td>赫尔墨斯秘会对被驱逐的巫师进行的官方猎杀行动</tr></table></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1111809">
+&#171; <em>上次编辑: 2021-05-07, 周五 16:39:12 由 Yakumo_S</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=125081.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1646.0"><span>Ars Magica</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=76871" title="版主">一盏大师</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=125081.0"><span>第五章：能力</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 125081,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 125081,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="125081" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=125081.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 3498 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1646,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Ars Magica",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1646,
+							iTopicId: 125081,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

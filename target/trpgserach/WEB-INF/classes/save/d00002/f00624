@@ -1,0 +1,399 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢之守护神RPG 拓展规则 光耀之勇者"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢之守护神RPG 拓展规则 光耀之勇者</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.20"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="84343"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0"><span>钢之守护神RPG 拓展规则 光耀之勇者</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg835374"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84343.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢之守护神RPG 拓展规则 光耀之勇者 &nbsp;(阅读 30637 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=84343.20" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_835374_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_835374">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.msg835374#msg835374" rel="nofollow">Re: 钢之守护神RPG 拓展规则 光耀之勇者</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_835374'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_835374'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #20 于:</strong> 2017-02-08, 周三 03:01:08 &#187;</div>
+<div id="msg_835374_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_835374"><span style="font-size: 18pt;" class="bbc_size"><strong>国家与组织</strong></span><br>机甲历的地球圈内存在有各种各样的组织与国家，各怀心思进行行动。根据他们的活动倾向，PC也会在很大程度上受到影响吧。<br>在此，将对基本规则书中没有触及的一些组织，特别是就企业关系这一方面进行解说。根据需要，GM可以修改或添加设定。此外，这些信息或许也能用于模组的题材架设，以及深化PC的背景设定。<br><br><span style="font-size: 12pt;" class="bbc_size">百万金属社/ミリオンメタル社</span><br>势力：中规模<br>领导者：哈罗德·泰勒<br>与Fortune的关系：友好<br>德尔斯·拉夫博士的爱徒，综合科学家（ネクシャリスト）哈罗德·泰勒博士及其亲友，连结者八月三十一日博士共同创立的综合守护神企业。泰勒博士本身也是连结者，并且会亲自驾驶自社的机体上战场进行检查。<br>该社开发的骑士级与灾厄级不仅性能优异，机体上更是搭载了安装有拟似人格的战术支援AI系统。不仅如此，百万金属系的部件因为对连结者造成的负担较小，所以也广受好评。<br>创业初期所制造的10台被称为“百万金属原创（Million Metal Original）”的守护神上各自搭载有特殊的隐藏机构。这些机体之中甚至有个别者的系统能与后续开发的新型机相匹敌。<br><span style="color: white;" class="bbc_color">所谓ネクシャリスト指的是精通（空想的）综合科学的人，其反义词是スペシャリスト（Specialist/专家）。似乎是日文中的原创词语，没有找到对应英文。<br>现年50余岁的哈罗德·泰勒博士是第一本Replay《起动，钢之守护神！》的PC之一，曾在二战期间驾驶自己制造的守护神进行战斗，并且曾经阻（hong）止（bao）过坠落的殖民卫星，可以说是货真价实的英雄人物。虽然是拉夫博士的弟子，但基本可以说是白的（当然GM也可以随意更改设定）。<br>《起动，钢之守护神！》中的另一名PC，八月三十一日萤是八月三十一日博士的恋人或女儿（原文没详说）的克隆人。她所驾驶的机体“MMG04 白百合”（骑士级）很可能就是10台“百万金属原创”之一（原文同样没详说，但基本可以确定）。</span><br><br><span style="font-size: 12pt;" class="bbc_size">里士满工业/リッチモンド·インダストリー</span><br>势力：大规模<br>领导者：罗伯特·里士满<br>与Fortune的关系：中立<br>总公司位于罗雷西亚，地球军工企业的最大手。作为航空·守护神开发企业，与联邦政府关系密切。将公司建筑与开发工厂设置在超巨大空中空母上并因此闻名。<br>第二次大战开战时，该社开发的制式型骑士级“G-7 暮光”惨败于共和国的米勒斯手下，公司评价也因此一落千丈。虽然一度流传有谣言说或许会被其竞争对手维谢拉重工吸收合并，但依靠孤注一掷研发而成的“G-12 灾厄”以及对“G-7 暮光”的近代化改修，该社最终还是成功避免了破产。<br>高层领导是传统的地球至上主义，因此对阿底提耶提供了有力的支援。对于因为第二次大战而失去殖民卫星权益一事感到不满，甚至有小道消息称该社曾雇佣恐怖分子或佣兵袭击宇宙系企业。<br><br><span style="font-size: 12pt;" class="bbc_size">阿卢埃特财团/アルーエット财団</span><br>势力：大规模<br>领导者：菲利克斯·阿卢埃特<br>与Fortune的关系：中立<br>暗中被传为腓尼基共和国真正掌权者的财团。诞生于第一次大战后的乱世之中，系复数企业体与曾经的贵族以联手生存为目的而建立的特大企业。<br>该财团积极从事于宇宙开发，在地球圈企业中作为亲殖民卫星派而广为人知。不仅如此，其与雷姆利亚也结有深厚的联系。因为交际范围的广泛，甚至有了“阿卢埃特左右逢源”这样的说法。<span style="color: white;" class="bbc_color">原文是“颜の広さならアルーエット财団”。</span><br>总体而言是贵族主义且做派古风，将守护人类文明一事视为己任。因此，虽然该财团在社会上颇受尊敬，但也时常落后于新兴的企业体。<br>积极采用旧慕尼黑系的技术人员。推出有St.187 反击、St.409 灰犬等稳定踏实的机体，并因此而知名。<br><br><span style="font-size: 12pt;" class="bbc_size">唐怀瑟企业集团/タンホイザー·コンツェルン</span><br>势力：大规模<br>领导者：伊丽莎白·王<br>与Fortune的关系：友好<br>殖民卫星开发的最大手。将总公司（配备有人工重力单元）设置在月球上，可以说是月球与殖民卫星的脸面。<br>为了胜利不择手段，涉足灰色地带一事广为人知。用尽手法巩固自己的地位，其中包括但不仅限于挖墙脚、派产业间谍，以及雇佣佣兵非法夺取技术。即便是现在，该企业酝酿各种阴谋以排除对手的传闻依旧源源不绝。<br>应和殖民卫星开发的步调进行发展的该企业暗中也被传为第二次大战的幕后推手。这是因为，当时殖民卫星正遭到联邦国家的严厉压迫，对于想要从这个新市场回收资金的唐怀瑟而言可以说是百害而无一利。事实上，在大战中，作为米勒斯生产的最大手对沃尔夫提供全面协助的，也正是唐怀瑟企业集团。<br><br><span style="font-size: 12pt;" class="bbc_size">三桥技研/三桥技研</span><br>势力：中规模<br>领导者：金本努<br>与Fortune的关系：友好<br>总公司位于矢幡学园都市的守护神制造商。据说，原本是东亚联邦——传言中于一次大战以前统治出云的巨大国家——的守护神研究委任机关。<br>旧时代技术的保存量能在全世界排上名次，据说就连天城机器人研究所和特拉尼西亚都无法对其小视。<br>包括超级级“正义IV”与同盟级“不死鸟III”在内，该社之所以能在超级机器人开发技术方面有所定评，也是将那些（旧时代）技术予以应用的结果。<br>除去保有可观的技术之外，三桥技研对于发掘也十分热心。该社常常委托与其结有协助关系的Fortune探索可能沉睡有失传技术的古代遗迹。最近，希柏里尔与美塔盖斯所拥有的人类尚未知晓的超科技似乎也勾起了他们的兴趣。<br><br><span style="font-size: 12pt;" class="bbc_size">黑钻安保/ブラックダイヤ·セキュリティ</span><br>势力：中规模<br>领导者：考特尼·埃文斯<br>与Fortune的关系：敌对<br>伊修瓦尔联合的对外面孔，运输公司“黑钻快送”所组织的PMC，成员主要是第二次大战终战后被裁员的军人。表面上只是护卫同社仓库·运输船的警备公司，实际上却是危险的公然武装组织。<br>以企业机密为盾牌，从拉夫走私强力的奈落守护神，收购军队所倒卖的军舰等武装自己。具有相当程度的战力，甚至令半吊子的联邦加盟国的防卫队难以企及。<br>作为“营业”的一环，黑钻佣兵也会替其他企业或组织做一些违法的勾当。因为不择手段且利益熏心，这群家伙可谓是恶名远扬。<br>基于此种性质，该公司也常与Destiny或新沃尔夫勾肩搭背；在与他们共事的过程中追求其他利益（赚外快）的事情也是屡见不鲜。<br><br><span style="font-size: 12pt;" class="bbc_size">太阳系解放战线/太阳系解放戦线</span><br>势力：小规模<br>领导者：不明<br>与Fortune的关系：敌对<br>虽然名字听起来甚是夸张，但实际上是生态恐怖分子与分离主义者杂凑起来的恐怖团体。认为特大企业是借全球化的美名进行支配的独裁者，并将地球联邦视为其象征。提倡以武力推翻联邦统治，让各国家自主独立。简称SLF（Solar Liberation Front）。<br>由于只是因联邦树立而受到打击的弱小团体所组成的乌合之众，所以意见散乱且毫无纪律可言；从另一方面而言，如果只击溃其中的个别份子，对于总体便无关痒痛。<br>拥有频繁使用守护神发动恐怖袭击（最近对荒谷市进行的袭击较为有名）的财力，因此有许多人怀疑他们有犯罪组织或特大企业做后盾。<br><br><span style="font-size: 12pt;" class="bbc_size">卢塞恩研究所/ルツェルン研究所</span><br>势力：小规模<br>领导者：不明<br>与Fortune的关系：敌对<br>地球联邦军的委任机关，也正是那个对观星者进行研究的机关。虽然与军队相关，但因为实际上是独立的机关，所以资金和人员都是另算的。在前次大战时为与沃尔夫共和国的观星者对抗而开发了强化人类技术，并因此臭名远扬。<br>虽然畏惧于舆论的政治家们在表面上中止了强化人类的开发，但事实上卢塞恩研究所直到现在也依旧有接受阿底提耶等军阀或是特大企业的委托，继续进行开发。他们认为，为了对抗拉夫的奈落技术，那是必不可少的东西。<br>因为实战数据总是不足，所以似乎也会将强化人类借给太阳系解放战线之类的恐怖分子·佣兵，进行非法的数据收集。<br><br><span style="font-size: 12pt;" class="bbc_size">宇宙姐妹会/コスモ·ソロリティ</span><br>势力：中规模<br>领导者：出云美命<br>与Fortune的关系：友好<br>将观星者看作人类之革新，视其为人类进化而成的新世代的集团。希望通过帮助诞生观星者而将世界引导向幸福。带有浓厚的宗教色彩，即是所谓的新纪元运动。势力于第二次大战后急速扩大。<br>参加者基本都是赞同其理念的企业人或名人，拥有高度的财力与组织力。其活动涉及观星者的人权保护、能力开发等多个方面，并确信总有一天全体人类都会变为观星者。<br>宇宙姐妹会并非只是轻浮的善意集团。 他们认为通过让观星者作为连结者为人类而战可以加速人们对观星者的理解，因此也有投资军事方面的技术。可以说，这是一群手段老道，难以对付的人。此外，该组织设立的过程中存在许多不透明的部分，因此也有人认为可能有秘密结社参与其中。<br><br><span style="font-size: 12pt;" class="bbc_size">外行星探查机构/外惑星探査机构</span><br>势力：小规模<br>领导者：佛瑞吉·佐伊<br>与Fortune的关系：中立<br>探索外行星（地球以外的行星）——比如火星和木星——的公共机关。从地球联邦半独立；因为在外行星上发现的各种遗物或资源有可能会打破（联邦）加盟国的力量平衡，所以采取了公社制以追求最大限度的中立。<br>现在的主要业务有：运用木星往返船回收氦3，进行火星的星球改造计划，以及从小行星带曳航资源小行星。除此以外，似乎也在太阳系内调查第一次大战前或更加古老的各种遗迹。顺带一提，他们也是最早遭遇金属生命的组织。<br>因为遭受奈落兽或Destiny袭击的情况并不少见，所以独自拥有守护神部队。据说与特拉尼西亚有着密切的关联，但理由却完全无从得知。<br><br><span style="font-size: 12pt;" class="bbc_size">地球圈警察机构/地球圏警察机构</span><br>势力：中规模<br>领导者：贾斯提耶·贾维尔<br>与Fortune的关系：友好<br>采用从过去的ICPO发展而来的形式所创设的超广域警察组织。受到构成联邦的各国家·自治体信任，拥有跨国搜查权。略称为TCPO（Terrestrial Criminal Police Organization）。<br>基于其性质，地球圈警察机构仅在发生毒品犯罪、恐怖主义活动、守护神犯罪、奈落兽出现等大规模危情时才会出动。此外，若他们判断当地警察无力处理，或是犯罪事件与他们专门追查的组织有关时，地球圈警察机构也会出动。<br>地球圈警察机构在独自拥有守护神的基础上，也有接受金属生命或其他民间连结者的协助。特别是超级机器人的连结者，其中许多人同TCPO有所联系。此外，该组织与Fortune的关系也大致良好。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_835374">
+&#171; <em>上次编辑: 2017-03-25, 周六 00:15:51 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg840261"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_840261_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_840261">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.msg840261#msg840261" rel="nofollow">Re: 钢之守护神RPG 拓展规则 光耀之勇者</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_840261'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_840261'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #21 于:</strong> 2017-03-09, 周四 03:55:16 &#187;</div>
+<div id="msg_840261_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_840261"><strong><span style="font-size: 18pt;" class="bbc_size">人物列表/パーソナリティーズ</span></strong><br><em>“哼，光凭外表进行判断的蠢驴不过是吾征服世界的垫脚石罢了。无法理解家姊所昭示的光芒的愚民，落得那种下场真是理所当然之极。”——Dr.达摩克里斯</em><br><br><span style="font-size: 14pt;" class="bbc_size">机甲历世界的肖像</span><br>在这里，将介绍“钢之守护神RPG”的世界中，一些可能与PC有所关联的角色。他们不仅可以作为PC所持有的人物关系的对象，还可以活用为情报来源、可怕的敌人，亦或是可怜的被害者。这次主要是介绍与诸势力相关的角色。<br>人物资料由姓名、台词、类别、性别、年龄、乘机、解说、称号构成。<br>当然，在此介绍的情报是否真实可以由GM决定。但是，如果对一目了然的部分进行变更，请务必事先告知玩家。这是因为玩家在构筑人物时，是将在此介绍的信息为事实当作前提的。再者，如果必要的话，你也可以在自己构筑的故事中更改后文所介绍角色的设定。<br>此外，若将这些人物设定为BOSS或我方NPC，GM可以为他们任意设定数据。当然，变更他们的类别也没有关系。在这里所呈现的，不过是已被公开的情报罢了。<br><br>雷姆利亚<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 12pt;" class="bbc_size">尤利娅·梅尔汀/ユーリア·メルティン</span><br><strong>好魔女</strong><br><em>“原来如此，这是魔法现象呢。这边会试着进行处理的。”</em><br>性别：女<br>年龄：29<br>类别：技术员工<br>乘机：无<br>从雷姆利亚魔法学院调职往Fortune凰支部的年轻魔法使。在联邦大学学习科学技术，是能够从魔法与科学两侧探究同一事象的才女。<br>虽然本身不是连结者，但作为守护神开发者却有一流水平。就任名机埃德里希的主任技师时年仅24岁，单从这点便可看出她的才能。<br>主要工作是以观察员的身份对战术士官提出魔法方面的建议，除此之外也会帮助整备雷姆利亚系的机体。<br>认为穿越时空，被卷入激变的雷姆利亚若想谋求生存，应当或好或歹地学习一些科学技术，而非拘泥于魔法。因此，似乎在工作时间之外也会去凰市的大学上学。<br>基本上是个温和而冷静的人，因为落落大方的言行举止收获了众多粉丝；虽然如此，一旦好奇心被勾起，直到解决疑惑之前都不会善罢甘休。<br><br><span style="font-size: 12pt;" class="bbc_size">伯敏斯特勋爵/ロード·バーミンスター</span><br><strong>雷姆利亚骑士团长</strong><br><em>“雷姆利亚骑士只需相信自己的灵魂与女王陛下。”</em><br>性别：男<br>年龄：66<br>类别：奥迹级<br>乘机：地皇斗战提坦<br>驾驶能够自在操纵大地精灵的奥迹级·地皇斗战提坦，被称为雷姆利亚最强骑士的老将。<br>现在依旧任职骑士团长一位，备受年轻骑士的尊敬；但是，因为无法适应与地球接触后大幅度变化的战场——特别是投入了米勒斯的集团战——所以也常被露骨地批判为与时代脱节。<br>然而，没有任何人敢质疑伯敏斯特卿的忠义。他正如自己的守护精灵——大地一般绝不动摇，绝不曲折，绝不变通。哪怕是雷姆利亚面临毁灭，伯敏斯特也绝对会为女王肝脑涂地，这一点就算是他的批判者也不得不承认。<br>魔力未见衰退，曾几度击退袭击雷姆利亚的拉夫或希柏里尔；然而，终究不胜年事已高，战斗后吐血的情况愈见增加。即便如此，伯敏斯特也只是将这件事偷偷隐瞒起来；若是他从现场退下，雷姆利亚的美好传统无疑将会失传。<br><span style="color: white;" class="bbc_color">ティタノマキア（Titanomakhia），希腊神话中提坦神族与奥林匹斯神族为了争夺宇宙霸主地位而展开的一场战争。常用译名为提坦之战。</span><br><br><span style="font-size: 12pt;" class="bbc_size">魔女巴尔巴里恰/魔女バルバリシア</span><br><strong>雷姆利亚魔法学院长</strong><br><em>“时代改变了，女王陛下。”</em><br>性别：女<br>年龄：？<br>类别：奥迹级<br>乘机：暴风巨灵温蒂西亚<br>雷姆利亚魔法学院的院长。能够自在使用各种各样的魔术，其中尤以风魔法为长。凭借通过操控大气本身而得到的广域压制能力，单体便能与战略兵器比肩。<br>自与联邦、共和国、拉夫、希柏里尔等各种国家战斗以来，深感雷姆利亚的社会制度之落后，并因此提倡基于工业革命的近代化改革。<br>被视为传统的象征的魔法学院竟与革新派勾肩搭背，这件事给予了社会强烈的震撼。然而，在巴尔巴里恰看来，所谓魔法就是正确地理解世界。地球有地球的魔法，雷姆利亚有雷姆利亚的魔法；如果前者比后者优秀的话，那么便应当不加踌躇地予以采纳。<br>与Fortune和列国的军事企业有所联系，据说与后者约定会在其向雷姆利亚发展时提供巨大的便利。此外，传闻她也有接近特拉尼西亚，可以说是一位谜团重重的魔女。<br><br><span style="font-size: 12pt;" class="bbc_size">威兰斯·埃克塔巴斯/ヴィランス·エクターバス</span><br><strong>银锐骑士团长</strong><br><em>“臣只是，出于爱国之念而衷心倡导改革。”</em><br>性别：男<br>年龄：35<br>类别：魔幻级<br>乘机：埃德里希<br>雷姆利亚的年轻名将。对希柏里尔取得了势如破竹的连胜，因此赢得了与伯敏斯特卿不分仲伯的名声。<br>威兰斯卿是最先将米勒斯导入手下骑士团的人。因为将并非骑士之人带上战场而遭受抵触，使其被荣耀的黑影骑士团所除名；虽然如此，但他率领经由海外的特大企业从出云走私的米勒斯部队，击破希柏里尔侵攻军的战功使其在改革派中名声赫赫。<br>之所以能做到这一点，是因为他身为名门埃克塔巴斯加的养子，拥有深厚的财力。在知晓宫廷内情的人中，有许多爱说长论短的家伙传言威兰斯就是下一代掌握宫廷实权的人。无论怎样，通过（雷姆利亚）与希柏里尔的战斗，联邦、沃尔夫，甚至是拉夫，都（与雷姆利亚）有了更加宽广的渠道。<br>虽然无疑是个野心家，但作为拥有与那份野心相符的实力的男人，威兰斯如今依旧是雷姆利亚最受人瞩目的军人。<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://wx3.sinaimg.cn/large/8fee126cgy1fds4bz8llzj20mr0vcgyv.jpg" alt="" class="bbc_img"/></div></div></div></div></div></div><br>希柏里尔<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 12pt;" class="bbc_size">恐龙帝王戴拿索/恐竜帝王ダイナソア</span><br><strong>恐龙帝王</strong><br><em>“若说奈落乃憎恶之力，那么帝王便是将其制御之人。”</em><br>性别：男<br>年龄：67000<br>类别：超级级<br>乘机：暴君·原典<br>因为奈落反应堆暴走而毁灭的龙星的帝王。<br>性格就仿佛是“残酷”一词本身，绝不饶恕任何违背他意志的存在。他所驾驶的装甲恐龙“暴君·原典”全高200m，于地球的基准而言相当于超级级；不论反乱者是人类还是恐龙人类，凭借这台机体都能将他们毁灭殆尽。<br>虽然戴拿索相信战斗才是生存的目的，乱世才是值得君临的世界，但他并不是愚蠢的单细胞生物。只要是优秀的家伙，无论人类还是宇宙人都会予以厚报；就算一度相互为敌，若是对方能力出众，也会试图将他招致靡下。至于背叛自己的人，戴拿索则会毫不犹豫地对其进行血的肃清。<br>戴拿索的目的，不用说，正是征服银河。将充满整个地球的超级机器人的力量纳入掌心，将银河系全土构筑成以自己为顶点的王道乐土，这便是他的理想。<br><br><span style="font-size: 12pt;" class="bbc_size">格雷·欧力克/グレイ·オルリック</span><br><strong>出云方面军司令官</strong><br><em>“哼，让我找点乐子吧，Fortune的诸君！”</em><br>性别：男<br>年龄：23<br>类别：装甲恐龙<br>乘机：MZ-023 炽烈收割者<br>侍奉恐龙帝王戴拿索的恐龙将军之一。喜欢堂堂正正地战斗，避免无谓的流血，因此不仅是希柏里尔人，就连身为敌人的联邦或拉夫军人也对他抱有一定的尊敬。此外，因为伤感于好对手——准确来说，就是沃尔夫的王牌，“不死鸟”艾因·玛德拉克斯——的死亡而向其基地投下花束后离去的事迹也为人们津津乐道。<br>当然，欧力克并非只是个天真的男人。作为一名斗将，他能够毫不留情地进行决断，果敢发动进攻；凭借这种战斗风格，欧力克已从人类手中斩获了多次胜利，并因此在（希柏里尔）民间赢得了相当的人气。<br>现在，欧力克正遵从<br><br><span style="font-size: 12pt;" class="bbc_size">谋将普·提拉诺/谋将プ·テラノ</span><br><strong>拉夫·雷姆利亚方面军司令官</strong><br><em>“嘿嘿嘿，这就是你们这群猴子所无法理解的作战。”</em><br>性别：男<br>年龄：42<br>类别：进取级<br>乘机：MZ-116 斯滕伯格<br><br><span style="font-size: 12pt;" class="bbc_size">恐龙姬艾奥拉·欧文/恐竜姫エオーラ·オーウェン</span><br><strong>微服出行的公主</strong><br><em>“真是的，父亲大人也尽是下些麻烦的命令啊。”</em><br>性别：女<br>年龄：16<br>类别：装甲恐龙<br>乘机：MZ-003 皇家三角<br><br><span style="font-size: 12pt;" class="bbc_size">玛丽·普列希欧/メアリー·プレシオ</span><br><strong>管家</strong><br><em>“公主，那是铅笔，并不是食物。”</em><br>性别：女<br>年龄：30000<br>类别：战线指挥官<br>乘机：加长轿车<br><br><span style="font-size: 12pt;" class="bbc_size">阿里娜·林·贾斯特/アリーナ·リン·ユステル</span><br><strong>背叛人类的恐龙将军</strong><br><em>“……也就是说我们已经是恐龙帝国的人了！”</em><br>性别：女<br>年龄：27<br>类别：骑士级<br>乘机：MBG-1028D 沙漠·艾彻格里斯<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://wx1.sinaimg.cn/large/8fee126cgy1fds4c7wm68j21b80uwkak.jpg" alt="" class="bbc_img"/></div></div></div></div></div></div><br>特拉尼西亚<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 12pt;" class="bbc_size">“山中老人” 格雷戈里·E·维特尔斯巴赫/“山の老人” グレゴリー·E·ヴィッテルスバッハ</span><br><strong>特拉尼西亚总帅</strong><br><em>“一切以大流散计划为先。”</em><br>性别：男<br>年龄：？<br>类别：技术员工？<br>乘机：？<br><br><span style="font-size: 12pt;" class="bbc_size">“幻影之神” 爱丽丝·哈特·阿戈斯/“幻影の神” エリス·ハート·アーガス</span><br><strong>特拉尼西亚总司令</strong><br><em>“请令自己成为纯粹之理解的形体，连结者。”</em><br>性别：女<br>年龄：？<br>类别：领主级<br>乘机：SGG-00 界限之外<br><br><span style="font-size: 12pt;" class="bbc_size">扶桑红莲/扶桑グレン</span><br><strong>特立尼西亚·出云本部司令</strong><br><em>“为了拯救这个世界没有选择手段的理由！”</em><br>性别：男<br>年龄：36<br>类别：超级级<br>乘机：破碎巨王考德·维纳<br><br><span style="font-size: 12pt;" class="bbc_size">“鲜血的音乐（Blood Music）” 维多利亚·G·贝尔/“鲜血の音楽（ブラッド·ミュージック）” ヴィクトリア·G·ベア</span><br><strong>凰支部战术班长</strong><br><em>“我是奏响胜利的音乐的系统。”</em><br>性别：女<br>年龄：10？<br>类别：战线指挥官<br>乘机：无<br><br><span style="font-size: 12pt;" class="bbc_size">远峰响/远峰ヒビキ</span><br><strong>凰支部的英灵级连结者</strong><br><em>“我要守护……守护早苗姐姐，守护大家！”</em><br>性别：女<br>年龄：14<br>类别：英灵级<br>乘机：英灵·提尔锋<br><br><span style="font-size: 12pt;" class="bbc_size">千代田纱希/千代田サキ</span><br><strong>凰支部技术班长</strong><br><em>“并非怪兽。那是巨兽科奈落兽的变种。”</em><br>性别：女<br>年龄：30<br>类别：技术员工<br>乘机：无<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://wx3.sinaimg.cn/large/8fee126cgy1fds4c4wcqmj21ao0ush3f.jpg" alt="" class="bbc_img"/></div></div></div></div></div></div><br>Destiny<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 12pt;" class="bbc_size">欲界僧正·兜率天外印/欲界僧正·兜率天外印</span><br><strong>邪恶的魔术师</strong><br><em>“奈落是为何物，便让拙僧亲身教授予你。”</em><br>性别：男<br>年龄：64<br>类别：奥迹级<br>乘机：雷王机因陀罗<br><br><span style="font-size: 12pt;" class="bbc_size">Dr. 达摩克里斯/Dr. ダモクレス</span><br><strong>邪恶的科学者</strong><br><em>“哼哈哈哈！这次，老夫便要用这奈落兽军团将世界收为囊中！”</em><br>性别：男<br>年龄：？<br>类别：进取级<br>乘机：巨神要塞基冈提斯<br><br><span style="font-size: 12pt;" class="bbc_size">凯撒·法尔科内/シーザー·ファルコーネ</span><br><strong>Destiny的王牌</strong><br><em>“菜鸟！想在空中胜过我你还早了十年！”</em><br>性别：男<br>年龄：28<br>类别：战鸟<br>乘机：RGD-72 林德虫<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://wx1.sinaimg.cn/large/8fee126cgy1fds4bwedzrj20yh0ew47j.jpg" alt="" class="bbc_img"/></div></div></div></div></div></div><br>地球圈警察机构<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><span style="font-size: 12pt;" class="bbc_size">榛名薰/榛名カオル</span><br><strong>地球圈警察机构的特工</strong><br><em>“拜托了！只能依靠你的机器人了！”</em><br>性别：女<br>年龄：26<br>类别：普通<br>乘机：小型直升机<br><br><span style="font-size: 12pt;" class="bbc_size">星炽/スターブレイズ</span><br><strong>金属生命族的领袖</strong><br><em>“原来如此，状况了解了。我会尽力进行协助！”</em><br>性别：男<br>年龄：？<br>类别：金属生命<br>乘机：自身<br><br><span style="font-size: 12pt;" class="bbc_size">青空友树/青空トモキ</span><br><strong>小学生刑警</strong><br><em>“请小心！这一定是美塔盖斯干的好事！”</em><br>性别：男<br>年龄：10<br>类别：普通<br>乘机：自行车<br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;"><img src="http://wx1.sinaimg.cn/large/8fee126cgy1fds4c1s1o5j20yh0f746r.jpg" alt="" class="bbc_img"/></div></div></div></div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_840261">
+&#171; <em>上次编辑: 2017-08-02, 周三 00:06:38 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=84343.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=84343.0"><span>钢之守护神RPG 拓展规则 光耀之勇者</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 84343,
+iStart: 20,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 84343,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="84343" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=84343.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 30637 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 84343,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

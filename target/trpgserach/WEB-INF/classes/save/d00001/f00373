@@ -1,0 +1,550 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[翻译]Conan RPG,战斗技巧部分"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[翻译]Conan RPG,战斗技巧部分</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="8098"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"><span>科南 RPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="版主">erwin</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0"><span>[翻译]Conan RPG,战斗技巧部分</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg59110"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=8098.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [翻译]Conan RPG,战斗技巧部分 &nbsp;(阅读 9115 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 扔掉CW这种渣书吧，这才是王道</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=8098.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="检视会员资料:  erwin">erwin</a>
+</h4>
+<ul class="reset smalltext" id="msg_59110_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106">
+<img class="avatar" src="/bbs/upload/avatar/avatar_106_1285998610.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 412<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_59110">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.msg59110#msg59110" rel="nofollow">[翻译]Conan RPG,战斗技巧部分</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_59110'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_59110'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2006-04-15, 周六 01:01:21 &#187;</div>
+<div id="msg_59110_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_59110">战斗技巧<br>使用这些战斗技巧可能需要相应的装备。如果没有特殊说明，每轮内只能使用一种战斗技巧。<br>如果没有特殊说明，战斗技巧只作用于近战。<br><br>公牛冲击Bull’s Charge<br>一次猛烈的冲锋使你穿过敌人的防御将武器深深的刺入他的软肋。然则，这样一次攻击也使你漏洞百出。<br>前提条件：Str13，猛力攻击<br>使用前提: 必须使用挥砍或穿刺武器进行冲锋<br>效果：你在进行冲锋时伤害获得+2加值。但在你进行攻击检定前将受到一次借机攻击。<br><br>猫之格挡Cat’s Parry<br>你不但能挡开对方的武器，还能伤到他持武器的手腕<br>前提条件：基本格挡加值+6<br>使用前提：必须格挡<br>效果：你的对手在攻击上获得+4环境加值，但如果这次攻击没有命中，则你立即获得一次对他的借机攻击。<br><br>斩首Decapitating Slash<br>你能利用对方防御上的漏洞切下这个傻蛋的脑袋。这一动作会使你对于反击门户洞开，所以通常只在面对一个对手的时候才使用。<br>前提条件：基本攻击加值+10，智力11<br>使用前提：对手使你获得一次借机攻击<br>效果：你将能做一次毁灭性的借机攻击。如果你这次攻击造成重击，他必须进行强韧豁免检定（DC=5+计算伤害见面后的总伤害值）失败则脑袋落地，直接死亡。而在这一整轮内你对于借机攻击的防御将遭到-4环境惩罚。<br><br>亡命突刺Desperate Stab<br>你擅长以刺喉或穿心作为战斗的开场，依靠迅捷而不顾后果的赌博，使得这次攻击足够杀死对方。但此后也使你对他的反击门户洞开<br>前提条件：精通先攻，基本攻击加值+15<br>使用前提：必须在战斗开始第一轮内使用，必须在先攻中胜出，你的对手必须因措手不及而不能闪避和格挡，必须进行娴熟攻击<br>效果：你率先进攻，依靠自己的技巧和速度就能够直接杀死对方。进行一次普通攻击，如果命中，对方必须进行强韧豁免检定（DC=你所造成的伤害）失败则立即死亡。如果你的对手侥幸存活，则它在该轮剩余的时间内对你攻击和伤害各获得+2环境加值。<br><br>毁灭旋风Devastating Sweep<br>你能挥舞手中的武器，迫使敌人后退为你让出转移的空间。<br>前提条件：旋风攻击<br>使用前提：必须使用挥砍武器，单手或双手皆可。你周围5格内都被占据。你不能进行娴熟攻击。<br>效果：以一个标准动作，你将挥舞手中的武器席卷周围的一切。任何在你5尺内的人物能够选择以即使动作从你身边推开5尺，以便躲开你的攻击。你获得一次使用最高攻击加值的攻击来料理那些没有这么做的家伙。<br><br>投摔Fling Aside<br>只要你足够强壮，就能以单手抓起敌人然后将他摔在地上。<br>前提条件：Str15，精通擒抱，精通绊摔<br>使用前提：必须至少空着一只手<br>效果：使用一次近战接触攻击来擒抱你的对手，进行一次如同开始擒抱时一样的擒抱对抗。如果这次擒抱检定胜出，则你就能将对手抱住摔到地上。虽然你没有和他一起着地，但他落地所受到的伤害相当于你的徒手攻击命中了他，他将摔倒在地如同你成功绊摔。<br><br>钩挡Hooking Parry<br>你懂得用手中的斧子（或同类的军用武器）架住敌人的矛杆使它不能再使用。<br>前提条件：Dex13，基本格挡+1<br>使用前提：用斧子，战斧，鹤嘴锄成功格挡对方的长武器<br>效果：你不能用格挡中的武器做其他动作（包括进行进一步攻击或格挡），同时你的敌人也不能用他的长武器攻击或格挡。他能用一个标准动作以他的武器进行一次攻击检定，来对抗你武器的格挡检定。如果他成功在这次对抗攻击检定中获胜，或者你移出他长武器的威胁范围，他才能正常使用自己的武器。<br><br>人盾Human Shield<br>你能挥舞敌人的身体来抵挡其他敌人对你的攻击。<br>前提条件：Str13，精通擒抱<br>使用前提：前一轮如果你因擒抱而成功造成伤害，你依然处于擒抱中遭到另一人物的攻击<br>效果：如果你成功通过擒抱检定，你就能用与你擒抱中的对手作为盾牌进行格挡。虽然在正常规则中你不能在擒抱中进行格挡，这是个特例。此时的格挡加值相当于你的力量加值-1，最小+0最大+2，虽然被拿来格挡的家伙算大型，但用两只手握着有点笨拙。如果你成功格挡了第二个对手的攻击，则被你拿来当盾的那个家伙将遭受这次攻击所造成全额伤害。<br><br>跃动冲锋Leaping Charge<br>冲锋的时候你能发动闪电般的攻击，不过这样也使你在冲锋过后变得漏洞百出。<br>前提条件：基本攻击加值+6，跳跃技能<br>使用前提：-<br>效果：当你进行冲锋时，你能使用最高的基本攻击加值进行第二次攻击，但两次攻击都要受到-2环境惩罚。而由于冲锋而造成的防御惩罚将由-2变为-4。<br><br>豹之花招Pantherish Twist<br>当两个攻击者夹击你的时候，你能在关键时刻闪开，让他们互相攻击。<br>前提条件：精通直觉闪避。<br>使用前提：必须闪避<br>效果：如果两个对手所处的位置正好能夹击你，如同你没有精通直觉闪避专长，你能选择让这两个对手与你进行一次敏捷检定。如果其中一个或者他们俩都在敏捷对抗中失败，他或他们对你的攻击就会落在对方身上。然则，如果他们俩或其中之一赢得了敏捷对抗，他们对你的攻击和伤害将获得+2环境加值。此效果只在每个敌人第一次攻击的时有效。<br><br>破武格挡Sundering Parry<br>你不仅能简单的挡开对方的攻击，你还可以趁机破坏对方的武器。<br>前提条件：精通击破武器Improved Sunder，基本格挡加值+1<br>使用前提：必须格挡<br>效果：你在格挡防御上将受到-2环境惩罚。然而，如果你成功格挡对方的武器，你能以即时动作和标准调整（包括因精通击破武器而获得的+4）击破对方武器，并获得一次额外攻击，但这次攻击要受-2环境惩罚。<br><br><br>穿透To the Hilt<br>你能够利用敌人没有盔甲的机会将手中的武器深深的刺入他的身体和皮肉之中。<br>前提条件：猛力攻击<br>使用前提：必须用穿刺和挥砍武器对付一个无盔甲保护的对手<br>效果：你在攻击上获得+1环境加值，如果你的武器伤害（在计算力量调整，偷袭或是其他诸如此类能力之前）超出了你的力量调整，则你的武器将穿透敌人的身体，不论他是死是活。<br>你或其他人，包括那个被武器穿透的家伙（如果他还活着的话），都可以通过一个力量检定（DC10）将这把武器把出来，这是个全回合动作。通常人物会发现掏出或者捡起一把备用武器会更容易更迅速。<br>一个被武器刺穿的人物每次进行移动、标准或全回合动作的时候将受到1d4伤害。 </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_59110">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_59110_signature">所有曾经的荣耀和辉煌，都如流沙般逐渐消失殆尽</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg59876"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=430" title="检视会员资料:  缪兹">缪兹</a>
+</h4>
+<ul class="reset smalltext" id="msg_59876_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 467<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_59876">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.msg59876#msg59876" rel="nofollow">[翻译]Conan RPG,战斗技巧部分</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_59876'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_59876'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2006-04-21, 周五 12:18:36 &#187;</div>
+<div id="msg_59876_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_59876">请问，全书在哪里下载呢？ </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_59876">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg59900"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="检视会员资料:  erwin">erwin</a>
+</h4>
+<ul class="reset smalltext" id="msg_59900_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106">
+<img class="avatar" src="/bbs/upload/avatar/avatar_106_1285998610.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 412<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_59900">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.msg59900#msg59900" rel="nofollow">[翻译]Conan RPG,战斗技巧部分</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_59900'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_59900'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2006-04-21, 周五 16:31:42 &#187;</div>
+<div id="msg_59900_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_59900">骡子上有<br>Conan RPG Atlantean Edition<br>这是orc版<br>&nbsp;</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_59900">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_59900_signature">所有曾经的荣耀和辉煌，都如流沙般逐渐消失殆尽</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg60016"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=400" title="检视会员资料:  堕落的梦">堕落的梦</a>
+</h4>
+<ul class="reset smalltext" id="msg_60016_extra_info">
+<li class="title">Demonic Tutor<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=400">
+<img class="avatar" src="http://trow.cc/forum/uploads/av-109.jpg" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 765<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_60016">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.msg60016#msg60016" rel="nofollow">[翻译]Conan RPG,战斗技巧部分</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_60016'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_60016'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2006-04-22, 周六 15:50:13 &#187;</div>
+<div id="msg_60016_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_60016">然则老爷,我在骡子上找到的全有前缀TSR,莫非是2版规则? </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_60016">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_60016_signature">不抱怨、不浪费、不奢求。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg60054"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="检视会员资料:  erwin">erwin</a>
+</h4>
+<ul class="reset smalltext" id="msg_60054_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106">
+<img class="avatar" src="/bbs/upload/avatar/avatar_106_1285998610.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 412<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_60054">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.msg60054#msg60054" rel="nofollow">[翻译]Conan RPG,战斗技巧部分</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_60054'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_60054'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2006-04-22, 周六 21:14:46 &#187;</div>
+<div id="msg_60054_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_60054">那个RTS前缀的是老DND的模组<br>你下这个好了<br>ed2k://|file|Conan%20RPG%20Atlantean%20Edition.pdf|23351571|F1D10C2894F87E15005D1D381EBBF75C|/ </div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_60054">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_60054_signature">所有曾经的荣耀和辉煌，都如流沙般逐渐消失殆尽</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=8098.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=367.0"><span>科南 RPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=106" title="版主">erwin</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=8098.0"><span>[翻译]Conan RPG,战斗技巧部分</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 8098,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 8098,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="8098" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=8098.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9115 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 367,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "科南 RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 367,
+							iTopicId: 8098,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

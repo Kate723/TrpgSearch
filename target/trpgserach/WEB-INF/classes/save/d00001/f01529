@@ -1,0 +1,867 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【官方规则】拔锚书新规则展望"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【官方规则】拔锚书新规则展望</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1124.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="75337"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1124.0"><span>舰ColleRPG</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=7581" title="版主">china11229</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=15906" title="版主">町城安里</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0"><span>【官方规则】拔锚书新规则展望</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg711067"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=75337.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【官方规则】拔锚书新规则展望 &nbsp;(阅读 9054 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 本楼预定施工翻译拔锚书（在有书的情况下）</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=75337.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_711067_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711067">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711067#msg711067" rel="nofollow">【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711067'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711067'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2015-03-29, 周日 10:13:51 &#187;</div>
+<div id="msg_711067_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711067">拔锚书将不提供链接<br><br><hr />新特性：<br>增加的固有能力，现在可能每个舰娘均有复数可选的固有能力，具体操作方法不明<br>追加装备能力标签（待译）<br>新战术（资料不足）<br>新舰、新改二舰（资料不足）<br>联合舰队（资料不足）<br>改修工厂：各章结束获得名誉点，可以用来换装备或者加强装备。具体可能有兑换表，但具体不明<br>新敌人（待译）<br><br>总之这个试读版就根本没什么可用的内容嘛……</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711067">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_711067_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711079"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=40860" title="检视会员资料:  G桃子">G桃子</a>
+</h4>
+<ul class="reset smalltext" id="msg_711079_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=40860">
+<img class="avatar" src="/bbs/upload/avatar/avatar_40860_1427774853.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 776<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/wireless.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711079">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711079#msg711079" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711079'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711079'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2015-03-29, 周日 12:19:52 &#187;</div>
+<div id="msg_711079_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711079">果然是试读(删减)版啊</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711079">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_711079_signature"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1213.0" class="bbc_link new_win" target="_blank">东路地里会社</a><br><br>迷宫王国网团区~</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711256"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161" title="检视会员资料:  六">六</a>
+</h4>
+<ul class="reset smalltext" id="msg_711256_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3161_1358263243.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 169<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711256">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711256'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711256'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2015-03-29, 周日 21:58:10 &#187;</div>
+<div id="msg_711256_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711256">我其实买了……然而因为是bookwalker的原因，我不知道该怎么提供<br>每个舰娘都追加了新的固有Ability和个人任务。前者如何使用完全取决于提督（“DM我想用快速移动换猛扑好不好呀”这种感觉）；后者是该舰娘作为NPC登场时提供给PC的任务。<br>新装备和新战术我大致翻译了下，作为附件附上。<br>联合舰队：大致上是<br>剧本作成时提督安排等于PC数的敌舰队→镇守府阶段中每个PC选择一个NPC组成盟友舰队→决战阶段每个盟友进行检定，成功奖励失败惩罚。<br>这么个没啥诚意的系统。<br>改修工厂有个表格，基本上要求的点数都极高，事实上也不是很有用，实际使用的场合需要大幅魔改造。<br>新船和新敌人我没有什么办法发。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711256">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711298"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_711298_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711298">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711298#msg711298" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711298'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711298'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2015-03-30, 周一 00:39:13 &#187;</div>
+<div id="msg_711298_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711298"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">我其实买了……然而因为是bookwalker的原因，我不知道该怎么提供<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/>事实上，我记得bookwalker是有特典的<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">每个舰娘都追加了新的固有Ability和个人任务。前者如何使用完全取决于提督（“DM我想用快速移动换猛扑好不好呀”这种感觉）；后者是该舰娘作为NPC登场时提供给PC的任务。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>个人任务原来是这么使的啊！笔记笔记<br>翻译力不足，新固有真心翻不动了，谁愿意翻就翻吧……我只管改卡录入……<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">新装备和新战术我大致翻译了下，作为附件附上。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>看来更新的非常之少……日文希望。<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">联合舰队：大致上是<br>剧本作成时提督安排等于PC数的敌舰队→镇守府阶段中每个PC选择一个NPC组成盟友舰队→决战阶段每个盟友进行检定，成功奖励失败惩罚。<br>这么个没啥诚意的系统。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>尼玛像我大七宫镇死得就剩下半个欧根了哪儿来的联合舰队（（（（（（<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">改修工厂有个表格，基本上要求的点数都极高，事实上也不是很有用，实际使用的场合需要大幅魔改造。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>开发系统就已经够坑了，那稀有度和强度完全不对应也是没办法……本来看改修工厂说不定能平衡一下<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711256#msg711256">引述: 六 于 2015-03-29, 周日 21:58:10</a></div></div><blockquote class="bbc_standard_quote">新船和新敌人我没有什么办法发。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>其实船没什么数据的，也就是六围五个性两个装备一固有<br>总之辛苦你贴装备战术啦</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711298">
+&#171; <em>上次编辑: 2015-03-30, 周一 00:56:04 由 七宫涟</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_711298_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711448"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161" title="检视会员资料:  六">六</a>
+</h4>
+<ul class="reset smalltext" id="msg_711448_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3161_1358263243.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 169<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711448">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711448#msg711448" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711448'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711448'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2015-03-30, 周一 13:57:12 &#187;</div>
+<div id="msg_711448_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711448">这次的特典是，拔锚书新角色（云龙大淀什么的）的简易设计书化。简单来说就是她们的第二固有和任务。<br>我大概搜索了一下，没找到把bookwalker转换为pdf的办法，所以我不知道怎么提供。<br><br>新固有我有打算翻，不过不会太快。<br><br>日文基于同前理由，不知道怎么提供……<br><br>联合舰队我上贴表述的不好。决战阶段会增加一个“前哨战”阶段，PC们为每个特殊的敌舰队（敌潜水舰队、敌空母机动部队之类）分配1名NPC盟友，进行检定，DC根据敌舰队不同而不同，这次检定中也会有根据敌舰队不同而不同的检定妨害。分配的NPC盟友可以根据其舰种和能力在该检定中得到加值，可以在该检定中对NPC使用感情声援（也就是司令部的那个“入电”能力）。检定成功或失败投对应的表。此外，PC还可以在决战中使用她选择的那个NPC盟友的战术或固有能力。<br><br>改修工厂那个表，大概是3号炮要花7~8个名誉点、烈风9流改10这种程度。1次团1点，是不是官方认为这游戏的PC都能很简单的跑个两三年啊……<br><br>新船如下：<br>云龙：命中0火力0回避0装备3装甲8行动12。得意范畴：制空·便利。初期个性：背景11、性格2、自由；劣势：趣味6、自由<br>资材相性：油普弹劣钢普铝优<br>初期能力【舰攻】【25mm3连机铳】【航空优势】<br>【龙玉】Sub，自己航空战伤害掷骰前可以使用，消耗等于航空攻击X的行动力。该伤害掷骰额外投消耗值数量的骰子，然后在所有骰子中选择等于航空攻击X的骰子决定伤害。<br>【航空击灭战】Auto，Round2开始的炮击战中轮到自己攻击时，可以以航空战代替攻击。<br><br>大淀：命中1火力1回避1装备3装甲7行动13。得意范畴：作战·制空·便利。初期个性：航海5、航海10；劣势：自由<br>资材相性：油优弹优钢优铝普<br>初期能力【中口径主炮】【侦察机】【机略纵横】<br>【舰队指挥】Move，《航海10》，选择1名友舰为目标，进行指定个性检定。成功则增减目标航序1点。<br>【兵站】Sub，平常Scene开始时，得到1个想要的资材。<br><br>朝云：命中2火力0回避2装备2装甲6行动17。得意范畴：展开·攻势·便利。初期个性：性格6、战斗10；劣势：自由<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【鱼雷】【迫近攻击】（肉薄攻击）<br>【还可以继续前进哟】（まだ进めるわ）Auto，自己雷击战伤害上升[6-自己航序]的值。<br>没有第二固有。<br><br>山云：命中2火力0回避2装备2装甲6行动17。得意范畴：展开·守势·便利。初期个性：性格2、自由；劣势：战斗12<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【鱼雷】【五里雾中】<br>【可以的话】（なるべくなら）Auto，再挑战时消费行动力的1d6得到5以上时，消费的行动力变为4点。（和暴走状态的影响不明。）<br>没有第二固有。<br><br>矶风：命中2火力0回避2装备2装甲6行动17。得意范畴：展开·攻势·便利。初期个性：背景3、自由；劣势：趣味6<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【25mm连装机铳】【百战练磨】<br>【战历】自己受伤时可以使用，消耗1d6行动力，伤害减少自己的装备能力的对空值的合计。最多为6。<br>没有第二固有。<br><br>野分：命中2火力0回避2装备2装甲6行动17。得意范畴：展开·守势·便利。初期个性：航海8、战斗6；劣势：自由<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【鱼雷】【高速机动】<br>【这样的话能行】（これならいける）Sub，《航海8》，自己成为航空战目标时可以使用，成功进行指定个性检定，该航空战无效。<br>【还能继续航行！】（まだ动けます！）Auto，舰队战中，自己为中破大破，自己进行命中和回避检定时掷骰得到10以上为大成功。此外，自己为中破大破也能使用鱼雷。<br><br>早霜：命中2火力0回避2装备2装甲6行动17。得意范畴：展开·守势·便利。初期个性：背景4、自由；劣势：性格7<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【25mm连装机铳】【水天仿佛】<br>【看我的吧】（见ています）Sub，布阵时布阵公开前可以使用，消耗1d6行动力，任选一名角色为目标，暗中查看目标航序。目标不能再改变航序。<br>没有第二固有。<br><br>清霜：命中2火力0回避2装备2装甲6行动17。得意范畴：攻势·守势·便利。初期个性：魅力8、自由；劣势：自由<br>资材相性：油普弹劣钢普铝劣<br>初期能力【小口径主炮】【25mm连装机铳】【伏击】<br>【そろそろ战舰】Auto，Season开始时消耗1d6行动力，任选1名舰种为战舰的角色的固有能力或是战舰的舰种能力，本次Season视为习得了该能力。此外，自己以主炮造成的伤害提高1点。<br>没有第二固有。<br><br>秋月：命中1火力0回避2装备2装甲7行动16。得意范畴：展开·守势·便利。初期个性：魅力6、战斗5；劣势：自由<br>资材相性：油普弹劣钢普铝劣<br>初期能力【10cm高角炮+高射装置】【机铳】【护卫舰】<br>【防空舰】Sub，自己以外友舰受到舰载机的伤害时可以使用，消耗1d6行动力，从受到伤害的角色中选择1名为目标，自己移动到与目标相同的航序。<br>【弹幕です！】Sub，《战斗5》，自己使用对空·超对空能力掷骰决定制空值时可以使用，成功进行指定个性检定，消耗任意行动力，然后重投等量骰子来决定制空值。<br><br><br>新改二：<br>扶桑改二：命中0火力4回避0装备4装甲12行动10。得意范畴：制空·便利。初期个性：背景10、性格6、航海7；劣势：自由、自由<br>获得装备【试制41】【瑞云12】<br>【御守】（お守り）Auto，进行再挑战时可以消耗1个物品代替行动力花费。（这种技能有啥用）<br><br>山城改二：命中0火力3回避0装备4装甲13行动10。得意范畴：制空·守势。初期个性：魅力6、趣味3、自由；劣势：背景7、航海7<br>获得装备【试制41】【瑞云12】<br>【私を顾みず前进して】Sub，舰队战中自己受到伤害时可以使用，选择未行动的1名友方为目标，目标进行攻击。<br><br>隼鹰改二：命中0火力1回避1装备3装甲8行动13。得意范畴：制空·便利。初期个性：魅力12、性格11、战斗4；劣势：航海5<br>获得装备【烈风】【喷进炮】<br>【舰上战斗鬼烈风】Sub，自己使用自己持有的名字带有烈风的装备的超对空能力时可以使用，消耗2点行动力，其超对空+2。（极限制空在这里）<br><br>古鹰改二：命中1火力1回避1装备4装甲8行动16。得意范畴：展开·攻势·守势。初期个性：魅力7、性格4、战斗6；劣势：自由<br>获得装备【2号炮】【探照灯】<br>【大型舣装】Auto，自己的火力+[自己带有火力修正的装备数量]、装甲力+[自己不带火力修正的装备数量]、回避检定中得到等于[自己装备数量]的加值。自己每受一个损伤，选择1个装备破坏。<br><br>足柄改二：命中0火力3回避1装备4装甲9行动12。得意范畴：展开·攻势·便利。初期个性：性格6、趣味2、战斗6；劣势：趣味6<br>获得装备【2号炮】和另一个【2号炮】<br>【训练（イメトレ）】Sub，镇守府阶段任意Scene使用，暗写1-6中1个整数为自己下次舰队战布阵。布阵公开时，以相同航序全体敌舰为目标，自己攻击时，目标的装甲力和回避力-5（不足0当做0）。效果不可累积。<br><br>吹雪改二：命中2火力0回避2装备3装甲6行动21。得意范畴：展开·攻势·守势。初期个性：背景2、性格5；劣势：自由<br>获得装备【三连酸素】【高射装置】<br>【主人公】Sub，自己为场景角色时可以使用，投反应表，选择其中提及的1名NPC为目标。目标登场，自己对其感情值+1。<br>（1赤城、2青叶古鹰、3由良、4睦月、5白雪初雪、6司令官）<br><br>潮改二：命中2火力0回避3装备3装甲6行动19。得意范畴：作战·守势·便利。初期个性：魅力4、战斗5；劣势：自由<br>获得装备【25mm3连机铳】【94爆雷】<br>【发现敌舰】Sub，Cycle结束时可以使用，消耗2d6行动力，自己变为未行动，以自己为场景角色进行1个激战场景。这个效果每Cycle只能使用1次。<br><br>初春改二：命中3火力0回避3装备3装甲6行动19。得意范畴：展开·作战·攻势。初期个性：背景5、航海8；劣势：性格6<br>获得装备【127B改二】【25mm3连机铳】<br>【初春之怒】Sub，自己进行命中检定前可以使用，选择1-5的整数，本次舰队战中，自己装甲减少该值，火力上升该值。<br><br><br><br>深海：<br>轻巡ツ级<br>命中2火力2回避2装甲9行动18<br>【5inch连装两用荚炮】中，火力2，对空3，④<br>【5inch连装两用荚炮】中，火力2，对空3，⑩<br>【声呐】对潜2<br>【侦察机】侦察9<br><br>重巡ネ级<br>命中3火力4回避1装甲10行动22<br>【8inch三连装炮】中，火力3，③<br>【8inch三连装炮】中，火力3，⑪<br>【高速深海鱼雷】短，火力3，雷击3，⑪<br>【侦察机】侦察9<br><br>驱逐栖姬<br>命中4火力3回避4装甲18行动45<br>【5inch连装炮】短，火力3，《性格9》<br>【5inch连装炮】短，火力3，《趣味6》<br>【高速深海鱼雷】短，火力3，雷击3，《战斗10》<br>【ツキガ】夜战中总和火力+4<br><br>空母栖鬼<br>命中2火力3回避2装甲18行动45<br>【新型舰攻】短，火力4，航空攻击5，侦察7，《战斗4》<br>【舰爆】短，火力4，航空攻击3，《性格6》<br>【舰战】超对空6<br>【ナンドデモ……ナンドデモ……】自己装备的超对空+3（已计算）。此外，自己每个有航空攻击能力的装备，航空战中处理2次。<br><br>空母栖姬<br>命中3火力4回避2装甲20行动55<br>【新型舰攻】短，火力4，航空攻击6，侦察7，《战斗4》<br>【舰爆】短，火力4，航空攻击3，《航海4》<br>【舰战】超对空6<br>【シズンデシマエ……！】自己装备的超对空+3、航空攻击+1（已计算）（然而舰爆似乎没有加）。自己每个有航空攻击能力的装备，航空战中处理3次。（6波开幕啊……吓死了）<br><br>北方……<br>略<br><br>中间栖姬<br>命中2火力3回避2装甲24行动55<br>【8inch三连装炮】中，火力3，《战斗7》<br>【新型舰攻】短，火力4，航空攻击5，侦察7，《航海4》<br>【舰爆】短，火力4，航空攻击3，《航海7》<br>【舰战】超对空4<br>【ユウバクシテ……シズンデイケ……！】自己装备的超对空+1（已计算）。自己造成的伤害上升[伤害的目标持有的装备能力个数×3]点。自己不受开幕雷击和雷击的伤害。<br><br>空母水鬼<br>命中3火力4回避3装甲22行动60<br>【新型舰攻】短，火力4，航空攻击7，侦察7，《背景7》<br>【舰爆】短，火力4，航空攻击5，《战斗8》<br>【舰战】超对空5<br>【ヤラセハ……シナイヨッ！】自己装备的超对空+2、航空攻击+2（已计算）。以自己为目标的命中检定，或是对自己的攻击进行的回避检定中，进行再挑战的行动力消耗+2。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711448">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711478"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_711478_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711478">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711478#msg711478" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711478'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711478'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2015-03-30, 周一 15:19:32 &#187;</div>
+<div id="msg_711478_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711478"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711448#msg711448">引述: 六 于 2015-03-30, 周一 13:57:12</a></div></div><blockquote class="bbc_standard_quote">……<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>总之先点赞<br><br>bookwalker首发就没办法了，这东西是ePUB的嘛，技术方面我不懂wwww<br><br>另外那个资材相性优普劣的描述好像不合适吧？「×」是用它补给根本不能回复行动力，并不是“劣”</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711478">
+&#171; <em>上次编辑: 2015-03-30, 周一 16:27:35 由 七宫涟</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_711478_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg711507"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161" title="检视会员资料:  六">六</a>
+</h4>
+<ul class="reset smalltext" id="msg_711507_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3161">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3161_1358263243.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 169<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_711507">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg711507#msg711507" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_711507'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_711507'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2015-03-30, 周一 16:51:33 &#187;</div>
+<div id="msg_711507_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_711507">单纯是我的输入法打那些小符号有点困难，所以就随手用反正这个版的人肯定能看懂的说法了……<br>然而轻国的老爷们放源放的也是bookwalker，不知道是怎么处理的</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_711507">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg742723"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_742723_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_742723">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg742723#msg742723" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_742723'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_742723'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2015-08-09, 周日 16:24:35 &#187;</div>
+<div id="msg_742723_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_742723">入手拔锚书了<br>不日将放出资源</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_742723">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_742723_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg780002"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_780002_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_780002">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg780002#msg780002" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_780002'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_780002'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-02-28, 周日 23:18:17 &#187;</div>
+<div id="msg_780002_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_780002"><span style="font-size: 18pt;" class="bbc_size"><span style="font-family: 华文中宋;" class="bbc_font">改修工厂</span></span><br><br>改修工厂是章节之间角色调整阶段的追加规则。开放本规则可以使自己更方便地获得需要的装备能力，而且可以在创建角色时调整战术能力和个性。<br>不过应用改修工厂规则的角色可能比原来的还弱，所以提督和玩家最好熟悉《舰娘RPG》的规则。提督不允许的改修工厂规则不可以使用。<br><br>14.1 名誉点<br><br>要使用改修工厂规则，必须引入<strong>【名誉点】</strong>。消费该值可以购买自己想要的装备能力。<br>各PC在章节结束的“数据重置”时获得1点【名誉点】。<br><br>14.2 购买装备能力<br><br>各玩家可在章节结束后、下一章节“当天前的准备”之前，为自己的角色购置装备能力。<br>玩家从“装备目录”中寻找自己需要的装备能力，并确认该装备能力的“购买条件”。自己的PC必须符合舰种要求，并且等级在规定等级以上。<br>若满足“购买条件”，则该PC可以消费等同于该项中“消费名誉点”数量的【名誉点】。消费后，获得一件该装备，保存到镇守府。如果该PC的舰种在该装备能力的可装备舰种之中，则可直接修得。此时和换装的处理方式相同。【名誉点】不足时无法购入对应装备。<br><br>14.2.1 高性能化<br>下一章节“当天前的准备”之前，各玩家可以强化自己PC已修得的装备能力。这叫做<strong>“高性能化”</strong>。<br>各玩家消费PC的1点【名誉点】，可以选择自己PC一件已修得的装备能力附加“高性能1”。同一装备能力不能重复附加“高性能1”。下一章节结束时，消除由高性能化产生的装备能力标签。<br><br>14.2 创建角色时的调整<br><br>使用改修工厂规则可以在创建角色时就购入装备能力。此时进行调整的PC可以预支自己1点【名誉点】。这样第一个章节就不能获得【名誉点】。<br>此外，创建角色时还可以通过以下方式获得1点【名誉点】：<br><strong>·将自己的一项【长处】替换为【弱点】。<br>·毁坏自己的一件装备能力。</strong><br><br>14.2.1 名誉点的特殊使用方法<br>此类舰娘在跑第一个章节时，在“章节准备”环节消费1点【名誉点】，可以进行如下调整：<br><strong>·将自己的一个初始个性替换为其他个性。属性不能改变（替换【弱点】个性的新个性也是【弱点】）。<br>·将自己的战术能力更换为自己得意战术门类下的其他战术。</strong><br>改变初始个性后，如果有以该个性作为指定个性的装备能力，可以改变此指定个性。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_780002">
+&#171; <em>上次编辑: 2016-02-28, 周日 23:33:52 由 粉毛提督七宫涟</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_780002_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg786615"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="检视会员资料:  粉毛提督七宫涟">粉毛提督七宫涟</a>
+</h4>
+<ul class="reset smalltext" id="msg_786615_extra_info">
+<li class="title">清楚系粉毛<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73567_1444621071.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1082<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_786615">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg786615#msg786615" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_786615'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_786615'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-03-30, 周三 18:39:26 &#187;</div>
+<div id="msg_786615_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_786615"><span style="font-size: 18pt;" class="bbc_size"><span style="font-family: 华文中宋;" class="bbc_font">联合舰队</span></span><br><br>后妈级没人权</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_786615">
+&#171; <em>上次编辑: 2016-03-30, 周三 19:07:48 由 粉毛提督七宫涟</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_786615_signature">狗修金萨马，要是您不读规则书，就把您踹飞哦？</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg786681"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=42328" title="检视会员资料:  b35050285">b35050285</a>
+</h4>
+<ul class="reset smalltext" id="msg_786681_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 70<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_786681">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.msg786681#msg786681" rel="nofollow">Re: 【官方规则】拔锚书新规则展望</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_786681'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_786681'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2016-03-30, 周三 23:27:50 &#187;</div>
+<div id="msg_786681_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_786681">辛苦了！很有趣啊！<br><br>五月雨小天使！不准欺负！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_786681">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=75337.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1347.0"><span>骰子话剧</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1124.0"><span>舰ColleRPG</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=7581" title="版主">china11229</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=15906" title="版主">町城安里</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=73567" title="版主">粉毛提督七宫涟</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=75337.0"><span>【官方规则】拔锚书新规则展望</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 75337,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 75337,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="75337" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=75337.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9054 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1124,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "舰ColleRPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1124,
+							iTopicId: 75337,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

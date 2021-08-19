@@ -1,0 +1,927 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '1ed9cae04777bf8dc4953ecd80ed1100');">
+<div class="info">请 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="91700"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'd7ca0c2',
+sSessionId: '1ed9cae04777bf8dc4953ecd80ed1100'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0"><span>FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg852593"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=91700.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述 &nbsp;(阅读 8385 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=quickmod2;topic=91700.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('1ed9cae04777bf8dc4953ecd80ed1100', 'd7ca0c2') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852593_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/exclamation.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852593">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852593#msg852593" rel="nofollow">FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852593'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852593'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2017-05-12, 周五 22:25:19 &#187;</div>
+<div id="msg_852593_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852593">今天在娘白群里娘白提到了关于防御的检定问题，这个问题其实在过年的时候在群里就说过，结果并不好，还是会有朋友对防御创造优势和防御攻击的判定逻辑不清楚。总之，这个帖子对于防御与创造优势、克服、攻击对抗的鉴定逻辑做一个完整的阐述，所有不理解防御，关于防御的所有疑惑的都可以在这个帖子里找到答案。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">防御：任何阻止他人进行以上三类行动的都是防御行动。例如：格挡剑、保持站立、堵门。通常防御行动都是在他人的回合进行的，是对他人行动的反应。如果你能合理说明、针对特定的情景形象或取得多数人同意，也可以防御一个非攻击行动或者针对他人的攻击行动。此时你成为任何负面结果的对象。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败、平局或成功：参见对方相应行动结果。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：你不仅阻止对方达成目标，而且可以获得一个增益。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">制造优势：任何帮助自己或盟友的都可以归入此类。例如：花费功夫仔细瞄准你的质子炮，耗费几个小时在学校图书馆做研究，或者绊倒试图抢劫你的恶棍。行动的目标或许会使用防御行动来阻止你。<br>&nbsp;&nbsp;&nbsp; 你制造的优势让你获得以下三类效果：创造新的情景形象、发现未知的已有情景形象或者其他角色的形象、用已有形象获得优势。<br><br>&nbsp;如果你是想创造新的情景形象或发现未知的已有的形象：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败：要么你未能创造或者发现这个形象，要么你创造或发现了它，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但一个对手可以免费引用它。第二种选择适用于在别人也能利用这&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个形象（如崎岖地面）时。你也许会需要重新描述这个形象以使别&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人而不是你合情合理地从中获益。你仍然可以花费命运点来引用它。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••平局：如果你创造了新形象，你获得了一个增益boost（注：详见下&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文）。描述这个形象并可以免费引用它一次，然后形象消失。如果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;是发现已有形象，视同成功。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••成功：你创造或发现了此形象，你或者你的盟友可以免费引用它一次。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：你创造或发现了此形象，你或者你的盟友可以免费引用它两&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;次，甚至可以在一次投骰中引用同一个形象两次，而通常不能。<br>&nbsp;如果你是想用已有形象获得优势：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败：毫无作用。你仍然可以花费命运点来引用它。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••平局或成功：你或者你的盟友可以免费引用它一次。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：你或者你的盟友可以免费引用它两次，甚至可以在一次投骰&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中引用同一个形象两次。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">克服：任何要越过你和特定目标之间阻碍的都可以归入此类。例如：撬锁、从镣铐下脱身、跳过裂缝、驾驶飞船穿过小行星带。采取行动以消除或改变不利的情景形象通常都是克服行动。行动的目标或许会使用防御行动来阻止你。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败：你可以选择单纯地失败—门仍然锁着、恶棍仍然拦在你和出口&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;之间、敌方飞船仍然追着你；你也可以选择成功，但有严重代价—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;丢下了至关重要的物品、受到了伤害。GM可以帮助你确定合适的代&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••平局：你达到了目标，只付出了微小代价。GM可以引入一个乱局，或&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给你提供一个艰难抉择（你只能救出两个朋友之一），或其他的故&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事转折。FATE核心规则里的主持游戏章节对此有更多点子。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••成功：你达到了目标。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：不仅达到了目标，还可以获得一个增益。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">攻击：任何伤害他人肢体或精神的都可以归入此类。例如：挥剑砍人、发射爆破枪、辱骂对手以伤害Ta。我们会在伤害、耐力和损伤章节中详细叙述，基本原则是如果某人受到严重伤害，那么Ta就得出局了。行动的目标或许会使用防御行动来阻止你。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败：你的攻击没有奏效。目标格挡了你的剑、你的射击打偏了，对&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手嘲笑了你的辱骂。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••平局：攻击的效果不够显著，不足以造成伤害，但你可以获得一个增&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;益。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••成功：攻击成功并造成伤害。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：攻击成功并造成伤害，并可以选择是否降低1格伤害以获得&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个增益。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852593">
+&#171; <em>上次编辑: 2017-05-12, 周五 23:59:41 由 少东</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852594"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852594_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852594">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852594#msg852594" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852594'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852594'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2017-05-12, 周五 22:25:47 &#187;</div>
+<div id="msg_852594_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852594">请暂时不要插楼</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852594">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852595"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852595_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852595">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852595#msg852595" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852595'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852595'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2017-05-12, 周五 22:36:01 &#187;</div>
+<div id="msg_852595_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852595">在规则引用上我引用的时FAE的规则，因为core规则我手上没有，但是两者关于行动的分类和判定是一样的，所有没有差别。<br><br>在详细阐述观点之前，我先总结一下规则本身的中心思想，精神基调。FATE规则FAE规则都是重剧情扮演的，跌宕起伏，扣人心悬，紧张刺激，胶着难下充满戏剧张力剧情是规则所追求的，因此的在规则中有很多是把剧情往这样的境况推动的设定，所以我们在理解规则精神时也要从这个角度出发才不会理解错误。<br><br>笔记本风扇竟然不转我先重启一下电脑<br>-----------------------------继续回来---------------------------------------<br><br>基于这个中心思想，我们在理解规则时就容易多了。讲明白中心思想以后，再来说一个概念问题，就是判定中的成功与失败。在进行检定时，投点加上做派加上特技加上能加上的所有加值后和对抗值进行比较，<div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">小于为“失败”，等于为“平局”，大于为“成功”，相差3点以上的胜利为“大成功”</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>所以我们要分清楚在规则中哪里说的是判定结果为“成功”，哪里说的是现实意义中的成功，如果搞不清楚这点就会陷入逻辑混乱当中无法自拔。而在这几种情况之外，还有一种隐藏的情况就是“大失败”，有了这个概念，就使判定的结果平衡对称，容易理解。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852595">
+&#171; <em>上次编辑: 2017-05-12, 周五 23:31:41 由 少东</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852607"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852607_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852607">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852607#msg852607" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852607'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852607'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2017-05-12, 周五 23:59:12 &#187;</div>
+<div id="msg_852607_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852607">上边我提出了两条要点，<br>一，FATE规则追求跌宕起伏，扣人心悬，紧张刺激，胶着难下充满戏剧张力的剧情；<br>二，在行动判定时存在“大失败”、“失败”、“平局”、“成功”、”大成功“五种情况，只分别对应主动方的检定值和对抗值之间差值的数值大小，与其他任何事情无关<br>接下来要提第三点，就是规则在设计创造优势、克服、攻击、防御时为什么要将失败、平局、成功、大成功获得的结果为什么要做成现在的样子。<br><br>那就是从宣告动作的PC的本源目的出发，对抗的差值越大，获得的结果越好；差值越小，得到的结果越坏。<br>举个例子，当前回合的PC要点燃所在的木屋，这可以认作是创造优势：<br>当结果是差值大于3时，为“大成功”，这个时候PC成功点燃木屋，创建了“燃烧的木屋”形象，并且可以免费引用两次；<br>当结果是差值大于0小于3时，为“成功”，这个时候PC成功点燃木屋，创建了“燃烧的木屋”形象，并且可以免费引用一次；<br>当结果是差值等于0时，为“平局”，这个时候PC未必成功点燃木屋，然后创建了一个可以免费引用一次就消失的临时形象（增益）而非形象，比如“一吹就灭的小火苗”这种感觉的临时形象；<br>当结果是差值小于0时，为“失败”，这个时候PC没有成功点燃木屋。<br><br>综上所述三个要点就是理解防御的全部理论基础，下边我将一一阐明观点</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852607">
+&#171; <em>上次编辑: 2017-05-13, 周六 01:25:55 由 少东</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852610"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852610_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852610">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852610#msg852610" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852610'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852610'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2017-05-13, 周六 01:19:31 &#187;</div>
+<div id="msg_852610_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852610">防御通常是发生在对方的回合动作时，当对方想要做出创造优势、克服动作时，我方可在合理GM同意的情况下宣告防御，这时对方原定要对抗的GM提供的对抗值即变为我方投点加做派加特技后得到的数值作为新的对抗值，这是一个防御的基本过程。之后双方的数值进行比较，根据差值来得出<span style="color: red;" class="bbc_color"><span style="font-size: 18pt;" class="bbc_size">双方</span></span>的结果，就是上边一楼中所引用的内容，不再赘述，而这个结果，既是对方创造优势、克服的结果，也是我方防御的结果<br>差值结果&nbsp; &nbsp; &nbsp; | 对方&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;|我方<br>大于3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 大成功&nbsp;&nbsp;&nbsp;|大失败<br>大于0小于3&nbsp; &nbsp;| 成功&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;|失败<br>等于0&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 平局&nbsp;&nbsp;&nbsp;&nbsp; |平局<br>小于0&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 失败&nbsp;&nbsp;&nbsp;&nbsp; |成功<br>小于—3&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;| 大失败&nbsp;&nbsp;&nbsp;|大成功<br><br>从这张表可以看出来两方的结果是对应相反的，因为结果一个结果，从双方的角度看就是相反的结果。对方比我大3，我就比对方小3，对方大成功就是我大失败，理解了这一点防御的逻辑你就可以理解了。那防御的结果是什么呢，<div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••失败、平局或成功：参见对方相应行动结果。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;••大成功：你不仅阻止对方达成目标，而且可以获得一个增益。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>我们从防御的目的来看，防御的本源目的就是阻止对方的创造优势、克服、攻击的行为，对方的行动被完全阻止了，你防御的目的才算达到。对方想要点火烧房，你只有彻底的阻止对方把火点起来，你防御的目的才算达到。否则一个小火烧起来，怎么也不能算你成功的阻止对方点火。这就是第三个要点，基于本源目的出发来看待结果。<br><br>根据这个要点，我们来看一下防御的结果，简单明了只有两项，一项是防御成功，一项就是防御失败。而要想防御成功，就需要防御方在对抗中胜出大于3点，即投点“大成功”，成功的阻止了对方的行动。<span style="color: red;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">比较容易引起争议的一种情况就是防御方投点“成功”</span></span>，出现在了另一个结果项里：在非成功既失败的二元选项里，一项是成功，则另一项很明显就是失败，这是傻瓜都不能否定的推论。至少在FATE规则中，投点“成功”绝不等同于防御成功，至少是不完全的成功或失败。如果不理解这一个论点，请参考要点二和防御的判定规则，如果还不理解，请自行问候自己的小学语文老师。<br>而另一项的内容为“参见对方相应行动结果”，这个该怎么理解呢？什么叫“对方相应行动结果”呢？从上边的表里可以看出，同样的差值结果，双方的结果是相反的，既防御方成功对应对方失败，防御方平局对应对方平局，防御方失败对应对方成功，&nbsp; 防御方大失败对应对方大成功 。这就牵扯出了<span style="color: red;" class="bbc_color"><span style="font-size: 24pt;" class="bbc_size">关于防御的另一个比较容易引起争议的情况，防御和创造优势的对抗双方的结果。</span></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852610">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852611"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_852611_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852611">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852611#msg852611" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852611'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852611'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2017-05-13, 周六 01:20:42 &#187;</div>
+<div id="msg_852611_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852611">未完待续</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852611">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg852819"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=82125" title="检视会员资料:  新手nice">新手nice</a>
+</h4>
+<ul class="reset smalltext" id="msg_852819_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 18<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_852819">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg852819#msg852819" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_852819'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_852819'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2017-05-14, 周日 12:35:44 &#187;</div>
+<div id="msg_852819_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_852819">辛苦了。不过我还在等众筹的书呢，还没见过规则。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_852819">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg858808"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850" title="检视会员资料:  狂阳">狂阳</a>
+</h4>
+<ul class="reset smalltext" id="msg_858808_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13850_1593774474.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 799<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_858808">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg858808#msg858808" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_858808'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_858808'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2017-06-12, 周一 19:55:58 &#187;</div>
+<div id="msg_858808_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_858808">揭露形象时<br>如果对方的形象只有好处<br>那不是很亏？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_858808">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg863646"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=79668" title="检视会员资料:  少东">少东</a>
+</h4>
+<ul class="reset smalltext" id="msg_863646_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 43<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_863646">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg863646#msg863646" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_863646'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_863646'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2017-07-07, 周五 22:18:10 &#187;</div>
+<div id="msg_863646_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_863646"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg858808#msg858808">引述: cmjh625 于 2017-06-12, 周一 19:55:58</a></div></div><blockquote class="bbc_standard_quote">揭露形象时<br>如果对方的形象只有好处<br>那不是很亏？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>请详细说明一下你的问题</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_863646">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg865065"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=832" title="检视会员资料:  jimraynor">jimraynor</a>
+</h4>
+<ul class="reset smalltext" id="msg_865065_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=832">
+<img class="avatar" src="/bbs/upload/avatar/avatar_832_1416178698.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1005<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_865065">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg865065#msg865065" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_865065'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_865065'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2017-07-14, 周五 15:18:39 &#187;</div>
+<div id="msg_865065_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_865065"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg858808#msg858808">引述: cmjh625 于 2017-06-12, 周一 19:55:58</a></div></div><blockquote class="bbc_standard_quote">揭露形象时<br>如果对方的形象只有好处<br>那不是很亏？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>fate不鼓励只有坏处或只有好处的aspect。好在绝大多数时候即使是看上去只有好处的aspect也有办法利用。比如对方有把“家传宝剑”，那么你invoke的话就可以把他的剑打飞。假如对方“牙尖嘴利”你可以扮弱势博取观众同情心。以此类推<br><br>如果确实没办法利用的话可以和gm商量进行修改。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_865065">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_865065_signature">以下引自全能的羊姐姐：<br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=47579.msg427916#msg427916">引述: Sheepy 于 2012-05-08, 周二 12:45:20</a></div></div><blockquote class="bbc_standard_quote">挑出最优解不是容易的事。很多四版战斗时间就是花在等待或讨论最优解之上的... 战:&quot;我应该把他打倒地还是推开他?&quot; 贼:&quot;别推别推我要夹击&quot; 牧:&quot;可是不推的话他一快步我们就全体吃光环&quot; 贼:&quot;那么你别动，我用换位打?&quot; 法:&quot;我也可以拉人.&quot; 战:&quot;不可以那是墙角你不能钭拉&quot; 法:&quot;如果我这样走的话好像可以拉了但牧师要让路&quot; 牧:&quot;我走开就罩不住贼?&quot; 然后，过了十多分钟，大家谈好了，战士投骰，<span style="color: red;" class="bbc_color"><strong>打失</strong></span>... &quot;是时候重新想了.&quot;<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg865900"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=9889" title="检视会员资料:  小狼希诺">小狼希诺</a>
+</h4>
+<ul class="reset smalltext" id="msg_865900_extra_info">
+<li class="title">白狼天狗<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=9889">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9889_1378862055.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1210<li class="karma">苹果币: 9<li class="blurb">是只可爱的冬狼w<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_865900">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg865900#msg865900" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_865900'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_865900'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2017-07-19, 周三 09:34:55 &#187;</div>
+<div id="msg_865900_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_865900"><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote">&nbsp; ••大成功：你创造或发现了此形象，你或者你的盟友可以免费引用它两&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;次，甚至可以在一次投骰中引用同一个形象两次，而通常不能。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>这里的“而通常不能”是什么情况？多余还是漏词？<br>另外求一下群号，挺感兴趣的</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_865900">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_865900_signature">我不知道你们在说什么，因为我只是一只傻狗。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg865940"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=73129" title="检视会员资料:  天下风云出我辈">天下风云出我辈</a>
+</h4>
+<ul class="reset smalltext" id="msg_865940_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 2<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_865940">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg865940#msg865940" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_865940'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_865940'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2017-07-19, 周三 14:18:09 &#187;</div>
+<div id="msg_865940_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_865940">同求一下群号</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_865940">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg876914"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850" title="检视会员资料:  狂阳">狂阳</a>
+</h4>
+<ul class="reset smalltext" id="msg_876914_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=13850">
+<img class="avatar" src="/bbs/upload/avatar/avatar_13850_1593774474.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 799<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_876914">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.msg876914#msg876914" rel="nofollow">Re: FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_876914'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_876914'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2017-09-02, 周六 23:48:26 &#187;</div>
+<div id="msg_876914_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_876914">在同一个检定中<br>通常一个形象只能使用一次</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_876914">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=printpage;topic=91700.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;topic=91700.0"><span>FATE和FAE中关于防御与创造优势、克服、攻击对抗的鉴定逻辑阐述</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 91700,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 91700,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="d7ca0c2" value="1ed9cae04777bf8dc4953ecd80ed1100" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="91700" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'1ed9cae04777bf8dc4953ecd80ed1100\', \'d7ca0c2\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;' + '?topic=91700.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 8385 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 91700,
+							sSessionId: "1ed9cae04777bf8dc4953ecd80ed1100",
+							sSessionVar: "d7ca0c2",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36cfbc428e4e74d2e72d6e446257e0fc&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

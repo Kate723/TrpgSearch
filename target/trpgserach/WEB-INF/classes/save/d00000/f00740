@@ -1,0 +1,478 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="BB码 - SMF 使用者帮助"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>BB码 - SMF 使用者帮助</title>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"><span>说明</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=admin;area=bbcode"><span>BB码</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<div id="main_container">
+<div id="left_admsection"><span id="admin_menu"></span>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+新手上路
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=introduction">前言</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=main_menu">主选单</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=board_index">版块列表</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=message_view">帖子列表</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=topic_view">主题检视</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+注册
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=when_how">何时何地开始注册</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=registration_screen">注册画面</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=activating_account">启用帐号</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=logging_in">登录与登出</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=password_reminders">密码提示</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+个人资料
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=profile_info">个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=modify_profile">修改个人资料</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=actions">执行动作</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+发表功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=posting_topics">帖子, 投票和活动</a>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=smileys">表情符号</a>
+<li>
+<strong><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=bbcode">BB码</a></strong>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+简讯功能
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=messages">简讯</a>
+</ul>
+</div>
+<div class="adm_section">
+<div class="cat_bar">
+<h4 class="catbg">
+论坛工具
+</h4>
+</div>
+<ul class="smalltext left_admmenu">
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help;area=searching">搜寻</a>
+</ul>
+</div>
+</div>
+<div id="main_admsection">
+<div class="cat_bar">
+<h3 class="catbg">说明</h3>
+</div>
+<div class="title_bar">
+<h4 class="titlebg">BB码</h4>
+</div>
+<div id="help_container">
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div id="helpmain">
+<p>The buttons shown belong to the SMF default theme and may differ from forum to forum.</p>
+<table cellspacing="1" cellpadding="3" class="table_grid">
+<thead>
+<tr class="catbg">
+<th class="first_th">Tag Name<th>Button<th>Code<th>Output<th class="last_th">Comments</tr>
+
+<tbody>
+<tr class="windowbg">
+<td>Bold<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/bold.gif" alt="Bold" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[b]bold[/b]<td><strong>bold</strong><td>*</tr>
+<tr class="windowbg2">
+<td>Italicized<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/italicize.gif" alt="Italicized" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[i]italicized[/i]<td><em>italicized</em><td>*</tr>
+<tr class="windowbg">
+<td>Underline<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/underline.gif" alt="Underline" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[u]underline[/u]<td><span class="underline">underline</span><td>*</tr>
+<tr class="windowbg2">
+<td>Strikethrough<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/strike.gif" alt="Strikethrough" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[s]strikethrough[/s]<td><del>strikethrough</del><td>*</tr>
+<tr class="windowbg">
+<td>Glow<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/glow.gif" alt="Glow" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[glow=red,2,50]glow[/glow]<td>
+<div style="filter: Glow(color=red, strength=2); width: 30px;">
+glow
+</div>
+<td>The three attributes (eg red, 2, 50) in the 'glow' tag are color, strength and width respectively.</tr>
+<tr class="windowbg2">
+<td>Shadow<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/shadow.gif" alt="Shadow" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[shadow=red,left]<br>shadow<br>[/shadow]<td>
+<div style="filter: Shadow(color=red, direction=240); width: 30px;">
+shadow
+</div>
+<td>The two attributes (eg red, left) in the 'shadow' tag are color and direction respectively.</tr>
+<tr class="windowbg">
+<td>Marquee<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/move.gif" alt="Marquee" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[move]move[/move]<td><td>Not valid XHTML, but can also be used for images!</tr>
+<tr class="windowbg2">
+<td>Preformatted Text<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/pre.gif" alt="Preformatted Text" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[pre]Simple<br>
+&nbsp;&nbsp;Machines<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Forum[/pre]<td>
+<pre>
+Simple
+  Machines
+    Forum
+</pre>
+<td>Preserves critical text formatting, rendered in a monospace font.</tr>
+<tr class="windowbg">
+<td>Left Align<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/left.gif" alt="Left Align" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[left]left align[/left]<td>
+<p align="left">left align</p>
+<td>*</tr>
+<tr class="windowbg2">
+<td>Centered<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/center.gif" alt="Centered" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[center]centered[/center]<td>
+<span class="centertext">
+centered
+</span>
+<td>*</tr>
+<tr class="windowbg">
+<td>Right Align<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/right.gif" alt="Right Align" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[right]right align[/right]<td>
+<p align="right">right align</p>
+<td>*</tr>
+<tr class="windowbg2">
+<td>Right-to-Left<td>*<td>[rtl]right to left![/rtl]<td>
+<div dir="rtl">
+right to left!
+</div>
+<td>Typical usage would be to post Arabic or Hebrew in an English document.</tr>
+<tr class="windowbg">
+<td>Left-to-Right<td>*<td>[ltr]left to right![/ltr]<td>
+<div dir="ltr">
+left to right!
+</div>
+<td>Typical usage would be to post English in an Arabic or Hebrew document.</tr>
+<tr class="windowbg2">
+<td>Horizontal Rule<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/hr.gif" alt="Horizontal Rule" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[hr]<td>
+<hr />
+<td>*</tr>
+<tr class="windowbg">
+<td>Font Size<td>*<td>[size=10pt]font size[/size]<td><span style="font-size: 10pt;">font size</span><td>*</tr>
+<tr class="windowbg2">
+<td>Font Face<td>*<td>[font=Verdana]font face[/font]<td><span style="font-family: Verdana;">font face</span><td>Only fonts installed on the user's computer will be displayed, so use with caution!</tr>
+<tr class="windowbg">
+<td>Font Color<td><select>
+<option value="" selected="selected">
+Change Color
+
+<option value="Black">
+Black
+
+<option value="Red">
+Red
+
+<option value="Yellow">
+Yellow
+
+<option value="Pink">
+Pink
+
+<option value="Green">
+Green
+
+<option value="Orange">
+Orange
+
+<option value="Purple">
+Purple
+
+<option value="Blue">
+Blue
+
+<option value="Beige">
+Beige
+
+<option value="Brown">
+Brown
+
+<option value="Teal">
+Teal
+
+<option value="Navy">
+Navy
+
+<option value="Maroon">
+Maroon
+
+<option value="LimeGreen">
+Lime Green
+
+</select><td>[color=Red]red[/color]<td><span style="color: red;">red</span><td>Select the color from the drop-down.</tr>
+<tr class="windowbg2">
+<td>Insert Flash<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/flash.gif" alt="Insert Flash" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[flash=200,200]<br>http://somesite/somefile.swf<br>[/flash]<td><a href="http://somesite/somefile.swf" class="board new_win" target="_blank">http://somesite/somefile.swf</a><td>Please note that, if embedded Flash has been disabled by the forum administrator(s), the Flash file will appear as a straight hyperlink as shown here. The two attributes in the 'flash' tag (where relevant) are width and height respectively.</tr>
+<tr class="windowbg">
+<td rowspan="2">Insert Image<td rowspan="2"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/img.gif" alt="Insert Image" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[img]<br>http://somesite/image.gif<br>[/img]<td><img src="Themes/celeste/images/on.gif" alt=""/><td rowspan="2">Type the width and height attributes to resize the image.</tr>
+<tr class="windowbg">
+<td>[img width=48 height=48]<br>http://somesite/image.gif<br>[/img]<td><img src="Themes/celeste/images/on.gif" width="48" height="48" alt=""/></tr>
+<tr class="windowbg2">
+<td rowspan="2">Insert Hyperlink<td rowspan="2"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/url.gif" alt="Insert Hyperlink" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[url]http://somesite/[/url]<td><a href="http://somesite" class="board new_win" target="_blank">http://somesite/</a><td rowspan="2">NB the 'url' tag opens in a new window, but you can type 'iurl' tags to open in the same window.</tr>
+<tr class="windowbg2">
+<td>[url=http://somesite/]<br>descriptive link<br>[/url]<td><a href="http://somesite" class="board new_win" target="_blank">descriptive link</a></tr>
+<tr class="windowbg">
+<td>Insert Email<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/email.gif" alt="Insert Email" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[email]<br>someone@somesite<br>[/email]<td><a href="mailto:someone@somesite" class="board">someone@somesite</a><td>*</tr>
+<tr class="windowbg2">
+<td rowspan="2">Insert FTP Link<td rowspan="2"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/ftp.gif" alt="Insert FTP Link" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[ftp]<br>ftp://somesite/somefile<br>[/ftp]<td><a href="ftp://somesite/somefile" class="board new_win" target="_blank">ftp://somesite/somefile</a><td rowspan="2">*</tr>
+<tr class="windowbg2">
+<td>[ftp=ftp://somesite/somefile]<br>descriptive link<br>[/ftp]<td><a href="ftp://somesite/somefile" class="board new_win" target="_blank">descriptive link</a></tr>
+<tr class="windowbg">
+<td>Insert Table<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/table.gif" alt="Insert Table" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[table][/table]<td>*<td>No meaningful output from the 'table' tags alone.</tr>
+<tr class="windowbg2">
+<td>Insert Table Row<td>*<td>[table][tr][/tr][/table]<td>*<td>No meaningful output from the 'table' and 'tr' tags alone.</tr>
+<tr class="windowbg">
+<td rowspan="2">Insert Table Column<td rowspan="2">*<td>[table][tr][td]<br>content<br>[/td][/tr][/table]<td>
+<table>
+<tr>
+<td valign="top">content</tr>
+</table>
+<td rowspan="2">Note the correct nesting of the tags, so the 'table' tags contain the 'tr' tags, which each contain an equal number of 'td' tags!</tr>
+<tr class="windowbg">
+<td>[table][tr][td]SMF[/td]<br>
+[td]Bulletin[/td][/tr]<br>
+[tr][td]Board[/td]<br>
+[td]Code[/td][/tr][/table]<td>
+<table>
+<tr>
+<td valign="top">SMF<td valign="top">Bulletin</tr>
+<tr>
+<td valign="top">Board<td valign="top">Code</tr>
+</table>
+</tr>
+<tr class="windowbg2">
+<td>Superscript<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/sup.gif" alt="Superscript" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[sup]superscript[/sup]<td><sup>superscript</sup><td>*</tr>
+<tr class="windowbg">
+<td>Subscript<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/sub.gif" alt="Subscript" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[sub]subscript[/sub]<td><sub>subscript</sub><td>*</tr>
+<tr class="windowbg2">
+<td>Teletype<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/tele.gif" alt="Teletype" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[tt]teletype[/tt]<td><tt>teletype</tt><td>Monospace font.</tr>
+<tr class="windowbg">
+<td>Insert Code<td><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/code.gif" alt="Insert Code" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[code]&lt;?php phpinfo(); ?&gt;[/code]<td>
+<div class="codeheader">
+Code:
+</div>
+<div class="code">
+<span style="color: #0000bb;">&lt;?php phpinfo</span><span style="color: #007700;">();</span> <span style="color: #0000bb;">?&gt;</span>
+</div>
+<td>Always use to preserve formatting of code and avoid parsing as BBC and/or smileys!</tr>
+<tr class="windowbg2">
+<td rowspan="2">Insert Quote<td rowspan="2"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/quote.gif" alt="Insert Quote" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[quote]quote[/quote]<td>
+<div class="quoteheader">
+Quote
+</div>
+<blockquote>
+quote
+</blockquote>
+<td rowspan="2">Note the optional 'author' attribute.</tr>
+<tr class="windowbg2">
+<td>[quote author=author]quote[/quote]<td>
+<div class="quoteheader">
+Quote from: author
+</div>
+<blockquote>
+quote
+</blockquote>
+</tr>
+<tr class="windowbg">
+<td rowspan="2">Insert List<td rowspan="2"><img onmouseover="bbc_highlight(this, true);" onmouseout="bbc_highlight(this, false);" src="Themes/celeste/images/bbc/list.gif" alt="Insert List" style="background-image: url(http://45.79.87.129/bbs/Themes/celeste/images/bbc/bbc_bg.gif); margin: 1px 2px 1px 1px;"/><td>[list]<br>[li]SMF[/li]<br>[li]YaBB SE[/li]<br>[/list]<td><ul class="normallist"><li>SMF<li>YaBB SE</ul><td rowspan="2">While you can add as many items as you wish, each item must be contained by the correct opening and closing tags. You can also style your list item bullets with special opening tags and no closing tags, but this option doesn't currently output valid XHTML.</tr>
+<tr class="windowbg">
+<td>[list]<br>[o]circle<br>[O]circle<br>[0]circle<br>[*]disc<br>[@]disc<br>[+]square<br>[x]square<br>[#]square<br>[/list]<td><ul class="normallist"><li style="list-style-type: circle;">circle<li style="list-style-type: circle;">circle<li style="list-style-type: circle;">circle<li style="list-style-type: disc;">disc<li style="list-style-type: disc;">disc<li style="list-style-type: square;">square<li style="list-style-type: square;">square<li style="list-style-type: square;">square</ul></tr>
+<tr class="windowbg2">
+<td>Abbreviation<td>*<td>[abbr=exempli gratia]eg[/abbr]<td><abbr title="exempli gratia">eg</abbr><td>Displays the full expression for the abbreviation on mouseover.</tr>
+<tr class="windowbg">
+<td>Acronym<td>*<td>[acronym=Simple Machines Forum]SMF[/acronym]<td><acronym title="Simple Machines Forum">SMF</acronym><td>Displays the full expression for the acronym on mouseover.</tr>
+
+</table>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+</div>
+</div>
+</div><br class="clear"/>
+</div>
+</div></div>
+<div id="footer_section"><div class="frame">
+<ul class="reset">
+<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a><li class="copyright">
+<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+</span><li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a><li><a id="button_rss" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a><li class="last"><a id="button_wap2" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></ul>
+</div></div>
+</body></html>

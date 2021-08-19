@@ -1,0 +1,769 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="第4章 进行游戏：创建角色"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>第4章 进行游戏：创建角色</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1775.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="108468"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1775.0"><span>Red Market</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="版主">NewAlbionDrone</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0"><span>第4章 进行游戏：创建角色</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg988340"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=108468.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 第4章 进行游戏：创建角色 &nbsp;(阅读 11298 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=108468.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_988340_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_988340">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg988340#msg988340" rel="nofollow">第4章 进行游戏：创建角色</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_988340'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_988340'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-04-08, 周一 19:33:01 &#187;</div>
+<div id="msg_988340_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_988340"><span style="font-size: 18pt;" class="bbc_size"><strong>角色创建</strong></span><br>搜葬人是有趣的家伙。他们胆子够大，能与怪物战斗；他们心思够细，够活过战斗。他们身体强壮，能在末日下幸存；他们精神脆弱，无法抛弃旧日回忆安于遗失区。英雄的机会主义者。暴戾的救世主。理想破灭的梦想家。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>概览</strong></span><br>1、选择搜葬人的名字<br><br>2、写下一个软肋（soft spot）和一个弱点（weak spot）<br><br>3、选择一个特质（tough spot）<br><br>&nbsp;a. 迷失（Lost）<br>&nbsp; +熟练（Adapt）：角色创建时+2技能<br>&nbsp; -已死亡：法律上死亡，必须留在遗失区，或伪造一个新的身份（退休指标（retirement milestone）+1）<br><br>&nbsp;b.诱饵（Bait）<br>&nbsp; +公民（Citizen）：退休指标减一<br>&nbsp; -移民（Migrant）：依赖人花费的保养费用（upkeep）*2，与他们通讯必须通过电子。<br><br>&nbsp;c.潜伏体（Latent）<br>&nbsp; +一遭被咬（Once Bitten）：不会被感染<br>&nbsp; -双倍仇恨（Twice Hated）：死亡时变成载体；活着时因有传染性被迫害<br><br>&nbsp;d.免疫体（Immune）<br>&nbsp; +基因彩票（Genetic Lottery）：不会被感染<br>&nbsp; -餐券（Meal Ticket）：活体每个被“采集”的永久伤害点价值5赏金。<br><br>&nbsp;c.信众（Believer）<br>&nbsp; +信仰（Faith）：确认信念的所有自控（Self-Control ）检定+1<br>&nbsp; -怀疑（Doubt）：开始时一项人性（Humanity）威胁崩坏；破坏信仰时需进行自控力检定<br><br>&nbsp;f.管家（Steward）<br>&nbsp; +卧底（Undercover）：每次游戏一次，可以向组织寻求帮助。市场决定是否允许（Market says yes or no.）<br>&nbsp; -深陷泥潭（In Too Deep）：不能将其他搜葬人作为依赖（Dependent）；伪装被揭露时所有队员（crew）必须进行自控检定；资助组织可能给搜葬人下达指令。<br><br>&nbsp;g.骗徒（Hustler）<br>&nbsp; +我知道个人（I Know a Guy）：所有网罗关系（Networking）检定自动成功，即使没有技能点。<br>&nbsp; -我欠某个人（I Owe a Guy）：每次游戏一次，市场能够要求1d10赏金。<br><br>&nbsp;h.墙卫（Fenceman）<br>&nbsp; +爆头（Headshots）：对伤亡人员的任何攻击检定+1<br>&nbsp; -在我梦中（In My Sleep）：因噩梦般的回忆，搜葬人初始时有一项人性威胁（threat）崩坏了<br><br>&nbsp;i.拾荒者（Scavenger）<br>&nbsp;+拾荒，拾荒，四处拾荒……（Salvage, Salvage Everywhere…）：以20赏金开始游戏<br>-……但螺丝永远对不上（…Not a Screw That Fits）：恢复（Refresh）永久-1<br><br>&nbsp;j.蟑螂（Roach）<br>&nbsp; +求生者（Survivor）：以人性为代价协助任何技能检定：每点+1<br>&nbsp; -独行客（Sole）：开始时所有三项人性（）威胁崩坏<br><br>4、给每个类别分配1点免费潜能（Potential）点数：力量、速度、适应、智力、魅力、意志（STR, SPD, ADP, INT, CHA, WILL）<br>&nbsp;a.再自由分配5点潜能<br>&nbsp;b.角色创建时潜能最高为3<br><br>5、分配20点技能点数<br>&nbsp;a.角色创建时点数和等级1比1兑换<br>&nbsp;b.第一个专业技能X点数和等级1比1兑换，但第二个2比1，第三个3比1，以此类推。<br>&nbsp;c.专精收到潜能以它们所属的技能限制，每一点专精花费一点技能点。近战：剑2花费4点技能点——2点用于近战，2点用于近战：剑。<br><br>6、确保没有技能超过了它们的关联潜能。重新分配超出的技能点。<br>&nbsp;<br>7、列出等同于搜葬人魅力数量的依赖。 <br><br>8.用初始的10赏金购买和升级装备。仅在角色创建时成本的花费为保养费用*1——游戏中购买装备需要保养费用*2。<br>&nbsp;<br>9、仅用于战役：设定你的搜葬人的退休计划和指标<br><br>10、仅用于战役，：作为一个团队，设计你们的居住区，为你们的队伍命名。<br><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font"><em>This trade-off captures perfectly economists’ notion of opportunity cost. The real cost of something, the opportunity cost, is the value of the next best opportunity, what you have to give up to do what you want to do. During the apocalypse, the cost of taking something with you is the value of what you have to leave behind.</em></span></span><br><div style="text-align: right;"><em><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font">- James Dow</span></span></em></div><em><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font">这一折衷完美地把握了经济学家对机会成本地看法。某物地真实成本，机会成本，是次佳机会的价值，即你为了做某事而放弃的事物。末日种，带上某物的成本便是你不得不放弃之物的价值。</span></span></em><br><div style="text-align: right;"><em><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font">——詹姆斯·道</span></span></em></div></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_988340">
+&#171; <em>上次编辑: 2019-12-11, 周三 20:54:13 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_988340_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg988342"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_988342_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_988342">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg988342#msg988342" rel="nofollow">Re: 第4章 进行游戏：创建角色</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_988342'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_988342'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-04-08, 周一 19:33:58 &#187;</div>
+<div id="msg_988342_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_988342"><span style="font-size: 14pt;" class="bbc_size"><strong>搜葬人的名字</strong></span><br>搜葬人很少使用真名。他们选择了更适合新生活方式的“绰号”（handle）。自DHQS建立赏金体系以来，名字有了真正的力量。如果你有能够回归的旧身份，退休会容易许多。足够糊弄配给系统的伪造文件十分昂贵，更别提那些可以用于取得遗失资产的旧身份。再加上，仅仅是破坏隔离的指控便可让一个人被DHQS认定死亡、搜拾的权利被没收，以假名行事也就十分合理了。<br>但要说这是新名字的唯一目的，也是谎言。绰号是一种心理生存机制。斯蒂芬或许目睹了所有他所爱之人被杀，但“尊者”只是个完成必要之事的家伙。这就是为什么他们叫绰号(handle)；搜葬人们用它来背负心灵的包袱。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>例子：摩根和马尔</strong></span><br>摩根思考自己想扮演一个怎样的角色。她最近读了一本小说，一个严肃的机械师用调试故障的诊断方法解决神秘事件。摩根觉得照此建立她的主人公。她构想了一个矮胖的女性，穿着连衣裤工作服，上面缝了十多个乐队的徽标作装饰。她系着工具皮带，带着手枪，脸上化了浓妆；她喜欢这样，让遗落区的人目瞪口呆。<br>摩根觉得她的角色的名字是帕特丽夏，但她没告诉任何其他玩家。这是个秘密。她猜帕特丽夏不大喜欢她的名字，也不喜欢崩溃前她的工作。她认为她的角色现在更加开心，能够自己动手，不必说法那些可恶的车库主人她知道怎么摆弄引擎。但帕特丽夏从来不多话，于是摩根觉得她的角色会打算叫自己“设备故障”（Malfunction），但她的队友缩短成了马尔。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_988342">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_988342_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg990644"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_990644_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_990644">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg990644#msg990644" rel="nofollow">Re: 第4章 进行游戏：创建角色</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_990644'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_990644'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-04-18, 周四 20:47:56 &#187;</div>
+<div id="msg_990644_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_990644"><span style="font-size: 14pt;" class="bbc_size"><strong>弱点、软肋、特质</strong></span><br>它们是定义搜葬人的人格和过去的描述性标签。在机制上，它们将角色引入冲突和故事，同时给予角色奖励。一名搜葬人的真实人格依照玩家的控制而细化，但弱点、软肋、特质是他们与设定的交互点。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>弱点</strong></span><br>弱点是角色的不足之处，即使角色意识到了，弱点也依旧定义了他们的性格。当其他人因此抱怨时，熟悉这名搜葬人的人只会说“X就是这样”或者“你知道X的啦。”这是一个仅能被暂时克服的核心要害。<br>跟随弱点遇到麻烦能够获得一点意志，甚至可以暂时超出该角色的潜能。因此弱点应当含糊以便适用于多种状况，包括合约交涉。<br>一些弱点的例子包括……<br>•报复心<br>•傲慢<br>•迂腐<br>•盲目乐观<br>•懦弱<br>•缺乏主见<br>•轻视<br>•拿破仑情节<br>•不切实际<br>•拘泥于________________<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>软肋</strong></span><br>软肋是角色在危险的遗失区依然保有的一种强烈的激情、信念或情绪。它是一种美德，或者说假如据说生活在一个自私不是生存必备的世界时如此。在后末日资本主义的反社会逻辑中，境况和人会让角色的行为受到旧式感性的吸引。<br>软肋应当含糊以便适用于多种状况。<br>满足角色对软肋的追求，无论是经济上、精神上还是身体上，能够获得一点意志，甚至可以暂时超出角色的潜能。合同交涉期间NPC也可以使用软肋。一些软肋的例子包括……<br>•保护弱者<br>•从按能力分配，到按需求分配<br>•社会正义<br>•自由<br>•善恶终有报<br>•不浪费不愁缺<br>•给予安慰<br>•我们不能都成为朋友吗？<br>•妇女儿童优先<br>•狗狗也需要保护！<br><br><strong><span style="font-size: 10pt;" class="bbc_size">特质</span></strong><br>特质与有坏名声的人或背景有关（你与这一标签的关系将你置于特别困难的处境（tough spot）。它应与搜葬人的过去以及他们如何长期幸存有关。<br>机制上，特点打破红市场的规则，为玩家带来好处。界限被提升，弱点被移除，奖励被获取。没有哪个活下里的搜葬人没有一点优势——特质便是这一优势。当特质被用于利于角色时，市场应调整叙述和机制适应不同情况。<br>但特质不仅仅是好处；它们能轻易成为双刃剑。特点是市场用来操弄角色的提手。所有人都有一个出现频率与好处相等的坏处。市场使用角色特点的坏处让他们陷入麻烦时，角色获得一点意志。<br>弱点和软肋没有好的一面。它们的存在就是为了让玩家抵抗、直到放弃，让故事更加有趣，并因其效果获得意志。特质则不同，搜葬人会从特质获得奖励。由于特质与红市场的知识直接相关，需要从现成的特质表中选择特质，但鼓励玩家写下自己的弱点和软肋。<br><br><span style="color: navy;" class="bbc_color"><strong>迷失</strong></span><br>迷失者构成了崩溃后幸存人员的大部分。他们要么错过了撤离指示、认为这些指示是狗屎，或者在军队抛弃他们后成功找到了庇护所。迷失者是首先意识到不会有帮助到来的一类人。他们首先发现了生命线并组织起来。每个人要么帮助建立了一处聚居点，要么迁移到最近的一处。<br><br><span class="bbc_u">+适应：搜葬人在角色创建时获得+2技能点。</span><br>早些时候，那些没能做出贡献的人活不下来。太多事要做，太多伤亡人员要打，太多人口要喂。过去五年里活下来的人不得不匆忙学会许多全新技能。有的偏向天赋领域，但对大部分人来说，他们的新职业取决于聚居区正好需要什么。大部分迷失者能指望的只有无聊、匮乏的聚居区寻常工作，但少许不幸的家伙被征召为搜葬人。<br><br><span class="bbc_u">-死亡：搜葬人在法律上被认定死亡，必须留在遗失区或伪造新身份。</span><br>寻得遗失区生活方式的人也必须找到在此死亡的方式。政府的homo sacer政策判定任何被抓或是假定被留下的人在法律上已经死亡。DHQS名册上有几百万个名字，全都被剥夺了投票权、公平审判权、所有权等。幸存的罪永远不会变宽恕，除非政府承认它为了建立撤离区做了什么。<br>崩溃五年后，大部分遗失者都在绝望中将自己的赏金换成了现金，或者找某个远亲干了这件事。对原本的搜葬人来说，他们无法逃到旧世界。他们要么在这个地狱里找到某个安全的角落退休，要么通过贿赂得到一个全新身份。后一种情况下，他们的退休指标要比那些没被认定为迷失者的同伴多一个。<br><br><span style="color: navy;" class="bbc_color"><strong>诱饵</strong></span><br>诱饵是那些有幸逃离但无谋复返的人的名字。对大部分搜葬人来说，这些不知感恩的混蛋唯一能干的，就是伤亡人员诱饵。<br>这个称呼根源于鄙夷。而实际上，冒险返回疫区是一种绝望下的做法。后撤区的生活可以比不死生物的威胁更恶劣。自由停车场贫民焚烧轮胎取暖，废料场里人层层堆叠居住。疾病和老鼠在停车场内开凿的露天厕所里滋生。配给暴动和DHQS镇压部队将绝望的民众打至屈服。StopLoss Immune猎人和潜伏者帮派在深夜让人消失。洗衣工（译注：Valet，自由停车场里的犯罪头子）将绝望者引入深渊，给疯狂者带去毒药。<br>在后撤区阶级体系里，站错边的生活和僵尸一样致命。一些绝望的人将遗失区的自给自足生活视作提高。但依然很少有人会把搜葬人视作一个用生命冒险、脱离贫困的机会。<br><br><span class="bbc_u">+公民：搜葬人退休时的指标减少一。</span><br>尽管后撤区里的贫富差距远比遗失区极端，但剩余的文明依然提供了更多上升空间。干净的衣服、居住地址、好好洗个澡——只需这些便能得到一次工作面试，开始朝着中产阶级（或者说中产阶级剩余部分）蹒跚前进。诱饵注册在了后崩溃的人口普查里——他们还在使用名字和旧记录，因此这个过程更容易。对大部分跨越藩篱的人来说，让他们脱离搜葬人工作的赏金总额要更少。<br><br><span class="bbc_u">-移民：依赖人所需保养费用（upkeep）×2，通讯必须通过电子设备。</span><br>只有家人才是冒险跳出隔离区的动力。诱饵和所有人一样，都有急需支持的所爱之人，但他们的家人留在了后撤区。将赏金给他们需要把赏金换成地底货币（crypt currency）再换成汽车营地接受的普通美元。这些中间操作和费用让依赖人的保养费用翻倍。更糟糕的是，让家人身体健康的心理安慰也因距离缩减。人形修复需要使用Ubiq电话，进一步消耗更多资源。<br>诱饵可以让其他搜葬人成为依赖人，但不能在角色创建时。<br><br><span style="color: navy;" class="bbc_color"><strong>潜伏者</strong></span><br>潜伏者是被疫病得不死毒株感染但未被其活性影响得人。主要成因是在被感染后短时间内注射了K-7864抑制剂，但也有自然发生的情况，可能是疫病的基因编码错误或受害者本人有部分免疫。无论什么原因，受害者的大脑都免遭疫病毒害：携带者典型的出血狂怒不hi发生，躯体也不会因毒株死亡。但疫病的经络还是钻进了受害者的神经系统，受害者如同潜伏的尸体。这一过程是否痛苦，单是疼痛就已让许多人死亡。那些幸存的人保留了他们的人性，但全身都被潜伏者独有的黑色血管复盖。他们有感染性，但留存的活体脑组织让疫病经络和脑干之间发生短路，使得潜伏者依然能控制自己的心理机能。<br><br><span class="bbc_u">+一遭被咬：搜葬人无法被感染。</span><br>或者说，无法被再次感染。伤害已经造成。任何进入血液的“热”细胞都会因经络的存在转为不死状态，而伤亡人员的“冷”咬伤只会增加身体内已经存在的疫病结构。除了外伤，潜伏者不会受到不死者的咬伤和抓伤影响。这种让潜伏者无需任何特殊装备就能和伤亡人员近战的能力，使得搜葬人队伍寻找潜伏者加入。<br><br><span class="bbc_u">-双倍仇恨：搜葬人活着时有感染性，死亡时成为携带者，还会遭到迫害。</span><br>控制伤亡人员身上死去血肉的疫病经络等待着，潜伏者二次脑死时便会再次出击。一旦活体脑组织停止介入疫病的信号，这种疾病立刻接管身体。对大部分伤亡人员来说，尸体腐烂和僵硬会降低传染危险。但对“预安装”了拉线的潜伏者来说，他们死亡时立刻成为快速感染的携带者。<br>如果者还不够糟糕，所有潜伏者的体液都携带疫病。死亡是成为极大危险的可能性，加上平常的卫生风险，意味着大部分居住区要么隔离要么直接囚禁潜伏者。潜伏者提供的关键服务平衡了他们带来的持续威胁以及如影随形的歧视。<br>可以在另一个特质之外额外增加潜伏者特质，但只能在游戏进行时（见“感染”P305）。角色创建时只能有一个特质。<br><br><span style="color: navy;" class="bbc_color"><strong>免疫</strong></span><br>某些人骨髓中有某种物质能够中断疫病的再生机能并把它从血液中清除。崩溃过后的五年里，医学还未能研究出它是如何做到的，和骨髓中哪种成分带来这种效果。免疫的案例分布于各个年龄、性别、血型和种族。至今唯一测试免疫的方法是将病人的血液暴露在疫病之下并观察结果。已知的只有某些人不会被感染，还有将这些人的骨髓注入到最近被感染的人体内后，尽管不能治愈，但能将活性疫病提前转为不死状态，结果便是潜伏者。免疫体（Immune），或者叫“免体”（moony），用来指那些有幸不会成为僵尸的人。<br><br><span class="bbc_u">+基因彩票：搜葬人不会被疫病感染。</span><br>无论什么形态的疫病都会在血液中死亡。除了通常会导致感染的外伤，免疫体无需惧怕伤亡人员。这让他们得到了与潜伏者同样的接近战术能力。<br><br><span class="bbc_u">-餐券：搜葬人的活体，每格永久损伤伤害（per permanently destroyed hit box）价值5赏金。</span><br>K-7864抑制剂是世界上最值钱的商品，它完全产自免疫体的骨髓。尽管有一些生产线常年采收免疫体——将他们置于无尽的采集和再生循环，许多人还是为了短期利益放弃持续收益，即把免疫体当牲畜一般收取骨髓。不管是送进奴隶市场还是屠宰场，免疫体的价格都十分高昂，意味着每个免疫体都是份行走的退休计划。因此免疫体一直绝望地藏起自身的诊断结果，无论是在遗失区还是后撤区，以免他们被“医学征用”余生都承受折磨。<br>可以在另一个特质之外额外增加免疫特质，但只能在游戏进行时（见“感染”P305）。角色创建时只能有一个特质。<br><br><span style="color: navy;" class="bbc_color"><strong>信众</strong></span><br>崩溃不同于其它任何末日：我们目睹了它的到来。终结以一种我们想象了半个世纪的怪物形象来临。所有人暗地里都以为自己能够处理，直到它公然屠戮。当流行文化的象征失效时，人类曾经依赖的所有其他表现方式，例如政府、科学、宗教，也都一同失效。许多人逃离了不死者，却发现自己被迫与现实的死亡搏斗。总的来说，因崩溃崩坏的人或许和它直接杀死的人一样多。或者说，它打开了他们的双眼。却决于你问的谁。无论人们是否沉溺于幻象或启示，许多人不能依照旧思维生存。想法相似的追寻者结成队伍、聚集为异教（cult）、信条、学派还有运动，包含所有能想象到的类型。胡言乱语变成思想体系，反之亦然。教条上的差异区分更为精细，幸存者分裂出越来越多不同世界观，神学理论变幻，如同沙暴中的线条。很快，在极少数前崩溃信仰的的狂热者，和虚无主意的大多数之间，遗失区充斥着成百种末日教派，每种都提供了对终末的不同解答。<br>那些靠新信仰活过后崩溃世界的人通常被叫做信众。主要团体的表格见“信众”章节（p150）。鼓励玩家设定中描述的信仰里选择一个，或者与市场一起设计自己的信仰。两者方式选择这一特质都意味着这种新信仰塑造了该角色的世界，无论好坏。<br><br><span class="bbc_u">+信仰：搜葬人所有用于与信仰相符的自控检定获得+2</span><br>这一好处取决于搜葬人新信仰的核心特征。例如，档案员（Archivist）相信人类早已注定灭亡，他们必须记录人类最后的日子，那么朋友的死亡便会更容易应对，只要该信众将其记录。狂热的黑数学（Black Math）异教成员会因进到伤亡人员队伍而狂喜。与搜葬人世界观相符的自控检定将更容易成功。<br><br><span class="bbc_u">-怀疑：搜葬人以一个人性威胁崩坏开始，违反信仰需要进行自控检定</span><br>若没有某种精神压力，人不会发明新的神和信条。带来启示的疯狂会让精神永久性失衡。因此信众会被要求进行只有某种信仰的成员才会经受的自控检定。一名档案员或许会在居住区焚烧书籍取暖或复写旧硬盘是惊慌失措。一个疯狂追求疗法的医学圣战士（medical Crusader）可能会在其他人为焚烧携带者欢呼时流泪哀叹损失了新鲜样本。<br><br><span style="color: navy;" class="bbc_color"><strong>管家</strong></span><br>一些在后撤区的人——通过穿越边境线的无人机信号或隔离区式（quarintechture）办公建筑的高层窗户——将遗失区视为机遇。部分灭绝的人性中由大笔利润。蓝图和原型机烂在死去的公司。基础设施和领土等着被重新认领后卖给出价最高者。<br>宝藏就在外面，积满灰尘，如同待采的成熟果实……要是没有那么多绝望的贫民把那里称为家。从遗失者手里拯救遗失区需要隐秘行事，等待真正的重新认领开始。积累财富的所有权需要代理，他们必须有能力有经验取得某个聚居区里的公司，但必须忠于真正的主人。DHQS把这些专员称为管家：投身于让homo sacer依照后撤区的想法行动（或死亡）的秘密探员。但各公司和DHQS一样派出了许多自己的管家，每个都有自己的计划，相互竞争。崩溃带来的私人/公共合作关系纠缠模糊了民主与寡头的最后界限，每个派系在都在棋盘上摆下自己的棋子。<br>选择管家特质的玩家需要效忠与后撤区主要势力之一：通常是DHSQ或一家主要公司。和其他搜葬人一样，该角色冒着生命危险在藩篱之外求生，但他们的绝望不过是方法演技。管家的所爱之人舒适地住在后撤区，只要这名间谍保持伪装、服从命令，他的家庭就会很安全。或者一名管家可以是独行者，为了在感染区地危险任务征召而来，正是因为他们没有任何留恋的。不管什么方式，管家的职责是观察、报告、等待行动指令。只要任务结束，管家就能回家，还有一份丰厚的报酬。<br>管家是沉睡密探，即他们大部分时间都自由行动。但无论同队搜葬人救他们多少次、帮了多少忙，管家永远不会彻底终于忠于队伍或居住区。他们为了后撤区经济利益背叛他人的决心决定了所爱之人能否一直安全。选择这一特质时，管家玩家如常声明特质，但所有角色要将这名PC视作普通的遗失者成员，直到游戏中发生什么暴露了真相。<br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font"><em> Held to be a crime when committed by individuals, homicide is called a virtue when committed by the state.</em></span></span><br><div style="text-align: right;"><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font"><em>--St. Cyprian</em></span></span></div><em><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font">个体的杀人为犯罪，国家的杀人为美德。</span></span></em><br><div style="text-align: right;"><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><em>——圣居普良</em></span></span></div></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><span class="bbc_u">+卧底：每次游戏一次，角色可以向所属组织请求帮助。市场决定是否允许。</span><br>假如管家处在“任务关键时刻”——可能威胁到角色的生命或伪装时，可以联系总部请求协助，每件工作一次。市场扮演管家的联系人，全权决定是否为任务关键情况；市场可以对几乎任何要求说不。<br>或许角色太过深入遗失区无法接收到帮助，或许整个居住区的死亡被认为是“可接受损失”。但归根结底，如果没有工作管家也不会在那里。如果角色能让对方认为符合组织的最优先利益，上层资源便能被指派给管家：包括工作推荐到空中打击。当然，帮助越大，越难解释这种偶然的礼物。<br><br><span class="bbc_u">-深陷泥潭：该角色只能以队伍里的其他搜葬人作为依赖人，伪装暴露时整个队伍都必须进行自控检定。依照市场的意愿，所属组织也可能时不时下达指令。</span><br>人类是社会动物。无论管家任何试图疏远他人，和同伴搜葬人一起冒生命危险都会建立纽带。短期内，这是好事。遗失区的恐怖如同影响其他人一样影响着间谍，在队伍里有个朋友或情人能让情况更好受些。但看着朋友被活活吃掉对会危害心理健康，被情人发现你存在的目的就是背叛也一样。最后，总有一天所属组织将要求回报——最终管家必须完成他们的任务，由市场决定。这时由玩家决定角色执行任务还是吐露真相并承受拒绝执行命令的后果。<br><br><span style="color: navy;" class="bbc_color"><strong>骗徒</strong></span><br>没人能独自活过崩溃。合作与协调决定了生与死的界限。食腐经济用长期的匮乏让幸存者们互相敌视，每个居住区都盯着邻居的赏金，如同伤亡人员盯着生肉。<br>也就是说，大部分人花了一段时间才重回到剥削的本性。有的人没有停止。拥有骗徒特质的角色在崩溃前就必须争抢才能得到一点残羹剩饭，他们聪明地知道，即使死人爬起来，全能地美元也不会被终止。那些魅力过剩而耻辱心不足的人找到在黑暗岁月生活的方法，乞讨、借用他人冒生命危险获得的东西。五年过去了，靠魅力生活的能力对任何队伍都很有用。但一辈子的借债和欺骗终有代价——它紧追不舍，比任何僵尸更不知疲倦。<br><br><span class="bbc_u">+我认识个人：搜葬人的网罗关系检定自动成功，即使没有技能点</span><br>骗徒认识每个人，因为每个人都有各自想要的东西。这意味着所有网罗关系检定自动成功。骗徒不需要“寻找”新的reference；这名搜葬人总会认识别人。无论是获取装备还是寻找工作都毫无障碍；骗徒总是有关系。玩家应当注意，这一能力仅免除了骗徒投掷骰子的责任。寻得新ref或许没用失败的风险，但花掉的人情始终需要还。骗徒能自动在交涉开始钱知道价格、联络类型或竞争者，但不能三者都知道（见“一-加一”p173）。找到正确的NPC后，所有扮演要求和赏金花费保持不变。<br><br><span class="bbc_u">-我欠某个人：市场可以宣布一次1d10赏金的悬赏（搜葬人活动一点意志）。</span><br>该搜葬人必须偿还债主……否则骗徒必须动用大量社交资源躲开旧敌人、获取新关系。就像资本主义，该角色时刻扩张关系网必须才能生存，他们无路可退。时不时，巨额的债务和恶劣的交易抓住了骗徒。<br>每次游戏一次，市场可以宣布1d10赏金的悬赏。债务的具体原因由玩家和市场合作扮演（和其它Ref场景一样），但价格必须在游戏阶段结束前付清……否则。什么“否则”？由市场决定。未能偿还或许会降低团队的名声（Rep），或许会让一队职业杀死盯上骗徒的家人。取决于骗徒如何逃离债务，以及市场想让故事如何发展。无论如何，债务永远不可能全数还清。该角色总会惹上某人。<br><br><span style="color: navy;" class="bbc_color"><strong>墙卫</strong></span><br>携带者能爬。跑得快。只要一只进入大门就能终结一个居住区。伤亡人员僵硬的躯体也不能将它们隔离在外。它们会缓慢地爬上肢体残缺的同类堆起的斜坡，单凭数量便能摧毁防御。<br>不，一堵墙不足以阻挡它们。成功的居住区在第一个夜晚便成立了墙卫队伍。墙卫可以说是食腐经济下的第一个职业。当然，墙卫（fenceman）也有女性(fencewoman)。鉴于这个名字诞生在食人大军来袭之时，你不能过于指责人们的首要关注不是性别平等。简单的名字，简单的认为：守住墙。<br>最初这意味着对永无止境的死亡潮水开枪、用刀刺倒它们，在战争老兵称为“崩溃课程”的过程中重新学习包围战。潜伏期后，这意味着细心清理墙上的伤亡人员，偶尔去墙外处理被疫病感染的尸块。现在，大部分居住区都将边界周围的伤亡人员密度降低到了可忽略的程度，维护边界成了一件让人昏昏欲睡的职业。<br>大部分墙卫如今靠居住区内有限的警察工作获得收入。他们获得这份工作主要是因为武装而不是能力。由经验的墙卫尤其适合遗失区的战斗行为，但随着需求降低，许多居住区里最好的战士转入搜葬人工作。对一些人来说，假如一支队伍意味着重回早日迷人的恐怖生活。对其他人来说，则是告诉他们藩篱内外区别有多大的死亡课程。<br><br><span class="bbc_u">+爆头：搜葬人对伤亡人员和携带者的任何攻击检定获得+1加值</span><br>轧票钳、粉刺针、重击C——墙卫想出了各种讨喜的名字，以便和礼貌的同伴交流，但他们的工作终究是关于用枪或是用刀打爆别人的脑袋。全天。全周。12小时轮换。任何在墙上工作过的人都很难隐瞒。他们的的目光会跟着视线中所有人的脑袋，盯着两眼之间的位置，他们的手会抽搐，不自觉地伸向隐藏武器，等待一击毙命。几年之后，肌肉记忆依然不会离开。大多数人不欢迎这种神经反射，它们象征着外面等待的地狱；而搜葬人则视为招募机会。<br><br><span class="bbc_u">-在我梦中：因噩梦般的回忆，搜葬人初始时有一项人性威胁（threat）崩坏了</span><br>在城墙之后，或是某种铁丝网的另一边，要不同情伤亡人员很难。它们穿着死亡时穿着的衣物，如同寻找庇护的难民。牙齿因啃咬金属脱落，饥饿的眼睛盲目地在眼窝里打转，脑子迟钝，感受不到任何痛苦和悲伤。墙卫见过各种不死者，年老的，婴儿期的。他们看见从前的邻居、朋友、配偶蹒跚经过城墙，如同无尽的幽灵游行。而墙卫需要把它们全部处决、焚烧。全天。全周。12小时轮换。最后，情感被钝化，但没有哪个在城墙工作的人能全身而退。绷紧的神经让墙卫成为优秀搜葬人，但也他们精神不稳定。<br><br><span style="color: navy;" class="bbc_color"><strong>拾荒者</strong></span><br>哪个白痴都能躲开死人几分钟。但只有专家才在陌生的土地上能连续躲开它们好几天。早期人们不需要搜葬人。墙卫负责引开伤亡人员，同时拾荒者搜刮周边的废墟。他们很少有武器，也没有稳定的收入。仅有的货币是速度和专注的眼睛。他们要么找到所需之物，要么挨饿。假如被咬了呢？那就少了一张吃饭的嘴。<br>随着食腐经济的建立和可搜刮物品的减少，搜葬人开始占据主导。大部分早期的拾荒者在城墙之内找到了更安全的工作，有专长的则做起铜线、罐头食品或他们擅长寻找的别的物品的生意。他们搜刮遗失区，往深挖掘，回收了难以想象的有价物资。他们这类人有的屈服于薪水奴隶的工作，而真正的拾荒者成为了修补之神，不停地破解、拆分、修复一件又一件能救命的设备。但每天宝库都越来越难获取。大部分拾荒者最后都会加入一支队伍，哪怕只是一边留神后方一边在旧世界的肠胃里搜寻。<br><br><span class="bbc_u">+拾荒，拾荒，四处拾荒：搜葬人开始游戏时有20赏金</span><br>具有拾荒者特质的搜葬人比大部分人过得好。他们要么在崩溃后不就找到了一大笔资源，要么有敏锐的眼睛让他们的生活高于平均水平。无论原因是什么，拾荒者在创建角色是有额外10个赏金。玩家可随意使用这额外的10赏金。可以存起来用作退休资金、买漂亮的小工具，或者留作紧急用途。但结余一旦用光便不会复返。遗失区的可搜集物资越来越少，游戏进行时，唯一的方式就是成为搜葬人。<br><br><span class="bbc_u">-但螺丝永远对不上：搜葬人的恢复（Refresh）永久性-1</span><br>总能找到好东西的思维方式损害了利用它的能力。拾荒者的家还是像崩溃前的垃圾和流浪猫的聚集地。这人可能回收了一卷比公牛还大的HDMI线，却忘记给枪买子弹了。另一个人可能为自己的专业设备弄到了电池，却没费心补充补给（ration）。对物品的痴迷拯救了角色，却也损害了他们区分有用和“总有一天用得上”的区别。因此，一名拾荒者的恢复等级为ADP-1。<br><br><span style="color: navy;" class="bbc_color"><strong>蟑螂</strong></span><br>经济活动重新开始绝不意味着稳定。居住区常常遭遇劫掠者、破坏行动、死亡宗教的信徒、疫病爆发、内战还有普通疾病。这些遗失区独有的灾难一次次重现末日，不断折磨着幸存者的韧性。哪怕是那些幸运无伤活过两次大屠杀的人，也仅有很少能够继续。目睹两个世界死亡足以破坏大多数人的思维。大多数。<br>有时，在一次连遗失区疲惫的居民都不愿启齿的恐怖灾难后，有人会从废墟中出现，做好重新开始的准备。他们会寻找下一个居住区，和死人一般敲打大门。大部分居住区出于同情收容了这些可怜人。但几乎所有居住区都后悔了。<br>遗失区管这些超级生存者叫“蟑螂”：注定要继承地球的生物。这个名字远称不上夸奖。没人能想象为了生存，蟑螂做了哪些可耻、肮脏的事，他们那疯狂、被往事纠缠的眼睛也阻止了任何人发问。几乎只有搜葬人愿意和这些被诅咒的灵魂打交道。虽然已经一团糟，但蟑螂没那么容易死掉，这就是一般队伍关心的。<br>由玩家和市场决定角色加入当前队伍前到底发生过什么。可以是设定中过去的一部分，在未来的战役有重要作用，也可以是PC闭口不谈的个人悲剧。<br><br><span class="bbc_u">+生存者：搜葬人可以减少人性（Humanity）协助任何技能检定，每损失一点+1</span><br>某种远古的动物本能让蟑螂活下去。突破生命绝不是痛苦的负担这一临界点后，某种远古的反射让蟑螂在其他人都倒下时坚持战斗。蟑螂的人性是他们生存的燃料。枪战时，可以和枪的子弹一样消耗疏离（Detachment）点数，增加至检定中。若受伤，蟑螂可以燃烧理智继续坚持。对死亡的拒斥可怕且古老，让角色在崩溃中生存，帮助他们熬过居住区的沦陷，使PC即使现在也能过着很久之前就已毫无重塑希望的生活。<br><br><span class="bbc_u">-独行客：搜葬人过去的经历让他们游戏开始时三个人性威胁（threat）都崩坏了。</span><br>一方面，蟑螂无疑具有极强的精神防护力，残酷无情的遗失区让他们的精神变得扭曲、脆弱，唯一目的便是生存。虽然依然有可能退休或恢复，但角色永远站在滑坡的边缘。燃烧理智以求生存的代价便是理智的减少。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 10pt;" class="bbc_size"><strong>选择弱点、软肋、特质例子</strong></span><br>摩根想象玛尔在前崩溃世界有许多不满。但矜持、安静的怒火不是她的风格；玛尔会向外发泄怒火。摩根选择了弱点：“震慑”。任何时候她激怒一个可能的盟友，尤其是她不喜欢对方时，她获得一点意志。了解她的弱点的NPC可能会故意激怒她，让她出丑。<br>玛尔一直被告知她对机械的爱好太过男性化。长大后，这给她带来了许多痛苦。这个角色对那些依然被困在压迫体系里的人们抱有同情，因此摩根给她这个软肋：“方孔里的圆楔”。任何时候，假如玛尔能帮助某位无法融入周遭人群的人，她就必须这么做。但她对怪人的同情也能被利用，交涉中她或许会因此被牵着鼻子走。<br>摩根认为像玛尔这样一个靠实践学习的人能很快在崩溃后找到自己的位置。她选择了拾荒者特质，并决定把特质提供的额外赏金存起来。永久降低的恢复点数（Refresh）会带来问题，但摩根觉得这会是个让玛尔节俭的强大动力。假如队伍欠债了，存起来的鸡蛋会派上用场，这个特质也很好地解释了玛尔能为团队提供的技能。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_990644">
+&#171; <em>上次编辑: 2019-12-11, 周三 20:54:40 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_990644_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg997135"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_997135_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_997135">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg997135#msg997135" rel="nofollow">Re: 第4章 进行游戏：创建角色</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_997135'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_997135'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-05-30, 周四 20:55:01 &#187;</div>
+<div id="msg_997135_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_997135"><strong><span style="font-size: 14pt;" class="bbc_size">潜能</span></strong><br>机制上说，潜能决定了角色对应技能能够到达的最高点数。<br>叙事上说，潜能代表了角色能力的顶点。例如，举重几周能增加抵抗（resistance）技能，但不能增强力量潜能。举重训练了特定的肌肉记忆、耐力和效率。举重、增强式训练、拉伸、严格的食谱，以及研究健身生理学才能获得一点力量潜能。潜能用于衡量某个角色的生活方式能否支撑特定专长，这正是什么没有哪个每天一包烟（速度1）的人能够保持马拉松记录（田径Athletics5）。<br>崩溃前，某些潜能为0的人们也能过得很好。老天，甚至还有一些活在后撤区。但不可能在遗失区，那些人要么死了要么生不如死。疫病对人类生存有选择作用，尤其是搜葬人。只有顶尖人才方能活得久、才能加入游戏，因此给每项潜能1点，再分配剩余5点。<br>角色创建时，潜能均不能超过3。角色创建后提升潜能需要花费赏金（见p214)。<br><br><strong><span style="font-size: 12pt;" class="bbc_size"><span style="color: navy;" class="bbc_color">力量（STR）</span></span></strong><br>力量（STR）衡量身体能力：肌肉量、肌肉记忆、肌肉重量和肌肉分布。力量用来将近战武器刺穿不死者的骨头和路障门。用来打趴酒吧斗殴对手、掀翻伤亡人员。搜藏人进行工作所需的剧烈身体运动同时能承受的负重（haul）等于其STR，这一概念更详细的解释在p264，但现在只需要理解，负重不是准确的重量，而是抽象为赏金每单位。无论一单位供给的市场价格是多少，负重代表了搜葬人能携带的单元数。<br>市场决不会指出某个工作地点有多少宝藏，但市场有责任告诉队伍宝藏的每个单元价值多少。负重向玩家指明了他们的搜葬人能携带多少单元。<br>STR还决定了市场要求进行健康（Health）或感染（Infection）检定时的调整值。当角色尝试抵抗普通疾病、暴露在病菌下，或其它更传统的威胁时，进行健康检定。当角色暴露在疫病下，进行感染检定。市场要求进行这两种检定时，STR都会被加入黑骰。<br>最后，如果市场在进行允许STR省缺（default roll）检定的繁荣型游戏，搜葬人可以投掷黑骰，等于或低于STR即成功。记住STR潜能代表原始的力量：而不是有效使用它的能力。如果市场允许省缺STR检定，这种检定也只应当在慌乱、肾上腺素激增的情况下才有可能成功。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">速度（SPD）</span></strong></span><br>速度（SPD）衡量搜葬人在持续一段时间内的敏捷程度，抽象地表征了心血管适应性、反应、灵巧。SPD用于射击（Shooting）、运动（Athletics）以及任何需要在有限时间内进行精确移动的动作。<br>角色凭成功的运动检定能从战斗撤离多远取决于他们的速度等级。伤亡人员攻击前需要走多远用蹒步（Shamble）衡量。如果和Amuu战斗的一群死人靠近了1蹒步以内，她会想远离。玩家必须使用一份口粮（ration）进行有价检定，检定运动，并成功。如果Amuu的速度是3，该角色便有4蹒步距离。或者用另一种说法，在怪物进入攻击她的距离前，Amuu现在有额外3轮（turn）（轮等于她的SPD）爆头。如果角色的速度为1，只有1轮喘息时间，之后死人就会再次攻击。速度和伤亡人员的关系详述见p296。<br>和活人对手战斗时，玩家仅需要投掷黑骰决定主动性次序，但他们可以给结果加上速度。决定主动性的更多信息见战斗章节（p275）。<br>当搜葬人力竭（gassed，即所有口粮耗尽）（见p280）时，可以通过角色体内贮能的新陈代谢回复口粮。这种方式回复的最高份额等于速度等级。因此，如果一个速度2的搜搜葬人口粮耗尽，休息一轮后能回复2份额，但绝对不能超过2。<br><br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 10pt;" class="bbc_size">使用口粮</span></strong></span><br>口粮是玩家用于大部分力量和速度技能有价检定的补给；角色吃蛋白棒时战斗不需停止。花费口粮意味着在口粮劳动前进食足够的能量，之后有足够能量恢复。如果你的队伍希望扮演每一次坐下来吃豆子的场景，让他们扮演。只需要知道口粮在进行肉体有价检定前没有机制上的优势，因此为了简单，那才是使用口粮的时候。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">适应（ADP）</span></strong></span><br>适应（ADP）代表了整体的状况感知、敏捷思维和自我控制。若要使用技能完成临时智谋行动或应对极端情况，这个技能很可能与适应关联。<br>适应决定了回复（Refresh）。回复代表了搜葬人的预先谋划、网罗资源和在任务间有效整理额外补给品的能力。补充装备补给时花费回复。枪没子弹了，花费一点回复上新弹夹。急救箱空了，花费一点回复从背包里拿出一卷新绷带。手电筒没电了，回复就是新电池。如果食物没了，回复就是一包新的MRE。<br>回复的深入解释见物质主义章节（见p240），但暂时可以说，适应决定了回复，它抽象地衡量了角色的准备程度。一个没有回复的角色不会忘了带子弹到僵尸废土。他们当然需要子弹。他们什么都需要。遗失区的人们需要一切，然而周围物资并不足够。适应和回复代表了在物资持续短缺的环境下搜罗的能力。回复耗尽不代表疏忽；角色知道背包里有什么、没有什么，但居住区交租日临近，待在家里绝不是一个选项。<br>每项任务结束，回复……好吧，会被回复，无论使用了多少或没使用。游戏开始时，回复等于适应，之后可以用来重新补给装备。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">智力（INT）</span></strong></span><br>智力（INT）或许应该被叫做“多种智能”。它衡量了搜葬人总体的精神能力。与和适应相关的感知功能不同之处在于，基于智力的技能需要时间。例如，僵尸正在破门时很难研究（Research）农作物的价格。这不是说智力技能无法在高压力环境下使用（坏事会发生），但智力技能需要时间，哪怕是在战斗中。<br>什么时候进行掷骰检定的指南（p174）对是否使用默认智力检定尤为重要。如果玩家希望了解一些设定内容，市场只要可能就应当告诉他们。毕竟角色生活在哪里：他们是专家。如果玩家希望知道一些市场也不知道的设定内容，让玩家决定真相。共同构建世界，而不是互相针对。如果玩家希望了解一点财务信息以便交涉——通常需要网罗关系（networking）、研究（research）或预见（foresight）获得，这是唯一一种可能接受缺省智力检定的情况（哪怕只在繁荣模式下允许）。失败必须有后果（忽视常常需要痛苦治愈），但假如这份信息有从遗失区流言蜚语中获知的可能性，允许进行缺省智力检定。失败依照一次性（one-and-done）规则，但迫切需要了解一切的玩家可以请求忒么的帮助（tap a Reference）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">魅力（CHAR）</span></strong></span><br>魅力（CHAR）包括了社交洞察力和共情性。与魅力相关的技能在游戏中的用法很简单——例如用骗术（Deception）欺骗守卫，更复杂的用法见交涉机制（p320）。被饥饿的伤亡人员包围时魅力或许没多大用处，但要让遗失区之行在经济上值得，魅力是必要的。<br>魅力还决定了依赖人（dependent）和忒么的（reference）的数量。例如，魅力1的角色可以有1个依赖人和1一个忒么的。依赖人应当符合角色的概念；这是搜葬人的所爱之人，搜葬人愿意为他们用生命和理智冒险。忒么的可以再游戏中分配，可以和角色保持任何玩家希望的关系。鉴于这种关系是经济上的，鼓励玩家选择各种情感联系（例：你不必喜欢每一个一起工作的人）。高魅力表示这个角色能迅速从情绪创伤中恢复、能从他们的忒么的处获得许多人情。但是，互利是健康关系的基石，哪怕是花时间闲聊也要钱。魅力能治愈人性伤害，弥补失败的检定，但也给搜葬人带来更多经济负担。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">意志（WILL）</span></strong></span><br>意志是唯一一个不和技能关联的潜能，因为它本质难以定量衡量。它产生了幸存者的负罪感，它是让一个人人活下去、另一个人死去的X因子。意志的影响常常被归因于神圣旨意，或坚忍的决心。它是难以置信的幸运、牢不可破的决心、荒诞的乐观主义，和冷酷的现实主义杂交。意志是唯一一个能被花费的潜能。新游戏开始时，角色拥有和意志等级同样的意志点数。花费一点意志有强力效果，可达成一下任意一种效果：<br>•交换黑骰和红骰数值（B4/R9变成B9/R4）<br>•将成功升为关键成功<br>•购买另一项叙述优势并加入一个已有的关键成功中<br>•将关键失败转为普通失败<br>•在战斗中，将伤害转至一件装备或不同命中部位<br>•移动至主动性次序首位（见p275）<br>意志能够以一下方式获得和回复：<br>•角色提升时购买一点意志<br>•跟随一个弱点陷入麻烦<br>•完成一个软肋的个人义务<br>•因一个特质遭难<br>•在工作/游戏间隔休息<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong><span style="font-size: 10pt;" class="bbc_size">分配潜能例子</span></strong><br>玛尔免费在所有潜能上获得1点。摩根想要一个聪明、实际的角色。玛尔在过去两年里因为处理引擎部件、修建防御工事变得强壮，一次她将力量提升至2。她永远是实用主义者，常识性为人熟知，因此她的适应是2。摩根希望玛尔对团队很有用，给了她智力3。最后，没人能不靠决心和运气熬过崩溃，因此玛尔购买了多一点意志。她最终的潜能为力量2、速度1、适应2、智力3、魅力1、意志2。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_997135">
+&#171; <em>上次编辑: 2019-11-05, 周二 22:19:15 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_997135_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1005233"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_1005233_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1005233">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg1005233#msg1005233" rel="nofollow">技能</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1005233'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1005233'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-07-16, 周二 17:27:42 &#187;</div>
+<div id="msg_1005233_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1005233"><span style="font-size: 14pt;" class="bbc_size"><strong>技能</strong></span><br>角色初始有20点技能点。潜能可以描述一个角色，但在游戏过程中很少需要主动使用。它们描述了最佳表现，而不是实际表现。红市场中，玩家进行的几乎每个检定都会被技能调整，正是这些特殊的能力决定了搜葬人的成功。<br>创建角色阶段，技能点和技能等级一比一使用。检定一项技能时，这项技能的等级作为调整值加入黑骰。因此假如有人尝试抬起下水道井盖的格栅，他们需要进行抵抗（Resistance）检定。他们不进行力量检定，因为没有抵抗技能，他们便不知道如何更好地使用力量（例如，用背推）。如果某件装备能调整检定，需要花费补给，加值加入技能。基本上，使用工具带来的好处可以和关联技能叠加，但技能绝对不和潜能叠加。<br>技能不能超过关联的潜能。角色创建后，可用赏金购买额外技能点。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>“但+1毫无用处！”</strong><br>关键成功和失败都在天然同数时发生，平局时市场获胜，因此测试玩家争辩说某项技能+1本质上没有用。这不完全正确。例如，如果射击检定的结果时B2/R3，而搜葬人事先花费了一份额外的弹药补给，检定就成功了（B2+2/R3），若仅有技能+1或仅有弹药+1，检定则会失败。更重要的是，搜葬人有了瞄准的能力。萧条模式游戏不允许潜能省缺检定。大部分情况下，某项技能没有至少+1的角色缺乏足够的专业素养来尝试成功。假如一项检定甚至一个门外汉都可以成功，市场便不应该在这种低要求的情况下让玩家进行技能检定。<br>如果使用繁荣模式下省缺检定，+1技能，而不是+1潜能，增加了35%的成功可能性，并且能够使用额外补给、以及意志。哪怕潜能4的默认检定可能性也更低。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><strong>“全部潜能”</strong><br>技能等级等于关联潜能时即为“全部潜能”状态。这表示尽管一个角色或许有一些提高某项技能的能力，但他们生理或教育的某些方面阻碍了他们继续提升。例如，一位角色希望将机械（Mecahnics）技能提高一级（机械3）但他们需要更加了解物理才能做到（INT 2）。他们或许足够了解箭术，能提高准度（射击：弓箭2），但需要更熟悉风力影响弹道的一般规律（射击1）以及更好的手眼协调（速度1）才能应用这一知识。<br>潜能限制技能的发展的叙述性描述取决于玩家。只是要记住，现实生活中，你很可能不会根据任何固定的系统给自己的技能评级，即是你这么做了，你每天的表现也会有很大差别。搜葬人需要根据天赋和挫折考虑自身发展。红市场中，潜能阻止了技能发展，需要花费大量赏金才能提升，目的是强调一个单纯的经济事实：教育和其它资源同样是商品。增加人类自身资本需要实际的资本。没人能通过砍僵尸学会计算机编程。<br><br><strong>专精</strong><br>或许有人是高超的司机但完全不懂开飞机。许多世界级的狙击手听到要操作降落伞也会面露难色。特定的场景和工具需要专家的技能。如果玩家希望擅长其中一个领域，则需要专精。<br>专精基于特定技能，正如技能基于特定潜能。某些特殊装备需要专精（见P239），专精将花费额外的技能点。举例，玩家希望使用剑这种古早的武器。他们首先要购买的技能是“近战”。挥舞打刀可不像击球训练，因此玩家随后需要花费令一点在“近战：刀剑”。飞机驾驶员需要给驾驶和驾驶：飞机花费点属。专精不能超过技能等级和关联的潜能。机制上，专精的好处是，使用一些装备或在特定情况下，必须拥有专精才能成功。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>技能表</strong></span><br>下面列出的技能也可以在角色表上找到。鼓励玩家和市场在他们的战役中合作构建希望的额外技能和专精。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>我真正需要的是什么？</strong><br>假如技能没用，它就不会出现在角色表上，但并非所有技能都用同等重要度。红市场有若干技能是提高搜葬人生存率的必备选择。这些技能不是必需的（我要说一个患有哮喘、神经质的IT专家躲过僵尸群的故事超级有趣），但在没有这些技能的情况下翻越藩篱则是相当危险。<br>运动用来躲避攻击和逃离危险。健心运动是第一条。如果你不是潜伏者或免疫者，射击很重要。若你的角色能被感染，与伤亡人员近战极其危险。一次检定失败，整个团队都成为了载体。近战和徒手也不坏，但战斗中保持距离是最优先选项。<br>自控对保持角色的效率至关重要。若失去理智，健康、装备都无济于事。<br>需要有调查，否则队伍会在交涉中处于下风。同样，许多玩家会考虑涉及犯罪的欺骗。<br>有高等级拾荒技能的人可能有高收入。<br>一个没有高魅力技能专家的团队将长时间遭受赏金不足。相对的，不希望太过专注交涉以及/或者希望轮流交涉的团队可以使用中介规则（Fixer Rules）（见P349）</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>力量技能</strong></span></span><br>所有力量技能检定必须用一份口粮购买。除非市场要求精确，否则所有力量技能都能再检定前花费额外口粮实现“过度使用”，增加成功机会。力竭(gassed)的搜葬人直到回复（refreshed）前都不能使用任何力量技能。<br><br><strong>徒手</strong><br>徒手战斗、武术以及任何有关打斗的知识——徒手适用于击倒其他人类，但对付不死者，除了把它们推开之外没多大用处。所有徒手攻击造成晕眩伤害（stun damage），但有两个例外。关键成功时，玩家可以选择将晕眩伤害翻倍，或转为杀伤伤害（kill damage）。某些装备，比如带刺手套，也能将晕眩伤害转为杀伤伤害。若玩家希望专注于特定徒手，专精或许能派上用场：擒抱、盲斗、“去皮”（把伤亡人员从群体剥离）、使用假肢战斗，等等，泛用专家这时可能会承受减值。<br><strong>近战</strong><br>徒手的概念因挥舞利刃或钝器变得复杂。使用的武器决定了近战攻击的伤害类型。近战技能的专精关注于罕见或过时的武器：刀剑、矛、双截棍等。由于能够投掷的武器需要购买增重升级，它们依然使用近战技能。（The Melee skill is still used for weapons which can be thrown due to buying the weighted upgrade.）<br><strong>抵抗</strong><br>移动重物和抵抗强压的能力。抵抗不在战斗中使用，它强调纯粹的力量而不是力量与速度。擒抱一个伤亡人员需要徒手检定，但挡住扭动的尸体需要抵抗检定。抵住门阻挡不死者群或推倒贩卖机堵住过道时使用这一技能。这一技能没有专精。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>萧条规则：精度</strong><br>在这一规则变体下，用于力量技能的口粮仅能花费在抵抗上。<br>徒手和近战检定时，掷骰检定必须依照准度难度（For Unarmed and Melee checks, the rolls must always be made at precision difficulty）。无论你挥得多重，只要没中就毫无意义。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>速度技能</strong></span></span><br>速度技能需要准度。躲开机枪的子弹显然需要搜葬人下很多功夫，但做得太过也很容易跳到子弹的路径里。只有一项速度技能需要口粮来购买检定（运动），但若搜葬人力竭了，所有速度技能都不能使用。<br><br><strong>射击</strong><br>恰如其名。射击技能会被加在玩家可能花费的额外补给上，以确保成功。需要专精才能操作军用级的武器（例如：迫击炮）和过时的投射武器，例如弓箭和滑膛枪。<br><br><strong>运动</strong><br>进行运动检定判断角色能够快速到达某处。运动还能用来躲开任何攻击，只要搜葬人在此战斗轮还有动作（twitch）（见P278）。要爬上树躲避不死者？运动。要到达掩体用狙击枪夹击？运动。要跑到下一个定居点警告他们有突袭？运动。失去一条腿的角色需要一项专精才能有效使用假肢。<br><br><strong>隐匿</strong><br>躲藏、匍匐、保持安静都需要肌肉记忆和灵巧，由隐匿技能代表。隐匿能用于在战斗中绕路而不引起攻击。使用隐匿不需要口粮，但如果情况要求快速地潜行，市场可以规定需要花费口粮。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>适应技能</strong></span></span><br>适应技能是僵尸末日幸存者所具有的特质的集合。这些技能都是一次性检定。如果搜葬人失败了，他们可以有价成功（依照市场判断）、花费一点意志，或是接受结果。他们不能不断尝试直到成功。若情况允许这样操作，一开始就不需要进行检定。<br><br><strong>察觉</strong><br>察觉不仅是眼神。搜葬人的脑子要记住一个区域的不同地图、鼻子要嗅出死肉的臭味、耳朵要听见步枪的扳机声。如果搜葬人有机会注意到某些或许在未来有用的事物，进行察觉检定看他们能否得知。如果没有这一线索或信息故事就无法进行，市场应直接告诉玩家他们看到了什么。察觉决定了搜葬人能否获得有用信息；它不决定玩家能否得知游戏故事。这一技能没有专精。<br><br><strong>自控</strong><br>控制自身情绪，或者至少无视它们直到完成工作的能力对搜葬人的生存至关重要。一旦角色目睹了某系恐怖、绝望或是其它会带来压力的场景，市场要求进行自控检定。成功意味着搜葬人的人性损失被降至最低或完全抵消；失败意味着角色一项人性威胁增加。这一技能没有专精。<br><br><strong>拾荒</strong><br>在遗失区寻找有用物品的能力正是商业之本。这是一项重要生存技能，也能有效控制成本、保证团队利润。拾荒用于寻找维修已有装备和制造新工具的材料。用于搜刮已死敌人的背包、在工作场所找到最有价值之物。更普遍的用法是，拾荒决定了被杀伤亡人员恶心的烂布里有多少赏金。这一技能没有专精。<br><br><strong>驾驶</strong><br>每个角色都会驾驶车辆。但不是每个角色都会在一只伤亡人员试图敲碎挡风玻璃的时候开过布满汽车残骸的废弃乡村公路。只有在后一种情况才进行驾驶检定。如果失败没有危险，则假定角色知道哪个是油门，把骰子收在袋子里。驾驶的专精可用于需要额外训练的罕见载具：坦克、飞机、船只等。<br><br><strong>犯罪</strong><br>角色对坏行为的一般知识，从十分钱的大麻有多少，到藏尸体的最佳地点。如果有人需要撬锁、注意扒手，或认出那个是帮派头领，都需要犯罪检定。对于更高科技的犯罪，比如计算机入侵或内幕交易，则有其它技能。犯罪技能专门衡量仅在社会底层进行的恶行。该技能没有专精，原因是用专业（Profession）代表任何特定窃取行为（刺探、传销等）更合适。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>智力技能</strong></span></span><br>智力技能是一次性检定。搜葬人要么知道要么不知道。但智力技能检定失败不应阻止故事进行。寻求关系人帮助（tapping references）（见P210）是成功获得所需信息的重要手段，但有代价。作为精神动作，智力技能不需要花费补给购买检定。但鉴于智力技能应用广泛，市场可以要求花费相关装备的补给。例如，使用调查技能在尤比克无线网上寻找流言蜚语需要为手提电脑的电池提供补给。<br><br><strong>预见</strong><br>事前考虑常常被误认为思维敏捷。在遗失区需要对每个可能发生的偶然做好准备。使用高风险回复规则（High-Stakes Refresh）时，市场可以要求进行预见检定，判断玩家是否能够回复一件物品。更常见的用法是将预见用于取得“实地”的战略信息。例如，没有人能知道那个矿井里是否有伤亡人员肆虐，但成功的预见检定可以猜到它们更有可能喜欢聚集在哪条坑道。想知道天气会怎样？需要进行预见检定判断角色是否记得看天气预报。这一技能没有专精。<br><br><strong>调查</strong><br>调查对获得高额合同的一手消息、为交涉准备妥当十分必要。它还能用于从人际网络中搜寻任何有助于在遗失区活命的信息。只有得知的一点信息可能帮助角色成功或获利时才进行调查检定。让工作进行下去的必要线索只需要直接交给玩家，不需要检定。若玩家希望了解一些无关紧要的知识，只需简单地描述设定。调查需要电子装备（至少要有图书馆）才能获取信息。这一技能没有专精。<br><br><strong>机械</strong><br>你发现了一个用电地设备，你会修理、黑入、构造、供能吗？进行机械检定看看。它还包括了用于制造、修理和调整有活动部件的物体，和制造能承受持续使用强度的物品的基本物理知识和制造技术。高等级的技能意味着只要有足够的材料和时间，你能打磨军棍、拆解引擎，或是制造椅子。机械师衡量了通用手艺，因此没有专精。任何需要专精的高级设备属于专业技能的范畴（见下文）。<br><br><strong>急救</strong><br>急救特指战场医疗。如果你需要用几个月让某人恢复健康或阻止居住区的痢疾传染，选择专业：医生。如果你需要让你被枪打中肚子的朋友不流血至死，投入急救。急救检定不需要任何补给，但每次受伤都是一次性检定。急救包的补给或拾荒的来的补给品不能治疗伤害。花费更多补给仅能增加成功的机率。治疗的伤害数量取决于黑骰，以2比1兑换：花费一个黑成功将一格杀伤伤害转为晕眩伤害，再一个成功消除晕眩伤害。这意味着一次成功仅能阻止角色继续流血并治愈一定伤害。这一技能没有专精。<br><br><strong>专业：X</strong><br>专业技能本质是免费的专精。每个专业技能必须与一个可识别的职业关联，玩家可合理认为任何与该职业相关的技能等级都属于这一专业。例如，具有技能“专业：医生 3”的角色治疗流感、缝合伤口、开药、调查疫病、阅读医学表格等都能获得+3。<br>尽管它们比专精更加多样化，专业技能的用法和专精类似，都是给不可能成功的情况提供成功的可能。让我们举例说明，一个玩家希望使用犯罪闯入一个金库，但门上安装了生物检测锁。普通街头混混不会知道如何绕过这么高级的硬件，但具有专业：安保顾问或专业：计算机科学的人则可以尝试。同样，让世界上最好的汽车机械师去关闭过热的核反应堆只会把事情搞砸，但具有专业：核物理学家的女士则有机会。（译：不，你需要的是自动控制专业。）专业技能描述了搜葬人在崩溃前的职业。任何帮助他们在废土存活的技能都应该成为特质（P185）。因此不能选择“专业：僵尸杀手”或其它破坏游戏的专业。太蠢的工作不应该出现在一个好的角色背景里。<br>此外，现实社会获得多种专业的难度也在机制中体现。第一个专业技能可以如常购买，但第二个专业提高至每2技能点+1加值。第三个专业技能只有在花费了3点技能点后才有+1。专业技能越多，获得的回报随之降低。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>魅力技能</strong></span></span><br>这一潜能下的技能十分独特，原因是它们有两种不同的用法。在游戏大部分时间内，它们是一次性检定，玩家与NPC和其它市场之力交互时使用。成功意味着PC得偿所愿。失败意味着搜葬人必须尝试另外的社交策略，承担后果，或寻求关系人帮助（如果适用）。但交涉规则让魅力技能复杂化，为每项技能在确保报酬和合同时提供了独特的作用。这些特殊情况在交涉部分有深入讲解（见P320）。<br>魅力技能不需要任何补给购买检定，除非一件需要补给的装备被用于交流（例如通信设备的电池）。魅力技能没有专精。<br><br><strong>人脉</strong><br>进行人脉检定找到拥有你所需物品的人。人脉可用于获得工作信息、寻找装备卖方或联系关系人。如果一名关系人偿清了人情，进行人脉检定能够用对当前情况更有用的NPC取代一名卡上的关系人。大部分交涉都以提供工作信息的人脉检定开始。<br><br><strong>说服</strong><br>说服检定仅限于PC尝试让NPC相信某件事实；误导或欺骗需要不同技能。和所有魅力技能一样，玩家应当扮演他们对NPC的说辞，而不是仅仅“进行说服检定”。交涉中，说服是获得“动摇”（Sway）的主要手段（见P327）。<br><br><strong>敏感</strong><br>敏感是共情、心理学、社会学的组合。这一技能检定能拾起角色希望隐藏的个性。敏感对找出客户当前的特质、软肋和弱点至关重要。<br><br><strong>欺骗</strong><br>说出让人信服的谎言。欺骗在交涉中利用虚假承诺移动动摇，或者当客户利用PC的特质、软肋或弱点时保持扑克脸。无论哪种情况，欺骗检定失败都会带来负面后果。<br><br><strong>威吓</strong><br>用语言和行动吓唬NPC。交涉中用于获得“我不干了”的虚张声势，能尽早结束交涉。<br><br><strong>领导</strong><br>领导的目标和场合都与说服不同。想让一个商人给你打折？说服检定。想让整个居住区同意缴纳收入税？领导。让约会对象同意在餐厅见面？说服。让一支军队同意跟随你到地狱？领导。通过衡量自信程度和肢体语言，这一技能还决定了交涉的长度。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: red;" class="bbc_color"><strong>使用技能举例</strong></span><br>玛尔干活是为了给她的修理爱好付账。她一生都为了成为机械师而训练，对其它职业毫不在意。因此摩根选择了专业：全职机械师，她认为这能代表角色的过去，并且比把点属浪费在“机械”这种通用技能更具多样性。她在CPR课程学习了1级急救，在公立学校学了1级调查，以及因理智的头脑有2级预见。<br>没有什么比用扳手打爆僵尸脑子更有趣了，因此玛尔选择2级近战。但近战是个坏主意，玛尔既不是潜伏者也不是免疫者。她给所有速度技能1点，让自己远程战斗时不至于无助。玛尔总是在搜寻零件。她选择了2级察觉和2级拾荒。2级驾驶让她能在寻找补给品的路上穿过堵塞的公路。她给了自控1级，崩溃让她更加检定。<br>最后，虽然玛尔太冷漠，合同交涉时没多大用处，但莫格觉得她会读取人们的情绪，于是她选择了1级敏感。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1005233">
+&#171; <em>上次编辑: 2019-11-05, 周二 22:19:56 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1005233_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1020256"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_1020256_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1020256">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg1020256#msg1020256" rel="nofollow">依赖人</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1020256'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1020256'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2019-11-05, 周二 21:38:40 &#187;</div>
+<div id="msg_1020256_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1020256"><strong><span style="font-size: 14pt;" class="bbc_size">依赖人</span></strong><br>依赖人需要搜葬人支持，也支持着搜葬人，魅力决定了依赖人的数量。一个角色越喜欢社交，就越容易陷入关系的乱麻之中。<br>依赖人是搜葬人在自己的居住区爱护、关系的人。若没有这些所爱之人，搜葬人可能会干更廉价的工作，收取补给作为报酬，绝不冒险离开高墙。但遗落区的生活短暂而暴力，后撤区的则凶险且竞争激烈。红市场是能让依赖人离开的唯一方式，而搜葬人是他们唯一的希望。<br>依赖人并非全然无助，但因为各种原因，他们在遗失区险恶的生存资本主义社会里活得不好。具体原因由玩家决定。他们可能因崩溃而心理或生理失能。可能年纪太小或太大无法在居住区赚取口粮。更有可能，他们缺少食腐经济需要的技能，他们的劳动力又不够付账单。无论什么原因，依赖人若没有搜葬人的经济支援便无法存活。他们收到的赏金可能正好够他们的食物和药品。也可能搜葬人保护网之外的死亡威胁是个比喻。例如，一个角色在遗失区冒险是为了让自己的姐妹不被卖进妓院，或者视为了保护一个纤细孩童的音乐天赋不在艰苦的体力劳动中被磨灭。<br>由玩家决定构成角色家庭的NPC的名字，构建他们的背景，解释为什么搜葬人要支持他们。市场（或者PC指名另一个PC）负责在所有交互场景中扮演依赖人（见P415 “Vignettes”）。从叙事上来说，这些角色构成了一支队伍所在的居住区。他们提醒玩家，遗落区里所有人都在为不同的原因追逐财富。家中无辜者正命悬一线。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">依赖人举例</span></strong></span><br>摩根觉得马尔靠独立活过了最初的病毒爆发。她远离家人。她在修车厂的为数不多几个朋友只是泛泛之交。新闻日益恶化后他们就没来上班。事情正式脱轨时，已经没有值得拯救的人了。灾难最初几个月里她独自生活，她开始怀疑生存是否值得，直到她找到一个居住区。<br>她在这里预见了简尼斯。摩根认为马尔对无人的人很没耐心，因此她最初被简尼斯吸引是因为她作为厨师的能力。遗憾的是，遗落区的餐点只需要卡路里而不是味道，因此简尼斯只能靠简单的烹饪和体力活维持生活。摩根认为简尼斯是世界上为数不多能让马尔开怀大笑的人之一，这个角色会不计代价保护她。摩根将简尼斯写为依赖人。<br>对与两人之间的扮演场景，摩根可以从vignette（P416）的三个主题中选择。如果马尔需要帮助，这对爱人可以扮演马尔在外工作带来的恐惧（Cope主题）。如果简尼斯遇到了麻烦，扮演她的玩家可以请马尔帮忙获取某种香料好让居住区的人知道真正的鱼汤该怎么做（Support主题）。如果摩根希望更深入地塑造居住区，她可以描述两人如何去往一个位于弃楼楼顶的高尔夫球场（Enage主题）。市场需要负责这些场景并根据主题扮演，关于主题的更多细节在“Structure of a Campaign”部分（P413）。玩家只需要记住，vignette可以是关于他们的角色、他们的依赖人，或是他们的社区。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><div align="center">Friends are a costly luxury, and when one invests one’s capital in a mission in life, one cannot afford to have friends.</div><div style="text-align: right;">-Henrik Ibsen</div><div align="center">朋友是昂贵的奢侈品，当你将全部资本投入人生的某项任务后，你将负担不起朋友。</div><div style="text-align: right;">——亨利克·易卜生</div></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">依赖人的益处</span></strong></span><br>依赖人不只会消耗你的资源。他们提供的情感支持对任何搜葬人都至关重要。每一个完全得到支持的依赖人（非Needy、Strained、Broken状态）都能让搜葬人自动恢复一列的人性伤害，人性伤害代表了角色的情绪状态。人性用三种在遗落区危及搜葬人理智的威胁记录：漠然（Detachment）、创伤（Trauma）、压力（Stress）。完整的人性规则见后文（P310），但其它回复人性的方式是在工作之间花费赏金休息和恢复。用来放松、治疗和恢复的时间不能去搜刮、维修和干其它谋生工作。维持理智需要的机会成本会像任何东西一样消耗资金，一次恐怖任务后治疗无形伤口的代价将会十分高昂。依赖人能消解这些负担，给角色更多有价值的时间。<br>一次游戏开始时，或当前工作结束时，玩家获得一次自己的角色与一名所选依赖人之间的vignette场景。玩家、市场和任何参与扮演依赖人的另一位PC可以商量进行怎样的场景，从三个主题中选择一个，或进行另一种交互。或许一名搜葬人把新赚到的财富用来给他的孩子搭建秋千。另一名搜葬人可能会卖一本罕见的书让体弱的祖父母开心。头发斑白的遗失区老兵可能会在空闲时间用得到的赏金购买药物治疗战争中的同伴。无论故事的细节如何，这些vignette场景的目的是展示PC如何在所爱之人的陪伴下治疗创伤。它提醒角色为何而战。与一名依赖人度过空闲时间能够最多回复整列人性伤害。<br><br>整条的意思如同字面。我们看一个例子：<br><strong>VIgnette/人性治疗范例</strong><br>玛尔选择了“cope”主题，即与依赖人共度的时间用来帮助搜葬人忘记最近目睹的恐怖。莫格选择了一个玩家贝利扮演玛尔的女朋友简尼斯，让市场复杂描述场景和马尔工作中受到的创世。摩根说马尔计划和居住区里的女友约会，要有太阳能iPod播放爵士音乐、蜡烛还有真正的意面（这代表了花费在这段关系上的赏金）。因为场景的目的是帮助马尔恢复，简尼斯表达了对晚餐的感谢之情，并询问马尔最近如何。<br>市场代表了遗失区不让搜葬人遗忘的一切事物，市场描述马尔听见微弱的尖叫声，就在Kind of Blue背景音乐里。听起来很像不到两晚前她见到的一个被携带者潮吞没的士兵。市场让马尔进行自控检定，示意摩根扮演。摩根掷骰。成功或失败对vignette场景没有机制上的影响，除非使用萧条规则。骰子仅代表了扮演方向。哪怕和家人争吵一晚也好过独自一人面对不死者。如果检定失败，马尔会因简尼斯的问题晃神、不适，过去的创伤干扰了她精心准备的约会。若自控检定成功，马尔会调大音乐音量，将谈话内容转移开她的小队的“冒险”，转而询问简尼斯在厨房的工作怎样。<br>马尔的人性伤害有2点漠然，3点创伤，3点压力。摩根开始回复最高伤害的一列。她擦去第三列上的所有√，这是她受到的最高人性伤害。取回一列的人性让搜葬人回到2漠然、2创伤、2压力（漠然威胁不变，因为第三点没被填满）。<br>如果马尔有第二个依赖人，她能够将人性伤害降至1漠然、1创伤、1压力。该场景甚至无需扮演。额外的依赖人支持发生在“场景外”。第三个依赖人只需一个vignette就能移除马尔所有人性伤害。这本范例中，马尔花了1点赏金让她的依赖人健康、快乐，她治疗了2点人性伤害。若她有两名所爱之人，她能用2点赏金回复5点。三名呢？3点赏金8点人性。和治疗同样多人性伤害所需要的8点赏金比较。维持人际关系有经济价值，哪怕不考虑搜葬人忽视所爱之人带来的情绪惩罚。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">忽视依赖人</span></strong></span><br>若一位依赖人在一次游戏里没有得到至少1点赏金，他们和搜葬人的关系会被降低。这并不意味着搜葬人关心的每个都是贪财之徒。花在依赖人身上的赏金通常代表了机会成本。花费可能不是某人正在挨饿；可能是爸爸努力工作却错过了女儿的朗诵会。确切的经济压力由参与扮演的搜葬人和依赖人决定。<br>机制上来说，有三个等级表征一段关系的危险程度。没收到1点赏金后，依赖人变成“贫乏”（needy）。此时NPC必须不依靠赏金生活，可能承受饥饿、寒冷、孤独或市场描述的其它痛苦。见到受苦的依赖人时，搜葬人必须进行针对压力的自控检定。再缺少1点赏金后，依赖人变为“恶化”（strained），在身体上、精神上、经济上命悬一线，或三者皆有。随着情况恶化，搜葬人必须进行另一次针对压力的自控检定。<br>在“断绝”等级，搜葬人失去所有与该依赖人的联系。市场可以杀掉他们、让他们失踪，或是遭受比死更凄惨的命运。无论什么情况，断绝的依赖人永远无法恢复。市场选择最适合这场悲剧的威胁，并将人性伤害增加至最近的悔恨（Regret）（见P313）。伤害无法减轻；失去所爱之人让人心碎。<br>关系能够和人性一样被修复：1点赏金去除1点伤害。如果为贫乏状态，在同一次游戏为依赖人花费1点赏金只能够阻止情况恶化；还需要1点赏金才能去除已造成的伤害。<br>搜葬人和依赖人直接关系恶化时，要记住贫困会带来极端、多样并且通常永久的后果。NCBI最近一项盐焗显示失业者死于癌症的概率要高25%，离婚的概率要高18%，并且即使恢复后他们的预计寿命也将降低1.5年。发生心理疾病的概率直线升高，同时还有入狱的概率。全国失业率增加0.01%，造成同年自杀人数增加了1500人。这一切还只是在一个没有活死人的普通世界。<br>总之，若依赖人受伤，搜葬人也会感同身受。若依赖人幸福，尽管搜葬人依然要忍受遗失区的物资匮乏，但至少他们不是独自一人。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">搜葬人作为依赖人</span></strong></span><br>你想和队伍里的另一位搜葬开展一段关系？规则允许这么做，但这十分危险。一般不鼓励办公室恋情，尤其在办公室是一片危险的末日废土时。射击一个感染疫病的同伴或许很难受，但若那是你最好的朋友、兄弟姐妹或配偶时则要艰难得多。<br>但若玩家们希望更亲密的角色关系，使用同伴搜葬人作为依赖人有助于聚焦队伍在高墙内外的互动。对那些清楚风险却依然想让角色陷入关系的玩家，下面是将搜葬人作为依赖人的规则。<br>•&nbsp;&nbsp;&nbsp; 关系必须是相互的。<br>如果Lug想让Nut作为他的依赖人，必须在Nut也接受的情况。生命多短暂，单恋添悲苦。依赖人双方必须平等地为对方投入精力。<br>•&nbsp;&nbsp;&nbsp; 金钱就是时间。时间就是金钱。<br>在搜葬人之间，所需的赏金永远代表了几乎成本。这意味着角色不是交换货币。赏金花在了酒吧喝酒、游戏机的电池、节育药片或两人共度时光的其它开销上。<br>•&nbsp;&nbsp;&nbsp; 关系并不排外。<br>Nut决定和Lug进行vignette场景，并不意味着Lug必须和Nut进行另一次vignette场景。Lug可能需要去见虚弱的母亲，或者他可能不想进行一个场景。没有问题。搜葬人分享一个场景，双方都能治疗人性，如同分别扮演自己的场景一样。他们也可以和不同的依赖人进行vignette场景。<br>•&nbsp;&nbsp;&nbsp; 关系可能变得尴尬。<br>忽视关系的所有标准惩罚依然适用。让一段关系断绝不会导致其中一名搜葬人死亡这极端后果，但忽视将彻底切断关系，带来同样的人性伤害。玩家应当恰当扮演。如果Lug和Nut疏远了，剩下的队伍在工作地点间跋涉时将面对一些尴尬的对话。<br>•&nbsp;&nbsp;&nbsp; 爱之伤。<br>假如Lug看到Nut被一箭射中了喉咙，这类悲剧带来的情感创伤将会更加、更加严重。目睹同伴搜葬人受伤的人性伤害与看见搜葬人受伤的人性伤害叠加。因此，一名队伍成员的死亡需要进行等级3的自控检定，失败的人性伤害在市场将威胁提高到最近的悔恨之后（失去依赖人的惩罚）再叠加。如果你的依赖人被杀了，你将非常迅速地陷入极度疯狂。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>MBA规则：平衡工作/生活</strong><br>基础规则中，所有玩家在一次游戏中有一个“工作”场景和一个“生活”场景。工作场景都是Scam或交涉。生活场景都是与依赖人的vignette。在进阶玩法中，生活场景可以换成工作场景，反之亦然，但打乱工作/生活的平衡总会有后果（见p434）。只有使用MBA规则的玩家们需要担心工作/生活平衡；其它情况下，每次游戏所有人有一个vignette场景。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1020256">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1020256_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1024388"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_1024388_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1024388">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg1024388#msg1024388" rel="nofollow">关系人</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1024388'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1024388'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2019-12-04, 周三 22:19:04 &#187;</div>
+<div id="msg_1024388_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1024388"><span style="font-size: 14pt;" class="bbc_size"><strong>关系人</strong></span><br><br>除了依赖人外，魅力还决定了关系人的数量，角色可以随时向他们寻求帮助。<br>依赖人和搜葬人的关系基于共同的经济和情感需求，而关系人则是全然专业的人脉。他们对PC的态度可以从忠诚到厌恶，但遗失区可不在乎个人情绪。只要礼貌能挣钱，人们就会一同协作。<br>关系人不能帮助搜葬人在工作间隙保持理智，但他们是某方面的专家，能填补角色的技能缺漏。他们几乎总是远程联系，在后撤区的内外都能找到他们。如果一个团队寻求关系人的帮助，意味着他们已经穷尽资源，无法自持。但即使出于末日，咨询费用也是价格不菲。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>名声经济</strong></span></span><br>关系人是遗失区里专业的人脉。DHQS的管家、叛乱军人、信众、其他搜葬人——都是角色曾经一道工作的人。除了机制上的用途之外，关系人还是探索角色过去的好机会。没人能毫无污点地活过崩溃和随着五年的地狱。为什么搜葬人与现在的队伍一起，而不是与他们的关系人一起？搜葬人怎么熬过最初混乱的几个月？寻求关系人帮助是探索这些问题以及更多内容的机会。如何扮演关系的场景见P211“扮演关系人”。<br>机制上，关系人为玩家提供了挽回某次失败的一次性直觉和魅力技能检定的机会。使用尤比克系统或笔记本电脑联系专家，以一定代价换取成功（P175）。失败的调查检定可以在联系白怀特，尤比克城里一名IT专家后变成成功。居住区里最好的偷儿能接下一单诈骗活，只要你向“黏手指”修女讨个人情。<br>本质上关系人就像某系检定的额外意志点数。他们不能让自动自动找到目标，但如果你给他们几个小时，他们能帮你填满弹夹。但和意志不同，关系人需要持续培养，需要耗费心力才能维持。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>使用人情</strong></span></span><br>从关系人那里得到人情需要扮演。这类vignette场景的目的是让搜葬人解释他们希望人脉如何帮忙。只要双方关系良好，搜葬人提出要求关系人就会同意帮助。不需要进行实际的交涉，市场应使用这些场景探索角色的历史。更多扮演关系人场景的内容见“扮演关系人”（P211）。<br>机制上，只要关系人有理由拥有所需专业技能，并且能够被远程联系上，此次检定自动成功。因此，尽管油腻苏不能通过电话远程驾驶车辆，但她能指挥别人修车，只要有网络摄像头。关系人能够让失败的一次性检定变为成功，搜葬人还能相互借用关系人。<br>关系人不是自动成功。他们代表了有代价的成功。失败不如看角色愿意为成功付出多少有趣。每一次关系人的人情都花费一份必须及时交付的赏金，以及角色欠的人情。若关系人的慷慨没有得到回报，这段关系就会衰败，正如被忽视的依赖人一样。<br>当关系人处于贫乏状态时，需要一次人脉检定才能联系上关系人。恶化阶段，人脉检定联系上关系人后，玩家还需要使用一项成功的魅力技能检定说服对方“值得”。断绝阶段，关系人不回电话，他们可能还会因未付清的欠账主动报复。任何以这种方式被忽视的欠账将永久性消除这一关系人位置，食腐经济不会接受搜葬人虚假的承诺。<br>使用关系人通常与当时的情景相关，因此可以在需要他们时再分配。任何没到“贫乏”的关系人都可以被重新分配。因此如果上一次工作用的是个计算机专家，但这次队伍需要一名爆破专家，玛尔可以加入一名新的关系人，替换掉旧NPC，写上更有用的背景。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><strong>萧条规则：利率</strong><br>关系人的关系会衰败，就和忽视依赖人一样。因此没能偿清一次游戏的人情后，需要不只一份赏金恢复关系。一份赏金只能避免让关系进入恶化阶段，偿清欠款需要两份赏金。</blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>扮演关系人</strong></span></span><br>关系人和搜葬人的关系由玩家和市场合作实现。毕竟崩溃时你对朋友不能太挑剔。五年过去，没有哪个幸存者没有做出一些让步。但也得说，玩家不应让角色的过去全部由市场控制。<br>扮演关系人场景时最好是公平交换式的。确定这段关系最容易的方法是关注派系和态度。将关系人的描述分为这两个要素。例如，如果搜葬人想认识一帮加拿大叛乱者（派系）中的某人，市场可以说这位关系人说“知道他们总有一天会爬回来”（态度）。相反，如果搜葬人想要一个好朋友（态度），市场可以让他们是个黑数学（lack<br>Math）异教的信徒（派系）。<br>试着在与搜葬人交涉人情的时候提起角色过去的某些片段，尤其是队伍其他成员也在听的情况。临场发挥的黄金法则适用于这类快速vignette：不要反对。尝试用“对，并且”或者“没错，可是……”来应对新信息。例如，如果市场在扮演一个管家的间谍，并提到玛尔曾经为DHQS干过一些破坏工作，玛尔的玩家应当尽量避免说“不，那没发生过”让游戏陷入僵局。摩根可以说，“对，玛尔给DHQS干活……是为了获得之后要去抢劫的地点的重要信息。幸运的是这个笨蛋城里人从没弄清她怎么毁了整个合同。”<br>关系人能够认为玩家过去做了某些事，但只有玩家能决定是真的还是误解。玩家永远能控制自己的角色真正做过什么。双方没有否认对方，玛尔拿到了她的人情，而市场得到了有趣的引子，若玛尔和这个管家切断联系后可以适用。<br>关系人场景中玩家另一项不可剥夺的权利是给NPC取名，但如果他们没有主意也可以交给市场。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1024388">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1024388_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1025278"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_1025278_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1025278">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg1025278#msg1025278" rel="nofollow">购买装备</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1025278'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1025278'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2019-12-11, 周三 20:31:38 &#187;</div>
+<div id="msg_1025278_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1025278"><span style="font-size: 14pt;" class="bbc_size"><strong>购买装备</strong></span><br>装备表详述见P245。新角色初始有10赏金用于购买装备。所有人都能免费获得一个背包和一份口粮。通常情况下，游戏内购买装备需要使用关系人和人脉技能找到卖家，但初始时玩家可以随意购买。装备的价格通常为保养费用（upkeep）×2，但初始装备只需保养费用份的赏金。<br>红市场里，只要拥有装就会持续消耗资源。救命的装置需要持续维护、替换、补给，没有什么是搜葬人能买了就不管的。玩家需要清楚，尽管他们能在初始时随心所欲地购物，但一次游戏结束时，他们需要满足装备所有所需保养费用。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>购买装备范例</strong></span></span><br>摩根看见她的同队玩家在杀僵尸的技能和装备上投入了大量资源。她一直认为玛尔靠技术专业性赢得了队友的尊重；莫格告诉其他人她要选择多用性而不是火力。<br>玛尔和其他角色一样，初始有一个背包和口粮。任务结束后，她需要给这些物品支付保养费用（每件1赏金），但现在，它们都是完全免费的。<br>玛尔想利用她的关系人，并且能够随时联系上技术专家，因此她买了尤比克眼镜：这是一副AR眼镜，即是可穿戴电脑也是电话。她升级了这件装备，安装了食尸鬼网络（GhoulNet），让所有配备电子通讯装置的队友都能接入一个战术网络。4份赏金没了，但现在玛尔是队内交流的中转站。<br>作为机械师，玛尔的责任是搜刮战利品、维修载具、破坏安全门。她买了工具套件，并进行“定制”升级，让她不必担心噪音。初始的10赏金花掉了7。<br>遗失区没人不带武器。虽然摩根很喜欢肉搏，但印第安战斧听起来也很酷。她花了一份赏金买下武器，再花多一份进行坚固（Sturdy ）升级。玛尔有必要再带一把远程武器，但摩根认为她能在任务中搜刮到一把。唯一的问题是期间要避免致命的咬伤。稍作思考后，摩根又花了一赏金进行“加重”（weighted）升级。她认为如果情况恶劣，玛尔可以扔斧子，避免近距离作战。玛尔有拾荒者特质，因此还有额外10赏金。但她已经有6赏金的装备保养费用（upkeep）了（升级不增加保养费用）。还有3赏金用于房租、食物以及让简妮斯健康快乐。摩根不想在游戏开始前就让角色负担过重，因此她将赏金留下以备不时之需。<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>装备包</strong></span></span><br>不想去看装备全表？没关系。下面是十种装备和升级包，适用于一个团队需要的各个职能。选一个复制到你的角色卡，就可以开始啦。<br>角色创建时所有搜葬人拥有一个背包和口粮。<br><br><span class="bbc_u"><strong>看门人</strong></span><br>用于：伤亡人员管理、关键通道控制、破环和闯入<br>装备：DDJ、开锁套件、战锤<br>升级：+2升级<br><strong><span class="bbc_u">修理工</span></strong><br>用于：搜寻高价物、拆解残骸、维修废弃物、启动载具<br>装备：霰弹枪、工具套件、尤比克眼镜<br>升级：+4升级<br><span class="bbc_u"><strong>猎人</strong></span><br>用于：移动、耐久性、有效杀伤、驯养动物<br>装备：自行车、弓、狗<br>升级：+5升级<br><span class="bbc_u"><strong>潜伏者</strong></span><br>用于：感染者近身战、灵活移动单位<br>装备：斧子、毛毡护手/护胫（Carpet Gauntlets/Greaves）、手枪<br>升级：+3升级<br><span class="bbc_u"><strong>经理</strong></span><br>用于：帮派交涉、领导、社会工程、联络<br>装备：棍棒、手提电脑/平板<br>升级：+6升级<br><span class="bbc_u"><strong>医生</strong></span><br>用于：战场医疗、感染防护和照料<br>装备：急救套件、K-7864抑制剂、手枪<br>升级：+0升级<br><span class="bbc_u"><strong>斥候</strong></span><br>用于：潜行、避开伤亡人员、搜集和传递信息<br>装备：双筒望远镜、手枪、气味阻隔器、尤比克眼镜<br>升级：+2升级<br><span class="bbc_u"><strong>狙击手</strong></span><br>用于：侦察、远程攻击、杀伤<br>装备：重步枪、尤比克眼镜<br>升级：+3升级<br><span class="bbc_u"><strong>坦</strong></span><br>用于：近战、控制关键通道、前线接战伤亡人员<br>装备：链甲、砍刀<br>升级：+1升级<br><span class="bbc_u"><strong>技术员</strong></span><br>用于：监视、搜刮、通讯<br>装备：无人机、电子套件、尤比克眼镜<br>升级：+2升级<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1025278">
+&#171; <em>上次编辑: 2019-12-11, 周三 20:55:20 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1025278_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1025281"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="检视会员资料:  NewAlbionDrone">NewAlbionDrone</a>
+</h4>
+<ul class="reset smalltext" id="msg_1025281_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77894_1511619029.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 521<li class="karma">苹果币: 3<li class="blurb">Vive la Monad!<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1025281">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.msg1025281#msg1025281" rel="nofollow">角色提升+战役模式</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1025281'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1025281'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2019-12-11, 周三 20:51:06 &#187;</div>
+<div id="msg_1025281_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1025281"><span style="font-size: 14pt;" class="bbc_size"><strong>角色提升</strong></span><br>角色提升的方式和游戏里所有东西一样：靠花费赏金。花时间阅读或练习新技能需要资源，还会让你无法完成维持居住区生活的每日工作。赏金用于满足练习的物质需求（例如：子弹、书本、在线课程、零件、电池寿命，等等）。没有用在搜刮、保养或是寻找雇主的时间也同样需要赏金。将一个技能提升至+1，需要1赏金。提升至+2，需要2赏金；至+3，3赏金……如此类推。<br>每提升一点潜能需要10赏金。<br>所有其它赏金都用于保养资金（upkeep）、治疗、恢复人性、安装升级，在战役模式里，还可以存起来用于退休计划。<br><br><span style="font-size: 14pt;" class="bbc_size"><strong>战役模式</strong></span><br>如果团队只进行短团或只是尝试新系统，那么到此角色创建到此为止。长团叫做战役。想进行一系列任务的团队还有两步要完成：退休计划和居住区生成。<br>退休计划为角色提供了可视的角色发展的经济手段，它是长期目标，是退出计划。居住区生成将所有角色放在一个共同的社群里，他们必须共同战斗，包围它、逃离它。这两个步骤中，需要市场与玩家交涉，但玩家需要知道的一切都能在本节找到。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong><span style="color: navy;" class="bbc_color">退休计划</span></strong></span><br>退休计划是给长期战役准备的。对较短的团，角色可以没有退休计划，或者不把计划列出。对短团的玩家来说，梦想有一天建立自己的居住区没什么问题。一次任务之后就此结束，因此角色创建时不需要担心。但任何战役里的次级剧情，都包括实现梦想的高昂代价；退休计划反映了这一点。<br>搜葬人不愿意一辈子都是搜葬人。他们也不能。无论他们都有经验，遗失区的生活会消磨人的生命。伤害会累积。精神创伤会削弱关系，让未来的困难更加难以忍受。顾客拿了赏金就跑，剩下一队人和死去的同伴。没有人能永远好运。一口咬伤如同子弹，只要一下就能带走生命。压力无处不在，摧毁一切。时间站在遗失区一边。忍受工作的唯一理由是它提供的希望。许多居住区居民将死在边界的另一边。他们可能死于某种早已灭绝的疾病，或是在某次疫病爆发时被载体扑倒。无论如何，他们每天都在呼吸着死亡的恶臭。他们无法对孩子承诺一个没有怪物的世界。他们能指望的就是赚足够的钱，继续恐惧，继续绝望。<br>虽然搜葬人的生活很糟糕，但回报也高。搜葬人会遇到恐怖、伤痛、被咬的恐惧、无助、徒劳……还有很高的赏金。谨慎且幸运的人能活得够久，克服万难用金钱买一条出路。传奇搜葬人不是那些干掉最多伤亡人员、完成大任务得家伙，而是那些将自己的家人运到有热水、干净的衣服还有安全之地的人。<br>任何有两把刷子的搜葬人都有一个退休计划。没有逃离计划的人要么没到过藩篱之外，要么去得太频繁。<br><br><strong><span style="font-size: 10pt;" class="bbc_size">生活无望</span></strong><br>有的玩家可能不想在战役模式下设定退休计划。没问题，只要玩家了解，没有退休计划的角色对自己注定灭亡一事早已知晓。没有退休计划的战役模式角色被看作“生活无望”。或许他们骗自己总有一天一切都会没事，或许他们一心求死。无论什么原因，没有退休计划的搜葬人会永远在食腐经济里消耗生命，知道他们的人性、健康或运气耗尽。叙事上来说，这样的角色生活在一群努力逃离这种生活的人中间依然是有趣的。其他搜葬人完成退休计划去往安全之地时，应当扮演出令人心碎的离别场景。若他们以新搜葬人的身份重新加入游戏，看见更多新面孔踏上通往坟墓的行程，“生活无望”的角色将会面临越来越艰难的自控检定。<br><br><strong><span style="font-size: 10pt;" class="bbc_size">计划的构成</span></strong><br>退休计划时关于安全的：搜葬人和他们的依赖人的安全。玩家可以规划、积攒任何他们认为对达成目标有用的东西。下面是尽可能泛用的退休计划构成。需要更详细的描述和一些灵感，见P216的“一致方案”。<br><span style="font-family: 宋体;" class="bbc_font"><strong><span style="font-size: 10pt;" class="bbc_size">梦想和核心动力</span></strong></span><br>作为搜葬人，角色有足够的技能在居住区安全地生活下去。但仅此而已——只是活着。大部分居住区秉承工作或死亡的哲学。劳工赚来的口粮必须分给无法照顾自己的依赖人。如果生病了，不要指望假期、福利、同情。从不敢踏入遗失区的劳工用自由、希望和快乐换来了宝贵的安全。其他人弯下脊梁乞求他人的救赎。但搜葬人每天都在为希望奋斗，摸爬滚打。他们认为居住区里奴隶般的生活比遗失区死亡的威胁更可怕。一个好的退休计划不仅仅是经济目标。它是搜葬人生活中的核心动力。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>没有危险=没有游戏</strong></span></span><br>退休的角色将离开游戏。他们不再接任务。可能他们将家人全都送进了后撤区，可能成为了一个新居住区的首领，可能在某座山顶建座隐居所，可能成立了一家包括多支搜葬人队伍的管理公司，等等。无论如何，退休的人不会回来。远离被吃、被感染、被爆头的危险，安静地生活，这是他们成为搜葬人的理由。退休角色可以作为关系人，但仅此而已。<br>记住：角色有了足够退休的赏金并不意味着他们必须立马付账。搜葬人可以搁置自己的逃离计划，等待队伍其他人也能离开。但伤亡人员可不在乎你在佛罗里达有座大宅等着。当你本该品着威士忌却被咬掉了脸时，“他还有两天就退休了”的桥段可没那么好笑。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>指派继任者</strong></span></span><br>退休的玩家有权利指派队伍中代替自己的人。可以是一位关系人、战役早前出现过的NPC，或是全新的角色。他们还可以把自己的装备送给新玩家，但保养需要新搜葬人自己付。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>指标</strong></span></span><br>离开遗失区需要多步过程。每个退休计划都都有更小的指标构成，玩家需要购得并扮演。例如，Dono不能一下将他的家人运到后撤区并从此幸福快乐地生活在一起：他们得伪造文件、找走私客把他们运过边境线、找到住的地方，等等。<br>玩家需要为每个指标存钱。指标默认是20赏金，但根据市场的意见可以高或低（见下文）。一个指标满足后，角色的下一次vignette需要扮演出来。通过叙述展现经济现状。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>长期投资</strong></span></span><br>搜葬人的退休计划还作为一个储蓄账户。如果角色某一周缺乏保养资金，他们可以从退休计划里支取，但要面临对抗压力的自控检定。退休计划随时都可以改变，但一旦变更，之前达到的所有指标都消失，并且也需要自控检定。没有什么比看着幸苦攒下的赏金因疏忽付诸东流更增加压力的了。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>市场意见</strong></span></span><br>标准的退休计划是3个指标每个指标20赏金。但玩家或许有更宏大的计划，或者市场想让战役短一些。这些情况下，玩家和市场一起调整退休计划。市场不能给玩家强加退休计划或指标，但能够交涉每个指标的代价。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>一致方案</strong></span><br>虽然后撤区远离疫病，但并非完美。聪明的搜葬人不会越过藩篱掉进难民营。没人冒着被不死者杀死的风险只是为了和其他家伙一样被奴役、被杀、被虐待。遗失区既提供资源也是处刑人，大部分搜葬人在此冒险是为了给自己在另一边找个安全居所。房子、正当工作、合法身份——当你找不到活时这些平凡的梦想如此宏伟。因此大部分退休计划都有同样简单的指标。<br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>证明文件</strong></span></span><br>任何运气不坏的家伙都能借着夜幕潜进后撤区。但被困在遗失区的人都是homo sacer：法律上死亡。废土里冒险的奖赏便是失去所有权利和法律的保护。那些在文明社会被抓却没有正当身份的人会被掠夺、被杀戮……邻居就是干这事的。执法者和军队会立刻射杀他们，罪名是让平民以为自己的家人或许依然存活。<br>在后撤区停留的任何时间都需要伪造文件，也就是与犯罪分子打交道。伪造违法，但很寻常；高质量的身份证需要一个身份窃贼、社会工程还有贿赂，全都价钱不菲。第一个指标需要和Valet活其它犯罪组织接触获得伪造文件。<br><br><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: 宋体;" class="bbc_font"><strong>安全居所</strong></span></span><br>合法身份只能让你越过边检；文件不能给你保暖、祛饥。进入后撤区后，搜葬人和他们的依赖人需要一个住的地方。慷慨地付出赏金能减轻新难民带来的食物、衣物压力，但对一个公民来说，接纳破坏隔离者的风险依然无处不在。一个长舌的邻居就能让一位撒玛利亚人成为劳工帮的奴隶或是被驱逐到遗失区。许多搜葬人提前将家人送入安全港，却发现所爱之人落入了一帮人贩子手中。<br>赏金不足以实现安全屋；搜葬人和市民都需要完全信赖对方。弥合遗失区与合法市民之间的歧视和误解需要的不仅是联系；双方都必须欠对方血债。搜葬人必须联系一位疏远的爱人或朋友，并扮演说服他们同意冒险接纳依赖人的场景。<br><br><strong><span style="font-family: 宋体;" class="bbc_font"><span style="font-size: 10pt;" class="bbc_size">去往安全之地</span></span></strong><br>搜葬人必须越过高墙才能完成需要在后撤区进行的工作。但越境对老手来说是一回事，对崩溃之后见过废土的软弱居住区居民则是另一回事。组织运输、雇佣走私客、贿赂守卫——都需要赏金，以及更重要的运气。保护依赖人免受遗失区的残酷对待是许多人成为搜葬人的理由，但搜葬人不能永远庇护自己的家人。他们必须至少完成一次废土中的任务，才能永远逃离噩梦。最后的指标需要搜葬人为依赖人安排交通、把他们从居住区里带出，并在接下莱的游戏中只与他们保持线上联系。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font"><em>Let us suppose that the great empire of China, with all its myriads of inhabitants, was suddenly swallowed up by an earthquake, and let us consider how a man of humanity in Europe, who had no sort of connection with that part of the world, would be affected upon receiving intelligence of this dreadful calamity. He would, I imagine, first of all, express very strongly his sorrow for the misfortune of that unhappy people, he would make many melancholy reflections upon the precariousness of human life, and the vanity of all the labours of man, which could thus be annihilated in a moment. He would too, perhaps, if he was a man of speculation, enter into many reasonings concerning the effects which this disaster might produce upon the commerce of Europe, and the trade and business of the world in general. And when all this fine philosophy was over, when all these humane sentiments had been once fairly expressed, he would pursue his business or his pleasure, take his repose or his diversion, with the same ease and tranquility, as if no such accident had happened. The most frivolous disaster which could befall himself would occasion a more real disturbance. If he was to lose his little finger to-morrow, he would not sleep tonight; but, provided he never saw them, he will snore with the most profound security over the ruin of a hundred millions of his&nbsp; brethren, and the destruction of that immense multitude seems plainly an object less interesting to him, than this paltry misfortune of his own.</em></span></span><br><div style="text-align: right;"><em><span style="font-size: 10pt;" class="bbc_size"><span style="font-family: times new roman;" class="bbc_font">-Adam Smit</span></span></em></div><span style="font-size: 10pt;" class="bbc_size"><em><span style="font-family: 新宋体;" class="bbc_font">让我们假定，中国这个伟大帝国连同她的全部亿万居民突然被一场地震吞没，并且让我们来考虑，一个同中国没有任何关系的富有人性的欧洲人在获悉中国发生这个可怕的灾难时会受到什么影响。我认为，他首先会对这些不幸的人遇难表示深切的悲伤，他会怀着深沉的忧郁想到人类生活的不安定以及人们全部劳动的化为乌有，它们在顷刻之间就这样毁灭掉了。如果他是一个投机商人的话，或许还会推而广之地想到这种灾祸对欧洲的商业和全世界平时的贸易往来所能产生的影响。而一旦作完所有这些精细的推理，一旦充分表达完所有这些高尚的情感，他就会同样悠闲和平静地从事他的生意或追求他的享受，寻求休息和消遣，好像不曾发生过这种不幸的事件。那种可能落到他头上的最小的灾难会引起他某种更为现实的不安。如果明天要失去一个小指，他今晚就会睡不着觉；但是，倘若他从来没有见到过中国的亿万同胞，他就会在知道了他们毁灭的消息后怀着绝对的安全感呼呼大睡，亿万人的毁灭同他自己微不足道的不幸相比，显然是更加无足轻重的事情。</span></em></span><br><div style="text-align: right;"><em><span style="font-family: 宋体;" class="bbc_font"><span style="font-size: 10pt;" class="bbc_size">——亚当·斯密</span></span></em></div><br><div style="text-align: right;"><span style="font-family: 楷体;" class="bbc_font">《道德情操论》，商务印书馆2011年版，译者蒋自强等</span></div></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: navy;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">JOLS先生</span></strong></span><br>JOLS……狗娘养的。如此诱惑，如此恶毒。<br>JOLS是搜葬人对“最后一票”（Just One Last Score）的缩写。它代表了一种非常常见的情况：一位搜葬人积攒了足够退休计划的赏金，去完成最后一次任务，结果被杀了。<br>退休计划代表了安全，不多不少。只能够刚好去到某个安全之处，远不足以让人过得舒心。没哪个攒够退休计划后什么也不干的人能把孩子送上大学。他们还是需要一周工作六甚至七天，管理居住区或是干些无聊到死的后撤区工作。年轻的搜葬人轻蔑地叫他们市民或者居住区垃圾，而对一些人来说，在遗失区忍受多年的折磨换来的不应只是这种“幸福结局”。因此每个搜葬人的脑子里都藏着一个，“最后一票”。疯狂的计划，能够让搜葬人从此出人头地。JOLS能做的不仅是建立贫乏的居住区，他能让这个居住区成为遗失区里自给自足的灯塔。JOLS不仅能把孩子从自由停车场贫民区买出来，还能给他们新家、让他们去私立学校念书。JOLS总是有足够的剩余资源，哪怕再来一次末日，搜葬人也无需再次冒险。退休计划给你安全，JOLS给你权力。<br>他也会要你的命。JOLS先生会等待时机直到游戏最后，他危险得要命。毕竟，至今没有人追求“最后一票”是有原因的：竞争过于理智或过于致命。<br>机制上，JOLS在一位角色付清了退休计划之后。最后这一票由退休角色根据“角色内协调法”（In-Character Collaborative Method ）（见P399）提出，但退休角色的玩家不再进行基本任务，而是每轮都开始实现目标（but instead of rotating element proposals, the player of the retiring character starts every round）。另一个区别是市场能够给任务增加<strong>任何</strong>困难，只要满足黄金法则（回报=风险）。背叛、错误信息、大规模恐慌、暴雪、DHQS死亡小队——公平游戏。玩家有责任用角色说服整个团队帮助自己的角色。如果所有人没有异议，决定内容后，队伍便决定了。市场回家，写下冒险。下一次游戏，这支队伍将竭尽全力完成这件任务——可能会付出生命。报酬总是比平常任务高：帮助完成JOLS先生任务的队伍的开销和遭遇都会有回报，也就是说任务开始前他们拥有的装备——外加任务结束后用来治疗、替换装备、恢复人性的赏金——都会在任务过程中得到补偿。否则团队其他人不能从中获益。他们冒了生命危险，仅此而已。过程支线中获得的任何赏金由未退休的队员平分。<br>退休的搜葬人则会赢得一笔财富。成功完成JOLS先生任务获得的赏金不以数额衡量；这是奢侈的生活以及余裕。同时也是谋杀的动机。如果JOLS先生被抓住了、没有杀光所有人，那么还有一个场景：队伍会好好告别吗？或是他们中有人试图偷走这张金船票？<br><br><strong>唐提式养老金（TontInes）</strong><br>对有的玩家来说，因为完成退休计划离开游戏不怎么吸引人。虽然角色的确会想离开遗失区再也不回去，但成功就是让一个发展完全的角色退休感觉像是惩罚。对那些不觉得轮换搜葬人有趣的队伍，市场可以建议采用唐提式养老金。现实中的唐提式养老金是一种年金方案，使用多个投资人的资金进行大额骰子，但没有人有账户权利。利率不断累积，最后还活着的成员获得整个账户的所有权。红市场里，“唐提”意思是“团队退休计划”，即所有搜葬人都同意，无论任何情况，他们都要一起离开。一起富，或在中途死去。<br>用游戏的说法，即是搜葬人照常买下指标——和普通退休计划一样——但直到所有人都准备好追逐JOLS先生前没人离开。那些较早完成退休指标的搜葬人最好借钱给落后的同志。毕竟，等待队友过程中的每次任务都有生命危险。<br>叙事上，唐提需要一个铺垫场景。市场需要说明团队有个计划——一个大胆、危险、可能让他们被杀的计划。所有成员都清楚如此高的回报意味着任务几乎是自杀，但他们也知道自己不可能抵挡诱惑。玩家会给JOLS先生起个名字，俗套又有煽动性的名字，比如“落幕行动”或者“金钱命令”。订下唐提后，市场立刻开始计划的第一个场景，此时队伍的每个成员都必须同意参与。PC们扮演与队伍其他人立下誓言，唐提的阴影就此盘旋在每次任务之上。<br>一般不建议过早计划唐提。战役中变化多多，计划也不大可能在长期游戏中保持。应当在适当的时机，让队伍如常达成一个“得分点”（Score）(见P397)，但让他们预先知道名字。因此每次一名PC提到“乐透彩票”时，这个任务就会对战役产生神秘而重要的影响。当一名搜葬人崩溃时，他的同伴会用将来拿乐透彩票开的酒吧安抚他。玛尔可能无意射中了无辜路人，但乐透彩票能买到原谅。坚持。在坚持多一次任务，再坚持多一天，再踏出血淋淋的一步……<br><br><span style="color: navy;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size"><strong>居住区</strong></span></span><br>队伍需要家。每个搜葬人都来自一个居住区：大型生存者自治社区，在蹦溃后自保以及保持经济多样性。社区里更顺从（或者说更理智）的成员接纳了搜葬人，保持搜葬人的炉火，而搜葬人在高墙另一头拿生命赌博。<br>短团里，市场可以让角色来自某个主要居住区（描述见P120“失落之地”）附近的小团体。<br>但对于长团，让玩家影响他们的角色生活的地方是很重要的。居住区是他们的客户来源、家、堡垒以及压力来源。他们作为搜葬人的行动会给居住区带来声望或灾难。任何战役里，居住区本身就是一个不断出现的角色，可以是盟友、对手、支柱。所有人都会希望自己的居住区有趣。<br>生成一个城市的幸存者是团队活动，市场负责协助。桌上所有人提出自己的意见。玩家回答市场的问题，以玩家而不角色的身份讨论解决异议，或是让骰子决定。<br>长团生成居住区的更多信息，见p406“居住区生成”。<br><br><div style="text-align: right;">（创建角色 完）</div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1025281">
+&#171; <em>上次编辑: 2019-12-13, 周五 21:18:59 由 NewAlbionDrone</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1025281_signature">If it walks like a duck and quacks like a duck, it&#039;s probably an <a href="http://www.goddessfantasy.net/bbs/index.php?topic=95944.0" class="bbc_link new_win" target="_blank"><strong>Andrik</strong></a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=108468.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1775.0"><span>Red Market</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=77894" title="版主">NewAlbionDrone</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=108468.0"><span>第4章 进行游戏：创建角色</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 108468,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 108468,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="108468" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=108468.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 11298 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1775,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Red Market",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1775,
+							iTopicId: 108468,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

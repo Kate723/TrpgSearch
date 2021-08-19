@@ -1,0 +1,612 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="《巫师神探RPG》第七章．施法"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>《巫师神探RPG》第七章．施法</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="82588"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0"><span>《巫师神探RPG》第七章．施法</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg777880"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=82588.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post_locked.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 《巫师神探RPG》第七章．施法 &nbsp;(阅读 7103 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 召能术译毕</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=82588.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_777880_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_777880">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg777880#msg777880" rel="nofollow">《巫师神探RPG》第七章．施法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_777880'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_777880'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-02-17, 周三 13:03:07 &#187;</div>
+<div id="msg_777880_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_777880"><span style="font-size: 24pt;" class="bbc_size"><strong><span style="font-family: 楷体;" class="bbc_font">施法</span></strong><span style="font-family: comic sans ms;" class="bbc_font"><em>Spellcasting</em></span></span><br><br><span style="color: maroon;" class="bbc_color"><span style="font-size: 18pt;" class="bbc_size"><strong>魔法之艺</strong></span></span><br>我们终于讲到重点了－－你知道当巫师是怎么回事、你知道在超自然世界要面对什么。最重要的，你知道不能拿魔法来干嘛，还有做了以后的后果。该是时候来学施法了。<br><br>　　虽然世上有各种实践魔法的系统，圣白议会所知的方法还是差不多囊括了大部分使用魔法的规则。举例来说，虽然祭仪和象征物各自不同，但几乎在所有施法门派里面，要针对特定目标施展某个法术，都需要从对方身上取得的象征物。<br><br>　　有些术语已经被广泛使用，这样不同道途的施术者就能够理解彼此在说什么。圣白议会对术语的标准化贡献良多，他们发展了许多克服跨文化沟通障碍的方式。当你要比对技术和法术来揪出谁是黑影议会的袭击者，你就需要向同伴们说明你的能力、了解他们的能力，才能想出－－幸运的话－－可以奏效让你们逃过一劫的计划。<br><br><span style="color: maroon;" class="bbc_color"><strong>如何可能？</strong></span><br>基本上，魔法是将意志专注于创造事物，而技巧与工具可以让魔法更容易，或是更精确地实现。这些技巧虽然不是必要的，却能够帮助施术者集中思绪－－在累积足够的经验、专注力和力量以前，多数凡人都很难掌控所有心里的念头。<br><br>　　施法和死者交谈、预知未来、心灵感应之类既有的异能不同。魔法之艺更像是是一套，而非一件工具。在构筑法术以达到目的时，你是从工具组中选择需要的工具，并从各种来源给予它能量。相反地， 天生的异能则是一件用来解决某一类问题，由不变的单一来源所驱动的工具。就像木匠工房和铁锤之间的不同一样。<br><br>以下列出的是各种巫师汲取法力的来源：<br><br><span style="color: maroon;" class="bbc_color"><strong>※自身：</strong></span>每个巫师多少具备一些内在力量－－多少看人－－这些力量源自他对自己和魔法的信心。通常，巫师的「信念」技能就是代表这个。<br><span style="color: maroon;" class="bbc_color"><strong>※自愿的生物：</strong></span>比如灵体、恶魔、妖精或其他愿意出借力量的魔法生物。<br><span style="color: maroon;" class="bbc_color"><strong>※非自愿的魔法生物：</strong></span>刻意牺牲人类或动物。<br><span style="color: maroon;" class="bbc_color"><strong>※存有力量的物品：</strong></span>有些魔法物品可以作为力量来源；比如宗教圣物就可能具有非常强大的力量。<br><span style="color: maroon;" class="bbc_color"><strong>※环境：</strong></span>从构筑现实世界的元素（火、气、地、水）等自然源，或是纯粹的自然现象（风暴、地震、火山等等）等自然源汲取力量<br><span style="color: maroon;" class="bbc_color"><strong>※外在现实：</strong></span>这是最黑暗腐败的做法，这么做的巫师都会被完全扭曲、摧毁；圣白议会要求立即处决走上此路的巫师。<br><br>　　多数施术者的魔法都有言语成份－－像是咒语或咒歌。这些咒语都<strong>不会</strong>使用母语。要是巫师拿日常使用或书写文件的语言来施法，他每次开口都会有法力外洩，造成意外后果的风险。使用不同语言当咒语就像是心灵防火墙，让他不会每次讲话都让别人倒楣（或是毁掉自己的心灵）。<br><br><span style="color: maroon;" class="bbc_color"><strong>工具和技巧</strong></span><br>巫师使用的魔法系统不同，他使用的工具和技巧也不同。制作药水和奇物的巫师，实验室可能在沃尔玛的柜子上摆满稀罕的毒物、装着怪东西的罐子和写着奇异公式的书卷。巫毒祭司则会储存著大批的坟土、征服者约翰草、头发和指甲、面粉、兰姆酒、活鸡、开山刀等等东西。美洲原住民巫医则会用鼠尾草、鸟羽玉、图腾、羽毛和其他传统的东西。<br><br>　　总的来说，巫师施法的道具通常包括进行祭仪或制作魔法物品用的素材、实际的魔法物品和满足个人风格的服装道具。日本的阴阳师（onmyouji）需要适当的纸墨来划札（fuda，符咒）、需要适当的法器来驱魔、需要穿着适当的丝袍还有居住在适当的房子里。有些技巧是必须的，有些是有用的，有些只是为了让巫师的心进入状况。<br><br>　　通常，设置施法时的技巧和工具称之为<span style="color: maroon;" class="bbc_color">术式（construct）</span>，这是一种维持和帮助控制法术能量的「容器」。术式可以是组成法术的仪式及实际道具，也可以只是巫师施法时心中的景象。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: maroon;" class="bbc_color"><strong>使用专攻</strong></span><br>专攻（Specialization），不论是选择施法能力时的免费选项，或是透过「精进」（Refinement）异能取得的，都可以用来在施法时增强对应技能（传说、自律或信念）。<span style="color: maroon;" class="bbc_color"><strong>专攻不能叠加</strong></span>；如果你有两个「重叠」的专攻（至少奇术是有能发生）能够在同一个目的上增强同一个技能，只能选择两个中高的那个。（如果你要叠加其他的加值，你需要用法器）<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><strong><span style="color: maroon;" class="bbc_color"><span style="font-size: 12pt;" class="bbc_size">目录</span></span></strong><br><em><br><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg779032#msg779032" class="bbc_link new_win" target="_blank">　　<span style="font-size: 12pt;" class="bbc_size">召能术Evocation</span></a><br><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932122#msg932122" class="bbc_link new_win" target="_blank">　　<span style="font-size: 12pt;" class="bbc_size">元素Elements</span></a><br><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932382#msg932382" class="bbc_link new_win" target="_blank">　　<span style="font-size: 12pt;" class="bbc_size">聚集和控制力量、法器、逆火及溢散Gathering and Controlling Power, Focus Items, Backlash and Fallout</span></a><br><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932488#msg932488" class="bbc_link new_win" target="_blank">　　<span style="font-size: 12pt;" class="bbc_size">定式法术Rote Spells</span></a><br><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932513#msg932513" class="bbc_link new_win" target="_blank">　　<span style="font-size: 12pt;" class="bbc_size">其他变因Other Parameters</span></a><br></em></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_777880">
+&#171; <em>上次编辑: 2018-06-27, 周三 18:39:46 由 月伶</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_777880_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg779032"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_779032_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_779032">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg779032#msg779032" rel="nofollow">召能术</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_779032'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_779032'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-02-23, 周二 13:29:01 &#187;</div>
+<div id="msg_779032_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_779032"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 18pt;" class="bbc_size"><span style="font-family: 黑体;" class="bbc_font">召能术Evocation</span></span></strong></span><br><br>召能是一种快速粗暴的施法方式；基本上它算是直接挥舞魔法能量的技术。如果巫师控制得当，召能术无疑会高效而致命。如果他无法控制，那它就没什么效率，但仍可能同样可怕－－无论是对他自己或别人。<br><br>　　要释放召能术，你需要聚集能量，然后将它灌注到一个暂时的意念术式，来控制能量的方向和效果。这类魔法多半是单纯的瞄准－发射（如果技巧高超，你可以发出射线）。召能术虽然便捷，但不如奇术可靠，不过它不需要实在的术式辅助（不过像是法杖、权杖、魔棒等工具可以帮忙引导能量）。如果你尝试召来太多能量，或或是不能精准地控制术式，释放能量会在粉碎你心中的术式（如果你运气好，只会造成昏迷），或溢散到物质世界中造成无法控制的后果。所以除非超级<strong>擅长</strong>，否则你绝对不会想要在老房子里头召唤火焰。大火可以搞砸所有的魔法调查。<br><br>　　虽然召能术不须要法器或着实质的帮助，多数召能师还是会用法器提供一些帮助。比如用粉笔画出提示线，或著拿惯用的剑接引雷电，还有用附魔的权杖帮忙控制成形的火焰。基要派的巫师会主张真正的召能师只需依靠自己的意志，但实际点的施术者还是会小心皮肤，宁愿小心点也不要托大。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">先天限制</span></strong></span><br>由于快速粗暴，使用召能术有两点限制。<br><br>　　首先，召能术无法影响<strong>视线</strong>以外的东西。要在内心构筑术式就够难了；再驱动另一个术式来寻找目标，那就远非人力所能。所以，你不可能攻击透过卜筮或其他方法看见的目标。而且，在你能用持久的术式来精确定位目标以前，魔力就会消散，而精确定位必须靠奇术来解决。<br><br>　　另一个限制是召能术的持续时间非常短，几乎只有一瞬间（游戏机制上是战斗中的一回合）。虽然以提供更多能量延长效力，但也只能维持一下下。所有长时间的魔法都归奇术的领域。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">怎么用</span></strong></span><br>1.决定你要实现的效果（见下文「你可以做什么」」。这也包括选择要用的元素（element）（比如传统的水、火、气、地和心灵）<br><br>2.用以下基本的冲突行动描述效果：<span style="color: maroon;" class="bbc_color">攻击、预防、策略或反制法术（counterspell）</span>。<br><br>3.决定你要在法术上投入多少成功度。召唤能量需要承受心智压力－－最少为一级。如果能量超过你的「信念」，花费就会增加，造成的压力等同于差距（高于你「信念」三点的能量会造成4级心智压力）。<br><br>4.进行「自律」检定来施展法术。检定难度等于你所召唤的能量总额。你所拥有的<span style="color: maroon;" class="bbc_color">法器（focus items）</span> 和引用的形象都可以调整检定结果。如果你达到或是超过难度，就施法成功。如果没有，就要处理失败的差距。你可以选择承受<span style="color: maroon;" class="bbc_color">回火</span>（<span style="color: maroon;" class="bbc_color">backlash</span>，你身上发生一些坏事）让法术生效，或是选择<strong>溢散</strong>（<span style="color: maroon;" class="bbc_color">fallout</span>，对周围的环境与人造成意外）来减去超出的效果。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">你可以做什么</span></strong></span><br>召能术是战斗用的魔法。它的效果非常简单，只能做到几件事：攻击、预防、策略或反制法术。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">攻击</span></strong></span><br>这是召能术最基本且直观的用法，也是人们最熟悉的；流行文化中到处是巫师发射火焰与闪电的画面。<br><br>　　「自律」除了用来控制攻击以外，也<strong>同时</strong>用作攻击检定；要对抗攻击，目标可以用〈进行游戏〉中提到的方法进行防御检定。<br>　　<br>　　法术的成功度可以分配到以下方面：<br><br><span style="color: maroon;" class="bbc_color">1点能量增加1点武器值</span>。所以如果你将4点能量分配于此，你的法术就视作拥有4点武器值的攻击。<br><br><span style="color: maroon;" class="bbc_color"><strong>范例：</strong></span><span style="font-family: 黑体;" class="bbc_font"> 一个红宗室吸血鬼正冲过来要取哈利．德勒斯登的项上人头。哈利可不乐意让他这么干，于是决定召唤火焰把这东西从地球表面消失。<br><br>　　哈利的信念是「卓绝」（+5），自律则是「良好」（+3）。他的玩家－－吉姆－－不想浪费时间，决定召唤8点能量施展法术。哈利有火魔法的「专攻」异能，所以他施展这个法术的信念视为「梦幻」（+6）。这表示这个法术会带来3级的心智冲击－－6点能量算做一级，提升到8点加两级。<br><br>　　施展法术的难度则是「传奇」（+8）。虽然很高，但幸运的是哈利的霹雳权杖给了他的控制力+1，所以自律视作「极佳」（+4）。吉姆掷出+2。因此总共是「梦幻」（+6），然后吉姆又引用了哈利的「巫师神探」形象再获得+2。他成功控制住所有咒语需要的能量，并将咒语以+8对准目标。<br><br>　　哈利大吼：「秉畀炎火！」，用霹雳权杖对吸血鬼送出一道火炷，这是一记武器：8的传奇攻击。吸血鬼倒地打滚，想躲开哈利的传奇攻击并掷出「极佳」（+4），这代表火炷重击得分，对他造成了12级的冲击（4来自攻击，8来自武器值）。吸血鬼的「超人坚韧」将这一击减到11级压力，接着他选择承受「焦黑酥脆」的严重伤痕，接下5级生理压力。</span><br><br><span style="color: maroon;" class="bbc_color">2点能量可以让你指定影响视线内一个区域的所有目标</span> （让整个区域燃烧，而不只是对一个怪物发射火焰）。你可以重复选择这个效果来影响超过一个区域，所以四点能量可以让妳影响两个区域内的所有目标。这么做的时候<strong>不能</strong>选择目标；如果你有朋友在这个区域，它们也算做目标－－就连<strong>你</strong>也一样。小心不要烧烂自己的脸！<br><br><span style="color: maroon;" class="bbc_color">除了攻击区域，你也可以分散能量来攻击多个目标</span>。如果你控制了5点能量，你可以用3点能量攻击一个目标（武器：3），用2点能量攻击另一个目标（武器：2）。你不能用0点能量攻击，所以法术的能量决定了你可以攻击几个目标：能量3的法术最多可以分成三次能量1的攻击。<br><br>　　你也要分配瞄准结果，但不一定要和能量相同。如果你的5点能量在瞄准时掷出了「梦幻」（+6），你可以像前述一样分配能量，但用「极佳」水准来引导武器：2的攻击，用「尚可」来引导武器：3的攻击。<br><br>　　你也可用魔法代替一般武器进行<span style="color: maroon;" class="bbc_color">散射攻击（spray attack）</span>。虽然「凡间」的散射攻击不用分配武器值，但它们的灵活性<strong>远远</strong>不及巫师的家伙。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">预防</span></strong></span><br>护盾是另一个常见的召能术用法；保护自己的重要性并不亚于伤害敌人。在游戏中，这些都属于预防行动。你可以用以下方式分配法术能量：<br><br>　　<span style="color: maroon;" class="bbc_color">1点能量可以增加1点预防行动的预防强度。</span>三点成功度可以提供「良好」（+3）的预防强度。突破预防强度的攻击会解除预防。<br><br>　　<span style="color: maroon;" class="bbc_color">或著，你可以选择让法术效果产生护甲或是区域边界的效果，而非预防强度。</span>如果你选择护甲，护甲值相当于法术能量的一半（向下取整）。这么做的好处是护甲效果能持续到法术消散为止－－突破护甲的攻击不会解除它。<br><br>　　<span style="color: maroon;" class="bbc_color">1点能量能让法术<strong>时效</strong>延长一回合。</span>两点成功度可以让预防效果延续三回合（让你在护盾进维持的时候做其他事情－－比如用火焰反击）。不过这无法阻止预防被突破它的攻击解除。<br><br>　　<span style="color: maroon;" class="bbc_color">2点能量可以让法术效果复盖同个区域的复数同伴。</span>（通常是巫师所在的区域）。要复盖复数区域的话，每个区域要多花2点能量。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">哈利．德勒斯登在幻界中对抗纠缠库克郡医院的育婴房，吸食婴儿生命的幽灵阿嘉莎．海加森。她冲向哈利，哈利想用心灵魔法创造魔法盾来挡开她。他想建立一道强力的预防，但也希望保留实力，所以他决定召唤5点能量，建立「卓绝」的预防。他幸运地在自律检定掷出+3－－检定结果是「梦幻」（+6），轻松控制住法术。<br><br>　　他将法杖尖端指向阿嘉莎，大喝：「蒙伐有苑！」，在她迈步的同时展开一面圆弧型的能量。不幸地，阿嘉莎十分强大，而这里又是她的领域；她的攻击检定是「史诗」（+7），突破了哈利的预防。他被护盾破碎的冲击撞倒，并受到2级压力。<br></span><br><br>　　预防经常被当作防御来抵挡伤害－－精通战斗的巫师特别擅长这套。但不是每个巫师都擅长战斗，而这些巫师的预防法术也经常是护盾以外的效果－－比如召能幻纱就常常用作预防，但并不是用来预防伤害，而是<strong>察觉</strong>（详见后文的心灵元素）。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: maroon;" class="bbc_color"><strong>预防就只是预防，单纯的预防</strong></span><br><br>　　魔法之变化灵活难以穷尽。每个精熟一种元素的巫师都能用它应对各种不同的防御需求。所以你不该过度纠结于用什么元素抵抗不同的攻击－－水盾和心灵护盾一样可以挡下子弹，只是方法不同。别人也许能根据你对护盾的描述，想出很酷的因应之道，但你应该享受这种游戏，不要列出一整张护盾类型清单。<br><br>　　想要强调各种护盾的不同，评估和宣告才是你的好朋友（通常是用传说进行）。比如说要攻击一个以动能力场反弹物体的巫师时，你可以用传说宣告力场的弱点是光和热等纯粹的能量。这可以让你建立一个临时形象，标记它来发动针对这个护盾设计的攻击或策略。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">策略Maneuver</span></strong></span><br>就像普通的技能一样，召能术策略可以涵括各式各样的效果，用来为你创造临时优势或是移除对手的优势。一般来说，这样做会指对目标或场景建立或移除一个临时形象。<br><br>　　使用策略比起攻击或预防来得复杂一点。原则上，施展策略需要三点能量，但如果目标拥有良好(+3)以上的抵抗技能，则用技能值来决定需要的成功度。<br><br>　　如同其他效果，你可以花费额外的成功度来延长效果，费率为每个成功度多一回合。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">伊凡‧蒙特娄想要在一群难搞的本地术者中留下印象。他决定在碰面的时候弄点花招好让他们绷紧神经。所以碰面的时候，他用召能术施展策略，刮起大风把他们吹得颠三倒四。这是个针对场景的策略，GM决定实现策略最少要三点能量。伊凡决定投入六点能量让风多持续三个回合，他觉得事情变得棘手，这样的干扰可以给他优势。<br><br>　　他成功施展法术，GM在场景中建立了「狂风大作」的形象。</span><br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">反制法术Counterspell</span></strong></span><br>如果巫师面对一个法术效果，他可以尝试以自己的意志中和它。即使反制法术属于召能术效果，它也可以用以中断奇术。虽然这种尝试不能长时间维持，却可以为巫师争取宝贵的时间。<br><br>　　反制法术基本上是对法术能量进行的攻击－－唤起你自身的力量中断或重整驱动法术的能量。它的运作机制十分直接。你需要聚集等于或超过对象法术的力量，然后像一般的攻击法术一样进行检定。<br><br>　　麻烦的部分是准确地判断该法术蕴含多少能量，你才能知道自己应该唤起多少力量。你可以瞎猜－－但如果力量不够，反制就不会生效；如果你用了太多力量，就要甘冒失控的风险。判断需要进行评估行动(这是个自由行动，所以你可以在准备反制之前使用传说技能。)<br><br><strong>举例：</strong><span style="font-family: 黑体;" class="bbc_font">哈利．德列斯登正在万豪酒店的洗衣房里，和他的伙伴兼恋人苏珊．罗里格兹一起对付力量强大的银币恶魔萨鲁列尔(Saluriel)。萨鲁列尔使出一道强大的邪术－－一大群毒蛇吞没苏珊，让她陷入恐慌。她绝望地想将蛇从肌肤上扯下来摆脱牠们。哈利知道如果她一直这样，迟早会把自己扯成碎片，于是他只好试试反制法术。<br><br>　　哈利的玩家吉米首先需要通过传说掷骰看看他是否知道哈利需要多少力量来反制法术。根据萨鲁列尔的自律，GM说传说掷骰的难度是卓绝(+5)。吉姆投掷哈利的极佳(+4)传说并成功，于是GM表示他需要5个成功度来施法。他的信念是卓绝(+5)，足以安全召唤这么多力量，而他又从自律掷骰获得控制能量所需的+2。噗！蛇群消失了。</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_779032">
+&#171; <em>上次编辑: 2018-06-20, 周三 13:34:58 由 月伶</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_779032_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg932122"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_932122_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_932122">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932122#msg932122" rel="nofollow">元素</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_932122'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_932122'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2018-06-20, 周三 13:34:12 &#187;</div>
+<div id="msg_932122_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_932122"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">元素</span></strong></span><br>召能术的效果有部份取决于元素(elements)，元素是组成现实的基本概念，这些概念各自对某些现象有着特殊的关联性。这种关联性是基于民俗传说而非科学，巫师可以透过这种关联性厘清法术的效果。把爆炸想成「火焰」，远比「热核反应的结果」来得容易让巫师成功施展法术。<br><br>　　圣白议会里罪主流的元素体系来自中古欧洲：经典的火、气、土、水(现代巫师又再加上了「心灵」)。施展召能术的时候，巫师需要从中选择一种元素来建立法术效果。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">放眼世界</span></strong></span><br>来自不同传统文化的巫师可能会使用不同的元素，而非西方传统的元素来构筑召能术－－鑑于梅老太(Ancient Mai)的中国血统，她运用的召能体系可能就由金、木、水、火、土和心灵作为基本元素。如果你的巫师出身不一样的传统，你会需要设定一下每一种元素的基本概念；怎么做请参考以下的例子。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">气Air</span></strong></span><br>气是运动与自由的元素，它主要的效果都和运动有关：撂倒敌人或打翻东西的大风、物品飞进巫师手中或是将攻击扫开的螺旋气盾。<br><br>　　用在比较可怕的地方时，气也可以制造真空让人窒息，或让目标内爆。它也能改变巫师周围的大气－－将烟雾固定在一处、清理房内的空气或召来雾气掩护撤退。移动需要精细的操作，因此气魔法也常用来撬锁和和拆除装置。还有，空气是传递声音的主要介质，可以用来制造巨响分散注意，或制造声音不会外洩的「气泡」来保护隐私或藏匿行踪。<br><br>　　推拉东西等和移动有关的策略特别适合气魔法。气魔法也常用来对目标制造「遭受重击」、「眼里进沙」，以及对场景制造「施展不开」等形象。<br><br><div class="quoteheader"><div class="topslice_quote">引用</div></div><blockquote class="bbc_standard_quote"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">妈咪，闪电是从哪里来的？</span></strong></span><br>嗯，假设你想用召能术制造或对付闪电，你会使用气还是地？你大概觉得气是最合逻辑的选项，不过你也可能会认为地能让你运用电磁能来引导电流。哪个才对呢？<br><br>　　答案是两者皆是。思考如何有创意地运用元素是术者最有趣的部分－－虽然地元素巫师不能直接从空气中召唤闪电击倒别人，但他或许可以以身体为引从地面导出电流。考虑每一种元素和效果间的关系能帮助你想出有力的策略，同时指出逆火或溢散时可能发生什么。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">地Earth</span></strong></span><br>地与稳定、重力和接地相关。毕竟，所有东西都需要立地之所，使用它的术者可以利用这件事，唤出石墙护身、震度脚下大地、无视外力稳踏大地。地也是统御磁力的元素；地之术者常利用这点强化或抑制磁场产生各种效果。<br><br>　　地的强处是伤害或补强建筑等稳固的结构。地能对目标造成像是「脚下不稳」或「晃动」，对场景造成「地基脆弱」或「震动」。它也能对目标造成强大的重力效果，用「三倍重」之类的形象直接压扁或压倒他们。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">火Fire</span></strong></span><br>火是吞噬与毁灭的元素，也是想要重挫敌人时的首选。除了巫师丢火球的经典形象外，这个元素也有些精巧的用法，让巫师能调整物体或空间的温度，还有融化锁头或其他挡路的小东西。<br><br>　　用火的策略通常是对目标或场景造成各种「起火」形象。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">水Water</span></strong></span><br>水是混沌与改变的元素。它最大的能力是像水一样改变事物的状态：侵蚀、溶解、破坏、衰减、分散和瓦解。许多人不认为水有多少伤害性，但试想水能在不知不觉中造成多少破坏：侵蚀岩石、锈蚀金属、扭曲树木－－高压水柱甚至可以击碎或切割固体。水也可以化为洪灾、使人窒息、协助化学反应。水可以毁灭许多机械，使其短路或卡死(比如枪械)。许多危险的东西－－电池液、流沙、通管剂－－都因为液态能为水召能术所用(也许运用特殊的物质会带来额外的难度)。<br><br>　　巫师常用水施展各种破坏性的策略。水能够用来对目标造成像是「湿透」或「难以呼吸」(用水呛住对方)，也能对场景造成「滑溜」或「局部溶解」。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">心灵Spirit</span></strong></span><br>心灵是灵魂的元素，是最为纯粹的意志。就某方面来说，它是最基本的元素－－将巫师的欲望原原本本化为能量－－几乎不管哪一种魔法传统之中都有它的存在，也以它为核心。心灵的效果通常展现为纯粹的动能与光能，巫师能用它创造或增强光源、将力能凝聚成盾牌、直接用动能打击敌人，甚至用能量围绕人和物体始之隐形。<br><br>　　心灵魔法中有一种叫做<span style="color: maroon;" class="bbc_color"><strong>幻纱(veil)</strong></span>的特殊预防。不像一般的预防，幻纱所含的力量会成为以技能或其他魔法侦测它掩盖事物的难度。除此之外，心灵策略也多和光有关(对场景造成「强光夺目」或「点亮」目标)，不过动能也可以把敌人打得失去平衡或造成严重的物理性破坏。<br><br>　　巫师的气质会影响他倾向擅长心灵召能术「直率」(力能效果)还是「纤细」(幻纱和其他柔性效果)的一面。虽然每个元素都是这样，但心灵在这方面表现得特别明显－－毕竟这个元素和思维的关系最密切。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_932122">
+&#171; <em>上次编辑: 2018-06-22, 周五 23:08:11 由 月伶</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_932122_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg932382"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_932382_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_932382">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932382#msg932382" rel="nofollow">控制法术</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_932382'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_932382'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2018-06-21, 周四 23:09:54 &#187;</div>
+<div id="msg_932382_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_932382"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">聚集力量Gathering Power</span></strong></span><br>要施展召能术，巫师得为法术聚集<span style="color: maroon;" class="bbc_color"><strong>力量(power)</strong></span> 。他越相信魔法，他的魔法就更有力量；这会呈现在你的信念技能上。一般来说，你需要的就是这些－－召能术太过粗暴，来不及像奇术一样利用其他的力量来源。<br><br>　　你可以用最小的负担－－只要一点心智压力－－来引导与信念技能相等的力量。<br><br>　　理论上来说，你可以任意呼唤力量，但危险也会大幅提升。一旦超过信念的极限，力量就会对巫师的心灵造成严重代价，让他殚精竭神。如上所言，如果巫师成功施展法术，他会受到一点心智压力。如果他超出了极限，代价也会随之上升。<br><br>　　你每召唤的力量美超过信念一个档次，施法时就会造成一点额外的心智压力；所以力量超过你信念三点的法术，在施展时会造成四点心智压力(召唤信念一点，加上每提升一级一点)。就像其他类型的压力一样，这可能会使巫师需要承受伤痕才能挺住。<br><br>　　当然，依情势不同，巫师有时会愿意承担伤痕。不过，这会在巫师的深层心理留下弱点；虽然强大的召能术必然伴随代价，但留下的印记是难以磨灭的。如果有人杀了巫师的朋友，他可能会承受名为「复仇之心坚定不移」的致命伤痕来放出恐怖的烈焰……但知道这股愤怒会在将来的许多冲突中让他失去冷静。<br><br>　　随意地这么作相当危险。汲取更多力量不代表你能控制它(更不要说伤痕带来的麻烦)。很多误入歧途的巫师都是因为对自己原始的感受毫无保留，因而被无力控制的魔法吞噬。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">控制力量Controlling Power</span></strong></span><br>施展召能法术最重要的部分是控制并释放巫师所聚集的魔法能量，法术才能随他的意志展现。要让一切顺利，他的自律必须等于或超过聚集力量的档次。自律掷骰也决定了法术的瞄准以及防御它的难度。<br><br>　　一旦你掷骰完毕，法术能量就会立即释放。<br><br>　　如果自律掷骰失败，超出的档次会不受控地发散，变成逆火或是溢散。幸运的是，你有一些工具来避免这种事发生。你可以引用形象来提升自律掷骰，也能用心智或生理压力的方式承受逆火(这有可能造成伤痕)来处理失败的差额。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">法器Focus Items</span></strong></span><br>终于到了召能师的吃饭家伙：<span style="color: maroon;" class="bbc_color"><strong>法器(focus items)</strong></span>。大部分巫师都仰赖法器来减低召能术带来的危险。法器有各式各样的样貌，而具体型态则取决于巫师的魔法流派。比如说，哈利．德列斯登的巫术传承来自中世纪英格兰，所以他主要的法器是一把雕刻符文的法杖和魔棒(霹雳权杖)。来自远东的巫师可能会准备书写符篆的卷轴。有宗教信仰的巫师则会使用信仰的符号。<br><br>　　使用法器的目的是为了控制召能术所术放的能量，或著也可以说法器能为巫师内心术式增加额外的控制。想像能量顺着手臂流入一把真正的权杖，会比只在内心构筑术式来得容易。<br><br>　　使用法器能为特定用法的信念(更安全地召唤一档次的力量) 或是自律(更容易控制法术)提供+1加值。关于法器所提供的加值，还有如何制作法器，请见「造物」一节。<br><br>　　通常(而且在传统上)，一件法器只能用于一种元素。不过更强大的法器也能提供更多加值，或是用于不同类型的召能术。一件非常独特的法器甚至可以成为你的形象，透过引用来获得额外的加值。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">逆火和溢散Backlash &amp; Fallout</span></strong></span><br>如果你的自律掷骰低于注入法术中的力量，就会有坏事发生。多出来的能量会失控造成灾难。<br><br>　　麻烦基本上可以分成两种：<span style="color: maroon;" class="bbc_color"><strong>逆火(backlash) </strong></span>和<span style="color: maroon;" class="bbc_color"><strong>溢散(fallout)</strong></span>。逆火影响的是巫师，而溢散则会影响环境或附近的目标。和其他事一样，逆火和溢散都以档次来衡量－－在这里是失败的自律掷骰和你聚集的力量间的差额。失败得越严重，魔法能量就越失控，结果也越糟糕。<br><br>　　你负责选择承受多少逆火，而剩余的部分由GM当作溢散处理。自我牺牲倾向强烈的巫师会选择以逆火承受更多甚至全部的超额－－尤其是旁边有同伴可能被溢散的法术烧到的时候。<br><br>　　逆火的失控力量仍是法术的一部份，法术效果不会改变。溢散则不同：溢散的档次会从法术效果中扣除。<br><br>　　逆火带扁法术能量穿过巫师的身体，造成伤害或其他麻烦。这表现为压力档次，并和平常一样可以用伤痕承受。幸运的是，你可以将逆火当作生理或是心智压力(不过不能拆开)，这代表巫师有需要的话可以保留心智压力轨施展更多法术。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">哈利必须在没有咒语和法器的状况下施展一个卓绝(+5)的法术制住目标。没了这些协助，他的自律掷骰失败了5。他不想要伤害旁人，也不想搞出意外，而且他需要法术完全成功，所以他选择承受5生理压力的逆火。他在这场景已经受过一些生理压力了，导致他得接受一个「精疲力尽」的中度伤痕加上1点生理压力。噢。但至少还是顺利施展法术了。</span><br><br>　　溢散则代表法术能量跑到了环境之中，造成预期外的后果。这有几种不同的方式呈现。GM可以在环境中或巫师预期外的目标(比如他朋友或无辜的路人)身上设置形象，或著也可以直接造成压力和伤痕。GM应该设想莫非定律最糟的结果，然后付诸实行。记得，巫师自大到尝试控制宇宙的力量－－而且失败了。宇宙会用溢散让巫师认清自己的斤两，而站在宇宙这边是GM的工作。希腊悲剧写的就是这种事情。<br><br>　　如上面所提示的，逆火是一种巫师的安全机制－－如果他概括承受一切，法术仍会因为他额外的付出，而像预期一样实现。溢散则完全是另一回事，因为巫师是直接把能量放到外界，让它失去控制。GM在处理造成溢散的法术效果时，也要决定如何表现溢散的档次。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">哈利．德列斯登试着施展一道史诗(+7)级的心灵(力能)法术，以武器值：5攻击一块有两个坏人的区域。但哈利搞砸了，丢出了尚可(+2)，离目标难度还差了5。这时他已经没有资源可用－－他已经承受了伤痕、用掉大部分命运点，两条压力轨都至少半满。他的玩家吉姆决定让这五级档次溢散，并施展一个较弱的法术。<br><br>　　因为哈利让5个档次溢散，GM让他的攻击变成对一个目标进行武器值：2的尚可攻击。而那名敌人轻易地躲过了。<br><br>　　至于溢散的效果，GM决定让哈利毁了一面支撑建筑的墙面，在场景上建立一个「房屋崩塌」的形象。现在他不只在战斗中勉力支撑，还要面对一栋快垮的房子……</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_932382">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_932382_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg932488"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_932488_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_932488">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932488#msg932488" rel="nofollow">定式法术</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_932488'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_932488'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2018-06-22, 周五 19:17:38 &#187;</div>
+<div id="msg_932488_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_932488"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">定式法术Rote Spells</span></strong></span><br>如果巫师长期使用某一道召能法术，频繁到足以靠心里的「肌肉记忆」来施展。这样的话，这道法术就会变成<span style="color: maroon;" class="bbc_color"><strong>定式法术(Rote spell)</strong></span>。巫师能知道的召能术定式数量和传说技能相同。因此拥有极佳(+4)传说的巫师最多能知晓四道召能术定式。<br><br>　　定式法术需要是单一元素的特定用法，比如用火攻击、用气执行某种策略，或是用心灵预防。它在每次使用时效果、力量和造成的形象等等方面都完全相同。一旦改动任何变因，法术就不再算是定式。<br><br>　　定式法术最大的优点是不用投掷自律来控制。它假设你可以控制相当于自律等级的法术能量，让你每次掷骰都像投出零一样；不过你仍然需要投掷自律来指引法术，只是不会意外失败而已。如果将法器与定式绑定，法器的加值会自动加上，只是有件事要注意：如果巫师用法器施展定式，那他每次施展定式都需要这件法器。(所以哈利战斗时没有法杖和霹雳权杖才会那个紧张－－他失去了定式法术的优势，每次施法都需要像普通的召能术一样掷骰。)<br><br>　　你可以在施法后引用形象和其他类似的技巧，就像平常丢出零之后一样<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">哈利．德列斯登把他的「秉畀炎火！」设为定式，让他在用火魔法攻击单一目标时，可以不必掷骰控制。他将霹雳权杖绑定这道定式，以便用视同极佳(+4)的自律来控制法术。他的信念要替法术生出四档力量毫无问题，所以他将力量设在这个层级。于是，这道定式是一个武器值：4的火法术。</span><br><br>　　最后，你还是可以施展更强的定式，比你自律掷骰出零时所能控制的还强；但除非引用形象来改变结果，不然法术会自动溢散或逆火。这招显然不适合胆小鬼，但还是可以当成压箱绝招，在破釜沉舟之际仍可以造成重大伤害。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_932488">
+&#171; <em>上次编辑: 2018-06-22, 周五 23:09:02 由 月伶</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_932488_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg932513"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_932513_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_932513">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.msg932513#msg932513" rel="nofollow">其他变因</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_932513'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_932513'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2018-06-22, 周五 22:46:23 &#187;</div>
+<div id="msg_932513_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_932513"><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 14pt;" class="bbc_size">其他变因Other Parameters</span></strong></span><br>我们目前为止的讨论尚未处理到某些召能术的用法和相关因素。所以下就是「杂项」了。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">蓄意巫扰Deliberate Hexing</span></strong></span><br>虽然巫师干扰科技产品通常是施法时的意外，但他也可以故意这么做，集中能量以干扰电子产品和其他装置。这么做比施展其他类型的召能术要来得容易－－甚至无需使用召能术异能，只要有某种施术训练就够了，因为你不必指挥某种特定的元素或力能。此外，你也不用承受平常召唤力量时的1点压力，就能对付大部分的科技产品。<br><br>　　几乎从工业革以降的每一种科技产品，只要有某种可动零件，就能用巫扰影响。一般来说，越负责的装置就越容易被干扰，所以越现代(特别是电脑控制的东西)越容易出包，而老技术(非电子的东西)就比较难破坏。 这里的表格指出了巫扰法术需要多少力量。<br><br>　　一般攻击目标的调整值在这里也适用，将每个装置都看做是一个目标。这代表如果你想要弄坏一整组人的枪，你需要依前文的攻击规则，花费额外档次废掉整个区域的枪，或把足够的力量分给每一把枪<br><br>　　巫扰不能操作科技产品，只能用来破坏。除非要靠破坏装置来达成，否则你无法用巫扰执行策略。因此如果大楼配备了换气系统将瓦斯抽出去，你可以巫扰控制面板，建立「充满瓦斯」的形象，但不能选择瓦斯从哪流进来。<br><br>　　非常老的巫师能轻松巫扰他们年代的东西，所以哈利可以正常驾驶福斯金龟车，但有些高等异会成员的秘所看起来跟1599年没两样。下面的表假设巫师的年纪不到五十岁－－做为参考，你可以把「力量1」那一栏设为巫师会大惊小怪的科技(所以对于那些真的来自1599年的巫师，任何东西都可以塞在力量1那格)。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">蓄意巫扰表</span></strong></span><br><table class="bbc_table"><tr><td><span style="color: maroon;" class="bbc_color"><strong>力量需求</strong></span><td><span style="color: maroon;" class="bbc_color"><strong>会受影响的科技</strong></span></tr><tr><td>1　　　　<td>高度敏感、复杂的电脑技术－－那些一撞就坏的东西。最新的尖端和原型科技。</tr><tr><td>2　　　　<td>复杂(或是简单却敏感)的电脑技术。特殊、新潮或而贵的科技产品。</tr><tr><td>3　　　　<td>简单的电子设备。桌电、笔电和其他家用电脑。大部份的现代车辆。</tr><tr><td>4　　　　<td>比较复杂的现代枪枝(像是自动武器)。包括近几十年在内的多数车辆。1967以后出现的有趣玩意。</tr><tr><td>5　　　　<td>即使没有电子设备的车子也会开始出问题－－除了一些特别的例外，1950以后上路的车子都会开始出包。一些比较小的火器也会受影响，不过简单的枪种多少还可以撑一段时间。旧式的自动武器也尚可运作。</tr><tr><td>6　　　　<td>连你的表也无法幸免。甚至让你靠近福特T型车都有点可怕。电子产品基本上都出局了。</tr><tr><td>7　　　　<td>凡是来自二十世纪的东西都会坏掉。十九世纪末的东西也可能出事。简易枪械可能在不对的时机失去功能。即便蒸气动力产品都可能突然故障。</tr><tr><td>8+　　　<td>差不多工业革命后(十八世纪末到十九世纪初)有可动零件，甚至更久以前的东西。这已经是科技时代的开端。</tr></table><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">简单效果Mundane Effects</span></strong></span><br>有时候，你会想要制造一些没什么实效，但可以为场景增色的效果。常见的例子像是光亮法术，除了照亮周围的光以外很少造成其他影响。像这样的简单效果一般算做是召能术策略；不过它们不太需要掷骰或造成压力，特别是用上巫师的五芒星或法杖的法器的时候。你可以把他们看做是「学前法术」－－巫师在学徒生涯的最初就学过它们了。施展任何这类次要效果都无须掷骰，它们会免费持续一个场景。充其量，一个命运点就足够用次要效果抵销场景里的不便形象。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">延续法术Prolonging Spells</span></strong></span><br>有时候，巫师会需要将法术效果维持一阵子，当法术效果是预防或策略时尤其如此。通常你可以分配力量档次让法术多延续一回合。然而这样的话，强大的法术效果只能维持很短一段时间。<br><br>　　或著，你可以继续对召能术灌注能量来维持它，不过这会占去你这回合的标准行动。这在实行上和为另一个法术掷骰是一样的。为你希望法术延续的每个回合召唤一档力量，并在投掷一次自律来控制。这会像普通的召能术一样占用你的行动及造成心智压力；但好处是你不需要牺牲法术原本的效力－－它可以保留原本的力量等级。成功的话，法术效果会维持到时间结束。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">哈利被一群拿冲锋枪的歹徒伏击，他第一时间展开盾牌－－没有分配档次给持续时间－－以活过第一回合的突袭。<br><br>　　在下个回合，哈利发现他需要一个长时间的盾牌。于是他承受一点心智压力召唤4档力量，让盾牌能保护他四个回合而不必分心维持。他投掷自律并获得了延续法术需要的极佳。盾牌能在这回合及之后的三个回合持续生效。</span><br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">溢散之外的财产损失Property Damage Without Fallout</span></strong></span><br>即使自律掷骰稳定地控制住能量，全力释放法术的巫师也很难避免对周围造成各种意外。说得准确点，只要你对怪物放出的那一大团火球失手了，场景里就很可能有东西着火。虽然照规则来看并不会发生溢散，但附近有团火绝对是实在而立即的危险－－你可以把巫师选择的元素当作是种「氛围」场景形象，能用来创造强迫的机会，或是满足某些形象的条件。<br><br>　　决定这是否影响场景是GM的事(如果是的话尽量保持灵活)。从四散的元素推想可能发生什么事，也许是在场景中增加一个形象或只是让事情的发展更混乱一点。比较好的做法是不要马上创造场景形象(毕竟玩家的自律掷骰成功了)，把掷骰推迟到有人要用这件事创造场景形象的时候，比如：「他丢了一堆火魔法；我可以把油桶踢倒引发真正的火灾吗？」<br><br>　　这里有些关于财产损失的点子：<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>火焰能点燃易燃物并蔓延开来。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>水可以让魔法搞不定的电路短路；冰可以扩大既有的裂缝和造成路面湿滑。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>风可以吹落旁边的杂物、掀起雾霾干扰视线或是提供火焰更多氧气。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>地震可以损伤建筑地基；磁场可以把任何金属和电力系统搞得一团糟。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>力场效果可以破坏支撑结构和打坏东西；灵界中的效果可能会吸引幻界中的次级灵体，让事情变得诡异和难以预测。<br><br><span style="color: maroon;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">重塑法术能量Redirecting Spell Energy</span></strong></span><br>有时你把能量用来施展一个召能术，却发现当下需要的是其他效果，而不是你选的这个。预防最常发生这种问题－－你举起某种手中维持的盾牌，才发现需要的其实是攻击或策略。当然你可以直接施展别的法术，但有时巫师需要节省资源－－比如恶魔马上要啃掉他脸的时候。<br><br>　　在这种情况，你有另一个选择－－挪用现在这个法术的能量，将档次用来施展其他召能术而不必重新掷骰。要这么做有一些限制：<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>该法术必须是从上回合维持至今的。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>该法术不能在这回合发挥过原本的用途。<br><span style="color: maroon;" class="bbc_color"><strong>．</strong></span>你必须能描述能量为何可以被重塑。<br><br>　　如果符合条件的话，你可以将法术目前的力量值来施展别的法术。如果新法术需要掷骰对抗目标(比如攻击或策略)，投掷你的自律。先前的效果会立即解除，因为已经没有能量维持前一个法术。<br><br><span style="color: maroon;" class="bbc_color"><strong>举例：</strong></span><span style="font-family: 黑体;" class="bbc_font">监察人卡洛斯．拉米雷兹和哈利．德列斯登正在和白宗室的吸血鬼凶残地生死相搏。食尸鬼也跟着卷入混战，战斗场面几乎失控。卡洛斯用了他的水盾定式撑过大部分的战斗；水盾目前剩余的强度是四档。他还能维持一个回合。<br><br>　　在下个回合，GM说有个食尸鬼冲向他们两个，现在轮到卡洛斯。卡洛斯的玩家JJ说： 「嘿，我的水盾概念是无常对吧？不管什么碰到都会瓦解，那我可以用它去拦截那个东西，用侵蚀的方式攻击他吗？」<br><br>　　JJ的解释看起来可行，而且卡洛斯这回合也没用盾牌预防。GM 思考以后说：「Ok，但既然要使用这个法术的能量，你这回合就没有盾牌可以用了。」JJ 同意；GM要他投掷自律(因为他要将预防变成攻击，需要瞄准掷骰)，让他能用武器值：4的水攻击。他的掷骰结果出奇地好，于是GM描述食尸鬼一被盾牌砸中就瞬间溶化了。</span></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_932513">
+&#171; <em>上次编辑: 2018-06-22, 周五 23:17:09 由 月伶</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_932513_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=82588.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=82588.0"><span>《巫师神探RPG》第七章．施法</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 82588,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 82588,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="82588" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=82588.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 7103 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 82588,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

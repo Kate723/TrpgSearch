@@ -1,0 +1,1335 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="《神话创世RPG アマデウス》规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>《神话创世RPG アマデウス》规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'f44b5891ed6981bd924221a0a1c60a0e');">
+<div class="info">请 <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login">登录</a> 或 <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="83874"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'df2b2b745',
+sSessionId: 'f44b5891ed6981bd924221a0a1c60a0e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"><span>资源分享区</span></a> (版主: <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0"><span>《神话创世RPG アマデウス》规则</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg788186"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=printpage;topic=83874.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.20">2</a> <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.20">&#187;</a>   &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 《神话创世RPG アマデウス》规则 &nbsp;(阅读 15912 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=quickmod2;topic=83874.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('f44b5891ed6981bd924221a0a1c60a0e', 'df2b2b745') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788186_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788186">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788186#msg788186" rel="nofollow">《神话创世RPG アマデウス》规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788186'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788186'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2016-04-06, 周三 11:29:26 &#187;</div>
+<div id="msg_788186_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788186"><span style="font-size: 12pt;" class="bbc_size"><strong>　欢迎来到神话的世界！<br>　接邻在我们所常知的现实旁，还有着广阔的不可思议世界。那个世界被绝望之闇所掩盖，而为普通人所不可知。在那里，神话中的众神与怪物依然存在着。<br>　『神话创世RPG アマデウス』〈以下称「アマデウス」〉，是在现代的神话世界进行冒险的RPG。<br>　诸位被谜般的预言所引导，向着绝望之闇的彼侧出发。邪恶众神的阴谋、吞食人们记忆与历史怪物的战斗，都在彼方等待着你们。<br>　能够夺回与同伴一起失去的世界与故事吗？成败与否，端决于诸位的活跃。<br>　首先，让我们阅读关于冒险的规则，你不需要将其背诵下来。在最初的冒险时，从头到尾预先读过一遍即可。而后在阅读游戏记录(リプレイパート=Replay)时就会更容易理解。<br>　那么，找到一起玩「アマデウス」的同伴，来展开冒险吧。<br>　诸位成为アマデウス=神子，往神话世界启程！</strong></span><br><br><strong>游戏方式</strong><br>　「アマデウス」，是以闲谈讨论、并掷骰子来享受在异世界中冒险的桌上型角色扮演游戏的一种。<br>　这个游戏，需要扮演角色，以自己所做出的角色来进行冒险。虽说如此，但演技也不是必须的要素。以那个角色来思考行动，并且充分传达出意向。实际上该如何来进行角色的行动，可以参考游戏纪录的部分。<br>　以下的规则部分，载明了该如何进行游戏的方式。但是，桌上型角色扮演游戏是变化万千而多采多姿的，因此也会出现规则中没有详细提及的状况。玩家如果想要采取规则中未载的行动，游戏主持人可以依照游戏的乐趣来自由变更、调整规则的机制。或是依照那个状况来订定出新的规则。<br>　此外，在对规则的判断有所困惑时，由游戏主持人做出最后的裁定。这个裁定在每个剧次中都可以改变，依照场合在不同剧次中，即使是同样的状况也可以改变裁定。总之是以能获得乐趣来作为核心的原则。<br>　并且，各个玩家要遵从游戏主持人的裁定。<br><br><strong>アマデウス中的神话</strong><br>　「アマデウス」是以「神话」为基调的RPG。在剧次中，会有许许多多耳熟能详与神话相关的情态与局势发生。不过，这些可能与自己所认知的知识有些许出入。<br>　这时，对游戏主持人所设定的剧本、或其他玩家的PC设定说「这是错误的」，违反了「アマデウス」的礼貌。<br>　神话与传说存在着许多的说法与变体，而没有详细厘清的部分也很多。也许，那是你所理解错漏的一小部分也说不定。另外，在「アマデウス」中，神话是指「为最多人所通晓的故事」。也会有「现在也许已经厘清这个误解，但许多人还是相信着过去的常识」的背景与怪物及PC出现，在这「アマデウス」的世界设定中都是正确的。并且，在这边所说的，是「アマデウス」中的设定，而不是学术研究的讨论，在游戏的世界中是否有隐瞒的真相，由游戏主持人与玩家，在剧次中决定。而当下，就尽可能的注意，不要去破坏了其他参加者的想像。<br>　进行「アマデウス」的游乐时，各个参加者就将神话的内容当作是材料。从自己所知道的神话中，挑选出有趣的部分，即使是有所延伸也没什么问题。<br><br><strong>0.01游戏用语集</strong><br>nD6：投掷n个骰子，并得到其合计值。<br>D66：投掷两个骰子，以小的数字为十位，大的数字为个位，而得到一个从11~66的数字。<br>【】：用以表示游戏中的特殊资料。例如角色的能力值、生命力、思念、恩惠、道具等等。<br>[ ]：用来表示计算式。在《神子》中，计算的结果如果有小数时，除了特别注明的状况，都是无条件舍去。<br>〈〉：用来表示《神子》世界中的专有名词。<br>剧次：セッション(session)，在《神子》中，进行一次游戏称为剧次。<br>阶段：フェイズ(phase)，将剧次大致切分。分为角色登场并且展开冒险的导入阶段，冒险中的冒险阶段，与最大敌人战斗的决战阶段。<br>场景：シーン(scene)，在导入阶段与冒险阶段使用，将阶段切分为更小的部份。角色登场并进行一些重要的活动。在冒险阶段中的一个场景，大致上等同于角色的一次行动。<br>回合：ラウンド(round)，在剧本中进行战斗时使用的分切。与冒险阶段中的区分场景不同，一个回合能让多数角色都进行重要的行动。<br>GM：游戏主控者，ゲームマスター(Game Master)的缩写，包括撰写剧本、引导游戏进行、裁判规则、与角色进行扮演对话等都是由其进行。<br>柱：神的数量词，一柱、二柱的来称呼。<br>玩家：プレイヤー(Player)，使用神子的角色、来挑战剧本的游戏参加者。每个人创造自己的角色，来参加游戏。<br>角色：キャラクター(Character)，在游戏中登场的假想人格。玩家操作自己专用的角色来进行游戏。<br>PC：玩家角色，プレイヤーズ・キャラクター(player character)的缩写。透过冒险来彰显个性。<br>NPC：非玩家角色，ノンプレイヤーズ・キャラクター(non player character)的缩写。PC以外的神子、诸神、凡人的友人、怪物等等。基本上是由GM来代为操控。<br>角色纸：用来记录角色的姓名、外表、游戏中的能力等等资讯的文件。复印后填写。<br>脚本：(シナリオ=scenario)，GM准备在一次剧次中使用的资料。<br>预言卡：写有与冒险有关的情报之卡片。没有满足特定的条件，不能谈论背面的【真实】所写的内容。<br>命运之轮与因果：剧次中，表现游戏内世界氛围所使用的盘板。因果是放置于盘板上的指示物。通常使用硬币或筹码标示。这关系到使用恩惠的条件。<br>遭遇板盘与威胁卡：用来管理站在PC之前的怪物用资料所需要的卡片与盘板。<br>表：用nD6、D66等书写来表示随机决定的表格，当指示使用特定表格时，依照该表格的指定方式来掷骰，并且得到骰子出目所对应的结果。<br><br><strong>0.02世界设定‧用语集</strong><br>神：被称为神话生物的一种情报生命体。在古代，创造了世界，并占据主导的地位，而后感到人类的时代到来，因此移住到别个次元。具有绝大的力量，但禁止直接干涉现世。<br>神群：因为文化的差异而区分为不同的神的集团。例如希腊神群、大和神群、埃及神群、克苏鲁神群等。在延伸书籍中预定追加北欧神群与中华神群。<br>神子：神为了干涉现世而促成的存在。以各种方式给予神之血，而能使用特殊的力量。<br>恩惠：神子透过人类的肉体这个容器与上层连结，获得能够影响现实世界的神力。给予的能力与亲神的权能有关。<br>思念：爱情或是嫌恶，一个角色对于另一个角色所抱持的情感。有正面(プラス)或是负面(マイナス)的不同。思念可以对于世界造成稍稍的改变。<br>预言：神对于神子所告知的未来情报。但不一定都是令人开心的消息。<br>命运：实现预言的无形之力。但未来并不是斩钉截铁的确定了。神子可以试着在命运的波澜中扭转，让未来变动为比预言所示出更冀望的方向。<br>因果：改变命运的力量。透过冒险，来筑成因果，神子将情报生命体的诸神之力活性化。<br>恶魔：失去了对世界与人类的爱，而犯下凶行的神。已经被所属的神群所放逐。<br>万神殿：为了对抗恶魔，数个神群所联合设立的组织。支援在现世中神子的冒险。<br>怪物：凭依在人类上，再次上演自己故事的神话生物。透过夺取凭依对象与周遭众人的记忆来强大自己的力量。<br>绝望之闇：使普通人陷入疯狂的黑暗，根据怪物所引起的悲剧和不幸，黑暗会逐渐变得浓厚。<br>绝界：被绝望之闇所复盖，发生神话灾害的区域。在绝界中的一般人，会陷入故事之中，成为怪物的牺牲者或是服从怪物的存在。而当绝望之闇到达了一定的浓度，绝界会与现世开始切离，而成为不存在众人记忆中的魔界。<br><strong><br>目录</strong><br>1.角色作成<br>2.命运之轮<br>3.行为判定<br>4.剧次<br>5.导入阶段<br>6.冒险阶段<br>7.调查与预言<br>8.交流与思念之力<br>9.冥想<br>10.术式<br>11.休憩<br>12.自由行动<br>13.主控回合<br>14.战斗<br>15.决战阶段<br>16.结束阶段<br>17.GM与剧本<br>18.怪物与威胁<br>19.世界设定<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788186">
+&#171; <em>上次编辑: 2017-05-03, 周三 10:09:17 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788187"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788187_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788187">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788187#msg788187" rel="nofollow">角色作成</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788187'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788187'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2016-04-06, 周三 11:32:55 &#187;</div>
+<div id="msg_788187_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788187"><em><strong>人是万物的尺度：是存在者存在的尺度，也是不存在者不存在的尺度。<br>──柏拉图《泰阿泰德篇》普罗泰戈拉之言</strong></em><br><br>　在此，向着初接触「アマデウス」的玩家，说明角色作成的规则。这边所介绍的规则，是PC所使用的作成规则。而在角色成长时，会需要参考其他资讯。<br>　角色大致上分为五个项目所构成，「基本设定」、「能力值」、「恩惠」、「所持金与道具」、「人物栏」。每个玩家，在角色纸上，依照这些项目依序设定来作成角色。<br>　第一次参与「アマデウス」游戏的话，请从网页的下载区列印出角色纸。<br><br><img src="http://i.imgur.com/27uIFEQ.jpg" alt="" class="bbc_img"/><br><br><strong>1.01基本设定</strong><br>　首先，决定好PC的基本设定。<br>　基本设定有，「等级」、「神群」、「亲神」、「属性」、「背景」、「个性」。<br><br><strong>1.01.01等级</strong><br>　等级，表示该神子的强度。<br>　角色作成时的PC等级为1。透过历经剧次累积经验，等级会有所上升。<br><br><strong>1.01.02神群</strong><br>　神群(クラスタ=cluster)，是在每个神话中所形成的众神之组织。也被称为神族。<br>　神群分为「希腊神群」、「大和神群」、「埃及神群」、「克苏鲁神群」等四种。各神群的解说请参考「神群与背景」的部分。参考过后，选择一个属意的填入角色纸。<br><br><strong>1.01.03亲神</strong><br>　亲神是，授予自己PC力量的神祇。PC因种种不同的事由，而继承了〈神之血(イコル=ichor)〉，成为神子作战。<br>　参考「神群与背景」的「神名录」，从自己的神群中，选出一柱亲神。在确定了亲神之后，将其资讯填入角色纸上。<br><br><strong>1.01.03.01与亲神的关系</strong><br>　在决定好亲神时，同时要设定自己与亲神的关系。<br>　大部分的神子都是亲神所直接留下的子嗣。但像是阿提密斯与雅典娜等，宣誓贞洁之神，不是以产子，而是在属意者的梦中显现，将〈神之血〉分与其身。诸神会特意关爱与自己有相似资质的人。<br>　对与亲神的关系犹豫不决时，可以使用「境遇表」来随机决定。<br><br><strong>1.01.04属性</strong><br>　属性是，森罗万象的世界中角色与物体等所拥有的内在本质。<br>　以红、蓝、绿、白、黑的五色的颜色来表示，具有以下的意义。<br><br><table class="bbc_table"><tr><td><strong>颜色</strong><td><strong>意义</strong></tr></table><table class="bbc_table"><tr><td>红　<td>情热、愤怒、炎、都市、破坏</tr></table><table class="bbc_table"><tr><td>蓝　<td>慈爱、臆病、水、海、治癒</tr></table><table class="bbc_table"><tr><td>绿　<td>欢喜、堕落、大地、森、成长</tr></table><table class="bbc_table"><tr><td>白　<td>惊叹、耻辱、风、空、创造</tr></table><table class="bbc_table"><tr><td>黑　<td>绝望、悲叹、暗、宇宙、死</tr></table><br>　PC的属性，与该PC的亲神相同。亲神的属性记载在该亲神页面的属性项目。<br><br><strong>1.01.05背景</strong><br>　背景，是环绕着PC的预言所表现的倾向。在新的神话创世中，担负著怎样的角色职责。背景有「创世之子」、「灾厄之子」、「引导之子」、「兽之子」与「传说之子」共五种。<br>　与背景相关的解说，详见于各背景的分页。<br>　阅读完解说后，为自己的PC选择其中一个适合的背景。<br><br><strong>1.01.05.01最初的预言</strong><br>　最初的预言，是PC诞生时，或是觉醒了神子之力时，所获取的预言。<br>　玩家，依照适合自己PC的背景，来决定最初的预言。如果对此没有明确想法，可以使用各背景中所设定的「最初的预言表」，随机来决定。<br><br><strong>1.01.06个性</strong><br>　个性，是指该角色的姓名、年龄、性别与职业等。由玩家自由来决定。<br>　如果对个性没有明确想法，可以从各表中，随机来决定各样个性。<br><br><strong>1.01.07经验</strong><br>　此处为PC纪录经验值的地方。该值达到一定数值时，等级会提升。最开始是0点。<br><br><img src="http://i.imgur.com/AS0md8K.jpg" alt="" class="bbc_img"/><br><br><br><strong>1.02能力值</strong><br>　决定角色的能力值。角色的能力值分为【武勇】、【技术】、【头脑】、【灵力】、【爱】、【日常】共六种类。<br>　分别具有以下的意义。<br><br><strong>●武勇</strong><br>　代表与战斗相关的经验以及斗争本能的能力值。这个数值越高，就表示越擅长勇敢的战斗。<br>　【武勇】值，用于进行攻击的<strong>命中判定</strong>，并且与角色作成时的<strong>生命力</strong>有关。<br><br><strong>●技术</strong><br>　代表擅长于某些事物的技能的能力值。这个数值越高，就表示越擅长操作或制作道具。<br>　【技术】值，用于在艰困旅行中的<strong>移动判定</strong>，并且与追赶敌人的<strong>追击判定</strong>有关。<br><br><strong>●头脑</strong><br>　代表理解事物的智慧与知识的能力值。这个数值越高，就表示具备越丰富的机知与学识。<br>　【头脑】值，用于探索各种情报的<strong>调查判定</strong>，看清怪物威胁的<strong>侦察判定</strong>，并且与追赶敌人的<strong>追击判定</strong>有关。<br><br><strong>●灵力</strong><br>　代表感受满布于世界上不可思议存在的能力值。这个数值越高，就表示越擅长借使世界之力。<br>　【灵力】值，用于尝试调和世界的<strong>冥想判定</strong>，并且与角色作成时的<strong>生命力</strong>有关。<br><br><strong>●爱</strong><br>　代表经历了与他人强烈的爱的能力值。这个数值越高，就表示越懂得爱以及被爱。<br>　【爱】值，用于和人相互思念的<strong>交流判定</strong>，以及向亲神祈求奇蹟的<strong>叹愿判定</strong>有关。<br><br><strong>●日常</strong><br>　代表身为凡人的生活力的数值。这个数值越高，就表示对人类社会的适应力越高。<br>　【日常】值，与在导入时决定所持金多寡的<strong>俭约判定</strong>有关。<br><br><strong>1.02.01能力值的评价</strong><br>　能力值通常以一个A、B、C的英文字母以及之后的正负号的组合来表示，该英文字母称之为<strong>层级</strong>(ランク=Rank)，而正负号称为<strong>调整</strong>(モッド=Mod)。<br>　层级，代表的是判定时所掷的骰子数。各个层级的评价请参考「层级表」。<br>　调整，代表的是掷骰后对达成值的修正。达成值，是对于挑战的判定，表示有多顺遂完成的数值。调整是正值时，达成值上升，是负值则达成值减少。各个调整的评价请参考「调整表」。<br>　层级与骰数，调整与达成值，相互的关系，详细请参考「行为判定」的章节。<br><br><table class="bbc_table"><tr><td><strong>层级</strong><td><strong>骰数　　</strong><td><strong>评价</strong></tr></table><table class="bbc_table"><tr><td>　S　<td>4　　　<td>惊人的奇蹟般</tr></table><table class="bbc_table"><tr><td>　A　<td>3　　　<td>超优越</tr></table><table class="bbc_table"><tr><td>　B　<td>2　　　<td>优越</tr></table><table class="bbc_table"><tr><td>　C　<td>1　　　<td>普通</tr></table><table class="bbc_table"><tr><td>　C　<td>1/2※　<td>不擅长</tr></table><br><table class="bbc_table"><tr><td><strong>层级　</strong><td><strong>骰数　　</strong><td><strong>评价</strong></tr></table><table class="bbc_table"><tr><td>+++　　<td>　+3　　<td>神般层级</tr></table><table class="bbc_table"><tr><td>++　　<td>　+2　　<td>英雄层级</tr></table><table class="bbc_table"><tr><td>+　　　<td>　+1　　<td>名人层级</tr></table><table class="bbc_table"><tr><td>无　　<td>无修正　<td>一般人层级</tr></table><table class="bbc_table"><tr><td>─ ─　　<td>　-1　　<td>有点危险</tr></table><table class="bbc_table"><tr><td>─　　　<td>　-2　　<td>绝望的</tr></table><br><br><img src="http://i.imgur.com/PldWZuy.jpg" alt="" class="bbc_img"/><br><br><strong>1.02.02决定能力值</strong><br>　能力值，会因亲神与背景而有所变化。各玩家请参照自己角色的亲神与背景的资料。<br>　首先，先参照该角色亲神的各血脉值。这是该角色各能力值的基本值。在角色纸各能力栏的评价栏位，将对应的各血脉值写上。<br>　接着，是背景内预言修正的全部效果。预言修正的效果有以下各种不同内容。<br><br><strong>●升阶 (シフト=Shift)</strong><br>　预言修正，是「升阶」时，选择喜欢的一个能力值，其层级提升一个阶段。<br><br><strong>●提高1 (1アップ=1Up)</strong><br>　预言修正，是「提高1」时，选择喜欢的一个能力值，其调整附上一个「+」号。如果该能力值原有的调整是「−」时，该能力值的调整变为「无」。<br><br><strong>●提高2 (2アップ=2Up)</strong><br>　预言修正，是「提高2」时，选择喜欢的一个能力值，其调整附上两个「+」号。如果该能力值原有的调整是「−」时，该能力值的调整变为「+」。<br><br><strong>●下降1 (1ダウン=1Down)</strong><br>　预言修正，是「下降1」时，选择喜欢的一个能力值，消除其调整的一个「+」号。如果该能力值原有的调整是「无」时，该能力值的调整变为「−」。如果该能力值原有的调整是「−」时，该能力值的调整变为「− −」。<br>其调整附上一个「−」号。如果该能力值原有的调整是「−」时，该能力值的调整变为「+」。<br><br>　各个预言修正，必须使用在不同项的能力值上。例如说，不能够将「提高1」与「提高1」的两个预言修正同时适用在【武勇】上，而使【武勇】的调整附上两个「+」号。<br>　也就是说，当自己的背景有三个预言修正时，必须要选择三种能力值，并且各自变动其层级与调整。<br>　当适用了所有的预言修正后，将各能力值的「骰子」与「修正」写进对应的栏位。参考「能力值的评价」，填写对应的层级与调整之值。<br><br><br><strong>1.03状态栏</strong><br>　决定角色的健康状况。健康状况分为【生命力】与变调。<br><br><img src="http://i.imgur.com/QMM1xOI.jpg" alt="" class="bbc_img"/><br><br><strong>1.03.01生命力</strong><br>　【生命力】是，该角色肉体的健康状态与战斗的意志力总合的表现。当该值为0点时，该角色就需要使用「致命伤表」。依照其骰子的出目，有死亡的可能性。【生命力】不会低于0点，但也没办法回复超过其最大值。<br>　在行动不能的状况下，不能进行大部份的动作。当【生命力】被回复到1点以上时，就会从行动不能的状况中回复。<br><br>致命伤表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 受到绝望的攻击。该角色死亡。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 发出苦痛的悲鸣，悽惨的倒了下来。该角色行动不能。并且，黑领域上的因果增加一个。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 武器受到攻击而碎裂，被敌人直击命中。该角色行动不能。并且，自己武器中的一个被破坏。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 受到强烈的一击而昏厥。该角色行动不能。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 勉强的保持住意识，但无法站起。该角色行动不能。在下一场景回复【生命力】1点。<br>&nbsp;6&nbsp;&nbsp;&nbsp; 奇蹟般的撑住。【生命力】维持在1点。<br><br><strong>1.03.01.01决定生命力</strong><br>　【生命力】的值，依照【武勇】与【灵力】来决定。从【武勇】与【灵力】的层级与调整，对照「生命力算出表」，依相应的层级系数与调整系数来计算。将算出的层级系数与调整系数合计加总，而得到【生命力】的最大值。在剧次开始时，各角色的【生命力】等同于最大值。<br><br>生命力算出表<br><table class="bbc_table"><tr><td>层级S<td>层级系数10　　<td>调整 + + +<td>调整系数6</tr></table><table class="bbc_table"><tr><td>层级A<td>层级系数7　 　 <td>调整 + + 　<td>调整系数3</tr></table><table class="bbc_table"><tr><td>层级B<td>层级系数5　 　 <td>调整 +&nbsp; 　<td>调整系数1</tr></table><table class="bbc_table"><tr><td>层级C<td>层级系数3　 　 <td>无调整 　<td>调整系数0</tr></table><table class="bbc_table"><tr><td>层级D<td>层级系数1　 　 <td>调整 ─ 　<td>调整系数-1</tr></table><table class="bbc_table"><tr><td>　　　<td>　　　　　 　<td>调整 ─ ─ 　<td>调整系数-2</tr></table><br><strong>1.03.01.02活力</strong><br>　在实际的剧次中，【生命力】还能提升等同【活力】的部分。【活力】是各剧次开始时的健康状态。【活力】是在导入阶段时决定。<br><br><strong>1.03.02变调</strong><br>　变调，是该角色内心纷乱或罹患病症的表现。通常状况下，角色没有受到任何变调的影响。但是在剧次中，被卷入各种麻烦时，就有受到某些变调影响的可能性。变调，有以下六种。<br><br>&nbsp;变调表<br>&nbsp;绝望　　内心涌出虚无感，处于看不到任何希望的状态。受到绝望变调的角色，所有修得的恩惠之条件都追加一个「黑」。绝望是，黑属性对应的变调。<br>&nbsp;愤怒　　因为愤怒与憎恶而忘记自我的状态。受到愤怒变调的角色，判定时，在选择色调骰子时，必须选择比较低的数字。愤怒是，红属性对应的变调。<br>&nbsp;臆病n　在面对斗争与暴力时，内心被恐惧所支配的状态。受到臆病变调的角色，自己造成的伤害减少n点。臆病是，蓝属性对应的变调。<br>&nbsp;堕落　　沉溺于快乐，而生出轻忽与怠慢之心的状态。受到堕落变调的角色，要损失一点【生命力】才能选择色调骰子。堕落是，绿属性对应的变调。<br>&nbsp;耻辱　　在意自尊心与面子而无法大胆行动。受到耻辱变调的角色，防御判定时，该能力值视为降低一阶。耻辱是，白属性对应的变调。<br>&nbsp;重伤n　肉体受到剧烈创伤，生命力缓慢流失。受到重伤变调的角色，在场景结束或是回合结束时，【生命力】减少n点，这个效应可以堆叠。角色受到重伤1与重伤3的变调，在场景结束或是回合结束时，【生命力】减少4点。<br><br><strong>1.04恩惠</strong><br>　恩惠，是神子所操纵的特殊能力。是亲神所给予的赠礼。<br>　恩惠，有以下四个种类。<br><br><strong>●泛用恩惠</strong><br>　只要是神子都能够修得的恩惠。全部的角色都可以选择修得。<br><br><strong>●神群恩惠</strong><br>　只有在特定的神群所属者中流传的恩惠。角色只能修得与自己同神群的神群恩惠。不能修得与自己神群相异的其他神群恩惠。<br><br><strong>●亲神恩惠</strong><br>　仅于在特定亲神的持有者中流传的恩惠。角色只能修得与自己同亲神的亲神恩惠。不能修得与自己亲神相异的其他亲神恩惠。<br><br><strong>●背景恩惠</strong><br>　围绕神子的预言的恩惠。角色只能修得与自己同背景的背景恩惠。不能修得与自己背景相异的其他背景恩惠。<br><br><strong>1.04.01修得恩惠</strong><br>　在作成角色时，玩家能够挑选修得四个恩惠。分别是以下四种。所修得的恩惠，将其资料，填写于角色纸上。<br><br><strong>●亲神的眷顾</strong><br>　【亲神的眷顾】是每个神子都会修得的恩惠。已经载明于角色纸上。为了要使用这个恩惠，要将亲神的权能，写在其标签栏位上。<br><br><strong>●亲神恩惠一种</strong><br>　参照自己亲神的资料，从里面所述的亲神恩惠中选择一个。将该资料，抄写于角色纸上。<br><br><strong>●背景恩惠一种</strong><br>　参照自己背景的资料，从里面所述的背景恩惠中选择一个。将该资料，抄写于角色纸上。<br><br><strong>●自由选择一种</strong><br>　在可能修得的恩惠范围中，选择一个喜欢的。同名的恩惠不能修得两个。在选择决定后，将其资料，抄写于角色纸上。<br><br><img src="http://i.imgur.com/QgtCxsh.jpg" alt="" class="bbc_img"/><br><br><strong>1.05所持金与道具</strong><br>　决定初期的所持金与道具。<br>　所持金，以<strong>神货</strong>做为货币单位。那是在诸神世界中所流通的货币。在冒险途中，向神话生物购买物品，或是要求提供什么服务，都要花费神货。<br>　道具，是各神子所获得的特殊道具。在冒险或战斗中使用。凡人看来只是普通的日用品，但在紧急时刻会改变外形，为神子们提供助益。<br><br><strong>1.05.01决定所持金</strong><br>　所持金的数值，是依照【爱】与【日常】来决定。从【爱】与【日常】的层级与调整，对照「所持金算出表」，依相应的层级系数与调整系数来计算。将算出的层级系数与调整系数合计加总，即为角色作成时的所持金。消耗这个值，来购买道具。<br><br>所持金算出表<br><table class="bbc_table"><tr><td>层级S<td>层级系数7　　<td>调整 + + +<td>调整系数3</tr></table><table class="bbc_table"><tr><td>层级A<td>层级系数5　　<td>调整 + + 　<td>调整系数2</tr></table><table class="bbc_table"><tr><td>层级B<td>层级系数4　　<td>调整 +&nbsp; 　<td>调整系数1</tr></table><table class="bbc_table"><tr><td>层级C<td>层级系数3　　<td>无调整 　<td>调整系数0</tr></table><table class="bbc_table"><tr><td>层级D<td>层级系数2　　<td>调整 ─ 　<td>调整系数-1</tr></table><table class="bbc_table"><tr><td>　　　<td>　　　　　 　<td>调整 ─ ─ 　<td>调整系数-2</tr></table><br><br><strong>1.05.02决定道具</strong><br>　每个角色，在角色作成时都拥有一个武器。请参考自己亲神的资料，将其上所写的神性武器资料抄写下来。<br>　接着，花费所持金，可以购买喜欢的道具。参照「武器表」与「消耗品表」，消耗与该道具的<strong>价格</strong>相同的所持金，买入一个该道具。将该道具的资料写在角色纸上。所持金不能低于0枚。<br>　每个角色，除了【食料】以外的道具只能持有三个。此外，与其他的道具不同，【食料】可以叠放五个。<br><br><strong>1.05.02.01武器的外型</strong><br>　PC所拥有的武器，平日会显现日用品的形状，在战斗时才会变回原本的姿态。在获得武器时，对于每件武器，都需要决定平时是什么外形。在没有特别的想法时，使用「日用品表」，随机来决定形状。<br><br>PC所持有的武器，平时是处于日用品的状态，在战斗时才会变为原本的形状。在获得武器的时候，拿持时是武器，而在变回平时要决定外表。无法决定的话，使用「日用品表」来随机决定外表。<br><br>&nbsp;日用品表 D66<br>11&nbsp;&nbsp;&nbsp; 镜子&nbsp;&nbsp;&nbsp; 23&nbsp;&nbsp;&nbsp; 餐具&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp; 螺丝起子<br>&nbsp;12&nbsp;&nbsp;&nbsp; 钥匙&nbsp;&nbsp;&nbsp; 24&nbsp;&nbsp;&nbsp; 喷雾器&nbsp;&nbsp;&nbsp; 44&nbsp;&nbsp;&nbsp; 球棒<br>&nbsp;13&nbsp;&nbsp;&nbsp; 伞&nbsp;&nbsp;&nbsp; 25&nbsp;&nbsp;&nbsp; 平板电脑&nbsp;&nbsp;&nbsp; 45&nbsp;&nbsp;&nbsp; 牙刷<br>&nbsp;14&nbsp;&nbsp;&nbsp; 胶带&nbsp;&nbsp;&nbsp; 26&nbsp;&nbsp;&nbsp; 笔记本&nbsp;&nbsp;&nbsp; 46&nbsp;&nbsp;&nbsp; 手套<br>&nbsp;15&nbsp;&nbsp;&nbsp; 梳子&nbsp;&nbsp;&nbsp; 33&nbsp;&nbsp;&nbsp; 戒指&nbsp;&nbsp;&nbsp; 55&nbsp;&nbsp;&nbsp; 钢笔<br>&nbsp;16&nbsp;&nbsp;&nbsp; 手机&nbsp;&nbsp;&nbsp; 34&nbsp;&nbsp;&nbsp; 电池&nbsp;&nbsp;&nbsp; 56&nbsp;&nbsp;&nbsp; 酒瓶<br>22&nbsp;&nbsp;&nbsp; 化妆品&nbsp;&nbsp;&nbsp; 35&nbsp;&nbsp;&nbsp; 手表&nbsp;&nbsp;&nbsp; 66&nbsp;&nbsp;&nbsp; 打火机<br><br><br><img src="http://i.imgur.com/86VSpiz.jpg" alt="" class="bbc_img"/><br><br><br><strong>1.06人物栏</strong><br>　角色纸上存在着人物栏。该栏位，是用以写入透过冒险所相识的诸神与伙伴、协力者、敌人的姓名的栏位。<br><br><strong>1.06.01协力者</strong><br>　人物栏底部的两个，是用以管理会对该PC提供协助的NPC。而将这NPC称为<strong>协力者</strong>。<br>　通常的人物栏中的【思念】，代表着「该PC，对于该人物栏所写的NPC有怎样的挂念」，而协力者的栏位代表着「该人物栏所写的NPC，对该角色有怎样的挂念」。<br>　当NPC对于自己的PC有着正面关系的【思念】时，该PC的玩家，可以把该NPC指定为自己的协力者。在协力者用的人物栏中，写下该NPC的姓名与【思念】的关系。协力者的人物栏没有「预言」的项目。之后，用此来管理此【思念】与关系。<br>　PC，可以对身为自己协力者的NPC，提出使用该【思念】来介入的请求。详细请参照「介入」的章节。<br><br><strong>1.06.02协力者的上限</strong><br>　协力者在管理上仅能有两人。如果符合自己协力者条件的NPC有三人以上，留下哪位，由该PC的玩家来选择决定。没有写入在该人物栏的NPC之【思念】，在该剧次结束时会同时消灭。<br><br><strong>1.06.03游戏开始时的协力者</strong><br>　初期的协力者，写入自己的亲神。<br>　人物名的部分就填写亲神的名字，并在【思念】的地方记下1。此外，还要设定与亲神的关系。基本上，与亲神的【思念】通常都是正面的。<br>　关系，由玩家自由设定，也可以使用「亲心表」来随机决定。<br><br>亲心表 1D6<br>1&nbsp;&nbsp;&nbsp; 可爱(正面)／傲慢(负面)<br>2&nbsp;&nbsp;&nbsp; 期待(正面)／威胁(负面)<br>3&nbsp;&nbsp;&nbsp; 得意(正面)／羞耻(负面)<br>4&nbsp;&nbsp;&nbsp; 爱情(正面)／无关心(负面)<br>5&nbsp;&nbsp;&nbsp; 有用(正面)／担忧(负面)<br>6&nbsp;&nbsp;&nbsp; 溺爱(正面)／执着(负面)<br><br><img src="http://i.imgur.com/B7bJMDi.jpg" alt="" class="bbc_img"/><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788187">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:21:09 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788188"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788188_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788188">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788188#msg788188" rel="nofollow">命运之轮</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788188'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788188'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2016-04-06, 周三 11:33:37 &#187;</div>
+<div id="msg_788188_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788188"><em><strong>人间的万事万物都是在命运的车轮上面，车轮的转动是绝不容许一个人永远幸福的。<br>──希罗多德《历史》第一卷</strong></em><br><br>　神子也就是PC们，被称为命运的不可思议机缘所影响着。这个命运具体化就是命运之轮。「アマデウス」在进行剧次时，需要将一张复印的命运之轮盘板放置在桌上。<br>　而PC也就是神子们，在进行各个行动时，都需要参照命运之轮。在命运之轮还没有到达适合的状态时，会无法充分发挥亲神的力量。<br><br><img src="http://i.imgur.com/XLOL7mf.jpg" alt="" class="bbc_img"/><br><br><strong>2.01觉醒阶段</strong><br>　在觉醒框位配置了一个以上的因果，就表示命运之轮的该领域已经觉醒。各个领域觉醒时，都可以进行该领域对应属性的行动。<br>　各领域，配置的因果到了一定数量，就会改变配置的觉醒框位。如何配置因果，参考以下表格以配置在对应的觉醒框位。<br>　另外，在完全没有放置因果指示物的状况称之为「凪」。而算上「凪」的状况，指示物所标记的觉醒阶段分为五个阶段。在越高的觉醒阶段，就能使用越为强大的恩惠。<br><br>觉醒框位(覚醒フレーム)<br>因果&nbsp; &nbsp;&nbsp;&nbsp; 觉醒框位<br>&nbsp;0个&nbsp;&nbsp;&nbsp; 凪<br>&nbsp;1~3个&nbsp;&nbsp;&nbsp; 第一阶段<br>&nbsp;4~6个&nbsp;&nbsp;&nbsp; 第二阶段<br>&nbsp;7~9个&nbsp;&nbsp;&nbsp; 第三阶段<br>&nbsp;10个&nbsp;&nbsp;&nbsp; 第四阶段<br><br><strong>2.02黑之领域</strong><br>　黑之领域，相较于其他属性的领域来说是特别的。黑之领域的觉醒阶段一但上升，就表示〈怪物〉的力量又增强了。这样一来，PC们的行动也会受到限制。表示环绕PC们的〈绝望之闇〉逐渐变得厚重深沉。而<strong>当黑之领域的觉醒阶段到达第四阶段时，剧次会强制结束</strong>。直接进行结束阶段的处理。<br><br><strong>2.03绝望之闇</strong><br>　〈怪物〉，会产生出被称为〈绝望之闇〉的阴霾一样之物，而将周遭环绕包复。这种烟霭，能够迷惑一般人的之决。而被其所复盖的事物，所见闻的人会理解成被扭曲的不同形式。<br>　例如，将在天空飞过的巨龙看成是战斗机，妖鸟赛莲的诡异歌声入耳当作是最新的流行歌曲，奇美拉所吐出的恐怖业火错觉当成是瓦斯爆炸。〈怪物〉，使用着〈绝望之闇〉来欺骗人类。而在需要牺牲者时传达错误的情暴来使人疏忽大意。另外，在意图隐瞒〈绝界〉存在时，让人觉得此处是禁止进入的，或甚至是不存在这样的地方。<br>　神子们，不会被〈绝望之闇〉所迷惑，而能明晰看穿〈怪物〉与〈绝界〉的假象。但是，在〈绝望之闇〉过于浓厚的地方，就连神子也可能无法察觉正确的资讯。此外，如果当〈绝界〉被〈绝望之闇〉所完全复盖时，这个地方会从人类世界所孤立。与这场所有关的情报全部都扭曲破灭。在世界中的人们，会失去这个地方存在过的记忆与纪录。因为这样而被断绝掉的〈绝界〉，特称为〈魔界〉。面对〈魔界〉，即使是神子，在没有强力的魔术或神器的协助下也难以介入。<br>　在〈绝界〉完全被〈绝望之闇〉所囚禁前─也就是黑之领域的觉醒阶段到达第四阶段前，打倒制造出烟霭的怪物，就是PC的神子们之目标。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788188">
+&#171; <em>上次编辑: 2016-04-06, 周三 14:44:02 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788189"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788189_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788189">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788189#msg788189" rel="nofollow">行为判定</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788189'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788189'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2016-04-06, 周三 11:34:09 &#187;</div>
+<div id="msg_788189_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788189"><em><strong>骰子已掷下。<br>─普鲁塔克《希腊罗马英豪列传》</strong></em><br><br>　在「アマデウス」中，当PC在做「不确定会成功或是失败」的行动时，会进行行为判定。<br>　可能是调查事件的线索、察觉谁也没注意到的隐藏之物、或是对某人坦白自己的思念，又或是攻击怪物等… 。PC在各种状况下，都会需要进行行为判定。而做各种各样的行为判定。<br>　行为判定，有时就简称为判定。<br><br><strong>3.01行为判定的流程</strong><br>　行为判定，依照以下顺序进行。<br>　依循①～⑤的顺序，逐项进行处理。<br><br><strong>①判定的种类</strong><br>　在进行行为判定时，由GM依据进行动作性质来判定，来决定要使用哪一个能力值。<br>　根据判断的不同，而决定该行为使用哪个能力值来做判定。<br><br><strong>②决定目标值</strong><br>　由GM来决定判定的目标值。<br>　目标值，依照判定的种类与规则来决定。没有特别提及目标值的的判定状况下，目标值为4。<br><br><strong>③投掷骰子</strong><br>　进行行为判定的玩家，依照使用的能力值，而投掷对应数量的骰子。<br><br><strong>④获得因果</strong><br>　假设，判定所投掷的骰子在两个以上，从骰出的出目中选择一个。这时选择的骰子称为<strong>色调骰子</strong>(ムードダイス)。<br>　确认色调骰子的出目。出目为1～5时，照着命运之轮，在出目所对应的领域放置一个因果。出目为6时，在喜欢的领域放置一个因果。<br>　在判定的骰子只有一个时，跳过这项流程，直接进行「算出达成值」。<br><br><strong>⑤算出达成值</strong><br>　接下来要算出判定的达成值。达成值是，代表裁断这项行动是否顺利的基准。<br>　从掷出的骰子出目中选择一个。这时选择的骰子称为<strong>行动骰子</strong>(アクションダイス)。<br>　确认行动骰子的出目。这个出目被称为达成值。接着，依照使用的能力值的修正值±0来修正，而依照修正值来让达成值增减。<br>　达成值，在目标值以上就是判定成功、而未满目标值就是判定失败。<br><br><strong>3.02行动骰子相关的特例</strong><br>　行动骰子的出目是6时，与达成值相关的判定即为成功。称之为<strong>大成功(スペシャル)</strong>。<br>　行动骰子的出目是1时，与达成值相关的判定即为失败。称之为<strong>大失败(ファンブル)</strong>。在大失败时，使用「大失败表」。<br><br><strong>注意</strong>：要判断大成功或大失败时，只看行动骰子的原始出目。即使是因为修正值而使达成值的结果增加，让达成值变成6，也不算大成功。而因为修正值而使达成值的结果减少，让达成值变为1时，也不算大失败。<br><br>大失败表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 命运之轮回转。红色领域上的因果移到蓝色领域，蓝色领域上的因果移到绿色领域，绿色领域上的因果移到白色领域，白色领域上的因果移到红色领域。这个移动是同时进行。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 给伙伴们添麻烦。自己以外的PC全体减少【生命力】1点。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 这个失败带来苦果。自己的【生命力】减少1D6点。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 过度的失败使大家的态度改变。对自己有最高【思念】的角色全员，反转【思念】的属性。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 内心大乱。遭受与自己属性对应的变调。(黑色为绝望、红色为愤怒、蓝色为臆病1、绿色为堕落、白色为耻辱)<br>&nbsp;6&nbsp;&nbsp;&nbsp; 周围失去了活气。命运之轮上除了黑色以外的领域都减少一个因果。<br><br><strong>3.03.01修正</strong><br>　行为判定，可能有各种的修正。<br>　使状况变得容易成功而有正面的修正。<br>　使状况变得容易失败而有负面的修正。<br>　在有修正的状况下，达成值会因为修正的值而有所增减。<br><br><strong>3.03.02绝望之闇的修正</strong><br>　在命运之轮的黑之领域觉醒的状况下，依照觉醒阶段的值，所有判定的目标值都会增加同样的数值。这被称为<strong>绝望之闇的修正</strong>。<br><br><strong>3.0303职业的修正</strong><br>　在剧次中，自己的PC因微小差距而判定失败时，该玩家可以使用职业修正。使用职业修正时，该判定的达成值上升1点。<br>　不过在使用职业修正时，必须要说明为何这个职业的特征或技术，能在这个判定中起到决定性的贡献。听取玩家的说明后，GM能理解这个说法，才能使用职业修正。<br>　在使用职业效果后，在职业栏记上划记。在有划记的情况下，不能再次使用职业效果。之后，如果要再使用职业效果，必须要将划记消除才行。<br><br><strong>3.04阶层D的判定</strong><br>　判定使用的能力值在阶层D以下的状况，使用特殊的掷骰方式。<br>　掷两个骰子。但不进行「获得因果」的流程，而是直接进行「算出达成值」的处理。<br>　在「算出达成值」时，从掷骰的出目中，选择一个<strong>较低数值的出目</strong>当作行动骰子。<br><br><strong>3.05同时行动的行为判定</strong><br>　之后会提到的俭约判定与移动判定进行时，是复数的PC同时进行判定。在这种情况下，玩家们自行讨论适合的顺序来决定，而一个个进行判定。色调骰子可能会造成命运之轮的变化。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788189">
+&#171; <em>上次编辑: 2016-04-08, 周五 09:48:32 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788190"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788190_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788190">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788190#msg788190" rel="nofollow">剧次</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788190'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788190'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2016-04-06, 周三 11:34:36 &#187;</div>
+<div id="msg_788190_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788190"><em><strong>绘画是没有文字的诗，诗是用文字写成的绘画。<br>──普鲁塔克《关于雅典人的名声》</strong></em><br><br>　进行一次〈アマデウス〉的游戏，称为<strong>剧次</strong>。<br>　剧次，基本上是由GM与玩家间的对话而进行。由GM叙述说明现况，各个玩家对GM宣告说自己的PC要对应以怎样的行为。GM依据宣告内容的用意，而决定会发生什么样的事。必要时，会使用各种的规则。<br>　具体上要怎么进行剧次，可以参考游戏纪录的内容。<br><br><strong>4.01剧次的流程</strong><br>　剧次会依照以下的顺序进行。<br>　每项的处理细节，请参照下述项目名称的页面。<br><br><strong> 剧次的流程<br>①剧次的准备<br>‧角色的作成<br>‧剧本的作成<br>‧准备必需物品<br>&nbsp;②导入阶段<br>‧发布预言<br>‧说明任务<br>‧决定活力<br>‧冒险的准备<br>&nbsp;③冒险阶段<br>‧开始轮序</strong><br>　PC全体都未行动。<br><strong>‧场景开始</strong><br>　决定场景玩家、登场人物、以及舞台。<br><strong>‧场景的行动</strong><br>　在舞台中进行演出，场景玩家的PC进行共一次的调查、交流、冥想、术式、休憩、或自由行动。<br><strong>‧场景结束</strong><br>　一旦PC全体都担任过场景玩家，则一个轮序结束。<br><strong>‧轮序结束</strong><br>　下一轮序的轮序开始。在经过规定的轮序次数后，进入决战阶段。<br><strong> ④决战阶段<br>‧战斗的准备<br>‧奋起<br>‧侦察回合<br>‧乱战回合<br>‧追击回合<br>‧结束时的处理<br>&nbsp;⑤结束阶段<br>‧强制结束的处理<br>‧后日谈<br>‧获得经验值<br>‧数据的调整</strong><br><br><strong>4.02剧次的准备</strong><br>　玩家依照「角色作成」的规则，完成自己的PC。<br>　GM则进行剧本的准备。<br><br><strong>4.02.01剧本的作成</strong><br>　GM在前一天就要完成剧本的制作。剧本包括了，游戏的开展与发生的特殊事件，以及怪物的资料数据等等。<br>　可以使用自己撰写的剧本，而对于还不熟悉桌上型角色扮演游戏的GM，也可以使用现成的模组剧本。一开始，推荐使用在官方网页所公布的「起始冒险」的剧本。或是使用本网页所提供的「起始冒险中译版本」。<br>　如果要挑战自己制作剧本，详细的制作方法可以参照「GM与剧本」的部分。<br><br><strong>4.02.01.01必需物品</strong><br>　在进行剧次的当天，需要准备以下的必需品。<br>●规则书<br>　〈神话创世RPG アマデウス〉的规则书。最少一本，如果每个参加者都人手一本的话会更方便。剧次的参加者，最好都能把游戏纪录读过一遍。不需要熟记所有规则，但是对于游戏的流程与概要有大致的概念的话，在进行剧次时会有更大的乐趣。<br>●笔记用品<br>　铅笔或自动铅笔，或是可擦的圆珠笔，有可擦的书写用具会比较好。<br>●骰子<br>　六面体的骰子，一个人大约需要五个。<br>●角色纸<br>　在管理每个玩家的PC时会使用到。张数需要同等于玩家的人数。可以从网页的连结中下载列印使用。<br>●命运之轮与因果<br>　在管理冒险中变化的因果时会使用到。需要一张。也是可以从网页的连结中下载列印使用。<br>●预言卡<br>　在管理事件的情报时使用。需要玩家的人数＋α的张数。详细上，可以参照「GM与剧本」章节。<br>●遭遇版盘与威胁卡<br>　在战斗时使用。遭遇版盘需要一张。而威胁卡，依照剧本中出现的怪物而有不同需求。详细上，可以参照「战斗」章节。<br>●小道具<br>　代表PC的小指示物。<br><br><strong>4.02.02当日的准备</strong><br>　以GM为中心，玩家全体围坐于桌。<br>　然后，玩家将自己PC的资料，交由GM来检查确认。有什么问题的话，在这时可以修正。<br><br><strong>4.03角色的状态</strong><br>　随着剧次的进行，PC的状态会有所变化。<br>　PC的状态，会有以下的各种不同。<br><br><strong>4.03.01未行动与行动完毕</strong><br>　各个PC，在冒险阶段与战斗时，都能进行一次行动。为了管理这点，角色会分为<strong>未行动</strong>以及<strong>行动完毕</strong>的状态。<br>　未行动，就是还没有进行主要行动的状态。在剧次开始时，每个PC都处于未行动。<br>　之后，玩家依照自己的顺序行动，在自己PC的主要行动处理完毕之后，该PC就变为行动完毕。例如，在冒险阶段，自己为场景玩家时，进行调查、交流、冥想、术式或休憩的处理结束后，就成为行动完毕。而在战斗中，攻击、移动或术式的处理结束以后，也成为行动完毕。<br>　在PC行动完毕后，在角色纸的等级栏上放置一个骰子。<br>　在剧次的进行中，特定的时间点时，各个PC会成为全体都未行动，此时，各个玩家将放置在角色纸的等级栏上的骰子移除。<br><br><strong>4.03.01.01补助行动</strong><br>　<strong>补助行动</strong>，就是一面进行其他行动，也能同时进行的简单行动。<br>　补助行动不是主要的行动。<br>　进行补助行动，不会成为行动完毕。并且，即使是行动完毕，也能进行补助行动。<br><br><strong>4.03.02生命力相关</strong><br>　当PC的【生命力】是0点时，该PC需要骰「<strong>致命伤表</strong>」(【生命力】不会到达0点以下)。依照骰子出目的结果，有死亡的可能性。<br><br>致命伤表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 受到绝望的攻击。该角色死亡。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 发出苦痛的悲鸣，悽惨的倒了下来。该角色行动不能。并且，黑领域上的因果增加一个。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 武器受到攻击而碎裂，被敌人直击命中。该角色行动不能。并且，自己武器中的一个被破坏。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 受到强烈的一击而昏厥。该角色行动不能。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 勉强的保持住意识，但无法站起。该角色行动不能。在下一场景回复【生命力】1点。<br>&nbsp;6&nbsp;&nbsp;&nbsp; 奇蹟般的撑住。【生命力】维持在1点。<br><br><strong>4.03.02.01行动不能</strong><br>　【生命力】为0点的角色，会陷入<strong>行动不能</strong>的状态。<br>　角色变为行动不能，因此而无法进行主要行动与补助行动。<br>　行动不能的角色在进行行为判定时，该判定自动失败。但是，恩惠的效果上有写「在行动不能时可以使用」的恩惠，那么在行动不能时就能使用该恩惠。此外，该恩惠如果有需要进行什么判定或行动的要求时，依照通常的规则来进行处理。<br>　透过某些效果，而把【生命力】变为1点以上时，就会从行动不能中回复。<br><br><strong>4.03.02.02死亡</strong><br>　依据「致命伤表」的结果，或是特殊效果导致角色死亡。死亡的角色，与行动不能的角色一样，不能进行主要行动与补助行动，并且判定自动失败。<br>　但是，恩惠的效果上有写「在死亡时可以使用」的恩惠，那么在死亡时就能使用该恩惠。此外，该恩惠如果有需要进行什么判定或行动的要求时，依照通常的规则来进行处理。<br>　死亡，只有透过特殊效果，或是叹愿才能回复。<br><br><strong>4.04使用恩惠</strong><br>　恩惠是亲神所授与的超常之力，而被称为恩惠。PC门驱使这个力量，与〈怪物〉作战。<br><br><strong>4.04.01恩惠的使用条件</strong><br>　要使用恩惠，首先要确认该恩惠的条件。使用恩惠需要命运之轮各领域的觉醒阶段，到达其所书写的条件以上。<br>　各个恩惠的条件，会以「红」、「蓝」、「绿」、「白」、「黑」等代表各领域的文字来记述。一个文字，就代表要对应该色领域觉醒阶段的一阶段。<br>　例如说，条件写「绿绿」的恩惠，需要绿的领域的觉醒阶段到达第二阶段以上才能使用。而条件写「绿红」的恩惠，则是需要绿与红领域的觉醒阶段，都到达第一阶段才能使用。<br><br><strong>4.04.01.01特殊的条件</strong><br>　在条件上写「※」，表示与自己的属性同一颜色的领域。而恩惠的条件中「※」的一个文字，就代表要对应自己领域的同色领域觉醒阶段的一阶段。<br>　例如说，蓝色属性的PC修得的恩惠其条件为「青※」，该恩惠要蓝色领域觉醒阶段到达第二阶段后才能使用。而蓝色属性以外的PC修得恩惠其条件是「蓝※」时，该恩惠则是在蓝色领域与自己属性相同的色的领域，觉醒阶段都到达第一阶段后才能使用。<br><br><strong>4.04.02恩惠的使用时机</strong><br>　恩惠，依照分类而有不同的使用时机。但是，尽管分类如此，未满足条件的恩惠还是不能使用。<br>　常驻的恩惠，常时持续发挥效果。<br>　补助的恩惠，依照效果上写的时机使用。分类是补助的恩惠，同名的一个恩惠，在一个场景中只能使用一次。而在战斗中则是一个回合能使用一次。<br>　术式的恩惠，在自己是场景玩家时，作为主要行动而进行。在战斗中，到了自己的行动顺序，能够取代攻击或行动而进行。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788190">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:24:26 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788191"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788191_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788191">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788191#msg788191" rel="nofollow">导入阶段</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788191'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788191'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2016-04-06, 周三 11:35:09 &#187;</div>
+<div id="msg_788191_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788191"><em><strong>开始是全部的一半。<br>──希腊俗谚</strong></em><br><br>　导入阶段，是对于冒险的背景与事件进行说明的阶段。GM对于冒险的导入部分进行说明。此外，各个玩家对其他玩家介绍自己的PC，并且作好冒险的准备。<br>　导入阶段，依照以下的顺序进行。<br><strong>①发布预言<br>②说明任务<br>③决定活力<br>④冒险的准备</strong><br><br><strong>5.01发布预言</strong><br>　将各个PC所对应的预言卡，分发给该玩家。<br>　在预言卡的正面，写着【暗示】。而在预言卡的背面，写着【真实】。【暗示】与【真实】，写有关于本次冒险的情报。<br>　但是，各个玩家，并<strong>不能将自己的【真实】的内容，透露给其他玩家知道</strong>。<br>　要共享【真实】的资讯，得要其他玩家进行调查，或是满足了【真实】所设定的触发条件才行。<br><br><img src="http://i.imgur.com/7AiQXXF.jpg" alt="" class="bbc_img"/><br><br><strong>5.01.01触发 トリガー</strong><br>　触发，是公开【真实】所需要满足的条件。在剧次中，只要达到上面所写的条件，之后，可以在喜欢的时机将【真实】公开。<br>　在还不熟悉〈アマデウス〉的情况下，当要公开【真实】时，为了以防万一，可以与GM确认是否满足了触发的条件。<br><br><strong>5.01.02唤问</strong><br>　【真实】在剧次开始时是非公开的情报。因此，有可能会对内容产生误解，却让剧次继续进行。为了避免这种状况，每个玩家，在剧次中，都有中断剧次，要求GM与玩家进行讨论的权利。这个行为称为唤问。<br>　GM在接受玩家唤问的时候，中断剧次，而与该玩家一起移动到另一个房间私下讨论。对于与【真实】相关的质问进行回答。<br>　唤问，也可以由玩家对玩家，或是GM对玩家来进行。<br>　在还不熟悉〈アマデウス〉的情况下，GM在导入阶段的时间点，可以对每个玩家做唤问，以确定其理解内容，或是接受提问。<br><br><strong>5.02说明任务</strong><br>　各个PC在【暗示】中，都已经决定了<strong>【任务】</strong>。GM则是要向各个PC解释原委，说明该【任务】所进行的挑战。<br>　而后，各玩家通过剧次，为了达成这个任务而展开行动。<br><br><strong>5.03决定活力</strong><br>　在导入阶段的最后会提升【生命力】的最大值。每个玩家投掷[自己的等级]D6。出来的合计值称为【活力】。在角色纸的【活力】栏位中记下该数值。<br>　【活力】只会增加【生命力】的最大值。并不会回复【生命力】的现在值。<br><br><strong>5.04冒险的准备</strong><br>　在PC全体都结束【任务】的说明后，最后进行冒险的准备。<br>　各个PC进行【日常】的判定。这个称为<strong>俭约判定</strong>。<br>　俭约判定成功的PC，获得与达成值等量的神货。而后使用神货来购入道具。参照「武器列表」与「消耗品列表」，来进行购物。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788191">
+&#171; <em>上次编辑: 2016-04-06, 周三 14:56:13 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788192"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788192_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788192">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788192#msg788192" rel="nofollow">冒险阶段</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788192'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788192'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2016-04-06, 周三 11:35:28 &#187;</div>
+<div id="msg_788192_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788192"><em><strong>当下的危险，将作为你我日后的经历。<br>──荷马《奥德赛》</strong></em><br><br>　冒险阶段，即为PC调查事件、旅行到达目的地的阶段。<br>　冒险阶段，依照以下的顺序进行。<br><strong>①轮序开始<br>②场景开始<br>③场景的行动<br>④场景结束<br>⑤轮序结束</strong><br><br><strong>6.01轮序与场景</strong><br>　冒险阶段，以轮序为单位来进行游戏。基本上，每个玩家会轮过一回，依照自己的顺序来进行。<br>　轮序开始时，谘询每个玩家，来决定要以怎样轮流来决定顺序。这个顺序就是场景(幕)，而轮到该顺序的玩家，被称为<strong>场景玩家</strong>。<br>　在场景结束后，决定下一个次序的玩家，开始其场景。这样依序轮流，玩家全体都轮过一次担任场景玩家后，该轮序就结束。<br>　再来就是新的轮序开始。<br><br><strong>6.02轮序开始</strong><br>　轮序开始时，PC全体都是未行动。之后，如果有特殊效果是在轮序开始时会生效，就进行其处理。<br><br><strong>6.03场景开始</strong><br>　场景开始，依照以下的顺序进行。<br><strong>①决定场景玩家</strong><br>　在此次轮序中，在尚未担任场景玩家的玩家中，选择一个来担任场景玩家。<br>　之后，如果有特殊效果是在场景开始时会生效，就进行其处理。<br><strong>②决定登场人物</strong><br>　选择在这个场景中登场的角色。<br>　场景玩家必然会登场。以外的PC的玩家，在与场景玩家互相同意时也可以登场。<br>　NPC登场与否，由GM自由决定。<br><strong>③决定舞台</strong><br>　由场景玩家选择舞台。<br>　舞台由场景玩家自由设定。如果在剧本中有设定「场景表」，则使用来随机决定舞台。有使用「场景表」的状况下，如今要再次到达剧次曾描述的场所，可以不投掷骰子，直接再次选择那个场所为舞台。这个称之为再访。<br>　但是，为了要到达剧本中的重要地点来做为舞台，可能会需要进行移动判定。详细上，可以参照「危险之旅」章节。<br><strong>④舞台的描写</strong><br>　以场景玩家为中心，对场景进行叙述。此时，GM以及其他玩家，还有场景玩家都可以参与协助叙述。<br><strong>⑤行动的处理</strong><br>　场景玩家的PC，在进行舞台的描写时，可以做一次主要行动。在自己的场景钟可以进行的主要行动，有以下五种。<br><strong>●调查</strong><br>　查看某人预言卡背面的【真实】。<br><strong>●交流</strong><br>　对某人提升【思念】。<br><strong>●冥想</strong><br>　调整命运之轮上的因果。<br><strong>●休憩</strong><br>　在场景登场的全体进行休憩。<br><strong>●术式</strong><br>　使用分类为「术式」的恩惠。<br><br><strong>6.03.01其他行动</strong><br>　以下的行动，能独立于主要行动外来进行。在场景中登场的玩家，即使是场景玩家以外的PC也可以进行。<br>　场景玩家的PC则是除了这些动作外，还能进行主要行动中的一种。<br><strong>●谈话与质问</strong><br>　与同场景登场的PC或NPC进行对话或质问。基本上无论说几句都可以，但是如果太过冗长时，场景玩家或是GM可以中断这个交谈。<br><strong>●观察</strong><br>　对于处于同一场景登场的人物、场所、道具、物体或状况等等，能够向GM询问详细的资讯。<br>　GM依照剧本的调性，做出即兴的回答。此时，如果提问者的状况无法观察，或是无法理解其质问的用意，也可以不回答。<br>　此外，如果在剧本中，与预想的没有直接的关联，可以回答「与这个事件没有关系」。<br><strong>●交递道具</strong><br>　在同场景登场的角色伙伴，能够多次的交付道具与所持金钱。或是废弃掉自己所拥有的道具。<br><strong>●使用消耗品</strong><br>　在满足使用时机的状况下，可以使用种类为「消耗品」的道具。<br><strong>●使用补助恩惠</strong><br>　在满足使用时机的状况下，可以使用分类为「补助」的恩惠。同名「补助」的恩惠，在一个场景中只能使用一次。<br><strong>●从场景中退场</strong><br>　场景玩家以外的PC，从场景中退场离开。但是，在主要行动正在处理中的状况下，要等到处理全部结束，不能中途就退场。<br><br><strong>6.04场景结束</strong><br>　场景结束。<br>　在场景结束后，该轮序又已经没有还未担任场景玩家的玩家时，就进行「轮序结束」的处理。<br><br><strong>6.05轮序结束</strong><br>　该轮序结束。如果该轮序，还没到达剧本设定的上限时，就移入下个轮序。<br>　否则，就进入决战阶段。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788192">
+&#171; <em>上次编辑: 2016-04-06, 周三 14:58:39 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788193"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788193_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788193">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788193#msg788193" rel="nofollow">调查与预言</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788193'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788193'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2016-04-06, 周三 11:35:47 &#187;</div>
+<div id="msg_788193_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788193"><em><strong>悲惨的真相。总是在不合时宜的时机被揭露。<br>──欧里庇得斯《酒神的伴侣》</strong></em><br><br>　调查即为，对于PC或NPC的预言卡背面所书写的【真实】进行探查的行动。<br><br><strong>7.01调查判定</strong><br>　在进行调查时，对于该场景所登场的角色，或是场景中的道具、事象等，将其选为目标，并进行【头脑】的判定。这被称为<strong>调查判定</strong>。<br>　调查判定成功时，可以得知目标的【真实】。在看到PC或NPC【真实】后，于人物栏中角色的【真实】栏位写上划记。<br>　目标如果并没有持有预言卡，则由GM对于目标与事件的关连来进行说明。<br><br><strong>7.02公开真实</strong><br>　在剧次中，玩家会得知多样的【真实】。但是，并<strong>不能对别人透露内容，不能告知那些不知道【真实】的人</strong>。要讨论【真实】的内容，需要那些知道的人移动到其他房间私下讨论，不能公开谈论。<br>　要在台面上自由的讨论【真实】，得要等到那个【真实】被公开之后。满足了触发的条件后，任何知晓该【真实】的人，都能去公开该张预言卡。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788193">
+&#171; <em>上次编辑: 2016-04-06, 周三 14:59:27 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788194"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788194_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788194">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788194#msg788194" rel="nofollow">交流与思念之力</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788194'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788194'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2016-04-06, 周三 11:36:18 &#187;</div>
+<div id="msg_788194_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788194"><em><strong>朋友是第二个自己。<br>──亚里斯多德《尼各马可伦理学》</strong></em><br><br>　交流即为，与自己以外的PC或NPC交谈、或相互触碰，以加深之间关系的行动。<br><br><strong>8.01交流判定</strong><br>　在进行交流时，选择在该场景登场的一个自己以外的角色为目标，进行【爱】的判定。这被称为交流判定。<br>　交流判定成功时，从以下选择其中一个效果来适用。<br><strong>‧自己对于目标的【思念】上升1点<br>‧目标对于自己的【思念】上升1点</strong><br>　当对于某人的【思念】上升时，更动人物栏该角色【思念】的数值。<br>　判定结果大成功时，前面所说的效果则适用两个(自己对目标的【思念】上升2点、或是相互的【思念】各上升1点皆可)。<br><br><strong>8.01.01思念的枷锁</strong><br>　在进行交流判定时，如果心中已经有在想着谁了，这会对交流产生妨碍。这被称为<strong>思念的枷锁</strong>。<br>　交流判定的目标值，会依据自己已经持有的【思念】中，上升等同于最高值的难度。<br><br><strong>8.01.02两情相悦</strong><br>　相互对于对方都有【思念】1点以上的两个角色，被称为<strong>两情相悦</strong>的状态。<br><br><strong>8.01.03关系</strong><br>　只要与角色有着【思念】1点以上的关连，该PC的玩家，就必须要设定对该人物的<strong>关系</strong>。并且在这时，要决定<strong>关系的属性</strong>。正面是好意、负面是抱持有敌意的状况。<br>　关系的属性，在每次【思念】上升1点以上时，都可以变更成其他种类。【思念】的上限是5点。<br>　在对关系没有明确想法时，可以使用「<strong>关系表</strong>」来随机决定。<br><br>关系表 1D6<br>1&nbsp;&nbsp;&nbsp; 恋心(正面)／杀意(负面)<br>2&nbsp;&nbsp;&nbsp; 同情(正面)／侮蔑(负面)<br>3&nbsp;&nbsp;&nbsp; 憧憬(正面)／嫉妒(负面)<br>4&nbsp;&nbsp;&nbsp; 信赖(正面)／怀疑(负面)<br>5&nbsp;&nbsp;&nbsp; 共感(正面)／不悦(负面)<br>6&nbsp;&nbsp;&nbsp; 珍惜(正面)／费事(负面)<br><br><strong>8.01.04NPC的思念</strong><br>　自己的PC获得其他NPC的【思念】在管理上可以有两名。当对于自己的PC有【思念】1点以上的角色超过三人时，每个玩家要选择留下那个NPC的【思念】。<br><br><strong>8.02与神的交流</strong><br>　交流的目标，也可以选择与神交流。但是，神也是NPC。在该场景登场与否，由GM决定。<br>　不过，神是非常独尊任性的存在。讨厌自己被忽略轻蔑。GM会代表神，在PC对于其【思念」上升时，关注该PC的【思念】所选择的关系。<br>　神必须在该PC所拥有的正面属性的关系中，拥有最高的【思念】，否则，其情绪就会受到伤害。此时，GM要将神与该PC的关系变更为负面属性。(不过有同样高的【思念】是没问题的)<br><br><strong>8.03介入</strong><br>　PC，对于有【思念】1点以上的角色，能够采取介入其行动的动作。<br>　介入就是，你对于抱持有强烈情感的对象，进行协助、或是妨碍的动作。PC以在该场景登场，并且具有其【思念】1点以上的对象为目标，进行介入的行为。介入，可以在以下的时机进行。<br><strong>‧目标进行判定而达成值算出之后(对判定的介入)<br>‧目标对谁造成伤害其值算出之后(对伤害的介入)</strong><br>　介入是依照【思念】的值，而对判定的达成值或是伤害进行增减。正面的关系使达成值或伤害上升，负面的关系使达成值或伤害减少。<br>　进行一次介入时，就在该人物上划记。不能对有划记的人物进行介入。之后，要再对该人物进行介入的话，得要等划记被消除掉。<br>　介入，在自己行动不能时也能进行。<br><br><strong>8.03.01NPC的介入</strong><br>　玩家，对于对自己的PC拥有【思念】1点以上的NPC，能够要求该NPC进行介入。<br>　玩家，在要求自己的协力者或是NPC进行介入时，就依照规则进行介入。<br>　但是在要求自己的协力者或是NPC进行介入时，必须要确认该NPC的性格与背景。如果判断那个NPC其实缺乏介入的动机时，这个要求会被驳回。<br><br><strong>8.03.02叹愿</strong><br>　在NPC中，如果神对于自己的PC拥有【思念】1点以上，玩家就能对神提出进行特殊介入的请求。这被称为<strong>叹愿</strong>。<br>　叹愿，是当某人的【生命力】为0点，或NPC死亡时可以进行。叹愿成功的话，【生命力】会回复到最大值，死亡的NPC能够复活。<br>　在进行叹愿时，选择一个人为复活的目标。此外，要挑战叹愿，必须给神献上供品。供品可以是，与该PC等级相等的神货、或是价值高过等级以上的一个道具。复活NPC所需要的供品，则是由GM来决定价值。<br>　消耗掉供品后，进行【爱】的判定。这被称为<strong>叹愿判定</strong>。叹愿判定时，如果神与该PC相互的关系是负面的话，目标值会上升神对该PC所拥有【思念】的值。<br>　叹愿判定成功时，目标的【生命力】回复到最大值。目标是死亡的NPC时，则目标复活。<br>　无论叹愿判定成功与否，只要挑战了叹愿，就要在该神上划记。不能对有划记的神进行介入。之后，要再对该神进行介入的话，得要等划记被消除掉。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788194">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:25:35 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788195"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788195_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788195">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788195#msg788195" rel="nofollow">冥想</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788195'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788195'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2016-04-06, 周三 11:36:37 &#187;</div>
+<div id="msg_788195_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788195"><em><strong>无物能由无中生，无物能归于无。<br>──卢克莱修《物性论》</strong></em><br><br>　冥想，是对命运之轮进行调整的行为。<br><br><strong>9.01冥想判定</strong><br>　在进行冥想时，做【灵力】的判定。这被称为冥想判定。<br>　冥想判定成功时，从以下的效果中选择一个来使用。<br><strong>‧从红、蓝、绿、白、黑的领域中各移除一个因果。<br>‧将红领域的因果移到蓝领域、蓝领域的因果移到绿领域、绿领域的因果移到白领域、白领域的因果移到红领域，所有的移动同时进行。<br>‧骰[自己的等级]D6。其合计值，如果超过自己的【活力】数值时，将其变更为自己的【活力】数值。这个效果，只会提高【生命力】的最大值，不会使【生命力】回复。</strong><br><br><img src="http://i.imgur.com/mKzmbFu.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788195">
+&#171; <em>上次编辑: 2016-04-06, 周三 15:02:50 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788196"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788196_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788196">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788196#msg788196" rel="nofollow">术式</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788196'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788196'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2016-04-06, 周三 11:36:55 &#187;</div>
+<div id="msg_788196_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788196"><em><strong>认识你自己。<br>──德尔斐的阿波罗神庙柱上所刻之箴言</strong></em><br><br>　使用自己所修得分类为「术式」的恩惠。但是，没有满足其条件、或是效果写着「战斗中使用」的，不能使用。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788196">
+&#171; <em>上次编辑: 2016-04-06, 周三 15:03:07 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788198"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788198_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788198">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788198#msg788198" rel="nofollow">休憩</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788198'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788198'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #11 于:</strong> 2016-04-06, 周三 11:37:14 &#187;</div>
+<div id="msg_788198_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788198"><em><strong>铜为映姿之镜、酒为映心之镜。<br>──埃斯库罗斯 断片</strong></em><br><br>　休憩是，在该场景登场的PC全体都能进行的特殊行动。进行休息会发生种种的随机事件。<br><br><strong>11.01休憩表</strong><br>　在进行休憩时，在该场景登场的所有PC，其玩家各自使用一次「休憩表」。<br>　并且，在休憩中，可以使用【食料】。<br><br>休憩表 D66<br>&nbsp;11&nbsp;&nbsp;&nbsp; 被栖息的怪物所袭击，虽然击退了，但是还是负伤。受到1D6点伤害。<br>&nbsp;12&nbsp;&nbsp;&nbsp; 窥视了美女入浴，骰1D6。受到「变调」，1~2「堕落」、3~4「耻辱」、5~6「重伤1」。<br>&nbsp;13&nbsp;&nbsp;&nbsp; 遭遇了贪婪的商人，在场景登场的角色都可以进行采购，但是物品的价格都比通常还要贵上1。<br>&nbsp;14&nbsp;&nbsp;&nbsp; 谈论自己的过去。为什么、有这么回事吗？在PC中，自己对其有最高【思念】的PC全体，关系的属性反转。<br>&nbsp;15&nbsp;&nbsp;&nbsp; 周遭的空气突然一变，命运之轮开始转动的预感。命运之轮上的因果，红移到蓝、蓝移到绿、绿移到白、白移到红，这个移动是同时发生。<br>&nbsp;16&nbsp;&nbsp;&nbsp; 突然袭来的空腹感。在这个场景中没有进行食事的PC，受到「重伤2」的变调。这个变调在进行食事后就会恢复。<br>&nbsp;22&nbsp;&nbsp;&nbsp; 想到〈绝界〉之外的朋友，他现在过的可好呢？角色进行一次【日常】的判定，成功的话，移除一个变调，或是从黑领域移除一个因果。<br>&nbsp;23&nbsp;&nbsp;&nbsp; 遭遇了奇妙的商人，在场景登场的角色都可以进行采购。<br>&nbsp;24&nbsp;&nbsp;&nbsp; 跑出了一只会说话的动物来请讬，这只动物深受神话灾害所苦。因此委讬了一个【任务】，「把怪物本体的【生命力】削减到0」。如果达成这个【任务】的话，结算时会追加20点经验值。<br>&nbsp;25&nbsp;&nbsp;&nbsp; 做了很好的梦。骰出这个结果的玩家，对自己的PC以外选择的角色上升1点【思念】。<br>&nbsp;26&nbsp;&nbsp;&nbsp; 从重要的人发来了一封担心的邮件，何时回来呢？骰出这个结果的玩家，其角色做一次【日常】判定，成功的话自己从一个变调中恢复，或是削除一个【思念】上的划记。<br>&nbsp;33&nbsp;&nbsp;&nbsp; 遭遇了亲切的商人，在场景登场的角色都可以进行采购。但是每样物品都比通常还要便宜1。(但价格不会低于1)<br>&nbsp;34&nbsp;&nbsp;&nbsp; 保养了武器。骰出这个结果的玩家，其角色做一次【日常】判定，成功的话在该剧次(セッション)间，自己的一个武器的威力上升1点。<br>&nbsp;35&nbsp;&nbsp;&nbsp; 小确幸，找了大量采购时找回的零钱。获得1神货。<br>&nbsp;36&nbsp;&nbsp;&nbsp; 在用餐时与同伴坦承的交流。在这个场景有进行食事的角色，削除一个自己【思念】上的划记。<br>&nbsp;44&nbsp;&nbsp;&nbsp; 打盹了一下，做了一个不可思议的梦。骰出这个结果的玩家，其角色做一次【灵力】判定。成功的话，选择一张喜欢的预言卡，观看其【真实】。<br>&nbsp;45&nbsp;&nbsp;&nbsp; 遇见了一个异性的不良孩童。骰出这个结果的玩家，其角色做一次【武勇】判定。成功的话，小孩会获得对PC的1点【思念】。这个小孩成为协力者，玩家可以自己决定与小孩的名字与关系。<br>&nbsp;46&nbsp;&nbsp;&nbsp; 吹起令人愉悦的微风。命运好像是站在一起的盟友。在喜欢的领域放置一个因果。<br>&nbsp;55&nbsp;&nbsp;&nbsp; 醒来的时候，有一个礼物放在枕边。是谁送的呢？骰出这个结果的玩家，角色使用「随机道具表」。<br>&nbsp;56&nbsp;&nbsp;&nbsp; 帮助了陷入困境的神话生物。进行【日常】判定，如果成功的话，下次要进行移动判定时，会自动成功。(视为达成值6)<br>&nbsp;66&nbsp;&nbsp;&nbsp; 亲神来与你谈话。亲子的会话。骰出这个结果的玩家，其角色做一次【日常】判定。成功的话，亲神对自己的【思念】，或自己对亲神的【思念】，都上升1点。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788198">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:26:08 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788199"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788199_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788199">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788199#msg788199" rel="nofollow">自由行动</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788199'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788199'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #12 于:</strong> 2016-04-06, 周三 11:37:32 &#187;</div>
+<div id="msg_788199_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788199"><em><strong>造成惊惧的事物有很多，但造成惊恐要胜过人类的却没有一物。<br>──索福克勒斯《安蒂冈妮》</strong></em><br><br>　所谓的<strong>自由行动</strong>，是玩家对GM提案希望进行规则中未提及的特殊处理的行动。这个规则是选择性的规则。在全体参加者都较习惯「アマデウス」后可以考虑采用。<br>　自由行动是主要行动。如果对玩家的提案觉得有趣，可以考虑应该要怎么处理。对于玩家的提案，要进行怎样的判定，而判定的成功与否会有怎样不同的结果发生，诸如此类以内容来判断。<br>　GM如果有自己的考量，可以驳回这个提案。以免让剧次如脱缰野马一样与现在偏离太远，或是在进行提案过程中，发觉已经妨碍到剧次的进行时，可以驳回提案立刻中断。<br>　如果，GM能够想到确实的处理方式，而其成败与否也不会有过大或过小的影响，GM可以考虑接受这个提案。让自由行动灵活有弹性的开展，也是桌上型角色扮演游戏的魅力之一。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788199">
+&#171; <em>上次编辑: 2016-04-06, 周三 15:03:28 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788200"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788200_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788200">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788200#msg788200" rel="nofollow">主控场景</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788200'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788200'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #13 于:</strong> 2016-04-06, 周三 11:37:51 &#187;</div>
+<div id="msg_788200_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788200"><em><strong>是神引导凡人走上智慧的道路，因为他立了这条有效的法则，智慧自苦难中得来。<br>──埃斯库罗斯《阿伽门农》</strong></em><br><br>　GM，在一般的场景与场景之间，会穿插入主控场景。主控场景是，在剧本中所设定的特殊场景，GM当作场景玩家，来主导整个演出。<br>　在主控场景中，GM依照剧本的设定而让NPC行动，而PC依照剧本的设定对例外的事件进行挑战。<br>　在主控场景中，GM可以做出规则以外的各种特殊处理。<br>　接着，在以下介绍几个典型主控场景的代表性事件。<br><br><strong>13.01危险之旅</strong><br>　在剧本中，因为要移动到重要的舞台过程中所发生的事件。为了寻求能够打倒怪物的武器而到访诸神的圣地、或是穿越各种障碍所保护的怪物之根据地，在移动中所发生的事件。<br>　在进行危险之旅时，PC全体进行移动判定。移动判定使用的是【技术】。<br>　移动判定成功的PC，在经过适当的时间之后，平安无事的到达了目的地。而移动判定失败的PC，与成功的PC失散，遭遇到各种神话中的事件。依照剧本设定而使用「试炼表」。移动判定失败的PC，在接受了「试炼表」的结果之后，也到达了目的地，与成功的PC们会合。<br><br>这仅是范例，实际上要依照脚本调整内容。<br><br>&nbsp;试炼表一例 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 漂流到奇妙的岛屿，遇见美丽的女性。其名为卡吕普索，在岛上与她共度长久的年月，某日，突然意识到自己有不得不完成的使 命，从岛上离开。在现实世界中的时间并没有流逝，但是在岛上度过的岁月改变了你。自己的年龄增加1D6岁，对卡吕普索的【思念】提高2点，然后划上标记。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 在沙漠遇到鳄鱼外表的两足步行爬虫人类。受到1D6点伤害。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 遇见了史芬克斯，接受了谜题的挑战来考验智慧，不以智慧胜过则无法前进。进行[头脑]判定，失败的话，从黑色以外的领域移除两个因果。并且再度使用「试炼表」。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 风暴！是支配这片土地的神祉之怒吗？【生命力】减少2点，在黑的领域放置1个因果。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 被沙漠中的巨大蠕虫吞下，要破开怪物的肚腹逃出。进行[武勇]判定，失败的话受到2D6点伤害，而采取不名誉的逃生方式，受到变调「耻辱」的影响。<br>&nbsp;6&nbsp;&nbsp;&nbsp; 被恶魔赛特之子所袭击，【生命力】受到1D6+2点伤害，或是选择失去所有的神货。<br><br><strong>13.01.01诸神的坐骑</strong><br>　当挑战危险之旅时，在GM的许可下，可以商借诸神的坐骑，而进行安全的旅程。商借诸神的坐骑需要支付5神货。<br><br><strong>13.02陷阱</strong><br>　在剧本中，阻止PC的事件。从掌管命运者得到了不详的预言、让PC们迷途的不可思议迷宫、需要正确的口令才能打开的门扉…GM可以发挥创意设计出各式各样的陷阱。<br><br><strong>13.02.01使用威胁卡做为陷阱</strong><br>　选择一枚陷阱卡，以其效果来当作陷阱。在这状况下，直接发动该威胁的效果。<br>　分类为攻击的威胁，对目标造成等同威力的伤害。分类为术式的威胁，则发动其效果。<br>　此时，玩家可以挑战将这个威胁的效果无效化。需要从黑以外的所有领域，各移除一个因果。接着，从PC中选出一个人为代表，对威胁上所写的能力值进行判定。而判定的目标值，就是威胁的【攻击值】。<br>　成功的话，就能将该威胁的效果无效化。<br><br><strong>注意</strong>：威胁本来是用于在战斗的规则中进行处理。因此，会有部分没有意义或效果，而需要依照规则来进行调整。<br>　这时，就无视没有意义的效果。而如果依照规则，却无法选择目标时，由GM自由选择目标。<br><br><strong>13.03遭遇敌人</strong><br>　遭遇到应该要打倒的敌人。使用战斗的规则来处理。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788200">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:26:51 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788201"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788201_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788201">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788201#msg788201" rel="nofollow">战斗</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788201'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788201'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #14 于:</strong> 2016-04-06, 周三 11:38:12 &#187;</div>
+<div id="msg_788201_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788201"><em><strong>诸神青睐之人英年早逝。<br>──米南德《双重欺骗》</strong></em><br><br>　战斗是，PC们与强大的敌人作战的规则。<br>　进行战斗时，需要准备遭遇版盘、玩家的代表物、以及战斗中会使用的威胁卡。<br><br><img src="http://i.imgur.com/nOIuYkL.jpg" alt="" class="bbc_img"/><br><br><strong>14.01战斗的准备</strong><br>　GM在遭遇板盘的「本体」区域，放置敌人的本体卡。之后，在各个段落上，写上将预定会配置的威胁卡名称。<br>　战斗分为PC方与怪物方的战斗。<br><br><strong>14.02战斗流程</strong><br>　战斗依照以下的流程来进行。战斗，本身是一个场景。<br><strong>①侦察回合<br>②乱战回合<br>③追击回合</strong><br><br><strong>14.03侦察回合</strong><br>　PC在还没与敌人真正接触之前，确认敌人的规模与强度的回合。<br>　侦察回合只进行一回合。<br><br><strong>14.03.01侦察判定</strong><br>　在进行侦察时，选择进行侦察的PC。<br>　侦察回合是，一次由一名PC来进行一次侦察。进行侦察的PC，依照段落名称的提示，选择指定一个段落，进行【头脑】的判定。以指定的段落为侦察目标，这个判定被称为侦查判定。<br>　侦察成功时，将预定放置在侦察目标的威胁卡公开。GM将该威胁卡正面向上配置。<br><br><strong>14.03.02侦察回合的继续与结束</strong><br>　只要没有人侦察判定失败，其他的PC就能继续进行侦察。但是一但PC中有谁判定失败，或是决定了不再多做侦察，那么侦察回合就结束，移往乱战回合。<br><br><strong>14.03.03反击</strong><br>　如果，有人在侦察判定时发生大失败，在侦察回合结束前，PC们会受到敌人的反击。<br>　反击发生时，GM对于会参加战斗的PC全体，给予[1D6加上怪物本体的等级]点的伤害。<br><br><strong>14.03.04无侦察的战斗</strong><br>　受到敌人的奇袭，或是突然不期而遇而发生战斗时，GM可以跳过侦察回合，直接从乱战回合开始战斗。<br><br><strong>14.04乱战回合</strong><br>　敌我双方，互相杂沓陷入乱战状态而进行战斗的回合。<br>　乱战回合，通常是循环进行两回合来处理。<br>　乱战回合，依照以下的顺序来进行。<br><strong>①回合开始<br>②处理行动<br>③回合结束</strong><br><br><strong>14.04.01回合开始时</strong><br>　如果在回合开始时，会发生什么特殊效果，于此时进行处理。<br>　之后，在回合开始时进行「重置」与「决定行动顺序」的处理。<br><br><strong>14.04.01.01重置 リフレッシュ</strong><br>　参与战斗的全体PC与全部威胁，都变为未行动。<br>　在乱战回合的第一回合时，接着进行「决定行动顺序」的处理。否则就直接移往「处理行动」。<br><br><strong>14.04.01.02决定行动顺序</strong><br>　<strong>决定行动顺序，是在乱战回合的第一回合</strong>来进行。<br>　参加战斗的PC们，使用六面骰来决定情节顺序。与情节顺序相关的部分，后面会有详细解说。<br>　情节顺序的数值，代表着乱战回合的行动顺序。情节顺序的数值越低，则越早行动。<br>　公开情节顺序后，将各个PC的代表物，放置在与情节顺序的骰子出目同数字的段落中。情节顺序是6的，放置在「栏外」。<br>　而后，移往「处理行动」。<br><br><strong>14.04.01.02.01情节顺序 プロット</strong><br>　在进行情节顺序时，将六面骰放在掌中隐藏起来，在1~6中选择一个数字，将那面朝上。该值就称为情节顺序值。<br>　玩家全体都决定好情节顺序值时，再一起公开。<br>　从情节顺序开始，到公开数值之间，不能使用恩惠等特殊效果，玩家间也不能讨论关于选择的情节顺序。<br><br><strong>14.05处理行动</strong><br>　依照遭遇盘板上段落一、段落二、段落三…的顺序，从低数值的段落开始依序做行动的处理。在段落五的行动处理结束后，进行栏外的处理。而结束了栏外的处理后，进入回合结束。<br>　在各段落上，先进行在该段落上放置代表物的未行动PC的行动处理。行动分为「攻击」、「术式」、「移动」三个种类。做完这个行动后，PC变为行动完毕的状态。<br>　在该段落已经没有未行动PC时，进行怪物方的行动处理。GM依照该段落的设定进行「威胁的行动」。<br><br><strong>14.05.01PC同伴的顺序</strong><br>　在同一个段落上有多个PC时，由玩家伙伴自行讨论协调来决定顺序。无法决定时，骰1D6，由出目数字比较高的先进行行动处理。<br><br><strong>14.06攻击</strong><br>　攻击，依照以下顺序进行处理。<br><strong>①决定武器<br>②决定目标<br>③命中判定<br>④决定伤害</strong><br><br><strong>14.06.01决定武器</strong><br>　进行攻击的角色，首先选出攻击时要使用的武器。<br><br><strong>14.06.01决定目标</strong><br>　进行攻击的角色决定好使用的武器后，接着选择目标。选择的目标，只能是未行动(直向)的威胁卡或怪物的本体。<br>　依照选择使用的武器，能够选取的目标可能会有所受限。因此要先确定好武器的特殊机能。<br><br><strong>14.06.03命中判定</strong><br>　决定好使用的武器与目标后，接着进行攻击成功与否的判定。这个判定称之为<strong>命中判定</strong>。<br>　命中判定使用【武勇】。而目标的【防御值】即为命中判定的目标值。<br>　命中判定成功的话，PC的攻击命中。接着要决定伤害。<br><br><strong>14.06.04决定伤害</strong><br>　攻击命中时，对目标造成[武器的威力加上自己现在所处段落的数值]点的伤害。伤害的效果，依照目标种类而有所差异。<br><br><strong>●对威胁的伤害</strong><br>　对威胁造成伤害时，将伤害与威胁的【耐久度】相比。伤害高于【耐久度】时，将该威胁转为行动完毕(横置)。因造成伤害而使威胁变为行动完毕的动作，称为击破。<br>　当击破时，本体的【生命力】会减少等同该威胁的【耐久度】的值。<br><br><strong>●对本体的伤害</strong><br>　对本体攻击时，伤害值直接减少本体的【生命力】。<br><br><strong>14.06.04.01破灭之色</strong><br>　在命运之轮的黑领域已经觉醒的情况下，等同该觉醒阶段的值，会使攻击的伤害上升。这被称为<strong>破灭之色</strong>。<br><br><strong>14.06.04.02强击</strong><br>　在命中判定发生大成功时，会造成强击。此时，「破灭之色」所提升的伤害会变为[黑领域的觉醒阶段]D6点。并且，依照所使用的武器不同，强击时所提升的伤害也会有所不同。<br><br><strong>14.07移动</strong><br>　将自己的代表物，移动到选择的段落或是栏外。<br><br><strong>14.08术式</strong><br>　使用分类为「术式」的恩惠。<br><br><strong>14.09威胁的行动</strong><br>　每个段落，当上面没有未行动的PC时，就进行怪物方的行动处理。<br>　如果，该段落还没有放置威胁卡的状况，在上面放置与所写名称相同的威胁卡，以未行动(直向)配置。<br>　威胁，分为「攻击」与「术式」两种分类。依照类别各自进行以下的处理。在之后将行动过的威胁转为行动完毕(横置)的状况。<br><br><strong>14.09.01威胁的攻击</strong><br>　威胁的分类是「攻击」时，GM使用该威胁来进行怪物的攻击之处理。<br>　由威胁而来的攻击，与PC的攻击有以下几点不同。<br><br><strong>14.09.01.01决定威胁的武器</strong><br>　该威胁卡本身就是武器。<br><br><strong>14.09.01.02决定威胁的目标</strong><br>　该威胁卡将在同段落的一人选为目标。不过，在同段落没有PC在的状况下，使用「目标表」来随机决定目标。如果该威胁的效果已经决定好目标的状况，则以该效果优先。<br><br><strong>14.09.01.03威胁的命中判定(防御判定)</strong><br>　威胁的命中判定会自动成功。而由目标的PC来对该攻击进行是否成功防御的判定。这被称为<strong>防御判定</strong>。<br>　防御判定是，对于威胁卡上「判定」栏位所写的能力值进行判定。而该威胁的【攻击值】，就是防御判定的目标值。<br>　防御判定失败的话，命中身为攻击目标的PC。接着要决定伤害。<br><br><strong>14.09.01.04决定威胁的伤害</strong><br>　造成的伤害是，[威胁的威力]点。不会追加段落修正的伤害，但「破灭之色」的效果两倍来计算。<br>　威胁卡攻击PC时，目标的【生命力】减少等同其伤害的值。<br><br><strong>14.09.02威胁的术式</strong><br>　威胁的分类是「术式」时，GM使用该威胁来进行怪物的术式之处理。<br>　怪物使用术式时，该威胁卡的「效果栏」所写的效果会立即发动。<br>　PC如果希望的话，可以尝试妨害该效果。<br><br><strong>14.09.0201妨害</strong><br>　PC挑战将分类为「术式」的威胁之效果变为无效化。这被称为妨害。<br>　要挑战妨害，必须要满足以下的所有条件。<br><br><strong>‧该威胁与自己在同段落<br>‧该威胁卡在侦察回合已经配置在段落上，或是在之前的乱战回合已经配置在段落上(不能对在当回合中放置的威胁卡尝试进行妨害)</strong><br><br>　进行妨害的PC，必须要在「命运之轮」上黑以外的领域，全部移除一个因果。如果四个领域无法全部都移除因果的话，就不能进行妨害。<br>　移除掉因果，接着进行妨害能否成功的判定。这被称为<strong>妨害判定</strong>。<br>　妨害判定所使用的能力值，写于该威胁的「判定」栏位。目标值为该威胁的【攻击值】。<br>　妨害判定成功时，则该术式的效果成为无效化。<br><br><strong>14.10回合结束</strong><br>　如果在回合结束时，会发生什么特殊效果，于此时进行处理。<br>　之后，该回合结束。如果结束的是第一回合，那么接着进行第二回合的「回合开始」。而在第二回合的结束时，结束整个乱战回合，进入追击回合。<br><br><strong>14.11追击回合</strong><br>　在乱战回合结束时，如果遭遇的怪物的本体其【生命力】还有1点以上，PC们可以尝试着对敌人进行追击。<br>　尝试做追击，需要进行判定。这被称为<strong>追击判定</strong>。追击判定仅能由一名PC来进行。玩家们讨论后做出决定，由谁来进行追击判定。<br>　追击判定使用【头脑】或【技术】。追击判定的目标值，为怪物本体的【防御值】。<br>　追击判定成功的话，进入追击回合，这一回合，就如同乱战回合一样处理。这个追击回合，当作乱战回合的第三回合。<br>　在追击回合中，所有的伤害，都上升1D6点。<br><br><strong>14.12战斗结束</strong><br>　战斗，在以下的时机会结束。<br><strong><br>‧乱战回合结束，不进行追击<br>‧追击回合结束<br>‧PC全体陷入行动不能状态<br>‧怪物本体的【生命力】到达0</strong><br><br>　在战斗结束时，根据战斗参加者的状态决定胜败。满足以下条件的话，PC获胜。<br><br><strong>‧怪物本体的【生命力】到达0</strong><br><br>　而没有满足以上的条件的话，则是PC败北。<br><br><strong>14.12.01战果与损伤</strong><br>　PC们获胜时，使用「战果表」，来决定PC获得怎样的战果。根据所战胜的怪物本体的等级数字，骰同次数的「战果表」来获得结果。<br>　PC们败北时，使用「损伤表」，来决定PC遭受怎样的损害。每个PC骰一次「损伤表」来适用其内容。<br><br>战果表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 获得一个神货。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 获得1D6个神货。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 在选择的领域放置一个因果。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 在黑领域移除一个因果。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 使用「随机道具表」，获得该道具。<br>&nbsp;6&nbsp;&nbsp;&nbsp; PC全体，在自己的人物栏中，消除一个划记。<br><br>损伤表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp;自己的【生命力】减少1D6。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 失去1D6神货。<br>&nbsp;3&nbsp;&nbsp;&nbsp;在黑领域放置一个因果。<br>&nbsp;4&nbsp;&nbsp;&nbsp;受到变调「臆病2」的影响。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 受到变调「重伤3」的影响。<br>&nbsp;6&nbsp;&nbsp;&nbsp;从自己的人物栏选择最高的一个【思念】，减少其1点。<br><br><br><strong>14.13战斗状态</strong><br>　特殊效果所引发造成的特殊状态。在战斗结束时会解除。<br><strong>●捕缚状态</strong><br>　陷入捕缚状态的PC，将不能进行移动，并且所有的判定都由负值1的修正。怪物本体或威胁受到捕缚状态时，其【攻击值】与【防御值】都减少1点。受到捕缚状态的人，在回合结束时，自己的【生命力】减少1D6点。<br><strong>●飞行状态</strong><br>　飞行状态的人，自己的武器变为「对空」，并且在受到非「对空」的攻击而受到伤害时，该伤害减少5点。<br><strong>●潜水状态</strong><br>　潜水状态的PC，在对非潜水状态的目标攻击时，不需要投掷命中判定的骰子，而是直接自动命中。在需要看达成值的状况则视为6。(怪物或威胁是潜水状态时，目标的PC不能够做防御判定)。<br><br><strong>14.14战场</strong><br>　在特殊的战场进行战斗时使用。使用「战场表」来随机决定战场。<br><br>战场表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 墓场。回合结束时，PC与怪物本体，【生命力】都减少1D6点。此外，在该战场中，每当PC使用恩惠时，都在黑色领域放置两个因果。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 市区。所有的PC与怪物，造成的伤害都上升1D6点。此外，在该战场中，每当PC使用恩惠时，都在红色领域放置两个因果。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 水中。没有潜水状态的PC，所有判定都受到负值1的修正。在回合结束时，没有潜水状态的PC与怪物本体，【生命力】都减少1D6点。此外，在该战场中，每当PC使用恩惠时，都在蓝色领域放置两个因果。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 森林。所有的PC与怪物，所受的伤害都减少1D6点。此外，在该战场中，每当PC使用恩惠时，都在绿色领域放置两个因果。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 空中。没有飞行状态的PC，所有判定都受到负值1的修正。战斗结束时，怪物的【生命力】还残存1点以上的情况下，这场战斗中都不曾获得飞行状态的PC与怪物的本体，【生命力】都减少[战斗所耗费的乱战回合数x3D6]点。此外，在该战场中，每当PC使用恩惠时，都在白色领域放置两个因果。<br>&nbsp;6&nbsp;&nbsp;&nbsp; 平地。没有什么特殊不同的效果。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788201">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:28:44 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788202"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788202_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788202">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788202#msg788202" rel="nofollow">决战阶段</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788202'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788202'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #15 于:</strong> 2016-04-06, 周三 11:38:33 &#187;</div>
+<div id="msg_788202_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788202"><em><strong>这就像是在刀锋上行走。<br>──荷马《伊利亚德》</strong></em><br><br>　在冒险阶段结束后，为决战阶段。决战阶段为与剧本中设定的怪物进行战斗。<br>　决战阶段的战斗，以下几点与通常的规则不同。<br><br><strong>15.01奋起</strong><br>　决战阶段的战斗，PC们在侦察回合前，会够进行<strong>奋起</strong>的处理。<br>　各个PC，从自己属性的领域移除一个因果。有移除因果的PC，自己的【生命力】回复[1D6+自己的等级]点。<br><br><strong>15.02在决战败北</strong><br>　决战阶段的战斗如果PC败北，就强制结束，立刻进入结束阶段。此时，各PC无需使用「损伤表」，而是进行强制结束的处理。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788202">
+&#171; <em>上次编辑: 2016-04-06, 周三 15:12:45 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788203"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788203_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788203">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788203#msg788203" rel="nofollow">结束阶段</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788203'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788203'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #16 于:</strong> 2016-04-06, 周三 11:38:52 &#187;</div>
+<div id="msg_788203_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788203"><strong>欢庆要在结束后。<br>──希腊谚语</strong><br><br>　结束阶段，是处理游戏的结局与后续的阶段。<br>　结束阶段，依照以下的顺序来进行处理。<br><strong>①强制结束的处理<br>②后日谈<br>③获得经验值<br>④调整数据</strong><br><br><strong>16.01强制结束</strong><br>　当在剧次过程中黑色领域被放置了十个因果、或是决战阶段败北，都会直接进行<strong>强制结束</strong>的处理。如果没发生强制结束的状况，则移往后日谈的处理。<br>　各玩家使用「<strong>恶梦表</strong>」，来决定自己的PC之后的处境。<br><br>&nbsp;恶梦表 1D6<br>&nbsp;1&nbsp;&nbsp;&nbsp; 绝望之闇遮蔽了视线。从背后感觉到怪物的气息时已经太晚。被卑劣的攻击所袭击。选择一个能力值进行判定。失败的话则死亡。<br>&nbsp;2&nbsp;&nbsp;&nbsp; 从绝望之闇中，传来悲痛的哭喊。那是来自于事件的被害者。但你却无力拯救他。进行【日常】的判定。失败的话，受到「绝望」的诅咒。<br>&nbsp;3&nbsp;&nbsp;&nbsp; 在绝望之案中回荡著怪物的笑声。那是欢快的嘲笑。怪物与同伴…在胸膛中沸腾著对自己的愤怒。进行【日常】的判定。失败的话，受到「愤怒」的诅咒。<br>&nbsp;4&nbsp;&nbsp;&nbsp; 在绝望之闇中被一个人遗留了下来。谁都没有察觉你。一面忍耐著孤独，一面想办法回归到日常当中…但抹也抹不去的是当时的恐惧。进行【日常】的判定。失败的话，受到「臆病3」的诅咒。<br>&nbsp;5&nbsp;&nbsp;&nbsp; 等待着从绝望之闇归来的你的，是毫无改变的日常。虽然你的任务失败了，但世界看来也没什么变化。啊，是吧，有需要露出这么可怕的眼神吗？进行【日常】的判定。失败的话，受到「堕落」的诅咒。<br>&nbsp;6&nbsp;&nbsp;&nbsp; 从绝望之闇中命悬一发的逃了出来。听到背后同伴的呼喊声。但是，你无法回头看去。进行【日常】的判定。失败的话，受到「耻辱」的诅咒。<br><br><strong>16.01.02诅咒</strong><br>　依据「恶梦表」的结果，PC会陷入「<strong>诅咒</strong>」的特殊状况。受到诅咒时，角色在诅咒所受到的变调之下，划上波浪线标注。<br>　受到诅咒的PC，持续的受到指定变调的影响。而被诅咒所指定的变调，在「调整数据」的时间点并不能回复。角色要以受到指定变调的状况，开始下次的剧次。<br>　被诅咒指定的变调，在剧次中，能以道具或恩惠的效果来回复。以此来回复变调，也解除了诅咒。但反过来说，如果不以任何的效果来回复，那么就会永远受到该变调的影响(在变调的数值变化时，该状况的变调效果也持续适用)。<br><br><strong>16.02后日谈</strong><br>　反映剧次的结果，而选出事件登场人物的「此后」。剧本上或许会提供方向。<br><br><strong>16.03获得经验值</strong><br>　各个PC，依照剧次的内容来获得经验值。回顾各PC的游戏过程，以是否有达成「<strong>经验值表</strong>」的内容所写的条件来判断。<br>　在各个条件中，有些会有抽象的解释。在这样的状况下，由参与游戏的全体来讨论，决定是否有满足条件。如果无论如何都没办法得到统一的结论时，由GM来做出最后的决定。<br>　获得的经验值达到一定以上的数值时，会提升等级。等级提升所需要的经验值，跟等级提升的效果，请确认「<strong>等级提升表</strong>」。<br><br>经验值表<br>&nbsp;战斗&nbsp;&nbsp;&nbsp; 每次战斗胜利获得怪物的等级x10点。<br>&nbsp;思念&nbsp;&nbsp;&nbsp; 自己的PC，在该剧次内每获得NPC的【思念】1点获得10点。<br>&nbsp;感触&nbsp;&nbsp;&nbsp; 各个玩家，在心目中选出一个在该剧次最触动人心的PC。当全体选择好后，GM一声令下时，指出该PC的担当玩家(不能够指自己)。每有一个人指向，自己的PC就获得10点。<br>&nbsp;任务&nbsp;&nbsp;&nbsp; 达成预言中所指示任务的PC获得20点。<br>&nbsp;冒险&nbsp;&nbsp;&nbsp; 完成剧本中所设定的冒险时，PC全体都获得50点。依照剧本难度，这经验值可以有所变动。<br><br>&nbsp;等级提升表<br>&nbsp;等级1&nbsp;&nbsp;&nbsp;0 ～ 99点&nbsp;&nbsp;&nbsp; <br>&nbsp;等级2&nbsp;&nbsp;&nbsp; 100 ～ 299点&nbsp;&nbsp;&nbsp; 追加修得一个恩惠。<br>&nbsp;等级3&nbsp;&nbsp;&nbsp; 300 ～ 499点&nbsp;&nbsp;&nbsp; 选择一个能力值，1Up。<br>&nbsp;等级4&nbsp;&nbsp;&nbsp; 500 ～ 799点&nbsp;&nbsp;&nbsp; 选择一个能力值，1Shift。<br>&nbsp;等级5&nbsp;&nbsp;&nbsp;800 ～ 1199点&nbsp;&nbsp;&nbsp; 追加修得一个恩惠。※获得执行人的资格。<br>&nbsp;等级6&nbsp;&nbsp;&nbsp;1200 ～ 1599点&nbsp;&nbsp;&nbsp; 选择一个能力值，1Up。<br>&nbsp;等级7&nbsp;&nbsp;&nbsp; 1600 ～ 2099点&nbsp;&nbsp;&nbsp; 选择一个能力值，1Shift。<br>&nbsp;等级8&nbsp;&nbsp;&nbsp; 2100 ～ 2999点&nbsp;&nbsp;&nbsp; 追加修得一个恩惠。<br>&nbsp;等级9&nbsp;&nbsp;&nbsp; 3000 ～ 4999点&nbsp;&nbsp;&nbsp; 选择一个能力值，1Up。<br>&nbsp;等级10&nbsp;&nbsp;&nbsp; 5000点以上&nbsp;&nbsp;&nbsp; 选择一个能力值，1Shift。<br>※执行人的相关规则，会收录在续刊中。<br><br><strong>16.04调整数据</strong><br>　在获得经验值结束后，各个PC可以调整数据。请调整以下的数据。<br><br><strong>‧有持续时间的恩惠及道具、列表等的特殊效果全部都消失。<br>‧【生命力】的最大值减去【活力】的数值。并且【活力】变为0。<br>‧减少的【生命力】回归最大值。<br>‧从变调中回复。但是，被「诅咒」指定的变调，会维持不变。<br>‧自己的【思念】合计，不能超过[1+自己的等级+【爱】的调整]的值，调整这个数值。<br>‧协力者的【思念】合计，不能超过[1+自己的等级+【爱】的调整]的值，调整这个数值。<br>‧消除所有划上的划记。<br>‧如果失去了神性武器，那么获得一个。</strong><br><br><strong>16.04.01变更恩惠</strong><br>　如果，因为等级提升，而修得一个追加的恩惠时，选择要修得哪个恩惠。<br>　可以修得的恩惠从以下范围中选择，泛用恩惠、自己的神群恩惠、自己的亲神恩惠、自己的背景恩惠。在可以修得的恩惠中，选择一个恩惠，并记载到角色纸上。<br>　此外，在这个时间点，可以在自己修得的恩惠中选择一个，变更为可以修得的恩惠之中的另外一个。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788203">
+&#171; <em>上次编辑: 2016-04-07, 周四 14:31:04 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788204"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788204_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788204">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788204#msg788204" rel="nofollow">GM与剧本</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788204'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788204'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #17 于:</strong> 2016-04-06, 周三 11:39:35 &#187;</div>
+<div id="msg_788204_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788204"><em>能够把冗长的话语，转成贴切的短句，才能称为贤人。<br>──欧里庇得斯《埃俄罗斯》</em><br><br>17.01GM的裁量<br>　GM，在以下的情况可以考虑变更规则，或是省略规则来处理。反过来说，不是以下的状况时，最好还是依循着规则来运作。<br><br>‧玩家采取了规则中未载明的行动。<br>‧不确定规则的正确解释是什么。<br>‧变更规则能让剧次如预想中更顺遂的进行。<br>‧变更规则能让剧次更为有趣。<br><br>17.02剧本<br>　进行「アマデウス」的游戏，GM必须要准备剧本。剧本是进行剧次的必要资讯之一。剧本由以下五种资讯所构成。<br><br>‧怪物的数据(本体、威胁)<br>‧预言的内容(暗示、真实、触发)<br>‧主控场景<br>‧试炼表<br>‧场景表<br><br>17.02.01玩家人数<br>　决定参加剧本的人数。推荐是三到四人。不过一人到六人还是都可以玩。<br><br>17.02.02剧次长度<br>　限制是只到决战阶段前的轮序数。为了开展剧次，会指定好经过轮序数的限制，而来到决战阶段。通常的限制是2。长的剧本可以到3，短剧本也许1。<br><br>17.02.03怪物<br>　设定在剧本中登场的怪物一到两体。参考「怪物与威胁」章节。<br><br>17.02.04绝界<br>　设定怪物所造出的绝界之内容。<br>　绝界内部的光景以及发生的事件，与怪物所关连的故事息息相关。<br>　成为绝界的地方，可以选择一些具有强烈印象的现代日本的区域。也可以采用自设的架空都市的一部分。在「世界设定」中有提到「神境市」的设定，可以加以利用。<br><br>17.02.05NPC<br>　NPC，是由游戏主持人所操控的角色。身为剧本内的重要人物，与玩家操纵的PC互动，而写下故事。<br>　身陷绝界内部度日的人有各式各样，而要简单的决定。需要特别叙述角色时，要设定姓名、性格，以及目的。为怪物所困扰的人、向着怪物反抗的人、万神殿所属的神子，以及被卷入绝界的其他神话生物。<br>　在不需要数据时，也不用特别去设定。典型的一般人的话，所有的能力值为D，【生命力】则是6点。没有持有特殊的恩惠。战斗时总是处于栏外。<br><br>17.02.06预言<br>　「アマデウス」剧本的大部分，都是以PC与NPC有关的预言来串连。解明了预言的【真实】后，就能将剧情带往下一步，或是为了避免游戏结束而尽力阻止灾厄的预言。<br>　在设定怪物与NPC时，也一起将预言作成。<br><br>17.02.06.01预言的枚数<br>　每个PC都必须有一枚预言。这表示，游戏主持人在编写剧本时，预言的最少枚数至少要等同PC人数。<br>　在剧本的限制是两轮序以上时，可以设计与重要的NPC与怪物有关的预言，或是与绝界内部的重要场所或重要时机有关的预言。<br>　限制轮序一个的剧本如果制作了太多预言，会导致在结束时还残留太多【真实】无法知晓的状况。<br><br>17.02.06.02暗示<br>　【暗示】是写于预言表面的文字，可以让玩家自由的阅读。<br>　所写的是PC所见到，显示怪物与事件的梦境，或是亲神所交付的神讬之内容。<br>　不属于玩家的【暗示】，写着绝界内部的传承，与新的梦境内容。<br><br>17.02.06.03任务<br>　PC在一开始所拿到预言的【暗示】，会一并设定了【任务】。【任务】是在这个剧本中，PC所需要达成对于命运的挑战。<br>　在【暗示】中写入以「你的【任务】是」起始的字句。<br>　典型【任务】有以下的几种。<br><br>‧打倒怪物<br>‧阻止被怪物所凭依的人物<br>‧找寻特定的人物<br>‧守护特定的人物<br>‧加深对特定人物或获得更深的【思念】<br>‧见证特定人物的命运<br>‧将特定的道具拿到手<br>‧拯救伙伴死亡的命运<br><br>　【任务】的内容是否达成，由其他人来判断是否有依照所设定的内容所完成。<br>　但是，【任务】也有设定的相当暧昧的时候，那么达成与否，就要依照剧本的内容来考虑是否有所争议。<br><br>17.02.06.04真实<br>　【真实】是写于预言里侧的文字。每个PC的玩家，能自由的阅读自己最初所获得预言的【真实】。而其他PC所获得，或是不属于特定的PC的预言之【真实】，要阅读得要以该预言为目标，进行调查判定成功才行，或是等到该预言的【触发】条件满足而直接公开的时候。<br>　【真实】是接续著【暗示】的预言后续，是【暗示】所省略未提及的内容。延续著梦境，亲神将隐含的秘密及重要的情报清楚的告知。<br>　【真实】所写的重要情报大致上分为两个种类。打倒怪物原形的方式、保护特定人物的手段等，对于PC的「祝福」。或是将事件放置不管就会发生的恶果、载明其回避方式的「悲剧」等。<br>　悲剧，如果无法避免的话就会有人死亡。<br><br>17.02.06.04.01真实的效果<br>　【真实】，在设定上公开时会发生特殊的效果。<br>　每个【真实】都必定设定效果，而在设定剧本一开始要给予PC的预言之【真实】时，有同样条件的预言，在效果的设定上需要做到让人感觉公平。<br>　「祝福」公开时典型的几种效果如下。<br><br>‧在特定的领域放置因果<br>‧公开一枚怪物的威胁卡<br>‧对怪物的伤害增加<br>‧降低怪物的特定能力<br>‧开启与怪物战斗的决战阶段<br>‧与特定人物的【思念】上升<br>‧获得特定的道具<br>‧进入能给予PC正面效果的主控场景<br><br>　「悲剧」公开时典型的几种效果如下。<br>　预言所示的悲剧多半是限时型的。<br><br>‧在一轮序结束后还没公开的话，在黑领域放置因果<br>‧在一轮序结束后还没公开的话，进入能给予PC负面效果的主控场景<br>‧在二轮序结束后还没公开的话，进入对特定PC有着致命事件的主控场景<br>‧在二轮序结束后还没公开的话，怪物的特定能力大幅增加<br><br>　【任务】与【真实】有时是息息相关的。特定PC的【任务】，可能在别的PC的【真实】公开时达成。或者是在其效果生效时达成。<br><br>17.02.06.05触发<br>　【触发】是，在知晓预言之【真实】的PC之玩家要将其公开时需要的条件。<br>　当满足【触发】的条件时，就能将该【真实】公开。游戏主持人将【触发】的设定做为剧本运作的控制点。<br>　典型的【触发】有以下几种。<br><br>‧随时可以公开<br>‧特定领域的觉醒阶段达到二或三阶<br>‧在特定的【真实】公开时<br>‧经过了特定的场景数或轮序数时<br>‧在特定的主控场景登场时<br>‧PC其中之一对特定的人物拥有【思念】时<br><br>　随时可以公开的【真实】，依照公开的时间点差异会让效益有所增减。因此玩家可能会陷入「到底什么时候公开才好」的困扰。<br>　而依照觉醒阶段来【触发】的情况，觉醒阶段二阶，没特别控制的话，通常会在第一轮序的半途中达成。而觉醒阶段三阶，通常是到第二轮序之后才会公开。<br>　而依照场景数来【触发】公开预言的【真实】，是相对来说比较稳定控制剧本展开的方式。在第二个场景公开的【真实】阐明了怪物真正的目的，而与阻止的方式有关的【真实】则是在第三个场景公开，依照这样的概念来规划。<br>　「悲剧的回避」所实行的【真实】，则是在时间限制到达时公开。这时，【触发】会将状况拉往悲剧的命运转戾点。<br>　【触发】是【真实】的一部分，知道看过的玩家，还是不能对不知道的玩家告知说「我的【真实】的【触发】是什么」。但是，能够对于要采取某些特定行动的玩家进行劝说。不过让他们改变主意的过程中，还是不能够透露其内容。<br><br>17.02.07主控场景<br>　主控场景，是游戏主持人做为场景玩家，在冒险阶段中插入的场景。<br>　确切的说，导入阶段所进行的导入场景，以及决战阶段，都能够视为是主控场景。<br><br>17.02.07.01导入场景<br>　在撰写剧本时，预想PC的所处情境，而为PC们安排一个导入场景。<br>　在导入场景中，PC获得了预言。可以安排在各式各样的舞台。<br><br>17.02.07.01.01万神殿的委讬<br>　与获得预言的场景不同，PC全体登场而接受万神殿对于绝界的调查或夺回的委讬之场景。也是PC们互相认识的机会，并且借此来做自我介绍。这个场景是进行「冒险的准备」的判定、及购买道具的适当场所。<br>　此外，向绝界攻略失败的神子们，与此收到绝界内部所传来的求救讯息、或是获得与怪物及绝界有关的情报等各种事件。<br><br>17.02.07.02冒险阶段的主控场景<br>　设定在冒险阶段中发生的主控场景。<br>　主控场景由四个要素所构成，时机、舞台、登场人物与效果。<br>　不过在剧次中，考虑到趣味的因素，可以自行决定其他的特殊项目。<br>　怪物袭击了居住在绝界中的居民、天地变异而使绝界有天翻地复的变化。或是反过来，绝界的居民对PC群起袭来，一个生面孔的谜般人物在PC的面前现身等等。<br><br>17.02.07.02.01主控场景的时机<br>　在剧次中，满足条件时就会进入主控场景，典型的时机有以下几种。<br>‧在冒险阶段的开始。<br>‧特定领域的觉醒阶段到达了二阶/三阶。<br>‧特定的【真实】被公开时。<br>‧经过了特定的场景数/轮序数。<br>‧在最后期限的轮序中，最后一位PC行动结束后。<br><br>　这个流程与达成「触发」条件时一样。为了让主控场景依序发生，也可以预先写下「不包含主控场景，在经过两个场景后发生」。<br>　预言的【真实】是在进入主控场景时会公开的话，则在该【真实】上预先写下「在主控场景『○○』时发生」。<br>　如果有多个主控场景同时满足进入条件，那么由GM来选择操作发生的顺序。<br><br>17.02.07.02.02主控场景的舞台与登场人物<br>　绝界之中，或是诸神领域中所选择的场景。依照事件的内容来决定符合的背景。<br>　在主控场景中需要有登场人物。可能是PC全体都有登场、只有特定的PC，或是需要符合在主控场景登场的条件，又或NPC是否出现。并决定好要如何设置。<br><br>17.02.07.02.03主控场景的效果<br>　设定好在主控场景中会发生什么事件。依照规则中有「危险之旅」、「陷阱」、「遭遇敌人」等，以及预言中所发生的悲剧。<br>　「陷阱」与悲剧典型的效果有以下几种。<br><br>‧受到怪物威胁卡的效果所影响。<br>‧进行判定，失败则在黑领域放置因果。<br>‧进行判定，失败则受到伤害。<br>‧进行判定，失败则受到变调所影响。<br>‧进行判定，失败则失去某样道具。<br>‧无条件在黑领域放置因果。<br><br>　此外，也可能在主控场景发生预言的「祝福」，典型的效果有以下几种。<br><br>‧出现新的NPC或场景，而得知了新的预言。<br>‧进行判定，成功则在特定领域放置因果。<br>‧进行判定，成功则提升【思念】。<br><br>17.02.07.03决战阶段<br>　决战阶段就是绝界核心的怪物，与PC们展开决定胜负的战斗。设定好决战的舞台与各种状况。<br>　依照PC的胜利与败北有不同的结果，绝界也有不同的反应，并决定好在不同结果时的不同后续发展。<br><br>17.02.08试炼表<br>　「试炼表」是在剧本中，在重要的舞台之间进行移动时，当移动判定失败时，或是受到威胁「逃走」的效果影响时，所发生状况所需要参考的列表。<br>　以规则中的「试炼表」当作范例，依据剧本中所登场的绝界来设计出原创的「试练表」。<br>　移动判定失败时所引起的神话试炼，效果设定为六个。大部分都是负面的效果，可能会有一个某种程度算是正面的效果。<br>　典型的试炼表效果有以下几种。<br><br>‧对NPC的【思念】上升。<br>‧受到伤害。<br>‧失去黑以外领域的因果。<br>‧在黑领域放置因果。<br>‧受到变调所影响。<br>‧失去神货。<br><br>　依照剧本的舞台来设计相关的怪物以及神话的人物。<br><br>17.03剧次的运作<br>　GM在剧次中，需要注意以下几个事项。<br><br>17.03.01描写<br>　GM在主控场景中，需要描述场景的地点与时间、出现的NPC或是怪物的样貌、以及神子们所看到的环境等等。在通常的玩家场景时，如果场景玩家对于描述感到有所困难，也可以适时提供协助。&#039;<br>　描述需要简洁明了的传达重点。将玩家所需要知道的事项表现出来。<br><br>17.03.02额外加入エキストラextra<br>　GM或场景玩家，即使是在剧本中没有如此设定，还是能让非重要NPC即兴登场，这个被称为额外加入。在额外加入中，GM或场景可以宣告一些行动，并加以处理。<br>　额外加入时，可能在游戏中并没有为此准备好资料。不过，PC还是能以【思念】来做为目标。<br><br>17.03.03玩家的提议<br>　「アマデウス」在习惯上，是以GM听取玩家的提议来延伸，依此来决定剧本的开展与亮眼部份，不过也无须完全接受提案。GM与玩家相互激发灵感集思广益，来使剧次变得更为精彩丰富。<br><br>17.03.04略式判定<br>　在剧本或规则中没有设定的部份，对于PC即兴的动作检定，GM可以省略判定中「④或得因果」的过程。这样的判定称为略式判定。使用略式判定时不会放置因果。<br><br>17.03.05NPC的特殊效果<br>　GM考虑到合理性或剧情性，恩惠或道具等影响PC的效果，也可以对NPC来使用。并依照需要适当的改变规则。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788204">
+&#171; <em>上次编辑: 2017-04-28, 周五 16:58:35 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788205"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788205_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788205">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788205#msg788205" rel="nofollow">怪物与威胁</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788205'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788205'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #18 于:</strong> 2016-04-06, 周三 11:39:55 &#187;</div>
+<div id="msg_788205_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788205"><em>每块石头下都藏着等待中的蠍子。<br>─索福克勒斯《安提戈涅》</em><br><br>　怪物是，凭依在人类身上借此显现的的神话生物。吞噬著人们的记忆，拥有改写这个世界的能力。<br>　PC们，为了打倒这种怪物，而往绝界展开冒险。<br>　这个项目是，要介绍身为PC们敌人的怪物相关资讯。<br><br>18.01怪物的资讯<br>　怪物也是一种NPC，但是与一般NPC资讯书写的方式不同，怪物的资讯，是由本体与威胁两种的资料所组合构成的。<br>　本体，是该怪物的基本资讯。<br>　威胁，是该怪物的攻击方式、或是该怪物的特殊能力之资讯。<br>　本体与威胁，基本上只能用于战斗的时候，有时会用于主控场景中，作为陷阱与其他威胁来使用。各种资讯的使用方法可以参考「战斗」与「陷阱」来使用。<br>　威胁与本体都是以卡片的形式来管理，分别被称为本体卡片、威胁卡片。基本上怪物都是以本体卡片一张，威胁卡片三至五张来构成。<br><br>18.04本体与威胁的连动<br>　在几个数据中，本体居上于威胁，而威胁是属于本体之下的存在。无论是标签、【攻击值】、【防御值】等与战斗相关的各项资讯，当上位的资讯变动时，下位的资讯也会跟着变动。<br><br>●标签<br>　每个威胁，在卡片上都写有标签，而在本体上也有各种标签。在这个状况下，各威胁视为追加上本体所持有的标签。不过反过来说，各威胁上的标签并不会对本体上的标签有任何变化影响。<br><br>●【攻击值】与【防御值】<br>　当本体的【攻击值】或【防御值】因故而有所增减，各威胁的【攻击值】或【防御值】也要随之调整。但反过来说，即使各威胁的【攻击值】或【防御值】有所变动，也不会对本体的【攻击值】或【防御值】产生任何影响。<br><br>●战斗状态<br>　当本体处于飞行、潜水、捕缚状态时，各威胁也都视为飞行、潜水、捕缚状态。但反过来说，当各威胁处于飞行、潜水、捕缚状态时，本体并不会因此成为飞行、潜水、捕缚状态。<br><br><img src="http://i.imgur.com/NLnhHKH.jpg" alt="" class="bbc_img"/><br>①怪物名<br>　此怪物的名称。<br><br>&nbsp;②等级<br>　此怪物其本体的等级。<br>&nbsp;<br>③属性<br>　此怪物的属性。<br><br>&nbsp;④标签<br>　此怪物有关连的标签。依此会有其他效果，以及互动影响的不同可能性。<br><br>&nbsp;⑤解说<br>　此怪物相关的说明。在此怪物第一次登场时，由GM朗读其上的内容。<br><br>&nbsp;⑥攻击值<br>　此怪物之基本的【攻击值】。<br><br>&nbsp;⑦生命力<br>　此怪物的【生命力】。这个值是代表最大值，而当降到0点时，怪物就会消灭。而被凭依的人物则会回复原状。<br>&nbsp;<br>⑧防御值<br>　此怪物之基本的【防御值】。当PC攻击怪物的本体时，进行命中判定的目标值。<br>&nbsp;<br>⑨特殊效果<br>　该怪物所具备的特殊效果。<br><br><img src="http://i.imgur.com/fAVVhPg.jpg" alt="" class="bbc_img"/><br><br>①威胁名<br>　此威胁的名称。<br><br>②等级<br>　此威胁的等级。<br><br>&nbsp;③分类<br>　此威胁依照对玩家的侵扰而分为两类，分别是攻击与术式两种类别。<br><br>&nbsp;④标签<br>　此威胁有关连的标签。依此会有其他效果，以及互动影响的不同可能性。<br><br>&nbsp;⑤描写<br>　此威胁相关的说明。在此威胁第一次使用时，由GM朗读其上的内容。<br><br>&nbsp;⑥判定<br>　对此威胁进行防御判定或妨害判定时，所使用的能力值。<br><br>&nbsp;⑦威力<br>　此威胁攻击时的威力。<br><br>&nbsp;⑧攻击值<br>　与此威胁的【攻击值】有关的修正值。依照本体的【攻击值】，加算此值而得出最终此威胁的【攻击值】。也是PC要对此威胁进行防御判定或妨害判定时的目标值。<br><br>&nbsp;⑨耐久度<br>　此威胁狩道的伤害而能将其击破的数值。在击破时，将本体的【生命力】扣气等同于此威胁【耐久度】的值。<br><br>&nbsp;⑩防御值<br>　与此威胁的【防御值】有关的修正值。依照本体的【防御值】，加算此值而得出最终此威胁的【防御值】。也是当PC对此威胁攻击时，进行命中判定时的目标值。<br><br>⑪特殊效果<br>　此威胁有关的特殊效果。分类是「攻击」的威胁，会在此处写上攻击的目标与如何攻击。<br><br><br>18.04.01独立标签<br>　在威胁中，部份在标签列有写上「独立」，这表示此威胁，与本体的怪物是各别独立的生物，因此，拥有独立标签的威胁，不会因为本体的标签、【攻击值】、【防御值】或战斗状态的变动，而有所受到影响。<br><br>18.04.02怪物的判定<br>　怪物并不会进行判定，在进行攻击或防御时，命中判定与防御判定都自动成功。(按：结果主要取决于玩家的防御与命中是否成功)<br><br>18.04.03怪物所受的变调<br>　对怪物来说，只有部份的变调是有意义的。「臆病」变调能对威胁造成影响，而「重伤」变调能本体造成影响。<br><br>18.05怪物的创造<br>　GM如果在剧本中让怪物登场，就需要组合本体与威胁的资料来构成怪物。在作成剧本时，需要事先决定好遭遇卡盘，以及在各个段落上准备放置的威胁卡片。<br>　此外，在作成剧本时，可以将此内容当作是原始配置，而当使用此剧本时，依照与原始版本剧本的差异，依照PC的人数与等级来做调整，照着以下的方针来做变化。<br>　但是，这只是一个简单的参考，随着对游戏的熟悉程度不同，也不用完全受这个方针所限制，参考一同游戏玩家们对此游戏的熟悉度，而来考虑调整难易度，并试着调整怪物的数据。<br><br>‧构成怪物时，同名的威胁卡片最多放入两张。不过附有独立标签的威胁卡片可以放入三张。<br>‧威胁卡片的总张数，建议是比PC的总人数再多一张。<br>‧PC的人数为四人或以上时，使用五张威胁卡片。<br>‧依照PC的等级与人数，来决定本体的最大等级与威胁的最大等级，并且核算出本体与威胁的总等级。这些数值可以参考「威胁快查表」。<br>‧在怪物的页面所附的威胁卡片，是该怪物所专用的威胁卡，当该怪物在剧本中登场时，将这个威胁放入威胁卡片的构成组合之中。<br><br>18.05.01怪物的改造<br>　当GM对于游戏比较上手后，可以考虑对本体卡片与威胁卡片做些改造。最简单的作法就是，改变其名称与标签，然后将其放进自己的原创剧本中，作为原创的怪物登场，而不去对本体或威胁的内容作变动。<br>　若是要强化资料则可参考以下建议。<br>　威胁的话，每上升一个等级，【耐久度】上升三点。并且在等级上升两级时，【攻击值】或【防御值】任一个上升一点，威力则上升1D6点。<br>　本体的话，等级上升一级时，【生命力】上升10点。并且在等级上升两级时，【攻击值】或【防御值】任一个上升一点。<br><br>18.05.02原创的怪物<br>　当GM对于游戏比较上手后，可以从头从空白卡片开始打造本体卡片或威胁卡片，创造出原创的本体或威胁。<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788205">
+&#171; <em>上次编辑: 2017-04-28, 周五 17:00:24 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg788206"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="检视会员资料:  Shinohara">Shinohara</a>
+</h4>
+<ul class="reset smalltext" id="msg_788206_extra_info">
+<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422">
+<img class="avatar" src="/bbs/upload/avatar/av-422.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1575<li class="karma">苹果币: 10<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_788206">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.msg788206#msg788206" rel="nofollow">世界设定</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_788206'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_788206'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #19 于:</strong> 2016-04-06, 周三 11:40:05 &#187;</div>
+<div id="msg_788206_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_788206"><strong>19.01神</strong><br>　在过去创造出世界的伟大存在。因此，被称为「原初的创造者」。其持有各样「权能」，而在其分野的领域能够发挥出绝对的力量。各个民族与文化都有其固有的诸神存在，而这样的群体构成被称为「神群」的组织。<br>　在数千年前缔结了「大盟约」后，诸神往别的次元移动，而成为被称为神话生物的情报生命体。在故事中所存在的各种各样，被从空间与年月等物理限制的影响中解放，强大的诸神们，回返其全盛时期的年轻姿态。但反过来说，这样就无法对我等的世界做出直接的干涉，只能透过继承自己力量的「神子」，来将世界的混乱导正。<br><br><strong>19.01.01神子</strong><br>　继承了「神之血」的人类。持有着从诸神世界所授予的力量。代替诸神，与在这个世界所发生的神话灾害所战斗。因此而有称为「半神」或「英雄」。<br>　神子，能够使用因继承了诸神之血而获得的力量「恩惠」。与生俱来的恩惠潜藏在身体内，面对其命定的波澜下，经历重重的磨难而「领悟」其所具备的力量。<br>　同样的情况，神子对于诸神的世界以及怪物，在没有理由的情况下，也仅有粗浅的理解。<br><br><strong>19.01.02神之血</strong><br>　神，钟爱着人与各种各样的生物，而与其诞下子嗣。这些子嗣，就是继承神之血的神子们。但是，身为情报生命体的神，并没有物理上的肉体。神之血，实为诸神所持有的故事之断片。<br>　许多的神，在心意相通的人类之梦中显现，而与该人物交流，进而诞生神子。<br>　亦有在自己所赏识的人之梦中显现，对该人直接授予神之血。而在梦中接受了神之血的人，也就成为神子。希腊神群的处女神等誓言纯洁的女神，往往都是以这种方式来产生神子。<br>　很少见的状况下，会将所爱之人召来圣地，而以实体与人类相爱，而诞下神子。不过多数的神，并不支持这样的行为。<br><br><strong>19.01.03神群</strong><br>　诸神所属的组织。依照自己所源由的民族与文化来区分。也被称之为神族。著名的神群有「希腊神群」、「埃及神群」、「大和神群」、「克苏鲁神群」、「北欧神群」与「中华神群」等。<br>　大抵上的神，对于其他的神群都没有多少正面的想法。但是，即使是如此，为了与恶魔对抗，会需要考虑共同作战的状况。过去，在神群间的战争中，有许多神群因此而灭绝。<br><br><strong>19.02恶魔</strong><br>　对神群与人类造成威胁的存在。其多数曾经为神，因为将力量用于邪恶的目的上，而被神群所放逐。<br>　而在其中，被希腊神群的宙斯所追放、封印的克洛诺斯，组织了被称为泰坦神群的集团，以复兴由远古诸神所支配的世界为目标。<br>　泰坦神群中，不仅限于原本希腊神群中的诸神，而有来自于其他神群的神祇，或是从毁灭的神群所残存的神祇们所聚合。<br>　此外，神与传说之子的影灵中，被邪恶所影响的，也被称之为恶魔。偶尔会受到其本人的委讬来驱退，被狂荒之心所影响而憎恨著世界的赫拉克勒斯的影灵、或是骚扰女性的宙斯的影灵。<br><br><strong>●神权政治与神统主义者</strong><br>　大盟约之前，诸神直接地统治著世界。<br>　此为神权政治的时代，被称为「神世」或「黄金时代」。而神统主义者，就是想要复兴这个时代的人。神群与神子，将神统主义者当作动摇这个世界的破坏者。其中心人物是，恶魔克洛诺斯。<br>　诸神大半都是支持「人类，能以自己的力量来奠基这个世界」的一方，而非「愚昧的人类需要我等为其掌舵引导世界的方向」或「需要依赖我等的保护」。有着后者想法的诸神，被克洛诺斯隐密的拢络，而造成现在世界的混乱。并且，他们还要解放世界上被封印的古老神话生物，来扩大其势力。<br><br><strong>19.03神话</strong><br>　从古代所传承下来诸神与英雄的故事。除此之外，还有对现在的人们有着强烈影响的故事与神话。代代相传而成的故事，与神话无二异，其登场人物也近乎神。这与是否拥有肉体并无关系。<br>　神话以「通晓此传承的人数」与「传承历经的时间」来决定其位阶。对于人类造成强烈影响的故事，有着较高的位阶。而一般来说，在位阶越高的神话所登场的神话生物，通常是越强大的存在。不过，神话生物的强度，并不会影响在神话内的位置。<br><br><strong>19.04神话生物</strong><br>　因为故事而形成的情报生命体的总称即为神话生物。被称为神或怪物只是单纯的称谓差异。神话生物没办法对于现世造成直接的影响，只能以特殊的方法来介入。神以产生的神子。而怪物则是凭依在人类身上。<br><br><strong>19.04.01怪物</strong><br>　怪物是神话生物的一种，吞噬著人类的记忆而成长的魔物。怪物，有着其固有的故事，而故事必须靠着凭依才能存在。靠着操作其凭依的存在而介入现世，引起各种各样的神话灾害。<br><br><strong>●凭依</strong><br>　凭依，藉著阅读书本、观赏影像、聆听音乐等行为都能进行。往往是在向多数人所公开的作品中，从中间选择一个人为受体来凭依。近年来常见的标准是因浏览网路而遭凭依。<br>　神话生物所凭依的对象不仅仅是人类，也有动物、物品、建筑物等可能。<br><br><strong>●凭依的阶段</strong><br>　怪物的凭依分为两个阶段。第一个阶段的，被凭依的人类变化为怪物。在这个阶段，该怪物会散发出被称为「绝望之闇」的特殊力量。这个黑闇会扭曲一般人知觉上对于怪物的认知。目击到怪物的一般人，可能会将其误视为无害的野猫或是从便利商店回家的小孩。而怪物之力造成的交通事故看成是瓦斯爆炸。<br>　怪物吞噬著记忆而得到成长。怪物与遭遇到的一般人，变成为「怪物故事中的登场人物」。而牺牲者原来所拥有的记忆与人格则成为怪物的粮食。<br>　而后，成长的怪物，继续将自己周边的人类一个个拉入这个连锁。<br>　之后到达凭依的第二阶段。这个区域全部都成为怪物故事中的舞台，与外界隔绝。<br>　这个力量所引起的灾害被称为神话灾害。而神话灾害发生所复盖的区域，变为一般人无法察知的存在，则被称为绝界。<br><br><strong>19.04.02影灵</strong><br>　同名的神话生物，在现世中可能同时出现复数个存在。宙斯可能身处奥林帕斯山，但也在东京出现的宙斯却同时引起大规模的风暴。<br>　此则为影灵。是情报生命体即神话生物所特有的现象，因为强烈的情感所激起的震荡，而下意识的造出自己自身的其他版本的复制品。<br>　影灵的外表各有不同，也会有与神子的认知截然不同的情况。在东京引起风暴的宙斯也许是威严老人的外貌。而拥有力量的等级也可能不同。<br>　影灵并不是单纯的冒牌货。复制品也可能保有着完全的记忆，被打倒后就会消灭，而记忆为本体与影灵所共有的。而有「很久很久以前发生过这样的事」的故事出现。<br>　神子，也能做为传说之子的某个影灵。在这个状况下，无法判别这个版本的传说之子究竟谁才是原版。<br><br><strong>19.04.03神话灾害</strong><br>　由怪物或恶魔所引起的特殊灾害。因再现特定的神话而使事件发生灾害。<br>　神话灾害中的一般人，受到怪物的支配，而违背其意志。其成为神话当中的登场人物，而演出其排定的角色。<br>　怪物之所以再出现，基本上即为要再演神话灾害。但是依照凭依的人物或土地的状况，神话灾害会产生出无数的变体。因此，先入为主的对神话灾害有所预断，往往会陷入致命的误区。<br>　一般人对于神话灾害束手无策无抵抗之力，只有神子们才有一搏的可能。<br><br><strong>19.04.04绝界</strong><br>　神话灾害所发生的领域。绝界全面的被绝望之闇所复盖，一般人从外界无法对内部的状况有正确的认知。许多怪物会对绝界做出伪装，装饰成对现世来说极具吸引力的样子。怪物吞噬越多人的记忆就会成长的越快，因此会尽量想把人类引入绝界之中。<br>　绝界的内部，绝望之闇的浓度更为增长。而当绝望之闇的浓度到达最大极限时，绝界会从现世中孤立成为独自的小世界。而这被称为魔界。<br>　与成为魔界的场所相关的故事，会从现世中消失。而成为魔界的土地，以及过往与其相关的诸多人的记忆，也会被超自然的手段抹去。成为魔界的场所，即使是神子与神话生物，也难以简单的对其干涉。<br>　这个世界上，存在着许多被强大的怪物所魔界化的大陆、国家、街市，例如姆大陆与巴别塔，而将街道或国家夺回，也是神子的使命之一。<br><br><strong>●神境市</strong><br>　四年前被绝界化的日本一个地域。接临着神奈川县横滨市的大型行政区，现在，颠倒著漂浮在该区域的上空。<br>　一般人看不到飘浮的颠倒都市，而神境市过去的历史也呈现消失的状况。这种逼近魔界化的征兆，使得神子们积极的投入调查与进行夺回的计划。<br>　将神境市绝界化的怪物还身分不明。但是，能查觉到很明显的与克洛诺斯、以及复数的恶魔有所关连。<br>　神境市的攻略统合与指挥者，是宙斯的神子及传说的英雄─赫拉克勒斯。<br><br><strong>●乔森港</strong><br>　加拿大西岸的小村。在2009年被妖鲸塞特斯化为绝界。塞特斯是以嫉妒心为媒介来凭依人类的怪物，宿主通常会选择女性。<br>　乔森港退化到古代的文明，将女性一个个杀死。而残存的惊恐男性，将海之怪物奉为崇拜以保住自己的性命。<br>　索幸，这个塞特斯在事前已经有所预言，三人的神子将把塞特斯打倒，而不会有数人以上的牺牲者出现。<br><br><strong>●诺修伯格的幽灵鬼屋</strong><br>　德国东北部诺修伯格的幽灵鬼屋，掌控鬼屋的怪物是勒穆瑞斯。并不是非常强大的敌人，但是在这个事件中，神子不得其门而入，找不到能与怪物对决的方式。<br>　神子们所接受的预言只暧昧的提及了要领，无法判断预言的真正用意下，整个幽灵鬼屋陷入了魔界。<br>　肩负著拯救幽灵鬼屋使命的神子们，为了找到能够进入魔界的神器，而展开寻访的旅程。<br><br><strong>19.05梦</strong><br>　众人所看到的梦，与诸神的世界所相连。禁止直接干涉现世的诸神们，通过梦境对一般人提出提醒与警告。并且，神子透过梦境越过与诸神世界的藩篱而窥见秘密。在梦境中接受各样的预言，以及体验蕴藏着过去人物内心的该时代故事。<br>　神子不仅仅侷限于在睡眠中才能进入梦境。<br>　在步伐中就能看见梦，或是在受到怪物的致命一击前窥见梦境。这种情况下，梦中所经过的时间长短并没有任何影响，在实际的时间中仅有一瞬。<br><br><strong>19.06预言</strong><br>　神子的预言是行动的指针。<br>　预言是以神秘的幻视与字句的型态传达给神子。<br>　预言告知将来会发生因为悲惨的意外而造成人类的大量死亡、或是将形成巨大的魔界，被传达以这样的预言时，神子就背负著防止其成真的使命。但是，预言与神话一样，受到不可知的力量干扰而有许多无法预测的部分。灾厄的未来并不确定。因此之故，禁止将所受到的预言随意告知他人。<br>　预言有时由诸神代为传达给神子，有时也会由神子直接感召。偶尔发生诸神与所知产生矛盾的状态。诸神们并无法断言肯定未来，也许命运具备比诸神还要高位的力量。<br><br><strong>●最初的预言</strong><br>　预言当中相当特别的。<br>　在神子觉醒时，亲神从其命运得到线索的暗示，而将「最初的预言」授与神子。但是，最初的预言是以概念上难以言喻的状况传达给神子。<br>　最初的预言的内容是暧昧、矛盾且充满危险的。预言并不会完全符合现实，而且可能在半途就有所改变。<br>　多数的神子在追寻命运的过程中倒下，没有完遂其预言。而能在现世中将其贯彻到底的的神子则成为传说，而永生不死。<br><br><strong>●命运共同体</strong><br>　在好几个神子接受了同个绝界所相关的预言时，称其为命运共同体。不同的神子团结为一，向着打倒怪物的试炼挑战。<br>　而一旦成为命运共同体的神子，在之后往往会得到有关连的预言。<br><br><strong>19.07万神殿</strong><br>　由许多神群所构成的庞大组织。各个神群共同运作，主要是负责对抗恶魔与怪物、及神统主义者的策略与协调。<br>　万神殿的成员，由诸神与神子所构成。而万神殿所属的神子，为引导之子以及在现世的任务已经完成的传说之子。<br>　亲神，将自己的神子所授与的预言告与其知晓。并且，万神殿也负责蒐集关于怪物的情报。引导神子们前行打倒怪物，并且连系命运共同体之间的关连。<br>　世界各地的神子们，都会受到万神殿的委讬，而向着各个土地上的神话灾难前行。依赖的报酬是，诸神的通货神货，而不会是现世的利益。即使是拒绝了委讬，神子也无法从收到的预言中逃离。而经过了各种各样的事，结局还是终需与怪物一战。<br>　连络主要是由亲神来进行，经由使者所送达。<br>　所属神的神子能够自由进入处于异次元的万神殿核心地。<br><br><strong>●可可亚</strong><br>　在一九八零年代由万神殿所开设的咖啡连锁店。在日本国内有大约一百五十间店铺。<br>　这家店的真正存在意义是，做为神子往万神殿的进入点。在柜台点单苏摩或神酒等诸神的饮料，店员就会引领进入通往万神殿的特殊门扉。<br>　此外，这些连锁店还被神子们拿来当作移动手段。从莫斯科店进入，穿过万神殿而从蒙特内哥罗的店出现，也是有可能的。<br><br><strong>19.08圣地</strong><br>　在绝界中，被诸神所支配的特别场所。圣地中，诸神能够保有肉体来行动。在诸神之间，圣地在基本上是不可侵且稳固的。但是，万神殿所属的神群同伴也是有可能可获进入的。<br>　圣地是孤立的，并没有其他的方式能从其他圣地直接前往。但是，可以先到圣地外围的可可亚分店，再进到圣地内去。<br><br><strong>●奥林帕斯山</strong><br>　希腊神群的圣地，与现世中存在的奥林帕斯山处于同一个位置。但是，一般人只会看到奥林帕斯山麓的突起尖峰。但实际上，真正的奥林帕斯山标高约三万公尺。山顶高耸可达成层圈。<br><br><strong>●高天原</strong><br>　漂浮于日本列岛上空的大和神群圣地。地势有山川草木，而诸神在草原区域的神社居住。<br><br><strong>●杜埃</strong><br>　在埃及西方沙莫某处的埃及神群圣地。内部有许多的门扉，满布著许多守护的下级神与洞窟的设置。死者必须要在此进行追寻之旅，即使是神子也是一视同仁。<br><br><strong>●阿卡姆</strong><br>　在马萨诸赛州存在的都市，于二十世纪初成为克苏鲁神群的圣地。有谣言说实际上是魔界。<br>　圣地的内部维持在一九二零年代，时间在此地缓滞了下来。<br><br><strong>19.09一般人</strong><br>　并非神子的普通人类，被称为一般人。一般人，对于神话生物所造成的神话灾害毫无抵抗之力。但是，被人们所遗忘的神话生物，其存在也会消失，至少变得无法进入地球上。因此之故，诸神与恶魔也不敢太过轻视一般人。<br>　神子也是一样。对神子来说，与一般人有互动的日常生活，是很重要的要素。失去了这些联结的神子与下级神只能前往圣地，而在现世将其完全忘记的瞬间消灭。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_788206">
+&#171; <em>上次编辑: 2016-04-11, 周一 17:26:53 由 Shinohara</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=printpage;topic=83874.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>] <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.20">2</a> <a class="navPages" href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.20">&#187;</a>   &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;board=1331.0"><span>资源分享区</span></a> (版主: <a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=profile;u=422" title="版主">Shinohara</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;topic=83874.0"><span>《神话创世RPG アマデウス》规则</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 83874,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 83874,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="df2b2b745" value="f44b5891ed6981bd924221a0a1c60a0e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="83874" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'f44b5891ed6981bd924221a0a1c60a0e\', \'df2b2b745\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;' + '?topic=83874.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 15912 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1331,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "资源分享区",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1331,
+							iTopicId: 83874,
+							sSessionId: "f44b5891ed6981bd924221a0a1c60a0e",
+							sSessionVar: "df2b2b745",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=5f3b5d3bd990b4ba83b400e4574ea9ea&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

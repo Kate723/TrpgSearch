@@ -1,0 +1,1155 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[停坑合稿中]剑世界2.0 规则书1"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[停坑合稿中]剑世界2.0 规则书1</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.20"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e1988d2cbd3553672340dc04637127c3');">
+<div class="info">请 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">登录</a> 或 <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="52638"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f17810e16',
+sSessionId: 'e1988d2cbd3553672340dc04637127c3'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0"><span>[停坑合稿中]剑世界2.0 规则书1</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg603690"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=52638.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0">&#171;</a> <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [停坑合稿中]剑世界2.0 规则书1 &nbsp;(阅读 33989 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 无责任填坑，渣翻随意喷</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=quickmod2;topic=52638.20" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e1988d2cbd3553672340dc04637127c3', 'f17810e16') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_603690_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_603690">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg603690#msg603690" rel="nofollow">Re: [死坑复燃][140118更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_603690'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_603690'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #20 于:</strong> 2014-01-19, 周日 18:02:14 &#187;</div>
+<div id="msg_603690_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_603690"><span style="font-size: 18pt;" class="bbc_size"><strong>简易战斗：将广范围作为对象的效果</strong></span><br><br>一些魔法和效果会将较大的范围作为对象。这些魔法和效果在简易战斗中应按以下方式处理。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>以半径不到10m的范围作为对象的魔法或效果</strong></span><br><br>以半径不到10m的范围作为对象的魔法或效果，只能对一个区域产生影响。<br><br><strong>最大对象数</strong><br><br>有一些效果范围的半径不满10m的魔法和效果的数据中，存在如「半径3m/5」这样，既规定了效果范围，也规定了最大对象数的对象说明。<br><br>在使用这些魔法和效果时，如果对象区域内的人数超过的数据中的上限，则需要用骰子随机决定区域中的哪些角色会受到影响，其数量应等于最大对象数。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>以半径10m以上的范围作为对象的魔法或效果</strong></span><br><br>以半径10m以上、20m以下的范围作为对象的魔法和效果，会使指定区域和其临近区域受到影响。也就是说，如果以后方区域为目标的话则前线区域也会受到影响，以前线区域为目标的话则所有区域都会受到影响。<br><br>以半径20m以上的范围作为对象的魔法或效果，则在任何时候都会对所有区域造成影响。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>「形状：贯通」的魔法或效果</strong></span><br><br>「形状：贯通」的魔法或效果，在其指定为目标的角色之外，还会对其与目标的连接线和延长线上的物体和角色产生影响。在后方区域使用这种魔法时所有区域都会被波及，而在前线区域使用时则会使前线区域和目标所向的一侧后方区域受到影响。<br><br>作为目标被指定的角色一定会受到影响。同时，身处被影响的区域的角色全员都需要分别投1d，结果为「1-3」的话则会受到该魔法或效果的影响，「4-6」则不受影响。<br><br>使用该魔法或效果的角色始终可以将自身排除在对象范围外。此外，当身处乱战范围外的角色试图将乱战范围内的角色设为该类魔法或效果的目标时，若没有战斗特技《魔法诱导》，则会发生误射。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>「形状：突破」的魔法或效果</strong></span><br><br>在「简易战斗」中，「形状：突破」的魔法或效果不能穿过有敌人存在的区域。在前线区域发生乱战的基本构造中，该种魔法或效果只能将己侧后方区域和前线乱战区域的角色作为目标，而敌方则反之。此外，对于受影响对象的处理则与「形状：贯通」一样。<br><br>使用该种魔法或效果后，角色的位置会转移至其选定的区域。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_603690">
+&#171; <em>上次编辑: 2014-01-23, 周四 00:41:35 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg604485"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_604485_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_604485">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg604485#msg604485" rel="nofollow">Re: [死坑复燃][140119更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_604485'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_604485'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #21 于:</strong> 2014-01-22, 周三 23:55:43 &#187;</div>
+<div id="msg_604485_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_604485"><span style="font-size: 18pt;" class="bbc_size"><strong>标准战斗</strong></span><br><br>本章将对「标准战斗」的规则进行说明。「标准战斗」的规则中无特别说明（例如关于伤害的规则）的部分，在处理上是与「简易战斗」完全相同的。<br><br>而「标准战斗」在规则上与「简易战斗」最大的不同，则是移动和角色的位置管理，这些部分的规则几乎是完全相异的。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>以m单位来管理的位置与移动</strong></span><br><br>「简易战斗」将战场分为了三个区域来进行管理，而「标准战斗」则是将每个角色的位置和移动都以m单位来进行管理。<br><br>请大致想象出一条连接了敌方和我方的直线，在标准战斗中，所有的角色都将被视为位于这条直线上。也就是说，我们将以一次元的方式来进行管理。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>灵活的乱战区域</strong></span><br><br>在「简易战斗」中，战场上只存在一个乱战区域，并不允许角色移动到其另一侧的后方。而在「标准战斗」中，则可以实现突破前线并冲进敌方后卫群中的行为。因此，有可能会存在复数个乱战区域。<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>标准战斗：处理顺序</strong></span><br><br>下面，我们将按照战斗事项顺序表（⇛15楼）来对「标准战斗」的规则进行说明。<br><br><strong>角色的位置管理</strong><br><br>正如前文所述，「标准战斗」使用了将所有角色定位在一条假想的直线上来进行管理的一次元管理方式。<br><br>因此，GM需要在战场上确定基准点，并确定好每个角色相对于基准点的方向、距离，以便进行游戏。<br><br>在这种规则中，管理角色位置时不会使用到小于m的距离单位。请只使用「整数m」作为距离单位。角色也都不能移动至距基准点的距离包含小数的位置。<br><br>此外，在「标准战斗」规则中，会将角色所处位置称为「坐标」。而「使其位于同一坐标」并不意味着坐标相同了的角色或物体会彼此重叠、融合，而是指他们在之后的规则处理上处于非常接近以至无法区分的位置。虽然是后话，但这种距离的接近程度是能发动近身攻击或「射程：接触」的魔法及效果的。<br><br><strong>小贴士！GM向导：重要的是相对距离</strong><br><br>「标准战斗」中最重要的就是角色间的相对距离，也就是其相互间距离几m。基准点和与基准点的距离正是为了管理相对距离而存在的。<br><br>在实际进行游戏时，请务必重视明确相对距离。为此也可以设置复数个基准点。<br><br>像「A与B相距3m，C与B相距5m，AC间距离为8m」就是一个比较好的位置管理的例子。<br><br><strong>复数个角色的存在</strong><br><br>可以有复数个角色位于同一坐标，而且不限敌我。<br><br><strong>坐标的限制</strong><br><br>GM可以根据战场的情况对角色移动的目标点、魔法发动的起始点等各种坐标进行限制。比如当遭遇魔物时，若魔物位于房间的最内侧，则该战场就不存在魔物位置的后方的坐标。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>1、战斗开始事项</strong></span><br><br>PC们与敌人遭遇，并确定战斗即将发生后，GM将宣言战斗开始，并处理战斗开始事项。<br><br><strong>阵营确认<br>魔物知识判定<br>先制判定</strong><br>以上几项与简易战斗相同（⇛16楼）。<br><br><strong>战力的初始配置</strong><br><br>在「标准战斗」中，GM应根据遭遇时的情况，来决定敌我双方阵营间的距离。如果不是非常特殊的情况，或PC们为调整初始距离而事先采取了行动的话，则GM应将双方的初始距离控制在5m-30m的范围内。之后，双方阵营应在此段距离的两端至少各配置一名角色，此即为双方前卫的距离。<br><br>之后，各阵营应将其他角色置于同一坐标或该坐标之后的位置。<br><br>己方角色配置时的间隔距离，应由GM在PC们的申告的基础上裁定。在PC们组成队列时，各列间距大概为1-2m。而其他情况时，一般将平时没有近身攻击期望的后卫型角色置于前卫后3-5m会是比较妥当的裁定。<br><br>以下是战斗开始时距离的参照。<br><br><strong>战斗开始时距离的参照</strong><br>状况&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;距离参照<br>狭小房间中的遭遇&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5m<br>比较宽阔的房间中的遭遇&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10m<br>森林中，或恶劣气候下等能见度较差时的户外遭遇&nbsp; &nbsp; 10m<br>能见度较好时的户外遭遇&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 20m<br>使用坐骑移动时&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+10-20m<br>遭遇中存在复数部位的魔物时&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+5-10m<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>2.先攻方角色依次行动~5.战斗后事项</strong></span><br><br>完成初始配置后，先攻方开始令己方角色依次行动。角色的依次行动原则与「简易战斗」完全相同。<br><br>先攻方行动完成后，便轮到后攻方行动。之后进行战斗继续与否的判断，若战斗结束，则处理战斗后事项。这些处理都与「简易战斗」完全相同。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_604485">
+&#171; <em>上次编辑: 2014-01-23, 周四 01:01:41 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg604486"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_604486_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_604486">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg604486#msg604486" rel="nofollow">Re: [死坑复燃][140119更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_604486'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_604486'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #22 于:</strong> 2014-01-22, 周三 23:56:58 &#187;</div>
+<div id="msg_604486_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_604486"><span style="font-size: 18pt;" class="bbc_size"><strong>标准战斗：角色的行动（移动）</strong></span><br><br>角色的行动，具体来讲就是指角色可以做什么事。而「简易战斗」和「标准战斗」在此方面最大的区别，则主要是关于移动的部分。在主动作与辅助动作上，则几乎没有区别。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>行动的基本</strong></span><br><br>在角色的行动由移动、主动作、辅助动作三个要素组成，主动作应在移动后进行，辅助动作可在任意时间点进行这些原则上，「简易战斗」与「普通战斗」完全相同。<br><br>而关于主动作和辅助动作的规则也是基本相同的。差异部分请参考「主动作与辅助动作的注释」（⇛28楼）一节。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>移动</strong></span><br><br>与「简易战斗」相同，行动角色可从3种移动方式中选择一种进行移动。但在「标准战斗」中，根据角色属性不同，其选择同种移动方式时的最大移动距离可能会存在差异。<br><br>而在移动方式对主动作、辅助动作的限制上，「标准战斗」与「简易战斗」是完全相同的。全力移动后的-4回避力减值修正也同样存在。<br><br><strong>移动力</strong><br><br>在「标准战斗」中，每个角色都存在被称为「移动力」的数值。「移动力」在原则上是与角色的敏捷度相同的，但也会因魔法或道具的效果而上下变动。而角色移动的距离会因「移动力」而出现不同，正是「简易战斗」和「标准战斗」的差异。<br><br>魔物数据中的「移动速度」与「移动力」的含义是相同的。<br><br><strong>全力移动（移动力*3m）</strong><br><br>角色可以移动3倍于移动力的距离（m）。<br><br><strong>通常移动（移动力m）</strong><br><br>选择通常移动时，角色可以移动与移动力相同的距离（m）。<br><br><strong>制限移动（3m）</strong><br><br>选择制限移动时，角色可以移动3m。但是，当角色移动力不足3时，角色只能移动相同于其移动力的距离。<br><br><strong>敌方角色或乱战造成的移动妨碍</strong><br><br>移动路程中存在敌对角色或乱战区域（⇛24楼）时，有可能出现移动被强制停止的情况（⇛26楼）。<br><br><strong>无法移动的情况</strong><br><br>原则上，处于乱战状态的角色是无法移动的。同时，也会出现因魔法或特殊能力而被禁止移动的情况。无法移动的角色可以执行与制限移动时相同的主动作·辅助动作。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_604486">
+&#171; <em>上次编辑: 2014-02-11, 周二 21:41:08 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608208"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608208_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608208">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608208#msg608208" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608208'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608208'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #23 于:</strong> 2014-02-10, 周一 01:38:18 &#187;</div>
+<div id="msg_608208_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608208"><strong><span style="font-size: 18pt;" class="bbc_size">乱战与乱战区域</span></strong><br><br>『SW2.0』中，乱战这一概念是具有非常重要的意义的。而乱战，指的是敌我角色混杂成一团，互相利用近身武器等手段进行攻击的状况。<br><br>陷于这种状况的角色被称为「参加乱战」，或「处于乱战状态」，而乱战发生的附近区域则称为「乱战区域」。<br><br>「简易战斗」中只会存在一个乱战区域，其管理也十分简单。而在「标准战斗」中，角色的位置及移动的自由度都得到了提高，因此，乱战规则也发生了变化。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>乱战区域的产生</strong></span><br><br>当敌对双方的角色处于同一坐标，且一方角色向另一方发起了攻击、魔法、特殊能力时，双方角色视为进入乱战状态，乱战区域也因而产生。<br>但是，若一方角色已处于乱战状态，则不会产生新的乱战区域。此时的处理请参照「乱战区域与角色」（⇛25楼）。<br><br><strong>乱战区域的中心点</strong><br><br>乱战区域会以中心点为基准向前后延伸一定范围（见下项），其中心点即乱战的发生点。<br><br><strong>乱战区域的范围</strong><br><br>乱战区域的范围由参与乱战的人数决定。在此处的「人数」计算中，若存在拥有复数部位的角色，则应将其计算为与其部位数相等的人次，这一规则在后文中会有具体记述（⇛29楼）。<br><br>刚刚产生的乱战区域的范围，应依发动攻击等行为的角色与受其影响的角色的双方部位数总和来确定。<br><br>位于乱战区域边界上的坐标视为位于乱战区域内部。举例而言，若角色身处的位置距乱战区域中心点的距离为3m，而该乱战区域的半径也为3m，则该角色会被视为位于此乱战区域内部。<br><br><strong>乱战区域范围表</strong><br>人数&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;范围<br>2~5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 半径3m<br>6~10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 半径4m<br>11~15&nbsp; &nbsp; &nbsp; &nbsp; 半径5m<br>16~20&nbsp; &nbsp; &nbsp; &nbsp; 半径6m</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608208">
+&#171; <em>上次编辑: 2014-02-11, 周二 20:20:23 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608209"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608209_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608209">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608209#msg608209" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608209'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608209'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #24 于:</strong> 2014-02-10, 周一 01:40:44 &#187;</div>
+<div id="msg_608209_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608209"><strong><span style="font-size: 12pt;" class="bbc_size">乱战区域与角色</span></strong><br><br>当战场上已存在乱战区域时，角色与其的互动关系应参照以下规则进行处理。<br><br><strong>参加乱战</strong><br><br>角色可以「参加」进已经存在的乱战。为此，角色需移动至乱战区域的中心点。之后，只需表明出参加乱战的意愿，即可自动参加进乱战。<br>当有角色参加进乱战时，乱战区域可能会因此而扩大。（⇛本楼）<br>（译注：乱战区域不会立即扩大，需等到角色主动作结束后才会扩大）<br><br><strong>处于乱战状态的角色</strong><br><br>参加乱战的角色会处于「乱战状态」。处于乱战状态的角色可以对该乱战区域范围内的角色发动近身攻击或「射程：接触」的魔法及效果。<br><br>处于乱战状态的角色的坐标，视为位于该乱战区域的中心点。<br><br><strong>处于独立状态的角色</strong><br><br>在某些时候，可能会出现身处乱战区域内，却并未进入乱战状态的角色。比较典型的，就是角色附近发生了乱战，而该角色正好处于乱战区域范围内，因而被卷入的情况。<br><br>这种「处于乱战区域内，但并未处于乱战状态」的角色，视为处于「独立状态」。<br><br>陷入独立状态的角色的坐标与其原本坐标相同（即使其原本坐标与乱战中心点相同）。<br><br><strong>乱战状态角色对独立状态角色的干涉</strong><br><br>处于乱战状态的角色可以对位于其身处的乱战区域范围内的独立状态的角色发动近身攻击或「射程：接触」的魔法及效果，而无视于其坐标差异。<br><br>若一方乱战状态角色对敌方独立状态角色进行此种干涉，则受到干涉的独立状态角色进入乱战状态，并应立即将其坐标移至乱战区域中心点。<br><br><strong>从独立状态进入乱战状态</strong><br><br>依自身意志行动的角色在以下情况时，会从独立状态进入乱战状态。进入乱战状态的角色的坐标会自动转至对应的乱战区域的中心点。<br><br>1.自己的行动开始时，自动进入乱战状态。<br>（译注：不是己方回合开始时）<br><br>2.受到敌对乱战状态角色干涉时，自动进入乱战状态。<br><br>这些情况都只适用于角色可依自身意志行动时。处于昏迷等无法依自身意志行动的状态的角色，即使发生这些情况，也不会因而进入乱战状态，或改变其坐标。<br><br><strong>从乱战状态进入独立状态</strong><br><br>在战斗中陷入昏迷、睡眠等无法依自身意志而移动或行动的状态的角色，会从乱战状态转入独立状态。其坐标仍然会是乱战区域的中心点。<br><br><strong>脱离乱战区域</strong><br><br>处于乱战状态的角色在原则上是不能移动的。但在上一次行动中宣言了「脱离乱战区域」的角色，可以以任意移动方式进行移动（⇛23楼）。<br><br><strong>乱战区域的扩大及缩小</strong><br><br>乱战区域的范围会依「乱战区域范围表」（⇛24楼）上的规定，根据参与乱战的人数（⇛29楼）而发生变化。在计算人数时，应只计算处于乱战状态的人数。处于独立状态的角色不应参与范围确定。<br><br>当有新的角色参加乱战（⇛本楼）时，根据其部位数的多少，乱战区域可能会出现扩大的情况。此外，当独立状态角色受到敌对状态角色干涉而进入乱战状态时，乱战区域也可能会扩大。<br><br>而当有角色脱离乱战区域或被打倒时，乱战区域也可能会因而缩小。<br><br>但无论如何，乱战区域的扩大及缩小，都应在导致该情况的移动或动作的结果产生之后再进行处理。<br><br><strong>乱战区域扩大的例子</strong><br><br>战场上存在一参战人数为5人，并包含角色A的乱战区域α，其中心点离角色B及角色C的距离为4m。由于其参战人数为5人，故其半径为3m，角色B身处其外。<br><br>之后，角色C移动至乱战区域α的中心点，并声明参加乱战。此时，乱战区域还不会发生扩大。C只可以对之前就处于α内的5人进行近身攻击，而不能干涉在范围外的角色B。<br><br>其后，角色C对角色A进行了近身攻击。由此，乱占参加人数变为了「6」，乱战区域扩大至半径4m。此时，角色B由于身处乱战区域α内，而陷入了独立状态。此时，如果角色C拥有能够再次进行主动作的特殊能力的话，则可以对角色B进行干涉。<br><br>此外，如果角色C最初的近身攻击将角色A打倒了的话，则乱战参加人数则仍会是「5」，并不会导致乱战区域扩大。此时，角色B会仍处于乱战范围外。<br><br><strong>小贴士！GM向导：乱战最多20人</strong><br><br>一个乱战区域中最多只能存在合计人数不超过20的角色。请GM根据参加战斗的PC、NPC和魔物的数量及职责进行调整，不要超过这一限制。<br><br><strong>乱战区域的结合</strong><br><br>在「标准战斗」中，有可能出现复数个乱战区域。这时，若一个乱战区域的中心点处在了其他乱战区域的范围之内，则应将这两个乱战区域结合为一个乱战区域。<br><br>结合后的乱战区域的中心点，应为结合前的两个乱战区域的中心点连线的中点。若该连线距离无法被2整除，则应向人数较多的乱战区域一方偏移0.5m。人数相同时，则由GM决定向哪方偏移。<br><br>结合前属于这两个乱战区域的乱战状态角色在结合后，都视为位于新乱战区域中心点的乱战状态角色。结合后乱战区域的范围，则应依结合后的人数重新确定。<br><br>乱战区域的结合一般是由乱战区域的产生或扩大而导致的。此时，结合这一处理应紧接在发生·扩大处理之后进行。<br><br><strong>乱战区域的消失</strong><br><br>乱战需要在敌对阵营的角色之间进行。如果因攻击等行动的影响，而使区域内一方角色全部陷入被打倒、昏迷等无法依自身意志而行动的状态，则乱战区域自然消失。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608209">
+&#171; <em>上次编辑: 2014-02-11, 周二 20:21:46 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608210"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608210_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608210">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608210#msg608210" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608210'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608210'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #25 于:</strong> 2014-02-10, 周一 01:42:12 &#187;</div>
+<div id="msg_608210_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608210"><span style="font-size: 12pt;" class="bbc_size"><strong>移动阻碍</strong></span><br><br>角色移动时，若其行进路线上存在敌对角色或乱战区域，则移动有可能受到妨碍，并无法到达指定地点。<br><br><strong>乱战区域外角色的移动妨碍</strong><br><br>在乱战区域外的角色可对经过其制限移动范围的敌人的移动进行妨碍。其处理方式如下：<br><br>首先，当前行动角色在移动时应首先明确其移动方法和目的地坐标。<br><br>之后，其移动路径（包括起始点）若经过了其他角色的制限移动范围，对应的角色便可以宣言进行移动妨碍。此时，进行移动妨碍的角色可在自身制限移动范围内的目标角色移动路径上选择一点，并将双方角色都移至该坐标位置。<br>（译注：角色移动被妨碍后，仍可进行其选择的移动方式所允许的行动）<br><br>（※例子略）<br><br><strong>不得进入乱战区域</strong><br><br>身处乱战区域外进行移动妨碍的角色，不得将乱战区域范围内的坐标作为移动妨碍地点。<br><br><strong>复数部位的角色</strong><br><br>角色不可阻碍部位数在自身2倍以上的角色的移动（可以阻碍部位数正好为2倍的角色）。因此，单部位角色不可阻碍部位数为3以上的角色的移动。<br><br>但是，移动妨碍是可以由复数名角色共同进行的。只要合计部位数比达到1:2以上，移动妨碍便可以进行。而在共同进行移动妨碍时，其目标地点必须位于所有共同实行阻碍的角色的制限移动范围内。<br><br><strong>乱战区域的移动妨碍</strong><br><br>乱战区域内的角色可以对试图通过乱战区域的敌对角色进行移动妨碍。此时，行动角色的坐标会被移动至乱战区域中心点，并进入乱战状态。<br><br><strong>根据人数对比而判断可否进行移动妨碍</strong><br><br>乱战区域的移动妨碍需要考虑区域内的人数。当「试图通过的角色+其阵营在该区域内的处于乱战状态的人数」超过「试图进行移动妨碍的角色人数」的2倍时，是无法进行移动妨碍的。举例而言，当乱战区域内人数为3对2时，若3人一方的2部位角色试图通过乱战区域，2人一方是无法进行移动妨碍的。<br><br><strong>独立状态的角色</strong><br><br>对进行移动妨碍的一方而言，其角色无论是处于独立状态或是乱战状态，都可以进行移动妨碍。此时，进行了移动妨碍的独立状态角色应转入乱战状态，并将其坐标移至乱战区域中心点。<br><br>同时，对试图通过的一方而言，其处于独立状态的角色不可参与判断移动妨碍可否的人数计算。<br><br><strong>不能进行共同或单独妨碍的情况</strong><br><br>乱战区域外与乱战区域内的角色不得共同进行移动妨碍。<br><br>通过「形状：突破」的魔法或效果来改变其坐标的角色不受一切移动妨碍的影响。<br><br>在上一次行动中宣言了脱离乱战的角色，不受该乱战区域内的角色的移动妨碍影响。<br><br><strong>关于受到移动妨碍的行动角色的注释</strong><br><br>受到移动妨碍的角色的移动距离不得长于其事先宣言过的移动距离。在需要用到其此次行动的移动距离时，应使用其受到妨碍后变更了的移动距离进行计算或判断。<br><br>同时，角色的移动方法也应沿用其事先所宣言了的方式。在前例中（※待补）「只移动了2m的沃尔夫」依然视为进行了通常移动，并只得进行通常移动后的动作，而不能事后变更为制限移动。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608210">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608627"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608627_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608627">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608627#msg608627" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608627'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608627'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #26 于:</strong> 2014-02-11, 周二 17:39:39 &#187;</div>
+<div id="msg_608627_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608627"><span style="font-size: 18pt;" class="bbc_size"><strong>标准战斗：误射、遮蔽、范围效果</strong></span><br><br>在标准战斗中，应按照以下方法处理具有射程距离的攻击、魔法、效果及范围魔法、效果。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>误射</strong></span><br><br>在乱战区域外，以乱战区域内角色为目标使用射击攻击或「形状：射击」的魔法或效果时，如果目标角色的坐标与其他角色处于重叠状态，则会发生误射。此时，射击的最终目标会从这些角色（乱战区域内的同坐标角色）中随机选出。<br><br><strong>乱战状态的角色</strong><br><br>乱战状态的角色的坐标统一位于乱战区域的中心点。因此，若以乱战状态的角色作为射击目标，则此处所有乱战状态的角色都会成为误射对象。<br><br><strong>独立状态的角色</strong><br><br>独立状态的角色在乱战区域内拥有独立的坐标。只当其坐标与其他角色重叠时，才会成为误射的对象。<br><br>独立状态的角色在很多时候也会处于乱战区域中心点（比如刚刚昏迷的角色）。此时，其与乱战状态的角色的坐标是相同的，因此无论是以此处的哪个角色为目标，都会使这里的所有角色成为误射对象。<br><br><strong>乱战区域内部的攻击不会发生误射</strong><br><br>乱战区域内的角色对同乱战区域内的其他角色进行射击时，不会发生误射。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>遮蔽</strong></span><br><br>在使用具有射程距离的攻击或魔法、效果时，需要注意视线是否受到了遮蔽。而当行动角色与对象间存在乱战区域或敌方角色时，就会发生视线的遮蔽。<br><br><strong>乱战区域造成的遮蔽</strong><br><br>乱战区域会对区域外的角色造成遮蔽。角色需要具有战斗特技《鹰眼》，才能将乱战区域后方的角色作为对象。<br><br>乱战区域对其内部的角色不会造成遮蔽。此外，当外部角色将其内部角色作为目标时，也不会发生遮蔽。<br><br><strong>敌对角色造成的遮蔽</strong><br><br>乱战区域外的敌对角色也会造成遮蔽。当以此角色身后的目标作为对象时，同样需要战斗特技《鹰眼》。<br><br>但是，与行动角色或目标角色的坐标相同的敌方角色，是不会造成遮蔽的。此外，无论何时，己方角色都不会造成遮蔽。<br><br><strong>乱战区域内的角色并非单独造成遮蔽</strong><br><br>乱战区域所造成的遮蔽并非是其中角色所单独造成的。在处理上，这种遮蔽是由这一区域整体所造成的。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>范围效果</strong></span><br><br>在「标准战斗」，范围效果的射程距离和作用范围应依以下规则进行处理。<br><br><strong>乱战区域内的角色</strong><br><br>只要乱战区域的中心点被范围效果的作用范围所包含，该区域的所有乱战状态角色就都会成为效果对象。<br><br>独立状态的角色需要根据其坐标来判定是否受到效果影响。<br><br><strong>形状：贯通</strong><br><br>「形状：贯通」的效果除了一定会对指定的目标造成影响之外，作用范围（距离）内的所有角色也都会有1/2的几率受到其影响。位于效果起点和终点的角色都会受到这种影响，但发动该效果的角色可以将自身排除在外。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608627">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608628"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608628_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608628">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608628#msg608628" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608628'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608628'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #27 于:</strong> 2014-02-11, 周二 17:42:41 &#187;</div>
+<div id="msg_608628_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608628"><span style="font-size: 18pt;" class="bbc_size"><strong>主动作与辅助动作的注释</strong></span><br><br>本节将对分属于主动作与辅助动作的各种动作进行具体的说明和注释。<br><br>以下说明基本是共通于「简易战斗」和「标准战斗」的，有差异的部分将会在文中分别说明。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>主动作</strong></span><br><br><strong>魔法的行使</strong><br><br>请同时参照「行使判定」（⇛10楼）、「魔法」（⇛12楼）部分。<br><br>原则上，在行使魔法时必须使用制限移动。全力移动和通常移动后是不能行使魔法的。<br><br><strong>武器攻击</strong><br><br>请参照「简易战斗：武器攻击」（⇛19楼）。<br><br>近身攻击和投掷攻击可在通常移动和制限移动后进行。射击武器攻击只能在制限移动后进行。<br><br><strong>脱离乱战区域宣言</strong><br><br>乱战状态角色试图脱离乱战区域时，原则上需要事先进行此宣言。发出此宣言后，角色的回避力判定在下次轮到自己行动前会受到-4的惩罚修正。<br><br>但是，当乱战区域内的己方乱战状态角色人数（不包括发出脱离宣言的角色）在区域内敌方人数的2倍以上时，发出脱离宣言的角色不会受到回避力惩罚。<br><br>—简易战斗<br>此后，角色可退向后方的区域。若前线区域为乱战区域，则可通常移动至己侧后方区域。若敌侧后方区域为乱战区域，则可通常移动至前线区域，或全力移动至己侧后方区域。<br><br>—标准战斗<br>此后，角色可任意向前方或后方移动。移动方法可由角色自己选择，但至少需移动出乱战区域的范围。在判定回避力是否会受到惩罚时，需额外注意己方是以「乱战状态」人数计算，而敌方则是以「乱战状态及独立状态」人数计算。<br><br><strong>拾取/收起武器或其他物品</strong><br><br>拾取掉落在地面上的武器或其他物品时，需要为每一个物品使用1回主动作。<br><br>将手持的武器或其他物品收进行囊时，需要为每一个物品使用1回主动作。<br><br><strong>将武器或其他物品交予他人</strong><br><br>将手持的武器或其他物品交予他人时，需要使用主动作（接受方只需要使用辅助动作）。此时，交予方需要先于接受方行动，并需等待另一方接受物品的辅助动作完成后，才视为交予完成。当交予流程未能正常完成时，视为物品落地。<br><br>交予方在交予物品时，需要与对象处于同一区域（「简易战斗」）·同一坐标（「标准战斗」）。<br><br><strong>装备/收起装饰品</strong><br><br>分类为「装饰品」的物品在未被装备时，若对应的装备部位是空的，则可以一次一个的从行囊中取出并加以装备。<br><br>反之，也可以一次一个的卸下已装备的装饰品并收进行囊。<br><br><strong>其他GM认定的动作</strong><br><br>除上述动作之外的动作也可以被认定为主动作。无论该动作是否需要进行行为判定，只要GM判断其需要占用「1回合=10秒」的大半时间，便可以将其认定为主动作。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>辅助动作</strong></span><br><br><strong>☆魔法的行使</strong><br><br>名称前方标注有「☆」的魔法，可通过辅助动作行使。这种魔法不需要进行行使判定，其效果将会自动生效，但其达成值需视为「0」。<br><br>☆魔法在行使时同样只能进行制限移动。在进行了通常移动或全力移动的回合，是不能使用☆魔法的。<br><br><strong>持续魔法的中止</strong><br><br>拥有持续时间的魔法可以由施术者通过自身意志以辅助动作解除。解除时不需要发声或做出动作。<br><br><strong>宣言型战斗特技的宣言</strong><br><br>一部分战斗特技（※待补）需要进行宣言才可使用。<br><br>战斗特技的宣言在原则上1回合只能进行1次。同时，其宣言必须在命中力判定/行使判定之前进行，否则不会生效。<br><br><strong>从倒地状态起身</strong><br><br>倒地状态的角色可以通过辅助动作起身。起身可以在移动前进行。在1次行动中重复进行起身动作是没有意义的。<br><br><strong>武器的装备/装备状态变更/归鞘/丢弃/接受</strong><br><br>角色可以通过辅助动作来完成对武器的装备、归鞘、丢弃、接受（⇛本楼）等动作。<br><br>这些动作不得在主动作之后进行。在某些情况下，角色可以执行复数次主动作，此时上述动作必须在第一次主动作执行前进行。<br><br>—装备<br>将已收起的武器取出、装备并摆好架势。此后，角色在主动作中可使用此武器进行攻击。<br>在执行此动作时，试图装备新武器的手中不得有其他装备。当存在其他装备时，必须先通过「归鞘」或「丢弃」等方法将手空出。<br>同时，「装备部位：手」的「装饰品」是与武器装备无关的。即使「装备部位：手」的位置存在装饰品，也不会对武器的装备造成妨碍。<br><br>—装备状态变更<br>「用法：1H两/2H」的武器可以在双手握持和单手握持间转换。当试图从单手握持转为双手握持时，另一只手必须被空出。<br><br>—归鞘<br>将手中的武器等物品收起在原则上是需要使用主动作的（⇛本楼）。但是，＜剑＞和「用法：1H」的＜枪＞是可以通过辅助动作收入鞘中的。<br><br>—丢弃<br>将手中的武器等物品丢到脚下。此动作可以立刻将手空出，但拾取武器需要使用主动作（⇛本楼）。此外，丢到地上的武器是可以被同区域（简易战斗）·坐标（标准战斗）的任何角色（不分敌我）拾取的。<br><br>—接受<br>其他角色试图将武器等物品交予自己时，角色可以使用辅助动作接受并将其装备在手上。<br><br><strong>小贴士！GM向导：这些动作的组合便是武器的更替</strong><br><br>上述的动作全部都是辅助动作，没有次数限制，并可以自由组合进行。武器的更替即是通过「归鞘」或「丢弃」旧武器后，将新武器「装备」或「接受」来完成的。<br><br><strong>其他GM认定的动作</strong><br><br>GM可将其判断为既不需要行为判定，也几乎不会消耗时间的行动认定为辅助动作。尽管辅助动作在原则、次数、时间点上几乎不受限制，但仍应以GM判断为最优先规则。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608628">
+&#171; <em>上次编辑: 2014-02-11, 周二 20:12:43 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608629"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608629_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608629">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608629#msg608629" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608629'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608629'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #28 于:</strong> 2014-02-11, 周二 17:47:48 &#187;</div>
+<div id="msg_608629_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608629"><span style="font-size: 18pt;" class="bbc_size"><strong>战斗规则的补充·注释</strong></span><br><br>本节内容是对战斗规则细节的补充和注释。此节的内容不用勉强自己全部记下，而只需在遇到困难时进行参照。没有对「简易战斗」「标准战斗」的情况进行分别说明的内容是共通于两者的。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>「简易战斗」中的初始战力配置原则</strong></span><br><br>在「简易战斗」的初始配置中，需要考虑角色在前线区域和后方区域的分配问题。基本上，是应将前卫角色分配于前线区域的。但是，当希望使用「射程：接触」或范围型的支援魔法或效果时，是可以先将角色配置于后方区域，并在使用支援后再将其移动至前线区域的。这也正是允许先攻方在战斗开始时可不在前线区域配置角色这一规则的原因。<br><br>同时，后攻方则应一开始就将角色配置于前线区域。这是由于如果发生万一，己方在前线区域没有角色了的话，己方会陷入前线被突破的状况（参照下项），而使后卫被卷入乱战。无法很好的进行支援正是后攻方所必须承担的劣势之一，请在了解的基础上加以接受。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>「简易战斗」中的前线突破</strong></span><br><br>「简易战斗」的基本构造，是双方前卫在前线区域进行乱战，后卫在各自的后方区域进行支援的形式。<br><br>但是，当一方在前线区域没有角色时，对方角色通过前线区域的阻碍也会随之消失。此时，对方角色在行动时可以移动进敌侧后方区域。若其身处前线区域则可通过通常移动，身处己侧后方区域则可通过全力移动。<br><br><strong>后方乱战区域</strong><br><br>对方角色进入己侧后方区域会导致己侧后方区域变为乱战区域，此时，区域内角色可对彼此使用近身攻击和「射程：接触」的魔法及效果。<br>从区域外向此区域使用射击攻击和「形状：射击」的魔法及效果时则会发生误射。<br><br><strong>前线突破后的战场构造（突破方视角）</strong><br><img src="http://ww3.sinaimg.cn/large/9592acf1gw1edfl23sxrlj20hn06l3yz.jpg" alt="" class="bbc_img"/><br><br><strong>无法脱离的背水之阵</strong><br><br>对被突破的一方而言，此时的后方区域成为了一个「背水之阵」。角色没有再后退的余地，而只能在此处考虑如何改变局面。<br><br>被突破阵营的角色是无法脱离后方乱战区域的。其既无法进行脱离宣言，也无法通过魔法、效果、道具或战斗特技进行移动。此时唯一被允许的移动只有可从战场上完全撤退的超长距离移动。<br><br>同时，突破方的角色可正常进行脱离宣言并后退。<br><br><strong>前线突破状态的解除</strong><br><br>当后方乱战区域不再存在突破方的角色时，被突破方的角色就可以正常前进了。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>关于复数部位角色的注释</strong></span><br><br>一部分角色具有复数的部位。下文便是关于这些角色的注释。<br><br><strong>位置、移动和动作</strong><br><br>所有复数部位都应被视为位于同一区域（「简易战斗」）·坐标（「标准战斗」），并在移动时共同使用一次移动。此后，各部位可执行各自的主动作。<br><br>复数部位的角色需在一次行动中执行完所有部位的行动。不可以在执行一部分部位的行动后，插入其他角色的动作。各部位执行主动作的顺序则可以在每回合都进行自由安排。此外，辅助动作也可在行动时由任意部位在任意时间点执行。<br><br><strong>人数（部位数≒人数原则）</strong><br><br>复数部位的角色在决定乱战区域大小、移动妨碍可否、脱离宣言是否会造成回避力惩罚等需要计算人数的情况时，其每一部位都会被计算为一人。<br><br>因此，请将规则说明中的「人数」作为「合计部位数」加以理解。<br><br><strong>HP「0」以下的部位</strong><br><br>HP在0以下的部位的处理方式与昏迷角色相同。但在其他部位移动时，其也会随之移动。<br><br><strong>标准战斗：乱战状态的统一性</strong><br><br>在「标准战斗」中，若复数部位的角色的任一部位进入乱战，则其他部位也会随之进入乱战。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>关于伤害的注释</strong></span><br><br><strong>伤害的属性</strong><br><br>伤害是拥有属性这一概念的。属性有「炎」、「水·冰」、「毒」等众多种类。其中，既有【火焰箭】（※待补）这样直接造成属性伤害的魔法、效果，也有通过付与的方式来使伤害具有属性的魔法及效果。<br><br>属性会因目标的弱点或抗性而使伤害上升或下降。<br><br><strong>＜枪＞的伤害</strong><br><br>类别为＜枪＞的武器通过射出【~弹】魔法所制作的子弹进行攻击，并在命中时造成魔法伤害。<br><br>成为枪的攻击目标的角色如果成功通过回避力判定（与攻击者的命中力判定进行达成值比较，并达到同点或更高），则不会受到伤害。但回避失败时，目标角色不可进行精神抵抗力判定使伤害减半。由于此伤害属于魔法伤害，所以不会被铠甲或盾牌具有的防护点所减弱。<br><br>此外，枪的伤害不受金属铠的C值+1效果影响。<br><br><strong>坠落伤害</strong><br><br>从高处落下时，角色会受到坠落伤害。其伤害为「坠落距离（m）×3」点，并属于物理伤害。<br><br>坠落伤害可通过受身判定（⇛10楼）来减少。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>魔物发起的奇袭</strong></span><br><br>某些魔物拥有奇袭的能力。如果这些魔物的奇袭成功，则会以其魔物阵营为先攻方开始战斗。此外，受到奇袭的PC们的各种行为判定在轮到自身行动前都会受到-2的惩罚修正。<br><br>如果魔物的资料中有记述关于奇袭的特殊处理方式的话，请参照其记述的内容进行处理。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608629">
+&#171; <em>上次编辑: 2014-02-11, 周二 20:13:25 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608641"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608641_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608641">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608641#msg608641" rel="nofollow">Re: [死坑复燃][140122更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608641'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608641'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #29 于:</strong> 2014-02-11, 周二 20:05:22 &#187;</div>
+<div id="msg_608641_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608641"><strong><span style="font-size: 24pt;" class="bbc_size">回复、死亡与复活</span></strong><br><br><strong><span style="font-size: 12pt;" class="bbc_size">通过睡眠回复HP和MP</span></strong><br><br>角色可以通过得当的进食和睡眠回复损失的HP和MP。虽然进食和睡眠几乎可以在任何地方进行，但只有在能起一定遮风挡雨作用的，可以静养身体的地方休息，才会起到回复效果。此外，在不适合睡眠的坚硬地板上、遗迹中或室外睡眠时，还需要斗篷或毛毯等物品来作为寝具和防寒具。<br><br>PC们进行连续3小时的睡眠后，可以回复HP最大值的10%（小数进位）和MP最大值的一半（小数进位）<br>。<br>只有睡眠连续进行了3小时以上时，HP和MP才会得到回复。途中如果因被其他角色叫醒等情况而停止睡眠的话，HP和MP是不会回复的。<br><br>每天可通过睡眠回复HP和MP的次数为2次。也可以通过6小时的连续睡眠来一次性的完成这2次回复（回复20%HP和所有MP）。睡眠途中被叫醒而没有完成回复时，不计入回复次数。<br><br>虽然每天睡眠的时间可以超过6小时，但HP和MP的回复次数仍只能是2次。进行9小时或12小时以上的睡眠不会额外回复HP和MP。<br><br>『SW2.0』中两日的区分时间是早晨6点。所以以此为区隔进行睡眠的话，是可以一次完成两日份的回复的。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">种族的特殊能力和其他效果的次数回复</span></strong><br><br>各种族的种族特性和魔法效果中，有一部分是「1天只能使用1次」的。这些能力和效果的使用次数和可受效果次数会在早6时回复。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">昏迷和生死判定</span></strong><br><br>昏迷的PC会有死亡的风险。PC昏迷时，应立刻进行生死判定，失败则PC死亡。成功的话，则仍只是昏迷。具体请参照「生死判定（⇛10楼）」。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">死者的复活</span></strong><br><br>死者的复活可委托与较大的冒险者店进行过契约的高等级操灵术师来进行。<br><br>从属于冒险者店的成员只要支付金钱就可以进行复活。高位的操灵术师会执行仪式，为其使用令死者复活的魔法。<br><br>复活费用为10000G。当所持金不足时，也可通过向冒险者店借贷来进行。虽然冒险者店一般会以无利息方式提供借贷，但根据具体情况也可能会要求提供担保或接下比较困难的委托（在借贷关系之上拒绝委托会很困难吧）。<br><br>但是，死者的复活会使其灵魂受到扭曲并产生“污秽”（※待补），一般被视为禁忌。因此，很少有冒险者以外的人会接受复活。<br><br>复活需要死者的尸体。此外，接受复活的人会失去死亡前1小时的记忆。<br><br>在复活死亡的PC时，死亡PC的玩家可选择是否接受复活。拒绝时，PC不会复活。<br>（译者注：官方FAQ：死者只会得知有人试图复活他，而不会得知具体情况和使用的是何种魔法，且只要有抵抗的意志就可抗拒复活）<br><br><strong><span style="font-size: 12pt;" class="bbc_size">符文之民的复活</span></strong><br><br>与其他人族一样，符文之民也可以被复活。符文之民不会产生“污秽”，但作为复活的代价，其会失去最近1年的记忆。角色不会因失去记忆而损失等级或经验点。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">“污秽”的消除</span></strong><br><br>普通的手段是无法消除已产生的“污秽”的。但是在漫长壮阔的旅程和冒险的最后获得的神之奇迹或古代魔法装置，是有将“污秽”消除的可能性的（符文之民则有可能找回失去的记忆）。GM可以通过安排这类的剧本，让PC们踏上新的冒险旅程。“污秽”，并不是能简单消除的东西。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">污秽度的增加</span></strong><br><br>「污秽度」是表明灵魂在多大程度上受到了“污秽”的侵蚀的数值。<br><br>角色在死亡并复活后，其污秽度必然会上升1点，并应按下文中的「污秽表」来决定其受“污秽”的影响程度。<br><br>投污秽表时，若在死后3日内，则应为「2d」。从4日开始，掷骰结果每天+1。举例而言，死亡后第10日接受复活的PC在投污秽表时应为2d+7。<br><br>在已有污秽度时，应在污秽表的掷骰结果上再加上现有的污秽度。种族为梦魇的PC初始就拥有1点污秽度，其角和痣在初始就是+1的状态。<br><br>污秽度达到5时，PC会立刻行尸化（※待补）。一般来说，它会被执行复活的操灵术师破坏掉，该PC也不能再被使用。<br><br><strong>污秽表结果的求法</strong><br><br>2d+（经过日数-3）+（现在的污秽度）<br>※：（经过日数-3）的结果不能小于0，最低为0。<br>※：结果在17以上时，会额外增加污秽度。<br><br><strong>污秽表</strong><br>结果&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;污秽+&nbsp; &nbsp; &nbsp; &nbsp; 影响<br>2-7&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 无<br>8-10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 长出小小的角/角变长（+1）※1<br>11-13&nbsp; &nbsp; &nbsp; &nbsp;0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 身上出现痣（痣+1）※2<br>14&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 虹膜出现金色的轮廓<br>15&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 手指变长<br>16&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 声音变得嘶哑<br>17&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 皮肤变得犹如尸蜡<br>18&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 身边被依稀的瘴气笼罩<br>19&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 厌恶阳光<br>20&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 性喜鲜血<br>21-25&nbsp; &nbsp; &nbsp; &nbsp;+3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 不再想吃生肉以外的食物<br>26-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 皮肤开始腐败脱落<br><br>※1：角的「+」表示角的长度和大小。「+1」大概是小小突起的程度，「+2」则会让人明显看出是角。「+3」则是头发无法藏住的程度。角最大为「+3」，再高则会长出新的角。<br>※2：痣的「+」表示痣的大小。「+1」是可以毫无困难的藏起的大小。「+2」大小的痣若不藏起，则会令人感到明显可疑。「+3」以上大小的痣由于面积过大，很难藏起。<br>※3：在阳光下所有行为判定会受到-2的减值修正。<br>※4：1天不喝一口以上的活物鲜血的话，则会在当天的最后受到一次威力10的伤害（不会发生重击）。该伤害不能被任何手段减少，并在未喝到活物的鲜血前不会回复。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608641">
+&#171; <em>上次编辑: 2014-02-11, 周二 21:41:36 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg608660"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_608660_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_608660">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg608660#msg608660" rel="nofollow">Re: [死坑复燃][140211更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_608660'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_608660'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #30 于:</strong> 2014-02-11, 周二 22:43:06 &#187;</div>
+<div id="msg_608660_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_608660"><strong><span style="font-size: 36pt;" class="bbc_size">第三章 资料</span></strong><br><br>本章收录了PC们会使用到的各种资料。这些技能、战斗特技、魔法、装备等资料是冒险中所不可缺少的。<br><br><strong><span style="font-size: 24pt;" class="bbc_size">技能</span></strong><br><br>『SW2.0』的PC们会通过使用各种各样的技能来克服面前的困难，从而达成自己的目的。<br>下文将详细说明PC们所使用的技能，并对各技能可做的事进行解说。<br><br><strong><span style="font-size: 18pt;" class="bbc_size">各技能可做的事</span></strong><br><br>『SW2.0』的PC可通过消耗经验点学习技能来获得执行各种行动的能力。技能等级越高，其相关行动就越为洗练。此外，学习多种技能也能使自身可执行的行动增多。<br><br>以下将对各技能可做的行动进行分别说明。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">战士系技能</span></strong><br><br>战士系技能分为4种，并都是为和敌人作战而存在的。这些技能各有特点，所使用的武器和铠甲也各不相同。<br><br>战士技能中的战士、格斗家、轻战士这三种技能的使用场景和行为判定大致相同，一般只需要习得其中一种就足够了。<br><br><strong>战士技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>以战士的身份立于敌人面前，挥动武器进行战斗的技能。是最适合发挥武器、铠甲的作用的技能，可以自如的使用所有在自身力量允许范围的武器防具（除了射击武器）。<br><br>战士技能使用以下行为判定。<br><br>·命中力判定（⇛10楼，下同）<br>·回避力判定<br>·算出伤害<br><br>战士技能在算出伤害时，将技能等级与力量调整值的总和作为追加伤害。<br><br><strong>格斗家技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>不使用武器，而用拳脚进行战斗的拳斗士技能。只可以使用类别为＜格斗＞的，在自身力量范围内的武器。其使用的铠甲则必须是在物品资料中注明格斗家可用的装备，同时也不能使用盾牌。<br><br>虽然在伤害和防护点等方面劣于战士技能，但格斗家技能可习得战斗特技《追加攻击（※待补）》和《绊摔攻击（※待补）》。在这些战斗特技的支持下，格斗家的综合战斗力完全不劣于战士技能。<br><br>格斗家技能使用以下行为判定。<br><br>·命中力判定（⇛10楼，下同）<br>·回避力判定<br>·算出伤害<br><br>格斗家技能在算出伤害时，将技能等级与力量调整值的总和作为追加伤害。<br><br><strong>轻战士技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br><br>通过用灵巧的动作来攻击敌人要害的方式进行战斗的技能。使用此技能时，只能装备必要力量不高于自身力量一半的近身武器、盾牌和铠甲。举例而言，当PC的力量为15时，其装备的近身武器、盾牌和铠甲的必要力量都不能超过8。<br><br>使用此技能攻击时，武器的C值会减少1点（更容易发生重击）。虽然轻战士综合战斗力要劣于战士和格斗家，但也不能轻视其低C值带来的爆发力。此外，轻战士升级所需的经验值较少（经验表B），故能较为容易与其他技能共存并进，可以说是很方便的技能。<br><br>轻战士技能使用以下行为判定。<br><br>·命中力判定（⇛10楼，下同）<br>·回避力判定<br>·算出伤害<br><br>轻战士技能在算出伤害时，将技能等级与力量调整值的总和作为追加伤害。<br><br><strong>射手技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br><br>唯一可以使用射击武器攻击的技能。可以使用所有必要力量不超过自身力量的射击武器。射手技能没有对盾牌、铠甲的限制，但其技能等级不能作为回避的基准值使用。<br><br>此外，射击武器的伤害算出方式会根据其武器类别而各有不同。类别为＜弓＞的武器的算出方式与近身武器相同，都是在威力表的基础上掷骰，然后以射手技能等级和力量调整值的总和作为追加伤害。类别为＜弩＞的武器的伤害算出与力量和技能等级无关，而是使用该武器自身固有的追加伤害值。<br><br>同时，类别为＜枪＞的武器的算出伤害是由其使用的子弹决定的。射手技能也不会影响其算出伤害（决定伤害的是魔动机师技能）。<br><br>射手技能使用以下行为判定。<br><br>·命中力判定（⇛10楼，下同）<br>·算出伤害<br><br>射手技能在算出伤害时，其追加伤害会根据所使用武器的类别而变化。请参照「射击武器列表（※待补）」。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">魔法使系技能</span></strong><br><br>魔法使系技能分为5种，其所习得的魔法各不相同。各种魔法的行使条件同样存在不同，因此在学习魔法使技能时，需要注意满足各个技能的条件。详细请参照「魔法（※待补）」。<br><br><strong>魔术师技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>魔术师技能可以使用真语魔法。其可以放出魔法箭来进行攻击，也可以探查物品的魔力。该技能可使用的魔法请参照「真语魔法列表（※待补）」。<br><br>使用真语魔法时，需手持＜魔法发动体＞或被加工成了发动体的武器，并需要发声。此外，魔术师技能会受铠甲造成的减值修正（⇛12楼）影响。<br><br>魔术师技能使用以下行为判定。<br><br>·行使判定（⇛10楼，下同）<br>·算出伤害<br><br>魔术师技能给予伤害时，会将魔力作为追加伤害。<br><br><strong>操灵术师技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>操灵术师技能可以使用操灵魔法。其可以使用援护其他PC和制造并操纵人偶的魔法。该技能可使用的魔法请参照「操灵魔法列表（※待补）」。<br><br>使用操灵魔法时，需手持＜魔法发动体＞或被加工成了发动体的武器，并需要发声。此外，操灵术师技能会受铠甲造成的减值修正（⇛12楼）影响。<br><br>操灵术师技能使用以下行为判定。<br><br>·行使判定（⇛10楼，下同）<br>·算出伤害<br><br>操灵术师技能给予伤害时，会将魔力作为追加伤害。<br><br><strong>神官技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>神官技能可以使用神圣魔法。其可以通过对神的信仰，来使用回复、援护或驱退「蛮族」效果的魔法。该技能可使用的魔法请参照「基本神圣魔法列表（※待补）」和「特殊神圣魔法列表（※待补）」。<br><br>使用神圣魔法时，需在身上装备＜圣印＞，并需要发声。<br><br>神官技能使用以下行为判定。<br><br>·行使判定（⇛10楼，下同）<br>·算出伤害<br><br>神官技能给予伤害时，会将魔力作为追加伤害。<br><br><strong>妖精使技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>妖精使技能可以使用妖精魔法。其可以通过召唤妖精，来使用火、风等各种属性的魔法。该技能可使用的魔法请参照「妖精魔法列表（※待补）」。<br><br>妖精有「火」「水」「土」「风」「光」「暗」这6种属性，妖精使正是利用组合这些妖精的力量来使用魔法的。<br><br>使用妖精魔法时，需在身上装备规定数量的＜宝石＞，并需要发声。此外，妖精使技能会受铠甲造成的减值修正（※待补）影响。<br><br>妖精使技能使用以下行为判定。<br><br>·行使判定（⇛10楼，下同）<br>·算出伤害<br><br>妖精使技能给予伤害时，会将魔力作为追加伤害。<br><br><strong>魔动机师技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表A</strong><br><br>魔动机师技能可以使用魔动机术。其可以操纵注入玛娜后能实现各种效果的名为＜魔动制御球＞的道具，来使用能制作出各种便利道具的魔法，和将玛娜注入子弹内并用枪发射的魔法。该技能可使用的魔法请参照「魔动机术列表（※待补）」。<br><br>使用魔动机术时，需在身上装备＜魔动制御球＞，并需要发声。<br><br>魔动机师技能使用以下行为判定。<br><br>·行使判定（⇛10楼，下同）<br>·算出伤害<br>魔动机师技能给予伤害时，会将魔力作为追加伤害。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">杂项技能</span></strong><br><br>本节介绍的基本上都是用来进行探索和调查的技能。这些技能适用范围广泛，是冒险中所不可缺少的技能。如果想让PC在更广阔的范围上有所发挥，便可以学习这些技能中的一个加以学习。<br><br><strong>斥候技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br><br>斥候技能是用来进行侦查和调查的技能。学习了该技能的角色可以用敏锐的感觉发现身边的危险，并可以用灵巧的身形安全通过危险的场所。但是，其行为判定中的一部分在未持有＜斥候工具＞或身着金属铠时会受到减值修正。<br><br>斥候技能使用以下行为判定。<br><br>·足迹追踪判定（⇛10楼，下同）<br>·隐蔽判定<br>·受身判定<br>·潜行判定<br>·解除判定<br>·轻身判定<br>·聆听判定<br>·危险感知判定<br>·偷窃判定<br>·先制判定<br>·探索判定<br>·地图制作判定<br>·天气预测判定<br>·跟踪判定<br>·变装判定<br>·宝物鉴定判定<br>·陷阱感知判定<br>·陷阱设置判定<br><br><strong>巡林客技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br><br>巡林客技能与斥候技能相似，都是用来进行侦查和调查的技能。但巡林客技能基本只能野外使用。<br><br>学习巡林客技能后，角色可以熟练掌握药草和药水的用法，并会获得关于药品的知识。拥有巡林客技能的PC使用药草或药水进行HP和MP的回复时，可以在威力表的结果之上再加上自身的「巡林客技能等级」和对应的「属性调整值」。药草系使用「灵巧调整值」，药水系使用「智力调整值」。药草和药水都可以为别的角色使用。<br><br>巡林客行为判定中的一部分在身着金属铠时会受到减值修正。<br><br>巡林客技能使用以下行为判定。<br><br>·足迹追踪判定（⇛10楼，下同）<br>·隐蔽判定<br>·受身判定<br>·急救判定<br>·潜行判定<br>·解除判定<br>·轻身判定<br>·聆听判定<br>·危险感知判定<br>·探索判定<br>·地图制作判定<br>·天气预测判定<br>·跟踪判定<br>·疾病知识判定<br>·药物学判定<br>·陷阱感知判定<br>·陷阱设置判定<br><br><strong>贤者技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经验表B</strong><br><br>贤者技能是在知识性的判定发挥作用的技能。<br><br>此外，贤者技能每提高一级，都可以额外习得一种语言的对话或阅读。习得语言请从「语言表（⇛2楼）」中选择。<br><br>贤者技能使用以下行为判定。<br><br>·见识判定（⇛10楼，下同）<br>·构造解析判定<br>·地图制作判定<br>·疾病知识判定<br>·文献判定<br>·宝物鉴定判定<br>·魔物知识判定<br>·药物学判定</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_608660">
+&#171; <em>上次编辑: 2014-02-12, 周三 14:27:49 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609022"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609022_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609022">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609022#msg609022" rel="nofollow">Re: [死坑复燃][140211更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609022'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609022'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #31 于:</strong> 2014-02-13, 周四 00:00:24 &#187;</div>
+<div id="msg_609022_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609022"><strong><span style="font-size: 24pt;" class="bbc_size">魔法</span></strong><br><br>所谓魔法，即是利用遍布于世界的玛娜，来达成各种神秘效果的技术。角色在学习了可以使用魔法的技能后，即可随时随地的使用魔法。而魔法中既有用来攻击敌人的，亦有可以治疗伤口、搬运道具的，其用途是十分广泛的。<br><br>本节将介绍角色们可以学习的魔法。<br><br><strong><span style="font-size: 18pt;" class="bbc_size">各种魔法的资料的查看方法</span></strong><br><br>下文中各种魔法的资料依等级和五十音排序。以下是这些资料中使用的用语的解说。<br><br><strong>【能量箭】(Energy Bolt)</strong>&nbsp;&nbsp;&nbsp;②<br>等级：1级真语魔法&nbsp;&nbsp;&nbsp;①<br>消费：MP5&nbsp;&nbsp;&nbsp;③<br>对象：1体&nbsp;&nbsp;&nbsp;④<br>射程/形状：30m/射击&nbsp;&nbsp;&nbsp;⑤<br>时间：一瞬&nbsp;&nbsp;&nbsp;⑥<br>抵抗：减半&nbsp;&nbsp;&nbsp;⑦<br>属性：纯能量&nbsp;&nbsp;&nbsp;⑧<br>概要：用玛娜做出箭矢并进行攻击。&nbsp;&nbsp;&nbsp;⑨<br>效果：给予目标「威力10+魔力」的魔法伤害。&nbsp;&nbsp;&nbsp;⑩<br><br><strong>【固体弹】（Solid Bullet）</strong>☆&nbsp;&nbsp;&nbsp;②<br>等级：1级魔动机术&nbsp;&nbsp;&nbsp;①<br>消费：MP1&nbsp;&nbsp;&nbsp;③<br>道具：（小）、弹药1发&nbsp;&nbsp;&nbsp;④<br>射程/形状：接触/—&nbsp;&nbsp;&nbsp;⑤<br>时间：10秒（1回合）&nbsp;&nbsp;&nbsp;⑥<br>抵抗：无&nbsp;&nbsp;&nbsp;⑦<br>概要：向普通的子弹内注入玛娜。&nbsp;&nbsp;&nbsp;⑨<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力20+魔力」点的魔法伤害。该魔法可通过辅助动作行使。&nbsp;&nbsp;&nbsp;⑩<br><br><strong>①&nbsp;&nbsp;&nbsp;等级</strong><br>魔法的等级。PC可以使用等级在自身魔法使技能等级以下的对应种类的魔法。<br><br><strong>②&nbsp;&nbsp;&nbsp;名称</strong><br>魔法的名称。名称后有☆的魔法可以用辅助动作（⇛17楼）行使。<br><br><strong>③&nbsp;&nbsp;&nbsp;消费</strong><br>行使该魔法时消费的MP。<br><br><strong>④&nbsp;&nbsp;&nbsp;对象/道具</strong><br>该魔法可以指定的目标物。魔法的对象必须在术者的视线内或被术者接触。<br>「1体」：可以以1名角色为对象。<br>「术者」：只能以施术者自身为对象。<br>「一个物体」：只能以一个、或一单位的非角色无机物为对象。不能以无法计量的物体（如液体、群体）为对象。<br>「一个魔法」：以一个效果持续时间内的魔法为对象。<br>「半径○m的攻击/△」：以术者指定的1点为中心，将半径○m内的全部角色全部做为对象。△的含义是「最大对象数」，当范围内人数超过该数值时，将会从范围内随机挑选出该数量的对象。<br>「任意地点」：将指定空间的1点作为对象。<br><br>魔动机术的该项目为「道具」，记述了该魔法使用时所需的道具。此时，施术者需要在身上装着或用手触碰此道具。以下是所需道具的说明。<br>（小）：即＜魔动制御球（小）＞。<br>（中）：即＜魔动制御球（中）＞。<br>（大）：即＜魔动制御球（大）＞。<br>「子弹○发」：使用此魔法需要的子弹数量。之后需要将其装填入＜枪＞中。<br><br><strong>⑤&nbsp;&nbsp;&nbsp;射程/形状</strong><br>射程即该魔法在行使时与对象的最大距离。当施术者与对象距离超过此处数据时，不能将此目标指定为魔法对象。<br>「术者」：该魔法效果只能影响施术者自身，或必须以术者为中心施放。<br>「接触」：术者需要接触到目标才可以使用。不需要进行命中力判定。使用真语魔法或操灵魔法时，也可以通过＜魔法发动体＞来间接接触对象。<br>「○m」：可以自由选择在此距离内的目标。<br><br>形状则表示该魔法将以怎样的形状来到达目标及发挥效果。形状栏为「—」的魔法不存在形状。<br>「射击」：该魔法会一直线的由施术者处飞向目标。中间有障碍物的话，魔法会被障碍物阻拦，并对障碍物发挥效果。将乱战区域中的角色作为对象时，会发生误射（⇛27楼）。<br>「起点指点」：该魔法会直接对指定的地点、角色、物体发挥效果。魔法具有范围时，则会以指定的地点为中心发挥效果。对乱战区域使用时，则可能会将乱战区域内的全部角色作为对象。请参照「范围效果（⇛27楼）」。<br><br><strong>⑥&nbsp;&nbsp;&nbsp;时间</strong><br>该魔法的效果持续时间。即使是长效魔法，对其的抵抗判定也只能在生效时进行一次。<br>「一瞬」：魔法瞬间发挥作用，并只产生一次影响。<br>「*秒/*分/*小时/*天」：魔法的效果将会持续相应的时间，时间到后效果消失。施术者在效果持续时间内可自由解除该魔法。解除魔法使用「辅助动作（⇛17楼）」。<br>「永久」：魔法效果将会在被解除之前永久持续。施术者不能凭意志解除该魔法。<br><br><strong>⑦&nbsp;&nbsp;&nbsp;抵抗</strong><br>当该魔法被指定为对象的持抵抗意志的角色成功抵抗后，其效果会受到的影响。<br>「无」：不需要进行抵抗判定。只要对象不希望受该魔法效果影响，便无法发挥效果。当对象希望受到效果影响，或没有意志时，魔法将完全生效。<br>「减半」：不会造成重击，伤害也会减半（小数进位）。<br>「消灭」：魔法完全不会产生效果。<br>「必中」：不能进行抵抗，必定完全生效。<br><br><strong>⑧&nbsp;&nbsp;&nbsp;属性</strong><br>给予角色伤害或付与效果的魔法具有属性这一概念。该项即魔法是通过何种属性来给予伤害或付与效果的。<br>被分类于「**属性」的魔法的算出伤害会因对象对此属性的抗性而发生变化。此外，若魔法不具有属性的话，其资料中便不会有这一项目存在。<br>「纯能量」：使用纯净的魔法能量来攻击敌人或给予影响。<br>「冲击」：使用迸发的空气、玛娜等物质来制造压力，进而进行攻击或给予影响。<br>「斩击」：使用魔力之刃等手段，通过切割的方式来攻击或给予影响。<br>「雷」：使用雷或闪电等方式进行攻击或给予影响。<br>「炎」：使用火焰或高热来进行攻击或给予影响。矮人不受该属性魔法的伤害。<br>「风」：使用风刃或龙卷等方式进行攻击或给予影响。<br>「水·冰」：使用水流或冰块进行攻击或给予影响。<br>「毒」：使用会对生物造成负面影响的液体或气体进行攻击或给予影响。「不死生物」和「魔法生物」不受该属性影响。<br>「疾病」：使用细菌或孢子等方式进行攻击或给予影响。<br>「诅咒」：使用诅咒或怨念等方式进行攻击或给予影响。<br>「精神效果」：对目标MP造成伤害，或对精神产生影响的魔法。<br><br><strong>⑨&nbsp;&nbsp;&nbsp;概要</strong><br>对该魔法发挥效果方式的概要说明。<br><br><strong>⑩&nbsp;&nbsp;&nbsp;效果</strong><br>该魔法行使后产生的具体效果。主要记载了对象受魔法影响后的状态，和会造成伤害的魔法的伤害强度。<br>当没有特别说明时，魔法的C值默认视为10。此外，请注意回复魔法不会出现重击。<br>此处记载的「魔力」即通过该魔法系统的「技能等级+智力调整值」得出的魔力（不能使用其他魔法系统的魔力）。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609022">
+&#171; <em>上次编辑: 2014-02-15, 周六 16:02:55 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609023"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609023_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609023">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609023#msg609023" rel="nofollow">Re: [死坑复燃][140211更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609023'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609023'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #32 于:</strong> 2014-02-13, 周四 00:02:02 &#187;</div>
+<div id="msg_609023_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609023"><span style="font-size: 18pt;" class="bbc_size"><strong>真语魔法列表</strong></span><br><br><strong>【能量箭】(Energy Bolt)</strong><br>等级：1级真语魔法<br>消费：MP5<br>对象：1体<br>射程/形状：30m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：纯能量<br>概要：用玛娜做出箭矢并进行攻击。<br>效果：给予对象「威力10+魔力」的魔法伤害。<br><br><strong>【钝化武器】(Blunt Weapon)</strong><br>等级：1级真语魔法<br>消费：MP2<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：使用玛娜来降低对象武器或利爪的威力。<br>效果：目标进行近身攻击或射击攻击时，物理伤害-4点，最终伤害不会低于0。<br><br><strong>【光亮术】(Light)</strong><br>等级：1级真语魔法<br>消费：MP1<br>对象：半径10m的空间<br>射程/形状：30m/起点指定<br>时间：3小时<br>抵抗：无<br>概要：在目标上制作出小小的光源，在范围内提供照明。<br>效果：角色在效果范围内不会受到黑暗造成的减值修正。<br>可以将该魔法施放在物体上，并加以携带。<br><br><strong>【上锁术】(Lock)</strong><br>等级：1级真语魔法<br>消费：MP1<br>对象：一个物体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：使用玛娜将目标锁具上锁。<br>效果：将能正常工作的锁具上锁的魔法。通过该魔法上锁的锁具在处理上与普通锁具相同。只要是带有锁具的物体，都可以使用该魔法上锁。<br><br><strong>【睡眠术】(Sleep)</strong><br>等级：2级真语魔法<br>消费：MP5<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>属性：精神效果<br>概要：影响对象的精神，引导其睡去。<br>效果：对象抵抗失败时，无论其当时处于何种状态，都会立刻陷入睡眠状态。睡眠状态的角色的HP或MP减少，或其他角色对其使用叫醒动作时，会立刻脱离睡眠状态。叫醒动作为主动作。<br>该魔法对不需睡眠的对象不会产生作用。<br><br><strong>【感知魔法】(Sense Magic)</strong><br>等级：2级真语魔法<br>消费：MP1<br>对象：一个物体<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：无<br>概要：使用魔法来探知物体是否具有魔力。<br>效果：可以判别出物体上是否具有魔力。成功时，可以得知物体是否被施与了某种魔法，但不能得知其被施与的魔法的名称、系统、效果及数量。<br><br><strong>【解除魔法】(Dispel Magic)</strong><br>等级：2级真语魔法<br>消费：MP3<br>对象：一个魔法<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：扰乱玛娜的流通，使目标魔法失效。<br>效果：可将一个效果时间内的非诅咒属性的魔法消除。不需要知道对象魔法的名称。<br>消除魔法时，需要与目标魔法进行达成值比较。<br>扩大魔法数量后，可以同时消除多个魔法（自身达成值高于该魔法达成值的魔法不会被消除）。<br><br><strong>【活力术】(Vitality)</strong><br>等级：2级真语魔法<br>消费：MP2<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：增强肉体的活性和抵抗力。<br>效果：对象进行生命抵抗力判定时，获得达成值+2的加值修正。<br><br><strong>【开锁术】(Unlock)</strong><br>等级：3级真语魔法<br>消费：MP2<br>对象：一个物体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：使用玛娜的力量来开锁。<br>效果：普通的锁会被立刻打开。魔法锁则需要进行达成值比较，胜出则同样可以打开。<br><br><strong>【感知敌人】(Sense Enemy)</strong><br>等级：3级真语魔法<br>消费：MP2<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：探知对象是否对施术者具有敌意。<br>效果：可以判断出对象对施术者是否具有敌意或祸心。若被抵抗，则无法得知对方是否具有敌意或祸心。<br>被施放了此魔法的角色，会感到一瞬目眩般的不适，并可由此判断出被施放了这个魔法。<br><br><strong>【麻痹术】(Paralyze)</strong><br>等级：3级真语魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：麻痹目标的手足，迟缓其行动。<br>效果：对象的命中力判定或回避力判定受到-2的减值修正。施术者可以自由选择对命中和回避的哪一方产生影响。<br><br><strong>【飞刃术】(Leap Slash)</strong><br>等级：3级真语魔法<br>消费：MP7<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：减半<br>属性：斩击<br>概要：用玛娜制作出的利刃对目标进行攻击。<br>效果：给予对象「威力20+魔力」的魔法伤害。<br><br><strong>【魔宠术】(Familiar)</strong><br>等级：4级真语魔法<br>消费：MP15<br>对象：一个物体<br>射程/形状：接触/—<br>时间：永久<br>抵抗：无<br>概要：制作魔法生物作为自己的使魔，并加以使役。<br>效果：制作魔法生物来使其成为自己的使魔。<br>该魔法的行使需要消耗1小时的时间。使魔种类可从魔物资料中的猫（※待补）、鸟（※待补）、蛙（※待补）选择一种。<br>术者与制作出的使魔常时共有视觉及听觉。使魔基本上是不会被破坏的，但其所受到的物理及魔法伤害都会被转移到术者身上。该魔法不可被【解除魔法】等魔法或通常手段解除。每名角色只能拥有一只使魔，也不可改变其种类。当使魔与术者处于接触状态时，术者可以将使魔的MP为己所用。<br><br><strong>【标记术】(Marking)</strong><br>等级：4级真语魔法<br>消费：MP2<br>对象：一个物体<br>射程/形状：接触/—<br>时间：3天<br>抵抗：无<br>概要：在物体上附着魔法标记。<br>效果：可在效果时间内随时确定对象物体所处的方向和距离。当物体被移动或毁坏时，魔法立即失效。该魔法生效期间，术者不得再次使用该魔法（不能同时获知两个物体的位置）。<br><br><strong>【闪电术】(Lighting)</strong><br>等级：4级真语魔法<br>消费：MP7<br>对象：任意地点/特殊<br>射程/形状：30m/贯通<br>时间：一瞬<br>抵抗：减半<br>属性：雷<br>概要：术者施放闪电，攻击前方的目标。<br>效果：给予对象「威力20+魔力」的魔法伤害。<br><br><strong>【武器精通】(Weapon Master)</strong><br>等级：5级真语魔法<br>消费：MP5<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：暂时提高对象对武器的熟练程度，使其动作能与高手匹敌。<br>效果：使对象暂时习得《武器熟练/**》、《牵制攻击》、《必杀攻击》、《全力攻击》、《挑衅攻击》中的一种。可以通过多次使用该魔法来习得多个不同的战斗特技。<br><br><strong>【墙上行走】(Wall Walking)</strong><br>等级：5级真语魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：使脚能吸附在各种物体上，并能在墙面或天花板上自如行走。<br>效果：只要脚附着在物体之上，就能无视于方向和位置的自如行走。此时只能进行「通常移动」和「制限移动」。两脚都不接触物体时，魔法立刻失效。<br><br><strong>【译文术】(Tranlate)</strong><br>等级：5级真语魔法<br>消费：MP2<br>对象：术者<br>射程/形状：术者/—<br>时间：3分（18回合）<br>抵抗：无<br>概要：通过知觉理解眼前文字的含义。<br>效果：使对象可以理解并解读未知文字的含义。可以得知眼前文字的种类并进行阅读，但不能听懂自身未知语言，也不能用未知语言进行对话或通过发音来辨别未知语言。<br><br><strong>【爆冲术】(Blast)</strong><br>等级：5级真语魔法<br>消费：MP6<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：减半<br>属性：冲击<br>概要：用玛娜之块冲击目标来进行攻击。<br>效果：给予对象「威力30+魔力」的魔法伤害。<br><br><strong>【隐蔽术】(Conceal Self)</strong><br>等级：6级真语魔法<br>消费：MP15<br>对象：术者<br>射程/形状：术者/—<br>时间：1小时<br>抵抗：无<br>概要：用玛娜包裹自己，遮蔽五感（※待补）探知。<br>效果：隐蔽术者的身形。无法通过视线、声音、气味等方式感知术者的存在，但可以直接触碰术者。此外，也可以通过魔法来感知术者的存在。<br>在战斗中使用该魔法后，如果使用了「制限移动」以外的移动方式，或进行了主动性的行为判定的话，则该魔法立刻失效。<br><br><strong>【高等上锁术】(Hard Lock)</strong><br>等级：6级真语魔法<br>消费：MP4<br>对象：一个物体<br>射程/形状：接触/—<br>时间：永久<br>抵抗：无<br>概要：使用魔力锁住目标，并使其无法被通常手段破坏。<br>效果：该魔法应对能正常工作的锁具施放。被施放了该魔法的锁具在处理上视为魔法锁，无法被通常的「解除判定（⇛10楼）」打开。此外，被该魔法上锁了的门、盖子、宝箱等物体也会变得无法被通常手段破坏。<br>试图使用＜魔法钥匙＞或【开锁术】等手段打开被施放了该魔法的锁具时，需要进行达成值比较。<br>可以设定开门暗号，并使用此暗号进行锁具的开关。<br>（译注：请有节操的使用该魔法，尽量不要弄出全是门的房子之类的奇景，也推荐GM给上了锁的东西设个强度上限）<br><br><strong>【火球术】(Fireball)</strong><br>等级：6级真语魔法<br>消费：MP8<br>对象：半径3m的空间/5<br>射程/形状：30m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：炎<br>概要：向指定的地点射出火球。<br>效果：给予对象「威力20+魔力」的魔法伤害。<br><br><strong>【漂浮术】(Levitation)</strong><br>等级：6级真语魔法<br>消费：MP6<br>对象：术者<br>射程/形状：术者/—<br>时间：3分（18回合）<br>抵抗：无<br>概要：通过玛娜的力量使自己可以在空中漂浮。<br>效果：使术者可以在10m以下的空中自由漂浮。在空中漂浮时只能执行「制限移动」，可执行的动作则与地面上相同。近身攻击、射击攻击和魔法行使都可以在空中正常进行。超过效果时间时，会立刻从空中落下，并承受坠落伤害（⇛29楼）。<br>使用此魔法脱离乱战区域时，也需要事先进行「乱战脱离宣言（28楼）」，并服从相关规则。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609023">
+&#171; <em>上次编辑: 2014-02-15, 周六 16:03:41 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609027"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609027_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609027">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609027#msg609027" rel="nofollow">Re: [死坑复燃][140211更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609027'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609027'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #33 于:</strong> 2014-02-13, 周四 00:06:55 &#187;</div>
+<div id="msg_609027_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609027"><span style="font-size: 18pt;" class="bbc_size"><strong>操灵魔法列表</strong></span><br><br><strong>【武器附魔】(Enchant Weapon)</strong><br>等级：1级操灵魔法<br>消费：MP2<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：通过玛娜使武器或拳头变硬，使其变得更为锐利或冲击力更强。<br>效果：对象进行近身攻击、射击攻击时，其武器将被视为魔法武器，同时物理伤害+1点。<br><br><strong>【火花术】(Spark)</strong><br>等级：1级操灵魔法<br>消费：MP6<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：一瞬<br>属性：雷<br>抵抗：减半<br>概要：在空气中生成细小的闪电，以此攻击范围内的所有角色。<br>效果：给予对象「威力0+魔力」的魔法伤害。<br><br><strong>【暗雾术】(Dark Mist)</strong><br>等级：1级操灵魔法<br>消费：MP3<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：10秒（1回合）<br>抵抗：消灭<br>概要：使目标地点被魔法的雾霭所笼罩。<br>效果：使目标范围被魔法的雾霭所笼罩。抵抗失败的角色会失去远近感，其回避力判定受到-2的减值修正。<br><br><strong>【保护术】(Protection)</strong><br>等级：1级操灵魔法<br>消费：MP1<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：制作出保护目标的玛娜之壁。<br>效果：对象受到的物理·魔法伤害-1点。但【保护术】不能减少毒、疾病、诅咒属性的伤害。<br><br><strong>【地力治疗】(Earth Heal)</strong><br>等级：2级操灵魔法<br>消费：MP3<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：使用大地的活力来治愈目标的身体。<br>效果：回复HP的魔法。回复量为「威力0+魔力」点。该魔法也可以为分类为「不死生物」或「魔法生物」的角色回复HP。<br>该魔法不会发生重击。<br><br><strong>【抵抗魔法】(Counter Magic)</strong><br>等级：2级操灵魔法<br>消费：MP1<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：在对象身边张开玛娜的薄膜，使其抵抗精神效果的能力上升。<br>效果：对象进行精神力抵抗判定时，达成值获得+2的加值修正。<br><br><strong>【命令人偶】(Command Doll)</strong><br>等级：2级操灵魔法<br>消费：MP4<br>对象：一个人偶<br>射程/形状：接触/—<br>时间：1天，或达成命令后<br>抵抗：消灭<br>概要：使人偶等物体按下达的命令行动。<br>效果：该魔法可向人偶、布偶等物体下达命令，并使之行动起来。<br>对象只会反复执行被下达的命令。当无法继续执行命令，或经过1天后，对象会变回原本的普通人偶或布偶。被该魔法操纵的对象使用与「使魔·猫（※待补）」相同的数据（但不具有其特殊能力）。<br>可命令的对象不得超过小动物的大小。行动时，其运动能力也只相当于人类小孩的程度。<br>对一个对象只能下达一个命令。但可以对命令完成或被中止的对象再次使用该魔法来下达新的命令。<br>该魔法只能下达“向移动某处”、“重复某一动作”等简单而单纯的命令。<br><br><strong>【狂热术】(Fanaticism)</strong><br>等级：2级操灵魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>属性：精神效果<br>概要：使目标振奋，并诱发其攻击冲动。<br>效果：对象在效果时间内时，命中力判定获得+2的加值修正，但回避力判定会受到-2的减值修正。<br><br><strong>【制作魔像】(Create Golem)</strong><br>等级：3级操灵魔法<br>消费：MP4/8<br>对象：一个物体<br>射程/形状：接触/—<br>时间：1天<br>抵抗：无<br>概要：制作魔像，并使其依术者意愿而行动。<br>效果：使用各种素材来制作魔像。<br>制作出的魔像只能执行一个简单的命令，并会将其执行到自身无法行动为止。该魔法的行使需要1小时时间。<br>当命令无法被完成时，魔像会立刻停止所有行动。而当命令重新变得可被完成时，其将立刻重新开始执行命令。<br>如果制作的是「橡木魔像」，则需要一个「魔化的橡木枝（※待补）」作为素材。「土偶」则需要一份「魔化的粘土（※待补）」。<br>该魔法消耗的MP会因制作的魔像不同而发生变化。制作出的魔像的数据请参照后文中魔物资料一节中的「橡木魔像（※待补）」和「土偶（※待补）」。<br><br><strong>【制作魔像】的MP消费</strong><br>制作的魔像&nbsp; &nbsp; &nbsp; &nbsp; 消费MP&nbsp; &nbsp; &nbsp; &nbsp; 消费的素材<br>橡木魔像&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;魔化的橡木枝<br>土偶&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;8&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;魔化的粘土<br><br><strong>【火焰武器】(Fire Weapon)</strong><br>等级：3级操灵魔法<br>消费：MP4<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：使物体被火焰缠绕，并可作为魔法武器而被使用。<br>效果：对象进行近身攻击、射击攻击时，其武器会被视为炎属性的魔法武器，且物理伤害+2点。<br><br><strong>【地力升腾】(Raising Earth)</strong><br>等级：3级操灵魔法<br>消费：MP7<br>对象：半径10m的空间<br>射程/形状：10m/起点指定<br>时间：30秒（3回合）<br>抵抗：无<br>概要：提取大地的活力，强化肉体的恢复能力。<br>效果：每回合结束时，范围内所有角色回复3点HP。分类为「不死生物」或「魔法生物」的角色也会受该效果影响。<br><br><strong>【变装术】(Disguise)</strong><br>等级：4级操灵魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：无<br>概要：用魔力制造出幻觉，从而改变其他角色或术者制作出的魔像或不死生物的身形。<br>效果：将对象的身形变为另一名术者所知的人族的模样。虽然模样发生了变化，但对象的大小、重量、声音、气味等特征不会发生变化。<br><br><strong>【人偶视野】(Doll Sight)</strong><br>等级：4级操灵魔法<br>消费：MP3<br>对象：一个人偶<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：消灭<br>概要：可以以制作出的人偶或布偶的视野来视物。<br>效果：可以以人偶或布偶的视野来视物。<br>对象视野的能力以自身视野能力为基准。在效果时间内，术者可自由切换视角。不可同时使用双方的视野。<br><br><br><strong>【禁魔术】(Forbidden Magic)</strong><br>等级：4级操灵魔法<br>消费：MP5<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：30秒（3回合）<br>抵抗：消灭<br>属性：诅咒<br>概要：对目标施放微弱的诅咒，来封禁其使用魔法的能力。<br>效果：指定一种魔法使系技能，并禁止对象使用等级3以下的该系魔法。不会对对象的会话等能力造成影响。<br><br><strong>【毒云术】(Poison Cloud)</strong><br>等级：4级操灵魔法<br>消费：MP6<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>属性：毒<br>概要：放出带有强烈毒性的毒云，使对象受到侵染。<br>效果：抵抗失败的对象在1分（6回合）内，每次行动结束后都会受到3点毒属性魔法伤害。该种毒素可以被【治疗毒素】和【解除魔法】等方式解除。<br><br><strong>【瞬间操控】(Instant Control)</strong><br>等级：5级操灵魔法<br>消费：MP5<br>对象：一个物体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：强化术者制作的人偶、魔像、不死生物、使魔。<br>效果：该魔法可以强化术者制作的魔法生物等物体。<br>若对象为术者制作的魔法生物或不死生物，则其的命中力判定和回避力判定都获得+2的加值修正。此外，对象造成的物理伤害+2点，受到的物理伤害和魔法伤害-2点。<br><br><strong>【制作不死生物】(Create Undead)</strong><br>等级：5级操灵魔法<br>消费：MP4~12点<br>对象：一具尸体<br>射程/形状：接触/—<br>时间：1天<br>抵抗：无<br>概要：制作不死生物，并使其依术者意愿而行动。<br>效果：制作不死生物。<br>制作出的不死生物只能执行一个简单的命令，并会将其执行到自身无法行动为止。该魔法的行使需要1小时时间。<br>当命令无法被完成时，不死生物会立刻停止所有行动。而当命令重新变得可被完成时，其将立刻重新开始执行命令。<br>制作不死生物需要一具人族或蛮族的尸体。消费MP会依制作的不死生物的强度而发生变化。不死生物的强度请参照魔物资料中的「骷髅（※待补）」「僵尸（※待补）」「水鬼（※规则书2）」。<br><br><strong>【制作不死生物】的MP消费</strong><br>制作的不死生物&nbsp; &nbsp; &nbsp; &nbsp; 消费MP<br>骷髅&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4<br>僵尸&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8<br>水鬼&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12<br><br><strong>【魔力增强】(Spell Enhance)</strong><br>等级：5级操灵魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：使玛娜发生过剩反应，暂时加强对象的魔力。<br>效果：对象所有种类的魔力+1。<br><br><strong>【抵抗探知】(Counter Sense)</strong><br>等级：6级操灵魔法<br>消费：MP3<br>对象：术者<br>射程/形状：术者/—<br>时间：1天<br>抵抗：无<br>概要：用流动的玛娜包围住身体，并对以自己为目标的魔法产生反应。<br>效果：在该魔法的效果时间中，若有以术者为对象的魔法被行使，术者可获知该魔法的名称、效果和使用该魔法的角色的所处位置。<br>当有以术者为目标的魔法被行使后，此魔法自动失效。<br><br><strong>【麻痹之云】(Stun Cloud)</strong><br>等级：6级操灵魔法<br>消费：MP6<br>对象：半径5m的空间/15<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>属性：毒<br>概要：使对象身体麻痹，对其行动造成阻碍。<br>效果：抵抗失败后的30秒（3回合）内，不能使用需要宣言的战斗特技。<br><br><br><strong>【玛娜吸收】(Mana Absorb)</strong><br>等级：6级操灵魔法<br>消费：MP6<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：30秒/3回合<br>抵抗：消灭<br>概要：创造出一个通过吸收玛娜来还原范围内角色的生命力的空间。<br>效果：在范围内使用消费MP的魔法、练技等行动时，其消费MP会变为2倍。行动的效果不会受到影响。<br>执行了消耗2倍MP的行动的角色，立刻恢复3点HP。<br><br><strong>【遥控人偶】(Remote Doll)</strong><br>等级：6级操灵魔法<br>消费：MP6<br>对象：一个人偶<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：消灭<br>概要：如操纵自己身体一样自如的操纵人偶或布偶，并使其完全按照术者意志行动。<br>效果：将术者的视觉和听觉转移到对象上，并操纵其以人类小孩程度的运动能力进行行动。可以通过人偶为媒介进行对话，但不能使用术者的技能或战斗特技等能力。<br>术者操纵对象时，自身是不能执行一切其他行动的。此外，其本体在此时也没有视觉和听觉。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609027">
+&#171; <em>上次编辑: 2014-02-15, 周六 18:21:46 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609228"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609228_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609228">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609228#msg609228" rel="nofollow">Re: [死坑复燃][140212更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609228'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609228'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #34 于:</strong> 2014-02-13, 周四 23:30:20 &#187;</div>
+<div id="msg_609228_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609228"><span style="font-size: 18pt;" class="bbc_size"><strong>基本神圣魔法列表</strong></span><br><br>基本神圣魔法是所有学习了神官技能的角色都可以使用的魔法，而与信仰的神明无关。<br><br><strong>【平静术】(Sanity)</strong><br>等级：1级基本神圣魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：消灭<br>概要：使对象紊乱的心情和精神状态回归正常。<br>效果：可以用来解除所有属性为「精神效果」的魔法或特殊能力的影响。在解除具有达成值的效果的影响时，需要进行进行达成值比较。<br><br><strong>【驱逐术】(Banish)</strong><br>等级：1级基本神圣魔法<br>消费：MP3<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：对蛮族和不死生物造成负面影响。<br>效果：范围内类别为「蛮族」和「不死生物」的角色在抵抗该魔法失败时，需投2d，并受到下表中对应效果的影响。<br><strong>【驱逐术】表</strong><br>掷骰结果&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 效果<br>2~4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对象会因恐慌而狂暴化。30秒（3回合）内，其命中力判定获得+2的加值修正，回避力判定受到-2的减值修正。此外，目标在效果时间内不能理性的进行行动，也不能使用魔法<br>5~9&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对象的行动因恐惧而受到妨碍。3分（18回合）内，其命中力判定、回避力判定、行使判定都会受到-1的减值修正。<br>10~12&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;对象立刻逃跑。当对象身处无法逃跑的状态时，则会因恐惧而在10秒（1回合）内无法动弹，并无法进行一切行动。之后的行动则不会受到影响。<br><br><strong>【范围保护术】(Field Protection</strong>)<br>等级：1级基本神圣魔法<br>消费：MP2<br>对象：半径3m的空间/5<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：消灭<br>概要：降下耀眼的辉光，给予范围内对象以加护。<br>效果：对象受到的物理·魔法伤害-1点。加护效果会持续3分（18回合）。【区域保护】对毒、疾病、诅咒属性造成的伤害无效。<br><br><strong>【唤醒术】(Awaken)</strong><br>等级：2级基本神圣魔法<br>消费：MP5<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：无<br>概要：唤醒处于睡眠·昏迷状态的对象。<br>效果：用来唤醒处于睡眠·昏迷状态的角色的魔法。若此时对象HP在「0」以下，则立刻将其回复至「1」。<br>被唤醒的角色可以立刻进行行动（倒地的角色在被唤醒后仍需自己起身）。<br><br><strong>【治疗轻伤】(Cure Wounds)</strong><br>等级：2级基本神圣魔法<br>消费：MP3<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：使用玛娜之力治疗对象的伤势。<br>效果：用来回复HP的魔法。回复量为「威力10+魔力」点。该魔法对分类为「魔法生物」的角色无效。<br>该魔法对分类为「不死生物」的角色行使时，造成「威力10+魔力」点的魔法伤害。<br>该魔法不会造成重击。<br><br><strong>【检测信仰】(Detect Faith)</strong><br>等级：2级基本神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：质询对方的信仰。<br>效果：可以获知对方的神官等级和信仰的神明。如果是未知的神明，则可得知该神明的职能、象征物和特殊神圣魔法的名称及效果。<br>对象会立刻明白自己被施放了此魔法。<br><br><strong>【治疗目盲】(Cure Blindness)</strong><br>等级：3级基本神圣魔法<br>消费：MP2<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：回复对象的视力。<br>效果：当对象因魔法等原因而令视觉受到不良影响时，可以通过该魔法来使视力回复。<br><br><strong>【治疗毒素】(Cure Poison)</strong><br>等级：3级基本神圣魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：瞬间清除对象体内的毒素效果。<br>效果：当对象因魔法或魔物的特殊能力等原因而中毒时，可以通过该魔法来进行回复。若该毒素具有达成值，则需进行达成值比较。<br><br><strong>【范围抵抗术】(Field Resist)</strong><br>等级：3级基本神圣魔法<br>消费：MP5<br>对象：半径5m的空间/15<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：无<br>概要：给予范围内对象以对抗特定属性的加护。<br>效果：对象在受到术者指定的属性的伤害时，所受魔法伤害-3点。属性可在「炎」「水·冰」「雷」「土」「纯能量」中指定其一。加护效果持续3分（18回合）。<br><br><strong>【力场术】(Force)</strong><br>等级：3级基本神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：冲击<br>概要：放出具有强烈冲击力的气弹来进行攻击。<br>效果：造成「威力10+魔力」点的魔法伤害。<br><br><strong>【神圣武器】(Sacred Weapon)</strong><br>等级：4级基本神圣魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：付与武器以驱逐蛮族的神圣之力。<br>效果：对象对分类为「蛮族」和「不死生物」的角色进行近身攻击或射击攻击时，其武器视为魔法武器，命中力判定获得+1的加值修正，且物理伤害+2点。<br><br><strong>【神圣之盾】(Sacred Shield)</strong><br>等级：4级基本神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：给予对象神圣的加护，为其制作出抵挡蛮族攻击的盾牌。<br>效果：对象在受到分类为「蛮族」和「不死生物」的角色攻击时，所受物理伤害-3点。<br><br><strong>【治疗疾病】(Cure Disease)</strong><br>等级：5级基本神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：将玛娜注入对象体内，并祛除毒素和疾病对其造成的影响。<br>效果：消除一切对对象产生影响的毒和疾病属性的效果。当该毒、疾病属性效果拥有达成值时，需进行达成值比较。<br><br><strong>【治疗伤口】(Cure Hurt)</strong><br>等级：5级基本神圣魔法<br>消费：MP5<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：【治疗轻伤】的上位魔法。通过玛娜的力量和神的加护治疗对象的伤势。<br>效果：用来回复HP的魔法。回复量为「威力30+魔力」点。该魔法对分类为「魔法生物」的角色无效。<br>该魔法对分类为「不死生物」的角色行使时，造成「威力30+魔力」点的魔法伤害。<br>该魔法不会造成重击。<br><br><strong>【输送玛娜】(Transfer Mana-point)</strong><br>等级：5级基本神圣魔法<br>消费：MP1+任意<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：将自己的MP分给对象。<br>效果：消费自身「1+任意」点MP，使对象的MP回复「消费值-1」点。举例而言，若术者通过此魔法上消费了10点MP，则对象可回复9点MP。<br>每次让渡的MP值最大为20点（此时消费MP为21点）。此外，该魔法的MP消费不得通过战斗特技＜MP消费减少/**＞来减少。<br><br><strong>【圣光术】(Holy Light)</strong><br>等级：5级基本神圣魔法<br>消费：MP6<br>对象：半径5m的空间/15<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：减半<br>概要：使用玛娜放出神圣之光，攻击周围的不死生物。<br>效果：对分类为「不死生物」的角色造成「威力20+魔力」点的魔法伤害。<br><br><strong>【威压术】(Coercive)</strong><br>等级：6级基本神圣魔法<br>消费：MP5<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：给予对象恐怖的威压。<br>效果：对象不可对术者进行直接性的敌对行动。不得对术者进行任何形式的攻击，或使用会造成伤害的魔法、特殊能力。使用会造成伤害的范围魔法时，则不能将术者包括在范围内。若术者身处乱战区域，则对象在试图施放以包括乱战区域在内的广范围为目标的魔法时，必须使用战斗特技《魔法制御（※待补）》将术者排除在外。<br><br><strong>【祝福术】(Bless)</strong><br>等级：6级基本神圣魔法<br>消费：MP5<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：增强对象肉体的活力，使其运动能力增强。<br>效果：在对象的灵巧、敏捷、力量、生命四项属性中选择一种，使其暂时+6（+1调整值）。该能力上升效果会对对象的行为判定基准值和最大HP等数据造成影响。<br>【祝福术】可同时对同一对象的不同属性使用。在宣言了战斗特技《魔法扩大/数（※待补）》来使用该魔法时，只能选择一种属性进行增强。<br><br><strong>【神圣摇篮】(Holy Cradle)</strong><br>等级：6级基本神圣魔法<br>消费：MP4<br>对象：半径3m的空间/5<br>射程/形状：术者/—<br>时间：3小时<br>抵抗：无<br>概要：使同伴们进入深眠，并提高其自然恢复效果。<br>效果：使对象进入睡眠状态。睡眠中，对象会对周围失去防备，并直到该魔法失效或HP、MP减少时才会醒来。睡眠3小时后，对象的HP和MP会回复6小时的回复量（⇛30楼）。该效果1日可接受2次。<br><br><strong>【解除诅咒】(Remove Curse)</strong><br>等级：6级基本神圣魔法<br>消费：MP5<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：消灭<br>概要：通过神之祝福来使对象的肉体和精神回复原态。<br>效果：可以接触一切诅咒属性效果对对象造成的负面影响。若对象是因道具而受到诅咒属性效果影响，则对象在下次该道具诅咒效果发动前（若此道具为装备，则为再次装备前）不会再受到该道具效果影响。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609228">
+&#171; <em>上次编辑: 2014-02-15, 周六 16:05:29 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609229"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609229_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609229">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609229#msg609229" rel="nofollow">Re: [死坑复燃][140212更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609229'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609229'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #35 于:</strong> 2014-02-13, 周四 23:33:54 &#187;</div>
+<div id="msg_609229_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609229"><span style="font-size: 18pt;" class="bbc_size"><strong>特殊神圣魔法列表</strong></span><br><br>特殊神圣魔法是当角色信仰特定神明时可以学习的魔法。不得使用其他神明的特殊神圣魔法。<br><br>关于各位神明的详细介绍，请参照后文（※待补）。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“始祖神”莱弗斯的特殊神圣魔法列表</strong></span><br><br><strong>【搜索蛮族】(Search Barbaros)</strong><br>等级：2级特殊神圣魔法<br>消费：MP3<br>对象：半径30m的空间<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：无<br>概要：使用玛娜展开一个简单的瞬间探知用结界。<br>效果：若范围内存在「蛮族」，则会被该魔法所感知。不能通过该魔法获知周围蛮族的数量和所在位置。对象会察觉到有人施放了这个魔法。<br><br><strong>【思维传输】(Mind Sending)</strong><br>等级：4级特殊神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：10秒（1回合）<br>抵抗：消灭<br>概要：与对象进行心灵感应，使其可以接收到术者的思维。<br>效果：效果时间内，术者可以将脑中所想的内容通过自身的意志和语言直接传输给对象。传输内容要么需在10秒（1回合）内可以说完的长度范围内，要么只能传输其模糊概念。传输思维时只能使用术者所会的语言，故对象不一定能理解传输的内容。<br>该魔法只能向对象传输术者的思维，不能反其道而行之。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“太阳神”提坦的特殊神圣魔法列表</strong></span><br><br><strong>【阳光术】(Sunlight)</strong><br>等级：2级特殊神圣魔法<br>消费：MP3<br>对象：半径20m的空间<br>射程/形状：30m/起点指定<br>时间：12小时<br>抵抗：无<br>概要：在指定地点制作出光源，并以明亮的光线照亮附近。<br>效果：效果范围内不会受到黑暗造成的减值修正。<br>可以施放在物体上并加以携带。<br><br><strong>【射线术】(Ray)</strong><br>等级：4级特殊神圣魔法<br>消费：MP5<br>对象：任意地点<br>射程/形状：30m/贯通<br>时间：一瞬<br>抵抗：减半<br>属性：纯能量<br>概要：以细长的光束贯穿对象。<br>效果：造成「威力10+魔力」点魔法伤害。对象为「不死生物」时，追加伤害+3点。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“月神”希恩的特殊神圣魔法列表</strong></span><br><br><strong>【暗夜行者】(Night Walker)</strong><br>等级：2级特殊神圣魔法<br>消费：MP2<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：1小时<br>抵抗：消灭<br>概要：使对象获得暗中视物的能力。<br>效果：对象获得黑暗视觉能力。<br>对象在黑暗中也可如白天般正常视物。<br><br><strong>【目盲术】(Blindness)</strong><br>等级：4级特殊神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：夺取对象的视力，使其陷入目盲。<br>效果：抵抗失败的对象将完全失去视力。知觉（※待补）为「魔法」和「机械」的角色不会受到影响。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“风来神”卢·洛德的特殊神圣魔法列表</strong></span><br><br><strong>【幸运术】(Luck)</strong><br>等级：2级特殊神圣魔法<br>消费：MP3<br>对象：术者<br>射程/形状：术者/—<br>时间：1天<br>抵抗：无<br>概要：向神明祈求幸运，并接受减少自身失败的加护。<br>效果：对象于效果时间内，在判定中投2d时拥有一次重掷的机会。是否使用重掷将由术者在掷骰后再决定。无论重掷结果为何，都必须接受该结果。<br>该魔法在超过效果时间或使用重掷后失效。该魔法每天只能使用1次。<br><br><strong>【不幸术】(Unluck)</strong><br>等级：4级特殊神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：1天<br>抵抗：消灭<br>属性：诅咒<br>概要：向神明祈求不幸，并对对象施加会导致失败的简易诅咒。<br>效果：抵抗失败的对象在下一次判定中必须掷骰2次，并使用结果较差的一方。<br>对魔物等拥有达成值的角色使用该魔法时，给予其之后判定的达成值以-2的减值修正。该魔法在超过效果时间或生效后自动失效。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“骑士神”赛亚的特殊神圣魔法列表</strong></span><br><br><strong>【誓言术】(Oath)☆</strong><br>等级：2级特殊神圣魔法<br>消费：MP2<br>对象：术者<br>射程/形状：术者/—<br>时间：10秒<br>抵抗：无<br>概要：向神发出守护弱者的誓言，并以此获得加护。<br>效果：使用该魔法时，需指定自身10m范围内的一名PC或NPC，并立下守护其的誓言。被指定的PC或NPC的冒险者等级或魔物等级需至少比术者低「2」以上。以不符合条件的对象作为誓言对象时，必须取得GM的同意。<br>效果时间内，术者的所有行为判定获得+2的加值修正。<br>该魔法可通过辅助动作使用。<br>不得以蛮族、不死生物、魔法生物、魔神为誓言对象。<br><br><strong>【守护术】(Covering)</strong><br>等级：4级特殊神圣魔法<br>消费：MP3<br>对象：术者<br>射程/形状：术者/—<br>时间：3分（18回合）<br>抵抗：无<br>概要：守护在附近作战的同伴，并代替其承受攻击。<br>效果：使术者习得战斗特技《守护》《铁壁》《防具熟练/**》《防具熟练II/**》中的一个。习得特技时需要满足其前提条件。可以通过多次使用该魔法来习得多个不同的战斗特技。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“贤神”基尔希亚的特殊神圣魔法列表</strong></span><br><br><strong>【洞悉术】(Penetrate)☆</strong><br>等级：2级特殊神圣魔法<br>消费：MP2<br>对象：术者<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：无<br>概要：通过神明的启示来看穿魔物的弱点。<br>效果：该魔法需在进行「魔物知识判定」前的瞬间使用。之后可在魔物知识判定中获得+2的加值修正。<br>该魔法可通过辅助动作使用。<br><br><strong>【弱点术】(Weak Point)</strong><br>等级：4级特殊神圣魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：借助神之眼来揭出敌人的要害。<br>效果：抵抗失败的角色在效果时间中受到攻击或魔法造成的伤害时，其所受到的攻击的C值-1点（更易发生重击）。但重击值不会因该魔法而降到7以下。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>“水神”露菲莉亚的特殊神圣魔法列表</strong></span><br><br><strong>【净水术】(Purification)</strong><br>等级：2级特殊神圣魔法<br>消费：MP2<br>对象：100升以下的水<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：净化水中的杂质和溶解物，使对象变为纯水。<br>效果：通过术者的直接接触，使体积不超过100升的连续存在的液体变为纯水。<br><br><strong>【水上行走】(Water Walking)</strong><br>等级：4级特殊神圣魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：无<br>概要：使对象在水上能像在陆地上一样行走。<br>效果：使对象在水上时能像在陆地上一样正常进行移动。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609229">
+&#171; <em>上次编辑: 2014-02-15, 周六 16:06:11 由 duskdisciple</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609603"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609603_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609603">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609603#msg609603" rel="nofollow">Re: [死坑复燃][140213更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609603'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609603'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #36 于:</strong> 2014-02-15, 周六 18:48:14 &#187;</div>
+<div id="msg_609603_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609603"><span style="font-size: 18pt;" class="bbc_size"><strong>妖精魔法列表</strong></span><br><br><strong>【风语术】(Wind Voice)</strong><br>等级：1级妖精魔法<br>消费：MP2<br>对象：半径5m的空间/15<br>射程/形状：100m/起点指定<br>时间：3分（18秒）<br>抵抗：无<br>概要：使术者能听到范围内的声音，并将术者发出的声音传达至对象区域。<br>效果：可以使指定区域听到声音，或与其中角色进行对话。对象必须在术者的视野范围内，且必须处于室外。<br><br><strong>【治愈之水】(Heal Water)</strong><br>等级：1级妖精魔法<br>消费：MP3<br>对象：任意地点<br>射程/形状：接触/—<br>时间：3分（18秒）<br>抵抗：无<br>概要：在空气中制作出少量的具有治愈效果的水。<br>效果：制作具有治愈效果的水的魔法。<br>喝下这些水的角色可以回复「威力10+魔力」点的HP。可以在手心或容器中进行制作。饮水为主动作。<br>超过效果时间后，水自动消失。<br><br><strong>【妖精祈愿术】(Fairy Wish)</strong><br>等级：1级妖精魔法<br>消费：MP1<br>对象：术者/—<br>射程/形状：术者/—<br>时间：1小时<br>抵抗：无<br>概要：向妖精祈愿，使其在术者行动时给予帮助。<br>效果：在效果时间内进行行为判定时，可以借助妖精的力量来使达成值获得+1的加值修正。是否借助妖精的力量需要判定前进行宣言。<br>使用该魔法后，会使任意一只与术者契约过的妖精出现在自己身边。妖精会时刻漂浮在术者身旁。习得了妖精语的角色可以与其进行简单的沟通。但是，不得通过命令、请求等方式使其进行行动。<br>超过效果时间或完成祈愿后，魔法会自动失效，妖精也随之离去。战斗中不可借用妖精的力量。<br><br><strong>【治疗轻语】(Wisper Heal)</strong><br>等级：2级妖精魔法<br>消费：MP4<br>对象：半径3m的空间/5<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：通过妖精的轻语来治愈轻微的伤势。<br>效果：用来回复HP的魔法。回复量为「魔力」点。分类为「不死生物」和「魔法生物」的角色不会受到该魔法影响。<br><br><strong>【风之防护】(Wind Guard)</strong><br>等级：2级妖精魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：消灭<br>概要：制作出小小的风盾，并通过偏转来风的方向减小其威力。<br>效果：对象受到风属性伤害时，魔法伤害-3点。<br><br><strong>【绊足术】(Snare)</strong><br>等级：2级妖精魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：消灭<br>概要：让土之妖精擒住对象的脚踝，使其跌倒在地。<br>效果：使对象倒地。对复数部位的魔物和脚的数量在3以上的角色无效。<br><br><strong>【火箭术】(Fire Bolt)</strong><br>等级：2级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：炎<br>概要：放出火箭进行攻击。<br>效果：造成「威力10+魔力」点魔法伤害。<br><br><strong>【风刃术】(Wind Cutter)</strong><br>等级：3级妖精魔法<br>消费：MP3<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：减半<br>属性：风<br>概要：放出风刃进行攻击。<br>效果：造成「威力10+魔力」点魔法伤害。<br><br><strong>【水之屏障】(Water Screen)</strong><br>等级：3级妖精魔法<br>消费：MP3<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：在对象身上施加防护用的水膜。<br>效果：对象受到炎属性伤害时，魔法伤害-3点。<br><br><strong>【石之防护】(Stone Guard)</strong><br>等级：3级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：30m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：用漂浮的石砾保护对象，为其抵挡攻击。<br>效果：在对象受到近身武器或射击武器攻击，并受到物理伤害时，可有一次使物理伤害-5点的机会。何时使用该效果由对象决定。效果发挥后，该魔法自动失效。<br><br><strong>【净水术】(Purification)</strong><br>等级：4级妖精魔法<br>消费：MP2<br>对象：100升以下的水<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：无<br>概要：净化水中的杂质和溶解物，使对象变为纯水。<br>效果：通过术者的直接接触，使体积不超过100升的连续存在的液体变为纯水。<br><br><strong>【混沌射击】(Chaos Shot)</strong><br>等级：4级妖精魔法<br>消费：MP5<br>对象：1体<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：纯能量<br>概要：将复数妖精的力量凝聚成弹，并以此进行攻击。<br>效果：造成「威力20+魔力」点伤害。<br><br><strong>【平静术】(Sanity)</strong><br>等级：4级妖精魔法<br>消费：MP3<br>对象：1体<br>射程/形状：接触/—<br>时间：一瞬<br>抵抗：消灭<br>概要：使对象紊乱的心情和精神状态回归正常。<br>效果：可以用来解除所有属性为「精神效果」的魔法或特殊能力的影响。在解除具有达成值的效果的影响时，需要进行进行达成值比较。<br><br><strong>【扰乱术】(Destruction)</strong><br>等级：4级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：10秒（1回合）<br>抵抗：消灭<br>概要：扰乱对方心灵的平静。<br>效果：打断对方精神的集中。此外，对象在效果时间内不得行使一切魔法（对其他行动不会造成影响）。<br><br><strong>【初阶治疗术】(Primary Healing)</strong><br>等级：4级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：10秒（1回合）<br>抵抗：消灭<br>概要：为对象降下治愈之光。<br>效果：用来回复HP的魔法。回复量为「魔力+4」点。对分类为「不死生物」和「魔法生物」的角色无效。<br><br><strong>【冰箭术】(Ice Bolt)</strong><br>等级：5级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：减半<br>属性：水·冰<br>概要：放出冰箭射穿对手。<br>效果：造成「威力10+魔力」点魔法伤害。此外，抵抗失败的角色在30秒（3回合）内防护点-2点。<br><br><strong>【无声移动】(Silent Move)</strong><br>等级：5级妖精魔法<br>消费：MP6<br>对象：1体<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：无<br>概要：使对象的行动不会发出声音。<br>效果：对象发出的声音不会被任何人听到。可以完全隐蔽对象的脚步声和装备摩擦声，<br>并使其在进行开关门等动作时也不会发出声音。踩踏地板发出的声音也会被隐蔽。但该魔法不会影响未被对象接触的物体所发出的声音。如花瓶摔碎时的声音。<br>当对象试图主动发出声音时，其声音可被正常传出，同时魔法立刻失效。<br><br><strong>【悬浮术】(Hovering)</strong><br>等级：5级妖精魔法<br>消费：MP5<br>对象：术者<br>射程/形状：术者/—<br>时间：3分（18回合）<br>抵抗：无<br>概要：向下吹出强风，使术者悬浮在距地面10cm的高度。<br>效果：使术者可以不接触地面或水面的进行移动。效果时间中，术者敏捷减半（小数进位）。<br><br><strong>【进阶治疗术】(Advanced Healing)</strong><br>等级：6级妖精魔法<br>消费：MP7<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：一瞬<br>抵抗：无<br>概要：使用光之妖精的力量治疗对象的伤势。<br>效果：用来回复HP的魔法。回复量为「魔力+8」点。该魔法对分类为「不死生物」和「魔法生物」的角色无效。<br><br><strong>【魔矢术】(Shoot Arrow)</strong><br>等级：6级妖精魔法<br>消费：MP6<br>对象：1体<br>射程/形状：30m/射击<br>时间：一瞬<br>抵抗：必中<br>概要：用魔力射出手中箭矢来进行攻击。<br>效果：造成「威力20+魔力」点的物理伤害。该箭矢必定命中，且不得通过抵抗来使伤害减半。防护点对其有效。<br>使用该魔法时需手持＜箭矢＞或＜弩矢＞，并在使用中将其消费。不得使用＜子弹＞。<br><br><strong>【强体术】(Virtual Toughness)</strong><br>等级：6级妖精魔法<br>消费：MP4<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：付与对象的肉体以妖精的魔力，使其耐久力暂时增强。<br>效果：对象HP最大值和当前值上升「魔力」点。<br>对象受到伤害时，优先减少追加HP。<br><br><strong>【勇气术】(Brave Heart)</strong><br>等级：6级妖精魔法<br>消费：MP5<br>对象：1体<br>射程/形状：10m/起点指定<br>时间：30秒（3回合）<br>抵抗：无<br>概要：通过妖精的力量鼓舞对象的精神，暂时强化其精神耐性。<br>效果：效果时间内，对象不受属性为「精神效果」及「诅咒」的效果影响。该魔法对对象已受到的效果不会产生影响。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609603">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg609605"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=profile;u=42738" title="检视会员资料:  duskdisciple">duskdisciple</a>
+</h4>
+<ul class="reset smalltext" id="msg_609605_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 38<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_609605">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.msg609605#msg609605" rel="nofollow">Re: [死坑复燃][140213更新]剑世界2.0 规则书1 龟速慢坑</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_609605'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_609605'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #37 于:</strong> 2014-02-15, 周六 18:54:56 &#187;</div>
+<div id="msg_609605_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_609605"><strong>魔动机术列表</strong><br><br><strong>【固体弹】(Solid Bullet)☆</strong><br>等级：1级魔动机术<br>消费：MP1<br>道具：（小）、弹药1发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：向普通的子弹内注入玛娜。<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力20+魔力」点的魔法伤害。该魔法可通过辅助动作行使。<br><br><strong>【靶标】(Target Site)☆</strong><br>等级：1级魔动机术<br>消费：MP3<br>道具：（小）<br>射程/形状：术者/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：提升自己的动态视力，使武器的命中率提高。<br>效果：所有命中力判定获得+1的加值修正。<br>该魔法可通过辅助动作使用。<br><br><strong>【照明】(Flashlight)</strong><br>等级：1级魔动机术<br>消费：MP2<br>道具：（小）<br>射程/形状：10m/射击<br>时间：6小时<br>抵抗：无<br>概要：让＜魔动制御球＞放出明亮的白光。<br>效果：让＜魔动制御球＞发出明亮的光。<br>照亮术者前方半径10m的半圆形区域。区域内不会受到黑暗造成的减值修正。<br>（译者注：不要问我为什么不翻成手电筒……）<br><br><strong>【玛娜探知】(Mana Search)</strong><br>等级：1级魔动机术<br>消费：MP3<br>道具：（小、中、大）<br>射程/形状：30m/起点指定<br>时间：一瞬<br>抵抗：无<br>概要：探知带有魔力的物品的位置。<br>效果：在＜魔动制御球＞上显示出范围内所有带有魔力的物品的位置。不可得知物品的魔力强度和种类。<br>探知范围因使用的＜魔动制御球＞而变，＜小＞为10m，＜中＞为30m，＜大＞为50m。<br><br><strong>【重击弹】(Critical Bullet)☆</strong><br>等级：2级魔动机术<br>消费：MP2<br>道具：（小）、弹药1发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：制作高贯通力的子弹。<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力20+魔力」点的魔法伤害。该子弹在进行伤害算出时，重击值-1（更易发生重击）。<br>该魔法可通过辅助动作行使。<br><br><br><strong>【影缠】(Shadow Body)</strong><br>等级：2级魔动机术<br>消费：MP3<br>道具：（小）<br>射程/形状：术者/—<br>时间：1分（6回合）<br>抵抗：无<br>概要：用玛娜制成的影子包裹自己，使自己的轮廓变得模糊。<br>效果：回避力判定时获得+1的加值修正。<br><br><strong>【破锁炸弹】(Knocker Bomb)</strong><br>等级：2级魔动机术<br>消费：MP3<br>道具：（小）<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：用小型的炸弹破坏门或箱子上的锁具。<br>效果：使用3cm左右的小型炸弹破坏普通锁具和魔法锁具。破坏魔法锁具时，需要进行达成值比较。炸弹爆炸时会发出很大的声音。<br>超过效果时间（10秒）后，炸弹自动爆炸。该爆炸不会对生物造成伤害。<br><br><strong>【治疗弹】(Healing Bullet)☆</strong><br>等级：2级魔动机术<br>消费：MP1<br>道具：（小）、弹药1发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：制作提高命中对象的治愈能力的特殊子弹。<br>效果：制作回复HP的子弹的魔法。回复量为「威力0+魔力」点。该子弹只要不掷出自动失败就会命中。<br>该魔法不会发生重击。<br>该魔法可通过辅助动作行使。<br><br><strong>【属性武器】(Effect Weapon)</strong><br>等级：3级魔动机术<br>消费：MP2<br>道具：（小）、1体<br>射程/形状：10m/起点指定<br>时间：3分（18回合）<br>抵抗：无<br>概要：付与武器各种各样的属性。<br>效果：对象进行近身攻击、射击攻击时，其所使用的武器视为魔法武器，物理伤害+1点。<br>此外，还可为该攻击付与属性。付与属性可从「炎属性」「水·冰属性」「风属性」「土属性」「雷属性」中择一。<br><br><strong>【属性弹】(Effect Bullet)☆</strong><br>等级：3级魔动机术<br>消费：MP1<br>道具：（小）、弹药1发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：将火、雷、土等属性与玛娜一起注入子弹。<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力20+魔力」点的魔法伤害。此外，在魔法行使时，还可从「炎属性」「水·冰属性」「风属性」「土属性」「雷属性」中选择一种属性付与在子弹上。<br>该魔法可通过辅助动作行使。<br><br><strong>【跳跃靴】(Jump Boots)</strong><br>等级：3级魔动机术<br>消费：MP3<br>道具：（小、中、大）<br>射程/形状：术者/—<br>时间：3分（18回合）<br>抵抗：无<br>概要：使用＜魔动制御球＞制作拥有强大跳跃能力的靴子，并立刻加以装备。<br>效果：效果时间中，术者的垂直和水平跳跃能力都会得到增强。其效果因使用的＜魔动制御球＞而变，＜小＞为2倍，＜中＞为3倍，＜大＞为5倍。该魔法的跳跃不会造成坠落伤害。<br><br><strong>【震撼炸弹】(Shock Bomb)</strong><br>等级：3级魔动机术<br>消费：MP3<br>道具：（中）<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：消灭<br>概要：制作出可以放出雷电的投掷用炸弹，并使其在射出后爆炸。<br>效果：该爆炸只能对1名对象产生效果。对象在爆炸时需进行精神抵抗力判定。若抵抗失败，其在30秒（3回合）内敏捷-12（敏捷调整值-2）。该魔法不会使对象的敏捷低于0。<br><br><strong>【分析】(Analyze)☆</strong><br>等级：4级魔动机术<br>消费：MP2<br>道具：（小）<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：必中<br>概要：把握对象魔物或机械的构造。<br>效果：用来理解机械的构造和用途的魔法。遭遇分类为「魔法生物」的角色时，无论术者的魔物知识判定达成值高低、贤者技能有无，都可以使用该魔法来直接获得该角色资料。不能通过该魔法获知对象的弱点。<br>该魔法通过辅助动作使用。<br><br><strong>【魔动机车】(Automobile)</strong><br>等级：4级魔动机术<br>消费：MP10<br>道具：（大）<br>射程/形状：接触/—<br>时间：1小时<br>抵抗：无<br>概要：制作出使用魔力的两轮机车（魔动机车），并可对其进行驾驶。<br>效果：机车的越野性能良好，在马可奔跑起来的路况上即能正常行驶。<br>魔动机车可搭载2人，其计算移动距离时视为50敏捷的角色。用来行使该魔法的＜魔动制御球（大）＞在该魔法生效期间不能用来发动其他魔法。术者可在任意时机解除该魔法。<br><br><strong>【快速装填】(Quick Loader)☆</strong><br>等级：4级魔动机术<br>消费：MP4<br>道具：（小）<br>射程/形状：术者/—<br>时间：一瞬<br>抵抗：无<br>概要：将道具箱与＜枪＞链接，自动进行装弹。<br>效果：可使用子弹带中的子弹来将1支＜枪＞的弹匣装满。<br>该魔法可通过辅助动作使用。<br><br><strong>【烟雾炸弹】(Smoke Bomb)</strong><br>等级：4级魔动机术<br>消费：MP4<br>道具：（中）<br>射程/形状：10m/射击<br>时间：30秒（3回合）<br>抵抗：必中<br>概要：射出爆炸后会产生无害的烟幕的非杀伤性炸弹。<br>效果：以指定地点为中心展开半径5m的烟幕。烟幕会完全遮蔽角色视线，黑暗视觉对该魔法产生的烟幕无效。知觉（※待补）为「魔法」或「机械」的角色不会受到该魔法影响。<br><br><strong>【榴弹】(Grenade)</strong><br>等级：5级魔动机术<br>消费：MP6<br>道具：（中）<br>射程/形状：10m/射击<br>时间：一瞬<br>抵抗：减半<br>概要：射出范围杀伤性的炸弹。<br>效果：以爆炎杀伤「半径5m的空间/15」范围内的角色。爆炸时，范围内角色可做精神抵抗力判定。<br>该魔法造成「威力30+魔力」点的炎属性伤害。<br><br><strong>【霰弹】(Shotgun Bullet)☆</strong><br>等级：5级魔动机术<br>消费：MP2<br>道具：（小）、弹药1发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：将玛娜注入普通的子弹来制作霰弹。<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力20+魔力」点的魔法伤害。<br>该魔法在进行命中力判定时，枪的射程减半，对象为「半径3m的空间/5」。拥有战斗特技《魔法制御》时，可在范围内任意选择对象。<br>该魔法可通过辅助动作行使。<br><br><strong>【钩索】(Wire Anchor)</strong><br>等级：5级魔动机术<br>消费：MP4<br>道具：（中）<br>射程/形状：30m/射击<br>时间：一瞬<br>抵抗：消灭<br>概要：射出带有锚钩的细线，并钩缠住目标。<br>效果：锚钩和细线都非常强韧，可承受200kg的重量。可以使其钩缠在稳固的崖边或柱上来辅助攀登或保持自身平衡。也可以通过缓慢收线（每10秒10m）来移动物体或术者。<br>在朝角色发射时，需以魔力为基准值进行判定，对象则以其为达成值进行回避力判定。回避失败时，对象会被细线缠住，其回避力判定将受到-2的减值修正，且与术者距离不能再超过30m。术者可以以每10秒（1回合）10米的速度收线来将对象拉近。此时收线为主动作。<br>若对象为部位数2以上的大型角色，则其不会受到减值修正，且术者会被对方所牵拉。<br><br><strong>【制作武器】(Create Weapon)</strong><br>等级：6级魔动机术<br>消费：MP7<br>道具：（小）<br>射程/形状：接触/—<br>时间：1分（6回合）<br>抵抗：无<br>概要：使＜魔动制御球＞变化为魔法武器。<br>效果：可以制作出近身武器列表（※待补）中任意的等阶A以下的武器。制作出的武器视为魔法武器。<br>变为了魔法武器的＜魔动制御球＞在效果发挥期间内不得用来发动魔法。制作出的武器可以交给其他角色（⇛28楼）。<br><br><strong>【变装工具】(Disguise Set)</strong><br>等级：6级魔动机术<br>消费：MP3<br>道具：（小）<br>射程/形状：术者/—<br>时间：1小时<br>抵抗：无<br>概要：瞬间进行变装，伪装成他人的模样。<br>效果：可以变为熟知的人族角色的模样，但必须对该角色的容貌和特征十分熟悉。该魔法可以改变容貌、身体特征和体型。只有特别加以注意，才能分出使用了该魔法的角色与变身对象的区别。看破变装需要以「冒险者等级+智力调整值」为基准值，与该魔法达成值进行达成值比较。<br><br><strong>【连发射击】(Burst Shot)☆</strong><br>等级：6级魔动机术<br>消费：MP3<br>道具：（小）、弹药3发<br>射程/形状：接触/—<br>时间：10秒（1回合）<br>抵抗：无<br>概要：同时向3发子弹内注入玛娜，并进行连射攻击。<br>效果：制作给予伤害的子弹的魔法。命中后造成「威力30+魔力」点的魔法伤害。<br>该魔法在进行命中力判定时获得+2的加值判定。<br>该魔法需消费3发已装填的子弹。只有使用装填数在3以上的＜枪＞时才能使用该魔法。<br>该魔法可通过辅助动作行使。<br><br><strong>【抗性炸弹】(Resist Bomb)</strong><br>等级：6级魔动机术<br>消费：MP6<br>道具：（中）<br>射程/形状：10m/射击<br>时间：3分（18回合）<br>抵抗：必中<br>概要：射出爆炸后会扬撒出特殊粉尘的炸弹。<br>效果：在「半径5m的空间/15」范围内散布粉尘。被粉尘笼罩的角色在收到特定属性伤害时，所受物理·魔法伤害-4点，且不会受到该属性的负面效果影响。<br>术者需要事先指定一种属性，属性可从「炎属性」「水·冰属性」「土属性」「风属性」「雷属性」中择一。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_609605">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=printpage;topic=52638.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0">&#171;</a> <a class="navPages" href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;board=497.0"><span>剑世界2.0</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;topic=52638.0"><span>[停坑合稿中]剑世界2.0 规则书1</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 52638,
+iStart: 20,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 52638,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f17810e16" value="e1988d2cbd3553672340dc04637127c3" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="52638" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e1988d2cbd3553672340dc04637127c3\', \'f17810e16\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;' + '?topic=52638.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 33989 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 497,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "剑世界2.0",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 497,
+							iTopicId: 52638,
+							sSessionId: "e1988d2cbd3553672340dc04637127c3",
+							sSessionVar: "f17810e16",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=beafa1c534fcf9df69eac007353a5cfd&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

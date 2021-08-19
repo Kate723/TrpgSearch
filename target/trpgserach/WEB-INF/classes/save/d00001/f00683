@@ -1,0 +1,347 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="[EX3-Core] 第三章 - 范例角色创建"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>[EX3-Core] 第三章 - 范例角色创建</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="103713"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0"><span>[EX3-Core] 第三章 - 范例角色创建</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg952419"></a><a id="new"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103713.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: [EX3-Core] 第三章 - 范例角色创建 &nbsp;(阅读 2670 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: Chapter Three - Example of Character Creation</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=103713.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="检视会员资料:  云之彼端">云之彼端</a>
+</h4>
+<ul class="reset smalltext" id="msg_952419_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180">
+<img class="avatar" src="/bbs/upload/avatar/avatar_75180_1422087520.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 507<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_952419">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.msg952419#msg952419" rel="nofollow">[EX3-Core] 第三章 - 范例角色创建</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_952419'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_952419'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2018-10-05, 周五 16:42:44 &#187;</div>
+<div id="msg_952419_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_952419"><span style="font-size: 1.45em;" class="bbc_size"><strong>角色创建范例</strong></span><br>让我们一起来试试。这是Otso第一次玩<strong>Exalted</strong>。他同ST坐在一起打开书，在看完日轮尊者的天位后，他便有了一个想法。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第一步：概念和天位</strong></em></span><br>Otso想要扮演一名刺客，一个在街市中长大的职业杀手。他的ST想要在夷土展开这场游戏，因此有着残酷、弱肉强食文化的奈克瑟斯（Nexus）成为了他角色出身的理想选择。出于简单就是好的原则，Otso决定他角色的天位为幕夜。他将这一角色命名为Isthus Fithi，这是希腊语词的简单组合，意为“影蛇”。Otso在决定角色的游戏数据之前，花了些时间来勾勒Isthus的背景与性格。<br>Isthus不记得自己的父母，在他的记忆中，自己睡在任何可以藏身的地方，为了食物与流浪狗和流浪汉搏斗。在十三岁那年，他遇到了自己生命中唯一的光明——这位名叫冬梅的善良女人让他睡在自己的地下室里，还和他分享自己仅有的一点点食物。两年后，Isthus发现她死在一个小巷里——有两名小偷为了抢劫而杀了她。Isthus为了搜寻杀害冬梅的凶手翻遍了整个奈克瑟斯的大街小巷，最终在他们因为醉酒而神智不清时，割开了他们的喉咙。随后，杀人成为了他的职业。<br>没过多久，他就吸引了“十殇掌（Ten Scar Palm）”结社的注意。他们招募他，训练他，让他在一个又一个任务上放手去干。冷酷、专业而又隐忍的Isthus Fithi从表面上看已经良心尽丧——然而他的良心最终还是被唤醒了。一名高官委托十殇掌杀死他的一个竞争对手，一名在慈善事业上“浪费”金钱的商业伙伴。这让Isthus想起了冬梅。他无法迫使自己杀死一名会对他这样的人表现出仁慈的人。于是，他背叛了十殇掌，在那一刻，他感受到了永曦的接触。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第二步：属性</strong></em></span><br>Otso希望他的角色既能鬼鬼崇崇地杀人，也能胜任正面战斗——而这些行动都非常依赖生理属性，于是Otso把生理选为主要属性。一名好的杀手也必须拥有相当的知觉和机敏，于是Otso把心理选为次要属性。于是社交属性就变成了第三属性，不过这对于Isthus来说是非常自然的——他的童年能够成为他社交能力低下的理由。在决定优先级后，Otso开始分配属性点。他在生理属性上有8个点，于是他把3个点分配给敏捷，3个点分配给耐力，2个点分配给力量，这样一来，他的生理属性就是力量3，敏捷4，耐力4。他比大多数人强壮，也比他外表看起来要结实得多，而他的工作也将他的反射神经磨炼到了恐怖的程度。接下来，Otso要在心理属性上分配6个点。他把3个点分配给机敏，2个点分配给知觉，1个点分配给智力——合计之后，Isthus拥有机敏4，智力2，知觉3。就脑力而言，他处于一般水平，但他非常善于随机应变，并能够捕捉到其他人忽略的细节。最后，Otso要在社交上分配4个点。他把2个点给魅力，1个点给操纵，1个点给外貌，结果是魅力3，外貌2，操纵2。Isthus善于直奔主题，但在其他方面就不出众了。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第三步：能力</strong></em></span><br>随着Isthus的属性得到解决，Otso把视线转到能力上。他查看了天位能力的表格后，选择了暮夜天位的日轮尊者。Otso选择运动，警觉，闪躲，偷窃和潜行作为Isthus的天位能力。这些选择符合他的刺客身份。运动、盗窃和潜行反映了他在不被发现的情况下闯入有防卫地点的天赋，而警觉反映了他天生的警觉性和对危险的感知力。Isthus只有在事态超出控制的情况下才会求助于闪躲，但是这一能力能够帮助他在最脆弱的时候生存下来。<br>接着，Otso选择Isthus的五项亲和能力。他选择兵器来反映Isthus在近战武器（主要是绞索、小刀和其他刺客业务所需要的工具）上的才能。坚定代表Isthus总是会怀疑他人的动机，这一特点还没有表现出来，但之后在角色发展中体现。Otso决定让Isthus拥有一些他在十殇掌中学会的特殊技巧——他懂得如何识别法术，如何安抚被称为血手（Bloody Hands）的谋杀之神们，以及如何处理尸体，以防止尸体中诞生出恶鬼来追杀他。以上天赋都属于玄学范畴，所以Otso也把它列为亲和能力。Isthus的犯罪天赋让他非常善于发现他人（尤其是那些非熟练者）罪行所留下的证据。Otso选择用调查来体现这一点。最后，Otso将肉搏作为他的最后一项亲和能力——因为Isthus擅长使用阴招。<br>随后，Otso开始考虑Isthus的超凡能力。他认为Isthus最大的天赋是在潜行上——因为他人生的第一阶段总是躲藏在阴影中，通过避免引起他人注意来生存下去，后来他利用此技能成为了一名出色的刺客。<br>在决定天位、亲和和超凡能力后，是时候分配永久点了。Otso首先在Isthus的所有亲和能力中都分配1个点，以满足最低要求，这样一来还有23个点要分配。他把3个点分给闪避、潜行、盗窃和警觉，2个点分给运动——这样他就只剩下9个点了，必须好好思考如何分配。他在兵器和调查中再投入2个点，然后在肉搏中再投入1个点。<br>在天位和亲和能力都分配完后，Otso开始给Isthus的其他能力分配点。他给忍耐2个点，以体现Isthus天生的强健。他同时决定在交际和风度上各投入1个点——这是和别人打交道时所需要的最低限度。<br>综合起来，Isthus的能力是警觉3，运动2，闪避3，坚定1，调查3，盗窃3，兵器3，玄学1，风度1，忍耐2，肉搏2，交际1，潜行3。<br>现在，Otso选择Isthus的专精。兵器（小刀）是一个自然的选择，毕竟他在使用小型刃器切开他人方面有着丰富的经验。潜行（伏击）包括了Isthus在伏击无防备的受害者上的天赋，也反映了他在防备其他人伏击方面的技巧。在经过一段时间的思考后，Otso决定添加第二项潜行相关的专精——潜行（城市环境），以表现Isthus精通于未经练习地穿越垃圾遍地的小巷以及安静地经过瓦片屋顶。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第四步：优势</strong></em></span><br>现在是Otso为Isthus决定优势的时候了。危险感知（Danger Sense）（···）很适合一生都处于危险边缘的人。反应迅速（Fast Refexes）（···）反映了Isthus冷静的神经，以及杀人是他的第二天性这一事实。他想让Isthus能够用两把武器战斗，于是他选择了双巧手（Ambidextrous）（·）。Otso不确定还能选什么，所以他花了一点时间来思考Isthus在升华之后发生了什么。Otso决定让Isthus在离开十殇掌后获得了一名神秘的保护者。安烬（Quiet Ash）比他更擅长暗杀，但她也很善良，很温柔——因此他从未见过她对任何她认为不值得的人动怒。她赢得了Isthus的信任，开始教他。但Isthus并不知道他的导师（Mentor）（···）其实是一名星轮尊者，是终局仙女的天选者。她在他身上有什么计划？<br><br><span style="color: brown;" class="bbc_color"><em><strong>第五步：秘法</strong></em></span><br>Otso通读了日轮尊者秘法后，选择了一些他认为符合自己设想的秘法。灵鹤势（Graceful Crane Stance）和猿跃法（Monkey Leap Technique）是Otso在武侠电影中看到过的绝技，能使惊人的特技动作成为可能。风中苇（Reed in the Wind）和落叶旋（Drifting Leaf Elusion）有助于Isthus在战斗中保持生存，而眼观六路（Reflex Sidestep Technique）则有助于保护他免遭伏击。卓越击（Excellent Strike）和火石击（Fire and Stones Strike）增加了Isthus在近接战斗中的实力，帮助他给对手造成强有力的打击。壮牛身（Ox-Body Technique）能够提供额外的健康等级，帮助他应对命中的攻击。天眼通（Sensory Acuity Prana）使Otso在应付十殇掌可能派出的刺客时具有特殊优势。黑道手腕（Seasoned Criminal Method）很好地反映了Isthus一生都沉浸在犯罪世界中，既是受害者又是加害者。接着，Otso选择了影谧无形（Perfect Shadow Stillness）、无踪像（Invisible Statue Spirit）和泯然众人（Easily-Overlooked Presence Method）。前者在任何情况下都很有用，而后者在Isthus需要混在人群中时十分有用。然后，考虑到潜行是他的超凡能力，于是选择了隐身术（Blurred Form Style）和蔽心法（Mental Invisibility Technique）。Otso发现Isthus无法满足最后这两个秘法的先决条件，于是他决定通过额外点数来提升潜行评级。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第六步：关系和临界点</strong></em></span><br>Isthus Fithi正处于过渡期，他不确定自己应该相信什么。Otso会在分配关系时考虑到这一点。首先，他描述了Isthus与其他人物的关系。尽管冬梅已经去世，但她对于Isthus来说依然有很大的影响，所以Otso把她作为悲伤的主要纽带。安烬进入他的生活没多少时间，还不会产生大的影响。Otso把这种关系描述为谨慎接受的次要纽带。永曦给了Isthus一个他从未觉得自己能够拥有的第二次机会，虽然他对自己应该做什么只有一个模糊的想法，但他仍然对此表示感谢。Otso写下一个与永曦之间的次要纽带（感激）。<br>经过更多的思考，Otso决定Isthus至少要有一个原则，正是这个原则引起了永曦的注意。他如此总结道：“我永远不会将手中的利刃挥向一个会对我这样的人表现出爱和仁慈的人。”这是Isthus的关键原则，也是让他的生活发生翻天复地变化的原因。最后，Otso决定让Isthus对已经宣布他是贱民和叛徒的十殇掌怀有强烈的负面情绪，并写下一个怨恨的主要纽带。<br>接下来，Otso仔细查看了一系列的临界点，并决定当Isthus发现自己面临着一个从无辜者的痛苦中获利的机会时，大诅咒就会挑起麻烦——这让他想起自己之前走过的老路，并让他的心陷入混乱。<br><br><span style="color: brown;" class="bbc_color"><em><strong>第七和第八步：额外点数和最后润色</strong></em></span><br>Otso想做的第一件事就是提高Isthus的潜行评级，以满足秘法的先决条件。在实行时，他决定再加入两个想要的秘法。他花了1个额外点数来将Isthus的潜行增加到4，4个额外点数来取得迷踪步（Blinding Battle Feint）秘法，4个额外点数来取得潜狼势（Stalking Wolf Attitude）秘法。现在，Isthus成了一名高效的潜行战士——这是一种不同寻常的战斗法，但这看起来很有趣，而且比起沉迷于用近战秘法解决问题更符合Otso对这个角色的设想。<br>之后，Otso花费1个额外点数将Isthus的兵器增加到4，4个额外点数把敏捷增加到5。Isthus现在是一名相当骇人的尊者刺客。最后他决定让Isthus仍然有一部分来自他家乡城市的底层人民愿意和他交谈，并把最后的额外点数花在联系人（Contacts）·（奈克瑟斯贫民）上。<br>接着Otso记下剩下的一些数据——Isthus的精髓评级为1，意志力评级为5，还有7个健康等级。由于Otso取得了壮牛身秘法，所以Isthus有三个额外的健康等级，把这些也计入之后，最终的健康层级是-0/-1/-1/-1/-2/-2/-2/-2/-4/瘫痪。Isthus Fithi的个人精髓池有13精尘（mote），外在精髓池有33精尘。现在，Isthus Fithi能够参加游戏了。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_952419">
+&#171; <em>上次编辑: 2019-01-07, 周一 15:41:34 由 云之彼端</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=103713.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1735.0"><span>Exalted</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=72616" title="版主">不朽食物</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=75180" title="版主">云之彼端</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=103713.0"><span>[EX3-Core] 第三章 - 范例角色创建</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 103713,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 103713,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="103713" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=103713.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 2670 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1735,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Exalted",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1735,
+							iTopicId: 103713,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

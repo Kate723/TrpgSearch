@@ -1,0 +1,868 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content=" 【第二章】骑士（Cavalier）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title> 【第二章】骑士（Cavalier）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.40"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '5a4cbc40001a2138af41dd9b1cb45b3e');">
+<div class="info">请 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">登录</a> 或 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="28115"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b3ff423',
+sSessionId: '5a4cbc40001a2138af41dd9b1cb45b3e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"><span>《进阶玩家指南》</span></a> (版主: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0"><span> 【第二章】骑士（Cavalier）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg275660"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=28115.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.20">&#171;</a> <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0">1</a> <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.20">2</a> [<strong>3</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题:  【第二章】骑士（Cavalier） &nbsp;(阅读 32926 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=quickmod2;topic=28115.40" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('5a4cbc40001a2138af41dd9b1cb45b3e', 'b3ff423') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=8408" title="检视会员资料:  星踪幻影">星踪幻影</a>
+</h4>
+<ul class="reset smalltext" id="msg_275660_extra_info">
+<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=8408">
+<img class="avatar" src="/bbs/upload/avatar/avatar_8408_1461160748.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3003<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_275660">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg275660#msg275660" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_275660'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_275660'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #40 于:</strong> 2010-09-17, 周五 18:28:10 &#187;</div>
+<div id="msg_275660_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_275660"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg275629#msg275629">引述: 不知道叫什么 于 2010-09-17, 周五 16:32:58</a></div></div><blockquote class="bbc_standard_quote">骑士的誓言，完全不见了。。。。是改掉的缘故么？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>貌似还素有的</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_275660">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_275660_signature">你是光，我是影。光照耀着影，影守护着光。我们是最疏离的双生子，我们是最亲密的陌生人...</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg275663"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=11832" title="检视会员资料:  不知道叫什么">不知道叫什么</a>
+</h4>
+<ul class="reset smalltext" id="msg_275663_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 267<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_275663">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg275663#msg275663" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_275663'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_275663'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #41 于:</strong> 2010-09-17, 周五 18:35:48 &#187;</div>
+<div id="msg_275663_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_275663"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg275660#msg275660">引述: 星踪幻影 于 2010-09-17, 周五 18:28:10</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg275629#msg275629">引述: 不知道叫什么 于 2010-09-17, 周五 16:32:58</a></div></div><blockquote class="bbc_alternate_quote">骑士的誓言，完全不见了。。。。是改掉的缘故么？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>貌似还素有的<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>没了，而且骑士团能力做了修正，但是姐姐没看到</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_275663">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_275663_signature">继续蛋疼……</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg276837"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+</h4>
+<ul class="reset smalltext" id="msg_276837_extra_info">
+<li class="title">O5-13<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544">
+<img class="avatar" src="http://i.imgur.com/fLjgTL5.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5136<li class="karma">苹果币: 12<li class="blurb">蠢不是罪过，蠢还要丢人现眼才是<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_276837">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg276837#msg276837" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_276837'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_276837'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #42 于:</strong> 2010-09-22, 周三 07:15:03 &#187;</div>
+<div id="msg_276837_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_276837">更新完毕。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_276837">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_276837_signature"><div align="center"><strong><span style="color: red;" class="bbc_color"><span style="text-shadow: brown 0 2px 1px"><em>Let us go then, you and I<br>When the Eleven-Day Empire eats the sky<br>Like a humanoid melting like clams upon the breakfast table.</em></span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg277036"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=292" title="检视会员资料:  Dya">Dya</a>
+</h4>
+<ul class="reset smalltext" id="msg_277036_extra_info">
+<li class="title">霸者之灾<li class="membergroup">风纪委<li class="stars"><img src="Themes/celeste/images/on2.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=292">
+<img class="avatar" src="/bbs/upload/avatar/avatar_292_1584018351.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7511<li class="karma">苹果币: 22<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_277036">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277036#msg277036" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_277036'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_277036'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #43 于:</strong> 2010-09-22, 周三 21:01:53 &#187;</div>
+<div id="msg_277036_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_277036">列表上好像依然有誓言？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_277036">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_277036_signature">我先放个卷轴在这里，上面记载的咒语足以解决你们生活与跑团中遇到的大部分困境：别把自己太当一回事。<br>苦难会在不经意间开始，不经意间结束，幸福亦然。</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg277043"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=11832" title="检视会员资料:  不知道叫什么">不知道叫什么</a>
+</h4>
+<ul class="reset smalltext" id="msg_277043_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 267<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_277043">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277043#msg277043" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_277043'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_277043'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #44 于:</strong> 2010-09-22, 周三 21:43:45 &#187;</div>
+<div id="msg_277043_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_277043">而且，问下那个团队专长是嘛？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_277043">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_277043_signature">继续蛋疼……</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg277084"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=8408" title="检视会员资料:  星踪幻影">星踪幻影</a>
+</h4>
+<ul class="reset smalltext" id="msg_277084_extra_info">
+<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=8408">
+<img class="avatar" src="/bbs/upload/avatar/avatar_8408_1461160748.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 3003<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_277084">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277084#msg277084" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_277084'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_277084'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #45 于:</strong> 2010-09-23, 周四 03:37:31 &#187;</div>
+<div id="msg_277084_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_277084">见审判者（Inquisitor）<br><br>不过需要译名统一？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_277084">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_277084_signature">你是光，我是影。光照耀着影，影守护着光。我们是最疏离的双生子，我们是最亲密的陌生人...</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg277304"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+</h4>
+<ul class="reset smalltext" id="msg_277304_extra_info">
+<li class="title">O5-13<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544">
+<img class="avatar" src="http://i.imgur.com/fLjgTL5.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5136<li class="karma">苹果币: 12<li class="blurb">蠢不是罪过，蠢还要丢人现眼才是<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_277304">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277304#msg277304" rel="nofollow">Re: [Pathfinder][扩展]骑士(Cavalier)</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_277304'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_277304'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #46 于:</strong> 2010-09-24, 周五 06:55:05 &#187;</div>
+<div id="msg_277304_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_277304"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277036#msg277036">引述: Dya 于 2010-09-22, 周三 21:01:53</a></div></div><blockquote class="bbc_standard_quote">列表上好像依然有誓言？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>Roger that.<br><br><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg277084#msg277084">引述: 星踪幻影 于 2010-09-23, 周四 03:37:31</a></div></div><blockquote class="bbc_standard_quote">见审判者（Inquisitor）<br><br>不过需要译名统一？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br>嗯，这个咱会尽快做好。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_277304">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_277304_signature"><div align="center"><strong><span style="color: red;" class="bbc_color"><span style="text-shadow: brown 0 2px 1px"><em>Let us go then, you and I<br>When the Eleven-Day Empire eats the sky<br>Like a humanoid melting like clams upon the breakfast table.</em></span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg284709"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10464" title="检视会员资料:  PATIBAUL">PATIBAUL</a>
+</h4>
+<ul class="reset smalltext" id="msg_284709_extra_info">
+<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10464">
+<img class="avatar" src="/bbs/upload/avatar/avatar_10464_1300865998.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1573<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_284709">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg284709#msg284709" rel="nofollow">Re: [Pathfinder][扩展]骑士（Cavalier）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_284709'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_284709'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #47 于:</strong> 2010-10-22, 周五 18:20:08 &#187;</div>
+<div id="msg_284709_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_284709">技能：蛇怪骑士团的骑士将估价(智力)，表演(魅力)加入本职技能。此外，<span style="color: red;" class="bbc_color">巨龙骑士团</span>的骑士可以将自己的魅力调整加在企图通过威吓使自己士气受挫(demoralize)的DC上(在一般的感知调整上再叠加)。<br><br>到底是蛇怪还是巨龙 <img src="/bbs/Smileys/converted/Lem07.GIF" alt="&#58;em007" title="&#58;em007" border="0" class="smiley"/><br>这两个骑士团的说明和能力完完全全和之前的版本颠倒，这... <img src="/bbs/Smileys/converted/em017.gif" alt="&#58;em017" title="&#58;em017" border="0" class="smiley"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_284709">
+&#171; <em>上次编辑: 2010-10-22, 周五 18:22:42 由 PATIBAUL</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_284709_signature">我是叉烧龙猫啦，<br>我犯了一个致命的错误：<br>在家里没办法用繁体中文登入果园...</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg284734"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+</h4>
+<ul class="reset smalltext" id="msg_284734_extra_info">
+<li class="title">O5-13<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544">
+<img class="avatar" src="http://i.imgur.com/fLjgTL5.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5136<li class="karma">苹果币: 12<li class="blurb">蠢不是罪过，蠢还要丢人现眼才是<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_284734">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg284734#msg284734" rel="nofollow">Re: [Pathfinder][扩展]骑士（Cavalier）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_284734'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_284734'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #48 于:</strong> 2010-10-22, 周五 19:20:56 &#187;</div>
+<div id="msg_284734_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_284734">对，虽然我怀疑只是放反了……<br><br>改正C&amp;P。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_284734">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_284734_signature"><div align="center"><strong><span style="color: red;" class="bbc_color"><span style="text-shadow: brown 0 2px 1px"><em>Let us go then, you and I<br>When the Eleven-Day Empire eats the sky<br>Like a humanoid melting like clams upon the breakfast table.</em></span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg291155"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10957" title="检视会员资料:  山寨老王">山寨老王</a>
+</h4>
+<ul class="reset smalltext" id="msg_291155_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10957">
+<img class="avatar" src="http://www.goddessfantasy.net/bbs/index.php?action=dlattach;topic=61963.0;attach=28559;image" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 74<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_291155">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg291155#msg291155" rel="nofollow">Re: [Pathfinder][扩展]骑士（Cavalier）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_291155'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_291155'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #49 于:</strong> 2010-11-10, 周三 20:31:18 &#187;</div>
+<div id="msg_291155_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_291155">巨龙骑士团(Order of the Dragon)<br><br>技能：巨龙骑士团的骑士将知觉(Perception)(感知)和生存(感知)加入本职技能。此外，当<span style="color: red;" class="bbc_color">蛇怪骑士团</span>的骑士使用生存技能来为盟友提供水和食物或保护盟友不受到恶劣环境的侵害时，他获得等同于骑士等级一半的加值(最少+1)。<br><br>辛苦了<br>不过这边是还没改到还是原文就如此？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_291155">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_291155_signature"><img src="http://dc.makegames.de/626634.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626635.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626636.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626637.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626638.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626639.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626640.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626641.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626642.gif" alt="" class="bbc_img"/><img src="http://dc.makegames.de/626643.gif" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg291160"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="检视会员资料:  沉沦">沉沦</a>
+</h4>
+<ul class="reset smalltext" id="msg_291160_extra_info">
+<li class="title">O5-13<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544">
+<img class="avatar" src="http://i.imgur.com/fLjgTL5.png" width="100" height="100" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5136<li class="karma">苹果币: 12<li class="blurb">蠢不是罪过，蠢还要丢人现眼才是<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_291160">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.msg291160#msg291160" rel="nofollow">Re: [Pathfinder][扩展]骑士（Cavalier）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_291160'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_291160'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #50 于:</strong> 2010-11-10, 周三 20:40:13 &#187;</div>
+<div id="msg_291160_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_291160">纯粹没改到...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_291160">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_291160_signature"><div align="center"><strong><span style="color: red;" class="bbc_color"><span style="text-shadow: brown 0 2px 1px"><em>Let us go then, you and I<br>When the Eleven-Day Empire eats the sky<br>Like a humanoid melting like clams upon the breakfast table.</em></span></span></strong></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=28115.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.20">&#171;</a> <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0">1</a> <a class="navPages" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.20">2</a> [<strong>3</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=871.0"><span>核心书籍（Core Books）</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1847.0"><span>《进阶玩家指南》</span></a> (版主: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=28115.0"><span> 【第二章】骑士（Cavalier）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 28115,
+iStart: 40,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 28115,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b3ff423" value="5a4cbc40001a2138af41dd9b1cb45b3e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="28115" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'5a4cbc40001a2138af41dd9b1cb45b3e\', \'b3ff423\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;' + '?topic=28115.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 32926 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1847,
+							iCurBoardChildLevel: 3,
+							sCurBoardName: "《进阶玩家指南》",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1847,
+							iTopicId: 28115,
+							sSessionId: "5a4cbc40001a2138af41dd9b1cb45b3e",
+							sSessionVar: "b3ff423",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

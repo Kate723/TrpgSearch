@@ -1,0 +1,549 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="制作角色卡的方法"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>制作角色卡的方法</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1547.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="89116"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1547.0"><span>记录的地平线TRPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286" title="版主">逆神猪</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0"><span>制作角色卡的方法</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg833297"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=89116.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 制作角色卡的方法 &nbsp;(阅读 9374 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 施工完毕，求校对</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=89116.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286" title="检视会员资料:  逆神猪">逆神猪</a>
+</h4>
+<ul class="reset smalltext" id="msg_833297_extra_info">
+<li class="title">满地乱滚的猪<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3286_1328843122.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5888<li class="karma">苹果币: -2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_833297">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.msg833297#msg833297" rel="nofollow">制作角色卡的方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_833297'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_833297'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2017-01-19, 周四 12:05:34 &#187;</div>
+<div id="msg_833297_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_833297"><div align="center"><span style="font-size: 18pt;" class="bbc_size">角色的作成方法</span></div>&nbsp;&nbsp;&nbsp;角色的作成分为两种，「快速开始」与「人物构筑」。玩家根据GM的要求，按其中一种方法作成角色。<br>快速开始<br>此处就如何通过快速开始进行角色作成进行解说。<br>1、&nbsp;&nbsp;&nbsp;选择范例角色卡<br>GM在开始制作角色前，指定跑团中可使用的「范例角色卡」，玩家在指定的范例卡中，与其他玩家商议后选择自己使用的角色卡。<br>2、&nbsp;&nbsp;&nbsp;填写数据<br>选择角色后将相应的数据填入角色表。<br>3、&nbsp;&nbsp;&nbsp;选择个人信息<br>决定姓名、性别、角色设定以及指导信念等个人信息，在相应的条目中填写。个人信息详细参照「决定个人信息」章节。但是，副职业不需要完全遵循范例角色卡中所指定的副职业。<br>4、&nbsp;&nbsp;&nbsp;GM确认<br>将以上内容填入角色卡后，通过快速开始制作角色便完成了，请GM检查角色卡。<br>*范例角色卡暂略<br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">决定个人信息</span></span><br>个人信息从名字、性别，到副职业、友人等人际关系、外貌特征、组织联系、信念等有很大的分歧。此处就决定个人信息的顺序作简单说明。<br>决定姓名、性别以及等级<br>姓名和性别由玩家自由决定。在快速开始中，范例角色卡虽然设定了角色图和背景等，这些信息是为了便于想象范例角色的设定，实际使用时可以自由变更。<br>&lt;冒险者&gt;的样貌和名字原本即为MMO游戏中的角色，因此一定有想要取「充满MMO风格的名字」的玩家吧。但是这里请稍等一下。在游戏中需要读出你的名字。因此不要设定发音困难或是难以出口的名字。若是长名字或是不好叫的名字，推荐设定一个简单的昵称。<br>MMO&lt;神话幻境&gt;中作为角色所持有的等级亦可自由设定。如果不清楚的话，设定为「90级」也是可以。等级在「LHZ」中没有任何规则上的作用，只是作为扮演的数据。不论等级是多少，能力值与判定的数值不会发生变化。<br><strong><span style="font-size: 10pt;" class="bbc_size">获取初始副职业</span></strong><br>作成PC时，可以任选一个副职业。一部分的副职业拥有可以利用的特技、关联或是「EX power」。<br>副职业的种类很多，从后述的「副职业一览」中选择亦可，从其他原作中登场的内容里选择亦可，取得GM许可后创造原创的副职业亦可。<br>另外，使用范例角色卡的场合，由于其已经获取了副职业，可以跳过此步骤。<br>副职业一览<br>&lt;偶像&gt;&nbsp;&nbsp;&nbsp;&lt;医者&gt;&nbsp;&nbsp;&nbsp;&lt;祈师&gt;&nbsp;&nbsp;&nbsp;&lt;战祭祀&gt;&nbsp;&nbsp;&nbsp;&lt;占卜师&gt;&nbsp;&nbsp;&nbsp;&lt;小贩&gt;<br>&lt;女仆长&gt;&nbsp;&nbsp;&nbsp;&lt;诅咒之刃&gt;&nbsp;&nbsp;&nbsp;&lt;会计&gt;&nbsp;&nbsp;&nbsp;&lt;海贼&gt;&nbsp;&nbsp;&nbsp;&lt;怪盗&gt;&nbsp;&nbsp;&nbsp;&lt;画家&gt;<br>&lt;学者&gt;&nbsp;&nbsp;&nbsp;&lt;铁匠&gt;&nbsp;&nbsp;&nbsp;&lt;保姆&gt;&nbsp;&nbsp;&nbsp;&lt;乐器匠&gt;&nbsp;&nbsp;&nbsp;&lt;猎人&gt;&nbsp;&nbsp;&nbsp;&lt;杂技演员&gt;<br>&lt;革加工师&gt;&nbsp;&nbsp;&nbsp;&lt;赝品师&gt;&nbsp;&nbsp;&nbsp;&lt;机工师&gt;&nbsp;&nbsp;&nbsp;&lt;骑士&gt;&nbsp;&nbsp;&nbsp;&lt;贵族&gt;&nbsp;&nbsp;&nbsp;&lt;狂战士&gt;<br>&lt;车夫&gt;&nbsp;&nbsp;&nbsp;&lt;药师&gt;&nbsp;&nbsp;&nbsp;&lt;军师&gt;&nbsp;&nbsp;&nbsp;&lt;决斗者&gt;&nbsp;&nbsp;&nbsp;&lt;剑斗士&gt;&nbsp;&nbsp;&nbsp;&lt;交易商人&gt;<br>&lt;交涉人&gt;&nbsp;&nbsp;&nbsp;&lt;刻印咒师&gt;&nbsp;&nbsp;&nbsp;&lt;加工师&gt;&nbsp;&nbsp;&nbsp;&lt;挖掘师&gt;&nbsp;&nbsp;&nbsp;&lt;采集者&gt;&nbsp;&nbsp;&nbsp;&lt;裁缝&gt;<br>&lt;指挥官&gt;&nbsp;&nbsp;&nbsp;&lt;收藏家&gt;&nbsp;&nbsp;&nbsp;&lt;娼妇&gt;&nbsp;&nbsp;&nbsp;&lt;将军&gt;&nbsp;&nbsp;&nbsp;&lt;小说家&gt;&nbsp;&nbsp;&nbsp;&lt;五郎&gt;<br>&lt;数奇者&gt;&nbsp;&nbsp;&nbsp;&lt;生还者&gt;&nbsp;&nbsp;&nbsp;&lt;斥候&gt;&nbsp;&nbsp;&nbsp;&lt;设计士&gt;&nbsp;&nbsp;&nbsp;&lt;土木工匠&gt;&nbsp;&nbsp;&nbsp;&lt;探险家&gt;<br>&lt;地图商人&gt;&nbsp;&nbsp;&nbsp;&lt;斗士&gt;&nbsp;&nbsp;&nbsp;&lt;调教师&gt;&nbsp;&nbsp;&nbsp;&lt;调剂师&gt;&nbsp;&nbsp;&nbsp;&lt;宣传员&gt;&nbsp;&nbsp;&nbsp;&lt;追踪者&gt;<br>&lt;提督&gt;&nbsp;&nbsp;&nbsp;&lt;刀匠&gt;&nbsp;&nbsp;&nbsp;&lt;毒药使&gt;&nbsp;&nbsp;&nbsp;&lt;赌博师&gt;&nbsp;&nbsp;&nbsp;&lt;农夫&gt;&nbsp;&nbsp;&nbsp;&lt;快递员&gt;<br>&lt;蔷薇园公主&gt;&nbsp;&nbsp;&nbsp;&lt;抄写师&gt;&nbsp;&nbsp;&nbsp;&lt;武侠&gt;&nbsp;&nbsp;&nbsp;&lt;复仇者&gt;&nbsp;&nbsp;&nbsp;&lt;武具匠&gt;&nbsp;&nbsp;&nbsp;&lt;符术师&gt;<br>&lt;边境巡逻员&gt;&nbsp;&nbsp;&nbsp;&lt;炮击士&gt;&nbsp;&nbsp;&nbsp;&lt;珠宝技师&gt;&nbsp;&nbsp;&nbsp;&lt;宝石匠&gt;&nbsp;&nbsp;&nbsp;&lt;咏星者&gt;&nbsp;&nbsp;&nbsp;&lt;魔王&gt;<br>&lt;魔具工匠&gt;&nbsp;&nbsp;&nbsp;&lt;魔杖使&gt;&nbsp;&nbsp;&nbsp;&lt;魔盗贼&gt;&nbsp;&nbsp;&nbsp;&lt;魔法学者&gt;&nbsp;&nbsp;&nbsp;&lt;密探&gt;&nbsp;&nbsp;&nbsp;&lt;见习弟子&gt;<br>&lt;暴徒&gt;&nbsp;&nbsp;&nbsp;&lt;女仆&gt;&nbsp;&nbsp;&nbsp;&lt;木工匠人&gt;&nbsp;&nbsp;&nbsp;&lt;勇者&gt;&nbsp;&nbsp;&nbsp;&lt;游牧民&gt;&nbsp;&nbsp;&nbsp;&lt;佣兵&gt;<br>&lt;铠甲匠&gt;&nbsp;&nbsp;&nbsp;&lt;厨师&gt;&nbsp;&nbsp;&nbsp;&lt;渔夫&gt;&nbsp;&nbsp;&nbsp;&lt;卢文骑士&gt;&nbsp;&nbsp;&nbsp;&lt;炼金术士&gt;&nbsp;&nbsp;&nbsp;&lt;陷阱师&gt;<br><strong><span style="font-size: 10pt;" class="bbc_size">决定指导信念</span></strong><br>&nbsp;&nbsp;&nbsp;「Guiding Creed（引导自己的信念）」是作为&lt;冒险者&gt;挑战各种各样冒险的理由、对自己的誓言或是思想、与他人之间的羁绊的表现，使PC作为故事的主人公能有相称的表现。<br>&nbsp;&nbsp;&nbsp;「LHZ」的PC虽然是&lt;冒险者&gt;，但只是&lt;冒险者&gt;的话无法成为故事的主人公。大量的&lt;冒险者&gt;中，原作主人公城惠一行凭自己的信念与良心行动，与近邻联手合作，未曾自暴自弃，为了在异世界的生活蒸蒸日上而努力的人们，方能称得上是故事的主人公吧。但是，因此没有任何理由或是信念是很那办到的。而此处，为了为PC提供行动和扮演的方针的规则就是此处的Guiding Creed。引导自己行动，由自己决定的信念——Guiding Creed一定可以成为你的PC行动的指针、并为扮演带来助力。<br>&nbsp;&nbsp;&nbsp;决定Guiding Creed，可以通过参照「信念表」，通过ROC来选取一个项目。选中的「Creed名称」，「信念」填入角色卡中。<br>&nbsp;&nbsp;&nbsp;接下来，参考所选择的项目的解说，在人物卡的设定栏中详细写下角色具体设定了怎么样的信念。你可以适当地对所选的信念进行修改以符合你对角色的印象。<br>&nbsp;&nbsp;&nbsp;最后，在人物卡上的标签栏中，将所选的信念的项目中所指定的「人物标签」填入其中。这个标签，在其他PC与你的PC取得联系时作为参考。信念与人物标签组成的人物与你所设想的人物形象不一致时，你可以单独改变人物标签。<br>信念表<br>出目　　　　信念名　　解说　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　信念　　　　　　　　人物标签<br>1－2　　1　　守护　　&lt;冒险者&gt;拥有力量。也就意味着可以保护各样的人和事物。　　　　　　　　　　　从危险中守护　　　　　[武人]<br>　　　　2　　伙伴　　在心中有认定的伙伴。只要与他们在一起即使在这个世界也可以努力下去　　　　　与伙伴一起　　　　　　[普通人]<br>　　　　3　　不屈　　眼前仍有无法越过的高墙和应达到的境地。来吧，今天挑战仍在继续。　　　　　　绝对不屈服　　　　　　[工匠]<br>　　　　4　　讨伐　　打倒强敌。这是为了伙伴所能做到的最大的贡献，力量的证明。　　　　　　　　　打倒强敌　　　　　　　[武人]<br>　　　　5　　行动　　仅凭语言有着无法传达的东西。那么，就以此身来传达重要的东西。　　　　　　　以行动表现　　　　　　[艺术家]<br>　　　　6　　英姿　　游刃有余的飒爽。即使只是演戏也可以让周围的人感到安心。　　　　　　　　　　他人面前飒爽行为　　　[自由人]<br>3－4　　1　　支援　　为了帮助、支撑某人而伸出援手。在绿色之下拥有的力量也是重要的义务。　　　　支撑大家　　　　　　　[行政者]<br>　　　　2　　仁义　　贯彻道理与道义。这是打破文化与立场的隔阂而相互尊敬的道路。　　　　　　　　贯彻道义　　　　　　　[工匠]<br>　　　　3　　互助　　让大家互相帮助吧。即使是一个人无法做到的事情，只要齐心协力一定可以做到的　互相帮助　　　　　　　[商人]<br>　　　　4　　尽力　　首先对眼前的事情全力以赴。结果一定可以随之而来吧。　　　　　　　　　　　　全力以赴　　　　　　　[普通人]<br>　　　　5　　智慧　　只要能够活用并实践知识，每一天一定能越来越好。　　　　　　　　　　　　　　活用知识　　　　　　　[知识分子]<br>　　　　6　　表现　　展现某种东西。就算不去挥舞武器，那个也能够证明你的存在。　　　　　　　　　表现自我　　　　　　　[艺术家]<br>5－6　　1　　信赖　　只要相信就能产生力量。与他人之间的联系是支撑你的动力。　　　　　　　　　　信赖他人　　　　　　　[普通人]<br>　　　　2　　繁荣　　良好的交流能使你和对方都获益。不使利益停滞的流动会产生繁荣。　　　　　　　使周围富有　　　　　　[商人]<br>　　　　3　　统帅　　人一旦聚集起来，就必须有人领导他们。你知道要如何回应他们的期待。　　　　　率领众人　　　　　　　[行政者]<br>　　　　4　　求道　　努力的积累的结果永远不会背叛你。因此你不断地锻炼自我。　　　　　　　　　　锻炼自我　　　　　　　[工匠]<br>　　　　5　　笃学　　放任好奇心地去学习。这个世界充满了应当学习的东西。　　　　　　　　　　　　满足好奇心　　　　　　[知识分子]<br>　　　　6　　探求　　探索未知之地的紧张、感动、兴奋。这才是冒险，是你的原动力。　　　　　　　　享受冒险　　　　　　　[自由人]<br>7　任意与GM协商并决定使用任意内容　　任意　　任意 <br><strong><span style="font-size: 10pt;" class="bbc_size">取得初始联系</span></strong><br>&nbsp;&nbsp;&nbsp;PC在作成时取得一个联系。所取得的联系是参加最初场景的其他PC中的一人。具体的获取顺序参照「新取得联系」「决定取得初始联系」。<br><strong><span style="font-size: 10pt;" class="bbc_size">加入组织</span></strong><br>&nbsp;&nbsp;&nbsp;PC作成时，并不加入组织。但是，当你的同伴在作成角色时，如果希望加入一个组织，在获得GM同意的前提下，参照「场景中取得个人信息」章节即可。在与参团的其他玩家商议后，全员加入同一个组织，隶属于同一家冒险者公会的同伴，通过这样的方法迅速导入游戏不失为一个好办法。<br><strong><span style="font-size: 10pt;" class="bbc_size">设定其他角色信息</span></strong><br>&nbsp;&nbsp;&nbsp;扮演中会有想要作其他角色设定的时候。从简单的部分来说，角色外表情报设定也是其中之一。以发色、瞳色、肤色、身高、体重、种族特征等各种族的设定为参考并决定。想要画人设的人可以在角色卡上的插图页来描绘角色外形。<br>&nbsp;&nbsp;&nbsp;此外，玩家想要设定角色卡之外的信息，诸如经历、目的、外表特征、友人关系、等可以自由决定。此类设定可以填入角色卡的笔记栏中。<br><strong><span style="font-size: 10pt;" class="bbc_size">写在最后</span></strong><br>&nbsp;&nbsp;&nbsp;TRPG是为了让全员享受的游戏。让其他参加者不快或是影响游戏进行的设定请尽量避免。另外尽量避免实际人物或小说人物的名字直接出现在游戏中。如果其他PC想要与预定登场的NPC有所关联时，操作PC的玩家需要与GM商议。互相出主意的话，说不定可以得出更有趣的设定。请积极地沟通吧。<br><br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">人物构筑</span></span><br>&nbsp;&nbsp;&nbsp;与快速开始相对，人物构筑的方式可以更自由地选择数据来作成角色。通过主职业、种族、获取不同特技的组合，创造只属于你的PC。此处就人物构筑的方法按顺序解说，实际操作时可以按习惯调整，依照你习惯的顺序建立人物。<br><strong><span style="font-size: 10pt;" class="bbc_size">决定角色等级（CR）</span></strong><br>&nbsp;&nbsp;&nbsp;新作成的PC角色通常为CR1。记录在角色表中的角色等级一栏。<br><strong><span style="font-size: 10pt;" class="bbc_size">决定基础职业与主职业</span></strong><br>&nbsp;&nbsp;&nbsp;在「战士系」「恢复系」「武器攻击系」「魔法攻击系」四类的基础职业中的12个主职业内选择一个职业。基础职业和主职业的详细内容参照「职业」章节。主职业是基础职业的分支选项，实际上决定了主职业基础职业也相应决定了。<br>&nbsp;&nbsp;&nbsp;如果可能的话，希望PC的队伍（集团）可以集齐四类的基础职业。如果多数时间出现人数不足的情况，相互协调以决定调整哪种基础职业。<br>&nbsp;&nbsp;&nbsp;决定了主职业和基础职业后，将相关的情报填入角色卡。每个主职业对应的修正参照下表。<br>&nbsp;&nbsp;&nbsp;同时，此时角色主职业获得作为「自动取得特技」，最多指定的最多3个战斗特技（详细参照各职业的特技列表）。将它们填入角色卡的特技栏。<br>主职业修正表<br>职业名　STR基本值　DEX基本值　POW基本值　INT基本值　初始HP　HP成长<br>守护战士　　4　　　　　2　　　　　1　　　　　　　3　　　　50　　　+8<br>武士　　　　4　　　　　2　　　　　2　　　　　　　2　　　　50　　　+8<br>武斗家　　　4　　　　　4　　　　　2　　　　　　　0　　　　55　　　+9<br>牧师　　　　3　　　　　0　　　　　4　　　　　　　3　　　　40　　　+6<br>德鲁伊　　　2　　　　　1　　　　　4　　　　　　　3　　　　35　　　+5<br>神官　　　　1　　　　　3　　　　　4　　　　　　　2　　　　40　　　+5<br>暗杀者　　　2　　　　　4　　　　　3　　　　　　　1　　　　40　　　+5<br>盗剑士　　　3　　　　　4　　　　　2　　　　　　　1　　　　40　　　+6<br>吟游诗人　　2　　　　　4　　　　　2　　　　　　　2　　　　40　　　+5<br>妖术师　　　0　　　　　3　　　　　3　　　　　　　4　　　　35　　　+4<br>召唤术师　　1　　　　　2　　　　　3　　　　　　　4　　　　35　　　+5<br>赋予术师　　2　　　　　2　　　　　2　　　　　　　4　　　　35　　　+4<br><br><strong><span style="font-size: 10pt;" class="bbc_size">选择种族</span></strong><br>&nbsp;&nbsp;&nbsp;从八个种族中选择一个，并填入角色卡。种族修正参照下表。<br>种族修正表<br>职业名　　　　STR基本值　　　DEX基本值　　　POW基本值　　　INT基本值　　　初始HP　　　初始因果力<br>人类　　　　　　　　　　　　　　　　　　任选两项分别+1　　　　　　　　　　　　　　8　　　　　　1<br>精灵　　　　　　0　　　　　　　1　　　　　　　　1　　　　　　　　　0　　　　　　　8　　　　　　1<br>矮人　　　　　　1　　　　　　　0　　　　　　　　1　　　　　　　　　0　　　　　　　16　　　　　　0<br>半祖族　　　　　0　　　　　　　1　　　　　　　　0　　　　　　　　　1　　　　　　　8　　　　　　1<br>猫人族　　　　　1　　　　　　　1　　　　　　　　0　　　　　　　　　0　　　　　　　8　　　　　　1<br>狼牙族　　　　　2　　　　　　　0　　　　　　　　0　　　　　　　　　0　　　　　　　16　　　　　　0<br>狐尾族　　　　　0　　　　　　　0　　　　　　　　1　　　　　　　　　1　　　　　　　8　　　　　　1<br>法仪族　　　　　0　　　　　　　0　　　　　　　　0　　　　　　　　　2　　　　　　　0　　　　　　2<br>任意选择特技并取得<br>从你所选择的「基础职业」「主职业」「种族」以及「共通」特技列表中，选择「3个战斗特技」与「1个一般特技」并取得。注意不管哪个特技列表中都包含有战斗特技与一般特技。因为目前角色等级（CR）为1，此时所能取得的特技等级（SR）上限也为1。将取得的特技填入角色卡特技栏中。<br><strong><span style="font-size: 10pt;" class="bbc_size">确定能力基本值以及能力值</span></strong><br>&nbsp;&nbsp;&nbsp;【能力基本值】与【能力值】依照以下顺序决定。<br>1：来自主职业与种族的能力修正<br>&nbsp;&nbsp;&nbsp;参照「主职业修正表」与「种族修正表」中获取【STR基本值】【DEX基本值】【POW基本值】【INT基本值】并对应相加。<br>2：分配奖励点数<br>&nbsp;&nbsp;&nbsp;在步骤1中获得的各项记录值的基础上自由分配5个奖励点数。点数可以自由分配至任意【能力基本值】中，但是此时允许最大的【能力基本值】为7，无法分配更多的点数到超过该范围的能力值上。<br>3：来自特技的能力基本值修正<br>&nbsp;&nbsp;&nbsp;取得的特技中若存在修正【能力基本值】的说明就将其应用。即使结果使【能力基本值】达到8或以上也没关系。<br>4：计算能力基本值<br>&nbsp;&nbsp;&nbsp;将步骤1~3的数值计算后填入角色表【能力基本值】项目。<br>5：计算能力值<br>&nbsp;&nbsp;&nbsp;【能力值】是「【能力基本值】的三分之一（去掉小数）」的数值。将计算的数值填入角色卡对应的【能力值】栏。<br><strong><span style="font-size: 10pt;" class="bbc_size">确定技能值</span></strong><br>&nbsp;&nbsp;&nbsp;【技能值】通常与对应的【能力值】相等。在此基础上再加上所取得的特技和道具的修正。将计算出的数值填入角色卡中对应的【技能值】栏中。<br>&nbsp;&nbsp;&nbsp;技能值的项目中，含有该技能判定时骰掷的骰子数的栏位。虽然通常是2D，特技和道具往往有增减骰子的效果。将这些效果合计并填入其中。<br>技能名&nbsp;&nbsp;&nbsp;对应能力值<br>【运动值】&nbsp;&nbsp;&nbsp;【STR】+特技或道具修正<br>【耐久值】&nbsp;&nbsp;&nbsp;【STR】+特技或道具修正<br>【解除值】&nbsp;&nbsp;&nbsp;【DEX】+特技或道具修正<br>【操作值】&nbsp;&nbsp;&nbsp;【DEX】+特技或道具修正<br>【知觉值】&nbsp;&nbsp;&nbsp;【POW】+特技或道具修正<br>【交涉值】&nbsp;&nbsp;&nbsp;【POW】+特技或道具修正<br>【知识值】&nbsp;&nbsp;&nbsp;【INT】+特技或道具修正<br>【解析值】&nbsp;&nbsp;&nbsp;【INT】+特技或道具修正<br>【命中值】&nbsp;&nbsp;&nbsp;最高的【能力值】+特技或道具修正<br>【回避值】&nbsp;&nbsp;&nbsp;【DEX】+特技或道具修正<br>【抵抗值】&nbsp;&nbsp;&nbsp;【POW】+特技或道具修正<br><br><strong><span style="font-size: 10pt;" class="bbc_size">道具购买</span></strong><br>&nbsp;&nbsp;&nbsp;PC作成阶段，持有350G的初始资金，并获得「背包」「冒险者套装」「美味三明治」各一个。使用这些初始资金去购买你的必须品吧。剩下的金额会成为你的持有金钱。<br>&nbsp;&nbsp;&nbsp;关于道具信息具体参照「道具」章节。但是至少请携带一种武器与一种防具。加上治疗系和魔法攻击系PC应购入一种带有【魔力】属性的道具（通常可以兼做武器使用）。关于武器和防具这样的装备品受主职业的限制。参照「主职业的装备限制」章节并购入可以装备的装备。<br>&nbsp;&nbsp;&nbsp;特技中有通过预付来获取金钱或道具的。在想要购入装备之前，如果想要领取这些，请向GM提出申请。<br><br><strong><span style="font-size: 10pt;" class="bbc_size">确定其他数据</span></strong><br>&nbsp;&nbsp;&nbsp;此处就其他数据的确定和公式进行解说。<br>【最大HP】=主职业的初始HP修正+种族初始HP修正+特技或道具的修正<br>【初期因果力】=种族初始因果力修正+特技或道具的修正<br>【攻击力】=一件正在装备的道具的攻击力+特技或道具的修正<br>【魔力】=一件正在装备的道具的魔力+特技或道具的修正<br>【回复力】=特技或道具的修正<br>【物理防御力】=【STR】×２+特技或道具的修正<br>【魔法防御力】=【INT】×２+特技或道具的修正<br>【行动力】=【STR】+【INT】+特技或道具的修正<br>【移动力】=2+特技或道具的修正<br>选择个人信息<br>&nbsp;&nbsp;&nbsp;最后设定角色的姓名、性别、信念、初始副职业等设定。详细参照前文中「决定个人信息」章节。<br>GM确认<br>&nbsp;&nbsp;&nbsp;完成人物卡后请提交GM审核。<br><br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">角色强化</span></span><br>&nbsp;&nbsp;&nbsp;玩家和GM在场景结束时获得「Log Ticket」。通过消费这个「Log Ticket」以使得PC得到成长。以下将就使用方法及效果作详细解说。<br><strong><span style="font-size: 10pt;" class="bbc_size">Log Ticket的使用方法</span></strong><br>「Log Ticket」是参与者在场景结束后获得的纸片。既是PC成长所必须的物品，也是作为参与过的场景的回忆的记录（LOG）。这枚Log Ticket是作为你暂时远离现实世界，而作为&lt;冒险者&gt;度过的日子的回忆，请珍惜保存它。一定会成为刻在你人生一页中的珍宝。<br>虽然都是称为Log Ticket，但仍有好几种。不论哪种都可以对一名PC生效。<br>Log Ticket可以在游戏前（Pre-Play）或游戏后（After-Play）时，在征得GM同意的基础上使用。Log Ticket是发予参加者的个人的，参加者所获得的Log Ticket对任一名PC均可使用。<br><br>Log Ticket的种类&nbsp;&nbsp;&nbsp;<br>提升角色等级：1枚即可提升角色等级1级<br>其他获取：1枚可以选择以下三项中的一项获得<br>•取得新的副职业<br>•取得新的组织<br>•取得新的联系<br>财宝获取：消费这枚票可以获得各种各样的财富。详细参照「获得财产」章节<br>因果力获取：这枚票是例外，只能在游戏前使用。1枚可以使得接下来参加的场景中【因果力】+1。<br>使用票券时，将票券的效果及使用的PC告知GM。此时，在票券上签上使用的日期和GM的签字，若在已使用栏中已有相应标记则无法使用。在获得GM的使用许可和确认后，在票券的已使用栏中使用圆珠笔等无法抹出的工具记录标记。之后将票券的效果应用于PC。根据票券的种类有不同的效果，即使是同样的票券也存在选择效果。<br>另外，已使用的票券虽然无法再次使用，但却也是重要的回忆。请珍惜保管。<br><br><span style="color: blue;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size">角色等级上升</span></span><br>使用一枚「提升角色等级」票券可以将CR上升一级，并使PC获得以下4项收益。<br>最大HP上升<br>CR上升一级，PC依照主职业的HP成长的数值，提升【最大HP】<br>能力基本值上升<br>CR上升一级，四项【能力基本值】分别上升1点<br>技能值及其他数值变动<br>由新的【能力基本值】重新计算各项【能力值】及相关【技能值】<br>取得特技<br>由于CR上升，可以获得新的特技。上升后若是CR2~10，可以获得「2个战斗特技」和「1个一般特技」。上升后若达到11或以上，则可以获得「1个战斗特技」和「1个一般特技」。<br>取得一个特技的机会，可以获取一个全新的特技，也可以将原有特技的等级提升一级。新获得的特技必须从「共通」或是「基本职业」「主职业」「种族」列表中选择。<br>当选择升级特技时，特技不能超过特技本身设定的「最大SR」。另外，提升之后的特技，其SR不可大于角色的CR。<br>取得新副职业<br>&nbsp;&nbsp;&nbsp;使用一枚其他获取的票券，可以选择获得一个新的副职业。一名角色可以获得的副职业不受数量限制。<br>&nbsp;&nbsp;&nbsp;与原作的设定不同，「LHZ」中即使获得新的副职业也不会失去原有的副职业。已经获取了的副职业将被作为历史尘封起来吧。<br>取得组织<br>&nbsp;&nbsp;&nbsp;使用一枚其他获取的票券，可以选择加入一个新的组织。一名角色可以获得的组织不受数量限制。<br>取得联系<br>&nbsp;&nbsp;&nbsp;使用一枚其他获取的票券，可以选择获得一个新的联系。一名角色可以获得的联系不受数量限制。<br>取得新组织<br>&nbsp;&nbsp;&nbsp;新获得的联系在GM许可的情况下，可以任意选择。在所有登场了的NPC中选择亦可，在原作中寻找亦可。再有即使是同桌的其他玩家也是可以的。<br>取得新联系<br>&nbsp;&nbsp;&nbsp;本书中就没有数据的NPC的作成方法参加「制造NPC」详细参照「NPC」制作章节。与NPC的关系，由右侧的交友表决定。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_833297">
+&#171; <em>上次编辑: 2017-01-19, 周四 14:54:32 由 逆神猪</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_833297_signature">这个人已经懒得什么都不想留下了</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg833312"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286" title="检视会员资料:  逆神猪">逆神猪</a>
+</h4>
+<ul class="reset smalltext" id="msg_833312_extra_info">
+<li class="title">满地乱滚的猪<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3286_1328843122.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5888<li class="karma">苹果币: -2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_833312">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.msg833312#msg833312" rel="nofollow">Re: 制作角色卡的方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_833312'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_833312'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2017-01-19, 周四 14:44:44 &#187;</div>
+<div id="msg_833312_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_833312">留一楼贴张自己的范例卡，官方卡格式比较难搬。。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_833312">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_833312_signature">这个人已经懒得什么都不想留下了</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834532"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4619" title="检视会员资料:  大眼球">大眼球</a>
+</h4>
+<ul class="reset smalltext" id="msg_834532_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 45<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834532">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.msg834532#msg834532" rel="nofollow">Re: 制作角色卡的方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834532'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834532'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2017-01-31, 周二 13:04:15 &#187;</div>
+<div id="msg_834532_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834532">&nbsp;<img src="/bbs/Smileys/converted/Lem01.GIF" alt="&#58;em001" title="&#58;em001" border="0" class="smiley"/>发个自己做的车卡器，欢迎勘误</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834532">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_834532_signature">That is not dead which can eternal lie,<br>And with strange aeons even death may die.</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834967"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4619" title="检视会员资料:  大眼球">大眼球</a>
+</h4>
+<ul class="reset smalltext" id="msg_834967_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 45<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/clip.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834967">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.msg834967#msg834967" rel="nofollow">Re: 制作角色卡的方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834967'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834967'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2017-02-04, 周六 18:49:22 &#187;</div>
+<div id="msg_834967_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834967">2.0版本，支持双持和自动累加，欢迎勘误<br><br>//pathnote：v1.21:修正一个副手武器命中没有被正确计算的错误</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834967">
+&#171; <em>上次编辑: 2017-02-07, 周二 13:07:18 由 大眼球</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_834967_signature">That is not dead which can eternal lie,<br>And with strange aeons even death may die.</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1069536"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83615" title="检视会员资料:  莫茗">莫茗</a>
+</h4>
+<ul class="reset smalltext" id="msg_1069536_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=83615">
+<img class="avatar" src="/bbs/upload/avatar/avatar_83615_1598367482.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 50<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1069536">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.msg1069536#msg1069536" rel="nofollow">Re: 制作角色卡的方法</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1069536'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1069536'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2020-08-23, 周日 16:37:36 &#187;</div>
+<div id="msg_1069536_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1069536"><span style="font-size: 12pt;" class="bbc_size"><strong>EXPOWER</strong></span><br>（EXPOWER）是与基本动作、特技等相同的行动的一种。因为PC蕴藏着各种各样的可能性，把那种可能性在流程里更加表面化而产生的东西就是EXPOWER。这也许是依靠团队合作的高度作战，也许是大胆切入事件之谜的灵光一闪。或者是人际关系上的戏剧，或者是PC隐藏的才能。那样，根据冒险的方向性受到特写的PC们的可能性，想想也不错吧。<br>与PC取得的成长一同增长的特技不同，EXPOWER在每次流程中给予PC，在游戏结束阶段消失。EXPOWER的分配由GM在游戏准备阶段进行，基本上来说，PL不参与EXPOWER的取得。<br>关于导入了EXPOWER的模组还有各种各样的EXPOWER数据预定在Web Support或者今后发表的扩展等中介绍。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>EXPOWER的使用方法</strong></span><br>EXPOWER的使用方法在接下来的（取得与消失）和（运用）中进行解说。<br><br><strong>取得与消失</strong><br>EXPOWER在（游戏准备阶段）中由GM进行配布。至于配布的EXPOWER的种类则记载在模组中。接受的PC会暂时取得那个EXPOWER，得到在本模组内使用的权利。然后在（游戏结束阶段）角色会失去EXPOWER。就算在下一次的模组中也要用同样的EXPOWER，也要在下回的游戏准备阶段重新取得EXPOWER。<br><br><strong>运用</strong><br>得到使用权利的EXPOWER按照行动的规则进行使用。关于实行条件或代价的支付，以特技相同的方式处理。特别地，有【团队】标签的EXPOWER表示和伙伴们连携或者大规模的作战，因为有着使用回数等特殊的限制，使用时请在和PL伙伴讨论的后决定。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1069536">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1069536_signature"><span style="color: red;" class="bbc_color">坑多不压身</span></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=89116.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1547.0"><span>记录的地平线TRPG</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3286" title="版主">逆神猪</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=89116.0"><span>制作角色卡的方法</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 89116,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 89116,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="89116" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=89116.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9374 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1547,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "记录的地平线TRPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1547,
+							iTopicId: 89116,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

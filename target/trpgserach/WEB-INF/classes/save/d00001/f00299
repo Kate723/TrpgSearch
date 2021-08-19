@@ -1,0 +1,876 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【GM手册-规则篇】4.战斗规则"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【GM手册-规则篇】4.战斗规则</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1768.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="107102"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1768.0"><span>Paranoia妄想症</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85922" title="版主">Ga酱</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="版主">Ra酱</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=88193" title="版主">一大串泡泡</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=105095" title="版主">水明子</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0"><span>【GM手册-规则篇】4.战斗规则</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg976622"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=107102.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/hot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【GM手册-规则篇】4.战斗规则 &nbsp;(阅读 5716 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 附武器列表、护甲列表与伤害列表</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=107102.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976622_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976622">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976622#msg976622" rel="nofollow">【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976622'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976622'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-02-15, 周五 00:12:37 &#187;</div>
+<div id="msg_976622_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976622">“可怕的不是他们难免一死，而是死得像头动物。”<br>——T.S.艾略特《荒原》 <br>（译注：原文如此，但此句诗实际上出自瓦切尔·林赛的《呆滞的目光》）<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>戏剧性战斗系统</strong></span><br>妄想症是一个节奏紧密、富有激情、让人全情投入的角色扮演游戏。<br><em>[众人齐声：呼啦！]</em><br>其他的角色扮演游戏都有非常详细的、复杂而抽象的、精心规定好的战斗系统。<br><em>[众人齐声：Zzzzz…]</em><br>复杂的战斗系统当然是好的，但是它也会破坏妄想症游戏的这种快速、紧张而激烈的氛围。<br>因此，妄想症采取了构思巧妙、充满创意而优秀卓越的戏剧性战斗系统——这是一个非常简单的战斗系统，依赖的是灵活的规则、玩家的常识、戏剧性的需要以及GM自由放飞的聪明才智。<br>对于那些激进的自由派GM而言，基本的战斗规则就可以以迅速而激烈的行动得出结果。对于更加传统的角色扮演游戏玩家——尤其是从战争游戏转来的——下一章的可选战斗规则会提供更多细节和指导用于进行战斗判定。无论是哪种GM，都应该把这些“规则”仅仅视为“指导”，在进行实际判断的时候还是要把常识和戏剧性需要考虑在内。<br>你看，在妄想症游戏里，角色在战斗中会不会死并不是问题。实际上他们已经预计迟早要死了——唯一的问题是，他到底是怎么死的？<br>要解决这个问题哪还用得上那么多复杂的规则呢？<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>保证他们一直在行动！</strong></span><br>&nbsp;&nbsp;&nbsp;妄想症游戏的快节奏令人兴奋，因为玩家始终保持高紧张度状态。如果你让玩家花好几分钟时间来仔细研究站位、认真思考战术和可以适用的规则、为下一步行动而争论不休的话，紧张感就消失了。这既浪费时间，又无聊，而且不符合实际。在真正的战斗中，有时间留给你你感到害怕就已经足够幸运了，更别说思考下一步行动了。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>不要给他们思考的时间！</strong></span><br>&nbsp;&nbsp;&nbsp;战斗场景要尽可能少地描述细节，只给出对于行动来说有必要的内容。<br>&nbsp;&nbsp;&nbsp;GM：你进入了房间。房间里有两张桌子，还有另一扇门。两个反叛者从桌子后面跳了起来，开始朝你扫射子弹。你要做什么？<br>&nbsp;&nbsp;&nbsp;不要让玩家思考。每个战斗轮代表五秒钟的时间，而五秒钟的时间是不够一个人认真思考的。如果玩家在犹豫，那么他的角色就在犹豫。如果玩家说，“等等，让我考虑一下”，那他的角色就也在考虑一下……而那些反派还是在冲他扫射着。在妄想症战斗中，最重要的就是快速思考。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>奖励花招和智谋</strong></span><br>&nbsp;&nbsp;&nbsp;妄想症游戏应当看起来像一场电影，而不是一场战争游戏。妄想症中的战斗不需要真实——它需要的是戏剧性，就像电影中的打斗那样。格外英雄主义的、怯懦的、怪异的或者花里胡哨的行为在大体上都应当是成功的（虽然可能不会是玩家想要的那种效果——经常地扭曲一下效果可以有效阻止玩家滥用这条规则）。<br><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>杀死那些混蛋！</strong></span><br>&nbsp;&nbsp;&nbsp;在妄想症里，别怕杀人。妄想症的世界危险得令人难以想象，充满了叛徒、敌人、疯子、出错的设备、致命的环境危害，还有你的朋友电脑大人。如果一名角色死了，让他死吧——妄想症里没有什么最后关头的力挽狂澜，也没有什么机械降神。反正，还没等你说一句“叛徒被烤熟了”，和他一模一样的克隆体就会回到小队里了。杀死他们。杀光他们。<br>&nbsp;&nbsp;&nbsp;别怕，你会习惯的。实际上，你会为自己习惯于这种狂欢般的恐怖行为的速度感到惊恐的——什么不可战胜的人类精神之类的东西，一，二，走你！<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>总结：</strong></span><br>&nbsp;&nbsp;&nbsp;1. 保持行动不要停！<br>&nbsp;&nbsp;&nbsp;2. 不要给他们思考的时间！<br>&nbsp;&nbsp;&nbsp;3. 奖赏那些花里胡哨的聪明想法！<br>&nbsp;&nbsp;&nbsp;4. 杀死那些混蛋！<br>&nbsp;&nbsp;&nbsp;5. 最重要的是，保持行动不要停！<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>简单的示例</strong></span><br>&nbsp;&nbsp;&nbsp;没有什么比一个例子更能有效地传达妄想症精神了：<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。你顺着这条窄窄的V形走廊走着。当地人称它为峡谷。两侧非常陡峭，底部有很多深棕色的块状物体和讨厌的液体池子。地上零星地竖着一些绿色的棍子。突然，在你的左上方传来了一声呜呜的声音。弗雷德——你要做什么？<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>哈？什么叫“呜呜的声音”？<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>哭喊一样的声音。你要做什么？<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>呃……（停下来思考了半天）<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。你呢，玛莎？<br>&nbsp;&nbsp;&nbsp;<strong>玛莎：</strong>我要试图辨别这是什么声音，从哪传来的。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>乔治？<br>&nbsp;&nbsp;&nbsp;<strong>乔治：</strong>我要准备好激光枪，然后我要藏到一块石头……<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>嗯？<br>&nbsp;&nbsp;&nbsp;<strong>乔治：</strong>啊？哦，一块棕色的东西后面去，谢谢你。我要藏起来准备射击。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。乔治在棕色的东西后面。玛莎，这个声音听起来有点像人的声音，但是他们在喊的东西听起来像是在说“Ooga booga”。弗雷德，你呆站着作沉思状。六个浑身赤裸的家伙从斜坡上冲了下来，把手里的尖尖的东西扔向了你们。弗雷德？<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>这些家伙长什么样？<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。玛莎？<br>&nbsp;&nbsp;&nbsp;<strong>玛莎：</strong>我要拉开一枚手榴弹扔下他们，然后卧倒寻求掩护。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>乔治？<br>&nbsp;&nbsp;&nbsp;<strong>乔治：</strong>我掩护玛莎。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。弗雷德，他们看起来就像裸奔的疯子，挥舞着长长的尖尖的东西。他们的头发非常蓬乱，看起来很脏。他们朝你们不友善地大吼大叫，做着手势。其中一个人马上就要把他手里的尖尖的东西扎在你的胸膛上了。<br>&nbsp;&nbsp;&nbsp;玛莎，掷骰吧。（哗啦）很遗憾。手榴弹没扔中，它反弹了一下，然后顺着山坡滚回来了。实际上，它现在就在弗雷德面前。<br>&nbsp;&nbsp;&nbsp;乔治，你看到他们其中一个人朝玛莎扔出了一根长矛，所以你向他发起攻击。掷骰吧。哇！正中靶心……呃……中心。让我查一下伤害表……没错，他就像喝醉的公牛一样倒地不起了。弗雷德？<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>我说，这个展开有点太……<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>好的。玛莎？<br>&nbsp;&nbsp;&nbsp;<strong>玛莎：</strong>（偷笑着说）弗雷德显然是一个共产结社的叛徒。你看，他在和那些肮脏的反叛者说话！我要朝他开枪，然后跑去找掩护。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>很符合逻辑。乔治？<br>&nbsp;&nbsp;&nbsp;<strong>乔治：</strong>我要攻击另一个喊着ooga-booga的人。<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>我说，你们这些人……<br>&nbsp;&nbsp;&nbsp;GM：好的。手榴弹爆炸了。两个裸体的家伙倒地而死。（掷骰子）弗雷德身上也有些弹片。一个裸体人用尖尖的东西戳向弗雷德，然后倒在了地上。（掷骰子）弗雷德的前胸上插上了一根尖尖的东西。玛莎朝弗雷德开枪。（掷骰）你们闻到弗雷德身上传来焦糊的味道。<br>&nbsp;&nbsp;&nbsp;那么，弗雷德被炸了，被矛捅了，又被激光扫射了——于是他死了。乔治的射击失误了，烤焦了布景里的一些东西。玛莎，你成功到达了那块棕色的东西后面。你蹲在了它们后面，就像乔治一样。<br>&nbsp;&nbsp;&nbsp;<strong>弗雷德：</strong>嘿，嘿。我想我跟上节奏了。所以，它们会把我的克隆体用飞行机器人送过来吗？还是用运载导弹？<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>这个我们稍后再说。你的朋友电脑大人会办好这件事的，等到你的朋友玛莎和乔治进行汇报的时候就行了。我们继续行动。<br>&nbsp;&nbsp;&nbsp;好的，突然地面开始剧烈地晃动。那些赤裸的家伙躺倒在地。一个巨大的闪闪发光的黑色机器人出现了，它的头就像一个交通中转站那样大，有着巨大的复合传感器和长长的触角——它出现在了你们的上方，低头看着你们。<br>&nbsp;&nbsp;&nbsp;<strong>乔治：</strong>（小声说）哦，真棒。又是巨型辐射变异蟑螂——<br>&nbsp;&nbsp;&nbsp;<strong>玛莎：</strong>黑色？显然是红外等级。我要命令它接载我们，把我们直接送回Alpha Complex。<br>&nbsp;&nbsp;&nbsp;<strong>GM：</strong>呃……好主意。它张开了下颌——哦——它把你们装了进去，然后……<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976622">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976622_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976625"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976625_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976625">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976625#msg976625" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976625'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976625'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-02-15, 周五 00:16:06 &#187;</div>
+<div id="msg_976625_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976625"><strong><span style="font-size: 12pt;" class="bbc_size">战斗流程</span></strong><br>&nbsp;&nbsp;&nbsp;战斗被分解成一系列<em>战斗轮</em>。每个战斗轮代表大约5秒钟的时间。在一个战斗轮结束之后，下一个就开始。重复战斗轮，直至战斗一方或另一方死去、逃跑或是停火。<br>&nbsp;&nbsp;&nbsp;每个战斗轮分为四个阶段。一个阶段行动结束后下一个阶段再开始。不同阶段顺序如下：<br><br>&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;" class="bbc_size"><strong>1.NPC决策阶段：</strong></span><br>&nbsp; &nbsp; &nbsp; &nbsp; GM要考虑状况，弄清楚每个NPC要做些什么。（NPC包括智能机械，如警卫机器人，自动枪炮台，以及装有地板打蜡机的清洁机器人）要考虑的事情一般有：NPC的自保意愿，NPC的战略战术目标，还有戏剧性与娱乐性（发生大爆炸、花里胡哨的动作或是有趣的反讽的可能性）。<br>&nbsp;&nbsp;&nbsp;接下来，GM会宣言或不宣言NPC要做些什么。如果GM宣言了，玩家就可以根据所知的事情做出反应。如果GM不宣言，那么玩家就要猜测NPC要做什么。（见“把玩家蒙在鼓里”一段）<br>&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;" class="bbc_size"><strong>把玩家蒙在鼓里</strong></span><br>&nbsp;&nbsp;&nbsp;GM应当宣言NPC的行动吗？这要看情况。有的敌人特别蠢，他会直接明确地说出自己的行动；有的敌人狡诈而神秘，会惊吓玩家，以智谋取胜。在其他状况不变的情况下，保持行动的神秘性总会增添几分紧张和悬念。<br>&nbsp;&nbsp;&nbsp;注意：在听到玩家打算做什么之后再修改NPC的战术就没意思了（尽管这样做会增添戏剧性，也很妄想症）。如果你干这种不地道、不符合体育精神的事情的话，就要确保你不会被发现，否则玩家就再也不会相信你的判断会是公平公正的了。<br><br>&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;" class="bbc_size"><strong>2.PC决策阶段：</strong></span><br>&nbsp; &nbsp; &nbsp; &nbsp; GM绕着桌子走一圈，挨个询问每个玩家他的PC打算在这一轮里做什么。玩家在宣言自己打算做什么之后不能更改，除非你，GM大人，认为他要做出的更改很有趣。比如：“哦，Moe-O-DJO要引爆他的实验型阳光手榴弹？啊，那我不要拿出我的激光枪了——我要把我的衣服脱掉，让自己晒得均匀一些。”<br><br>&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;" class="bbc_size"><strong>3.战斗结算阶段：</strong></span><br>&nbsp; &nbsp; &nbsp; &nbsp; GM要参考规则，并兼顾常识与戏剧性。对PC的行动进行掷骰，分辨有哪些攻击是成功的——以及有多成功。所有的徒手攻击、范围武器攻击和其他恶意伤害（塌陷的天花板、异能使用等等）都是同时发生的。战斗需要以下面的步骤进行结算：<br>&nbsp;&nbsp;&nbsp;<em>修正技能数据：</em>GM需要决定每个角色的技能数据需要进行怎样的修正。在基础战斗规则中，只需要对闪避、受伤和近距离平射进行技能修正。可选规则则提供了一系列其他的修正情况。一如既往，GM应当根据常识、相关条件、墨菲法则和扭曲的正义感来给予加值或是减值。<br>&nbsp;&nbsp;&nbsp;<em>击中判定：</em>进行技能检定，来决定哪些攻击成功了。<br>&nbsp;&nbsp;&nbsp;<em>伤害判定：</em>进行掷骰，然后查阅伤害表格，来决定成功的攻击给受害者带来了多少伤害。<br><br>&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;" class="bbc_size"><strong>4.移动阶段：</strong></span><br>&nbsp; &nbsp; &nbsp; &nbsp; 所有还能动、还没被震傻的角色以及智能机械都可以移动。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976625">
+&#171; <em>上次编辑: 2019-02-15, 周五 00:24:45 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976625_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976629"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976629_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976629">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976629#msg976629" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976629'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976629'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-02-15, 周五 00:19:37 &#187;</div>
+<div id="msg_976629_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976629"><strong><span style="font-size: 12pt;" class="bbc_size">攻击</span></strong><br>&nbsp;&nbsp;&nbsp;所有敏捷类和灵巧类技能都是攻击技能。当角色在战斗中攻击他人时，他就要使用这些技能之一。他到底用的是哪个技能要取决于他使用的是什么武器。比如，当赤手空拳攻击他人时，使用的就是徒手搏击技能。当用激光手枪或激光步枪攻击时，使用的就是激光武器技能。详细内容见技能描述部分。<br>&nbsp;&nbsp;&nbsp;在一个战斗轮里，每个角色都只能进行一次攻击。要进行攻击的话，角色需要进行技能掷骰。如果判定成功的话，他就击中了目标。如果判定失败的话，他就没打中。如果目标被击中了，它可能会受到伤害；“伤害”栏下的规则会描述如何判定伤害。<br>&nbsp;&nbsp;&nbsp;有的武器是<em>范围攻击武器</em>。它们不以单体为目标，而是有一个伤害半径，列于武器列表中。如果范围攻击武器击中目标的话，所有伤害半径内的物体都要受到伤害。<br>&nbsp;&nbsp;&nbsp;如果范围攻击武器没打中的话，GM需要根据逻辑、戏剧合理性和墨菲定律判定这一击错误地落在了什么地方。例如，如果一个角色朝目标扔了一枚汽油弹但没打中，附近又正好有一个燃料储存罐的话，那么这枚汽油弹就会准确地找到燃料储存罐。这难道不会很有趣吗？<br><strong><span style="font-size: 10pt;" class="bbc_size">技能修正</span></strong><br>&nbsp;&nbsp;&nbsp;在为角色的攻击技能掷骰之前，你需要决定要不要（以及怎样）修正他的技能数据。记住，要奖励那些聪明的举动，惩罚那些无聊的行为。如果你认为当前的情况会让攻击变得非常简单或是非常困难的话，你可以也自由进行加值减值调整。一般情况下，有四种情况需要对技能进行修正：<br>&nbsp;&nbsp;&nbsp;<strong>近距离平射：</strong>大多数妄想症中的战斗都发生在近距离范围内，因为Alpha Complex里很少有开阔的区域。不过，如果你把激光枪顶在一个人的肚脐眼上的话，你当然会有更大的几率打中他。<br>&nbsp;&nbsp;&nbsp;当近距离朝一个人开火时，可以在技能数据上+4。注意在使用力场剑、神经鞭或其他近战武器时不要采用这条规则。<br>&nbsp;&nbsp;&nbsp;<strong>受伤：</strong>受伤角色在进行攻击时需要在技能数据上-4。<br>&nbsp;&nbsp;&nbsp;<strong>闪避：</strong>在战斗轮中任何人都可以宣称自己要“闪避”。这包括卧倒在掩体后面、虚晃一招或是扭来扭去。闪避的角色不能攻击；但任何攻击他的人都要在技能数据上-4。<br>&nbsp;&nbsp;&nbsp;<strong>其他修正情况：</strong>基础战斗规则里就只有上边那几条了。在可选规则中，我们还列举了其他一些情况，你可以看情况判定是否合适使用。<br><br><span style="font-size: 12pt;" class="bbc_size"><strong>伤害</strong></span><br>&nbsp;&nbsp;&nbsp;每种武器都对应一个<em>伤害值</em>，同样列于武器列表中。当武器命中时，查阅伤害值（或直接问那个发动攻击的玩家——伤害值一般也会写在人物卡上）。<br>&nbsp;&nbsp;&nbsp;一般来说，你需要做的就是查阅伤害表格。表格中每一列最上方都有一个数字。找到与伤害值对应的那一列。<br>&nbsp;&nbsp;&nbsp;然后，进行掷骰。在这一列下找到你所骰出的那个伤害数字，然后朝左右两侧看——他会告诉你目标是未受影响、倒地、受伤、失能、死亡还是被汽化了。<br>&nbsp;&nbsp;&nbsp;例子：激光手枪的伤害值是8。如果激光手枪命中了目标，而你骰出的伤害是1-4，那么这次攻击就没有效果。如果你骰出5-9，那么它把敌人打倒在地；10-14，对方受伤了；15-18，对方失能；19-20，对方被杀死了。<br><span style="font-size: 10pt;" class="bbc_size"><strong>英雄气概与伤害加值</strong></span><br>&nbsp;&nbsp;&nbsp;但是等一等！还有些别的事情。在你为伤害掷骰之前，你需要对武器的伤害值也进行修正。<br>&nbsp;&nbsp;&nbsp;找出攻击目标的英雄气概加值。大体上，NPC是没有英雄气概点数的，因为记起来很麻烦。不过当PC受到攻击时，你问一问他们的英雄气概是多少就可以了。<br>&nbsp;&nbsp;&nbsp;<em>在武器的伤害值上减去目标的英雄气概值。</em><br>&nbsp;&nbsp;&nbsp;如果武器是近战武器——神经鞭、警棍、力场剑或徒手攻击——那么攻击者的伤害加值也会影响伤害值。不过伤害加值不会影响灵巧类技能下的武器，也不会影响手榴弹。<br>&nbsp;&nbsp;&nbsp;<em>把攻击者的伤害加值加到武器的伤害值上去。</em><br><span style="font-size: 10pt;" class="bbc_size"><strong>护甲与武器类型</strong></span><br>&nbsp;&nbsp;&nbsp;现在还没到为伤害掷骰的时候——如果目标穿着护甲的话。在解释护甲之前，我们要先说明一下武器的类型。<br>&nbsp;&nbsp;&nbsp;武器分为六种类型——L（激光），E（能量），P（投射），AP（穿甲），F（力场），和I（冲击）。每种武器的对应类型见武器列表。<br>&nbsp;&nbsp;&nbsp;护甲列表中列出了许多种不同的护甲。不同的护甲有不同的名称，不过每种护甲都有其对应的护甲等级。护甲等级由一个字母和一个数字构成。<br>&nbsp;&nbsp;&nbsp;<em>护甲只对对应类型的武器生效。</em>护甲的类型取决于其等级中的字母。例如，反射装甲的护甲等级是L4，这意味着它只对激光武器生效。如果目标穿着反射装甲，而有人用投射武器攻击他的话，那他就倒霉了。<br>&nbsp;&nbsp;&nbsp;如果目标穿着和武器同类型的护甲，<em>从伤害值中减去其护甲值数字。</em><br>&nbsp;&nbsp;&nbsp;有些护甲对<em>所有武器</em>都生效；这种护甲的护甲等级为ALL+数字（如ALL2）。穿着此类护甲的角色在遭遇任何攻击时都要从伤害值中扣除相应数值。<br>&nbsp;&nbsp;&nbsp;例如：有人用激光手枪射击一个角色，目标的英雄气概为1，穿着反射装甲。激光手枪的伤害值为L8；英雄气概-1，反射装甲-4，因此调整后的伤害值为3。在伤害表格的“3”那一列进行掷骰来判定是否会造成伤害，造成什么样的伤害。<br><strong><span style="font-size: 10pt;" class="bbc_size">激光与反射装甲</span></strong><br>&nbsp;&nbsp;&nbsp;哦，关于护甲还有最后一条规则，然后我们就可以继续下一话题了。不同的激光枪发出不同颜色的激光——红外，红，橙，黄……没错，与保密等级相对应。市民只能使用颜色与自己的保密等级相同或更低的激光武器。呃，他也可以用更高等级的激光武器，不过这是反叛行为。<br>&nbsp;&nbsp;&nbsp;实际上，不是<em>激光枪</em>有不同的颜色，而是它们的子弹有不同颜色。每把激光枪一次能开六发枪；然后就需要把旧弹筒拆卸下来换上新弹筒。每种弹筒都能发出特定颜色的激光束。弹筒应当漆成它所能发出的激光的颜色，但是你也知道这是怎么回事，有的反叛者就会把自己的弹筒重新上色，这样他们就可以拥有一个看起来像是红色的紫外激光弹筒。在开枪之前是看不出来的。<br>&nbsp;&nbsp;&nbsp;反射装甲也有不同颜色——红外，红，等等。反射装甲能够防护所有的<em>它自身的颜色及以下的激光光束</em>——但是对更高等级的激光光束无效。所以，如果一个市民穿着绿色的反射装甲，它可以帮助他防护红外、红、橙、黄、绿色的激光光束，但不能防护蓝、靛、紫和紫外的激光光束。（是的，我们知道什么叫电磁波频谱，也知道色彩叠加的定律。是的，我们知道如果你朝一个反射蓝光的物体发射绿色波段的激光，它不会反射绿色的激光。在妄想症一版游戏中，我们设计了一大套复杂的多色护甲之类的东西来让妄想症中的激光护甲符合现实物理定律。但是后来我们觉得，这都是什么鬼？我们<em>就是想</em>让激光和反射装甲如此工作，所以它们在<em>妄想症</em>里就是这样工作的。所以就这样吧。）<br>&nbsp;&nbsp;&nbsp;其他标着L的护甲都能够防护所有颜色的激光。<br>&nbsp;&nbsp;&nbsp;电脑只会发放给市民与他的保密等级相同或更低的反射装甲。当然，穿着比自己等级高的颜色的反射装甲（或衣服）是反叛行为。这意味着大多数维稳专员的初始装备都是红色激光枪和红色反射装甲。<br><br><strong><span style="font-size: 12pt;" class="bbc_size">伤害效果</span></strong><br>&nbsp;&nbsp;&nbsp;所以那些伤害效果都是什么意思？<br><strong>没有效果</strong><br>&nbsp;&nbsp;&nbsp;尽管攻击成功了，但某些因素——护甲，目标的坚强，攻击者的弱小，或是坏运气——导致这次攻击给对方带来的扰动不足以影响其行动。<br>&nbsp;&nbsp;&nbsp;请用戏剧性的夸张方式解释这一结果。“仅仅是皮肉之伤。”“哦！正中他的前胸，但结果仅仅是烧焦了他的护甲。”“你的对手饶有兴趣地看了一眼自己胳膊上的洞，耸了耸肩，然后继续朝你冲来。”“哇！激光束肯定是扫掉了一颗闪亮的纽扣，或其他的什么东西。”<br><strong>倒地</strong><br>&nbsp;&nbsp;&nbsp;角色被攻击带来的冲击或是疼痛击倒在地，他可以选择立刻趴在地上一动不动。（在绝望的境地下，“装死”是一个虽然丢人但很常见的战术。）他在下一个战斗轮里不能进行任何行动（包括移动，使用武器，或进行技能检定）。<br><strong>受伤</strong><br>&nbsp;&nbsp;&nbsp;受伤的角色要承受倒地角色的附加效果。除此之外，他从此被认定为“受伤状态”。受伤状态的角色在进行任何技能或属性掷骰时都要承受-4减值（附加于其他修正数值之上）。GM还可以根据情况给予其他的惩罚。（“在慌乱之中，你扯到了自己受伤的那条胳膊——于是你的朋友电脑大人给予你的脆弱而昂贵的手枪就掉在了地上。太遗憾了！”）<br>&nbsp;&nbsp;&nbsp;受伤角色再次受伤的话会进入失能状态。<br><strong>失能</strong><br>&nbsp;&nbsp;&nbsp;失能状态的角色要承受受伤角色的附加效果。除此之外，他会立即陷入昏迷。他会失去意识，在被治疗至受伤或更好的状态之前不能进行任何种类的行动。失能状态的角色再次受伤或失能即进入死亡状态。<br><strong>死亡</strong><br>&nbsp;&nbsp;&nbsp;死亡的角色就是死了，翘辫子了，上西天了，咽气了，去天上服侍电脑大人了。死了就死了。是时候激活下一个克隆体了。见下方“克隆体替换”章节。<br><strong>汽化</strong><br>&nbsp;&nbsp;&nbsp;这个角色和他所有的身体零部件都被彻底摧毁了。这对于一个妄想症角色来说是一个非常高端的死法，让一个角色汽化而死对你来说也算是一种成就。对此正确的回应是让玩家，GM和围观群众都发自真心地鼓一圈掌。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>对无生命物体的攻击效果</strong></span><br>&nbsp;&nbsp;&nbsp;所以，如果你朝一个烤炉射击的话，“受伤”到底意味着什么？这需要GM进行判断并发挥想象力。要注重喜剧效果，而不是现实中的物理逻辑。如果你愿意的话，可以实地进行一下实验。试试家里的投掷类物品或是其他常见的家用电器，比如真空吸尘器或是立体音响。我们这些游戏设计人员就是这么干的。（注意，关于机器人的伤害效果将在“装备”一节中给出。）<br><em><strong>申请修理飞行机器人的许可被驳回。请报告坠机地点。</strong></em><br><br><span style="font-size: 12pt;" class="bbc_size"><strong>移动</strong></span><br>&nbsp;&nbsp;&nbsp;在妄想症的战斗规则中对移动与站位没有必须遵守的规定。GM应当按照常识判断，并参考下列指导。<br>&nbsp;&nbsp;&nbsp;一个人或机器人有四种移动速度：<em>漫步，步行，奔跑，冲刺</em>。一般来说，每战斗轮移动2m视为漫步，2-5米视为步行，5-20米视为奔跑，20-40米（这大概是除了奥林匹克运动员以外的人能达到的速度极限了）视为冲刺。车辆，强力机器人，超音速飞机和异能力者可能会以<em>疾行</em>速度移动（每轮40米及以上）。<br>&nbsp;&nbsp;&nbsp;冲刺的角色不能进行任何攻击（全力冲刺占据了你全部注意力）。漫步，步行或奔跑的角色可以进行攻击。如果有人朝奔跑角色开枪的话，你可以考虑进行技能减值判定。还是那句话，你也可以不进行减值判定。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>移动速度速查表</strong></span><br>&nbsp;&nbsp;&nbsp;漫步：最高2米/轮<br>&nbsp;&nbsp;&nbsp;步行：最高5米/轮<br>&nbsp;&nbsp;&nbsp;奔跑：最高20米/轮<br>&nbsp;&nbsp;&nbsp;冲刺：最高40米/轮<br>&nbsp;&nbsp;&nbsp;疾行：高于40米/轮<br><br><strong><span style="font-size: 12pt;" class="bbc_size">从伤害中恢复</span></strong><br>&nbsp;&nbsp;&nbsp;角色可以在模组之外的时间中前往大型健康中心来让自己从伤害中恢复过来。健康中心里有医学专家和医疗机器人，他们会以超高效率把病人们粘好。如果没有这种帮助的话，也可以在医疗机器人的帮助下恢复（见装备部分），或是以医疗技能恢复（见技能部分），但这既花费时间又危险。<br>&nbsp;&nbsp;&nbsp;当然，研究设计局已经达成了许多生物科技方面的奇迹，因此有些生化填充物可供使用，它们甚至能让受重伤的维稳专员用残破的双腿跳起狐步舞。但是这些医学奇迹的副作用可能比原本的伤害更可怕。<br>&nbsp;&nbsp;&nbsp;击倒：无需医疗救护。角色只会被击倒一个战斗轮的时间。在一个战斗轮过去之后，他就可以正常行动了——也不需要承受惩罚。<br>&nbsp;&nbsp;&nbsp;受伤：角色会陷入击倒状态一回合。之后他可以进行大部分行动，不过要在技能和属性检定上承受-4减值。这个减值反映的是流血、休克、疼痛和创伤的影响。<br>&nbsp;&nbsp;&nbsp;如果受伤角色在一天之内没有受到具有医疗技能的人或是医疗机器人的治疗的话，他就会陷入失能状态。治疗成果见技能部分描述。<br>&nbsp;&nbsp;&nbsp;失能：失能状态是一种受伤非常严重的状态，如果不受到治疗的话就会导致死亡。失能状态的角色在被治愈至受伤状态之前无法进行任何行动。<br>&nbsp;&nbsp;&nbsp;如果失能角色没有受到医治——无论是医疗机器人，有医疗技能的人，还是医疗中心——他每小时都需要进行一次耐久检定。检定失败意味着他死了。（同样见技能描述部分）<br>&nbsp;&nbsp;&nbsp;死亡与汽化：从这两种状态下恢复的情况可不多见。例子的话，见玛丽·雪莱的《弗兰肯斯坦》，乔治·罗梅罗的《活死人之夜》，以及派拉蒙的《星际迷航3：石破天惊》。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976629">
+&#171; <em>上次编辑: 2019-02-15, 周五 00:27:51 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976629_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976631"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976631_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976631">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976631#msg976631" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976631'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976631'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-02-15, 周五 00:22:05 &#187;</div>
+<div id="msg_976631_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976631"><strong><span style="font-size: 12pt;" class="bbc_size">克隆体替换</span></strong><br>&nbsp;&nbsp;&nbsp;当PC在游戏进程中死亡时，在电脑得知其死亡事实之前，他的备用克隆体都不会被激活。一般来说，死亡会由另一位维稳专员或忠诚的市民进行报告。没能立即报告此类消息会被视为反叛行为。<br>&nbsp;&nbsp;&nbsp;电脑也会通过监测通讯和监控设施或是询问机器人来发现角色的死亡。<br>&nbsp;&nbsp;&nbsp;当电脑得知维稳专员死亡时，它会立即联系并激活他的克隆体家族中的一员。克隆体会尽快了解情况，并被派遣作为死去的维稳专员的替代。如果交通不便，或者如果任务小队位于偏远、失联地区的话，替代的克隆体也会尽早被移送过去。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>那么这些克隆体兄弟们之前都在干什么呢？</strong></span><br>&nbsp;&nbsp;&nbsp;在被激活的克隆体外出为电脑执行任务时，其他克隆体要么是在为他们的服务部门完成日常任务（填表格，清理走廊墙壁，处死红外人员），要么是被送到监控中心去观看他们的兄弟的任务进程。无论他们在哪，他们都会通过通讯设备定期收到任务进展的报告，这样万一发生意外的话，他们可以立即替代自己的兄弟高效地继续任务。<br><br><strong><span style="font-size: 10pt;" class="bbc_size">准备克隆体的角色卡</span></strong><br>&nbsp;&nbsp;&nbsp;把死掉的PC的角色卡拿过来，改一下角色的克隆体编号（Pyle-O-ASH-1改成Pyle-O-ASH-2，Butch-R-BLK-4改成Butch-R-BLK-5，等等）。好啦！全新的克隆体，准备行动！<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>为什么克隆体各方面都是一样的：真实原因</strong></span><br>&nbsp;&nbsp;&nbsp;这样简单。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>为什么克隆体各方面都是一样的：明显是编造的理论</strong></span><br>&nbsp;&nbsp;&nbsp;克隆体的家族成员的遗传基因都是相同的，所以他们的属性和异能都是相同的。<br>&nbsp;&nbsp;&nbsp;克隆体的家族成员都是一起长大，一起训练，并且被教导要把自己视作彼此的完全相同的替代品，因此他们的服务部门、技能、秘密结社和其他的特征都是相同的。<br>&nbsp;&nbsp;&nbsp;由于电脑认为克隆体的家族成员彼此都是相同的、可以替代的，因此它认为无论一个克隆体有什么优点或缺点，他的其他克隆体都会有相同的优点或缺点。因此，当一个克隆体被提拔，他的所有克隆体同胞也都会被提拔。<br>&nbsp;&nbsp;&nbsp;对于“同样的克隆体同样的对待”原则唯一的例外就是在处刑的时候。由于电脑大人无比仁慈，并且对克隆人的本质善有不可动摇的信念，电脑认为一个克隆体家族就像一个巨大而快乐的电脑程序。如果一个克隆体做出了需要被处刑的反叛行为，电脑会遗憾地删除掉这个错误的复制品。但是，电脑相信程序的原本设计（毕竟，是它自己创造出这个克隆体家族的，电脑是不会出错的，对吧？），它也不想浪费掉所有的自己至今为止赐予过这些备用复制品的训练和帮助。电脑会测试这些备用复制品，方法就是挨个激活他们，来看看这个错误是不是这些复制品的共同特征。如果所有六个复制品都有错误（也就是，都被处死了），好吧，这个程序已经得到了验证。（毫无疑问，这是共产结社的蓄意破坏行为。）<br>&nbsp;&nbsp;&nbsp;换句话说，每个新的克隆体都从1点反叛点开始计算（无论他已死的兄弟姐妹已经积攒了多少点）。<br><br><span style="font-size: 10pt;" class="bbc_size"><strong>让替换的克隆体开始行动</strong></span><br>&nbsp;&nbsp;&nbsp;让克隆体（及玩家）尽快回到行动中去。角色死亡的玩家就只能当一个旁观者，这对于妄想症游戏来说可一点都不好玩。给玩家一点时间让他为自己死不逢时的角色哀悼一下，不过记住——他是来玩的，不是来看的。<br>&nbsp;&nbsp;&nbsp;如果游戏故事发生在Alpha Complex内部，那么替换的克隆体会穿上工装，搭上公交，在15到30分钟之内气喘吁吁地加入同伴的行列。如果游戏故事发生在户外，或是发生在海平面之下，或是在前往火星的飞船上，那么传送就没那么方便了。如果GM愿意的话，电脑可以命令任务小队在新的克隆体归队之前停止继续行动。电脑不会允许任务小队因缺人而导致任务失败。绝不会。<br>&nbsp;&nbsp;&nbsp;好吧，大多数时候不会。<br><br><em><strong>给任务小队Beta-Niner的通知：<br>&nbsp;&nbsp;&nbsp;很遗憾听闻英雄市民Splat-R悲剧而惨烈的死亡。替换的克隆体正在运送中。在队伍满员之前请原地等候。<br>&nbsp;&nbsp;&nbsp;哦，既然你们都在那无所事事地站着，何不清理一下他的尸体呢？</strong></em><br><br>&nbsp;&nbsp;&nbsp;另一方面，在你觉得合适的时候再让新克隆体归队。或许这个小队需要暂时在缺乏战力的情况下艰难求生。或许那个玩家需要冷静一会，因为他对于自己已死的角色依然深感悲伤。<br>&nbsp;&nbsp;&nbsp;保持不可预测的神秘。做一个反复无常的人。这里是妄想症。你永远不知道应该对电脑怀有怎样的期待。<br>&nbsp;&nbsp;&nbsp;或许新的克隆体错误地被引向食物厂了。<br>&nbsp;&nbsp;&nbsp;或许有人破坏了你们与维稳专员总部之间的联络。<br>&nbsp;&nbsp;&nbsp;又或许，运送克隆体的飞行机器人错误地搭载了教育功能，于是它一边努力教导他关于口腔卫生的知识，一边直直地飞向了北极的冻土。<br>&nbsp;&nbsp;&nbsp;谁知道呢？<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976631">
+&#171; <em>上次编辑: 2019-02-15, 周五 00:28:48 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976631_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976774"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976774_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976774">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976774#msg976774" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976774'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976774'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-02-15, 周五 17:15:34 &#187;</div>
+<div id="msg_976774_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976774"><img src="https://i.loli.net/2019/07/01/5d19fd027f53583507.jpg" alt="" class="bbc_img"/><br>*表示可选规则。<br>（1）每打一发需要10轮时间装填<br>（2）每打一发需要5轮时间装填<br>（3）瞬间装填——每轮都可开火<br>（4）攻击范围为武器正前方60度角区域<br>（5）发射锥形步枪子弹——具体数值见武器列表。I型需要人力装填；II型配有自动装填器，每轮可发射两枚子弹。<br>（6）可以让车（机）身周围充满某种气体，具体见“装备”章节对锥形步枪子弹气体的描述。（毒气，烟雾，等等）<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976774">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:31:06 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976774_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976775"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976775_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976775">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976775#msg976775" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976775'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976775'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2019-02-15, 周五 17:17:24 &#187;</div>
+<div id="msg_976775_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976775"><img src="https://i.loli.net/2019/07/01/5d19fd2fda49336145.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976775">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:31:59 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976775_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976776"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976776_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976776">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976776#msg976776" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976776'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976776'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2019-02-15, 周五 17:18:59 &#187;</div>
+<div id="msg_976776_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976776"><img src="https://i.loli.net/2019/07/01/5d19fd60b9da092546.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976776">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:32:39 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976776_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976777"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976777_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976777">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976777#msg976777" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976777'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976777'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2019-02-15, 周五 17:19:47 &#187;</div>
+<div id="msg_976777_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976777"><img src="https://i.loli.net/2019/07/01/5d19fd98b982e14816.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976777">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:33:34 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976777_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976778"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976778_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976778">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976778#msg976778" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976778'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976778'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2019-02-15, 周五 17:20:31 &#187;</div>
+<div id="msg_976778_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976778"><img src="https://i.loli.net/2019/07/01/5d19fdc80572b43152.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976778">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:34:21 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976778_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976780"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976780_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976780">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976780#msg976780" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976780'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976780'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2019-02-15, 周五 17:23:57 &#187;</div>
+<div id="msg_976780_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976780"><img src="https://i.loli.net/2019/07/01/5d19fe5b876c965290.jpg" alt="" class="bbc_img"/><br><img src="https://i.loli.net/2019/07/01/5d19fe6a8bb5992132.jpg" alt="" class="bbc_img"/><br><img src="https://i.loli.net/2019/07/01/5d19fe35b6c3a93585.jpg" alt="" class="bbc_img"/><br>*表示可选规则。<br>（1）只对机器人目标造成伤害<br>（2）毒气伤害为F3；其他类型气体见装备部分描述<br>（3）攻击范围为武器正前方60度角区域<br>（4）会把目标捆绑起来，不造成伤害；见装备部分描述<br>（5）会使目标陷入倒地状态，不造成伤害；见装备部分描述<br>（6）是的，没有30这个伤害值。如果去掉目标的英雄气概减值之后结果依然高于20的话，以20计。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976780">
+&#171; <em>上次编辑: 2019-07-01, 周一 20:37:07 由 Ra酱</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976780_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg976781"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="检视会员资料:  Ra酱">Ra酱</a>
+</h4>
+<ul class="reset smalltext" id="msg_976781_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262">
+<img class="avatar" src="/bbs/upload/avatar/avatar_87262_1605940028.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 692<li class="karma">苹果币: 4<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_976781">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.msg976781#msg976781" rel="nofollow">Re: 【GM手册-规则篇】4.战斗规则</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_976781'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_976781'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #10 于:</strong> 2019-02-15, 周五 17:30:53 &#187;</div>
+<div id="msg_976781_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_976781">顺便附上未排版docx文件：<br><a href="https://www.jianguoyun.com/p/DT4JXq0Q5P_5Bhijip8B" class="bbc_link new_win" target="_blank">坚果云</a></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_976781">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_976781_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?board=1721.0" class="bbc_link new_win" target="_blank"><strong><span style="color: orange;" class="bbc_color">次世代跑团部了解一下</span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1768.0" class="bbc_link new_win" target="_blank"><strong><span style="color: #6633cf;" class="bbc_color">妄想症2E激情翻译中 </span></strong></a>|<a href="http://www.goddessfantasy.net/bbs/index.php?board=1810.0" class="bbc_link new_win" target="_blank"><strong><span style="color: teal;" class="bbc_color"> 小橘猫GaRa课堂开课啦！ </span></strong></a> </div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=107102.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1768.0"><span>Paranoia妄想症</span></a> (版主群: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=85922" title="版主">Ga酱</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=87262" title="版主">Ra酱</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=88193" title="版主">一大串泡泡</a>, <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=105095" title="版主">水明子</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=107102.0"><span>【GM手册-规则篇】4.战斗规则</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 107102,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 107102,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="107102" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=107102.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 5716 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1768,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Paranoia妄想症",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1768,
+							iTopicId: 107102,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

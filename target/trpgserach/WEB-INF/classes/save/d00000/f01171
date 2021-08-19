@@ -1,0 +1,904 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【PHB】法术：A-C"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【PHB】法术：A-C</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.20"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'b98e3a8add6adaeb68812f7788c636bf');">
+<div class="info">请 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">登录</a> 或 <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="69266"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'f37bd19',
+sSessionId: 'b98e3a8add6adaeb68812f7788c636bf'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0"><span>【PHB】法术：A-C</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg661327"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=69266.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【PHB】法术：A-C &nbsp;(阅读 39709 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=quickmod2;topic=69266.20" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('b98e3a8add6adaeb68812f7788c636bf', 'f37bd19') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_661327_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_661327">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg661327#msg661327" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_661327'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_661327'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #20 于:</strong> 2014-08-20, 周三 13:02:17 &#187;</div>
+<div id="msg_661327_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_661327">终于完成了PHB的字母A...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_661327">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg661331"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390" title="检视会员资料:  Sheepy">Sheepy</a>
+</h4>
+<ul class="reset smalltext" id="msg_661331_extra_info">
+<li class="title">纯良的白色生物<li class="membergroup">风纪委<li class="stars"><img src="Themes/celeste/images/on2.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390">
+<img class="avatar" src="/bbs/upload/avatar/avatar_2390_1353862872.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 14121<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_661331">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg661331#msg661331" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_661331'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_661331'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #21 于:</strong> 2014-08-20, 周三 13:06:47 &#187;</div>
+<div id="msg_661331_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_661331">于是搬去 PHB 区，基础区现在没有任何法术主题。<br><br>其实两者应该是分开的，这有点像出了万法就将 PHB 的法术帖扩充搬过去...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_661331">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_661331_signature"><table class="bbc_table"><tr><td>(10:23:05 PM) 欧剃: 咩的笑话一般不仅冷，而且是黑漆漆的阴冷？<br>(10:23:11 PM) 布布: 这只是，对别人来说是掉SAN值的腹黑，对咩来说仅仅是笑话而已<br>(10:23:45 PM) ***Sheepy 耸肩, 一笑置之<br>(10:24:17 PM) ***布布 死了<td>　　<td><a href="http://www.GoddessFantasy.net/~sheepy/dnd/4e/Heroes of the Fallen Lands.html" class="bbc_link">D&amp;D 4e 殁土英豪 头两章试译</a><br></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg661376"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=72616" title="检视会员资料:  不朽食物">不朽食物</a>
+</h4>
+<ul class="reset smalltext" id="msg_661376_extra_info">
+<li class="membergroup">根源索寻者<li class="stars"><img src="Themes/celeste/images/filter.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=72616">
+<img class="avatar" src="/bbs/upload/avatar/avatar_72616_1400691017.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1123<li class="karma">苹果币: 2<li class="blurb">或许会有更好的方法<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_661376">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg661376#msg661376" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_661376'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_661376'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #22 于:</strong> 2014-08-20, 周三 16:17:42 &#187;</div>
+<div id="msg_661376_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_661376">&nbsp;<img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/>&nbsp; 剃刀老爷真是勇士啊</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_661376">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_661376_signature"><span style="color: teal;" class="bbc_color"><strong>“BEHOLD, THE PROGRESS ENGINE.” </strong></span></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg661430"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_661430_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_661430">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg661430#msg661430" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_661430'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_661430'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #23 于:</strong> 2014-08-20, 周三 19:33:16 &#187;</div>
+<div id="msg_661430_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_661430">其实我觉得只要在ｐｈｂ翻译完之后把基础版的抽出来做一个文件就好了？没必须专门留个基础版的区。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_661430">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg664504"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390" title="检视会员资料:  Sheepy">Sheepy</a>
+</h4>
+<ul class="reset smalltext" id="msg_664504_extra_info">
+<li class="title">纯良的白色生物<li class="membergroup">风纪委<li class="stars"><img src="Themes/celeste/images/on2.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=2390">
+<img class="avatar" src="/bbs/upload/avatar/avatar_2390_1353862872.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 14121<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_664504">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg664504#msg664504" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_664504'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_664504'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #24 于:</strong> 2014-08-29, 周五 14:50:42 &#187;</div>
+<div id="msg_664504_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_664504"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg661430#msg661430">引述: OckhamTheRazor 于 2014-08-20, 周三 19:33:16</a></div></div><blockquote class="bbc_standard_quote">其实我觉得只要在ｐｈｂ翻译完之后把基础版的抽出来做一个文件就好了？没必须专门留个基础版的区。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>那么是不是出了怪物大全就不再需要怪物图鑑呢。PHB 和基础虽然共用了很多资源﹐但有一点很重要的是，基础版就是合法、免费地由官方提供的。基础版也比较没那么花多眼乱。<br><br>至于文件，已经有了不是吗？当然大家也是可以整理一分简体版出来的。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_664504">
+&#171; <em>上次编辑: 2014-08-29, 周五 14:52:55 由 Sheepy</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_664504_signature"><table class="bbc_table"><tr><td>(10:23:05 PM) 欧剃: 咩的笑话一般不仅冷，而且是黑漆漆的阴冷？<br>(10:23:11 PM) 布布: 这只是，对别人来说是掉SAN值的腹黑，对咩来说仅仅是笑话而已<br>(10:23:45 PM) ***Sheepy 耸肩, 一笑置之<br>(10:24:17 PM) ***布布 死了<td>　　<td><a href="http://www.GoddessFantasy.net/~sheepy/dnd/4e/Heroes of the Fallen Lands.html" class="bbc_link">D&amp;D 4e 殁土英豪 头两章试译</a><br></tr></table></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg666851"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=74123" title="检视会员资料:  jabberwocky">jabberwocky</a>
+</h4>
+<ul class="reset smalltext" id="msg_666851_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 251<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_666851">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg666851#msg666851" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_666851'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_666851'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #25 于:</strong> 2014-09-07, 周日 23:51:40 &#187;</div>
+<div id="msg_666851_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_666851">奥卡姆老爷～<br><br>这个表里没有野兽知觉（Beast Sense）啊= =</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_666851">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg669179"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_669179_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_669179">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg669179#msg669179" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_669179'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_669179'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #26 于:</strong> 2014-09-18, 周四 11:20:38 &#187;</div>
+<div id="msg_669179_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_669179">之前断更了好几天，今天终于把Ｂ推完了。<br>明天开始推数量最多的Ｃ...</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_669179">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg673981"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_673981_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_673981">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg673981#msg673981" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_673981'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_673981'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #27 于:</strong> 2014-10-10, 周五 07:33:07 &#187;</div>
+<div id="msg_673981_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_673981">因为撞车了所以不翻后面的了。完结（？）撒花！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_673981">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg676619"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=14224" title="检视会员资料:  泡泡">泡泡</a>
+</h4>
+<ul class="reset smalltext" id="msg_676619_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=14224">
+<img class="avatar" src="/bbs/upload/avatar/avatar_14224_1295165636.gif" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 313<li class="karma">苹果币: 0<li class="blurb">If the devil is real, then God must be real too<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_676619">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg676619#msg676619" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_676619'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_676619'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #28 于:</strong> 2014-10-22, 周三 10:58:09 &#187;</div>
+<div id="msg_676619_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_676619">名称：操纵死尸（Animate Dead）<br>等级：３<br>学派：死灵<br>是否仪式：否<br>施法时间：１分钟<br>射程：１０尺<br>成分：语言，姿势，材料（一滴血，一块肉，以及一点骨灰）<br>持续时间：立即<br>描述：<br>此法术创造一个不死仆从。<span style="color: maroon;" class="bbc_color">选择射程内的一具类人生物遗骨或遗体</span>。此法术将污秽的虚假生命力量注入其中，将之唤起为不死生物。如果你选择的是遗骨，则目标变为骷髅；选择的是遗体则变为僵尸。该生物的数据由ＤＭ掌控。<br>在你的任一回合，你可以使用一个附赠动作用精神命令操纵６０尺内任何你用此法术唤起的生物（如果你操纵多个生物，你可以同时给他们下达命令，但只能使用同一种命令）。你决定被操纵的生物下回合的动作和移动。或者，你可以下达宽泛的命令，例如守护某个房间或走廊。如果你不下达命令，该生物只会防御自己。一旦被下达命令，该生物会持续执行命令直到任务完成。<br>被操纵的生物只会服从你的命令２４小时。如果你在当前的２４小时时间段结束前再次施展此法术，则你对该生物的操纵时间延长２４小时。法术的此种用法只是延长了你对至多四个你使用此法术创造的生物的控制时间，而不会创造新的生物。<br>高阶效果：<br>当你使用４环或更高的法术位施展这个法术时，你使用的法术位每比３环高１环，就多唤起两只不死生物或是多延长对两只不死生物的控制。你无法用同一具尸骨或尸体唤起多个不死生物。<br><br><br>This spell creates an undead servant. Choose a pile<br>o f bones or a corpse o f <span style="color: green;" class="bbc_color">a Medium or Small humanoid<br>within range</span>.</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_676619">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_676619_signature">If the devil is real, then God must be real too.</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg676633"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="检视会员资料:  OckhamTheRazor">OckhamTheRazor</a>
+</h4>
+<ul class="reset smalltext" id="msg_676633_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912">
+<img class="avatar" src="/bbs/upload/avatar/avatar_9912_1285311295.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 5549<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_676633">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg676633#msg676633" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_676633'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_676633'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #29 于:</strong> 2014-10-22, 周三 11:39:07 &#187;</div>
+<div id="msg_676633_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_676633"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg676619#msg676619">引述: 泡泡 于 2014-10-22, 周三 10:58:09</a></div></div><blockquote class="bbc_standard_quote">名称：操纵死尸（Animate Dead）<br>等级：３<br>学派：死灵<br>是否仪式：否<br>施法时间：１分钟<br>射程：１０尺<br>成分：语言，姿势，材料（一滴血，一块肉，以及一点骨灰）<br>持续时间：立即<br>描述：<br>此法术创造一个不死仆从。<span style="color: maroon;" class="bbc_color">选择射程内的一具类人生物遗骨或遗体</span>。此法术将污秽的虚假生命力量注入其中，将之唤起为不死生物。如果你选择的是遗骨，则目标变为骷髅；选择的是遗体则变为僵尸。该生物的数据由ＤＭ掌控。<br>在你的任一回合，你可以使用一个附赠动作用精神命令操纵６０尺内任何你用此法术唤起的生物（如果你操纵多个生物，你可以同时给他们下达命令，但只能使用同一种命令）。你决定被操纵的生物下回合的动作和移动。或者，你可以下达宽泛的命令，例如守护某个房间或走廊。如果你不下达命令，该生物只会防御自己。一旦被下达命令，该生物会持续执行命令直到任务完成。<br>被操纵的生物只会服从你的命令２４小时。如果你在当前的２４小时时间段结束前再次施展此法术，则你对该生物的操纵时间延长２４小时。法术的此种用法只是延长了你对至多四个你使用此法术创造的生物的控制时间，而不会创造新的生物。<br>高阶效果：<br>当你使用４环或更高的法术位施展这个法术时，你使用的法术位每比３环高１环，就多唤起两只不死生物或是多延长对两只不死生物的控制。你无法用同一具尸骨或尸体唤起多个不死生物。<br><br><br>This spell creates an undead servant. Choose a pile<br>o f bones or a corpse o f <span style="color: green;" class="bbc_color">a Medium or Small humanoid<br>within range</span>.<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>多谢订正。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_676633">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg803870"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9554" title="检视会员资料:  leafnight">leafnight</a>
+</h4>
+<ul class="reset smalltext" id="msg_803870_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 565<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_803870">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg803870#msg803870" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_803870'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_803870'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #30 于:</strong> 2016-07-03, 周日 11:52:57 &#187;</div>
+<div id="msg_803870_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_803870">克隆术 Clone<br>8环 死灵<br>施法时间：1小时<br>施法距离：触及<br>法术成分：V、S、M（一枚至少价值1000gp的钻石以及被克隆生物1立方寸的肉，作为法术的耗材。外加一副至少价值2000gp的带密封功能的大容器，其尺寸必须足以存放一个中型生物，例如一个巨大的瓮或灵柩，或是立在地上充满浆状物质的卵囊，又或者充满盐水的水晶棺）<br>持续时间：立即<br>&nbsp; &nbsp; 此法术用以培养一个活体生物的无意识复制体作为其死亡时的保险措施。该克隆体在一个密封容器中成长成型，并在120日后成长成熟；你还可以为同一个生物制作较年轻版本的肉体。在未被使用前，该躯体会一直保持无意识的静止状态。<br>&nbsp; &nbsp; 克隆体成长成熟后，如果本体生物死亡，则其灵魂转移到克隆体中，前提是该灵魂必须保持自由且自愿复活。克隆体的肉体特质与本体相同，并具有相同的个性、记忆以及能力，但并不具有本体随身的装备。由于灵魂已经转移到别处，该生物原本的遗体（如果依然存在）变成无意识的状态，且不能被复活<br><br><br>死云术 Cloudkill<br>5环 咒法<br>施法时间：1动作<br>施法距离：120尺<br>法术成分：V，S<br>持续时间：专注，至多10分钟<br>&nbsp; &nbsp; 你在施法距离内选择一点作为法术目标，并以该点为中心创造一片20尺半径的球状黄绿色剧毒浓雾。雾气在法术持续时间内一直存在，不过可以被强风所吹散。其存在区域视为重度遮蔽。<br>&nbsp; &nbsp; 生物每回合第一次进入法术区域，或者在区域内开始其回合时，必须进行一次体质豁免。豁免失败则受5d8的毒素伤害，豁免成功则伤害减半。该生物就算屏住呼吸或者不需要呼吸也会受到浓雾效应的影响。<br>&nbsp; &nbsp; 浓雾在你每回合开始时沿着地面向前方移动10尺。雾气比空气重，因此会沉落低洼的地面，甚至渗进地面的缝隙中。<br>&nbsp; &nbsp; 升环施法效应。当你使用6环或更高的法术位施展此法术时，你使用的法术位每比5环高一环，法术的伤害就增加1d8。<br><br><br>七彩喷射 Color Spray<br>1环 幻术<br>施法时间：1动作<br>施法距离：自身（15尺锥状）<br>法术成分：V、S、M（一撮粉末或沙子，其颜色必须包含红、黄、蓝三色）<br>持续时间：1轮<br>&nbsp; &nbsp; 炫目的彩光从你指间散射而出。掷一次6d10；其结果为受该法术影响生物的生命值总数。在以你为源点的15尺锥状区域内的生物以剩余生命值由小至大的顺序受法术影响（生效时忽略昏迷生物和看不见的生物）。<br>&nbsp; &nbsp; 计算受法术影响生物时，从剩余生命值最低的生物开始逐个计算。每个受术生物均陷入目盲，直至法术终止。法术掷骰的生命值总数减去一个受术生物的生命值后，余数再用以计算生命值稍高者是否受法术影响。生物剩余生命值，必须小于等于该余数法术才能成功影响该生物。<br>&nbsp; &nbsp; 升环施法效应。当你使用2环或更高的法术位施展此法术时，你使用的法术位每比1环高一环，法术的掷骰时就增加2d10。<br><br><br>命令术 Command<br>1环 附魔<br>施法时间：1动作<br>施法距离：60尺<br>法术成分：V<br>持续时间：1轮<br>&nbsp; &nbsp; 你对施法距离内的一个能看见的生物说出一个单词的命令。目标生物必须成功通过一次感知豁免，否则必须再其下回合服从该命令行事。如果目标为不死生物，或者目标无法听懂你的语言，又或者你的命令对其直接构成损害时，噶书无法生效。<br>&nbsp; &nbsp; 以下列出一些通常可用的命令单词及引致的效果。你也可以说出此处没有列明的单词命令，并由GM决定目标将如何行动。如果目标无法完成你的命令，则法术终止。<br>&nbsp; &nbsp; 过来Approach。目标以最短最直接的路线向你移动，并在到达距你5尺时结束其回合。<br>&nbsp; &nbsp; 放下Drop。目标放下手中持握物并结束其回合。<br>&nbsp; &nbsp; 走开Flee。目标在其回合内以最快最有效的方式远离你。<br>&nbsp; &nbsp; 趴下Grovel。目标趴下倒地并结束其回合。<br>&nbsp; &nbsp; 立定Halt。目标不移动且不作任何动作。飞行生物在原地盘旋（如果它可以这么做）。如果它必须移动才能保持在空中，则其移动最小的距离以保持飞行。<br>&nbsp; &nbsp; 升环施法效应。当你使用2环或更高的法术位施展此法术时，你使用的法术位每比1环高一环，就增加一个受影响生物。你指定目标时，这些受术生物互相之间的距离不能超过30尺。<br><br><br>通神术 Commune<br>5环 预言（仪式）<br>施法时间：1分钟<br>施法距离：自身<br>法术成分：V、S、M（焚香和一小瓶圣水或邪水）<br>持续时间：1分钟<br>&nbsp; &nbsp; 你与所信奉神袛或其代理人进行联系，并询问至多三个能以“是”或“否”回答的问题。你必须在法术终止前完成提问。并分别获得每个问题的答案。<br>&nbsp; &nbsp; 这些神能存在也并非全知全能，因此当问题涉及的信息超过神袛的认知范围时，你可能会得到一句“不确定”作为回答。另外当一个单词可能引致误导，或者与神袛的兴致相违背时，GM可能会提供一句短语作为答案。<br>&nbsp; &nbsp; 若你在两次长休之间两次或更多次的施展该法术，则法术有概率会给出随机的结果。此概率从第二次施展起每次累计25％。其具体结果由GM暗骰决定。<br><br><br>问道自然 Commune with Nature<br>5环 预言（仪式）<br>施法时间：1分钟<br>施法距离：自身<br>法术成分：V，S<br>持续时间：立即<br>&nbsp; &nbsp; 你短暂的成为大自然的一部分并以此获得周围地形的信息。在户外时，该法术可以让你了解3里内大地的状况。在洞穴和其他天然地下场所中，其范围缩小为300尺半径区域内。在自然环境被箭镞复盖之地（比如地下城或城镇中），法术无法生效。<br>&nbsp; &nbsp; 你立即获得的自然资讯至多与该地域三个方面的主题相关，在以下项目中进行选择。<br>•&nbsp;&nbsp;&nbsp;地形和水体<br>•&nbsp;&nbsp;&nbsp;区域内分布的植物、矿物、动物或人物<br>•&nbsp;&nbsp;&nbsp;强大的天界生物、精类生物、邪魔、元素生物或者不死生物<br>•&nbsp;&nbsp;&nbsp;受其他存在位面的影响<br>•&nbsp;&nbsp;&nbsp;建筑物<br>&nbsp; &nbsp; 例如，你可以侦测到某个强大不死生物在区域中的位置，干净安全的水源所在地，以及附近城镇的方位。<br><br><br>通晓语言 Comprehend Languages<br>1环 预言（仪式）<br>施法时间：1动作<br>施法距离：自身<br>法术成分：V、S、M（一撮煤灰和一撮盐）<br>持续时间：1小时<br>&nbsp; &nbsp; 你在法术持续时间内知晓你所听到的所有语言的字面意义。你也可以通过触碰书写的文字来读懂其字面意义。以这种方式阅读每页文字需要花费1分钟的时间。<br>&nbsp; &nbsp; 某些文字或图形的密语（比如一个奥秘符文）由于不属于书写语言一类所以无法用此法术破译。<br><br><br>寒冰锥 Cone of Cold<br>5环 塑能<br>施法时间：1动作<br>施法距离：自身（60尺锥状）<br>法术成分：V、S、M（一个小水晶或玻璃锥）<br>持续时间：立即<br>&nbsp; &nbsp; 一片冷空气从你手上迸发而出。在60尺锥状区域内的每个生物必须进行一个体质豁免。豁免失败的生物受8d8的冷冻伤害，豁免成功则伤害减半。<br>&nbsp; &nbsp; 被该法术杀死的生物将成为一尊冰冻塑像，直至被解冻为止。<br>&nbsp; &nbsp; 升环施法效应。当你使用6环或更高的法术位施展此法术时，你使用的法术位每比5环高一环，法术伤害就增加1d8。<br><br>困惑术 Confusion<br>4环 附魔<br>施法时间：1动作<br>施法距离：90尺<br>法术成分：V、S、M（三颗坚果壳）<br>持续时间：专注，至多1分钟<br>&nbsp; &nbsp; 此法术冲击并扭曲生物的意志，并使其产生错觉并引发不受控的行动。在施法距离内选择一点作为法术目标，以该点为中心10尺球状区域内的生物必须成功通过一个感知豁免，否则将受到该法术的影响。<br>&nbsp; &nbsp; 受影响目标不能作反映并且必须在其回合开始时掷一次d10以决定该生物本回合的行为。<br><br>d10&nbsp;&nbsp;&nbsp;行为<br>1&nbsp;&nbsp;&nbsp;该生物使用其所有行动力向一个随机方向移动。你可以掷一次d8并设定每个骰值代表的方向以决定其最终移动方向。该生物本回合不作任何动作。<br>2-6&nbsp;&nbsp;&nbsp;该生物本回合不移动也不做任何动作。<br>7-8&nbsp;&nbsp;&nbsp;该生物使用其动作对可触及范围内一个随机目标发动一次近战攻击。如果没有生物在其触及范围内，则该生物本回合什么都不做。<br>9-10&nbsp;&nbsp;&nbsp;该生物本回合内可以正常的移动和行动。<br><br>&nbsp; &nbsp; 受影响生物在其每回合结束时可以在进行一次感知豁免。如果该豁免成功，则该法术效应对该目标的影响借宿<br>&nbsp; &nbsp; 升环施法效应。当你使用5环或更高的法术位施展此法术时，你使用的法术位每比4环高一环，球状区域的半径就增加5尺。<br><br><br>召唤动物 Conjure Animals<br>3环 咒法<br>施法时间：1动作<br>施法距离：60尺<br>法术成分：V，S<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤以野兽形态存在的精魂，并使其显现在施法范围内一处你能看见但未被占据的空间。选择以下选项之一作为显现的生物：<br>•&nbsp;&nbsp;&nbsp;一只挑战等级2或者更低的野兽<br>•&nbsp;&nbsp;&nbsp;两只挑战等级1或者更低的野兽<br>•&nbsp;&nbsp;&nbsp;四只挑战等级1/2或更低的野兽<br>•&nbsp;&nbsp;&nbsp;八只挑战等级1/4或更低的野兽<br>&nbsp; &nbsp; 每只野兽同时视为精类生物，并且在生命值降为0时，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的生物对你和你的伙伴保持友善关系。每次召唤出来的所有生物视为一个团体来掷先攻权，并依此获得其自己的行动回合。他们服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，这些生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 这些生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用更高的法术位施展此法术时，选择上文所述召唤选项之一，并显现更多生物：5环法术位显现两倍生物，7环法术位显现三倍生物，9环法术位显现四倍生物。<br><br><br>召唤天界生物 Conjure Celestial<br>7环 咒法<br>施法时间：1分钟<br>施法距离：90尺<br>法术成分：V，S<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤一个挑战等级4或更低的天界生物，并使其显现在施法范围内一个你可以看见但未被占据的空间。该天界生物在生命值降为0时，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的天界生物对你和你的伙伴保持友善关系。你为召唤出来的天界生物掷先攻权，并依此获得其自己的行动回合。该天界生物服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，该生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 该天界生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用9环法术位施展此法术时，你将召唤一个挑战等级5或者更低的天界生物。<br><br><br>召唤元素生物 Conjure Elemental<br>5环 咒法<br>施法时间：1分钟<br>施法距离：90尺<br>法术成分：V、S、M（气元素为点燃的焚香，土元素为陶土，火元素为硫磺和磷粉，水元素为水和沙子）<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤出一个元素生物仆从。在施法距离内选择一处充满风、土、火、水四物质其一的10尺立方区域作为法术目标。一个挑战等级5或者更低的元素生物从目标区域成型，并显现在该区域10尺内一个未被占据的空间。该生物在生命值降为0时，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的元素生物对你和你的伙伴保持友善关系。你为召唤出来的元素生物掷先攻权，并依此获得其自己的行动回合。该元素生物服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，该生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 如果你的专注被打断，该元素生物并不会因此消失不见，但是你会因此失去该元素生物的控制权。失去控制的元素生物对你和你的伙伴变为敌对，随时准备发动攻击。不受控的元素生物无法被你解散，并在你的召唤开始算起1小时后消失不见。<br>&nbsp; &nbsp; 该元素生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用6环或更高法术位施展此法术时，你使用的法术位每比5环高一环，召唤生物的挑战等级就增加1<br><br><br>召唤精类生物 Conjure Fey<br>6环 咒法<br>施法时间：1分钟<br>施法距离：90尺<br>法术成分：V，S<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤一个挑战等级6或更低的精类生物，或者一个挑战等级6或更低的野兽形态精魂。被召唤生物显现在施法距离内一处你能看见且未被占据的空间。该精类生物在生命值降为0时，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的精类生物对你和你的伙伴保持友善关系。你为每次召唤出来的精类生物掷先攻权，并依此获得其自己的行动回合。该精类生物服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，该生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 如果你的专注被打断，该精类生物并不会因此消失不见，但是你会因此失去该生物的控制权。失去控制的精类生物对你和你的伙伴变为敌对，随时准备发动攻击。不受控的精类生物无法被你解散，并在你的召唤开始算起1小时后消失不见。<br>&nbsp; &nbsp; 该精类生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用7环或更高法术位施展此法术时，你使用的法术位每比6环高一环，召唤生物的挑战等级就增加1。<br><br><br>召唤次级元素生物 Conjure Minor Elementals<br>4环 咒法<br>施法时间：1分钟<br>施法距离：90尺<br>法术成分：V，S<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤元素生物并使其显现在施法范围内一处你能看见但未被占据的空间。选择以下选项之一作为显现的生物：<br>•&nbsp;&nbsp;&nbsp;一个挑战等级2或更低的元素生物<br>•&nbsp;&nbsp;&nbsp;两个挑战等级1或更低的元素生物<br>•&nbsp;&nbsp;&nbsp;四个挑战等级1/2或更低的元素生物<br>•&nbsp;&nbsp;&nbsp;八个挑战等级1/4或更低的元素生物<br>&nbsp; &nbsp; 每个被该法术召唤的元素生物在生命值降为0，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的生物对你和你的伙伴保持友善关系。每次召唤出来的所有生物视为一个团体来掷先攻权，并依此获得其自己的行动回合。他们服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，这些生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 这些生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用更高的法术位施展此法术时，选择上文所述召唤选项之一，并显现更多生物：6环法术位显现两倍生物，8环法术位显现三倍生物。<br><br><br>召唤林地之精 Conjure Woodland Beings<br>4环 咒法<br>施法时间：1动作<br>施法距离：60尺<br>法术成分：V、S、M（每个被召唤生物一枚冬青浆果）<br>持续时间：专注，至多1小时<br>&nbsp; &nbsp; 你召唤精类生物并使其显现在施法范围内一处你能看见但未被占据的空间。选择以下选项之一作为显现的生物：<br>•&nbsp;&nbsp;&nbsp;一个挑战等级2或更低的精类生物<br>•&nbsp;&nbsp;&nbsp;两个挑战等级1或更低的精类生物<br>•&nbsp;&nbsp;&nbsp;四个挑战等级1/2或更低的精类生物<br>•&nbsp;&nbsp;&nbsp;八个挑战等级1/4或更低的精类生物<br>&nbsp; &nbsp; 每个被该法术召唤的精类生物在生命值降为0，或者法术终止时消失不见。<br>&nbsp; &nbsp; 被召唤的生物对你和你的伙伴保持友善关系。每次召唤出来的所有生物视为一个团体来掷先攻权，并依此获得其自己的行动回合。他们服从你发出的所有语言命令（不需要你作动作）。如果你不发出任何命令，这些生物会在敌对生物前保护自己，如果没有敌对生物则不作任何动作。<br>&nbsp; &nbsp; 这些生物的具体数值由GM掌控。<br>&nbsp; &nbsp; 升环施法效应。当你使用更高的法术位施展此法术时，选择上文所述召唤选项之一，并显现更多生物：6环法术位显现两倍生物，8环法术位显现三倍生物。<br><br><br>异界探知 Contact Other Plane<br>5环 预言<br>施法时间：1分钟<br>施法距离：自身<br>法术成分：V<br>持续时间：1分钟<br>&nbsp; &nbsp; 你与一名半神，或者一个古老的贤者亡魂，又或是其他异位面的神秘实体建立了精神的连接。与这些跨位面亚种生物进行的知性接触可能会增加你的精神负担，甚至导致精神崩溃。当你施展此法术时，进行一个DC15的智力豁免。豁免失败时，你受到6d6的精神伤害因此而变得错乱，直到完成一个长休以结束该状态。处于错乱状态时，你不能作动作，不能理解其他生物说的话也无法阅读，说出口的也都是一些不含糊不清的语句。对你施放的高等复原术greater restoration可以直接终止该效应。<br>&nbsp; &nbsp; 豁免成功时，你可以询问该实体五个问题。你必须在法术结束前提出你的问题。而你所提出的每条问题GM都可以用一个单词作回答，比如“是”、“不是”、“可能”、“不可能”、“没关系”或是“不清楚”（如果该实体不知道该问题答案时）。如果一个单词的答案可能导致误导，GM可能会用一句短语来作为问题的答案。<br><br><br>疫病术 Contagion<br>5环 死灵<br>施法时间：1动作<br>施法距离：触及<br>法术成分：V，S<br>持续时间：7日<br>&nbsp; &nbsp; 你的触碰带着疾病。你对触及范围内一个生物发动一次近战法术攻击。命中时，你选择使该生物承受以下描述的疾病之一。<br>&nbsp; &nbsp; 被触碰生物在每回合结束时必须进行一个体质豁免。在累计三次豁免失败后，该疾病效应将持续至法术持续时间结束，且该生物不再进行相应的体质豁免。在累计三次豁免成功后，该生物从疾病中恢复，并终止法术的效应。<br>&nbsp; &nbsp; 由于法术对目标引发的是自然疾病，因此任何一处疾病或改善疾病状况的效应都可以对受术生物产生影响。<br>&nbsp; &nbsp; 失明症Blinding Sickness。痛苦缠绕着患病者的意志，并使其眼睛变成奶白色。患病生物进行感知检定和感知豁免时具有劣势，并且承受目盲状态。<br>&nbsp; &nbsp; 腐热症Filth Fever。患者身体发起严重的高烧。患病生物进行力量检定和力量豁免时，以及发动基于力量的攻击检定时具有劣势。<br>&nbsp; &nbsp; 烂肉症Flesh Rot。患者的肌肤逐渐腐朽。患病生物进行魅力检定时具有劣势，并且具有所有伤害类型的伤害易受。<br>&nbsp; &nbsp; 脑热症Mindfire。患者头脑发热。患病生物进行智力检定和智力豁免时具有劣势，并且其在战斗中视为受到困惑术confusion效应影响。<br>&nbsp; &nbsp; 癫痫症Seizure。患者全身颤抖不止。患病生物进行敏捷检定和敏捷豁免时，以及发动基于敏捷的攻击检定时具有劣势。<br>&nbsp; &nbsp; 恶心症Slimy Doom。患者开始不受控的流血。患病生物进行体质检定和体质豁免时具有劣势。另外每当该生物受到伤害时，在其受伤回合结束时都将受震慑至其下回合结束。<br><br><br>触发术 Contingency<br>6环 塑能<br>施法时间：10分钟<br>施法距离：自身<br>法术成分：V、S、M（一尊你自己的塑像，其材质为象牙并以宝石作装饰，其价值至少为1500gp）<br>持续时间：10日<br>&nbsp; &nbsp; 选择一个你可以施展的5环或更低环的法术，该法术的施法时间必须为1动作，且必须能够以你自身为目标。你以“随因法术”的形式施展该法术，即将其作为所施展触发术的一部分，并且同时消耗该法术与触发术的法术位。该随因法术并不立即生效，而是在特定状况发生时才触发其效应。你在施展者两个法术时，必须描述该触发状况的细节。例如，触发术与水下呼吸water breathing一起施放可以确保水下呼吸可以在你被水或其他液体淹没时自动触发其效应。<br>&nbsp; &nbsp; 随因法术的效应在相应状况第一次出现时立即生效。你一次只能使用一个触发术，如果你在已施放该法术时再次施展该法术，则前一个触发术的效应立即终止。另外，当触发术的材料成分不在你的人物身上时，其法术效应也将立即终止。<br><br><br>不灭明焰 Continual Flame<br>2环 塑能<br>施法时间：1动作<br>施法距离：触及<br>法术成分：V、S、M（价值50gp的红宝石粉末，作为法术的耗材）<br>持续时间：直至被解除<br>&nbsp; &nbsp; 你在触及的物件上制造如火把一样亮的火焰，其看上去与一半火焰无异，但不会发热，也不需要燃烧氧气。你可以掩盖或隐藏它，但无法将之闷熄或扑灭。<br><br><br>操控水体 Control Water<br>4环 变化<br>施法时间：1动作<br>施法距离：300尺<br>法术成分：V、S、M（水位上升为一滴水，水位下降为一撮土）<br>持续时间：专注，至多10分钟<br>&nbsp; &nbsp; 你在法术终止前控制任何一片独立的水体，控制范围为一处你自选的100尺边长立方区域。施展此法术时，你可以从以下效应中选择其一，病在你自己回合以一个动作使其生效，随后你可以重复生效同一个效应，也可以选择实现另一个效应。<br>&nbsp; &nbsp; 上涨Flood。你时控制区域内水位上涨至多20尺。如果该区域包含有滨岸，则水体漫过涨水复盖的干土。<br>&nbsp; &nbsp; 如果你选择的区域是一片大水体中的一部分，则你改为制造一片20尺高的波浪，并从区域的一边扑向另一边再拍下水面。波浪中任何巨型或更小型的载具都会被带到水浪行进的另一边。且所有巨型或更小型的载具都有25%的几率被倾复。<br>&nbsp; &nbsp; 直至法术终止或你选择另一个效应前，水位的上涨情况将保持不变。如果该效应用以产生波浪，则波浪在你下一回合开始时再次进行翻打。<br>&nbsp; &nbsp; 分水Part Water。你使区域内的水体分开并形成一条水体的沟壑。沟壑从法术区域的一头延伸到另一头，而被分开的水体则在两边形成两道水墙。沟壑维持至法术终止或直至你选择另一个效应。该效应终止时，沟壑会在接下来的一轮里慢慢的恢复成通常的水位。<br>&nbsp; &nbsp; 转向Redirect Flow。你使区域内的水体向一个你自选的方向流动。哪怕是绕过障碍，还是沿着墙壁向上流，甚至是一些不太可能的方向，区域内的水体都遵照你只是的方向流动，但一旦其流出法术区域，则恢复为其所在地形的流向。水体持续向你所选方向流动，直至法术终止或直至你选择另一个效应。<br>&nbsp; &nbsp; 漩涡Whirlpool。该效应需要水体至少为50尺的方形区域并且至少有25尺深。你在区域中央形成一个漩涡。其形态为底部宽5尺顶部宽50尺，且25尺高。水中任何在漩涡25尺内的生物或物件将被漩涡向自身拉动10尺。受影响的生物可以进行一次力量（运动）检定来对抗你的法术DC，以通过游泳脱离漩涡控制。<br>&nbsp; &nbsp; 生物每回合第一次进入漩涡或者在漩涡内开始其回合时，必须进行一次力量豁免。豁免失败时，该生物受2d8的钝击伤害，并被拖入漩涡中心直至法术终止。豁免成功时，该生物所受伤害减半，且不会被拖如漩涡。被拖入漩涡中心的生物可以使用其动作尝试游泳来离开漩涡（如上文所述），但它此时进行的力量（运动）检定具有劣势。<br>&nbsp; &nbsp; 物件每回合第一次进入漩涡时受2d8的钝击伤害；如果物件保持在漩涡内，该伤害就会在每轮持续发生。<br><br><br>操控天气 Control Weather<br>8环 变化<br>施法时间：10分钟<br>施法距离：自身（半径5里）<br>法术成分：V、S、M（点燃的焚香和一点混有泥土和木屑的水）<br>持续时间：专注，至多8小时<br>&nbsp; &nbsp; 你在法术持续时间内控制自身5里范围内的天气状况。施展该法术时你必须身处户外，而一旦移动到无法直接看到天空的地点时，法术也会随即终止。<br>&nbsp; &nbsp; 本来由GM基于季节和气候所决定的天气状况，在你施展此法术时可以由你随意操控。你可以改变降水、气温以及风势等状况。新的天气状况生效需要经过1d4×10分钟的时间才能完成。状况改变完成后，你可以再次对当前对天气状况作改变。法术终止时，天气将渐渐恢复成平常状态。<br>&nbsp; &nbsp; 改变天气状况时，你可以从以下表格查明与目前对应的等级，再选择同一表格下的其他等级作为其改变结果。改变风势时，你还可以同时改变其风向。<br><br>降水<br>等级&nbsp;&nbsp;&nbsp;状况<br>1&nbsp;&nbsp;&nbsp;天晴<br>2&nbsp;&nbsp;&nbsp;薄云<br>3&nbsp;&nbsp;&nbsp;多云或有雾<br>4&nbsp;&nbsp;&nbsp;下雨、下冰雹或下雪<br>5&nbsp;&nbsp;&nbsp;暴雨、猛烈的冰雹或暴雪<br><br>气温<br>等级&nbsp;&nbsp;&nbsp;状况<br>1&nbsp;&nbsp;&nbsp;酷热<br>2&nbsp;&nbsp;&nbsp;炎热<br>3&nbsp;&nbsp;&nbsp;暖和<br>4&nbsp;&nbsp;&nbsp;清凉<br>5&nbsp;&nbsp;&nbsp;寒冷<br>6&nbsp;&nbsp;&nbsp;严寒<br><br>风势<br>等级&nbsp;&nbsp;&nbsp;状况<br>1&nbsp;&nbsp;&nbsp;无风<br>2&nbsp;&nbsp;&nbsp;和风<br>3&nbsp;&nbsp;&nbsp;强风<br>4&nbsp;&nbsp;&nbsp;狂风<br>5&nbsp;&nbsp;&nbsp;暴风<br><br><br>造粮术 Create Food and Water<br>3环 咒法<br>施法时间：1动作<br>施法距离：30尺<br>法术成分：V、S<br>持续时间：立即<br>&nbsp; &nbsp; 你再施法距离内的地面或容器上创造45磅的食物和30加仑的水，其总量可以满足十五个类人生物或者五匹坐骑24小时的补给需求。食物非常清淡但营养丰富，并且如果24小时内不食用即会自然分解。创造的水清洁可饮用且不会以该方式变质。<br><br><br>造水/枯水术 Create or Destroy Water<br>1环 变化<br>施法时间：1动作<br>施法距离：30尺<br>法术成分：V、S、M（造水为一滴水，枯水为一点谷物或沙子）<br>持续时间：立即<br>&nbsp; &nbsp; 你施法创造水或者使水枯竭。<br>&nbsp; &nbsp; 造水Create Water。你在施法距离内一个打开的容器里创造10加仑干净的水。或者以下雨的方式在施法距离内一处30尺的立方区域降下等量的水分，并浇灭该区域内不受遮盖的火苗。<br>&nbsp; &nbsp; 枯水Destory Water。你使施法距离内一个打开的容器里的10加仑水分枯竭不见。或者使施法距离内一片30尺立方区域的浓雾消失不见。<br>&nbsp; &nbsp; 升环施法效应。当你使用2环或更高的法术位施展此法术时，你使用的法术位每比1环高一环，法术就多创造或枯竭10加仑额外的水分，或者影响的立方区域边长增加5尺。<br><br><br>唤起死灵 Create Undead<br>6环 死灵<br>施法时间：1分钟<br>施法距离：10尺<br>法术成分：V、S、M（一个装满坟土的陶壶和一个装满苦水的陶壶，并为每具尸体准备一枚150gp的黑玛瑙）<br>持续时间：立即<br>&nbsp; &nbsp; 在施法距离内选择至多三具中型或小型类人生物遗体作为法术目标。每具受术尸体将变成一只受你控制的食尸鬼ghoul（这些生物的具体游戏数据由GM掌控）。该法术只能在夜晚施展。<br>&nbsp; &nbsp; 在你的任一回合内，你可以使用一个附赠动作并以精神命令操纵120尺内任何你用此法术唤起的生物（如果你操纵多个生物，则你的命令可以同时传达给它们全部或是其中的某几个，不过只能使用同一种命令）。你决定被操纵的生物下回合的动作和移动。你也可以选择下达宽泛的命令，例如守护某个房间或走廊。没有接受到你命令的生物则只会对敌对生物作出自卫的行为。一旦被下达命令，该生物会持续执行命令直到任务完成。<br>&nbsp; &nbsp; 被操纵的生物只会在24小时内服从你的命令。如果你在当前的24小时时间段终止前再次施展此法术，则你对该生物的操纵时间再延长24小时。法术的此种用法只能延长你对至多三个你使用此法术所创造生物的控制时间，而不会创造新的生物。<br>&nbsp; &nbsp; 升环施法效应。当你使用7环法术位施展此法术时，你可以唤起或者维持好四只食尸鬼。当你食用8环法术位施展此法术时，你可以唤起或维持五只食尸鬼，或者两只妖鬼ghast，或者两个尸妖wight。当你食用9环法术位施展此法术时，你可以唤起或维持六只食尸鬼，或者三只妖鬼，或者三个尸妖，或者两个木乃伊mummy。<br><br><br>造物术 Creation<br>5环 幻术<br>施法时间：1分钟<br>施法距离：30尺<br>法术成分：V、S、M（所创造物品的一小部分）<br>持续时间：特殊<br>&nbsp; &nbsp; 你从堕影冥界取来一些暗影物质，并在施法距离内创造一个非活体的物件。你可以创造一个植物质，类似纺织品、绳索、木质等的物件。也可以创造一个矿物质，类似石质、水晶、金属等的物件。创造出来的物件大小必需在5尺立方内，且其形态与材质你必需曾经见过。<br>&nbsp; &nbsp; 法术的持续时间由所创造物件的材质决定。如果所创造物件由多种材质组合而成，则其存在时间取其中最短者。<br><br>材质&nbsp;&nbsp;&nbsp;持续时间<br>植物质&nbsp;&nbsp;&nbsp;1日<br>石质或水晶&nbsp;&nbsp;&nbsp;12小时<br>贵金属&nbsp;&nbsp;&nbsp;1小时<br>宝石&nbsp;&nbsp;&nbsp;10分钟<br>精金或秘银&nbsp;&nbsp;&nbsp;1分钟<br><br>&nbsp; &nbsp; 施展其他法术时，如果以这些创造物作为其材料成分将会使该法术施法失败。<br>&nbsp; &nbsp; 升环施法效应。当你使用6环或更高法术位施展此法术时，你使用的法术位每比5环高一环，创造物尺寸的立方边长就加大5尺。<br><br><br>疗伤术 Cure Wounds<br>1环 咒法<br>施法时间：1动作<br>施法距离：触及<br>法术成分：V，S<br>持续时间：立即<br>&nbsp; &nbsp; 一个你触碰的生物恢复特定数值的生命值，其恢复量等于1d8＋你的法术关键属性调整值。该法术无法对不死生物和构装体生效。<br>&nbsp; &nbsp; 升环施法效应。当你使用2环或更高法术位施展此法术时，你使用的法术位每比1环高一环，恢复量就增加1d8。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_803870">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg803871"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9554" title="检视会员资料:  leafnight">leafnight</a>
+</h4>
+<ul class="reset smalltext" id="msg_803871_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 565<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_803871">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.msg803871#msg803871" rel="nofollow">Re: 【PHB】法术：A-C</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_803871'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_803871'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #31 于:</strong> 2016-07-03, 周日 11:53:45 &#187;</div>
+<div id="msg_803871_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_803871">最近在整理SRD 更新的部分顺便补到这里来。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_803871">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=printpage;topic=69266.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">&#171;</a> <a class="navPages" href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0">1</a> [<strong>2</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1627.0"><span>Dungeons &amp; Dragons</span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1139.0"><span>五版规则（5E） </span></a> &#187;
+<li>
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;board=1140.0"><span>核心规则</span></a> (版主群: <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=9912" title="版主">OckhamTheRazor</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=42281" title="版主">子虚子</a>, <a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=profile;u=76240" title="版主">锁姐</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;topic=69266.0"><span>【PHB】法术：A-C</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 69266,
+iStart: 20,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 69266,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="f37bd19" value="b98e3a8add6adaeb68812f7788c636bf" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="69266" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'b98e3a8add6adaeb68812f7788c636bf\', \'f37bd19\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;' + '?topic=69266.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 39709 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1140,
+							iCurBoardChildLevel: 2,
+							sCurBoardName: "核心规则",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1140,
+							iTopicId: 69266,
+							sSessionId: "b98e3a8add6adaeb68812f7788c636bf",
+							sSessionVar: "f37bd19",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=992e616df58c4135afa9fbba6c7c220a&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

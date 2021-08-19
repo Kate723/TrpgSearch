@@ -1,0 +1,531 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="《赛博朋克2020核心规则》粗译"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>《赛博朋克2020核心规则》粗译</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="109625"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"><span>赛博朋克2020</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="版主">千禧年网吧DJ</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0"><span>《赛博朋克2020核心规则》粗译</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg998188"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=109625.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 《赛博朋克2020核心规则》粗译 &nbsp;(阅读 6192 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=109625.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="检视会员资料:  千禧年网吧DJ">千禧年网吧DJ</a>
+</h4>
+<ul class="reset smalltext" id="msg_998188_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_998188">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.msg998188#msg998188" rel="nofollow">《赛博朋克2020核心规则》粗译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_998188'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_998188'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2019-06-05, 周三 22:13:35 &#187;</div>
+<div id="msg_998188_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_998188">这楼更翻译进度，之前那个楼讨论用<br>#1&nbsp; &nbsp; &nbsp; &nbsp;概述（第一节）<br>#2&nbsp; &nbsp; &nbsp; &nbsp;职业说明（第一节）<br>#3&nbsp; &nbsp; &nbsp; &nbsp;属性说明（第二节）<br>#4&nbsp; &nbsp; &nbsp; &nbsp;如何生成人物生平（第三节）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_998188">
+&#171; <em>上次编辑: 2019-06-05, 周三 22:24:57 由 千禧年网吧DJ</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg998190"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="检视会员资料:  千禧年网吧DJ">千禧年网吧DJ</a>
+</h4>
+<ul class="reset smalltext" id="msg_998190_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_998190">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.msg998190#msg998190" rel="nofollow">Re: 《赛博朋克2020核心规则》粗译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_998190'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_998190'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2019-06-05, 周三 22:17:34 &#187;</div>
+<div id="msg_998190_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_998190">【导语】<br>作为一名电驭叛客，你要紧紧扼住科技的咽喉然后永不撒手。你的手腕上有界面接口，手臂上是杀人凶器，眼中有激光，脑子里是生物芯片程序。你和你开的车，用的枪融为一体···你用赛博格手指撬开电子锁，你用增强感官，看向未来。<br><br>第一节 灵魂与新机器<br><br>《赛博朋克》的世界是暴力而又危险的，到处都是乐意把你胳膊扯下来吃了的家伙。传统的善恶观念被利己主义的价值观取代——为了生存不择手段。要是你能顺便做些善事，那很好。<br>不过别抱太大希望。<br>《赛博朋克》的角色是在艰苦黑暗的世界里面临生死抉择的生存者。他们的选择很大程度上决定了他们的结局，是成为一个在颓坏的世界里游荡的邪恶动物，还是保有基本的人性。《赛博朋克》的角色是逆境中的英雄，致力于尽其所能改善这样的糟糕情况（或至少让人不会因此而死）。《赛博朋克》角色作为有动机的反叛者，愿意为此犯罪，反抗权威甚至直接掀起革命。作为《赛博朋克》的玩家，就由你来找到这些动机并且为之战斗到底。<br>这就是《赛博朋克》的本质，以那种固有的愤世嫉俗却又理想主义的风格来扮演你的角色。不论你要扮演人皮下藏有金属爪子的摩托车手，还是身着绸缎，炫耀着最新的设计师款电子眼的年轻交际花，你都需要某种格调来描绘你的角色。要领会21世纪的本质，你得掌握三个概念：<br>1）风格比实质重要<br>只要你看起来擅长什么事情，那么你究竟做得多好便无关紧要。如果你要进行某个行动，要确保事情看起来都是你计划好的。一般来讲，衣着打扮在冒险中无关紧要——但在这个世界里，穿上皮革装甲夹克戴上墨镜可是你深思熟虑的内容之一。<br>2）态度决定一切<br>这是实话。思想危险；人就危险。思想懦弱；人就懦弱。记住，在21世纪每个人都带着致命的硬件和高科技增强设备。他们会无视你的新型H&amp;K智能枪，除非你大摇大摆地走进酒吧，看起来懂得如何使用这把枪——而且就等着一个开枪的借口。<br>能气势汹汹地走进一个屋子就别普普通通地走进去。要没有把握用“我弄死你”的眼神去看别人那就干脆别看。笑起来一定要是“老子最牛逼你算个屁”的样子。别光在公寓楼附近干等着工作。出门去酒吧和街头人士聚集地转悠转悠。一定要出现在热闹事情发生的现场。<br>3）活在边缘<br>边缘指的就是敢于冒险的人经常踏入的一个模糊领域。在边缘地带，你赌上你的金钱，名声乃至性命，来追求某种像原则那样模糊的概念，或者试图大赚一笔。作为一名电驭叛客，你想要开始行动，发起反抗，点燃星火，加入伟大的事业并为了重要事件而战。一路高歌猛进好过畏缩不前。让自己置身险境并直面危险吧。不要玩得太谨慎，坚持走在边缘吧。<br>角色：《赛博朋克》角色扮演的核心<br>《赛博朋克》的世界是野蛮与精巧，现代与复古的结合。时尚靓丽的技术专家和身着战斗装甲的公路战士在最热门的舞厅，最肮脏的酒吧和最窄的街道同框出现*注意此处有漏翻*。在这个世界中每个人物都要有一个角色——一个人对外部世界表现出的一面。在《赛博朋克》里有九种角色：摇滚小子，独行客，网络奇兵，企业员工，技术专家，执法者，代理人，媒体人以及游牧民。作为《赛博朋克》玩家，你必须为你的人物选择一种角色。<br>特殊能力<br>特殊能力是只有特定角色才能使用的技能；举个例子：摇滚小子拥有魅力领袖的特殊能力，这代表了他在他的众多粉丝中巨大的影响力。当你使用特殊能力时，你将获得相应属性的加值，就如同使用技能一样。<br>摇滚小子特殊能力：魅力领袖&nbsp; 这个技能允许这位明星让他身边相当于自己能力等级200倍的人群摇摆起来。<br>独行侠特殊能力：战斗感官&nbsp; 在所有先攻和觉察检定中获得加值，这让独行侠在遇到情况时最先有所反应。<br>网络奇兵特殊能力： 接口&nbsp; 这个技能反应了网络奇兵操作接口程序的能力，这个技能在使用菜单功能时生效，比如远程定位，运行软件，远程操控，LDL链接，加载，创建和删除。其他玩家可以进入网络，但是他们无法使用菜单。<br>技术专家特殊能力：应急装置&nbsp; 这种基本维修技能每一级都可以让技术专家将任何东西临时维修或更换1d6轮。<br>医疗机师特殊能力：医疗科技&nbsp; 这种技能用来进行大型手术和医学维修。<br>媒体人特殊能力：公信力&nbsp; 这一能力可以让人们相信你公开报道时所说的话。<br>执法者特殊能力：威权&nbsp; 你可以以执法者的身份恐吓或控制他人。<br>企业员工特殊能力：资源&nbsp; 这代表了员工动用企业资源的能力。它作为说服技能使用，基于你需要资源的规模。<br>代理人特殊能力：街头关系 定位某人，寻找信息的能力。这是“建立联系”的高级形式（Lifepath，pg.27）；你不止了解一个人，四处都是你的关系网。在游戏过程中，成功使用街头关系可以让你定位或获得你指定的人物，地点或物品。<br>游牧民特殊能力：家族&nbsp; 这项技能让游牧民可以呼叫等同于他现在家族能力两倍的家庭成员来协助他。<br>【背景资料】（背景资料在每页以灰框小字的形式出现）<br>边缘一窥<br>“我非人/亦非机器，我只是它们之间的什么东西。我充满爱/精力充沛如发电机。所以按下按钮让我出发。”Lovin’ Every Minute of it 1984 Zomba Enterprises Inc.(ASCAP)<br>所以说你是想成为电驭叛客？还是只是想装得像？<br>在你从床上爬起来一头扎进赛博世界之前，我们要告诉你些事情。首先，游戏的名字。“赛博朋克”来自两个单词。Cyber——来源于Cybernetic，指将肉体和机械科技结合。Punk——来源于一种1980年代早期的摇滚乐风格，它是代表了暴力，反叛以及虚无主义者式的社会活动。这种表达在前崩溃世代被一群擅长描写这种混合技术的作家推向大众。他们作品的主要内容是一种现代大杂烩，包括摇滚，流行，性，毒品以及最高精尖最时髦的科技——经常是植入到你的身体上或什么地方。典型的80年代赛博朋克主角多种多样，从后启示录世界中游荡的科技野蛮人，到机体设计感十足且装有控制芯片的喷气飞机。<br>当然了，从我们2020年的视角回看，这些都显得有些过时。毕竟你可能正在你的个人数据库中读取这篇文章。你用Kiyoshiru 1300A交互线缆直接连接你的手臂插口。你都习惯了实连到机器上煮咖啡，“钉”到你的奔驰上开车到街角的商店。但请理解——在1987年，这些都被认为是相当虚幻的东西。没人有插口。你不能用移动电话打给Luna。毒品是违法的。在城市的大部分地区，你不穿装甲夹克在街上走也还是安全的。那时候甚至还没有网络呢。<br>现在我们了解得更详细了。历史书告诉你1994大崩溃的细节，那时欧联创建了世界股票交易所，同时美国和苏联的经济崩溃了。<br>在当时，美苏两国还被认为是超级大国，而不是处于EuroSpace Defense Agency*欧洲空间防御局？*监视下的几个胡乱挥舞核武器的过度武装的二流货色。要是第谷质量投射器早准备好向莫斯科与华盛顿扔几块石头，我们从1944年以来一直担心的核战争或许就得以避免。毕竟，石头要便宜一些。<br>现如今，毋需多言，任何事物都或多或少处于政府似的企业的管理之下。你可以一张护照走遍天下——全球化迎来了全盛时期。大多数国家之间的货币汇率都趋于稳定，欧元现在是世界货币。几乎没有人再抱怨企业终身合同和工会的解散。这就是生活在稳定安全的社会要付出的代价，不是吗？<br>毕竟，你可以按部就班地生活。十六个人住在一栋公寓，每周获得配给芯片来购买食物，每个街区八千栋公寓楼？当然了，这不是最好的生活，在这里升压帮常出现在商场，各种犯罪时有发生，但是总比直接在街头生活强。至少这些巨大建筑群中还有警察（好吧，是受雇的公司执法者，但这总比孤身一人管理你那些欧元要容易）。另外，媒体网络保证每户公寓都可直接享受有线电视，广播和感官推流，所以周六晚上你总有事可做。<br>咱们说到哪了？哦对——你想成为一名电驭叛客。<br>下面是更多供你考虑的背景设定。当赛博朋克运动的祖师爷们刚开始描写那个世界的情境时，他们认定笔下的大多数内容要么不会发生，要么会发生在很远的未来。没人知道在1980年代晚期，西德已经开始开发“有机的”电路系统了，美国空军也在研发用精神控制的武器系统。合成肌肉纤维刚开始被用来控制人造器官，极少有人能预测到90年代装有有机芯片的四肢也成为可能。当时有一些用到生物工程学的原始实验——诸如Frostban™和几种新型玉米——但和我们后来用于将火星殖民地类地化改造的生物工程动物截然不同。<br>新技术达到了幻想中的水平用了约十五年。首先，军方利用赛博技术来制造“完美战士”和飞行员。一部分的副产品衍生出了义肢，义眼和其他人造器官。有机电路系统让人类和计算机能够直接相连。在高级远程通讯技术和卫星对地通讯的结合中，诞生了现代全球网络的基础。每次新的技术横空出世，都会对文化产生一次技术冲击。<br>技术冲击：技术的发展快过人们理解适应他们的生活。人们一瞬间吓坏了。他们失去理性；变得暴力。家庭被破坏；人际关系分崩离析。人们面对世界感到无助。最终，整个社会在被磨得粉碎后停滞了，人们饱受集体精神疾病的残害。这就是我们现在说的大崩溃。<br>造成技术冲击的有三个主要原因。绝大多数人的生活被连根拔起，被技术进步改变，他们消极地等待着领导者告诉他们接下来该如何行动。有一小群人试图开历史的倒车，开始了被叫做“新卢德主义运动”的活动。剩下的人——他们决定踏上未来之路。以1980年代的幻想文学为指导，他们开展了一场运动，如今我们叫它赛博朋克。<br>好了，这样你就准备好了。<br>作为一名电驭叛客，你要紧紧扼住科技的咽喉然后永不撒手。你从不惧怕尝试最新的“增强设备”，不论赛博技术还是生物工程。你的手腕上有界面接口，手臂上是杀人凶器，眼中有激光，脑子里是生物芯片程序。你和你开的车与自旋翼飞机，用的枪融为一体。你在网络中一马当先，以光速在巨量的数据堡垒和人工智能之间狂飙突进。你用赛博格手指撬开电子锁，你用增强感官，看向未来。<br>赛博朋克同时也是一种态度。你身着最“入时”的衣服，和对的人打交道，也跟随着正确的人潮。你在最受欢迎的俱乐部和酒吧中谋划犯罪；你的敌人是企业军队，赛博格飞车党，身着动力甲的刺客*嗯？刺客庭？气氛略显忠诚？*和插满电脑缆线的网虫。你的武器则是神经，街头智慧，虚张声势以及屁股兜里的那把迈阿密10智能枪。<br>现在你准备好了吗？当然了。你都等不及了。<br>现在你是一名电驭叛客了。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_998190">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg998191"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="检视会员资料:  千禧年网吧DJ">千禧年网吧DJ</a>
+</h4>
+<ul class="reset smalltext" id="msg_998191_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_998191">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.msg998191#msg998191" rel="nofollow">Re: 《赛博朋克2020核心规则》粗译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_998191'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_998191'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2019-06-05, 周三 22:21:07 &#187;</div>
+<div id="msg_998191_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_998191">摇滚小子<br>用音乐和叛逆对抗权威的反叛者<br><br>你若心向摇滚，那么这里就是你的归属地。摇滚小子是二十世纪的街头诗人、社会良知和反叛者。依靠不断进化的电子设备，每个摇滚小子都可以把自己的录音带存盘、而后借由通信卫星在大街上将自己的作品广而告之。<br>通常这些“噪音”是大企业和政府不想听到的，有时你的作品也会直接被这个世界的掌权者亲耳所闻。不过对于他们的反应，你毫不关心。因为作为一个摇滚小子，你知道你生来就要挑战权威、而这正是你的机会——无论是把令你不满的现实写进歌词，还是仅仅用闹翻天的摇滚乐让人们躁动起来，然后打开家门、走上街头。作为血液里流淌着叛逆灵魂的摇滚乐手，你有许多值得敬仰的先辈：Dylan, Springsteen, The Who, Elvis还有Stones。这些真正的摇滚乐手教会了你，真理就在你的吉他和歌词中。<br>作为一个摇滚小子，你有这种告知人们真相并予以启发，而后领导他们的能力。你的音乐给怯懦者勇气，让孱弱者坚强，使盲目者清醒。摇滚小子的传奇领导军队反抗企业和政府，摇滚小子的歌曲揭露腐败扳倒独裁。每晚到不同的城市巡回演出需要大量能量，但对你来说游刃有余。毕竟，来了就要玩个尽兴！<br><br>“我总是知道我要做的事——如此显而易见。有些人渣搞乱了这个世界，他们夺走生命、侵犯自然，被我们抓到把柄时却又满口胡言。”<br>“所以我决定让他们感到压力、惊出冷汗。那就是我成为摇滚小子的原因。”<br>“玩儿音乐最需要三个东西：吉他，态度，听众。我现在只需要搞到第三样就…”<br>——Kerry Eurodyne 摇滚小子<br><br><br>&nbsp;<br>佣兵<br>这个人可以是刺客，保镖，杀手，士兵（只要肯掏钱）<br><br>握紧枪支时，你仿佛得以重生。并非生下来就有的、由血肉组成的那双脆弱的手，而是满载各型各类凶狠火力的机械义体手。不管是作为一个兼职保镖还是雇佣兵杀手，又或者作为一名赛博士兵参与企业强迫别人与他们达成交易的地下行动，你都是在这赛博朋克世界里最顶尖的战斗机器之一。<br>大多佣兵投身过军队，在企业的私人武装或是参与到政府在全世界持续开展的军事行动中。随着战斗中负伤的积累，你越来越需求硬件的更新——用新的赛博肢体升级你的武器和护甲、最好的生物程序芯片提升你的反应速度、还有各式各样的战斗药剂。依靠这些，你在战斗中总能处于上风。当你成为这一行的佼佼者，你从企业的武士晋升为一名浪人——你自由地施展你夺取性命的才能、给那些付得起你高额佣金的人物当保镖或是办脏活。<br>听起来很棒？你付出的代价也不轻。现在你失去了大部分原先的肉身，在旁人眼中你与机器无异。你急速增长的杀手本能使你不得不每时每刻克制自己，从而免于陷入狂暴。数年如一日为占据优势而嗑药也让你对那些药物严重成瘾。你不再相信任何人。亲人、朋友、爱人，你都难以委以信任。前一晚还在城市顶端的气派公寓里下榻，次夜就要蜷缩在肮脏的小巷里入眠…这就是成为佼佼者的代价。<br>但你甘之如饴，因为你是佣兵。<br><br>“退伍后我陷入了困境。我擅长干这一行，但没有公司愿意雇佣我…我是说，当你有着训练有素的杀手背景，你能找什么工作呢？读街上贴着的悬赏通告？”<br>“几个月后在街上我和当地的加压帮头目起了争执，我轻而易举地做掉了他之后回自己的位子上继续喝酒。大概过了十分钟，Militech的人就出现找到我然后给了我一份员工卡…”<br>“现在我也是一个上班族了。薪水丰厚，工作稳定，他们还报销了我的义体费用。目前为止我还活着。目前为止，一切都还不错。”<br> <br>网络奇兵<br>赛博骇客<br>你三岁时收到了父母送给你的二手Apple电脑和Radius显示器，你的生活就此改变。五年级，你已经彻底掌握了学校在计算机课程上能教给你的所有东西，甚至开始用C和META-LINGUA攻击学校的后台服务器来篡改成绩。十三岁时你从未受到保护的TransAmerican银行账户中转走了足够的资金，买下了第一个神经接口。<br>现在没有什么可以阻止你了。全世界的人类被网络系统紧紧联系在一起，而你的意识直连计算机，一头扎进网络浩瀚的数据海洋。作为一个电子幽灵，你是一个终极骇客。你的大脑借由链接计算机得以与特制的调制解调器连接，从而让你可以在防备最严密的主机系统中闲庭信步。你用进攻和防御的程序骇入EBM，ITT，Sony-Matsushita-Ford的系统并时刻监视着那些家伙，盗取他们隐藏最深的秘密再拿去随意交易。<br>有时候你会发现不得了的大家伙：公司的欺诈行为和致命秘密，但那并不是你成为网络奇兵的初衷。你是为了新的程序、新的卫星链接线路带来的数据。每年反骇客程序和人工智能都在进化，总有一天会有比你还要快的程序骇入你的神经接口了结你的生命，你想，只是时间问题。但是时间站在你这边，直到那一刻到来你都是在网络间只身犯险一马当先的网络奇兵。<br><br><br>“你们这些在现实空间的家伙活动得太慢了。我呢，我喜欢网络空间。在这里你快如闪电、青春永驻。你需要做的只是把无趣的肉体丢在脑后，然后在网络空间里和我一起狂飙。”<br>“说到我攻击的第一个系统，那里的系统操作者都是群菜鸟，我骇入、轻而易举地用借来的Hellbolt电晕了他们。然后把他们的数据壁垒后的资料掠夺一空。”<br>“我看到有的人前脑都被烧穿了，不知道他们的尸体有没有在现实中被发现。有时候我也会想，将来我的尸体会不会也以那种状态被发现…”<br>——Spider Murphy<br><br><br>技师<br>打破机械学与医学的界限<br>你无法把任何东西丢在一边——如果它能出现在你的视线之内一小会，你就会把它大卸八块然后塞进一些新的东西。你的口袋里总是带着两把螺丝刀和扳手。电脑死机？小菜一碟。氢燃料洒进磁动力汽车了？易如反掌。录像机不好用或者无法感受到你的插口反馈？轻而易举。<br>&nbsp; 你的生活被架设，修理和定制充满——在一个没人能知道他们自己的身体如何运作的由齿轮推动的世界中，这是一个举足轻重的职业。你可以在一些小的修理工作中赚些活计，但要是想发大财，你就需要干些大事了。违法的武器。违法的或者偷来的网络元件。给那些在大人物做的见不得光的活动中进行大规模间谍活动和反间谍活动提供装备，稍微做做类似于铝热炸弹，给偶然碰见的猎人划上生命终止符的猎-猎人机器人之类的“小玩意”。<br>&nbsp; 只要你手头有点东西，你就能以此创造财富。然后这些钱就能拿来买更多的零件，配件以及情报。你一般都会买些全新的工具——因为你总会拿他们干很多事情。当然，你的黑市也不只是给你和你的朋友提供便利——你的敌人也会把你列入更危险的名单；那些经过你手的人们也会对你恨之入骨。所以你会在自己的保护方面会投入很多，而且如果你真的走投无路了，那不妨找来一两个欠你人情的Solo。<br>&nbsp; 和你隔一条街的表弟也跟你一样，但他是个机械药剂师。在一个大多数“药”都跟机械有关的世界中，这职业可谓至关重要。他在黑市中做一个机械外科手术比你修一个烤面包机还要快，and the solos are always running to him to 缝补伤口或者是安装违法控制系统。他也遇到了很多你遇到过的问题，但他一直期待着他的这份在Trauma Team 公司的工作会让他的生活能腾出一点空间。你希望他是对的。毕竟你可能会比你想象中更需要他。<br><br><br>“所以你想让放我在这玩意里放上个延时开关？而且真的不在乎爆炸辐射？”<br><br>“没问题。至少你这个是个轻松的活儿。刚刚在这的那家伙想让我给他做个机械手，上面还要搭载……啊我*老兄，这可不是个好事我跟你讲，这几天人们总是想搞那些诡异至极的配件……”<br><br>“我听说一批新的外骨骼要运往千叶市，你想用这种奇怪的梅赛德斯重航空器填满身体……交给我吧。如果你能找到那些零件，我就能给你安上。交给我吧，琼博塔。”<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;——泰克尼斯设计公司董事长艾斯先生<br><br><br>媒体人<br>不撞真相不回头的编辑和记者<br>&nbsp; 他们在歪曲真相。而你准备去阻止他们。总有人要这么做。各种巨头公司统治着世界，他们倾洒毒物，撼动经济体系，让那些杀人凶手免除罪责。政府却不会阻止他们——他们同样掌控着政府。这些公司与成为世界的支配者的唯一阻碍就是媒体。而你，正是媒体的化身。<br>&nbsp; 你有一台摄影机和一个记者证——同时也敢自由地使用他们。你在每天晚上播向全世界几百万电视机节目中的身影举世瞩目。你有着自己的粉丝，自己的合约和自己名下的公司。他们根本无法抹除你的存在。当你想揭露他们的那些见不得人的勾当而他们的走狗想尝试掩盖过你的耳目时，你可以挖得更深。隔天早上，你就可以让那些罪证统统出现在显示屏中。而这时，政府就只能对此采取措施了。<br>&nbsp; 一周前，你摸着一条线索揭发了一个药品公司在大街上倾销非法药物。而这周，你在南美探索者一个秘密的的商业战争——它已经以喷气飞机，炸弹和网络部队害死了接近七千条无辜的性命。每一个你曝光的新故事都是一次向自由与正义的飞跃。而业绩这种东西你早已抛之脑后。<br>&nbsp; 但这条路并不好走。他们已经无数次给你的媒体警察施压了。你的故事也曾被压下来过——有一次，上头给出的压力逼着他们取消了你的新闻秀。而你每次总是会跟你的新闻导演和节目组一起拼命努力，让你的新闻杀出一条血路。有那么三四次，他们想杀了你，这便是你只有一个贴身保镖和一个业内能力顶尖的跑腿的在网上发布你的故事的原因。你必须更努力。<br>&nbsp; 你与给你跑腿的人之间用那些线索联系。他从二十吨即将走私到玻利维亚的核武器中找出了一条线索。你抓起你的“武器”然后背上性能。你将用你的手段击溃那些恶棍。<br>&nbsp; 这次还不搞定他们！<br><br><br>&nbsp; “好吧这看起来的确很危险。来，告诉你些事实。在我还是个孩子的时候，我就常常在电视里的新闻看报道了。他们总是穿着那些御寒的风衣在莫桑比克或者胡志明市做着报道。他们直接跟（cybergrunts）一起冲进战地，然后不顾枪林弹雨记下每一个重要时刻。”<br>&nbsp; “这份危险就是我做记者最喜欢的部分。”<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ——来自54号广播网的莱尔·麦克莱伦<br><br><br>&nbsp; 执法者<br>21世纪街道中的最高法律<br>&nbsp; 在以前，他们敢对警察开枪，而现在，只带着子弹忘记带枪可以算你撞大运了。在过去的那些日子里，街道暗流涌动，遍地都是新的毒品，新的黑帮，还有能让m16看起来是小孩子的玩物的新武器。如果你在城市的公安局工作，你就知道这有多糟糕了。你得随身携带着至少四把几乎都是全自动的大口径武器，穿着每平方英尺能阻止850磅重量冲击的的凯夫拉纤维背心——但这样你仍然有弹尽粮绝腹背受敌的时候。半数黑帮的成员已经半机械化——超高的速度，超快的反应，夜视能力，胳膊上装着武器……另一半黑帮则是自由的外国雇佣兵队——那些巨头公司雇来维持街头秩序的帮派。而这就是你——一个全服务张，开着一辆装甲巡逻车，在这片遍地猎食者的丛林中巡逻的小小警察。<br>&nbsp; 公司的警察们——这就是现状。火力强大的武器，复盖全身的战斗装甲，创伤小组的后备支援，av—4型突击车和装有轻机枪的旋翼机。但他们只在政府给他们划的那些地盘巡逻。那些干净整洁的街道上到处伫立着焕然一新的办公楼和豪华饭店——在那种地方不会有哪个神经病会拿着ak-47在街道上乱杀一通。你拿到了比较坏的一块地盘。残垣断壁，毫无生气，同时每天晚上都会是一场新的火并和又一次生灵涂炭的大好时机。<br>&nbsp; 如果你真的倒霉到家了，你可能会遇到疯控小队。那些队员的任务就是猎杀那些全副武装却失控的半机械步兵。当然，他们已经有了轨道炮，飞行器以及AV的使用权。但那些失控的半机械步兵可以在枪林弹雨里闲庭信步却毫无知觉。许多疯控小队的警探已经把他们自己给逼疯了。他们穿上厚重的防弹服，拿着巨兽般大的枪械，独自一人狩猎那些半机械步兵。但你可没有那么疯狂。<br>&nbsp; 暂时是这样。<br><br><br>企业代表<br>老练的商业精兵和千万富翁<br>在从前，人们叫你雅皮士——一个目标明确，在晋升的快车道上一路向前的工管硕士。没错，这就是把灵魂卖给公司，但是面对现实吧；企业才是赛博朋克世界的统治者。它们掌控着政府，市场，国家，军队——几乎任何东西。你知道掌控了企业的人便掌控了其他一切。<br>现在，你作为初级主管的日子可不好过。你手底下的家伙为了有机会爬上你的位子，连杀人都在所不惜。对他们来说杀人可不是说着玩玩——企业里的每个后起之秀都养着一群solos和netrunners，来保证他们的项目得以执行。搞破坏？经常发生。行贿？家常便饭。敲诈勒索？日常活动。通过暗杀取得晋升？每时每刻都有可能。赌注实在太高了——稍有不慎你就得卷铺盖滚蛋流落街头，或者当场去世。<br>你的领导会给你分派一些项目。有的很直接；为公司的医疗子公司设计一套新的生产流程。有的就很粗略——向城区派出一支“黑色小队”来散布设计好的瘟疫，这样一来市场部门就可以接着贩卖疫苗。上个星期，你带领着一个由solos，runners和techies混编的小队进行了一次猎头行动，绑架了对手公司的研究员。再上个星期，你的项目是从欧洲航天局偷走一份新型亚轨道航天飞机的设计图。（这样航空航天部就可以复制这种设计把它卖给苏联）<br>你告诉自己你加入企业是要把它变得更好——你说这叫打入内部工作。但你现在没那么确定了。你的理想渐渐蒙尘而且情况看起来相当无望。但你现在没工夫思考伦理问题。你一个小时前刚接到报告，好像有个销售部的家伙正在计划把你的数据库永久冻结。你得先他一步，以彼之道还彼之身。<br><br>“钱。没错，我是很有钱：最新款宝马飞行车，还有企业区的顶层公寓。可这些钱屁都不算。你是为了权力而战。权力能让你做完事情；做出重大决策；有所影响。你打一通电话，眨眼之间，你就能告诉一个欧洲二流小国的总统：他最好按你的规矩来，要不就死定了。<br>“这就是我工作的原因。这就是为什么我站在公司的一边。”<br>——某不知名企业代表<br><br><br>中间人<br>交易人，走私犯子，组织者和消息掮客<br>你意识到自己不可能被企业雇佣了。你觉得自己比起佣兵不够强硬也不够疯。但作为一个无足轻重的小人物，你意识到自己掌握了一个本领，你能看出别人想要什么，也知道怎么帮他们把想要的东西弄到手。当然了，要收钱的。<br>现在你的业务从一开始块八毛的小生意发展壮大。你将违法武器运过边境，或者把企业的医疗物资偷来卖掉。你也可能是个专业掮客——作为高身价的佣兵和runner的代理人，甚至雇佣整个游牧部落来完成客户的委托。你像一个老派的黑帮教父那样托关系，卖人情。你跟商业或政治上的任何组织都有联系。你利用你的联系人和盟友来构筑一张阴谋与威压的巨网——当然，你不会直接参与其中。如果城里有一家热门的夜店，你肯定早已入股。如果街头出现了一批新的军用级武器，那是你把它们走私进来的。如果企业间即将爆发战争，你会在参与斡旋的同时寻找获利最大的机会。<br>但你不完全是为了钱做事。要是有人要摆脱追击，你会帮他藏起来。若有人没有住处你会帮忙安排。当你的街坊陷入困境时你也会送他们食物。你知道他们以后会报答你，但其实也不太确定。你有一分像罗宾汉，有两分像艾尔·卡彭。在九十年代他们可能会叫你黑道大哥。但现在是碎片化的，肮脏又要命的2020年代。现在你被称为中间人。<br><br>“别给我来‘罗宾汉’那一套。我就是按规矩办事，没别的了。我交货，他们交钱。<br>“行吧，我的确时不时还个人情，但这对生意也有好处。你交个朋友——街上太危险的时候他们会收留你，你需要的时候他们会传给你些数据。不过这就只是生意。<br>“我有句口头禅：‘你能付我多少钱？’”<br>——Phil “Nacho” 来自赫尔南德斯的中间人<br><br><br>游牧民<br>公路上的勇士和吉卜赛式的流浪者。<br>十年之前，他们把你的家族从农场里赶走。大企业进驻，接管了土地，到处都是他们雇来的执法者。这不是第一次了；当然也不会是最后一次。最终，你的家族和一群其他流浪家族聚在一起······你们建立了一个有近两百人的游牧部落。<br>现在你的游牧部落挤在一个由轿车，货车，公交和房车组成的巨大而破烂的车队中间，在高速上流浪。你在一个社会早已分崩离析的世界里寻找补给，备用零件，以及打零工的机会。部落就是你的家——那里有老师，医疗技师，领导者和机械师——实际上就是一个车轮上的小镇，镇上的人互相都有些亲戚关系。有时部落会停靠在城镇里来补充燃油或者吃点东西。有时部落会跟着收获季节向南移动；帮助收割作物来换取钱或食物。更加不守法的部落就像是移动的军队，他们威胁城市，在企业战争中受雇充当战力。显而易见，警察不喜欢游牧民。但没关系——你的载具常常是全副武装，上面支棱着偷来的武器；机枪，火箭发射器这类的东西。每个小孩都知道怎么使用步枪，每个人都随身带着小刀。在21世纪当个流浪汉可不是件容易事。<br>部落里最显眼的成员是斥候——身着装甲皮夹克的车手骑着摩托或者开着飞快的肌肉车，他们保护车队免受袭击，同时寻找安全的扎营地。作为一个斥候，你要提防各种麻烦，而且由于敌对的车队，法律，企业都和你不太对付，所以麻烦总是接踵而来。你要面对崎岖坎坷的道路，就如同一个现代的牛仔。你有一杆枪，一辆摩托，这就足矣。你是个游牧民。<br>“枪。枪与赛博摩托。这就是我们坚持下去的法宝。我们只有车队这一个家。我们也只有身上带的这些家当。我们被警察赶出镇子；我们被公路战士劫掠，但我们活下来了，因为我们还有枪和摩托······<br>“这里有孩子，老人和女人——家就在这。这可不是什么加压帮。这些人是我的家人。”<br>——游牧民Santiago<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_998191">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg998192"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="检视会员资料:  千禧年网吧DJ">千禧年网吧DJ</a>
+</h4>
+<ul class="reset smalltext" id="msg_998192_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_998192">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.msg998192#msg998192" rel="nofollow">Re: 《赛博朋克2020核心规则》粗译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_998192'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_998192'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2019-06-05, 周三 22:21:49 &#187;</div>
+<div id="msg_998192_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_998192">【导语】<br>他们在轰鸣声中向我们全速袭来。肯定得有百来个人。我们被压制得动弹不得，眼看就要被碾成15号压缩食品。这时死神杰克打了一剂大锯齿，像内固醇超标的报丧女妖似的大吼一声，一下跃上了领头的赛博摩托。<br>第二节 成为电驭叛客<br>人物数据就是硬件——你的人物和规则交互的框架。记住，硬盘本身不是软件，掷骰子的结果也不是你的人物本身。别太被数据限制住了。<br>人物点数<br>人物点数是用来创建人物的货币——用来“购买”人物的各种“技术性”面貌，比如好看的长相，强健硬朗的身体，无可动摇的冷静以及街头智慧（不是指技能）。我们为你提供了三种产生人物点数的方式：<br>1）&nbsp;&nbsp;&nbsp;随机：投九个十面骰然后把点数相加，你就拥有这么多人物点数<br>2）&nbsp;&nbsp;&nbsp;快速：为每个属性都投一个十面骰（共投九个），如果点数小于二就重投。将每个骰子的点数按喜好分配给一个属性。<br>3）&nbsp;&nbsp;&nbsp;电影式：这个选项只有裁判才能选择。作为这场冒险的设计者，裁判可以选择基于角色在游戏中的位置给每个角色固定的点数。<br>头号主人公&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80分<br>主要配角&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70分<br>次要的主人公&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75分<br>次级配角&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60分<br>普通路人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50分<br>注意：我们本该在这里警告未来的裁判，他们的玩家可能会为了制造“神卡”耍各种小花招。但是现实点，如果玩家非要车一个传奇人物，我们有什么权力阻止他们呢？你们都是大孩子了，而且要是你，作为裁判，觉得你的玩家行为逐渐越轨，为什么不直接把他们玩坏呢？这么玩才叫赛博朋克。 <br>属性<br>《赛博朋克》中的每个人物都有九项属性——它们的数值代表了你的人物进行某类特定活动的能力等级。这些属性从二到十不等，其中二代表差到极点，十代表强到极限，一般水平大概是五到六。你要将你的人物点数分配给这九项属性，以你认为最好地反映了该人物能力的方式调整每项的数值。每项属性不能低于二也不能高于十。<br>智力Intelligence（INT）：<br>这个数值代表了你解决问题的能力；解开难题，注意到异常，回忆起信息。几乎任何类型的人物都需要较高的智力，其中网络奇兵和公司代表对智力的要求最高。<br>反应Reflexes（REF）：<br>这是个综合性指数，包括了最基本的敏捷，还有你身体的协调性，后者会影响你的驾车，飞行，战斗和体育水平。打算频繁参加各种战斗的人物（比如佣兵，游牧民或者摇滚小子）应该尽可能多点反应。<br>冷静Cool（CL）：<br>这个数值体现了人物对压力，恐惧，疼痛以及折磨的抵抗力。当要决定你战斗的意志有多高，能否无视伤口，在火力压制下战斗能力如何的时候，冷静值就至关重要了。冷静也决定你的人物情绪有多么稳定，以及在别人面前表现得多坚强。摇滚小子和中间人应该把冷静点高，佣兵和游牧民则应该把冷静点到最高。<br>技术力Technical Ability（TECH）：<br>这个数值体现了你和硬件以及其他科技导向的物品的交互能力，在《赛博朋克》中，使用或维修科技产品的能力绝对是最重要的——你在维护，修理或者试图使用不熟悉的科技产品时就会用到技术力这一属性。虽然每个角色都应该有不错的技术力，但技术专家应该尽可能地把这个属性点高。<br>幸运Luck（LK）：<br>这是某种看不见摸不着的“东西”，它让事情往对你有利的方向发展。你的幸运代表了你每场游戏有多少点数来影响关键事件的结果。使用幸运的方式是，你可以把任意数量的幸运点数加在一个关键的骰子结果上（在掷骰前就声明你要使用多少幸运）直到所有幸运点数都被用完。在每场游戏结束时幸运总会补满。<br>吸引力Attractiveness（ATT）：<br>这代表了你外表多么吸引人。在《赛博朋克》中，光把事办好是不够的——你办事的时候最好让人看着赏心悦目（态度决定一切）。对于媒体人和摇滚小子来说吸引力尤为重要，因为保持良好的面貌是他们工作的一部分。<br>行动力 Movement Allowance（MA）：<br>这是你能跑多快的指标（在战斗情况下十分重要）。你的行动力越高，你在一回合中就能跑得越远。<br>奔跑：要决定你在一个战斗轮（3.2秒）中能跑多远，将你的行动力乘以三。在一个完整的十秒轮当中，你的人物可以跑这个距离的三倍。将这个数值写在人物卡的奔跑栏当中。<br>跳跃：要决定你的人物可以越过多远（在有助跑的情况下），把你的奔跑值除以四。将这个数值写在人物卡的的跳跃栏当中。<br>同理心Empathy：<br>这个属性代表你有多么关心其他的生命——一个关乎魅力与同情心的的数值。在一个被未来发展冲击过后，残存的人类日渐疏离的世界中，保持“人性”的能力可不再是稀松平常的了。同理心在领导，说服，魅惑和发觉潜在的感情倾向时至关重要。同理心能够衡量一个人离从正常人类变为冷血赛博怪物（详见73页）有多远。<br>人性：这个数值和你关心其他生命的能力在你机械化时的损失有关。将你的同理心乘以十来确定你有多少点人性。将结果写在人物卡对应的格子里。记住：每损失十点人性，你就会失去一点同理心。这对和同理心相关的技能有严重的影响，同时也会把你推向机械诱发性精神病的边缘。<br>体型Body Type（BT）<br>力量，耐力和体质都是基于人物的体型。体型决定了受伤时你能扛下多少伤害，你能提起或搬动多重的东西，你能把物品扔多远（99页），你眩晕时的恢复能力，还有你用身体攻击时能造成多少额外伤害。体型对于每个人物也都很重要，但佣兵，摇滚小子和游牧民最需要体型。<br>&nbsp;&nbsp;&nbsp;点数对应的体型<br>&nbsp;&nbsp;&nbsp;2点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;弱不禁风<br>&nbsp;&nbsp;&nbsp;3-4点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;瘦弱<br>&nbsp;&nbsp;&nbsp;5-7点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平均水平<br>&nbsp;&nbsp;&nbsp;8-9点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;强壮<br>&nbsp;&nbsp;&nbsp;10点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;壮硕如牛<br>你可以拿起你体型值乘以十千克的物品。同时如果你被你体型值乘以四十千克的物体压住你就会死。<br>豁免值<br>你人物的豁免值等于体型，要进行豁免，你要掷一个十面骰，结果要小于或者等于这个数字。在《赛博朋克》中有两类豁免：<br>眩晕豁免：在《赛博朋客》中，每当你受到伤害或者被下了让人晕倒的药物，你都要进行一次眩晕豁免。如果你没能通过眩晕豁免，你就无法再参与战斗，而且直到你在接下来的战斗轮中进行一次成功的眩晕豁免前，你都不能恢复。你在每轮都可以投一个豁免，直到你恢复。<br>死亡豁免：当你受到了致命伤害时（详见周五火拼夜，104页），或者当你中了某种特定的毒时，你就要进行一次死亡豁免。如果投出失败，你就可以去尸体银行报道了。<br>现在暂停一下，去找到你人物卡上的豁免栏然后把它填上。<br>体型修正Body Type Modifier（BTM）<br>人受伤的反应各不一样。举个例子，要让终结者阿诺停下可要比让宅男阿诺停下需要的伤害多得多。这就反映在体型修正上，体型修正是一个用来减轻伤害效果特殊数值。体型修正会让你在战斗中承受的每次伤害都有减值。<br>&nbsp;&nbsp;&nbsp;体型修正表<br>&nbsp;&nbsp;&nbsp;弱不禁风&nbsp;&nbsp;&nbsp;-0<br>&nbsp;&nbsp;&nbsp;瘦弱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1<br>&nbsp;&nbsp;&nbsp;平均水平&nbsp;&nbsp;&nbsp;-2<br>强壮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-3<br>壮硕如牛&nbsp;&nbsp;&nbsp;-4<br>超人类*&nbsp;&nbsp;&nbsp;-5<br>*在经过电子改造后有可能达到<br>举个例子，假设你受到了十点伤害。如果你的体型属于弱不禁风，那么你就会承受全额十点伤害。但如果你的体型是壮硕如牛，你就只会受到（10-4=6）六点伤害。<br>在你的人物卡上找出体型修正栏并把它填好。记住，不管你经过多少改造，你要保留一些肉体。<br>迅速造出杂鱼<br>你很快就会意识到，《赛博朋克》的角色构建系统旨在为你提供灵活多变的可能性。你可以按需定制角色，全程按照个人意愿加工。<br>但当你要造出一群没有个性的加压帮混混的时候，你可不会想要花费那么多的时间精力。相反，你需要 一种快速又简单的方式来创造无穷无尽的坏蛋供你的玩家无双割草。<br>接下来的五步骤快速创建角色系统允许你创建一大群毫无个性的保安，杀手，士兵或者别的你要用的坏蛋。迅速地过一遍他们的生平可以快速制造出一个杂鱼的背景，正好和你快速造出的杂鱼NPC 相称。所以别有顾忌，把他们干爆吧，我们还能造出更多。<br>第一步：生成属性<br>1）掷九次2D6，把每次掷骰结果记下来，如果有大于等于十一的结果，重投。把每个数字放在一个属性上直到所有属性都填好。<br>第二步：选择一个角色与技能<br>1）为人物选择一个角色。将他的职业技能包（44页）写在合适的位置，将四十点分配在这些技能中。<br>2）如果人物是高级NPC，额外再投一个2D10，把得到的点数分配到五个习得技能上。<br>第三步：挑选赛博设备（详见76-79页）<br>掷十面骰，佣兵掷六次，其他职业掷三次。如果有重复，重掷。<br>1）光学设备（掷六面骰来确定类型）<br>&nbsp;&nbsp;&nbsp;1红外<br>&nbsp;&nbsp;&nbsp;2夜视<br>&nbsp;&nbsp;&nbsp;3摄像<br>&nbsp;&nbsp;&nbsp;4带麻醉镖<br>&nbsp;&nbsp;&nbsp;5防眩光<br>&nbsp;&nbsp;&nbsp;6瞄准镜<br>2）带武器的义手（掷六面骰来确定类型）<br>&nbsp;&nbsp;&nbsp;1中型手枪<br>&nbsp;&nbsp;&nbsp;2轻型手枪<br>3中型手枪<br>4轻机枪<br>5超重型手枪<br>6重型手枪<br>3）音频设备（掷六面骰来确定类型）<br>&nbsp;&nbsp;&nbsp;1wearman<br>2无线转接设备<br>3电话连线<br>4强化听力<br>5声音编辑<br>6数码录音连线<br>4）指虎<br>5）锯子<br>6）吸血者*存疑*<br>7）大砍刀<br>8）反应增强（Kerenzikov）<br>9）反应增强（Sandevistan）<br>10）什么也没有<br>第四步：护甲和武器<br>掷十面骰，并加上下面的修正：佣兵+3，游牧民和执法者+2，其他角色无修正。<br>点数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;护甲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武器<br>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重皮甲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小刀<br>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;装甲背心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻型手枪<br>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中型手枪<br>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型手枪<br>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型手枪<br>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻型冲锋枪<br>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻突击步枪<br>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中型突击步枪<br>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型装甲夹克&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型突击步枪<br>10以上&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合金装备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重型突击步枪<br>第五步：写下来<br>填好下面的NPC 表<br>【25页黑框】人物数据：就是一个《赛博朋克》角色和游戏规则交互时所用到的东西。<br>【29页黑框】“死人就是死人，零件就是零件，死了的人就是零件。”——死神杰克<br>【25页边栏】<br>骰子<br>《赛博朋克》的各种系统共用到两种骰子：最普通最平常的六面骰（在最流行的游戏和拉斯维加斯的赌场里都有它的身影），还有更不平常的十面骰（日本皇家海军和很多角色扮演游戏专用）。在《赛博朋克》中，骰子常常用“D”代表，后面的数字则是骰子的面数。你如说，一个普通的六面骰可以用“D6”代表。使用骰子的方式多种多样，比如：<br>•&nbsp;&nbsp;&nbsp;一次性投一组骰子然后把结果加在一起（掷3D6就是指掷三次六面骰然后结果相加得到一个从三到十八的数字）<br>•&nbsp;&nbsp;&nbsp;掷一个或多个骰子再加上一个叫做修正的值来得到一个最终结果，例子如下：1D6+1，或者1D10-2。<br>•&nbsp;&nbsp;&nbsp;掷两个十面骰，其中一个作为十位数一个作为百位数。（称为投百分比）。<br>舍入与加值：在《赛博朋克》中，如果你将一个数除开得到的结果是小数，那么则自动向下取整。（比方说2.65352就舍为2）。如果一个经过修正的结果（比如1D6-4）小于或等于零，那除非特殊情况否则它自动等于一。<br>【26页边栏】<br>人物卡<br>你首先需要一个记录各种信息的地方。复印（或者手绘）一张你自己的角色卡来在上面记录。一定要留一个备份以防原来那张卡在跑团的过程中遭遇不测。<br>记住：未来是一次性的。<br>好了，拿出你的人物卡，掷些骰子，我们准备开始创建人物了。<br>【29页边栏】<br>“注意了，尸体银行的客户们！现在在我们的15号冷库正在进行蓝光特卖！我们有各种颜色和品质的眼球通通半价！快来15号冷库购买精选商品吧，再不买它们就要变质了······”——《药品交易与储存》*疑似杂志名称*<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_998192">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg998194"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="检视会员资料:  千禧年网吧DJ">千禧年网吧DJ</a>
+</h4>
+<ul class="reset smalltext" id="msg_998194_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="postcount">帖子数: 20<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_998194">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.msg998194#msg998194" rel="nofollow">Re: 《赛博朋克2020核心规则》粗译</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_998194'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_998194'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2019-06-05, 周三 22:22:49 &#187;</div>
+<div id="msg_998194_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_998194">“我记得她说她生在迈阿密，大概2004年吧······她相当肯定，因为她还记得当年的事，欧盟往华盛顿‘丢石头’的时候，连带着摧毁了坦帕······<br>“她的眼睛蓝得你不敢想象，明澈透亮，里面就像网状的水晶，脸上带着杂志里面一样的微笑。当然了，那眼睛是Teknics2350‘s型的，笑容也真的来自一本杂志——完美的生物塑形作品。到头来有几分真几分假其实无关紧要。我还是会对她有生理反应。我这人就这样。”<br>——Johnny Silverhand<br>第三节<br>人间故事<br>就好像从克隆缸里爬出来一样，你的半成品人物就站在这，傻笑着滴答水。你有了一些属性，可能还有一个对未来走向的模糊想法，没别的了。<br>那么你怎么能把这块白板变成真正的电驭叛客呢？<br>你要从人生经历开始，人生经历是一种“复杂情节”的流程图，旨在帮助你为你的《赛博朋克》人物创作一个可信的晦暗未来式背景故事。它的七个章节包括了你的国籍，种族，你的家人，朋友，敌人，个人兴趣甚至是每年的关键事件。它主要起引导作用，如果你遇到了一些你认为和你预想中相悖的情况，你可以按你觉得合适的方向自由改动。将人生经历记录在人物卡的背面。记住：《赛博朋克》的关键在于角色扮演，所以跑团时请充分利用人生经历里面的信息。我保证它能产生各种冒险故事！<br>由此开始：<br>1）起源和个人特征<br>你从哪来？长什么样子？<br>服饰和个人特征<br>在《赛博朋克》中，外表重于本质，时尚就是成就，风格高过一切。投三次D10（每栏对应一个骰子）来确定你的外表特征。<br>骰子点数&nbsp;&nbsp;&nbsp;衣着&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特色装饰<br>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;皮制摩托车手装&nbsp;&nbsp;&nbsp;莫霍克型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文身<br>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蓝色牛仔装&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邋遢长发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;墨镜<br>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;白领西装&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;竖立的短发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;仪式留下的疤痕<br>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;连衣裤&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;未经打理的长发&nbsp;&nbsp;&nbsp;带尖刺的手套<br>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超短裙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;光头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鼻环<br>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;昂贵高雅的流行款式&nbsp;&nbsp;&nbsp;条纹式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;耳环<br>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;迷彩服&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;染色的&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长指甲<br>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通衣着&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利落短发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;带马刺的靴子<br>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裸体&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;短卷发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;奇特的隐形眼镜<br>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;流浪汉风格&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长直发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;露指手套<br>族群出身<br>《赛博朋克》是一个多文化多民族的世界观。你的出生地决定了你的母语，风俗和从属国。选择或掷骰决定你的出生地，然后在后面列出的选项中选择你的母语。当你说母语时，获得+8的加值。另外，你也默认会说街话，这是一种由英语，法语，德语，日语以及另外五六种语言混杂形成的通用语言。<br>1&nbsp;&nbsp;&nbsp;英美（英语）<br>2&nbsp;&nbsp;&nbsp;非洲（班图语，芳蒂语，刚果语，阿善堤语，祖鲁语，斯瓦希里语）<br>3&nbsp;&nbsp;&nbsp;日本/韩国（日语或韩语）<br>4&nbsp;&nbsp;&nbsp;中欧/苏维埃（保加利亚语，俄语，捷克语，波兰语，乌克兰语，斯洛伐克语）<br>5&nbsp;&nbsp;&nbsp;太平洋群岛（密克罗尼西亚语，塔加拉族语，波利尼西亚语，马来语，苏丹语，印度尼西亚语，夏威夷语）<br>6&nbsp;&nbsp;&nbsp;中国/东南亚（缅甸语，粤语，普通话，泰语，藏语，越南语）<br>7&nbsp;&nbsp;&nbsp;非裔美国人（英语，黑人俚语）<br>8&nbsp;&nbsp;&nbsp;西班牙裔美国人（西班牙语，英语）<br>9&nbsp;&nbsp;&nbsp;拉丁美洲（西班牙语，葡萄牙语）<br>10&nbsp;&nbsp;&nbsp;欧洲（法语，德语，英语，西班牙语，意大利语，希腊语，丹麦语，荷兰语，挪威语，瑞典语，芬兰语）<br>2）家庭背景<br>你是谁？从哪来？每个在街头奔走的人都有他们自己的故事。你的故事是什么？<br>（以下每项都可自由选择或掷骰得出）<br>家庭阶级<br>1&nbsp;&nbsp;&nbsp;公司行政层<br>2&nbsp;&nbsp;&nbsp;公司管理层<br>3&nbsp;&nbsp;&nbsp;公司技术层<br>4&nbsp;&nbsp;&nbsp;游牧部落<br>5&nbsp;&nbsp;&nbsp;盗匪行伍<br>6&nbsp;&nbsp;&nbsp;黑帮家庭<br>7&nbsp;&nbsp;&nbsp;犯罪头目<br>8&nbsp;&nbsp;&nbsp;战区难民<br>9&nbsp;&nbsp;&nbsp;城区流浪者<br>10&nbsp;&nbsp;&nbsp;栖身建筑群<br>父母<br>1-6&nbsp;&nbsp;&nbsp;父母双全。跳转到 家庭状况<br>7-10 父母发生意外。跳转到 父母发生意外<br>父母发生意外<br>1&nbsp;&nbsp;&nbsp;父母在战争中去世<br>2&nbsp;&nbsp;&nbsp;父母在事故中去世<br>3&nbsp;&nbsp;&nbsp;父母被谋杀<br>4&nbsp;&nbsp;&nbsp;父母失忆，记不起你了<br>5&nbsp;&nbsp;&nbsp;你不知道父母是谁<br>6&nbsp;&nbsp;&nbsp;父母为了保护你躲起来了<br>7&nbsp;&nbsp;&nbsp;为了你的安全，你被送给亲戚寄养<br>8&nbsp;&nbsp;&nbsp;你在街头长大，父母没管过你<br>9&nbsp;&nbsp;&nbsp;父母把你遗弃，你被他人领养<br>10&nbsp;&nbsp;&nbsp;你的父母把你卖了<br>跳转到 家庭状况<br>家庭状况<br>1-6&nbsp;&nbsp;&nbsp;家庭面临危机，你有失去一切的风险（如果你还有什么东西的话）。转到 家庭悲剧<br>7-10 家庭状况还好，即使在之前父母已经出了问题。 转到 童年环境<br>家庭悲剧<br>1&nbsp;&nbsp;&nbsp;家族被背叛，失去了一切<br>2&nbsp;&nbsp;&nbsp;家庭管理不善，一贫如洗<br>3&nbsp;&nbsp;&nbsp;家庭被原来所在的家族/国家/公司流放了<br>4&nbsp;&nbsp;&nbsp;家人入狱，只有你逃了出来<br>5&nbsp;&nbsp;&nbsp;除你之外所有家族成员突然消失<br>6&nbsp;&nbsp;&nbsp;家人都遭到谋杀，你是唯一幸存者<br>7&nbsp;&nbsp;&nbsp;家族长期和阴谋集团，组织或社团勾结，例如犯罪家族或者革命团体<br>8&nbsp;&nbsp;&nbsp;你的家人在一场不幸中流落四方<br>9&nbsp;&nbsp;&nbsp;你的家族处于几代人的长期不和当中<br>10&nbsp;&nbsp;&nbsp;你继承了家族的债务；你要先偿还这笔债务才能继续自己的生活<br>童年环境<br>1&nbsp;&nbsp;&nbsp;街头，没有成人看护<br>2&nbsp;&nbsp;&nbsp;安全的企业郊区<br>3&nbsp;&nbsp;&nbsp;在城市间迁徙的游牧部落<br>4&nbsp;&nbsp;&nbsp;正在衰落的高档小区<br>5&nbsp;&nbsp;&nbsp;位于市中心的保护良好的企业区<br>6&nbsp;&nbsp;&nbsp;战区的中心<br>7&nbsp;&nbsp;&nbsp;远离城镇的小村庄<br>8&nbsp;&nbsp;&nbsp;巨大生态建筑群组成的城市<br>9&nbsp;&nbsp;&nbsp;大海上的海盗部落<br>10&nbsp;&nbsp;&nbsp;企业控制的农场或者研究实施<br>转到 兄弟姐妹<br>兄弟姐妹<br>你最多有七个兄弟姐妹<br>投D10,结果为1-7代表了你兄弟姐妹的数量。如果投出8-10，代表你是独生子女。对每个兄弟姐妹：<br>1）&nbsp;&nbsp;&nbsp;掷D10，偶数为男性，奇数为女性。<br>2）&nbsp;&nbsp;&nbsp;掷D10，1-5代表比你年长，6-10代表比你年幼，10代表和你是双（多）胞胎<br>3）&nbsp;&nbsp;&nbsp;掷D10，来决定这个人对你的态度<br>1-2&nbsp;&nbsp;&nbsp;他不喜欢你<br>3-4&nbsp;&nbsp;&nbsp;他喜欢你<br>5-6&nbsp;&nbsp;&nbsp;对你不喜欢也不讨厌<br>7-8&nbsp;&nbsp;&nbsp;他把你当做偶像<br>9-10&nbsp;&nbsp;&nbsp;他对你恨之入骨<br>3）行为动机<br>是什么驱使着你行动？你是要支援队友还是自己carry？对你来说什么最重要？<br>（以下每项都可自由选择或掷骰得出）<br>&nbsp;&nbsp;&nbsp;个性特质<br>1&nbsp;&nbsp;&nbsp;羞涩神秘<br>2&nbsp;&nbsp;&nbsp;反叛，反社会，暴力<br>3&nbsp;&nbsp;&nbsp;自大，傲慢，冷淡<br>4&nbsp;&nbsp;&nbsp;易怒，轻率，顽固<br>5&nbsp;&nbsp;&nbsp;吹毛求疵，难以取悦，神经兮兮<br>6&nbsp;&nbsp;&nbsp;刻板严肃<br>7&nbsp;&nbsp;&nbsp;愚笨，呆头呆脑<br>8&nbsp;&nbsp;&nbsp;鬼鬼祟祟，虚伪<br>9&nbsp;&nbsp;&nbsp;聪慧超然<br>10&nbsp;&nbsp;&nbsp;友善外向<br>你最珍视的人*明明后面有宠物···*<br>1&nbsp;&nbsp;&nbsp;父亲或母亲<br>2&nbsp;&nbsp;&nbsp;兄弟姐妹<br>3&nbsp;&nbsp;&nbsp;爱人<br>4&nbsp;&nbsp;&nbsp;朋友<br>5&nbsp;&nbsp;&nbsp;你自己<br>6&nbsp;&nbsp;&nbsp;一只宠物<br>7&nbsp;&nbsp;&nbsp;教师或导师<br>8&nbsp;&nbsp;&nbsp;公众人物<br>9&nbsp;&nbsp;&nbsp;一个个人心目中的英雄<br>10&nbsp;&nbsp;&nbsp;没有人<br>你最看重什么？<br>1&nbsp;&nbsp;&nbsp;金钱<br>2&nbsp;&nbsp;&nbsp;荣誉<br>3&nbsp;&nbsp;&nbsp;你的承诺<br>4&nbsp;&nbsp;&nbsp;真诚<br>5&nbsp;&nbsp;&nbsp;学识<br>6&nbsp;&nbsp;&nbsp;复仇<br>7&nbsp;&nbsp;&nbsp;爱<br>8&nbsp;&nbsp;&nbsp;权力<br>9&nbsp;&nbsp;&nbsp;享受好时光<br>10&nbsp;&nbsp;&nbsp;友情<br>你对他人的态度是什么<br>1&nbsp;&nbsp;&nbsp;中立<br>2&nbsp;&nbsp;&nbsp;中立<br>3&nbsp;&nbsp;&nbsp;基本上任何人我都喜欢<br>4&nbsp;&nbsp;&nbsp;基本上任何人我都讨厌<br>5&nbsp;&nbsp;&nbsp;他人就是工具。利用他们达成目标然后就抛弃他们<br>6&nbsp;&nbsp;&nbsp;每个人都是一个有价值的个体<br>7&nbsp;&nbsp;&nbsp;要是有人敢挡我的路，我就把他当成障碍清除<br>8&nbsp;&nbsp;&nbsp;他人不可信，不要依靠任何人<br>9&nbsp;&nbsp;&nbsp;把他们都杀了给蟑螂腾地方<br>10&nbsp;&nbsp;&nbsp;人类美妙无比<br>你最珍视的物品<br>1&nbsp;&nbsp;&nbsp;一件武器<br>2&nbsp;&nbsp;&nbsp;一件工具<br>3&nbsp;&nbsp;&nbsp;一片布料<br>4&nbsp;&nbsp;&nbsp;一张照片<br>5&nbsp;&nbsp;&nbsp;一本书或者日记<br>6&nbsp;&nbsp;&nbsp;一张唱片\一盘磁带<br>7&nbsp;&nbsp;&nbsp;一件乐器<br>8&nbsp;&nbsp;&nbsp;一件珠宝<br>9&nbsp;&nbsp;&nbsp;一个玩具<br>10&nbsp;&nbsp;&nbsp;一封信<br>转到人生大事<br>4）人生大事<br>你已经知道你的家乡在哪，你长什么样。现在咱们来看看决定你现在面貌的人生大事吧。投2D6+16，结果就是你人物的年龄，或者直接指定一个十六岁以上的年龄。对你人物十六岁之后的每一年，投1D10，对照下面的表格，然后转到生命轨迹中相应的部分。在那里发生的事情就是当年对你的人物产生影响的人生大事。完成一个后，再次掷骰对照下表决定你人物下一年的大事<br>1-3&nbsp;&nbsp;&nbsp;挑战与机遇<br>4-6&nbsp;&nbsp;&nbsp;朋友与敌人<br>7-8&nbsp;&nbsp;&nbsp;罗曼史<br>9-10&nbsp;&nbsp;&nbsp;这一年稀松平常<br>4a）挑战与机遇<br>在边缘生活意味着承受巨大的风险。这一年，你遇到了一些大变故。它带给你回报了吗？还是让你的人生一落千丈？投1D10。如果是偶数，你撞大运了。如果是奇数，你遭受了命运的打击。<br>灾祸降临！<br>投十面骰<br>1&nbsp;&nbsp;&nbsp;财产损失或负债：投1D10×100。你损失了等于这个数字的欧元。如果你不能立刻支付这么多钱，那么你以后就要偿还债务，还钱——或者偿命。<br>2&nbsp;&nbsp;&nbsp;被监禁：你入狱了，或者被绑架了（你自己选择）。投1D10决定被监禁多少个月。<br>3&nbsp;&nbsp;&nbsp;患病或成瘾：这一年你染上了疾病或毒瘾。永久损失1点反应（REF）。<br>4&nbsp;&nbsp;&nbsp;遭遇背叛：你被以某种方式背叛了。投1D10。1-3：你被敲诈了。4-7：你的一个秘密被暴露了。8-10：你在爱情或事业上（你自己选择）被一个好友背叛了。<br>5&nbsp;&nbsp;&nbsp;意外事故：你遭遇了某种可怕的事故。投1D10。1-4：你被严重毁容了。你的吸引力（ATT）-5。5-6，这一年你有1D10个月在住院中度过。7-8：你失去了这一年中1D10个月的记忆。9-10：你不断地（大约八成的夜晚）做关于意外事故的噩梦，每次都尖叫着惊醒。<br>6&nbsp;&nbsp;&nbsp;爱人，朋友或亲戚被杀：你失去了你十分在意的人。投1D10。1-5：他们意外身亡。6-8：他们被你不知道名字的组织杀害了。9-10：他们被谋杀了而且你很清楚是谁干的，你只缺少一个证据。<br>7&nbsp;&nbsp;&nbsp;不实指控：你被陷害了。投1D10。1-3：你被指控盗窃。4-5被指控临阵脱逃*疑似只对军人起效*6-8：被指控杀人。9被指控强奸。10被指欺骗或背叛。<br>8&nbsp;&nbsp;&nbsp;被执法人员追捕：你因犯罪（或者冤罪，你自己选择）被执法人员追捕。投1D10，1-3，只有几个当地的警察追捕你。4-6：整个地区的执法力量都在追捕你。7-8州警或民兵追捕你。9-10：FBI或者同等级的国家级执法力量在追捕你<br>9&nbsp;&nbsp;&nbsp;被企业追捕：你惹怒了某些企业主管，投1D10。1-3，跟你有矛盾的是个地方小企业。4-6：是一个在全州设立办公地点的稍大企业。7-8：是个国家级的大企业，他们在各大城市都安插有特务。9-10：你对上了一个国际大企业。他们的部队，忍者和间谍到处都是。<br>10&nbsp;&nbsp;&nbsp;生理或心理的失能：你经历了一场身体或精神上的崩溃。投1D10。1-3：某种神经失调，或许是传染病所致——反应（REF）降低1点。4-7：某种心理问题：你焦虑缠身，患上了一种恐惧症，你的冷静（CL）属性降低1点。8-10：严重的精神疾病。你幻听，变得暴力，失去理性，意志消沉。你的冷静和反应各降低1点。<br>转到 你的对策是什么？<br>你的对策是什么？<br>选择或掷骰决定：<br>1-2&nbsp;&nbsp;&nbsp;自证清白<br>3-4&nbsp;&nbsp;&nbsp;尝试忘记<br>5-6&nbsp;&nbsp;&nbsp;追捕那些该为此负责的人并让他们付出代价！<br>7-8&nbsp;&nbsp;&nbsp;夺回你的正当所有<br>9-10 尽可能拯救其他任何卷入此事的人。<br>返回 人生大事 并再次掷骰决定下一年的大事<br>你有好运<br>投十面骰<br>1&nbsp;&nbsp;&nbsp;和城市管理部门的人产生密切关系。投1D10：1-4：他在警察部门。5-7：他在区检察官办公室工作。8-10：他在市长办公室工作。<br>2&nbsp;&nbsp;&nbsp;意外之财：获得1D10×100的欧元。<br>3&nbsp;&nbsp;&nbsp;工作或交易中赚了大钱：获得1D10×100的欧元。<br>4&nbsp;&nbsp;&nbsp;遇到一位师范（sensei）：选择一项未习得的武艺以+2开始或者选择一项已习得的武艺获得+1。<br>5&nbsp;&nbsp;&nbsp;遇到一位老师：选择一项以智力（INT）为基础的技能获得+1，或者一项你未习得的智力（INT）为基础的技能获得+2。<br>6&nbsp;&nbsp;&nbsp;有权势的企业执行官欠你一个人情。<br>7&nbsp;&nbsp;&nbsp;当地的游牧部落和你成为朋友。你每个月可以找他们帮一次忙，等同于一个+2的家庭特殊能力。<br>8&nbsp;&nbsp;&nbsp;你交了个警察朋友。在任何和警察有关的情况下，你都可以向他打听内部消息，消息的级别相当于+2的街头智慧（技能）。<br>9&nbsp;&nbsp;&nbsp;本地的加压帮对你有好感（谁知道为什么。他们是加压帮，对吧？）你每个月可以找他们帮一次忙，等同于一个+2的家庭特殊能力。但是别太心急。<br>10&nbsp;&nbsp;&nbsp;找到了一个战斗导师：你可以选择任意一个除武艺和斗殴外的武器技能获得+1，或者选择一个未习得的战斗技能获得+2。<br>返回 人生大事 并再次掷骰决定下一年的大事<br>4b）朋友与敌人<br>活在边缘意味着你找不到中庸的做法。你和你的朋友十分亲密，同时你的敌人对你冷酷无情。如果你来到了这个模块，说明你的社交生活在这一年发生了巨大变动。投1D10。若结果为1-5，你交了个朋友。若结果为6-10，你多了一个敌人。<br>（以下每项都可自由选择或掷骰得出）<br>树敌<br>你和某个人纠缠上了。在《赛博朋克》之中敌人不过是你生活的一环，所以不要跳过这一步。对每个敌人，自己决定或投1D10决定性别。奇数为女性，偶数为男性。<br>这个敌人是：<br>1&nbsp;&nbsp;&nbsp;你曾经的好友<br>2&nbsp;&nbsp;&nbsp;前男/女友<br>3&nbsp;&nbsp;&nbsp;亲戚<br>4&nbsp;&nbsp;&nbsp;童年的宿敌<br>5&nbsp;&nbsp;&nbsp;你的手下<br>6&nbsp;&nbsp;&nbsp;你的上司<br>7&nbsp;&nbsp;&nbsp;搭档或同事<br>8&nbsp;&nbsp;&nbsp;加压帮成员<br>9&nbsp;&nbsp;&nbsp;企业执行官<br>10&nbsp;&nbsp;&nbsp;政府官员<br>转到 敌对原因<br>敌对原因<br>你们中的一个人做了这件事情，导致你们开始敌对：<br>1&nbsp;&nbsp;&nbsp;让对方失去脸面乃至地位<br>2&nbsp;&nbsp;&nbsp;让对方失去了爱人，朋友或亲人<br>3&nbsp;&nbsp;&nbsp;对对方进行严重侮辱<br>4&nbsp;&nbsp;&nbsp;指责对方过于懦弱或有其他个人品行上的瑕疵<br>5&nbsp;&nbsp;&nbsp;导致对方身体残疾（投1D6。1-2失去一只眼。3-4失去一条手臂。5-6留下严重的疤痕）<br>6&nbsp;&nbsp;&nbsp;抛弃或背叛了对方<br>7&nbsp;&nbsp;&nbsp;毁了对方的一次就业机会或者艳遇<br>8&nbsp;&nbsp;&nbsp;你们只是互相看不顺眼<br>9&nbsp;&nbsp;&nbsp;你们是情敌<br>10&nbsp;&nbsp;&nbsp;搞乱了对方的计划<br>转到 谁敌意更强<br>谁敌意更强<br>1-4&nbsp;&nbsp;&nbsp;他们恨你<br>5-7&nbsp;&nbsp;&nbsp;你恨他们<br>8-10 你们互相憎恨<br>转到 你如何应对<br>你如何应对<br>当你们两个面对面时，受害的一方最有可能：<br>1-2&nbsp;&nbsp;&nbsp;杀了他，愤怒地杀人，把他脑袋扯下来！<br>3-4&nbsp;&nbsp;&nbsp;避免和这个人渣接触<br>5-6&nbsp;&nbsp;&nbsp;用间接方式谋害他<br>7-8&nbsp;&nbsp;&nbsp;无视这个渣滓<br>9-10 言语上攻击他<br>转到 他能如何妨碍你<br>他能如何妨碍你<br>你的敌人能动用什么样的力量来阻挠你<br>1-3&nbsp;&nbsp;&nbsp;只有他自己<br>4-5&nbsp;&nbsp;&nbsp;他自己和几个朋友<br>6-7&nbsp;&nbsp;&nbsp;整个帮派<br>8&nbsp;&nbsp;&nbsp;一个小企业<br>9&nbsp;&nbsp;&nbsp;一个大企业<br>10&nbsp;&nbsp;&nbsp;一整个政府部门<br>返回 人生大事 并再次掷骰决定下一年的大事<br>交到朋友<br>你运气好交了一个新朋友（这在《赛博朋克》的世界里可不常见）。对每个朋友，自己选择或掷1D10决定性别，奇数为女性，偶数为男性。<br>你和这位朋友的关系是什么样的：<br>1&nbsp;&nbsp;&nbsp;就像你的哥哥或姐姐<br>2&nbsp;&nbsp;&nbsp;就像你的弟弟或妹妹<br>3&nbsp;&nbsp;&nbsp;是你的教师或导师<br>4&nbsp;&nbsp;&nbsp;是你的搭档<br>5&nbsp;&nbsp;&nbsp;一位旧情人（你自己选择哪一位）<br>6&nbsp;&nbsp;&nbsp;曾经的对手（你自己选择哪一位）<br>7&nbsp;&nbsp;&nbsp;就像你的养父母<br>8&nbsp;&nbsp;&nbsp;一位亲戚<br>9&nbsp;&nbsp;&nbsp;重新联系上的儿时好友<br>10&nbsp;&nbsp;&nbsp;因为共同爱好相识<br>返回 人生大事 并再次掷骰决定下一年的大事<br>你的朋友或敌人是个怎么样的人？参考个人特征（34页）和个人动机（34页），投几个骰子来决定他是什么样的人。<br>4c）爱情故事<br>生活可远不止战斗和突发事故。爱情也是边缘生活的一部分。如果你来到了这个模块，你这一年最大的事件就是一段浪漫经历。从它怎样进展开始：<br>（以下每项都可自由选择或掷骰得出）<br><br>进展如何<br>1-4&nbsp;&nbsp;&nbsp;幸福的爱情故事（回到 人生大事）<br>5&nbsp;&nbsp;&nbsp;感情悲剧<br>6-7&nbsp;&nbsp;&nbsp;感情出了问题<br>8-10&nbsp;&nbsp;&nbsp;速成速朽的情事（回到 人生大事）<br>感情悲剧<br>1&nbsp;&nbsp;&nbsp;情人在事故中丧生<br>2&nbsp;&nbsp;&nbsp;情人神秘失踪<br>3&nbsp;&nbsp;&nbsp;感情没有进展<br>4&nbsp;&nbsp;&nbsp;一个个人的目的或者世仇让你们之间有了嫌隙<br>5&nbsp;&nbsp;&nbsp;情人被绑架<br>6&nbsp;&nbsp;&nbsp;情人陷入疯狂<br>7&nbsp;&nbsp;&nbsp;情人自杀<br>8&nbsp;&nbsp;&nbsp;情人在飞机事故中丧生<br>9&nbsp;&nbsp;&nbsp;你的敌人让你们失去了联系<br>10&nbsp;&nbsp;&nbsp;情人入狱或遭到流放<br>转到 彼此的感情<br>感情出了问题<br>1&nbsp;&nbsp;&nbsp;你爱人的朋友/家人讨厌你<br>2&nbsp;&nbsp;&nbsp;你爱人的朋友/家人不惜一切代价想要摆脱你<br>3&nbsp;&nbsp;&nbsp;你的朋友/家人讨厌你的爱人<br>4&nbsp;&nbsp;&nbsp;你们中的一个有了情敌<br>5&nbsp;&nbsp;&nbsp;你们因某种原因不能相见<br>6&nbsp;&nbsp;&nbsp;你们经常吵架<br>7&nbsp;&nbsp;&nbsp;你们是职业上的竞争对手<br>8&nbsp;&nbsp;&nbsp;你们中的一个是个醋坛子<br>9&nbsp;&nbsp;&nbsp;你们中的一个人“出去乱搞”<br>10&nbsp;&nbsp;&nbsp;你们的家庭背景有冲突<br>返回 人生大事 并再次掷骰决定下一年的大事<br>彼此的感情<br>1&nbsp;&nbsp;&nbsp;对方还爱着你<br>2&nbsp;&nbsp;&nbsp;你还爱着对方<br>3&nbsp;&nbsp;&nbsp;你们还相爱着<br>4&nbsp;&nbsp;&nbsp;你恨对方<br>5&nbsp;&nbsp;&nbsp;对方恨你<br>6&nbsp;&nbsp;&nbsp;你们互相嫌恶<br>7&nbsp;&nbsp;&nbsp;你们成了朋友<br>8&nbsp;&nbsp;&nbsp;没什么感情了；就结束了<br>9&nbsp;&nbsp;&nbsp;你爱对方，但对方恨你<br>10&nbsp;&nbsp;&nbsp;对方爱你，但你恨对方<br>返回 人生大事 并再次掷骰决定下一年的大事<br>受这些苦值得吗？参考个人特征（34页）和个人动机（34页），投几个骰子来决定他是什么样的人，以及如果他/她回到你的生活里你是否愿意再和他/她发展感情。如果你足够幸运，这种情况可能会发生。<br>【33页边栏】<br>世上的每个人都有一段故事。你的故事是什么样的？<br>要回答这个问题，就要利用这个 人生经历 系统。<br>在这几页中，你会发现你的过去，敌人，朋友，爱人和背叛你的人。人生经历能够给你塑造人物所需的线索。它也能为你的裁判提供有关如何合理安排冒险的好点子。<br>【34页边栏】<br>街话<br>21世纪的一些常用语<br>AI：人工智能；一种拥有自我意识的计算机<br>Booster（加压帮混混）：指那些热衷于赛博装备，皮质衣服和混乱暴力的帮派成员<br>Combat Drugs（战斗药物）：指一系列精心设计的药物，用来增加行动速度，精力和反应力<br>Chilled：形容一个人酷，冷静<br>Chippin‘ In：第一次购买赛博装备，或者和一群人呆在一起，或者连入一个机器<br>Chombatta（Choomba）：一种美国俚语，指朋友或家人<br>CHOOH2（“choo”）：街话中的酒精，特指用在载具电池里面的。在21世纪，大多数的载具都由一种高级的酒精供能，这种酒精燃烧的温度要高于普通的甲醇。<br>Chromer：21世纪的重金属音乐爱好者。参见Chromatic rocker，Chromatic rock<br>Chromatic rock：一种以大量电子音，简单的旋律和暴力的歌词为特征的重金属音乐<br>Cybered Up：在你去边缘地带之前尽可能多地植入赛博装备<br>Data Term：一种街头常见的信息装置，带有一块屏幕，网络连接和键盘<br>Disk：录音，或一张光碟<br>‘Dorphs：街话里指一种人造内啡肽，是一种能增强自愈能力，减轻疲劳，让你能像回复了精力一样再爆肝一段时间的药物<br>Exotic：指一个经过生物塑型，身上带有非人元素（诸如绒毛，长耳朵，尖牙）的人<br>The Face：指接口。或接入网络。<br>Flatline：杀人。或一个失去生命的人或物<br>Go LEO：前往近地轨道。也就是前往一个内空间里的空间站。<br>Gyro：小型的单人或双人直升机，常用于警察执勤或者企业进行突袭行动<br>Hydro：街话里指氢燃料，相当多的21世纪载具用氢作为燃料。<br>Input：女友<br>Keyboard：街话中指一种带有按键的电子接口设备。同时也是一种终端<br>Netrun：和网络交互并利用接口黑进数据要塞。<br>Output：男友<br>Polymer one shot：指便宜的塑料手枪，通常口径在5到6毫米之间<br>Posergang：指其成员追求某种特定外表，风格或体型的帮派。<br>Ripperdoc：专门为人植入非法赛博装备的外科医生<br>Ronin：一种自由的刺客或雇佣兵。通常被认为不可信任<br>Rockerboy/girl：一种利用自己的艺术作品来表达政治诉求的音乐人或乐手。Rockerboy和摇滚明星不同，后者通常被媒体企业控制，没有政治诉求。<br>Samurai：一种属于企业的刺客或雇佣兵，受雇保护企业财产或破坏其他企业的所有物。<br>Slammit On：变得暴力；开始无理由地攻击他人。<br>Stuffit：进行性行为。或者试图忘记某件事<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_998194">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=109625.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1794.0"><span>赛博朋克2020</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=109370" title="版主">千禧年网吧DJ</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=109625.0"><span>《赛博朋克2020核心规则》粗译</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 109625,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 109625,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="109625" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=109625.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 6192 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1794,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "赛博朋克2020",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1794,
+							iTopicId: 109625,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

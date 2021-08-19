@@ -31,7 +31,7 @@ public class Indexer {
         /** 根目录，larbin爬取网页的存储位置 */
         var rootDir = new File(Const.HTML_PATH);
         /** 存储目录，lucene建立索引的存储位置 */
-        var saveDir = new File(Const.INDEX_PATH);
+        var saveDir = new File(Const.SAVE_PATH);
         /** 循环遍历所有目录(dxxxxxx)并建立索引 */
         for (File file : rootDir.listFiles()) {
             System.out.println("===索引文件夹" + file.getName() + "中……===");
@@ -72,6 +72,7 @@ public class Indexer {
         var docList = new ArrayList<Document>();
         int abandonFile = 0;
         for (File file : htmlFile){
+            if(i >= urls.size()) break;
             /** 读取url并进行过滤 */
             var fileUrl = urls.get(i++);
             if(urlFilter(fileUrl)) {

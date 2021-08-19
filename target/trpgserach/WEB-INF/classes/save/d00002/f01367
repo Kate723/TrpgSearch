@@ -1,0 +1,805 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '5a4cbc40001a2138af41dd9b1cb45b3e');">
+<div class="info">请 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">登录</a> 或 <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="126968"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b3ff423',
+sSessionId: '5a4cbc40001a2138af41dd9b1cb45b3e'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> (版主群: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76071" title="版主">丞相</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0"><span>【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1126000"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=126968.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner） &nbsp;(阅读 1246 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: </span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=quickmod2;topic=126968.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('5a4cbc40001a2138af41dd9b1cb45b3e', 'b3ff423') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=78624" title="检视会员资料:  lk9551">lk9551</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126000_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 17<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126000">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126000#msg1126000" rel="nofollow">【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126000'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126000'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2021-07-26, 周一 09:46:35 &#187;</div>
+<div id="msg_1126000_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126000"><span style="color: purple;" class="bbc_color"><span style="font-size: 14pt;" class="bbc_size"><strong>魂域召唤师（Spirit Summoner）【召唤师变体】</strong></span></span><br><br>出自：《Advanced Class Guide pg. 123》<br><br>魂域召唤师是一个奥术施法者，他的幻灵是萨满精魂的表现。召唤者和这个精魂之间的联系可能是友好的，作为一个部落的成员给他的保护者精魂提供肉体，也可能是敌对的，作为一个外来者或竞争对手强迫一个不情愿的精魂提供服务。召唤者可以利用这种精魂的神圣力量，但不受精魂的道德或伦理的约束。<br><br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">魂域（Spirit，Su）：</span><br></strong></span>一个魂域召唤师与一个萨满职业的魂域(见第37页)形成一种神秘的联系。他获得魂域给予的精魂之力，并使用他的召唤师等级作为他的萨满等级来决定它的效果。魂域召唤师可以选择由该魂域授予的魂术作为召唤师已知法术，使用该魂术的萨满法术等级作为召唤师法术等级。召唤师不能选择6级以上的魂术。<br><br>在第9级，召唤师获得获得他所选魂域的高等精魂之力。<br><br>在第17级，召唤师获得他所选魂域的最终精魂之力。<br><br><span style="color: red;" class="bbc_color">本能力取代了召唤怪物。</span><br><br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">幻灵（Eidolon）：</span></strong></span><br>魂域召唤师一开始便具有召唤一名强大异界生物随侍的能力。幻灵的型态和能力必须适合他选择的魂域，由GM决定——例如，拥有烈焰魂域的魂域召唤师不能拥有冰或水能力的幻灵，拥有苍天魂域的魂域召唤师不能拥有类似恶魔的幻灵，等等。魂域召唤师可以使用临时效果(如激励进化APG)将幻灵变成不合适的形态，但不能使用永久效果(如幻灵重塑术APG)。<br><br><span style="color: red;" class="bbc_color">本能力调整了幻灵。</span><br><br><br><span style="color: blue;" class="bbc_color"><strong><span style="font-size: 12pt;" class="bbc_size">巫术（Hex）：</span></strong></span><br>在第6级，魂域召唤师可以选择一个适合他魂域的萨满巫术，从萨满巫术的一般列表或他的魂域特定巫术中选择。这如同萨满的巫术，并使用他的召唤师等级作为他的萨满等级。像萨满一样，魂域召唤师使用他的感知修正值来决定巫术效果。<br><br>在第8级、第10级和第16级，魂域召唤师可以选择另一个巫术。<br><br><span style="color: red;" class="bbc_color">本能力取代了主宰呼唤、位置转换、异界型态和融合型态。</span><br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">Spirit Summoner<br>Source Advanced Class Guide pg. 123<br>A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit. The bond connecting the summoner and this spirit might be friendly, as a member of a tribe giving flesh to his protector spirit, or hostile, as an outlander or rival compelling service from an unwilling spirit. The summoner can draw upon the divine power of this spirit, but is not constrained by the spirit’s morals or ethics.<br><br>Spirit (Su): A spirit summoner forms a mystical bond with one spirit from the shaman class (see page 37). He gains the spirit ability of that spirit and uses his summoner level as his shaman level for determining its effects. The spirit summoner can select spells granted by that spirit as summoner spells known, using the shaman level of the spell as the summoner spell level. The summoner cannot select spirit spells that are above 6th level.<br><br>At 9th level, the summoner gains the abilities listed in the greater version of his selected spirit.<br><br>At 17th level, the summoner gains the abilities listed for the true version of his selected spirit.<br><br>This ability replaces summon monster.<br><br>Eidolon: At 1st level, a spirit summoner begins play with a powerful outsider called an eidolon. The eidolon’s form and abilities must be appropriate to his chosen spirit, at the GM’s discretion—for example, a summoner with the flame spirit cannot have an eidolon with ice or water abilities, a summoner with a heavens spirit cannot have a fiend-like eidolon, and so on. The summoner can use temporary effects (such as evolution surgeAPG) to alter the eidolon into an inappropriate form, but cannot use permanent effects (such as transmogrifyAPG) to do so. This ability alters the eidolon class feature.<br><br>Hex: At 6th level, a spirit summoner can select a shaman hex that is appropriate to his spirit, chosen from the general list of shaman hexes or the specific hexes allowed by his spirit. This otherwise functions as a shaman’s hex, and uses his summoner level as his shaman level. Like a shaman, a spirit summoner uses his Wisdom modifier to determine hex DCs.<br><br>At 8th, 10th, and 16th levels, the summoner can select another hex.<br><br>This ability replaces aspect, maker’s call, merge forms, and transposition.</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126000">
+&#171; <em>上次编辑: 2021-08-03, 周二 17:47:17 由 lk9551</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126022"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=99878" title="检视会员资料:  Julien">Julien</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126022_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=99878">
+<img class="avatar" src="/bbs/upload/avatar/avatar_99878_1597163784.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 468<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126022">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126022#msg1126022" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126022'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126022'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2021-07-26, 周一 11:46:03 &#187;</div>
+<div id="msg_1126022_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126022">赞美楼主！支持翻译。<br><br>不过提示一下，该变体改变了幻灵特性，而所有改变了幻灵特性的变体对于unchained召唤师都是不合法的，只能用于ACG召唤。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126022">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126022_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=118124.msg1057697#msg1057697 date=1591447427" class="bbc_link new_win" target="_blank">【#31-36】拥王者资料整合</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1961.0" class="bbc_link new_win" target="_blank">Julien的PFS安全屋</a></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126023"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=79124" title="检视会员资料:  张辽">张辽</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126023_extra_info">
+<li class="postgroup">Hero<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=79124">
+<img class="avatar" src="/bbs/upload/avatar/avatar_79124_1586939230.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 645<li class="karma">苹果币: 4<li class="blurb">我起了疑心，杀了那只住在井里的牛蛙，想从它的腹中掏出更多的秘密。<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126023">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126023#msg1126023" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126023'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126023'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2021-07-26, 周一 11:51:03 &#187;</div>
+<div id="msg_1126023_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126023"><a href="http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285</a><br>迟到七年的撞车</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126023">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126023_signature">我已经对滥强装自己是弱鸡的游戏感到厌烦了，不喷，但别来找我。<br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1826.0" class="bbc_link new_win" target="_blank">个人专区-欧陆风云（其实只是方便我自己进去……）</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?topic=115198.0" class="bbc_link new_win" target="_blank">PF私用翻译</a></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126029"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=78624" title="检视会员资料:  lk9551">lk9551</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126029_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 17<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126029">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126029#msg1126029" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126029'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126029'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2021-07-26, 周一 12:12:25 &#187;</div>
+<div id="msg_1126029_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126029"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126023#msg1126023">引述: 张辽 于 2021-07-26, 周一 11:51:03</a></div></div><blockquote class="bbc_standard_quote"><a rel="nofollow" href="http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285</a> <span class="alert smalltext" title="To curb spam posts, external links are set [nofollow] (which means no pagerank) until 20 posts">[nofollow]</span><br>迟到七年的撞车<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <img src="/bbs/Smileys/converted/em016.gif" alt="&#58;em016" title="&#58;em016" border="0" class="smiley"/><br>逛帖子的时候居然没看到，怎么移除主题来删除啊？</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126029">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126043"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654" title="检视会员资料:  阿贝里昂">阿贝里昂</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126043_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76654_1490027722.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 387<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126043">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126043#msg1126043" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126043'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126043'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2021-07-26, 周一 13:50:26 &#187;</div>
+<div id="msg_1126043_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126043"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126029#msg1126029">引述: lk9551 于 2021-07-26, 周一 12:12:25</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126023#msg1126023">引述: 张辽 于 2021-07-26, 周一 11:51:03</a></div></div><blockquote class="bbc_alternate_quote"><a href="http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/?topic=70415.msg666285#msg666285</a><br>迟到七年的撞车<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <img src="/bbs/Smileys/converted/em016.gif" alt="&#58;em016" title="&#58;em016" border="0" class="smiley"/><br>逛帖子的时候居然没看到，怎么移除主题来删除啊？<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>说起来这个变体 PF的chm里一直没收录啊</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126043">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126129"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913" title="检视会员资料:  犬良人">犬良人</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126129_extra_info">
+<li class="title">犭良人<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77913_1621571989.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1788<li class="karma">苹果币: 1<li class="blurb">爆裂吧，现实！粉碎吧，精神！放逐这个世界！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126129">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126129#msg1126129" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126129'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126129'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2021-07-26, 周一 22:41:03 &#187;</div>
+<div id="msg_1126129_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126129"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126022#msg1126022">引述: Julien 于 2021-07-26, 周一 11:46:03</a></div></div><blockquote class="bbc_standard_quote">赞美楼主！支持翻译。<br><br>不过提示一下，该变体改变了幻灵特性，而所有改变了幻灵特性的变体对于unchained召唤师都是不合法的，只能用于ACG召唤。<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>他调整了幻灵特性但并没有冲突，所以仍能在unchained召唤师中使用，幻灵特性仍然存在而且能被调整</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126129">
+&#171; <em>上次编辑: 2021-07-26, 周一 22:45:20 由 犬良人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126129_signature">强烈谴责向施法怪物套幼年模版的流氓行为！<br>四环施法者是世界上最好的施法者！<br><del>永远纪念的盖丁一族，强烈谴责P子无视历史的行为！</del><br>记念从下水道永远冲走的唤魂师！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126179"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=81498" title="检视会员资料:  宵星">宵星</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126179_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=81498">
+<img class="avatar" src="/bbs/upload/avatar/avatar_81498_1598578044.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 101<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126179">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126179#msg1126179" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126179'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126179'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2021-07-27, 周二 08:50:30 &#187;</div>
+<div id="msg_1126179_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126179">我觉得男神没把他放进吊链召唤的变体，意思很明显了（</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126179">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126179_signature"><strong><span style="color: red;" class="bbc_color">天令拜命！ 钢皇招来！</span></strong></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126198"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654" title="检视会员资料:  阿贝里昂">阿贝里昂</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126198_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76654">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76654_1490027722.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 387<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126198">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126198#msg1126198" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126198'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126198'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #7 于:</strong> 2021-07-27, 周二 10:37:25 &#187;</div>
+<div id="msg_1126198_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126198"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126179#msg1126179">引述: 宵星 于 2021-07-27, 周二 08:50:30</a></div></div><blockquote class="bbc_standard_quote">我觉得男神没把他放进吊链召唤的变体，意思很明显了（<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>男神站也不是全整理好了，有两个给秩序／混乱阵营分别专用的召唤师变体介绍里明说了有吊链版，可男神站里召唤师的掉链版变体合集里没放进去</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126198">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126205"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useron.gif" alt="线上"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913" title="检视会员资料:  犬良人">犬良人</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126205_extra_info">
+<li class="title">犭良人<li class="postgroup">Chivary<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=77913">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77913_1621571989.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1788<li class="karma">苹果币: 1<li class="blurb">爆裂吧，现实！粉碎吧，精神！放逐这个世界！<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126205">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126205#msg1126205" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126205'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126205'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #8 于:</strong> 2021-07-27, 周二 11:10:55 &#187;</div>
+<div id="msg_1126205_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126205"><div class="quoteheader"><div class="topslice_quote"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126179#msg1126179">引述: 宵星 于 2021-07-27, 周二 08:50:30</a></div></div><blockquote class="bbc_standard_quote">我觉得男神没把他放进吊链召唤的变体，意思很明显了（<br></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>男神网中UCH召唤的变体页面放的是专门（只能）给UCH召唤用的变体，但原版的变体也能使用</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126205">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126205_signature">强烈谴责向施法怪物套幼年模版的流氓行为！<br>四环施法者是世界上最好的施法者！<br><del>永远纪念的盖丁一族，强烈谴责P子无视历史的行为！</del><br>记念从下水道永远冲走的唤魂师！</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1126433"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=99878" title="检视会员资料:  Julien">Julien</a>
+</h4>
+<ul class="reset smalltext" id="msg_1126433_extra_info">
+<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=99878">
+<img class="avatar" src="/bbs/upload/avatar/avatar_99878_1597163784.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 468<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1126433">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.msg1126433#msg1126433" rel="nofollow">Re: 【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1126433'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1126433'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #9 于:</strong> 2021-07-28, 周三 14:17:59 &#187;</div>
+<div id="msg_1126433_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1126433">&nbsp; &nbsp; &nbsp; &nbsp; pathfinder society的博客说：The unchained summoner qualifies for all existing summoner archetypes, save those that modify the <strong>eidolon&#039;s type or base form</strong>. <a href="https://paizo.com/community/blog/v5748dyo5lheb?Society-Unchained" class="bbc_link new_win" target="_blank">原贴地址</a><br><br>&nbsp; &nbsp; &nbsp; &nbsp; Spirit Summoner要求幻灵的形态适合魂域，这应该是限制了幻灵的类型，所以我觉得它不能应用于unchained召唤师。<br>&nbsp; &nbsp; &nbsp; &nbsp;另外，PFS Additional Resources也明确了该资源不可用于PFS。<br><br>&nbsp; &nbsp; &nbsp; &nbsp; 不过我以上依据的都是PFS规则。仅就PF规则而言，unchained只说了，除武僧外，只要有合适的特性可被替换，则以前变体都可用。按照这个说法，在PFS规则之外该变体确实是可用于unchained召唤师的。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1126433">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1126433_signature"><div align="center"><a href="http://www.goddessfantasy.net/bbs/index.php?topic=118124.msg1057697#msg1057697 date=1591447427" class="bbc_link new_win" target="_blank">【#31-36】拥王者资料整合</a><br><a href="http://www.goddessfantasy.net/bbs/index.php?board=1961.0" class="bbc_link new_win" target="_blank">Julien的PFS安全屋</a></div></div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=printpage;topic=126968.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=513.0"><span>Pathfinder</span></a> &#187;
+<li>
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;board=1723.0"><span>Pathfinder RPG</span></a> (版主群: <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=3103" title="版主">星</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=10544" title="版主">沉沦</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=40391" title="版主">傻豆</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=42300" title="版主">月夜白雨</a>, <a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=profile;u=76071" title="版主">丞相</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;topic=126968.0"><span>【Advanced Class Guide】召唤师变体：魂域召唤师（Spirit Summoner）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 126968,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 126968,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b3ff423" value="5a4cbc40001a2138af41dd9b1cb45b3e" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="126968" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'5a4cbc40001a2138af41dd9b1cb45b3e\', \'b3ff423\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;' + '?topic=126968.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 1246 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1723,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "Pathfinder RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1723,
+							iTopicId: 126968,
+							sSessionId: "5a4cbc40001a2138af41dd9b1cb45b3e",
+							sSessionVar: "b3ff423",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=2609ca61d30f70e2865a0dde3abf860c&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

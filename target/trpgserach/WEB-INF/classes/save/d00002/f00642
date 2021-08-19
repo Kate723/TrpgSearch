@@ -1,0 +1,581 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="94736"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0"><span>FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg878227"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=94736.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1 &nbsp;(阅读 5053 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: “全金属狂潮TV动画第四季啊，已经在做了，8102年一定能播，绝对不会咕的，你们要相信我”</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=94736.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878227_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878227">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878227#msg878227" rel="nofollow">FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878227'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878227'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2017-09-09, 周六 22:47:53 &#187;</div>
+<div id="msg_878227_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878227">首先感谢FMP书的翻译ヾ(◍°∇°◍)ﾉﾞ，这个魔改版是基于原FMP基础书，根据我的个人恶趣味修改出来的。<br><br>然后吐槽一下这个FMP规则吧...强度也太低了吧喂！连上级书的灾厄级都打不过哦？基础书水平的强度啊喂！丢人啊，退群啊，guna！再说这原作梗也太少了吧，明明有XL3的武装但是没有XL3是闹哪样哦！而且没有烈焰魔剑哦？完全没有任何烈焰魔剑要素哦？连武装都没有的哦？要玩梗就给我玩彻底一点啊混蛋！！！！而且而且而且而且啊，仔细一看别说是烈焰魔剑了，连TV动画之后的内容也基本完全一毛钱的都没有？！啊还是有的，拿小说章节名称弄了几个大招级别的特技出来... ...然后呢？没有了？？？<br><br>综上所述，在对Fear的这本摸得透彻的套皮规则书的诸多不满之下诞生了我的这个魔改版的全金规则。强度...大幅加强？滥强化？稍微有那么一点的感觉就是了，主要是为了玩一些原作梗就没有考虑太多平衡性的问题（其实就是懒），总体上来说是较强的类别，大概。<br><br>本修改版规则和原版相比的调整部分：将机体分为前锋（木头）、斥候（克鲁兹）和神射手（尾巴）三个类别，什么？你说毛姐在哪？你车个古强或者战线指挥官凑数得了（毫不负责）。然后将风格类别进行了大幅度的修改，具体见下文。然后对于物品的修改，将原本书中有的部分物品的效果进行了调整并增加了很多物品，所以如果是原本书中有的同名道具皆以此修改版为准，而没进行修改的物品依然照原版书使用。<br><br>另外...我没有进行校对（因为懒），所以如果有错漏的地方请尽情地指出（土下座）。<br><br>=========================================================================================<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878227">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878228"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878228_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878228">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878228#msg878228" rel="nofollow">Re: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878228'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878228'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2017-09-09, 周六 22:48:22 &#187;</div>
+<div id="msg_878228_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878228"><strong><span style="font-size: 18pt;" class="bbc_size">类别：前锋/Pointman</span></strong><br>也就是宗介同学了，强度基本上是能够作为一线输出的水准，定位是高输出的玻璃刀，相对的en和hp的消耗也很高，没有队友辅助的话大概打两发就萎了的程度。前期基本上可以分为走暴击流和单纯堆伤害的输出流两条线路，当然到了中后http://www.goddessfantasy.net/bbs/Smileys/converted/em026.gif期是可以一定程度上兼得的，丧心病狂地玩倾听者羊肉驱动暴击穿甲流也是没问题的。机战里加入的破坏炮零距离中出攻击自然也是有的。另外就是为了还原原作搭载XL3后火力全开洗地和野牛小队的连携攻击加入了一些怎么看怎么方阵的东西，不如说这个类别的很多特技都是满满的方阵级即视感，没错我就是方阵厨你打我啊打我啊！<br>原作中烈焰魔剑为了搭载妖精之羽削减了电子设备，放在这里也就体现为是低防壁成长，弱点是炮击，弱点是炮击，弱点是炮击。另外就是把原本常时发动的羊肉壁障改为了一轮一次（前期），这样GM在战斗安排时也不必要针对性地安排大量的羊肉机作为敌人。最重要的是把我能想到的原作梗基本都塞进去了，只不过为了玩梗也就没考虑那么多其他的强度平衡就是了...<br><br>SA：尼奥尔德<br><br>▼能力基本值<br>体力：2&nbsp; &nbsp; &nbsp; &nbsp; 理知：5<br>反射：5&nbsp; &nbsp; &nbsp; &nbsp; 意志：3<br>知觉：5&nbsp; &nbsp; &nbsp; &nbsp; 幸运：4<br>▼自动取得道具<br>常备化一件「种类：（M9系/Λ）」的物品。从人类用武装·防具中，选择一件[种类：FA]和一件[种类：手枪]的物品和驾驶员制服常备化。<br><br>修正表<br>等级 1 2 3 4 5 6 7 8 9 10<br>命中 1 2 2 3 3 4 5 6 6 7<br>回避 1 1 2 2 3 3 4 4 5 6<br>炮击 1 2 2 3 3 4 5 6 6 7<br>防壁 0 1 1 2 2 3 3 4 4 4<br>行动 2 3 4 5 6 7 8 9 10 11<br>装甲 7 14 21 28 35 42 49 56 63 70<br>耐久 6 8 12 16 21 25 29 33 38 43<br>感应 4 6 8 10 12 14 16 18 20 22<br>攻击 2 3 4 4 5 6 6 7 8 9<br><br>特技<br>▼初期取得<br>取得《力场集中》与《不可视之盾》,且在其余LV1的该类别特技中，任意选择2个取得。<br>另外取得《电磁斗篷》。<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。在类别等级达到3时，取得[力场集中Ⅱ]。在类别等级达到5时，在[集结的MAKE MY DAY]和[燃烧的One Man Force]中选择一个取得。在类别等级达到7时，取得[乘上飞驰的南风]。<br><br>▼类别特技<br><br>力场集中<br>等级：1<br>种类：自、机、命<br>时点：主要动作<br>对象：装备<br>射程：0<br>代价：3EN<br>对对象使用进行近距离攻击。此时，武装射程变更为0。该伤害+2D6，并无视《Λ障壁》。<br><br>不可视之盾<br>等级：1<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你搭乘的「种类：Λ」AS的【装甲值】+【意志基本值】。另外，你的【意志基本值】+6<br><br>不可视ECS<br>等级：1<br>种类：-<br>时点：设置步骤<br>对象：自身<br>射程：无<br>代价：2EN<br>效果：<br>该轮中，你进行的防御判定达成值+2，炮击值-4。<br><br>支援AI<br>等级：1<br>种类：机<br>时点：判定前<br>对象：自身<br>射程：无<br>代价：4en<br>效果：<br>在你进行命中判定或防御判定前使用。该次判定的达成值+2，暴击值-2。该特技最多能使暴击值降至9。每轮可以使用一次。<br><br>Λ壁障<br>等级：1<br>种类：机<br>时点：伤害投掷前<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：运用Λ式驱动仪将防御意识转化为阻挡伤害的屏障。<br>伤害投掷前宣言，在伤害投掷后[种类：防]的特技生效前把所有适用于自身的[【意志基本值】+3X]点以下的&lt;神&gt;属性以外伤害无效化。对着超越此数值1点以上的伤害，此特技都没效果。每轮可以使用一次。<br><br>Λ式驱动仪攻击转用<br>等级：1<br>种类：机、回<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：10hp<br>效果：展开机体内藏的散热板，排出机体废热，同时激活Λ式驱动仪的战斗模式。<br>直到该场景结束，你进行攻击时的伤害+1d6。一场面可以使用一次。类别等级达到3时，进行攻击时的伤害再+2d6。<br><br>Λ式火器制御系统<br>等级1<br>种类：机<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：5EN<br>解说：激活使机体能在高速机动下也能运用重型火器的辅助系统。<br>进行战斗移动。该主步骤中，你可以使用远程武装进行远距离攻击。但是，在这次攻击中你所使用的武装射程变更为[射程：0]。<br><br>前锋战术<br>等级：1<br>种类：增<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你移动了一格以上的话，该轮你进行攻击造成的伤害+1d6。若你的类别等级在5以上，再+1d6；10以上再+X。<br><br>不可能的魔弹<br>等级：2<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>当你命中判定暴击时，无视对手的防御修正算出伤害。如果你给予的伤害的属性为&lt;神&gt;的话，伤害数值再+[X]。<br><br>飞翔的幻影<br>等级：2<br>种类：操<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：3hp<br>效果：<br>获得飞行状态，进行战斗移动。因该特技获得的飞行状态持续到主步骤终了为止。此外，在使用了该特技的主步骤中你进行攻击时伤害+3d6。<br><br>Λ式武装兼容<br>等级：2<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：运用Λ式驱动仪辅助武器控制，这样一些原本操作性低下的重型武装也能正常运用。<br>所有你装备中的武装和附加组件对战斗值产生的修正+2（最多变为0）。该变化仅在你自己装备时才有效。<br><br>巨兽杀手<br>等级：2<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你对「体型：L」以上的角色进行攻击时命中判定的达成值+X，伤害+Y。<br><br>力场集中Ⅱ<br>等级：3<br>种类：机、自<br>时点：《力场集中》<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：<br>《力场集中》的射程变更为「装备」，效果变更如下。<br>对对象使用进行近距离或远距离攻击。该伤害+[4D6+【意志】]，并无视《Λ障壁》。<br><br>必须要完成的约定<br>等级：3<br>种类：-<br>时点：随时<br>对象：自身<br>射程：无<br>代价：5hp<br>效果：即使前途万难，即使满目疮痍，依然有许下的约定还未完成，想到这里你便充满了决心。<br>该特技就算在遭受重压期间也能使用。移除自身所有的BS。一场景可以使用一次。<br><br>强人工智能<br>等级：3<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的机体所搭载的支援AI在和你的互动中自我学习，甚至进化出了一定程度的拟似人格，能够自主地对你进行辅助。<br>不取得《支援AI》的话无法取得该特技。你取得的《支援AI》每轮使用次数+[X/3]次，代价变为无。<br><br>扭曲世界的力量<br>等级：4<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你使用的《光芒一闪》伤害+[【意志】d6]。类别等级在7以上时，此效果变更为+[【意志】d6+【意志基本值】]。<br><br>铅弹风暴<br>等级：4<br>种类：命<br>时点：伤害投掷前<br>对象：单体<br>射程：装备<br>代价：全弹<br>效果：<br>向对象以弹数在2以上且「种类：全自动」或「种类：霰弹」的近距离武装进行攻击时使用。造成的伤害+2d6。类别等级达到7时，变为造成的伤害+4d6。无论攻击成功与否，使用的武装的弹数变为0。不能使用弹数只有1、或没有弹数的武装。<br><br>GUN-HOWITZER MODE<br>等级：4<br>种类：机<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：10en<br>效果：使用Λ式驱动仪抵消武器后坐力的同时强化机体本身结构，进入专门运用重型武器的炮击模式。<br>该主步骤中使用名称带有[爆破榴弹炮]的武装进行的远距离攻击的对象扩大一阶，命中判定的达成值+3。此外，若你在该次主要步骤中使用了[Λ式火器制御系统]并使用名称带有[爆破榴弹炮]的武装进行攻击，这次攻击的对象变成[单体☆]，伤害投掷+[4d6]。<br><br>妖精之羽<br>等级：4<br>种类：机<br>时点：主要动作<br>对象：范围3<br>射程：0<br>代价：30en，功率低下<br>效果：激活机体搭载的反Λ式驱动仪装置，无效化范围内的Λ式驱动仪。<br>直到这轮的清算步骤终了为止，范围内所有Λ式驱动装置失效，同时范围内登场人物不能使用加护也不会受到加护效果的影响。该特技每场景可以使用一次。<br><br>集结的Make My Day<br>等级：5<br>种类：机、命、选<br>时点：主要动作<br>对象：单体<br>射程：武装<br>代价：加护<br>效果：与共同奋战的同伴一同发动连携攻击。<br>此特技在范围3内没有友军时不能使用。向对象以近接武装进行近接攻击。该次攻击的属性变更为神，伤害+[20+5d6]，且范围3内每有一个你以外的友军额外+5d6。该特技每个模组可以使用一次。<br><br>燃烧的One Man Force<br>等级：5<br>种类：机、命、选<br>时点：主要动作<br>对象：单体☆<br>射程：0<br>代价：15en<br>效果：在Λ式驱动带来的高速机动中对敌人以机体搭载的所有武装发动暴风骤雨般的连续攻击。<br>对对象以近接武装的主武装上装备的武装进行近距离攻击。该次攻击的伤害，加上装备在[近接武装的主武装]以外位置的所有武装的攻击力。视为使用复数武装的特技。使用此特技后你失去15hp。该特技每个场面可以使用一次。<br><br>胜利的一击<br>等级：5<br>种类：机、命<br>时点：主要动作<br>对象：3幅直线5（选择）<br>射程：0<br>代价：加护<br>效果：通过强大的意志引出Λ式驱动的潜在力量，自机体拳头投射出如虹般的巨大光柱。<br>对对象使用[种类：机拳]的武装进行白刃攻击，该次攻击造成的伤害+[【意志】d6]，属性变更为神。类别等级达到7时造成的伤害再+【意志基本值】。每模组可以使用一次。<br><br>Λ障壁Ⅱ<br>等级：5<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>没取得《Λ障壁》的话无法取得该特技。你取得的《Λ障壁》每轮使用次数+[X/6]，代价变为无。<br><br>军火库<br>等级：6<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你所装备的所有[种类：霰弹]、[种类：全自动]、[种类：FA]、[种类：霰弹枪]武装的攻击力+X，该特技是上升的武器本身的威力。<br><br>乘上飞驰的南风<br>等级：7<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：抛弃迷茫，舍去困惑，现在的你只为守护内心所爱的事物而不顾一切地战斗。<br>你造成的所有伤害+【意志】。此外，你的【意志基本值】+6。<br><br>我一个人试试看<br>等级：7<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：20en<br>效果：你的支援AI在与你并肩作战中明白了什么是生和死，明白了什么是感情，也明白了什么应该由自己来守护。<br>没取得《强人工智能》的话无法取得该特技。该特技即使在【重压】或【操作不能】中也可以使用。（预定要）适用于你的实际伤害变为0。（预定要）在受到伤害的同时遭受的负面状态、物品效果也一并打消。该特技每个模组可以使用一次。<br><br>誓约的守护<br>等级：8<br>种别：机<br>时机：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>在适用伤害前使用。如果该次伤害会把你HP降至0的话，改为降至1。每个模组可以使用一次。<br><br>现在就把事情搞垮给你看<br>等级：9<br>种类：机<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：20hp<br>效果：<br>该主步骤中你进行攻击的暴击值-2(下限7)，伤害+[【意志基本值】],一场景可以使用一次。<br><br>永远地Stand by me<br>等级：10<br>种类：机<br>时点：攻击命中后立刻<br>对象：单体☆<br>射程：视界<br>代价：无<br>效果：<br>在别人攻击命中后使用。你立刻在对象身处的方格出现，并进行掩护。那次掩护不会导致你行动终了，或者是就算行动终了你也可以立刻进行掩护，而且伤害0化。每个模组可以用一次。你失去20点HP。<br><br>▼类别扩展物品（也可以使用原本AS书中的物品）<br><br>ARX-8 烈焰魔剑<br>种类：AS(M9系/Λ)<br>命中：+3<br>回避：+5<br>炮击：+3<br>防壁：±0<br>行动：+10<br>装甲：+8<br>感应：+12<br>攻击力：+5<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：10/4/8/5<br>购入难易度：-/100<br>作为决战兵器而设计制作的试制AS，借由高出力发电机以及Λ式驱动仪的支撑，此机体得以发挥出超越第三世代AS数倍之上的单机性能。<br>人物等级低于5无法装备。自动取得[隐藏式辅助臂]。装备时无法使用[电磁斗篷]。<br><br>=========================================================================================<br><br>GRAW-4单分子切割刀<br>种类：白刃（实剑）<br>命中：±0<br>回避：+1<br>炮击：±0 <br>防壁：±0<br>行动：-2<br>主攻击力：&lt;斩&gt;+6+【反射】<br>副攻击力：&lt;斩&gt;+6+【反射】<br>射程：0<br>部位：主/副<br>代价：无<br>弹数：无<br>购入难易度：-/5<br>可以收纳在膝盖处的折叠式大型单分子刀。<br>拥有对潜能力。<br><br>GEC-C 40mm紧凑型步枪<br>种类：射击（全自动）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：+1<br>行动：±0<br>主攻击力：&lt;殴&gt;+5<br>副攻击力：&lt;殴&gt;+5<br>射程：0~2<br>部位：主/副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/5<br>移除了枪托，缩短枪管，适用于接近作战的轻型突击步枪<br><br>毛瑟MGK-35 35mm突击步枪<br>种类：射击（全自动）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-3<br>主攻击力：&lt;殴&gt;+8<br>副攻击力：&lt;殴&gt;+8<br>射程：1~3<br>部位：主/副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/6<br>德国制的精确射手步枪，适用于中远距离作战。<br><br>76mm 霰弹炮 Boxer2 <br>种类：射击（加农）<br>命中：±0<br>回避：-3<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;刺&gt;+12<br>副攻击力：&lt;刺&gt;+8<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/18<br>57mm霰弹炮Boxer的口径强化型，发射独头穿甲弹。<br>这个武器的命中判定+2。<br><br>76mm 霰弹炮 Boxer2（OO） <br>种类：射击（霰弹）<br>命中：±0<br>回避：-3<br>炮击：±0<br>防壁：-1<br>行动：-4<br>主攻击力：&lt;殴&gt;+15<br>副攻击力：&lt;殴&gt;+10<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/8<br>57mm霰弹炮Boxer的口径强化型，发射00号霰弹。<br>这个武器的命中判定+2。<br><br>黑曼巴红外制导导弹<br>种类：炮击（导弹）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-3<br>行动：-2<br>主攻击力：&lt;炎&gt;+12<br>副攻击力：&lt;炎&gt;+12<br>射程：3~4<br>部位：主/副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/5<br>下挂在推进翼硬点上的三联装导弹巢<br>不装备名字带有[紧急展开加速器]的附加组件的话无法装备。<br><br>●二联装Zelos 20mm转轮炮<br>种类：炮击（全自动）<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-3<br>行动：-5<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+10<br>射程：1~4<br>部位：副<br>代价：弹数1<br>弹数：4<br>购入难易度：-/5<br>用辅助臂挂载在机体背后的转轮机炮。<br>不装备名字带有[紧急展开加速器]的附加组件的话无法装备。对象是集群的时候，伤害+2D6。<br><br>●XMAGS-1 原型爆破榴弹炮<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：-2<br>行动：-4<br>主攻击力：&lt;炎&gt;+15<br>副攻击力：-<br>射程：2~6<br>部位：主<br>代价：弹数1<br>弹数：2<br>购入难易度：-/5<br>舒华德军工厂的原型武器，火力远超常规坦克主炮的AS用兵装。<br><br>AGS-1 试作多用途爆破榴弹炮<br>命中：-2<br>回避：-3<br>炮击：±0<br>防壁：-4<br>行动：-4<br>主攻击力：&lt;殴&gt;+15<br>副攻击力：-<br>射程：4~8<br>部位：主<br>代价：弹数1<br>弹数：2<br>购入难易度：-/30<br>配备了加长炮身与多种发射模式的165mm榴弹炮，能作出长距离且高精准度的炮击。<br>取得时自动取得[AGS-1 试作多用途爆破榴弹炮（高爆榴弹）]。<br>&gt;「种类：Λ」该武装只能装备在「种类：Λ」AS上<br><br>●AGS-1 试作多用途爆破榴弹炮（高爆榴弹）<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;炎&gt;+20<br>射程：2~6<br>部位：副<br>代价：弹数1<br>弹数：1<br>购入难易度：-/-<br>装备上加长炮身的165mm榴弹炮，可以在短时间内进行广域火力复盖。<br>只能在装备[AGS-1 试作多用途爆破榴弹炮]时才能装备。<br>&gt;「种类：Λ」该武装只能装备在「种类：Λ」AS上<br><br>=========================================================================================<br><br>XL-3 紧急展开加速器<br>种类：附加组件<br>命中：-4<br>回避：-4<br>炮击：±0<br>防壁：-4<br>行动：-6<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：+3<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/15<br>解说：装备了额外武器挂点和推进器的飞行投送装置，不使用Λ式驱动仪进行稳定的话随时都有解体的危险。<br>装备时可以在角色表的其他二栏把[种类：炮击（导弹）]的武装作为[远距离副武装]装备。<br>&gt;「种类：Λ」该附加组件只能装备在「种类：Λ」AS上<br><br>隐藏式辅助臂<br>种类：附加组件<br>命中：+2<br>回避：-2<br>炮击：±0<br>防壁：-2<br>行动：-2<br>力场：±0<br>感应：-5<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/-<br>解说：由AI控制的一对隐藏式辅助臂。可以在攻击辅助、弹匣交换、精密作业等等方面协助使用者。<br>不取得[支援AI]无法装备。装备时可以在角色表的其他二栏把[种类：霰弹]、[种类：全自动]或[种类：实剑]的近距离武装作为[近距离副武装]装备。装备在额外的武器栏的武装不能用于[双重武装]。（低素质无下限四刀流？不存在的！）<br><br>=========================================================================================<br><br>辅助臂供弹模块<br>种类：辅助<br>时点：先攻步骤<br>对象：自身<br>购入难易度：-/1<br>解说：包含了备用弹匣接点的辅助臂用支援模块。<br>装备[隐藏式辅助臂]时才能使用。立刻使用一个[预备弹仓]。每轮可以使用一次。<br><br>附件切离<br>种别：辅助<br>时机：先攻步骤<br>购入难易度：-/1<br>解说：能把机体和附加组件紧急分离的辅助物品，视装备的部件不同也有内置了降落伞和着陆缓冲器的型号。<br>在先攻时段宣言。破弃现时装备中的附加组件。同时可以更换任意个装备中的武装和附加组件。如果被破弃的是[XL-2 紧急展开加速器]或[XL-3 紧急展开加速器]则可以立刻进行一次战斗移动。该物品一场面可以使用一次。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878228">
+&#171; <em>上次编辑: 2017-09-09, 周六 23:50:47 由 CodeGloria</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878230"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878230_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878230">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878230#msg878230" rel="nofollow">Re: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878230'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878230'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2017-09-09, 周六 22:52:00 &#187;</div>
+<div id="msg_878230_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878230"><strong><span style="font-size: 18pt;" class="bbc_size">类别：斥候/SCOUT/Pointman</span></strong><br>也就是克鲁兹和玉兰酱的类别了，构筑思路是基于闪电级+方阵级+激凸级的感觉... ...什么？你说怎么又有方阵？嘛嘛谁知道呢诶嘿（望天）~<br>标准：苟要能接近闪电级，输出要接近激凸级，但是也只是接近罢了... ...好吧我写这玩意的时候确实没怎么在意平衡性，不如说就连自己车一张卡都懒得车，我就是懒你打我呀打我呀（M子颜）。大致也可以分为两个流派了，即主实剑武装的剑斗士流和主手枪的枪炮工流，两种也各有各的特色就是了。当然...武器方面也有还原原作的装逼用钢刀和全金another里的高时髦值黑科技玩具，贵是贵了点但是强度摆在那里嘛... ...反正作为一个近战流论输出的话这个类别还是不如砍爆一切的祸津神就是了！不许说我滥强不许不许不许！（母猪打滚）<br><br>SA：埃吉尔<br><br>▼能力基本值<br>体力：3&nbsp; &nbsp; &nbsp; &nbsp; 理知：3<br>反射：5&nbsp; &nbsp; &nbsp; &nbsp; 意志：2<br>知觉：5&nbsp; &nbsp; &nbsp; &nbsp; 幸运：6<br>▼自动取得道具<br>常备化一件[种类：AS（第三代）]的物品。从人类用武装·防具中，选择一件[种类：FA]和一件[种类：手枪]的物品常备化。<br><br>修正表<br>等级 1 2 3 4 5 6 7 8 9 10<br>命中 2 2 3 3 4 4 5 6 6 7<br>回避 1 2 3 3 3 4 5 5 6 7<br>炮击 1 1 2 2 3 3 4 4 5 5<br>防壁 1 2 2 3 3 4 4 5 6 7<br>行动 1 2 2 3 5 5 6 6 7 7<br>装甲 7 13 18 25 29 33 40 44 50 57 <br>耐久 4 8 12 16 20 24 28 32 36 40<br>感应 2 4 6 8 10 12 14 16 18 20<br>攻击 1 2 2 3 3 4 4 5 5 6<br><br>特技<br>▼初期取得<br>取得《CQC》，并且在LV1的该类别特技中，任意选择3个取得。<br>另外取得《电磁斗篷》<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。<br>此外，到达3级时自动取得《CQB专精》，到达5级时在《剑斗士》和《枪炮工》中选择一个取得，到达7级时自动取得《GPL限制解除》。<br><br>▼类别特技<br><br>CQC<br>等级：1<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你的白刃攻击伤害+【反射】。<br><br>ECS奇袭<br>等级：1<br>种类：机、增<br>时点：即将进行命中判定时<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：<br>对对象进行白刃攻击时才能使用。那次命中判定的达成值+2，伤害+[2d6+X]。每场景可以使用一次。此特技只限搭乘「种类：第三代」AS时才能使用。<br><br>迷彩<br>等级：1<br>种类：-<br>时点：设置步骤<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：<br>该轮中，你进行的防御判定达成值+2。<br><br>飞索擒拿<br>等级：1<br>种类：操<br>时点：次要动作<br>对象：单体☆<br>射程：1~3<br>代价：5HP<br>效果：<br>需装备「种类：捕获」的武器才能使用。使对象移动到你身处的方格。这时，可以无视方格的状态。对持有BOSS属性的角色无效。该效果对象可以支付5点HP以无效，视为代价。<br><br>接触性射击<br>等级：1<br>种类：命<br>时点：主要动作<br>对象：单体<br>射程：0<br>代价：2HP<br>效果：使用手枪配合体术进行近距离贴身战斗，将格斗与射击结合的作战方式。<br>对对象使用「种类：手枪」武装进行近距离攻击。那次伤害+[【反射】]。此时，射程变为0。攻击视为白刃攻击。<br><br>动态进场<br>等级：1<br>种类：-<br>时点：设置步骤<br>对象：自身<br>射程：无<br>代价：3HP<br>效果：<br>立刻进行一次战斗移动。此外，该轮中，你的【行动值】+[X/3(小数进位)]D6。该特技每场面可以使用[X/3]次<br><br>短剑战术<br>等级：1<br>种类：命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：3HP<br>效果：<br>对对象使用[种类：刀剑][种类：实剑]或[种类：短剑]的武装进行白刃攻击。那次伤害+[2d6]。类别等级4以上时，再+[2d6]。<br><br>Free Running<br>等级：1<br>种类：-<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：3en<br>效果：<br>进行战斗移动。此时，不受方格的移动修正(不代表能够入侵不能入侵的地形)。此外在该轮中，你的【回避值】+2。<br><br>扫堂腿<br>等级：1 <br>种类：-<br>时点：次要动作 <br>对象：单体☆ <br>射程：0 <br>代价：3HP <br>效果：<br>给予对象狼狈。对象可以消耗[Y+2]点【HP】使这个效果无效化。这个HP消耗视为代价。<br><br>不屈的猛将<br>等级：1<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你搭乘的AS的【装甲值】+15，你进入觉醒状态(=界限突破)时的FP与HP回复量+[【意志基本值】]。此外你取得的《觉醒之力》效果+【意志】。<br><br>招架反击<br>等级：2<br>种类：-<br>时点：反应动作<br>对象：自身<br>射程：无<br>代价：3HP<br>效果：<br>你以【命中值】进行防御判定应对来自同一方格的白刃攻击。对判胜利时,对你攻击的角色获得狼狈。每轮一次。<br><br>跑酷<br>等级：2<br>种类：-<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：<br>以飞行状态进行全力移动。该全力移动不会导致你行动终了，你可以继续进行主步骤（次要动作和主要动作）。此外，因该特技获得的飞行状态持续到主步骤终了为止。<br><br>狩猎者之眼<br>等级：2<br>种类：-<br>时点：次要动作<br>对象：单体<br>射程：0<br>代价：5HP<br>效果：<br>该轮中，对象进行反应动作时判定值-2，暴击值+2，若超过12则无法暴击。<br><br>飞索强袭<br>等级：2<br>种类：操,命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：2HP<br>效果：<br>以「种类：捕获」的白刃武装进行近距离攻击。该攻击只要成功造成最少一点伤害，则给予狼狈。类别等级4以上时，再追加麻痹。<br><br>莫桑比克射击术（Mozambique Drill）<br>等级：2<br>种类：-<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：使用手枪向敌人快速射击使其体势崩坏，随后一枪直击其弱点。<br>该轮中，你使用[种类：手枪]的武器攻击时命中判定达成值+2，造成的伤害以对手的防御修正-[Y]计算。此外，如果你给予的伤害的属性为&lt;神&gt;的话，伤害数值再+[Y]。<br><br>CQB专精<br>等级：3<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你给予的近距离攻击与SA(加护)伤害+X。类别等级10以上时，效果变为+2X。<br><br>动态掩体<br>等级：3<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：在机动中利用地形躲开敌人的视野并保护自身。<br>你移动了至少1格的回合中进行的防御判定达成值+2。不过此效果，对内文中含有「无视部份遮蔽」的攻击无效。<br><br>熟练的观测手<br>等级：3<br>种类：操<br>时点：宣言攻击前<br>对象：单体<br>射程：视界<br>代价：2EN<br>效果：<br>在任意角色宣言攻击前宣言。该角色进行的攻击，能不受部份遮蔽与视界遮蔽方格的影响选择对象，命中判定的达成值+2。<br><br>寸拳突击<br>等级：3<br>种类：机,命<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：10EN<br>效果：冲入敌人怀中集中一点发力以寸劲击溃敌人。<br>对对象进行【殴+20】的白刃攻击。只要给予了最少一点实际伤害,则给予对方狼狈且强制让对手进行脱离移动,方向你定。一场景可以使用一次。<br><br>突施冷箭<br>等级：3<br>种类：操、炮<br>时点：移动动作<br>对象：单体☆<br>射程：0<br>代价：10EN<br>效果：用投刃制造从近身战中闪身脱离的时机。<br>对对象以名字带有【投刃】的武器进行一次攻击，该次攻击直接视为命中并造成伤害。随后进行脱离移动。该次脱离移动不会使你的主步骤终止。该特技一场景可以使用一次。<br><br>无慈悲的追击<br>等级：4<br>种类：-<br>时点：给予狼狈时<br>对象：本文<br>射程：0~3<br>代价：8HP<br>效果：<br>你在自身给予狼狈时使用。对你给予狼狈的任意名角色给予3D6+2X点伤害。该伤害投掷可迭加《一击必杀》(=《托尔》)。一回合一次。<br><br>贸首之仇<br>等级：４<br>种类：操、炮<br>时点：防御判定后<br>对象：自身<br>射程：无<br>代价：5hp<br>效果：<br>在防御判定的对决胜利后使用。你朝对你攻击的对象,以名字带有【投刃】的武器进行一次攻击。该次攻击判定的达成值+X。假如由于射程等原因无法攻击时,则不能使用此技能。该特技每场景可以使用（X/7）次。<br><br>投刃追打<br>等级：４<br>种类：操、增<br>时点：伤害投掷后<br>对象：自身<br>射程：无<br>代价：3en<br>效果：在敌人从受到的攻击中反应过来前再次用投刃扩大伤害。<br>选择装备中的一件名字带有【投刃】的武装。在你对与你同处一个方格的人物进行攻击时，于伤害投掷中使用。该次伤害+[所选武装的威力]。该特技每轮可以使用一次。<br><br>剑斗士（Sword Fighter）<br>等级：5<br>种类：选<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：在白兵战中你能以最小的动作，最快的攻击方式，在一瞬间见缝插针地攻击敌人。<br>你使用[种类：刀剑][种类：实剑]或[种类：短剑]的武装攻击时的暴击值-2（下限9），命中判定暴击时造成的伤害额外+2d6。此外，被你使用[种类：刀剑][种类：实剑]或[种类：短剑]造成伤害的[分类:solo]的角色,变为操作不能。该效果对持有《BOSS属性/BOSS属性》、《中BOSS属性/中BOSS属性》、《对手属性/ライバル属性》的人物无效。对象可消费5HP以无效化此效果,视为代价。<br><br>枪炮工（Gunslinger）<br>等级：5<br>种类：选<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：使用手枪迎击敌人时你能不经思考，只凭借过人的反射对周围的敌人进行精准而致命的快速射击。<br>你使用的《接触性射击》对象变为【范围1（选择）】。此外，你使用[种类：手枪]的武器对[分类:集群]造成的伤害+2d6,[分类:集群]在受到此效果的攻击时不能进行掩护。<br><br>狂野突破<br>等级：5<br>种类：-<br>时点：移动前<br>对象：自身<br>射程：无<br>代价：6HP<br>效果：<br>在移动前宣言。在受该特技效果的移动结束为止，入侵敌方方格也不必结束移动，而且不必离脱以便移动。<br><br>快速反应<br>等级：5<br>种类：-<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：<br>你可以使用两个[时点：次要动作]的特技或者道具。但是，不能使用进行复数回同样的特技。<br><br>寂静杀戮<br>等级：6<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>《迷彩》的效果适用中，你使用《ECS奇袭》不消耗使用次数。此外，（若《迷彩》的效果正在适用，）《ECS奇袭》的剩馀使用次数为0也可以使用。<br><br>战争的艺术<br>等级：6<br>种类：操<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>[种类：刀剑][种类：实剑]和[种类：短剑]的武装与《接触性射击》的伤害+[你使用“空手”的攻击力]。<br><br>GPL限制解除<br>等级：7<br>种类：自、机<br>时点：随时<br>对象：自身<br>射程：无<br>代价：侵蚀3、重压、麻痹<br>效果：解除GPL限制，以机体部件的巨大损耗为代价取得达到其物理极限的性能。<br>该特技仅在【FP】小等于【意志基本值】时或界限突破中能够使用。该场景中，你的【行动值】+10，进行攻击时的攻击力+10。所有判定的达成值+2，暴击值都-2（下限7）。以上效果适用期间你除了界限突破和加护外无法进行任何形式的FP回复，且每次进行主要动作后和每轮的结算阶段将立刻受到Y点【FP】实际伤害；该伤害并非代价。Y=你的人物等级。<br><br>高速移动<br>等级：8<br>种类：-<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：5HP<br>效果：<br>你能连续进行两个移动动作，也可以使用两次除该特技外的[时点：移动动作]的特技。<br><br>Your Eyes Only<br>等级：9<br>种类：机<br>时点：移动前<br>对象：自身<br>射程：无<br>代价：10EN<br>效果：<br>移动前宣言，可以出现在场景内的任何一个方格。这时，无视方格的封锁压制、敌方格和移动力直接出现在目标方格。每个模组可以使用一次。<br>此特技只限搭乘「种类：第三代」AS时才能使用。<br><br>在战场上决定生死的不是强弱，而是运气<br>等级：10<br>种类：-<br>时点：场景结束时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>在你于死亡状态下迎来场景终了时使用。你不会从游戏中除外，而是能在游戏后消除所受伤害，从死亡状态中回复。根据使用者的意愿，GM可以在结尾准备人物使用特技复活的场景进行演出。该特技一模组可以使用一次。<br><br>=========================================================================================<br><br>▼类别扩展物品（也可以使用原本AS书中的物品）<br>M9-D Falke 鹰式<br>种类：AS(M9系)<br>命中：+3<br>回避：+5<br>炮击：±0<br>防壁：+3<br>行动：+8<br>装甲：+10<br>感应：+8<br>攻击力：+2<br>固定武装：机械手<br>移动力：3<br>体型：S<br>防御修正（斩/刺/殴/炎）：9/4/7/3<br>购入难易度：-/-<br><br>Wolf<br>种类：AS(第三代)<br>命中：+3<br>回避：+4<br>炮击：+2<br>防壁：+4<br>行动：+6<br>装甲：+12<br>感应：+10<br>攻击力：+3<br>固定武装：机械手<br>移动力：3<br>体型：S<br>防御修正（斩/刺/殴/炎）：10/5/8/5<br>购入难易度：-/60<br>德国制造的次时代AS，泛用性强但是价格高昂，因为独特的造型也有“Swordman”的绰号。<br>人物等级低于5无法装备。<br><br>Rk-02 Ceptor 王权<br>种类：AS(第三代)<br>命中：+4<br>回避：-6<br>炮击：+4<br>防壁：+4<br>行动：-4<br>装甲：+15<br>感应：+15<br>攻击力：+6<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：15/8/12/12<br>购入难易度：-/-<br>基于追求行动时间、扩充性、装甲防护力和火力的理念而设计的重型AS。取得时自动取得[蝮蛇兵装系统]<br><br>Plan1056 Codarl 地狱君王<br>种类：AS(第三代/Zy Λ)<br>命中：+3<br>回避：+4<br>炮击：+2<br>防壁：+2<br>行动：+8<br>装甲：+12<br>感应：+10<br>攻击力：+3<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：9/5/7/3<br>购入难易度：-/-<br>Codarl的初期型，搭载Λ式驱动仪的试验机。<br><br>Plan1065 ERIGOR 地狱骑士<br>种类：AS(第三代/Zy Λ)<br>命中：+4<br>回避：+5<br>炮击：+3<br>防壁：+3<br>行动：+10<br>装甲：+12<br>感应：+10<br>攻击力：+5<br>固定武装：机械手<br>移动力：3<br>体型：S<br>防御修正（斩/刺/殴/炎）：10/5/10/6<br>购入难易度：-/100<br>Plan1056柯达尔系列的最新锐型号，为精英而专门定制的专用机。人物等级低于7无法装备。<br><br>=========================================================================================<br><br>Zeya B7C 单分子刀<br>种类：白刃（实剑）<br>命中：+1<br>回避：-2<br>炮击：±0 <br>防壁：±0 <br>行动：-2<br>主攻击力：-<br>副攻击力：&lt;斩&gt;+12<br>射程：0<br>部位：副<br>代价：无<br>弹数：无<br>购入难易度：-/3<br>大型单分子反曲刀。与[Rk-02 Ceptor 王权]同时装备时对战斗值的修正变为±0。<br><br>单分子长刀<br>种类：白刃（实剑）<br>命中：±0 <br>回避：-2<br>炮击：±0 <br>防壁：-2<br>行动：-4<br>主攻击力：&lt;斩&gt;+15<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>弹数：无<br>购入难易度：-/5<br>带有单分子切割刃的大型格斗兵器，有镰刀或者长矛等各种各样的外形。<br><br>蝮蛇兵装系统（单分子刀）<br>种类：白刃（实剑）<br>命中：±0 <br>回避：±0 <br>炮击：±0 <br>防壁：±0<br>行动：±0 <br>主攻击力：&lt;刺&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>弹数：无<br>购入难易度：-/5<br>附带防护盾的爪状格斗刃。只能与[蝮蛇兵装系统]同时装备。装备时你使用的[种类：防]特技或道具的效果+1d6。<br><br>合金太刀<br>种类：白刃（实剑）<br>命中：+2<br>回避：-2<br>炮击：±0 <br>防壁：±0<br>行动：-5<br>主攻击力：&lt;斩&gt;+5<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：无<br>弹数：无<br>购入难易度：-/20<br>钢合金制成的AS用太刀，使用此武器造成的伤害投掷中如果使用了《立场强袭》的话，造成的伤害额外+5d6。<br><br>东芝 一〇式单分子刀<br>种类：白刃（实剑）<br>命中：+1<br>回避：-2<br>炮击：±0 <br>防壁：-1<br>行动：-6 <br>主攻击力：&lt;斩&gt;+12<br>副攻击力：-<br>射程：0<br>部位：主<br>代价：5EN<br>弹数：无<br>购入难易度：-/30<br>日本刀造型的单分子切割刀。以此武装进行攻击暴击时，对方的&lt;斩&gt;防御修正视为0。<br><br>EHI“蜻蜓”接近战系统<br>种类：白刃（实剑/捕获）<br>命中：+2<br>回避：-3<br>炮击：±0 <br>防壁：±0<br>行动：-8 <br>主攻击力：&lt;刺&gt;+10<br>副攻击力：-<br>射程：0~1<br>部位：主<br>代价：无<br>弹数：无<br>购入难易度：-/20<br>状似十文字枪的单分子长刀，可将装有推进器和钢索的枪尖射出。取得时自动取得[EHI“蜻蜓”接近战系统（霰弹枪）]<br><br>EHI“蜻蜓”接近战系统（霰弹枪）<br>种类：射击（散弹/手枪）<br>命中：±0<br>回避：±0<br>炮击：±0 <br>防壁：±0<br>行动：±0<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+6<br>射程：1~2<br>部位：副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/-<br>挂载在“蜻蜓”枪柄上的短管霰弹枪。只能在装备[EHI“蜻蜓”接近战系统]时装备。使用该武器的命中判定达成值+2。<br><br>土桑精密机械 M57手枪<br>种类：射击（手枪）<br>命中：±0<br>回避：-1<br>炮击：±0 <br>防壁：±0<br>行动：-2<br>主攻击力：&lt;刺&gt;+6<br>副攻击力：&lt;刺&gt;+6<br>射程：1~2<br>部位：主/副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/10<br>发射57mm子弹的大口径转轮手枪。<br><br>●双刃单分子切割刀<br>种类：射击（手枪/实剑）<br>命中：±0<br>回避：+1<br>炮击：±0 <br>防壁：±0<br>行动：-2<br>主攻击力：&lt;殴&gt;+2+【反射】<br>副攻击力：&lt;殴&gt;+【反射】<br>射程：0~2<br>部位：主/副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/8<br>带有单分子切割刃的37mm手枪。同时装备两把此武器时你使用的[接触性射击]造成的伤害+2d6。<br><br>T-608 公牛<br>种类：射击（手枪/霰弹）<br>命中：±0<br>回避：±0<br>炮击：±0 <br>防壁：±0<br>行动：-2<br>主攻击力：&lt;殴&gt;+8<br>副攻击力：-<br>射程：0~2<br>部位：主<br>代价：弹数1<br>弹数：3<br>购入难易度：-/10<br>左轮手枪外形的霰弹枪。使用该武器的命中判定达成值+2。<br><br>●BK-545 转轮机炮<br>种类：射击（全自动）<br>命中：-2<br>回避：-3<br>炮击：-2 <br>防壁：+2<br>行动：-4<br>主攻击力：&lt;殴&gt;+10<br>副攻击力：-<br>射程：1~4<br>部位：主<br>代价：弹数1<br>弹数：3<br>购入难易度：-/6<br>37mm口径的重型机炮。对[种类：集群]造成的伤害+3d6。<br><br>AT-19 多目的导弹<br>种类：炮击（导弹）<br>命中：-1<br>回避：-3<br>炮击：+2 <br>防壁：-3<br>行动：-4<br>主攻击力：&lt;炎&gt;+10<br>副攻击力：&lt;炎&gt;+10<br>射程：1~4<br>部位：主/副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/10<br>装置于机体背部的小型导弹发射架。该武装根据[对象：范围2（选择）]选取对象。<br><br>M-1108 对战车投刃<br>种类：炮击（实剑）<br>命中：±0 <br>回避：+1<br>炮击：±0&nbsp; <br>防壁：±0 <br>行动：±0 <br>主攻击力：-<br>副攻击力：&lt;炎&gt;+8<br>射程：0~3<br>部位：副<br>代价：弹数1<br>弹数：2<br>购入难易度：-/10<br>由纵列式成型炸药制成的短剑，可以收纳于机体胸部。使用该武器的炮击攻击视为白刃攻击。<br><br>合金投刃<br>种类：炮击（实剑）<br>命中：±0 <br>回避：±0<br>炮击：±0&nbsp; <br>防壁：±0 <br>行动：-2 <br>主攻击力：-<br>副攻击力：&lt;斩&gt;+4+【反射】<br>射程：0~2<br>部位：副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/10<br>合金制的飞刀，也有苦无外形的型号。<br><br>=========================================================================================<br><br>指挥模块<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：-1<br>力场：±0<br>感应：+5<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>集成了通讯设备和信息处理AI的增设部件。在[时点：先攻步骤]宣言使用，根据[对象：范围3（选择）]选取自身以外的人物对象。直到该轮终了为止，对象进行命中判定与防御判定时的判定值+2。<br><br>蝮蛇兵装系统<br>种类：附加组件<br>命中：±0<br>回避：±0<br>炮击：±0<br>防壁：±0<br>行动：±0<br>力场：±0<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/-<br>装置于AS上臂和背部的可变换模块，可以快速切换所持有的武器。<br>装备此附加组件时你可以在[时点：先攻步骤]更换任意个装备中的武装。所有你装备中的武装对战斗值产生的修正+3（最多变为0）。<br><br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878230">
+&#171; <em>上次编辑: 2017-09-09, 周六 23:01:34 由 CodeGloria</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878232"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878232_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878232">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878232#msg878232" rel="nofollow">Re: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878232'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878232'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2017-09-09, 周六 22:53:52 &#187;</div>
+<div id="msg_878232_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878232"><strong><span style="font-size: 18pt;" class="bbc_size">类别：神射手/sharpshooter</span></strong><br>最后就是变态绅士尾巴，其实我一直很苦恼明明狙击已经在某本书里强化过了（被狙击打不能援护防御），但是一直都没见有人车狙击卡啊... ...就连有杂志扩的超屌韦天魔术棒级别的狙击炮的闪电级都没有人用狙的哦？？？？大概是别的武器太强了这么个丢人的附加功能也没什么特别值得拿的地方吧... ...<br>而且全金书里的狙击手也... ...连灾厄都打不过！（暴言）于是就写了这么个... ...狙击特化的方阵级+骑士级的混种！没错又有方阵要素！满满的方阵级要素！<br>但是仔细一看似乎也没强到哪里去（和3级一发10d6冰伤的澳际选手比）的样子？<br>另外某个能登梗也加了，嗯，我是能登厨，嗯。<br>等等这个梗可以说是能登黑历史吧喂！<br><br>SA：一意专心(=海姆达尔)<br><br>▼能力基本值<br>体力：3&nbsp; &nbsp; &nbsp; &nbsp; 理知：5<br>反射：4&nbsp; &nbsp; &nbsp; &nbsp; 意志：3<br>知觉：6&nbsp; &nbsp; &nbsp; &nbsp; 幸运：3<br>▼自动取得道具<br>常备化一件[种类：AS（第三代）]的物品。从人类用武装·防具中，选择一件[种类：狙击]和一件[种类：手枪]的物品常备化。<br><br>修正表<br>等级 1 2 3 4 5 6 7 8 9 10<br>命中 1 2 2 3 3 4 4 5 5 6<br>回避 0 0 1 1 1 2 2 3 3 4<br>炮击 2 2 3 4 5 5 6 6 7 8<br>防壁 0 1 1 2 2 3 3 4 4 5<br>行动 2 2 3 4 5 5 6 7 8 9<br>装甲 5 10 15 20 25 30 35 40 45 50<br>耐久 4 7 10 13 17 20 23 26 30 34<br>感应 3 6 9 12 15 18 21 24 27 30<br>攻击 1 2 2 3 4 4 5 6 6 7<br><br>特技<br>▼初期取得<br>取得《狙击术》，并且在LV1的该类别特技中，任意选择3个取得。<br>另外取得《电磁斗篷》<br>▼升级<br>在（上升后的）类别等级以下的，该类别特技中，任意选择1个取得。<br>此外，到达3级时在《弱点狙击》和《机动狙击》中选择一个取得，到达7级时自动取得《小鬼们，好戏现在才开始！》。<br><br>狙击术<br>等级：1<br>种类：自、炮<br>时点：主要动作<br>对象：单体☆<br>射程：装备<br>代价：3EN<br>效果：<br>对对象使用「种类：狙击」的远距离武装进行远距离攻击。该次伤害+2D6。若你的类别等级在5以上，再+2D6。<br><br>豺狼末日（The Jackal）<br>等级：1<br>种类：-<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：<br>该主步骤中，你装备的远距离武装的射程+2。例如，若武装的射程为[3~4]则变成[3~6]。此外，该主步骤中，你进行远距离攻击时，命中判定的达成值+2。<br><br>压制狙击<br>等级：1<br>种类：-<br>时点：主要动作<br>对象：单体<br>射程：正文<br>代价：3HP<br>效果：<br>指定一个装备中的射击武装或远距离武装。该武装射程内指定（X/2）个对象进行防御判定时，判定值-3且除加护效果外不会造成暴击。该效果不会解除，除非你宣言解除、陷入战斗不能·死亡、进行移动，或者是进行主要动作。（换言之，就是通过放弃移动和主要动作维持效果。）<br><br>狙击手定制<br>等级：1<br>种类：机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>在准备游戏时选择一台已常备化的AS。其【炮击值】+2。且选择常备化的一个[种类：狙击]武装。那个武装的战斗值修正+2（最大到±0）。<br><br>突击支援射击<br>等级：1<br>种类：增<br>时点：即将进行伤害投掷时<br>对象：单体☆<br>射程：0~4<br>代价：4hp<br>效果：<br>指定装备中的一个弹数为1以上的远距离武装。在该武装的射程内选择对象，在对象即将进行伤害投掷时使用。那次伤害+[2d6+所选武装威力]。若你的类别等级在7以上，再+2D6。该特技每场景可以使用（X/3）次。<br>需要注意该特技的对象与其他「种类：增」特技相同，指的都是进行攻击的友军。只要被攻击的敌人位于你选择的武装攻击范围内，便都会受到额外伤害（代价只需支付一次）。<br><br>防御姿态<br>等级：1<br>种类：机、防<br>时点：伤害投掷后立刻<br>对象：自身<br>射程：无<br>代价：2EN<br>效果：以增设装甲或护盾迎敌，采用抗冲击的体势，最大限度地减少即将到来的伤害。<br>减轻受到的伤害。你（预定要）受到的伤害减轻[2d6+X]点。每轮可以使用一次。<br><br>冲突点（Point of Impact）<br>等级：2<br>种类：机<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：5HP<br>效果：<br>即使你进行了移动，该主步骤中，你依然可以使用[种类：炮击]的武装进行远距离攻击。此特技只限搭乘「种类：第三代」AS时才能使用。<br><br>机炮近距离防御<br>等级：2<br>种类：机<br>时点：反应动作<br>对象：自身<br>射程：无<br>代价：弹数1<br>效果：<br>对「种类：导弹」「种类：火箭炮」「种类：火箭」攻击的防御判定，以【炮击值】来进行。该判定的判定值+2。[弹数：3]。<br><br>俯身姿势<br>等级：2<br>种类：-<br>时点：移动动作<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>此轮期间，你的【炮击值】+2，【回避值】-4。<br><br>战术装填<br>等级：2<br>种类：-<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：2hp<br>效果：<br>立刻回复你装备中的一个武装或者特技的弹数。该特技一模组可以使用[1+X/2]次。<br><br>ECS脱离<br>等级：2<br>种类：机<br>时点：结束主步骤时<br>对象：自身<br>射程：无<br>代价：5EN<br>效果：在发动攻击后立刻启动ECS甩开敌人的追击。<br>在你曾进行远距离攻击凡主步骤结束时使用。你能即时进行战斗移动或者脱离移动。此特技只限搭乘「种类：第三代」AS时才能使用。<br><br>弱点狙击<br>等级：3<br>种类：选、增<br>时点：投掷命中判定前<br>对象：自身<br>射程：无<br>代价：2hp<br>效果：精确地瞄准敌人装甲之间的缝隙或者暴露在外的关键部位，一旦命中便能确实地重创敌人。<br>自身使用[种类：狙击]的武装进行炮击的攻击判定前使用，该次攻击判定的暴击值-3（下限9），达成值-6。若该次攻击判定暴击，则造成的伤害额外+2d6（合计4d6）。<br><br>机动狙击<br>等级：3<br>种类：选、增<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：移动到敌人的视野盲区或是射线最佳的地点，使狙击的效能最大化。<br>该轮中你以任何形式移动了一格以上的话，该轮你使用[种类：狙击]的武装进行的命中判定的达成值+2，伤害+1d6。<br><br>ECS伏击<br>等级：3<br>种类：机<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：10en<br>效果：在脱离敌人视线时启动ECS进入不可视模式，随后出其不意地发动攻击。<br>仅在你处于未行动状态时可以使用。你立刻进行一次主步骤。该主步骤终了后，你将变为行动终了状态。该特技一场景可以使用X/5次。<br><br>山猫无眠<br>等级：3<br>种类：-<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：<br>若你在该主步骤中使用《狙击术》时，该伤害以对手的防御修正-[Y]计算。此外，如果你给予的伤害的属性为&lt;神&gt;的话，伤害数值再+[Y]。<br><br>狩猎时间(Time to Hunt)<br>等级：4<br>种类：自<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：<br>你可以使用两个[时点：次要动作]的特技。但是，不能使用进行复数回同样的特技。<br><br>扩充弹仓<br>等级：4<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你常备化的射击武装与远距离武装的弹数全部+1。若你的类别等级在7以上，则再+1。<br><br>连环杀戮<br>等级：4<br>种类：炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：5EN<br>效果：接连不断的狙击攻击，快速清扫目标区域内的敌对单位。<br>对对象使用「种类：狙击」的远距离武装进行远距离攻击。该次攻击的对象扩大一阶，并以此选择对象。该次攻击除加护效果外无法造成暴击。<br><br>静寂心神<br>等级：5<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你免疫重压、恍惚、狼狈的效果。此外，【意志基本值】+3。<br><br>重火力装填<br>等级：5<br>种类：-<br>时点：次要动作<br>对象：自身<br>射程：无<br>代价：5hp<br>效果：<br>该主步骤期间，你进行的远距离攻击伤害+X。类别等级在14以上时，此效果变更为+2X。<br><br>斥候狙击兵<br>等级：5<br>种类：-<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你受到《俯身姿势》效果时，或射线上存在着部份遮蔽的状态下你造成的伤害+2d6，受到攻击时，对&lt;神&gt;以外属性的防御修正+Y。<br><br>狙击要点<br>等级：5<br>种类：-<br>时点：准备步骤<br>对象：自身<br>射程：无<br>代价：4HP<br>效果：<br>即刻进行一次战斗移动。此特技每个场景可以使用[X/7(小数进位)]次。<br><br>极大射程<br>等级：6<br>种类：-<br>时点：宣言攻击时<br>对象：自身<br>射程：无<br>代价：2HP<br>效果：<br>在进行远距离攻击的攻击宣言时使用。进行命中判定时，你可以减少任意点判定值，每减少1点就可以使武装的射程+1。最多可以让射程+10格。不过不能令判定值减少到0以下。<br><br>小鬼们，好戏现在才开始！<br>等级：7<br>种类：自<br>时点：随时<br>对象：自身<br>射程：视界<br>代价：无<br>效果：有些事即使赌上性命也绝对不能退让，只要能够做到这件事，自己就能一辈子抬头挺胸地活下去。像这样为了某个目标而拼命，不就是最重要的事情吗。<br>该特技仅在【FP】小等于【意志基本值】时或界限突破中能够使用，直到该场景结束，你造成的伤害+X，攻击和防御判定的达成值+5。该特技一模组可以使用一次。<br><br>毁灭者<br>等级：7<br>种类：炮<br>时点：主要动作<br>对象：单体<br>射程：装备<br>代价：5EN<br>效果：<br>对对象使用装备于主武装的远距离武装进行远距离攻击。该次攻击的伤害再加算上[种类：白刃]和[远距离武装的主武装]以外的所有装备中武装的攻击力。每个场景可以使用一次。<br>具体参考「复数武装使用系特技」。<br><br>终焉的序曲<br>等级：8<br>种类：操<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：8HP<br>效果：<br>在此主步骤中被你进行的攻击受到伤害的角色，在回合结束为止，受到的所有攻击伤害+X。<br><br>地狱再会(Hasta la vista)<br>等级：9<br>种类：-<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>消耗正在装备，而并非用在该次攻击的一件武装的全部弹数。该次攻击的伤害+[消耗掉的弹数*2]D6。每个场景可以使用[X/9(小数进位)]次。<br><br>唤出幽灵的人<br>等级：10<br>种类：自<br>时点：主要动作<br>对象：单体☆<br>射程：视界<br>代价：加护<br>效果：掌握并支配森罗万象之一切的那一瞬间，再遥远的距离也仿佛触手可及。<br>对对象使用「种类：狙击」的远距离武装进行远距离攻击。此时，射程变更为视界，该次攻击判定自动视为暴击，造成的伤害+X。若你的类别等级在15以上，则再+X。每个场景可以使用1次。<br><br>=========================================================================================<br><br>▼类别扩展物品（也可以使用原本AS书中的物品）<br><br>M9 Gernsback 狙击型<br>种类：AS(M9系)<br>命中：+1<br>回避：+1<br>炮击：+3<br>防壁：+6<br>行动：+5<br>装甲：+9<br>感应：+9<br>攻击力：+2<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：9/4/7/3<br>购入难易度：-/-<br>M9的狙击手定制型，加装了更精密的光学传感器和武器稳定装置。<br><br>Plan1059 Codarl M 狙击型<br>种类：AS(第三代/Zy Λ)<br>命中：+2<br>回避：±0<br>炮击：+3<br>防壁：+4<br>行动：+6<br>装甲：+8<br>感应：+4<br>攻击力：+3<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：8/3/8/5<br>购入难易度：-/-<br>Plan1059 Codarl的改良型，没采用Codarl I的大型散热片而继续使用Codarl的散热丝来进行散热，续航能力更为持久。<br><br>Plan1065 Erigor 地狱骑士狙击型<br>种类：AS(第三代/Zy Λ)<br>命中：+2<br>回避：+3<br>炮击：+5<br>防壁：+6<br>行动：+8<br>装甲：+10<br>感应：+10<br>攻击力：+5<br>固定武装：机械手<br>移动力：2<br>体型：S<br>防御修正（斩/刺/殴/炎）：10/5/10/6<br>购入难易度：-/100<br>Plan1056柯达尔系列的最新锐型号，为精英而专门定制的专用机。人物等级低于7无法装备。<br><br>=========================================================================================<br><br>ASG96-B 57mm滑膛炮<br>种类：炮击（狙击）<br>命中：-2<br>回避：-3<br>炮击：+1<br>防壁：-2<br>行动：-8<br>主攻击力：&lt;殴&gt;+12<br>副攻击力：&lt;殴&gt;+12<br>射程：4~6<br>部位：主、副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/5<br><br>AMG-204 76mm狙击炮<br>种类：炮击（狙击）<br>命中：-4<br>回避：-4<br>炮击：+1<br>防壁：-3<br>行动：-8<br>主攻击力：&lt;殴&gt;+15<br>副攻击力：-<br>射程：4~6<br>部位：主<br>代价：弹数1<br>弹数：2<br>购入难易度：-/10<br><br>GIK-76 76mm滑膛炮<br>种类：炮击（狙击）<br>命中：-4<br>回避：-2<br>炮击：+2<br>防壁：-4<br>行动：-8<br>主攻击力：&lt;殴&gt;+20<br>副攻击力：-<br>射程：4~8<br>部位：主<br>代价：弹数1<br>弹数：2<br>购入难易度：-/20<br>莱茵金属出品的AS用长程狙击炮。对于此武器所造成的伤害，不能受到[类别]防的特技或道具的效果。人物等级低于5无法装备。<br><br>流星火狙击炮<br>种类：炮击（狙击）<br>命中：-5<br>回避：-4<br>炮击：+2<br>防壁：-5<br>行动：-10<br>主攻击力：&lt;刺&gt;+15<br>副攻击力：-<br>射程：4~6<br>部位：主<br>代价：弹数1<br>弹数：1<br>购入难易度：-/20<br>装备在类别为(Zy系)的机体时，行动值修正变为[-5]。人物等级低于5无法装备。<br><br>●SK-645 45mm狙击步枪<br>种类：炮击（狙击）<br>命中：-1<br>回避：-1<br>炮击：+1<br>防壁：+4<br>行动：-4<br>主攻击力：-<br>副攻击力：&lt;殴&gt;+10<br>射程：2~4<br>部位：副<br>代价：弹数1<br>弹数：3<br>购入难易度：-/20<br>苏制AS用半自动战斗步枪，适用于中程作战。<br><br>=========================================================================================<br><br>卫星观测组件<br>种类：附加组件<br>命中：+2<br>回避：-1<br>炮击：+2<br>防壁：-1<br>行动：-4<br>力场：±0<br>感应：-10<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴）：0/0/0<br>购入难易度：-/20<br>增设于AS头部的天线状传感设备，可以与卫星连线取得用于长距离炮击的校准数据。<br><br>主动防御组件<br>种类：附加组件<br>命中：±0<br>回避：-2<br>炮击：±0<br>防壁：-2<br>行动：-4<br>力场：+10<br>感应：±0<br>攻击力：±0<br>移动力：±0<br>防御修正（斩/刺/殴/炎）：3/0/3/0<br>购入难易度：-/10<br>加装增设装甲板和主动防御系统的附加模块。装备时使用的[对象：自身]的[种类：防]特技效果+1d6。<br><br>=========================================================================================<br><br>烟幕弹投射器<br>种类：辅助<br>时点：先攻步骤<br>对象：1方格<br>射程：0<br>代价：弹数1<br>购入难易度：-/5<br>效果：<br>在一个场景间，你所处的方格发生部分遮蔽。该部分遮蔽适用于以下几种攻击：隔着你所处的方格进行的攻击、由你所处的方格对外进行的攻击、对你所处的方格进行的攻击。[弹数：3]。<br><br>IHIDSS<br>种类：辅助<br>对象：自身<br>购入难易度：-/10<br>效果：装备于头盔上的瞄准辅助系统，直接捕捉机师的视线对狙击目标进行实时校准，大幅提升作战时的态势感知能力。<br>你所取得的[弱点狙击]效果变更为：自身使用[种类：狙击]的武装进行炮击的攻击判定前使用，该次攻击判定的暴击值-3（下限8），大失败值+3，达成值-6。若该次攻击判定暴击，则造成的伤害额外+5d6（合计6d6）。<br>你所取得的[机动狙击]效果变更为：该轮中你以任何形式移动了一格以上的话，该轮你使用[种类：狙击]的武装进行的攻击判定的达成值+2，伤害+2d6。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878232">
+&#171; <em>上次编辑: 2017-09-09, 周六 23:40:56 由 CodeGloria</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878248"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878248_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878248">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878248#msg878248" rel="nofollow">Re: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878248'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878248'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2017-09-09, 周六 23:25:51 &#187;</div>
+<div id="msg_878248_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878248"><span style="color: red;" class="bbc_color"><span style="font-size: 10pt;" class="bbc_size"><strong>风格类别的修改：一个人物最多只能取得一个风格类别，同时人物必须取得联结者类别。也就是说如果要取得风格类别的话，3级建卡只能[1级AS类别+1级联结者类别+1级风格类别]或者[2级联结者类别+1级风格类别]。风格类别只有一级有战斗值补正。只有取得一级时需要占用角色的等级数，取得之后风格类别的等级=你的AS类别等级/2（例如我的角色等级为5级，AS等级为3级，联结者等级为1级，则风格等级为2级）。风格类别的等级在涉及到角色等级（Y）的特技或者道具应用时始终计算为1。风格类别的特技都为自动取得或者选择取得。</strong></span></span><br><br>关于风格类别的修改，我还是思考了很多的... ...因为原本的风格类别根本没有什么特殊之处需要单独拿出来作为一个系统的啊！虽然有不少技能很强的就是了... ...于是最后的成品就是这样一个全新的风格系统，在此规则下依然保持了原本规则里各个类别都可以适应不同风格的特色，同时使PC也能扮演汞合金的角色（玉兰酱玉芳酱超棒！）。<br><br>=========================================================================================<br><br><strong><span style="font-size: 18pt;" class="bbc_size">【秘银/Mithril】</span></strong><br>■构筑资料：<br>▼加护：赫尔莫得<br>▼能力基本值<br>体力：3&nbsp; &nbsp; &nbsp; &nbsp; 理知：5<br>反射：5&nbsp; &nbsp; &nbsp; &nbsp; 意志：2<br>知觉：5&nbsp; &nbsp; &nbsp; &nbsp; 幸运：5<br>▼自动取得道具<br><br>▼修正表<br>等级 1<br>命中 1<br>回避 2<br>炮击 1<br>防壁 1<br>行动 4<br>装甲 3<br>耐久 5<br>感应 3<br>攻击 2<br><br>■特技取得<br>▼初期取得<br>取得《SRT》《严格训练》，并且任意选择取得两个等级1的守护神特技。<br>▼升级<br>取得等级对应的类别特技，等级5时取得《能力解放》<br><br>■特技表<br>SRT<br>等级：1<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你是隶属于特别对应班的精锐部队成员，擅长处理一般部队无法解决的任务。<br>你的任意两项【能力基本值】+3,初始持有的常备点数+10。<br><br>严格训练<br>等级：1<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你进行的命中判定、防御判定的暴击值-1(下限10)。<br><br>急袭<br>等级：2<br>种类：自、机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：利用机体电磁肌肉带来的强大力量高速突破战线。<br>搭载[种类：AS（第三代）]时你的战斗移动+1，全力移动+2。<br><br>强硬路线<br>等级：3<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：行动中对敌对行为进行绝不容一丝犹豫的坚决反击，确实地击溃对手。<br>你所使用的以【HP】或【EN】为代价的特技，代价-[X]。代价的最低值为2。<br><br>妖精之眼<br>等级：4<br>种类：自、机<br>时点：伤害投掷前<br>对象：自身<br>射程：无<br>代价：10en<br>效果：你的机体配备了名为妖精之眼的Λ式驱动仪力场探知系统。<br>你进行的该次攻击无视《Λ障壁》。此特技一场面可以使用[X/2]次。<br><br>永不停息的On My Own<br>等级：5<br>种类：自、回<br>时点：清算步骤<br>对象：自身<br>射程：无<br>代价：无<br>效果：纵使组织破灭，同伴死亡，曾经的友人变成了敌人，这也不会让你迈向战场的步伐迟疑半分。<br>该特技在重压或操作不能中也能使用。回复你所遭受的操作不能以及异常状态。同时FP、EN和HP回复[YD6]点。此特技每模组只能使用一次。<br><br>=========================================================================================<br><br><span style="font-size: 18pt;" class="bbc_size"><strong>【汞合金/Amalgam】</strong></span><br>（取得的AS类别为《前锋》的话不能取得该风格类别）<br>■构筑资料：<br>▼加护：赫尔<br>▼能力基本值<br>体力：4&nbsp; &nbsp; &nbsp; &nbsp; 理知：2<br>反射：6&nbsp; &nbsp; &nbsp; &nbsp; 意志：5<br>知觉：6&nbsp; &nbsp; &nbsp; &nbsp; 幸运：2<br>▼自动取得道具<br>你自动取得的AS种类变更为[种类：AS（第三代/ZyΛ）]<br><br>▼修正表<br>等级 1<br>命中 2<br>回避 0<br>炮击 2<br>防壁 0<br>行动 5<br>装甲 8<br>耐久 3<br>感应 5<br>攻击 5<br>倾听者<br><br>■特技取得<br>▼初期取得<br>取得《Λ式驱动（汞合金）》和《立场强袭》，并且任意选择取得两个等级1的守护神特技。<br>▼升级<br>取得等级对应的类别特技，等级5时取得《能力解放》<br><br>■特技表<br>Λ式驱动（汞合金）<br>等级：1<br>种类：自、机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你的机体搭载了稳定且成熟的Λ式驱动装置，但是长时间运行对操纵者有着巨大的精神负担。<br>你的【意志基本值】+6。你搭乘的「种类：Λ」的AS的【装甲值】+2Y+【意志】，【神】以外的属性防御修正+5+X。此外，当你搭乘「种类：Λ」的AS时每轮的清算步骤失去X点hp。<br><br>立场强袭<br>等级：1<br>种类：自、机、增<br>时点：即将进行伤害投掷时<br>对象：自身<br>射程：无<br>代价：2hp<br>效果：利用Λ式驱动将攻击冲动转化为实际的能量。<br>在投掷伤害时使用，该伤害+1D6，并无视《Λ障壁》。使用此特技后你失去3en。<br><br>立场强袭Ⅱ<br>等级：2<br>种类：自、机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：利用Λ式驱动将攻击冲动转化为实际的能量。<br>你取得的《力场强袭》效果变更如下。<br>在投掷伤害时使用，该伤害+2D6+【意志】，并无视《Λ障壁》。使用此特技后你失去5en。<br><br>固化Λ壁障<br>等级：3<br>种类：自、机<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：运用Λ式驱动仪将防御意识转化为阻挡伤害的屏障。<br>你所受到的&lt;神&gt;属性以外的伤害，在[种类：防]的效果处理前无效；该效果仅对[【意志基本值】+3Y]点以下的伤害有效。每有一次被无效的伤害你失去6en。此特技视为《Λ障壁》。<br><br>猛毒<br>等级：4<br>种类：自<br>时点：常时<br>对象：自身<br>射程：无<br>代价：无<br>效果：你在战场上飞驰的身姿，被恐惧你的敌人冠以猛毒之名<br>你造成的伤害+Y，此外，你搭乘「种类：Λ」的AS时获得疾驱。<br><br>结束的Day by day<br>等级：5<br>种类：自<br>时点：先攻步骤<br>对象：自身<br>射程：无<br>代价：20hp<br>效果：失去所信赖的一切的你只为了一个扭曲的目的而存在，而阻挡在其之前的一切都会被你毫不留情地抹杀。<br>你立刻进行一次主步骤。该次主步骤中，只要可能你就必须进行攻击。该次攻击的伤害+[你受到的实际伤害]。换言之，就是伤害+[力场值-当前FP]。该次主步骤终了时，你受到【力场值】点实际伤害。该特技一模组可以使用一次。<br><br>=========================================================================================<br><br><strong><span style="font-size: 18pt;" class="bbc_size">【倾听者/Whispered】</span></strong><br>■构筑资料：<br>▼加护：布拉基<br>▼能力基本值<br>体力：4&nbsp; &nbsp; &nbsp; &nbsp; 理知：4<br>反射：4&nbsp; &nbsp; &nbsp; &nbsp; 意志：5<br>知觉：4&nbsp; &nbsp; &nbsp; &nbsp; 幸运：4<br>▼自动取得道具<br><br>▼修正表<br>等级 1<br>命中 1<br>回避 1<br>炮击 1<br>防壁 1<br>行动 4<br>装甲 6<br>耐久 8<br>感应 8<br>攻击 1<br><br>■特技取得<br>▼初期取得<br>取得《受倾听之人》，在《英雄的伴随者》和《超越者之力》中选择一个取得，并且任意选择取得两个等级1的守护神特技。<br>▼升级<br>取得等级对应的类别特技，等级5时取得《能力解放》<br><br>■特技表<br>受倾听之人<br>等级：1<br>种类：自<br>时点：随时<br>对象：自身<br>射程：无<br>代价：无<br>效果：<br>你可以对GM进行任意质问并寻求其答案。GM可以选择不回答；若是如此，则不会消耗使用次数。若将该特技用于情报收集判定，可以使判定值+2。每模组可以使用三次。你的【理知基本值】常时+9。<br><br>英雄的伴随者<br>等级：1<br>种类：选<br>时点：主要动作<br>对象：单体☆<br>射程：视界<br>代价：10HP<br>效果：<br>对象立刻进行一次主步骤。主步骤的行动由对象自由决定。那次主步骤不会导致对象行动终了，或者是就算行动终了你也可以立刻进行。每场景可以使用1次。<br><br>超越者之力<br>等级：1<br>种类：选<br>时点：判定后立刻<br>对象：自身<br>射程：无<br>代价：5HP<br>效果：<br>在你进行判定后立刻使用。该次判定的骰子出目+2。若该效果使出目达到暴击值，则判定暴击。每场面可以使用1次。类别等到3以上时，每轮可以使用1次。<br><br>不应知道的知识<br>等级：2<br>种类：自<br>时点：即将进行判定前<br>对象：单体☆<br>射程：视界<br>代价：正文<br>效果：<br>对象的判定值+[任意数值]。不过，上限是Y或10较低者。你失去[上升的判定值×3]点HP。此特技每轮可以使用一次。<br><br>世界观测者<br>等级：3<br>种类：自<br>时点：判定后立刻<br>对象：单体☆<br>射程：视界<br>代价：10HP<br>效果：通过主动干涉在变动的世界线中引导出所希望的结果。<br>在同意的对象判定失败或者大失败后使用，该判定变更为成功。此特技不能以自身为对象。每场景可以使用一次。<br><br>必杀的纸扇<br>等级：4<br>种类：自<br>时点：先攻步骤<br>对象：单体☆<br>射程：视界<br>代价：10HP<br>效果：回复对象的操作不能、战斗不能，降到0的【FP】、【HP】回复6D6点。如果对象同时处于操作不能与战斗不能的话就两方皆回复，【FP】与【HP】两方皆回复。此外对象在场境结束为止，进几的所有判定的判定值+2，给予的伤害+2D6。每场景可以使用一次。<br><br>迫近的Neck of Time<br>等级：5<br>种类：自<br>时点：随时<br>对象：参考效果<br>射程：参考效果<br>代价：加护<br>效果：<br>在GM许可下实现你的一个愿望。如果GM在判断上有所迷惘的话，直接照搬其他加护的内容也没有问题。该特技一模组可以使用一次。<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878248">
+&#171; <em>上次编辑: 2017-09-09, 周六 23:32:08 由 CodeGloria</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg878251"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=85251" title="检视会员资料:  CodeGloria">CodeGloria</a>
+</h4>
+<ul class="reset smalltext" id="msg_878251_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 6<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_878251">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.msg878251#msg878251" rel="nofollow">Re: FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_878251'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_878251'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2017-09-09, 周六 23:29:47 &#187;</div>
+<div id="msg_878251_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_878251">以上，有问题的话欢迎提出（土下座）</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_878251">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=94736.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=94736.0"><span>FMP规则书 AS类别以及风格类别 超鬼畜魔改版ver 1.1</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 94736,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 94736,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="94736" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=94736.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 5053 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 94736,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

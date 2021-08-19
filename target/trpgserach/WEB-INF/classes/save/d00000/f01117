@@ -1,0 +1,955 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="【安科】Black Noise（黑暗杂音）"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>【安科】Black Noise（黑暗杂音）</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.40"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1927.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'e8ec3fcb53e635cea755d88e80dad504');">
+<div class="info">请 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">登录</a> 或 <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="121097"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b6a8112e',
+sSessionId: 'e8ec3fcb53e635cea755d88e80dad504'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c6"><span>TRPG讨论区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1927.0"><span>安科安价ＡＡ区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0"><span>【安科】Black Noise（黑暗杂音）</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg1084930"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=121097.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.20">&#171;</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.20">2</a> [<strong>3</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 【安科】Black Noise（黑暗杂音） &nbsp;(阅读 28154 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 温馨的近未来的冒险故事</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=quickmod2;topic=121097.40" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('e8ec3fcb53e635cea755d88e80dad504', 'b6a8112e') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084930_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084930">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084930#msg1084930" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084930'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084930'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #40 于:</strong> 2020-11-11, 周三 01:32:11 &#187;</div>
+<div id="msg_1084930_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084930">实际上负责接待的人是<br>1.伊莉斯<br>2.柴卡<br><span style="color: red;" class="bbc_color">[1d2=2]</span><br>幸好，《Luminance》的顾客并不多，而且基本上只有熟客，大部分的接待任务都由柴卡来卖萌，只需要毛茸茸的屁股和可爱的叫声就能完成接待任务，而伊莉斯只要负责泡咖啡就可以了。<br><br>这一天，照例开门的《Luminance》迎来了第一位客人，一位穿着制服，背着球袋的女高中生。<br><img src="https://pic.downk.cc/item/5f8b13ae1cd1bbb86b1e99a2.jpg" alt="" class="bbc_img"/><br><br><br><br>女高中生要点些什么呢？<br>1.卡布奇诺<br>2.焦糖玛奇朵<br>3.摩卡<br><span style="color: red;" class="bbc_color">4.柴卡</span><br>5.伊莉斯<br>6.大成功/大失败<br><br>那么女高中生随意点了一杯速溶咖啡，然后抱起了负责接待的柴卡。<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>汪胖！？<br><br><img src="https://pic.downk.cc/item/5f8b13ae1cd1bbb86b1e99a2.jpg" alt="" class="bbc_img"/><br>[女高中生]<br>……<br><br>一脸冷漠的金发水手服少女，将脸埋在了柴卡的屁股里，使劲地蹭着。<br>虽然柴卡拼命挥舞着小小的肢体试图挣脱，但是区区柯基怎么可能逃得出恐怖直立猿的魔爪。<br>柴卡的求救<span style="color: red;" class="bbc_color">[d100=93]</span><br>伊莉斯的反应<span style="color: red;" class="bbc_color">[d100=43]</span><br><br>听到“家人”的呼救，伊莉斯来到了女高中生的身边，她——<br><span style="color: red;" class="bbc_color">1-2.抢过了柴卡</span><br>3-4.“还给我”<br>5-6.这里就用咖啡交换柴卡<br>7-8.报警<br>9.交换人质<br>10.大成功/大失败<br><br>伊莉斯想要抢回柴卡，进行力量对抗(成功等级对抗，主动方优势)。<br>伊莉斯<span style="color: red;" class="bbc_color">[d100=68(70)]</span>VS女高中生<span style="color: red;" class="bbc_color">[d100=6(75)]</span><br>普通成功VS极难成功<br>女高中生胜<br><br>虽然伊莉斯卯足了力气，不过女高中生的手纹丝不动。<br>过了好一会儿，似乎是满足了，女高中生恋恋不舍地放开了柴卡，随后点了一杯打包速溶咖啡，准备离开。<br>女高中生的在意<span style="color: red;" class="bbc_color">[d100=30]</span><br><br><img src="https://pic.downk.cc/item/5f8b13ae1cd1bbb86b1e99a2.jpg" alt="" class="bbc_img"/><br>[女高中生]<br>下次还会来。<br><br>她的声音和表情一样淡漠，在扔出这句话之后，女高中生离开了《Luminance》。<br><br>女高中生对伊莉斯的印象<span style="color: red;" class="bbc_color">[d100=71]</span><br>伊莉斯对女高中生的印象<span style="color: red;" class="bbc_color">[d100=54]</span><br>柴卡对女高中生的印象<span style="color: red;" class="bbc_color">[d100=18]</span><br><br><img src="https://pic.downk.cc/item/5f8b13ae1cd1bbb86b1e99a2.jpg" alt="" class="bbc_img"/><br>[女高中生]<br>狗狗可爱，那个孩子也很可爱。<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>奇怪的人。<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>汪胖——(嫁不出去了)</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084930">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084931"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084931_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084931">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084931#msg1084931" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084931'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084931'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #41 于:</strong> 2020-11-11, 周三 01:32:29 &#187;</div>
+<div id="msg_1084931_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084931">香离开天门市已经有[1d24=3]个月了。<br>这不才3个月吗！<br>那么香要给大家一个惊喜吗？(数值越高越惊喜)<br><span style="color: red;" class="bbc_color">[d100=50]</span><br>因为很久没回来的缘故，小恶魔似乎决定不再弄什么么蛾子了，她要直接进门！<br>香有准备伴手礼吗？<br>1.有<br><span style="color: red;" class="bbc_color">2.没有</span><br>两手空空，没关系，你自身就是最好的礼物了。<br><br>那么有其他状况发生吗？(高于90则有)<br><span style="color: red;" class="bbc_color">[d100=3]</span><br><br>&#039;根据亚太气象局的研究计算，今年的平均气温相较去年下降了0.6-1.2摄氏度，这是因为地球的空间位置跨越了D32区的边界线，这一降温在之后的数年内不会再度出现。&#039;<br>街道边的巨大投影片上播放着访谈节目，不过香对那些并没有兴趣，没有发生任何意外，少女一路直奔商业街。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084931">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084932"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084932_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084932">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084932#msg1084932" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084932'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084932'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #42 于:</strong> 2020-11-11, 周三 01:32:46 &#187;</div>
+<div id="msg_1084932_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084932">时点 <span style="color: red;" class="bbc_color">[下午]</span><br>夕阳开始西斜的时候，《Luminance》的招牌终于映入了香的视野中。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>门开着，luck~<br><br>正好之前不小心把钥匙丢掉了，要是今天咖啡厅没开门可就惨了，她的黑客技术再怎么厉害也没办法打开物理性的门锁。<br><br>少女大摇大摆地向着店门口走去，俏皮的棕色马尾伴随着她的动作一跳一跳，仿佛在预示着少女的心情。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>啊，差点忘记了。<br><br>忽然，少女停下了脚步，伸出手指敲了敲脖子上的“金属项圈”。<br>香的黑客技术 99<span style="color: red;" class="bbc_color">[d100=78]</span><br>普通成功√ 困难成功×<br><br>虹色的光芒从少女眼中一闪而逝，而后，少女已经将这条街附近的所有监控纳入了掌控之中。<br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>嘿嘿，我回来了！<br><br>笑着推开了咖啡厅的门，然后，她就看到了坐在吧台后方，抱着咖啡盒发呆的伊莉斯。<br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084932">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084933"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084933_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084933">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084933#msg1084933" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084933'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084933'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #43 于:</strong> 2020-11-11, 周三 01:33:07 &#187;</div>
+<div id="msg_1084933_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084933">那么这里投一下互相之间的第一印象吧<br>伊莉斯对香<br>ROLL : d100=d100(86)=86<br><br>香对伊莉斯<br>ROLL : d100=d100(71)=71<br><br><br>关于好感系统，主持人决定在角色度过一个事件之后才会结算。<br><br>现在补上之前的好感<br><br>伊莉斯对：<br>店长<br>ROLL : d50+30+20=d50(18)+30+20=68<br>(带回自己的人+20，家人+30)<br>奥古斯都<br>ROLL : d70+30=d70(19)+30=49<br>(家人+30，第一印象-10，坐骑+10)<br>柴卡<br>ROLL : d60+30+10=d60(44)+30+10=84<br>(家人+30，第一印象+10)<br><br>奥古斯都对伊莉斯的好感<br>ROLL : d60+10+30=d60(9)+10+30=49<br>(家人+30，第一印象+10)<br>柴卡对伊莉斯的好感<br>ROLL : d60+10+30=d60(52)+10+30=92<br>(家人+30，第一印象+10)<br>店长对伊莉斯的好感<br>ROLL : d90+10=d90(67)+10=77<br>(家人+30，-20不可名状的负担)</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084933">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084934"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084934_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084934">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084934#msg1084934" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084934'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084934'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #44 于:</strong> 2020-11-11, 周三 01:33:22 &#187;</div>
+<div id="msg_1084934_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084934"><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>阿尼亚，店……<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>……<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>长……？哎哎哎！<br><br>吧台后方站着一位穿着略哥特风裙子，身材娇小的少女，她双手捧着一罐咖啡豆，似乎在思考着什么，她的表情虽然冷淡，但是精致而又可爱，让人忍不住想要将其拥入怀中。<br>香的自制力<span style="color: red;" class="bbc_color">[d100=11]</span><br>完全不忍耐<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>这是哪来的孩子，好可爱啊！<br><br>回过神来的时候，伊莉斯已经被对方抱在怀里了。头发被揉搓着，脸被埋入平坦但是柔软的胸部中，垂下的发丝在鼻子上扫来扫去。<br><br><img src="https://pic.downk.cc/item/5f90341c1cd1bbb86b7f4ee2.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>哈啾——<br><br>伊莉斯体会到了之前被女高中生袭击的柴卡的心情。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>姆，就是感觉这里少了点东西。<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>汪，汪胖！<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>柴卡！好久不见！<br><br>香放开了怀中已经开始连连喷嚏的伊莉斯，从脚边抱起了柴卡。<br><br><img src="https://pic.downk.cc/item/5f8c56f21cd1bbb86b6d6b3f.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>她是谁……<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>我是香哦！店长不会雇佣外人帮忙，所以既然你会在这里，那就说明你也是“家人”了吧。你的名字是？<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>伊莉斯。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>阿尼亚~伊莉斯！既然都是被店长捡回来的，那么从今天开始我似乎就是你的姐姐了呢！<br><br>伊莉斯对谈话的兴趣<span style="color: red;" class="bbc_color">[d100=59]</span><br><br><img src="https://pic.downk.cc/item/5f8c56f21cd1bbb86b6d6b3f.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>捡？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>是的哦，我的话——<br>1.出生在战乱地区，被路过的店长收养。<br>2.在城市中流浪，无意间来到了这家咖啡厅，最后被收养。<br><span style="color: red;" class="bbc_color">3.在被敌人追捕的时候，于逃亡中受伤，最后遇见了店长。</span><br>4.被已经过世的父母托付给店长。<br>5.某一天遇见了店长，回过神来的时候就已经成为家人了。<br>6.是悲惨的实验生物，不过被店长解救出来了。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>看到浑身是伤，在暴雨中挣扎的我，店长毫不犹豫地将我抱了进来。笨拙地照顾着我，被那双冰冷的手抚摸额头的时候，我想起了自己的母亲。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>到最后，我就这样和店长成为了“家人”。<br><br>一边诉说着往事，香露出了有些怀念的表情，不过很快就收敛了起来。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>那么话就到这里，店长人在哪？<br><br><img src="https://pic.downk.cc/item/5f8c56f21cd1bbb86b6d6b3f.jpg" alt="" class="bbc_img"/><br>伊莉斯指了指楼上。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>咦，在睡觉吗？竟然会让这么小的孩子来看店，不像是店长的风格啊。<br><br>感觉有些奇怪的香，决定——<br><span style="color: red;" class="bbc_color">1.上楼查看</span><br>2.总之先喝一杯咖啡<br>3.奥古斯都——？<br>4.说起来，我带了伴手礼。<br>5.先采购我的设备吧！<br>6.店长是不是又受伤了！？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>那我先去看看店长哦，辛苦你了！<br><br>再次揉了揉伊莉斯的头发，香迈着轻快的步伐向二楼走去。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084934">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084935"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084935_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084935">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084935#msg1084935" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084935'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084935'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #45 于:</strong> 2020-11-11, 周三 01:33:39 &#187;</div>
+<div id="msg_1084935_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084935">那么伊莉斯要跟上去吗？<br><span style="color: red;" class="bbc_color">[d100=64]</span>(50以上会跟上去)<br>看到香大摇大摆地往餐厅内走去，伊莉斯思考了片刻，啪嗒啪嗒地跑到了门口，把挂在门上的“营业中”牌子改成了“暂停营业”。<br>然后，从脚边抱起跃跃欲试的柴卡，跟上了香的步伐。<br><br>店长和奥古斯都的伤势恢复的怎么样了呢？<br><span style="color: red;" class="bbc_color">[d100=74]</span><br>看来恢复的差不多了，只是还不能做太多运动的样子。<br>那么店长现在在干什么？<br>1.复健运动<br>2.在抽烟<br><span style="color: red;" class="bbc_color">3.其实在用监控盯着楼下</span><br>4.保养狙击枪<br>5.老老实实躺床休息(谁信啊)<br>6.大成功/大失败<br><br><br>这里再投掷一下香对店长的好感<span style="color: red;" class="bbc_color">[d100=84]</span>(保底30)<br>店长对香的<span style="color: red;" class="bbc_color">[d100=76]</span>(保底30)<br>关系很和谐呢<br><br>噔噔噔，用鞋子把地板踩的砰砰作响，香来到了二楼。<br>少女一眼就看到了靠在客厅的沙发上，盯着投影屏上的监控录像的店长。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>店长！我回来了！<br><br>一步，两步，少女纵身一跃，向着沙发上的店长扑去。<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>……<br><br>后者只是不懂声色地向旁边挪了一点，避开了少女的直击。<br>香娇小的身体扑在了沙发上，弹跳了两下，不过少女毫不在意地爬了起来，向着店长抱了过去。<br>不过，少女很快就发现了店长身上缠着的绷带。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>唉……？店长，你的伤……怎么回事？<br><br>店长要如实告知吗？(大于50告知，+30香的能力，-20不想将其他家人卷入)<br><span style="color: red;" class="bbc_color">[d100=67-10=57]</span><br><br>店长将领养了伊莉斯之后发生的一系列事件告诉了香，在这期间，伊莉斯也来到了客厅，坐在了两人对侧的沙发上。<br><br>因为香对于神秘学一无所知，所以这里要投一下香的震惊。<br><span style="color: red;" class="bbc_color">[d100=46]</span><br>或许是因为自身经历的原因，香不怎么惊讶的样子。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>唉，发生了那样的事吗？那个咖啡色的怪物又是什么东西……<br><br>店长的直觉<span style="color: red;" class="bbc_color">[d80+20=42]</span>(佣兵的直觉+20)<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>已经被狙击枪打成碎末了，应该死了吧……不说这个了，香，有一件事要拜托你。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>嗯？店长的话无论是什么事情都OK哦！<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>伊莉斯是我私底下从埃及带回来的，在市政厅内没有对应的记录和市民ID，你能用你的“技术”帮她搞定吗？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>呀！就像镜那时候一样对吧？交给我吧！<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>首先是给小伊莉斯的终端的问题……<br>1.6.用以前的家人留下的<br>2.7.一起去买一个吧<br>3.8.来制作吧！<br><span style="color: red;" class="bbc_color">4.5.用我的就可以了</span><br>9.这里就用体内植入……<br>1.大成功/大失败<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>正好有一台备用的终端，格式化一下就送给小伊莉斯吧。<br><br>香的备用终端的种类时候？<br>1.手环<br>2.耳环<br>3.发饰<br>4.指环<br>5.项圈<br><span style="color: red;" class="bbc_color">6.携带终端</span><br><br><br>不是……为什么就中了个携带难度最高而且最LOW的啊！<br><br>香从口袋里摸出了一块砖……一块巴掌大小的银色掌上终端，对着伊莉斯拍了一张照片。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>小伊莉斯，比个V！<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>？<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>旺胖！<br><br>香的摄影技术 60[d100=38]<br>拍好照片后，香飞快地填入了注册兴趣，这样就完成了前置准备。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>市民ID的话，现在就给你去弄。<br><br>香把左手小拇指贴在颈部的终端上，向右一滑，原本银色的“项圈”泛发出了淡淡微光，而少女也闭上了双眼。<br><br>虽然几乎不可能失败，不过还是要骰一下。<br>香的黑客技能<span style="color: red;" class="bbc_color"> 99[D100=3]</span><br>是……大成功。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084935">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084936"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084936_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084936">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084936#msg1084936" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084936'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084936'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #46 于:</strong> 2020-11-11, 周三 01:33:58 &#187;</div>
+<div id="msg_1084936_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084936"><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea726.jpg" alt="" class="bbc_img"/><br>[黑月]<br>感觉自从序章之后骰子的数值就正常了很多，果然骰娘还是有为主持人考虑的啊。<br><br>那么香的大成功是什么？<br>1.发现了隐藏的存在。<br>2.顺便往伊莉斯的个人存款中转入了100万联邦币。<br>3.幸运地发现空档，进行了完整的注册流程(伊莉斯的市民ID绝对不会被识破)<br><span style="color: red;" class="bbc_color">4.发现了给伊莉斯的“礼物”</span><br>5.顺便联系到了另一位家人。<br>6.大成功/大失败<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>OK！这样就完成了！<br><br>虽然天门市的市政系统设立了层层防护，但是对于世界上屈指可数的超级黑客，被称作“3eyes”的香来说并不是什么困难的事情。<br>不过，在完成注册后，进行信息检查的时候，香发现了一件事。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>咦，这是什么！<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>怎么了，有意外？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>身份注册已经完成了……不过，我还发现小伊莉斯在市内的亚太银行里寄存了某个箱子……<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>不可能。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>嗯……我可以调用远程验证用的指纹信息……小伊莉斯，把手给我一下。<br><br><img src="https://pic.downk.cc/item/5f8c56f21cd1bbb86b6d6b3f.jpg" alt="" class="bbc_img"/><br><br>虽然少女有些疑惑，不过还是乖乖地把手伸了过去。香抓起伊莉斯左手的食指瞥了一眼，瞬间就确认完毕。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>真是奇怪，这个指纹的确是小伊莉斯的啊，到底是谁寄存进去的呢……<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>……<br><br>店长的说明意愿<span style="color: red;" class="bbc_color">[d100=20]</span>(-30混沌不明，+10那是伊莉斯的东西)<br>结果等于0<br><br><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea726.jpg" alt="" class="bbc_img"/><br>[黑月]<br>这里要补充一点，因为减值/加值造成的大成功并不算大成功，必须要自然骰子骰出的才算，之后我会将所有的减值/加值进行额外计算。<br><br>店长将那个东西取出的意愿<span style="color: red;" class="bbc_color">[d100=8]</span>(-50混沌不明，+10那是伊莉斯的东西)<br>结果同样是0<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>可能是伊莉斯的父母留给她的，不过现在没有取出的必要。<br><br>伊莉斯的意愿<span style="color: red;" class="bbc_color">[d100=71]</span>(店长的反对-30，大于50有想法)<br>结果为41，伊莉斯对那个东西没有想法。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>这样啊，那我知道了。<br><br>确认两边的想法后，香把平面终端递给了伊莉斯。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>会用这个吗？<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>摇头摇头。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>这种老式的终端操作会很麻烦，不太适合新手耶……那让我来教你吧，首先要触摸侧边让屏幕脱离待机……<br><br>伊莉斯的计算机使用天赋<span style="color: red;" class="bbc_color">[d100=92]</span><br>伊莉斯的计算机等级成长<span style="color: red;" class="bbc_color">[d92=49]</span><br>伊莉斯现在的计算机技能为<span style="color: red;" class="bbc_color">49</span><br><br><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea726.jpg" alt="" class="bbc_img"/><br>[黑月]<br>在这里要公布新的技能学习规则(仅限伊莉斯)。<br>在第一次学习某种技能时，会进行一次天赋检定，随后以天赋检定的结果进行投掷，决定现在的技能等级。<br>毕竟伊莉斯虽然是外神，但是现在的化身几乎是完全的人类……所以还是应该循序渐进。<br>不过，在每次幕间的时候，未到达天赋数值的技能，在除了幕间成长之外还会额外获得1d20(50以下)、1d10(50-75)、1d6(75以上)的自然成长(优先于幕间成长计算)。<br>就这样，那么继续。<br><br>出乎香的意料，伊莉斯一开始的操作有些笨拙，但是很快就适应了平面终端的控制，仅仅十几分钟内就已经从程序都不会打开的新人进化到了能够自主使用搜索引擎的正常人。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>难道小伊莉斯实际上是天才吗！？<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>汪胖！<br><br>虽然香在夸奖伊莉斯，不过不知道为什么柴卡反而做出了一脸自豪的表情。<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>看来是解决了，香，那接下来……<br><span style="color: red;" class="bbc_color">1.你带伊莉斯去买衣服。</span><br>2.先解决伊莉斯的教育问题。<br>3.你来处理之前留下的问题。<br>4.你来负责教育伊莉斯(你当真？)<br>5.把其他几个家伙都给我叫回来。<br>6.大成功/大失败</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084936">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084937"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084937_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084937">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084937#msg1084937" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084937'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084937'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #47 于:</strong> 2020-11-11, 周三 01:34:16 &#187;</div>
+<div id="msg_1084937_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084937"><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[黑月]<br>在那边我只为这孩子买了一套衣服，回来以后还没来得及去商场就发生了这样的事情，现在这套也有些磨损了，香，你有空的话就带她去一趟北斗商场吧。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>耶~马上就带她去。不过，小伊莉斯的这身衣服是店长买的啊，看这个品味，我还以为是普琳希雅姐的手笔……<br><br>店长喜欢哥特风吗？<br><span style="color: red;" class="bbc_color">1.是</span> 2.不是<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d3.jpg" alt="" class="bbc_img"/><br>[店长]<br>因为这孩子一开始什么都没有穿，所以姑且给她买了一套。我觉得还行吧……<br><br>至于“因为我喜欢轻飘飘的花边和蝴蝶结多的衣服”这种原因，是无论如何都说不出口的。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>当然没问题！可爱的小伊莉斯穿什么都非常可爱！<br><br>随后，香从沙发上一跃而起，牵住了伊莉斯的手。<br><br><img src="https://pic.downk.cc/item/5f8c56f21cd1bbb86b6d6b3f.jpg" alt="" class="bbc_img"/><br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>要走了哦，姐姐带你去买衣服！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084937">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084938"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084938_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084938">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084938#msg1084938" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084938'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084938'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #48 于:</strong> 2020-11-11, 周三 01:34:29 &#187;</div>
+<div id="msg_1084938_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084938">北斗商场<br>地点就在商业街的中心地带，离《Luminance》仅仅十几分钟路程的地方。<br><br>那么两人要用什么方法前往商场呢？<br>1.2.步行<br><span style="color: red;" class="bbc_color">3.4.驾车</span><br>5.公共汽车<br>6.这里就让直升机过来……<br><br>看来是要驾车，那么咖啡厅的停车库里有什么车呢？<br>1.“白兰地”(轿车)<br>2.“黑电”(摩托车)<br>3.“雨铁龙”(货车)<br>4.U.N专用防弹轿车<br><span style="color: red;" class="bbc_color">5.“雕齿兽”(装甲轿车)</span><br>6.大成功/大失败<br><br><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea726.jpg" alt="" class="bbc_img"/><br>[黑月]<br>好，是妾身喜欢的类型。<br><br>来投掷一下香的驾驶技能，超过50就默认会了。<br>香的驾驶技能<span style="color: red;" class="bbc_color">[d100=60]</span><br><br><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea726.jpg" alt="" class="bbc_img"/><br>[黑月]<br>这PL加点点出来一样的驾驶技能是怎么回事啊，不过60的话是能够熟练驾驶的程度呢。<br><br>从店长手中拿到启动车辆的钥匙卡后，香拉着伊莉斯的手来到了咖啡店的车库。<br>阴暗的车库中横放着一辆银灰色的没有车窗的轿车——不过单从视觉上很难将其判定为民用车种，车身是无数不规则的、鳞片一样的装甲接缝而成的，它的轮胎是一体的，没有内胎与外胎之分。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>哎嘿嘿，这可是店长的珍藏，我可是很早就想开一次了！<br><br>用钥匙卡刷开车门，香扑进了全周天驾驶室中，在沙发上蹦了几下。<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>没时间解释了，快上车。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084938">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084939"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084939_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084939">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084939#msg1084939" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084939'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084939'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #49 于:</strong> 2020-11-11, 周三 01:34:44 &#187;</div>
+<div id="msg_1084939_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084939">[北斗商场]<br>这是难得一见的好天气。<br>明媚阳光穿透玻璃穹顶撒入商场内部，照射在翠绿色短发的少女身上。<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>咪……<br><br>或许是有些不适应这初见的眼光，少女闭上了眼睛，缩在了香的身后。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>怎么了，身体不舒服吗？<br><br><img src="https://pic.downk.cc/item/5f8bf4d81cd1bbb86b5740fc.jpg" alt="" class="bbc_img"/><br>摇头摇头。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>那是因为第一次来这种大商场吗……不用怕，有我在这里哦！<br><br>牵着伊莉斯的手，香迈着轻快的步伐来到了服装区。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>啊……真多。<br><br>对习惯了网上购物的香来说，现实里琳琅满目的商品让人有种应接不暇的感觉，就算大脑的处理能力能跟上，眼睛的性能也跟不上。<br>没办法了，这些就先选……<br><br>香为伊莉斯挑选的衣服是——<br><span style="color: red;" class="bbc_color">1.和原本一模一样的衣服</span><br>2.旗袍(不要啊！)<br>3.连衣裙<br>4.衬衫短裙<br>5.真正的哥特式礼服<br>6.大成功/大失败<br><br><img src="https://pic.downk.cc/item/5f8b13da1cd1bbb86b1ea720.jpg" alt="" class="bbc_img"/><br>[黑月]<br>这种松了一口气但是又觉得有些可惜的感觉是什么……<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>果然还是原本的好看，店长的眼光不错嘛！<br><br>不，单纯是你懒得找又不想随便应付一下，所以就选了和原本一样的衣服吧……<br><br>伊莉的满意度<span style="color: red;" class="bbc_color">[d100=25]</span>(超过50则没有意见)<br><br>伊莉斯似乎对这件衣服有点意见，会是什么原因呢？<br>1.布料不对<br>2.穿腻了<br>3.想要新衣服<br>4.想要穿的和香一样<br>5.太阳太大了(啊？)<br>6.大成功/<span style="color: red;" class="bbc_color">大失败</span><br><br><img src="https://pic.downk.cc/item/5f8bcbf81cd1bbb86b4c6546.jpg" alt="" class="bbc_img"/><br>[黑月]<br>咦，这里大失败会怎么样！？<br><br>大失败的结果是？<br>1.伊莉斯睡着了<br>2.不想穿衣服了(不要啊！)<br><span style="color: red;" class="bbc_color">3.想要穿那个(布偶装)</span><br>4.黑 衣 人 突 入<br>5.我，讨厌你。(恶意上升5)<br>6.大成功/大失败</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084939">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084940"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084940_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084940">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084940#msg1084940" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084940'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084940'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #50 于:</strong> 2020-11-11, 周三 01:35:03 &#187;</div>
+<div id="msg_1084940_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084940"><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>……<br><br><br><img src="https://pic.downk.cc/item/5fa6c3821cd1bbb86bfd2334.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>？<br><br>穿上了有些臃肿的猫布偶装，伊莉斯似乎还有些不能控制平衡的样子，走路有些摇摇晃晃的。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>好可爱！<br><br>香大叫着扑了上去，伊莉斯的身高在布偶装的加持下已经差不多与香一样高了，这样子就像是香抱着等身大的玩偶一样。<br>伊莉斯的满意度<span style="color: red;" class="bbc_color">[D100=74]</span><br><br><img src="https://pic.downk.cc/item/5fa6c3821cd1bbb86bfd2334.jpg" alt="" class="bbc_img"/><br>[伊莉斯]<br>很暖和。<br><br>不时地用手去碰碰全身，虽然触觉被厚重的布偶装阻挡住了，不过伊莉斯对于这样的“衣服”很满意的样子。<br>随后，香带着伊莉斯前往内衣区，买了一些贴身衣物和日常用品。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>这样应该就可以了吧……大概。<br><br>那么正事已经解决了，香接下来准备——<br>1.回去吧！<br>2.去游乐园！<br>3.去天台吧！(为啥？)<br>4.说起来，好久没去海洋馆了。<br>5.要试一下云端网络吗？<br><span style="color: red;" class="bbc_color">6.去挑选学区吧！(好快！)</span><br>7.得给小伊莉斯检查一下身体才行呢。<br>8.我来教小伊莉斯跳舞吧！<br>9.既然来了天门，那有一个地方就不得不去了呢！<br>10.大成功/大失败<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>东西也买好了，那么就回去吧！店长也真是的，我从大老远赶回来那么累了，竟然还要让我出门买东西，回去一定要好好睡一觉！<br><br>提着大包小包的香，带着伊莉斯回到“雕齿兽”中的瞬间，驾驶座侧的屏幕就亮了起来。<br><br><img src="https://pic.downk.cc/item/5f8b13c01cd1bbb86b1e9f43.jpg" alt="" class="bbc_img"/><br>[柴卡]<br>汪胖！<br><br>柴卡巨大的脸出现了屏幕的中央。<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>柴卡，不要挡住屏幕。<br><br>被绷带包裹着的奥古斯都咬住了柴卡的脖子，将其带走。<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>香，你那边应该已经结束了吧？<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>是的哟，莫非店长一直在关注着这边吗？<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>没错。我和朋友讨论了一下，果然还是应该像那个时候一样让伊莉斯去上学。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>那接下来的任务就是给小伊莉斯找个好学校吗？说起来，之前伪造档案的时候，给小伊莉斯的年龄登记的是14岁，应该还是初中部吧……<br>了解了， 那么接下来就去最近的学校逛一逛吧。<br><br>离这里最近的是<br>1.东部学区<br><span style="color: red;" class="bbc_color">2.南部学区</span><br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>南部学区吗……那里的女子学院比较多，不过就我个人看来，还是男女混合的学校比较适合社交发展……嘛，总之先去看一下吧。<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>还有，你也要入学。<br><br><img src="https://pic.downk.cc/item/5f9704281cd1bbb86bf40a13.jpg" alt="" class="bbc_img"/><br>[香]<br>哦嘛？！等等，我可是……<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>不准拒绝，当初你为了逃学一个人跑出去的时候可是让普琳希雅担心了好久，这算是惩罚。<br><br>香的排斥<span style="color: red;" class="bbc_color">[D100=33]</span><br><br><img src="https://pic.downk.cc/item/5f9704281cd1bbb86bf40a13.jpg" alt="" class="bbc_img"/><br>[香]<br>好吧……<br><br><img src="https://pic.downk.cc/item/5f8b13c61cd1bbb86b1ea0d6.jpg" alt="" class="bbc_img"/><br>[店长]<br>这次还敢逃学的话，就让镜来收拾你。<br><br><img src="https://pic.downk.cc/item/5f9704281cd1bbb86bf40a13.jpg" alt="" class="bbc_img"/><br>[香]<br>(恶寒)知道了知道了，我会安心上学的……别了，我的青春。<br><br>毕竟自己还算是“未成年人”，这种时候还是要听“监护人”的话的，结束了通讯，香启动了车辆，向着南部学区的所在地驶去。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084940">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1084941"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204" title="检视会员资料:  米莉特最棒了!">米莉特最棒了!</a>
+</h4>
+<ul class="reset smalltext" id="msg_1084941_extra_info">
+<li class="postgroup">Guard<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=76204">
+<img class="avatar" src="/bbs/upload/avatar/avatar_76204_1492610664.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 139<li class="karma">苹果币: 1<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1084941">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1084941#msg1084941" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1084941'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1084941'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #51 于:</strong> 2020-11-11, 周三 01:35:20 &#187;</div>
+<div id="msg_1084941_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1084941">与为了普及教育而开辟的东部学区不同，南部学区聚集着传统悠久的名校，部分还是从已经沉没的远东迁址过来的。<br>入学的监护人验证能够通过远程端来搞定，香要做的只有带伊莉斯转上一圈，选一所少女满意的学校。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>让我看看啊……<br><br>香中意的学校一共有[d6=3]所，分别是——<br>《一条·上清女子学院》(传统的名门女校)<br>《天女音女子艺术学院》(著名的艺术女校)<br>《天门农业大学附属高中·初中部》(一般学校)<br><br><br>香的资产[d100=92](越高越富有，70以上会考虑第一所学院)<br>嗯，就个人来说，这是能够在天门郊区买几幢别墅的富有了。<br><br><img src="https://pic.downk.cc/item/5f96e9de1cd1bbb86beb7d5f.jpg" alt="" class="bbc_img"/><br>[香]<br>‘之前的工作赚来的钱还绰绰有余，这里就尽量选最好的吧。’<br><br><br>直接<span style="color: red;" class="bbc_color">[1d3=2]</span><br><br><br><br>天女音女子艺术学院——是以培养歌手、演员、舞者等一系列艺术家为目标而建立的学院。<br>建立者是来自大洋洲的亚裔实业家“千”，同时也是在多个领域有所建树的艺术家。<br>就香看来，比起管教严苛的“一条·上清女子学院”，这所学校似乎更加适合伊莉斯。<br><br>说起来，香的舞蹈技术是从学校学来的吗？<br><span style="color: red;" class="bbc_color">1.是</span><br>2.否<br><br>难道莫非，就是这座学院？<br><span style="color: red;" class="bbc_color">1.是</span><br>2.否</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1084941">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg1094700"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77320" title="检视会员资料:  依久煌菘">依久煌菘</a>
+</h4>
+<ul class="reset smalltext" id="msg_1094700_extra_info">
+<li class="title">披风蓝剂量子猫<li class="postgroup">Knight<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=profile;u=77320">
+<img class="avatar" src="/bbs/upload/avatar/avatar_77320_1453793222.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 508<li class="karma">苹果币: 0<li class="blurb">啊？嗯，噢……<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_1094700">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.msg1094700#msg1094700" rel="nofollow">Re: 【安科】Black Noise（黑暗杂音）</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_1094700'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_1094700'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #52 于:</strong> 2021-01-13, 周三 01:08:08 &#187;</div>
+<div id="msg_1094700_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_1094700">开始日常啦！不过听描述就很装甲车的车辆就那样上街没问题吗……还有从战乱收容，这种和平的日常里总感觉有什么不一样的东西呢。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_1094700">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_1094700_signature">真意：作为DM展现出令自己满意的转折点。&nbsp; 0.5/∞</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=printpage;topic=121097.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.20">&#171;</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0">1</a> <a class="navPages" href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.20">2</a> [<strong>3</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;#c6"><span>TRPG讨论区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;board=1927.0"><span>安科安价ＡＡ区</span></a> &#187;
+<li class="last">
+<a href="?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;topic=121097.0"><span>【安科】Black Noise（黑暗杂音）</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 121097,
+iStart: 40,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 121097,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b6a8112e" value="e8ec3fcb53e635cea755d88e80dad504" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="121097" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'e8ec3fcb53e635cea755d88e80dad504\', \'b6a8112e\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;' + '?topic=121097.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 28154 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1927,
+							iCurBoardChildLevel: 0,
+							sCurBoardName: "安科安价ＡＡ区",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1927,
+							iTopicId: 121097,
+							sSessionId: "e8ec3fcb53e635cea755d88e80dad504",
+							sSessionVar: "b6a8112e",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=d02c2b8ebfdf44378e526f6c0f474323&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢之守护神RPG（メタリックガーディアンRPG）-基本规则书"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.60"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="77570"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0"><span>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg773003"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=77570.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">1</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.20">2</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">3</a> [<strong>4</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/veryhot_post_locked_sticky.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢之守护神RPG（メタリックガーディアンRPG）-基本规则书 &nbsp;(阅读 88012 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 超级机器人TRPG</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=77570.60" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_773003_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_773003">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg773003#msg773003" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_773003'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_773003'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #60 于:</strong> 2016-01-15, 周五 03:33:08 &#187;</div>
+<div id="msg_773003_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_773003"><span style="font-size: 18pt;" class="bbc_size"><strong>Enemy资料：其他Enemy/エネミー：その他のエネミー</strong></span><br>在此介绍一些通常兵器，或者是无法被分类为守护神、米勒斯、奈落兽的Enemy。<br>本来的话，通常兵器大抵没有对抗守护神的战力，但拉夫帝国的奈落技术却颠复了这一常识。<br><br>EDR-61 61式步行战车/EDR-61 61式歩行戦车<br>种类：战车<br>等级：1（集群）&nbsp; &nbsp; &nbsp; 体型：S<br>体：9/+3&nbsp; &nbsp; &nbsp; 反：9/+3&nbsp; &nbsp; &nbsp; 知：9/+3<br>理：9/+3&nbsp; &nbsp; &nbsp; 意：9/+3&nbsp; &nbsp; &nbsp; 幸：9/+3<br>命：4&nbsp; &nbsp; &nbsp; 回：7*&nbsp; &nbsp; &nbsp; 炮：4&nbsp; &nbsp; &nbsp; 壁：9*<br>移：1&nbsp; &nbsp; &nbsp; 行：2&nbsp; &nbsp; &nbsp; FP：18&nbsp; &nbsp; &nbsp; EN：11<br>武装1：20mm机关炮<br>攻：&lt;殴&gt;+6/射击（4）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：1~2<br>武装2：对守护神导弹<br>攻：&lt;炎&gt;+12/炮击（4）&nbsp; &nbsp; &nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; 射程：2~4<br>防：斩4/刺1/殴3/炎3<br>特技：《规避/インベイジョン》、《狙击1/狙撃1》<br>解说：拉夫帝国为警戒·都市制压而开发的小型无人四足步行战车。虽然比米勒斯更加脆弱，但用在镇压无防备的市民上，威力已经足够了。此外，不能小视内藏于其体内的，拥有一击必杀的威力的对守护神导弹。<br><br>Sur-15 侵袭者无人轰炸机/Sur-15 レイダー无人袭撃机<br>种类：航空机<br>等级：2（集群）&nbsp; &nbsp; &nbsp; 体型：S<br>体：9/+3&nbsp; &nbsp; &nbsp; 反：10/+3&nbsp; &nbsp; &nbsp; 知：10/+3<br>理：9/+3&nbsp; &nbsp; &nbsp; 意：9/+3&nbsp; &nbsp; &nbsp; 幸：9/+3<br>命：8&nbsp; &nbsp; &nbsp; 回：12*&nbsp; &nbsp; &nbsp; 炮：9&nbsp; &nbsp; &nbsp; 壁：12*<br>移：4&nbsp; &nbsp; &nbsp; 行：6&nbsp; &nbsp; &nbsp; FP：22&nbsp; &nbsp; &nbsp; EN：17<br>武装1：30mm机炮<br>攻：&lt;殴&gt;+20/射击（8）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：1~2<br>武装2：对地导弹<br>攻：&lt;炎&gt;+14/炮击（9）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：3~4<br>防：斩3/刺0/殴3<br>特技：《规避/インベイジョン》、《攻击力上升1/攻撃力上升1》、《状态获得：飞行/状态获得：飞行》<br>解说：拉夫帝国开发的无人轰炸机。使用旋翼飞行，依靠AI的判断自动进行攻击·索敌。虽然并不是足以与守护神一战的兵器，但经由奈落技术强化也具有相当的战力。<br><br>RT-60 九曜坦克/RT-60 ナヴァグラハ戦车<br>种类：战车<br>等级：3（集群）&nbsp; &nbsp; &nbsp; 体型：M<br>体：12/+4&nbsp; &nbsp; &nbsp; 反：9/+3&nbsp; &nbsp; &nbsp; 知：9/+3<br>理：9/+3&nbsp; &nbsp; &nbsp; 意：9/+3&nbsp; &nbsp; &nbsp; 幸：/9+3<br>命：9&nbsp; &nbsp; &nbsp; 回：10*&nbsp; &nbsp; &nbsp; 炮：11&nbsp; &nbsp; &nbsp; 壁：10*<br>移：2&nbsp; &nbsp; &nbsp; 行：8&nbsp; &nbsp; &nbsp; FP：32&nbsp; &nbsp; &nbsp; EN：13<br>武装1：20mm机关炮<br>攻：&lt;殴&gt;+13/射击（9）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：1~2<br>武装2：127mm轨道加农<br>攻：&lt;殴&gt;+17/炮击（11）&nbsp; &nbsp; &nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; 射程：3~4<br>防：斩10/刺6/殴10/炎10<br>特技：《规避/インベイジョン》、《攻击力上升1/攻撃力上升1》、《狙击1/狙撃1》、《导弹10/ミサイル10》<br>解说：拉夫帝国开发的坦克。经过奈落技术的强化，拥有了远远凌驾于联邦军坦克智商的装甲与火力。特别是主炮127mm轨道加农炮的威力，足以击穿骑士级的正面装甲。另一方面，其运动性与格斗性能与一般坦克无二，一旦被接近便十分脆弱。<br><br>Sur-13 魔鬼无人战斗机/Sur-13 フィーンド无人戦闘机<br>种类：航空机<br>等级：6&nbsp; &nbsp; &nbsp; 体型：M<br>体：9/+3&nbsp; &nbsp; &nbsp; 反：15/+5&nbsp; &nbsp; &nbsp; 知：15/+5<br>理：12/+4&nbsp; &nbsp; &nbsp; 意：12/+4&nbsp; &nbsp; &nbsp; 幸：12/+4<br>命：12&nbsp; &nbsp; &nbsp; 回：15&nbsp; &nbsp; &nbsp; 炮：13&nbsp; &nbsp; &nbsp; 壁：14<br>移：5&nbsp; &nbsp; &nbsp; 行：21&nbsp; &nbsp; &nbsp; FP：38&nbsp; &nbsp; &nbsp; EN：28<br>武装1：光束火神炮<br>攻：&lt;光&gt;+16/射击（12）&nbsp; &nbsp; &nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; 射程：1~2<br>武装2：高机动导弹<br>攻：&lt;炎&gt;+22/炮击（13）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：3~4<br>防：斩4/刺2/殴4/炎4<br>特技：《攻击强化2/攻撃强化2》、《攻击力上升2/攻撃力上升2》、《状态获得：飞行/状态获得：飞行》、《必中强化2/必中强化2》<br>解说：拉夫帝国最新锐的无人战斗机。可以从潜水艇或飞行空母的仓库射出，遵从AI或通信员的指示进行战斗。因为并不搭载人类，所以可以无视生命维持进行高强度的机动。火力也通过奈落技术得到强化，使其在对守护神战斗中也能占据一席之地。因为造价高昂，所以配备数并不多。<br><br>伐罗哈级机动巡洋舰/ヴァラーハ级机动巡洋舰<br>种类：舰船<br>等级：8&nbsp; &nbsp; &nbsp; 体型：XL<br>体：9/+3&nbsp; &nbsp; &nbsp; 反：9/+3&nbsp; &nbsp; &nbsp; 知：9/+3<br>理：15/+5&nbsp; &nbsp; &nbsp; 意：15/+5&nbsp; &nbsp; &nbsp; 幸：9/+3<br>命：7&nbsp; &nbsp; &nbsp; 回：14*&nbsp; &nbsp; &nbsp; 炮：11&nbsp; &nbsp; &nbsp; 壁：15<br>移：3&nbsp; &nbsp; &nbsp; 行：8&nbsp; &nbsp; &nbsp; FP：89&nbsp; &nbsp; &nbsp; EN：102<br>武装1：对空机关炮<br>攻：&lt;殴&gt;+18/射击（7）&nbsp; &nbsp; &nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：1~2<br>武装2：重粒子炮<br>攻：&lt;光&gt;+28/炮击（11）&nbsp; &nbsp; &nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; 射程：3~6<br>防：斩12/刺6/殴12/炎10/冰10/雷10<br>特技：《规避/インベイジョン》、《攻击力上升1/攻撃力上升1》、《指挥能力2/指挥能力2》、《接近困难/接近困难》、《状态获得：飞行/状态获得：飞行》、《狙击2/狙撃2》<br>解说：拉夫帝国的机动巡洋舰。通过奈落能量产生拟似反重力场，不仅能够飞行，还能够潜入水中。能够格纳约20机守护神，通过奈落隐形藏身，将Destiny送往各国。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_773003">
+&#171; <em>上次编辑: 2016-03-19, 周六 07:59:54 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg774438"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_774438_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_774438">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg774438#msg774438" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_774438'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_774438'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #61 于:</strong> 2016-01-24, 周日 14:45:17 &#187;</div>
+<div id="msg_774438_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_774438"><span style="font-size: 18pt;" class="bbc_size"><strong>模组的读法/シナリオの読み方</strong></span><br><em>“总之先读操纵手册。无论什么王牌都是这样过来。”——罗德尼·张</em><br><br><span style="font-size: 14pt;" class="bbc_size">模组的读法</span><br>作为游玩的大前提，GM必须要先好好地通读一遍模组。只有把握住模组的展开、应有的结局、模组进行时的印象等，才能开好一个团。<br>但是，并没有必要把握所有的流势与细节。相比之下，掌握印象才是要点。成功地掌握住印象，GM才能更好地把展开带到正确的道路上。这绝不是要GM强硬地推进故事；于此相反，正因为对印象有所了解，GM才能柔软地进行展开。<br><br><span style="font-size: 12pt;" class="bbc_size">■模组背景</span><br>记载有模组的背景、大致流向，以及结束条件。通读模组背景，GM便能知晓模组的预定展开。当然，实际的流势说不定会与这个预定有所偏差，这也正是TRPG的醍醐味。所谓TRPG，就是复数参加者共同孕育故事，并享受其过程的游戏。<br><br>●模组预告<br>记载有模组的预告文。在游戏开始前展示一遍预告文，可以在好的意味上让玩家对模组产生第一印象。<br><br><span style="font-size: 12pt;" class="bbc_size">■人物作成</span><br>记载有制作人物时的注意点。<br>此外，有时也会给予PC固有设定或指定对外身份。请GM理解其内容的意图，然后清楚地向玩家进行说明。<br><br>●PC间人物关系<br>记载着参加该模组的PC如何相互缔结人物关系。<br><br><span style="font-size: 12pt;" class="bbc_size">■场景的记述</span><br>MGR的模组是以场景为单位记述的。场景的构成形式如下。<br><br>●场景标题<br>场景的标题。标题并没必要告知玩家。当然，觉得告诉玩家比较帅气的话这么做也行。<br><br>●场景玩家<br>场景的主要角色。一般是像“PC③”这样记载着号码。若存在复数，GM可以从中任意选择一人。若是主场景，则会在这栏写明。<br><br>●解说<br>供GM阅读的场景解说。记载有场景的目的以及流向等。若会发生战斗或需要进行判定，也会在这里记述处理方式。此外，更详细的解说也有可能记述在注释里。<br>请注意一定不要读错。<br><br>●描写<br>场景的具体描写以及演出。GM展示给PC的部分一般就是这个。但是，请不要忘记根据PC的设定与行动调整细节。<br><br>●台词<br>NPC的台词。“▼”之后记载有说话的NPC的名字。根据对话的对象，可以适当调整台词中的人称与措辞。不要忘记把台词中的PC号码改成对应PC的名字。<br>没有必要让NPC把所有的台词都讲出来。但请注意有时候这些台词中包含有模组的重要内容，GM最好先将其通读确认一遍。此外，不要忘记根据PC的选择与行动进行适度调整。<br>当然，台词说到底也只是范本而已。毕竟不是电脑游戏，还请各位GM按照自己的想法自由调整。<br><br>●结尾<br>记载有场景如何结束。此外。也写有结束时的条件或特殊处理等。<br><br><span style="font-size: 12pt;" class="bbc_size">■模组文字资料</span><br>模组都记载有各自的文字资料。请GM在游戏开始前或构筑人物前将文字资料分发给每个玩家。<br><br>●模组文字资料的读法<br>文字资料记载有以下项目。这些项目各自写有相应的情报。<br><br>①PC号码<br>出于方便而为PC取的号码。模组一般能够支持3~5人游玩。若人数减少，则按照PC号码从小到大的顺序采用文字资料。<br><br>②关联人物<br>在该模组中与PC拥有人物关系的人物。既有可能是模组中的NPC或人物列表中的人物，也有可能是“Fortune队员”这样的集团。当然，也有可能是PC。<br><br>③推荐范例人物<br>以快捷开始的方式进行游戏时，推荐使用的范例人物。范例人物可以在官网找到。<br><br>④推荐类别<br>从零开始构筑人物进行游戏时，推荐取得的类别。使用这些类别大概能使游戏更加顺利地进行。<br><br>⑤对外身份<br>该人物推荐取得的对外身份。<br><br>⑥正文<br>该人物的设定与状况。<br><br><div style="margin:20px; margin-top:5px"><div class="smallfont" style="margin-bottom:2px"><b>剧透</b> - &nbsp;<i> </i>: <input type="button" value="顯示" style="width:60px;font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }"></div><div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;"><div style="display: none;">就个人来说，文字资料不严格参考也行。GM可以先通读一遍模组，然后看下哪些要素是必须要有的。此外，就像前文提到的，GM也可以自己添加某些禁忌。</div></div></div></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_774438">
+&#171; <em>上次编辑: 2016-03-18, 周五 13:20:28 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg784591"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="检视会员资料:  天道隼人">天道隼人</a>
+</h4>
+<ul class="reset smalltext" id="msg_784591_extra_info">
+<li class="title">働きたくない<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123">
+<img class="avatar" src="/bbs/upload/avatar/avatar_73123_1427054947.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1594<li class="karma">苹果币: 3<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_784591">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.msg784591#msg784591" rel="nofollow">Re: 钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_784591'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_784591'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #62 于:</strong> 2016-03-21, 周一 04:51:50 &#187;</div>
+<div id="msg_784591_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_784591"><span style="font-size: 18pt;" class="bbc_size"><strong>资源</strong></span><br><br>这楼用来发一些可能会用到的资源。<br><br>钢之守护神RPG - 人物卡<br><a href="http://yun.baidu.com/share/link?shareid=1599500178&amp;uk=755618810" class="bbc_link new_win" target="_blank">http://yun.baidu.com/share/link?shareid=1599500178&amp;uk=755618810</a><br>全部文件&gt;钢之守护神RPG&gt;人物卡<br>可以自动计算部分数据的空白人物卡。在萌空萌<span style="color: white;" class="bbc_color">（@晴澈之空）</span>制作的卡的基础上进行了修改，已对应至上级规则书，仅有xlsx版本。<br><br>集结，守护神！--MGR<br>链接同上<br>全部文件&gt;钢之守护神RPG&gt;模组<br>基本规则书中附带的新手模组。<br><br><a href="http://www.fear.co.jp/mg/index.htm" class="bbc_link new_win" target="_blank">http://www.fear.co.jp/mg/index.htm</a><br>钢之守护神RPG的官网。SUPPORT中有Q&amp;A以及勘误。DOWNLOAD中是pdf格式的范例人物卡、空白人物卡等。目前还有两个DLC，一个是战线指挥官的拓展规则，一个是适用于上级规则书的模组。<br><br><a href="http://trpggasuki.com/alshard/mg.php" class="bbc_link new_win" target="_blank">http://trpggasuki.com/alshard/mg.php</a><br>钢之守护神RPG的在线人物卡构筑器，主要是用来帮助计算数据之类的。如果是基本规则书的内容的话用上面萌空萌的人物卡更方便。现已更新到EX规则书。<br><br><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=79686.0" class="bbc_link new_win" target="_blank">http://45.79.87.129/bbs/index.php?topic=79686.0</a><br>个人开的测试团，如果有兴趣可以参考一下。里面添加了许多胡搞乱搞的设定请不要在意。顺带关于奈落之种反应等级的那个的确是原书内容。</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_784591">
+&#171; <em>上次编辑: 2016-04-22, 周五 10:58:02 由 天道隼人</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=77570.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页: <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">&#171;</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0">1</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.20">2</a> <a class="navPages" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.40">3</a> [<strong>4</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=77570.0"><span>钢之守护神RPG（メタリックガーディアンRPG）-基本规则书</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 77570,
+iStart: 60,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 77570,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="77570" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=77570.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 88012 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 77570,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

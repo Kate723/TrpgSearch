@@ -1,0 +1,596 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="从Fudge到FATE"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>从Fudge到FATE</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '05cf4466b95b292a7b39808b16e83f25');">
+<div class="info">请 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">登录</a> 或 <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="55080"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b01458d970',
+sSessionId: '05cf4466b95b292a7b39808b16e83f25'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0"><span>从Fudge到FATE</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg510497"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=55080.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 从Fudge到FATE &nbsp;(阅读 9438 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: ——两套桌面角色扮演游戏规则的联系与差异</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=quickmod2;topic=55080.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('05cf4466b95b292a7b39808b16e83f25', 'b01458d970') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=6579" title="检视会员资料:  Bozar">Bozar</a>
+</h4>
+<ul class="reset smalltext" id="msg_510497_extra_info">
+<li class="title">因为飞船故障迫降地球的喵星人，基本无害 | GEEKs will Eventually Evolve into Kryptonians<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=6579">
+<img class="avatar" src="/bbs/upload/avatar/avatar_6579_1522725964.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 88<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_510497">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg510497#msg510497" rel="nofollow">从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_510497'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_510497'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2013-02-03, 周日 22:22:16 &#187;</div>
+<div id="msg_510497_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_510497"><span style="font-size: 1.45em;" class="bbc_size"><strong>从Fudge到FATE</strong></span><br><span style="font-size: 1.35em;" class="bbc_size"><strong>——两套桌面角色扮演游戏规则的联系与差异</strong></span><br><br>作者：Bozar<br><br>2012年7月29日初稿<br>2012年8月4日定稿<br>2013年2月3日更新<br><br><img src="http://farm9.staticflickr.com/8189/8441458892_68fb218f8a_b_d.jpg" alt="" class="bbc_img"/><br><br><strong>更新</strong>：截止到2013年1月31日，坏帽产品（Evil Hat Productions）已经通过Kickstarter网站募集到足够的资金，FATE核心规则项目正式启动。这简直太棒了！<br><br>我们可以把桌面角色扮演游戏规则分为两类：专用规则和泛用规则。前者与某个设定配套使用效果最佳，根据<a href="http://en.wikipedia.org/wiki/List_of_role-playing_games_by_genre" class="bbc_link new_win" target="_blank">设定种类</a>[1]还可继续细分，例如龙与地下城和黑暗世界。后者（理论上）适用于任何游戏设定，例如泛用无界角色扮演系统（以下简称泛统）和豪客天下。本文将介绍Fudge和FATE这两套泛用规则，文中的“系统”和“规则”都是指包含创建人物、投骰方法、行动判定等内容的文本。<br><br><a href="http://en.wikipedia.org/wiki/Fudge" class="bbc_link new_win" target="_blank">Fudge</a>[2]曾是“自由无界定制游戏引擎（Freeform Universal Do-it-yourself Gaming Engine）”的缩写，如今该含义已被取消。斯蒂芬·奥沙利文（Steffan O&#039;Sullivan）是泛统规则书的作者，作品包括《兽类（Bestiary）》、《兔子和地洞（Bunnies &amp; Burrows）》等。他在<a href="http://www.panix.com/~sos/rpg/fud-des.html" class="bbc_link new_win" target="_blank">Fudge设计师笔记</a>[3]里提到，泛统自从1985年以来始终是他的“首选系统”，可是当他打算为《泛统妖精（GURPS Farie）》撰稿时发现“泛统过于僵硬，难以驾驭诸像妖精这样模糊的主题”。1992年11月，他发起Fudge设计项目。1995年，Fudge最终版问世，提供免费下载至今。<a href="http://www.fudgerpg.com/" class="bbc_link new_win" target="_blank">灰鬼出版社（Gery Ghost Press）</a>[4]曾协助奥沙利文撰写规则，并发行过几套Fudge规则书，包括Fudge十周年版（Fudge 10th Anniversary Edition），书中除了原规则的全部内容，还提供若干适用于特定游戏的定制系统。灰鬼于2004年获得Fudge版权，次年，他们遵循游戏开放许可证（Open Game License）重新发布规则（内容没有变化）——这让FATE能以Fudge为原型创建新系统而不必担心版权纠纷。<br><br><a href="http://en.wikipedia.org/wiki/FATE_RPG" class="bbc_link new_win" target="_blank">FATE</a>[5]是“桌面环境里的奇妙冒险（Fantastic Adventures in Tabletop Entertainment）”的缩写，与同名小说、游戏和动画毫无关系，由<a href="http://www.evilhat.com/home/" class="bbc_link new_win" target="_blank">坏帽产品（Evil Hat Productions）</a>[6]负责设计与出版。FATE二版有独立的<a href="http://faterpg.com/dl/FATE2fe.pdf" class="bbc_link new_win" target="_blank">泛用规则</a>[7]，三版目前只有专用规则，包括世纪之魂（Spirit of the Century），迁徙（Diaspora）和徳雷斯顿档案RPG（以下简称DFRPG，The Dresden Files RPG）等。坏帽说过会在DFRPG完成后免费发布FATE三版规则，但是自从该规则2010年发布至今仍没有相关消息。同年，有位作者自行撰写并出版了非官方的FATE三版规则<a href="http://index.rpg.net/display-entry.phtml?mainid=16605" class="bbc_link new_win" target="_blank">命运之弦（Strands of Fate）</a>[8]。坏帽除了FATE还出版过其他规则，例如<a href="http://trow.cc/forum/index.php?showtopic=19490" class="bbc_link new_win" target="_blank">不要松懈（Don’t Rest Your Head）</a>[9]。<br><br>网上有关Fudge和FATE的中文资料很少，我只在果园找到对于<a href="http://www.goddessfantasy.net/bbs/index.php?topic=31025.0" class="bbc_link new_win" target="_blank">FATE规则书</a>[10]和<a href="http://www.goddessfantasy.net/bbs/index.php?topic=30992.0" class="bbc_link new_win" target="_blank">世纪之魂</a>[11]的介绍。英文资料除了上文提及的官方网站，可以参考国外玩家根据世纪之魂制作的<a href="http://www.faterpg.com/dl/sotc-srd.html" class="bbc_link new_win" target="_blank">FATE三版系统参考文档（System Reference Document）</a>[12]。<br><br>接下来，我将从三方面比较两套系统的差异：为游戏带来随机性的<strong>投骰规则</strong>，帮助玩家塑造人物的<strong>做卡规则</strong>，处理游戏内各种行动的<strong>检定规则</strong>（包括技能检定和战斗，区别在于是否用“生命值”记录检定的成功次数）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>I. Fudge系统</strong></span><br><br>你能从灰鬼官网下载1995年版<a href="http://www.fudgerpg.com/goodies/fudge-files/core/" class="bbc_link new_win" target="_blank">Fudge规则</a>[13]或者查阅<a href="http://sonic.net/~rknop/php/Omar/fudge/FudgeSRD/FudgeSRD.html" class="bbc_link new_win" target="_blank">在线文档</a>[14]。“F 24”表示Fudge规则书第24页。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>1. 投骰规则（F 26-28）</strong></span><br><br>Fudge使用特殊的六面骰，两个对面标记+，两个对面标记-，剩下两个面没有标记。检定时投四枚Fudge骰（记作4dF）并相加面值（正负互相抵消，无标记面是零），结果在-4到+4之间。例如，+，-，0，+，结果+1。作者还提到几种使用普通六面骰（记作d6）做检定的方法，这里仅介绍我带团时用的那种（与书中描述略有不同）。<br><br>·先投2d6，结果记为正值，取绝对值较小者，如果骰值相同则保留一个。例如，2d6得到3，5，结果+3；2d6得到1，1，结果+1。<br>·再投2d6，结果记为负值，然后按上述步骤处理。例如，2d6得到6，1，结果-1；2d6得到3，3，结果-3。<br>·比较两个骰值，取绝对值较小者。如果绝对值相同，那么结果0。例如，+2和-3，结果+2；+4和-4，结果0。<br><br>不同结果的出现概率见下表。<br><br><table class="bbc_table"><tr><td>投骰结果<td>Fudge骰<td>普通六面骰</tr><tr><td>+5<td>-<td>0.2%</tr><tr><td>+4<td>1%<td>1.8%</tr><tr><td>+3<td>5%<td>5%</tr><tr><td>+2<td>12%<td>11%</tr><tr><td>+1<td>20%<td>21%</tr><tr><td>+0<td>24%<td>22%</tr><tr><td>-1<td>20%<td>21%</tr><tr><td>-2<td>12%<td>11%</tr><tr><td>-3<td>5%<td>5%</tr><tr><td>-4<td>1%<td>1.8%</tr><tr><td>-5<td>-<td>0.2%</tr></table><br>Fudge和黑暗世界的的投骰概率都符合正态分布，详见<a href="http://trow.cc/forum/index.php?showtopic=6695" class="bbc_link new_win" target="_blank">《WOD新版D10系统检定概率速查表》</a>[15]和<a href="http://trow.cc/forum/index.php?showtopic=14972" class="bbc_link new_win" target="_blank">《有关D10系统的机率》</a>[16]。我个人认为，使用Fudge规则的主持人更容易预测检定概率。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2. 创建人物</strong></span><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.1 特性等级（Trait Level）（F 5）</strong></span><br><br>作者使用七个形容词描述人物能力和检定结果，这是Fudge最突出的特色之一，它们是：<br><br>超强（Superb）<br>优秀（Great）<br>良好（Good）<br>一般（Fair）<br>勉强（Mediocre）<br>糟糕（Poor）<br>差劲（Terrible）<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2 创建人物：主观或客观（F 10-14）</strong></span><br><br>书中提供两种创建人物的方法。主持人提供人物模板，规定能力总数和每个等级的数量（例如总共六个技能，一个超强，两个优秀，三个良好），然后与玩家协商讨论，主观地确定人物能力（“你的人物最擅长射击还是跳跃？”“他享受从高空坠落的感觉。”“好的，跳跃：超强，射击：优秀。”）。他也可以事先规定能力的起始等级，玩家花费点数客观地提升能力（所有技能的起始等级是糟糕，每提升一级花费一个技能点）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.3 属性和技能（F 6-7）</strong></span><br><br>Fudge没有现成的属性和技能列表，只有供玩家参考的人物范例（F 61-81）。此外，属性和技能没有联系，你的力量属性也许只算得上“勉强”，而剑术技能可以达到“优秀”，只要有合理的解释。如果你想客观地创建人物，作者建议属性的起始等级是平均，把总数的一半作为可提升的等级。技能的起始等级是糟糕，可提升的等级视技能总数而定。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.4 天赋和缺陷（F 7-8）</strong></span><br><br>这两项没有等级区分，作用是强化某些技能或提供特殊能力，但是仅限于普通人的范畴。规则建议玩家可免费选择两个天赋，之后每个天赋要花费一个缺陷购买。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.5 超能力（F 16-24）</strong></span><br><br>作者用了一章的篇幅介绍超能力（还不包括附录的魔法系统），但是我个人认为这部分写得比较零乱——书中提到许多设计超能力（魔法、神迹、灵能、身体强化）的想法，但是缺乏完整、实用的子系统，所以本文只介绍两条最基本的规则。<br><br>首先，超能力类似天赋，前两个免费，之后用缺陷购买。其次，作者因为不满意泛统的尺度系统（详见上文，Fudge设计师笔记），花了不少时间设计尺度修正（F 20）。该修正以人类的力量和速度为基准，对强于或弱于人类的生理属性提供相应的加值或减值。例如，假定食人魔的力量大约是人类的2倍，查表发现人类力量的2.3倍对应尺度修正+2，这可能表示食人魔要多花费2点换取强大的力量，或者它们近战时额外造成2点伤害。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.6 Fudge点（F 8-9）</strong></span><br><br>这个特殊的天赋用点数表示，玩家用Fudge点改变投骰结果。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3. 行动判定</strong></span><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.1 技能检定（F 25-31）</strong></span><br><br>对于非对抗行动，玩家以技能等级为起点根据投骰结果移动到相应位置，通常只要不低于平均就算作成功。例如，玩家人物拥有“优秀”的攀爬技能，投骰+1，那么从“优秀”向上移动一级——“超强”。如果他的观察技能“良好”，投骰-2，那么从“良好”向下移动两级——“勉强”，行动失败。检定结果是本次行动的成功或失败的程度。某些行动比较困难，例如在暴雨中爬上铁塔，发现客人藏在大衣里的小手枪，因此检定难度是良好甚至更高。作者鼓励玩家用形容词而非数字描述行动结果，他认为这样更有助于角色扮演。（“你擅长开锁吗？”“一般。”“我的开锁技能良好，让我来吧。”）<br><br>对抗行动发生在人物之间，双方投骰，根据技能调整检定结果的等级，高者获胜，成功度是双方的等级差。例如，人类战士的力量“良好”，投骰+1，检定“优秀”；食人魔的力量“超强”，投骰-2，检定“良好”——人类战士赢得力量对抗，成功度+1。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2 战斗与记录伤害（F 32-40）</strong></span><br><br>有两种方法主持Fudge的战斗：使用故事元素（story element）或者战斗轮（combat round）。主持人按照剧情需要把战斗任意分成几个阶段（游戏术语是“故事元素”），参与战斗的人物们每个阶段投骰一次，检定结果决定故事走向。或者，人物们投骰决定优先权，然后依次行动。<br><br>近程和远程战斗有许多模拟现实的可选规则，不过核心机制很简单：双方做对抗检定决定攻击是否命中目标。例如，用肉搏对抗闪避，如果防御者是小体型的半身人或许还有+1奖励。远程战斗一般作为非对抗行动处理。<br><br>攻击命中目标后启用伤害规则，还要记录玩家人物的生命值。伤害由诸多可选因素决定，包括但不限于命中检定的成功度，武器的伤害加值，体型，力量等，例如命中的成功度+1，长剑伤害+2，皮甲吸收+1伤害，那么最终造成1（命中）+2（长剑）-1（皮甲）=2点伤害，记录方式如下。<br><br><table class="bbc_table"><tr><td>1，2<td>3，4<td>5，6<td>7，8<td>9+</tr><tr><td>擦伤<br>（Scratch）<td>受伤<br>（Hurt）<td>重伤<br>（Very Hurt）<td>无力<br>（Incapac.）<td>濒死<br>（Nr. Death）</tr><tr><td>[ ][ ][ ]<td>[ ]<td>[ ]<td>[ ]<td>[ ]</tr></table><br>最上方的数字表示伤害点数，中间的形容词是类似特性等级的“伤害等级（wound level）”，受到几点伤害就填满最下方对应的格子。如果该格已被填充，那么向右移动直到出现空格为止；如果右边已经没有空格，人物死亡。作者鼓励玩家用形容词而不是数字描述人物的健康状况。（“我重伤了，医疗兵！”）<br><br>其实，无论是龙与地下城数字式的“抗击点数（Hit Point）”，还是黑暗世界逐级恶化的健康条，“生命值”的作用始终是记录攻击检定的成功次数和成功度。例如长剑的伤害1d8，平均值4.5，d10生命骰的一级人物退出战斗前能被命中三次，或者承受一次重击。不同于普通的技能检定，武器攻击在游戏规则中占据重要地位，甚至有一套专门描述攻防策略的子系统。豪客天下出于简化考虑采用更抽象的“生命值”规则——杂兵受到一点创伤（wound）就退出战斗，而玩家人物和更强力的对手能承受三点。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>4. 总结</strong></span><br><br>根据我个人的读后感，Fudge不是完整的、“开箱即用”的泛用系统，更像是一份指导玩家从零开始搭建自己所需系统的文档——除了几条简单的核心规则，余下全是大量可选内容。它最重要，或者说（对我而言）最有趣的规则如下。<br><br>· 符合正态分布、容易预测成功概率的投骰规则。<br>· 用形容词描述人物能力和检定结果。<br>· 平衡机制：前两项能力（优点或超能力）免费获得，之后要用缺陷兑换。<br>· 尽量减少人物卡不同部分之间的联系（属性和技能不挂钩）。<br>· （超能力的）尺度修正表——我个人不太喜欢这个想法，但是作者在设计师手记里提过他花了不少时间查阅资料、设计表格。<br><br>另外，作者在不同章节（创建人物和战斗）都提到两种主持游戏的风格：让数字说话，或者依靠主持人的描述决定故事走向。<br><br>接下来，我们会看到在FATE系统里，投骰规则被完全保留，特性等级略有微调，属性和优缺点分别被侧面和特技代替，回复等级被用来平衡能力，还有更多鼓励主持人用描述而非数字的规则。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>II. FATE系统</strong></span><br><br>如前所述，坏帽产品至今（2012年7月）仍未推出第三版FATE官方规则，所以我选择分析出版日期最近（2010年）、以FATE为基础的专用规则《徳雷斯顿档案RPG》。DFRPG由两本书组成，上册《你们的故事（Your Story）》介绍规则，下册《我们的世界（Our World）》描述设定，本文只涉及前者。<a href="http://en.wikipedia.org/wiki/Dresden_files" class="bbc_link new_win" target="_blank">《徳雷斯顿档案》</a>[17]是作家吉姆·布彻（Jim Butcher）写的系列小说，故事围绕生活在现代芝加哥的私人调查员与巫师哈里·徳雷斯顿（Harry Dresden）展开，除了跑团规则还有一部与小说同名、只拍了一季便夭折的<a href="http://movie.douban.com/subject/1959155/" class="bbc_link new_win" target="_blank">美剧</a>[18]。“D 24”表示DFRPG规则书第24页。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>1. 投骰规则（D 16-17）</strong></span><br><br>DFRPG完全继承Fudge的投骰机制，但是书中未提及不使用Fudge骰的检定方法。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2. 创建人物</strong></span><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.1 梯度（D 16-17）</strong></span><br><br>DFRPG用梯度（ladder）描述人物能力和检定结果。<br><br>+8 传奇（Legendary）<br>+7 史诗（Epic）<br>+6 奇幻（Fantastic）<br>+5 超强（Superb）<br>+4 优秀（Great）<br>+3 良好（Good）<br>+2 一般（Fair）<br>+1 普通（Average）<br>0 勉强（Mediocre）<br>-1 糟糕（Poor）<br>-2 差劲（Terrible）<br><br>不难发现，梯度（DFRPG）的总数以及大于零的等级比特性等级（Fudge）更多。另外，DFRPG把数字加值和形容词相联系，不像Fudge的作者完全避免使用数字。“形容词通常被用来描述事物——某人可能是‘良好的司机’或‘普通的学者’。形容词和数字能够互换，因此如果你更习惯数字，‘驾驶：+3’或‘学术：+1’的说法同样有效。为了清晰起见，两者共用效果最佳，例如‘驾驶：良好（+3）’或‘学术：一般（+1）’。”译自DFRPG第16-17页。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2 创建人物（D 52-70）</strong></span><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.1 确定强度等级（Power Level），选择模板（Template）</strong></span><br><br>主持人首先确定游戏的强度等级，它会决定回复等级（refresh level），技能点总数和最高技能等级，例如涉世尚浅（Feet in the Water）——起始的回复等级6，20个技能点，最高技能等级优秀。随后，玩家降低回复等级购买模板。Fudge第六章（F 60-81）有许多供主持人参考的人物和物品模板，而DFRPG把它作为创建人物的第一步。DFRPG的模板类似龙与地下城的职业和黑暗世界的派系，它将某些能力和限制打包，再加上一些描述文字，可选项包括凡人、妖精、吸血鬼和法师以及更多，基本囊括了黑暗世界的超自然生物。该步骤很像Fudge“客观地创建人物”。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.2 构思高概念（High Concept）和困扰（Trouble）</strong></span><br><br>接下来，玩家需要设计高概念和困扰。高概念是<a href="http://en.wikipedia.org/wiki/High_concept" class="bbc_link new_win" target="_blank">电影术语</a>[19]，指可以引发其他灵感的简短描述，在DFRPG里是概括了玩家人物是谁、是什么的短语——更确切地说是第一个、也是最重要的人物侧面（aspect），比如“特别调查科的首席侦探”，“受训法师”，“妖精王庭的骑士”。困扰是阻挠高概念的麻烦，它也是重要侧面之一。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.3 设计人物经历的五个阶段（Phase）</strong></span><br><br>龙与地下城和黑暗世界都提过“让玩家回答几个问题塑造人物”的方法，但是DFRPG把它作为必选步骤。玩家要为每个问题写一小段摘要（summary）和一个侧面。五个问题如下。<br><br>你从哪里来？（背景）<br>什么塑造了你？（冲突逐渐产生）<br>你的第一场冒险是什么？（故事）<br>谁的故事与你相关？（友情客串）<br>还有谁与你相关？（还是友情客串）<br><br>主持人和玩家合作回答前三个问题，它们概括了人物幼年和青年（开始冒险之前）的生活，人物“主演”的第一场冒险。最后两个问题的答案用于描述你在别人经历中起的作用，所以需要玩家们共同讨论。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.4 选择技能</strong></span><br><br>DFRPG有现成的技能列表，玩家花费技能点从“勉强”开始升级，为了限制每个等级的技能数量规定“低级技能的数量不得少于高级技能”。例如，两个“优秀”技能下面至少要有两个“良好”技能。不过这种“阶梯式”的技能列表并非FATE首创，Fudge玩家在<a href="http://faterpg.com/dl/ontheflysrd.txt" class="bbc_link new_win" target="_blank">《临场现编（Fudge on the fly）》</a>[20]中提过类似的想法。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.5 选择特技（Stunt）和超能力（Power）</strong></span><br><br>类似模板，玩家降低回复等级购买凡人特技和超能力。作为限制，回复等级不得小于1。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.2.6 计算回复等级，命运点（Fate Point），压力（Stress）与后果（Consequence）</strong></span><br><br>命运点上限等于选过模板、特技与超能力后的回复等级。技能决定压力格数，某些特技和超能力会影响压力格数和后果上限。至此，人物卡完成。DFRPG非常强调用文字而非数字描述人物形象，因此用13页篇幅讨论前三个步骤，而后三个步骤总共只有3页。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.3 侧面（D 18，98-118）</strong></span><br><br>Fudge用属性和技能描述最基本的人物形象，DFRPG完善了技能系统，而属性却被侧面代替。属性和侧面共同点是涵盖面比技能更宽泛，描述了人物的某些特点，区别在于侧面是短语，而且“侧面复盖诸多元素，它们共同描绘出一幅肖像——人物是谁、他与谁有关、他最看重什么（与之相对是‘他能做什么的’技能）。侧面可以是关系，信念，口头禅，索引项，物品或其他任何能绘制人物肖像的事物。”译自DFRPG第18页。<br><br>规则书用整章篇幅介绍侧面的用法，简单介绍几点。侧面来自玩家人物（风流倜傥的半精灵诗人），非玩家人物（心智愚钝的酒吧侍从）和环境（黑暗的地洞、颠簸的甲板）等方面。玩家用一个命运点引发侧面（invoking aspect）使得下次投骰+2或者重骰一次，例如，引发侧面“家传细剑”令攻击检定获得加值。主持人或玩家还能让某个侧面给人物带来负面影响，这被称作强制侧面（compelling aspect），好处是回复一个命运点。<br><br>我个人认为，DFRPG的设计思想是“一切皆侧面”——玩家用它描述人物、获得加值、回复命运点，主持人用它<a href="http://trow.cc/forum/index.php?showtopic=21764&amp;st=0&#38;#entry132601" class="bbc_link new_win" target="_blank">描写想象画面</a>[21]或某些临时效果（侧面：卓尔毒素发作），如果允许玩家根据实际情况自行设计侧面——规则术语是声明（declaration，第116页），那么它又成为<a href="http://trow.cc/forum/index.php?showtopic=21526" class="bbc_link new_win" target="_blank">玩家叙事</a>[22]的道具。其实这种思想和Fudge的主持理念“让数字说话，或者依靠主持人的描述决定故事走向”一脉相承，可以参考DFRPG第102页的边框段落“点头、投骰或强制（Say Yes, Roll the Dice, or Compel）”，更详细的说明请看<a href="http://trow.cc/forum/index.php?showtopic=21195" class="bbc_link new_win" target="_blank">《点头答应，立即执行》</a>[23]。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.4 特技与超能力（D 146-156，D 158-190）</strong></span><br><br>DFRPG用特技代替Fudge的优缺点，不过它依然只涉及凡人具有的特殊才能。特技与某个技能挂钩，它能拓展技能的使用领域（给生存技能添加特技：草药学），或者针对一个领域提供加值（对吸血鬼的某个氏族做知识检定时+2）。规则书列举了少量特技，鼓励游戏者根据需要自己创造新特技——换言之，规则只提供（确保游戏能正常运作的）机制（例如“涉及伤害的特技通常只能+1”），把描述机制的权力（攻击+1是因为武器先进还是训练有素）交给游戏者自行决定。超能力的游戏机制与特技十分类似，略过不提。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>2.5 命运点和回复等级（D 19-22，68）</strong></span><br><br>回复等级是DFRPG规则用于平衡特技和超能力的机制，它决定了命运点上限，而命运点又和侧面联系紧密。回复等级除了被用于限制能力，主持人在合适的时候会允许玩家回复命运点，“少补多不退”——把当前命运点数提升至回复等级，如果点数大于等级则没有效果。除了引发侧面，命运点还有换取+1奖励，使用某些特技和超能力，声明游戏效果等用途。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3. 行动判定</strong></span><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.1 技能检定（D 17，192）</strong></span><br><br>DFRPG没有改变检定机制，仅仅改变了一些称呼。尝试（effort）=技能+修正值+投骰结果，效果（effect）=尝试-难度。例如，玩家人物雨中驾驶，尝试=2（驾驶：优秀）-1（侧面：倾盆大雨）+1（投骰结果）=2，效果=2（尝试）-1（难度：一般）=1，这次检定成功，并且有1个移位（shift）——移位被用来衡量行动的成功度。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2 冲突（Conflict）与记录伤害（D 197-220）</strong></span><br><br>DFRPG尝试用一套机制模拟生理（physical）、精神（mental）和社交（social）冲突，这似乎是近年来角色扮演游戏规则的设计趋势，比如在<a href="http://www.goddessfantasy.net/bbs/index.php?topic=22628.0" class="bbc_link new_win" target="_blank">《技能挑战之律：技能挑战的挑战》</a>[24]这篇文章中，龙与地下城四版规则的设计师指出“技能检定”与“战斗”存在诸多相似之处。传统的战斗流程包括确定行动顺序，判定胜负（移动、攻击和防御），记录伤害三个步骤，DFRPG在此基础上稍加扩充，提出含有四个步骤的模式（pattern）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2.1 步骤一：勾画场景（Step 1: Framing the Scene）</strong></span><br><br>主持人把冲突地点划为几个区域（zone），添加若干场景侧面（scene aspect），具体见下图（D 198）。该场景的仓库和停车场都被一分为二得到四个区域，场景侧面是“箱子”，“黑暗狭小”，“车辆”和“煤气总阀”。如果你正在设计战斗（“生理冲突”），<a href="http://trow.cc/forum/index.php?showtopic=21960" class="bbc_link new_win" target="_blank">《遭遇模板》</a>[25]或许能提供更多帮助。<br><br><img src="http://farm9.staticflickr.com/8184/8440365987_e43ce18bca_z_d.jpg" alt="" class="bbc_img"/><br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2.2 步骤二：确定团体（Step 2: Establish Groups）</strong></span><br><br>主持人与玩家讨论后，把陷入冲突的玩家人物和非玩家人物分成彼此对抗的小团体。例如在一场枪战中，两名玩家人物躲在车后火力压制四个打手，第三名玩家人物追逐逃逸的黑帮大佬。其实，分组的雏形源自Fudge——“用故事元素处理战斗”，在FATE二版规则里被称为“基于交换的打斗（Exchange Based Fights）”，详见FATE二版规则第39页（链接7）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2.3 步骤三：确定优先权（Step 3: Establish Initiative）</strong></span><br><br>随后玩家做技能检定确定行动顺序，例如战斗冲突用警觉（alertness），精神冲突用自律（discipline），社交冲突用共感（empathy）。如果你们不喜欢做检定，规则建议让引发冲突的玩家人物最先行动，按顺时针轮换。下一轮从邻座玩家开始，保证每人都有在冲突中优先动作的“聚光灯”时刻。这种处理方法有点类似桌面游戏。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2.4 步骤四：采取行动！（Step 4: Take Action!）</strong></span><br><br>冲突中的人物可采取五种行动：攻击（attack）直接造成“伤害”——压力或后果；用计（maneuver）给对手或环境添加侧面；阻碍（block）预防对手行动，类似龙与地下城的“准备动作”；冲刺（sprint）用于在区域间移动；全力防御（full defense）抵抗外来攻击。用计和阻碍涵盖了许多规则里的“特殊动作”，例如擒抱、绊摔、击破武器、瞄准射击等，规则对此的处理方式类似特技，游戏提供机制，玩家决定内容。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>3.2.5 压力与后果</strong></span><br><br>DFRPG的伤害机制包含“轨道（track）”和“程度”两个概念。生理、精神和社交三条压力轨道（stress track）记录三种伤害，轨道起始有两格，会因为某些技能、特技或超能力而增加，最多八格。人物受到几点伤害就填充对应的轨道格（不包括之前或之后的格子），如果已被填满则向右移动，直到出现空格为止。详见下图（D 202）。<br><br><img src="http://farm9.staticflickr.com/8098/8441458542_9eaa61c433_z_d.jpg" alt="" class="bbc_img"/><br><br>轨道记录的伤害被称作压力，它代表轻微的擦伤（生理）、适度的焦虑（精神）、短暂的沉默（社交），冲突结束后所有压力立即消除。如果伤害值超出轨道上限，或者对应格的右侧已经没有空格，那么人物出局——这未必意味着死亡，或许只是失手从墙上坠落，被人当面羞辱。<br><br>玩家人物可以承担后果避免出局。每次受到伤害时，玩家立即决定攻击是否造成比压力更严重的效果，温和（mild）的后果抵消2点压力，中度（moderate）的后果抵消4点，严重（severe）的后果抵消6点。后果是一种侧面，例如“肺部被子弹击穿”，“因为目睹难以理解的事物而精神错乱”等，它不会在冲突结束后立即消失，根据程度轻重需要更长时间恢复。另外，压力与后果的记录方式也适用于非玩家人物——这表示玩家可以利用对手的后果侧面给他们致命一击，或被一击致命……<br><br>不少商业规则同样使用“轨道”和“程度”记录伤害。黑暗世界采用打击（bashing）、致命（lethal）、恶性（aggravated）三合一的伤害轨道，<a href="http://5irpg.com/publish/otherproducts/item/46-savage-worlds-test-driver-chinese-edition-released.html" class="bbc_link new_win" target="_blank">豪客天下</a>[26]用晕眩（shaken）和创伤（wound）表示轻伤和重伤。<a href="http://trow.cc/forum/index.php?showtopic=23055" class="bbc_link new_win" target="_blank">隐蔽期</a>[27]的伤害机制和DFRPG最相似——人物拥有生理健康（physical health）和精神健康（mental health），损伤点（damage point）和压力点（stress point）表示不太严重的打击，当点数累积超过阈值后会转变成生理伤害（wound）和精神创伤（trauma）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>4. 使用超能力（D 248-304）</strong></span><br><br>游戏规则通常会限制超能力的使用次数，例如龙与地下城的法术位或者黑暗世界的玛哪（mana），DFRPG利用压力与后果机制——施法失败可能受到精神压力与后果，或者会对环境造成不利影响。为了避免产生一打糟糕的侧面，行动前务必三思。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>5. 还有什么没提到</strong></span><br><br>本文侧重比较两套泛用系统的区别，因此略过不谈大量《徳雷斯顿档案RPG（你们的故事）》新增的设定和规则，它们包括但不限于：<br><br>· 用类似创建人物的步骤设计城市。<br>· 升级规则。<br>· 侧面除了引发和强制以外的其他用法。<br>· 法术设定与施法规则。<br>· 带团指导。<br>· 城市设定：巴尔的摩（Baltimore）。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>6. 总结</strong></span><br><br>DFRPG是一套使用系列小说《徳雷斯顿档案》的设定、建立在FATE基础上的专用规则，它包含FATE三版规则几个最突出的特色。<br><br>· 一切皆侧面。玩家用它刻画人物，赢得检定加值，回复命运点；主持人用它描述场景和伤害效果。<br>· 平衡机制：做卡时用回复等级购买新能力，游戏时用压力限制超能力的使用次数。<br>· 处理生理、精神、社交冲突的四步模式。<br>· 用“轨道”和“程度”记录伤害。<br>· 游戏提供机制，玩家添加描述。<br><br><span style="font-size: 1.35em;" class="bbc_size"><strong>III. 从Fudge到FATE</strong></span><br><br>DFRPG距离Fudge问世过了十五年，然而许多设计思想都被保存至今：使用形容词的等级表，投骰机制，“投骰或点头”的主持理念，尽量减少子规则的联系，把描述权交给游戏者……两者最大的区别在于FATE用侧面描写想象画面，把回复等级而非优缺点作为平衡机制，与侧面紧密结合的压力与后果可以看做Fudge伤害等级的自然延伸。如果你侧重扮演、偏好简洁，想用一套规则讲述各种故事（从笼城到废土，从攻壳机动队到惊情四百年），强调描述、简单易懂的FATE是个好选择。<br><br>[1] <a href="http://en.wikipedia.org/wiki/List_of_role-playing_games_by_genre" class="bbc_link new_win" target="_blank">http://en.wikipedia.org/wiki/List_of_role-..._games_by_genre</a><br>[2] <a href="http://en.wikipedia.org/wiki/Fudge" class="bbc_link new_win" target="_blank">http://en.wikipedia.org/wiki/Fudge</a><br>[3] <a href="http://www.panix.com/~sos/rpg/fud-des.html" class="bbc_link new_win" target="_blank">http://www.panix.com/~sos/rpg/fud-des.html</a><br>[4] <a href="http://www.fudgerpg.com/" class="bbc_link new_win" target="_blank">http://www.fudgerpg.com/</a><br>[5] <a href="http://en.wikipedia.org/wiki/FATE_RPG" class="bbc_link new_win" target="_blank">http://en.wikipedia.org/wiki/FATE_RPG</a><br>[6] <a href="http://www.evilhat.com/home/" class="bbc_link new_win" target="_blank">http://www.evilhat.com/home/</a><br>[7] <a href="http://faterpg.com/dl/FATE2fe.pdf" class="bbc_link new_win" target="_blank">http://faterpg.com/dl/FATE2fe.pdf</a><br>[8] <a href="http://index.rpg.net/display-entry.phtml?mainid=16605" class="bbc_link new_win" target="_blank">http://index.rpg.net/display-entry.phtml?mainid=16605</a><br>[9] <a href="http://trow.cc/forum/index.php?showtopic=19490" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=19490</a><br>[10] <a href="http://www.goddessfantasy.net/bbs/index.php?topic=31025.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=31025.0</a><br>[11] <a href="http://www.goddessfantasy.net/bbs/index.php?topic=30992.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=30992.0</a><br>[12] <a href="http://www.faterpg.com/dl/sotc-srd.html" class="bbc_link new_win" target="_blank">http://www.faterpg.com/dl/sotc-srd.html</a><br>[13] <a href="http://www.fudgerpg.com/goodies/fudge-files/core/" class="bbc_link new_win" target="_blank">http://www.fudgerpg.com/goodies/fudge-files/core/</a><br>[14] <a href="http://sonic.net/~rknop/php/Omar/fudge/FudgeSRD/FudgeSRD.html" class="bbc_link new_win" target="_blank">http://sonic.net/~rknop/php/Omar/fudge/Fud...D/FudgeSRD.html</a><br>[15] <a href="http://trow.cc/forum/index.php?showtopic=6695" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=6695</a><br>[16] <a href="http://trow.cc/forum/index.php?showtopic=14972" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=14972</a><br>[17] <a href="http://en.wikipedia.org/wiki/Dresden_files" class="bbc_link new_win" target="_blank">http://en.wikipedia.org/wiki/Dresden_files</a><br>[18] <a href="http://movie.douban.com/subject/1959155/" class="bbc_link new_win" target="_blank">http://movie.douban.com/subject/1959155/</a><br>[19] <a href="http://en.wikipedia.org/wiki/High_concept" class="bbc_link new_win" target="_blank">http://en.wikipedia.org/wiki/High_concept</a><br>[20] <a href="http://faterpg.com/dl/ontheflysrd.txt" class="bbc_link new_win" target="_blank">http://faterpg.com/dl/ontheflysrd.txt</a><br>[21] <a href="http://trow.cc/forum/index.php?showtopic=21764&amp;st=0&#38;#entry132601" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=2...mp;#entry132601</a><br>[22] <a href="http://trow.cc/forum/index.php?showtopic=21526" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=21526</a><br>[23] <a href="http://trow.cc/forum/index.php?showtopic=21195" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=21195</a><br>[24] <a href="http://www.goddessfantasy.net/bbs/index.php?topic=22628.0" class="bbc_link new_win" target="_blank">http://www.goddessfantasy.net/bbs/index.php?topic=22628.0</a><br>[25] <a href="http://trow.cc/forum/index.php?showtopic=21960" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=21960</a><br>[26] <a href="http://5irpg.com/publish/otherproducts/item/46-savage-worlds-test-driver-chinese-edition-released.html" class="bbc_link new_win" target="_blank">http://5irpg.com/publish/otherproducts/ite...n-released.html</a><br>[27] <a href="http://trow.cc/forum/index.php?showtopic=23055" class="bbc_link new_win" target="_blank">http://trow.cc/forum/index.php?showtopic=23055</a></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_510497">
+&#171; <em>上次编辑: 2013-02-03, 周日 22:32:25 由 Bozar</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg510509"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3103" title="检视会员资料:  星">星</a>
+</h4>
+<ul class="reset smalltext" id="msg_510509_extra_info">
+<li class="title">无<li class="membergroup">Global Moderator<li class="stars"><img src="Themes/celeste/images/on.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=3103">
+<img class="avatar" src="/bbs/upload/avatar/avatar_3103_1451469325.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 6758<li class="karma">苹果币: 6<li class="blurb">夜空中的闪烁<li class="profile">
+<ul>
+<li><a href="http://www.goddessfantasy.net/bbs/index.php?board=263.0" title="STAR的实验室" target="_blank" class="new_win"><img src="Themes/celeste/images/www_sm.gif" alt="STAR的实验室" border="0"/></a></ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/wireless.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_510509">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg510509#msg510509" rel="nofollow">Re: 从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_510509'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_510509'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2013-02-03, 周日 22:53:34 &#187;</div>
+<div id="msg_510509_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_510509">大大威武霸气，猛顶</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_510509">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg510542"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10962" title="检视会员资料:  landbuilding">landbuilding</a>
+</h4>
+<ul class="reset smalltext" id="msg_510542_extra_info">
+<li class="postgroup">Goddess<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=10962">
+<img class="avatar" src="/bbs/upload/avatar/avatar_10962_1285078208.jpg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 7522<li class="karma">苹果币: -22<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_510542">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg510542#msg510542" rel="nofollow">Re: 从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_510542'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_510542'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2013-02-04, 周一 01:20:26 &#187;</div>
+<div id="msg_510542_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_510542">这次的更新太少了，求新货！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_510542">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_510542_signature">文人为了写作素材什么事都干的出来</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg510546"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=4409" title="检视会员资料:  BobbyLiu">BobbyLiu</a>
+</h4>
+<ul class="reset smalltext" id="msg_510546_extra_info">
+<li class="postgroup">Flawless<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 4233<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_510546">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg510546#msg510546" rel="nofollow">Re: 从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_510546'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_510546'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2013-02-04, 周一 02:17:19 &#187;</div>
+<div id="msg_510546_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_510546">哦哦终于看到详细的了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_510546">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg545685"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=13294" title="检视会员资料:  RE:从零开始的异世界生活">RE:从零开始的异世界生活</a>
+</h4>
+<ul class="reset smalltext" id="msg_545685_extra_info">
+<li class="postgroup">Adventurer<li class="stars"><img src="Themes/celeste/images/pip.gif" alt="*" border="0"/><li class="postcount">帖子数: 57<li class="karma">苹果币: -18<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_545685">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg545685#msg545685" rel="nofollow">Re: 从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_545685'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_545685'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2013-05-25, 周六 06:03:49 &#187;</div>
+<div id="msg_545685_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_545685">赞！</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_545685">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg590814"></a><a id="new"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="检视会员资料:  月伶">月伶</a>
+</h4>
+<ul class="reset smalltext" id="msg_590814_extra_info">
+<li class="membergroup">版主<li class="stars"><img src="Themes/celeste/images/off.png" alt="*" border="0"/><li class="avatar" style="overflow: auto;">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397">
+<img class="avatar" src="/bbs/upload/avatar/avatar_41397_1396041187.jpeg" alt="" border="0"/>
+</a>
+<li class="postcount">帖子数: 1480<li class="karma">苹果币: 2<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_590814">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.msg590814#msg590814" rel="nofollow">Re: 从Fudge到FATE</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_590814'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_590814'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2013-11-22, 周五 23:38:48 &#187;</div>
+<div id="msg_590814_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_590814">最近想要翻译《巫师神探》（Dresden Files）的玩家手册Your Story，鑑于全书有418页，网路上也有不少翻译程度已经可供跑团的入门版，我打算从异能和施法开始翻，顺便在此召集苦力。<br>两本书我都有，想要一览的朋友可以私下跟我拿，当然如果你拿了我是希望你也跟着跳坑的。<br>本书采用笔记的风格排版，字间有大量来自系列小说主角哈利．德列斯登的吐槽，为了鼓励大家跳坑和支持原版我就不翻译了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_590814">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+<div class="signature" id="msg_590814_signature">龙国舆图以及各种东方设定翻译中</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=printpage;topic=55080.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;board=1086.0"><span>FATE</span></a> (版主: <a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=profile;u=41397" title="版主">月伶</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;topic=55080.0"><span>从Fudge到FATE</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 55080,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 55080,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b01458d970" value="05cf4466b95b292a7b39808b16e83f25" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="55080" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'05cf4466b95b292a7b39808b16e83f25\', \'b01458d970\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;' + '?topic=55080.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 9438 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1086,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "FATE",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1086,
+							iTopicId: 55080,
+							sSessionId: "05cf4466b95b292a7b39808b16e83f25",
+							sSessionVar: "b01458d970",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=608b062285b07a8dd1e4c54d0838ba14&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>

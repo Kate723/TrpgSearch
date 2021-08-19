@@ -1,0 +1,629 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" href="http://www.goddessfantasy.net/favicon.gif" type="image/gif">
+<meta name="description" content="钢之守护神BOSS范例——出自电子前线"/>
+<meta name="keywords" content="Ellesime 纯美苹果园 纯美苹果园 TRPG ADND D&amp;D DND 2e 3e 3r 4e 5e 龙与地下城 龙与地下城 PF PF2 PFS COC WOD SR GURPS"/>
+<title>钢之守护神BOSS范例——出自电子前线</title>
+<meta name="robots" content="noindex"/>
+<link rel="canonical" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0"/>
+<link rel="stylesheet" type="text/css" href="Themes/celeste/css/index.css?rc3"/>
+<link rel="stylesheet" type="text/css" href="Themes/default/css/print.css?rc3" media="print"/>
+<link rel="help" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help"/>
+<link rel="search" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search"/>
+<link rel="contents" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"/>
+<link rel="alternate" type="application/rss+xml" title="纯美苹果园 - RSS" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;type=rss;action=.xml"/>
+<link rel="prev" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=prev"/>
+<link rel="next" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=next"/>
+<link rel="index" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"/>
+<script src="Themes/default/scripts/script.js?rc3"></script>
+<script src="Themes/celeste/scripts/theme.js?rc3"></script>
+<!--script src="Themes/celeste/scripts/snowstorm-min.js?rc3"></script-->
+<style>#upper_section{margin-top: 1.5em}</style>
+<!--script>
+snowStorm.autoStart = true;
+snowStorm.animationInterval = 30;
+//snowStorm.snowColor = "#" + ("00"+Math.floor(Math.random()*4096).toString(16)).match(/.{3}$/); // From 000 to FFF
+snowStorm.snowColor = "#FCC";
+//snowStorm.snowCharacter = "❅";
+snowStorm.usePositionFixed = true;
+//snowStorm.freezeOnBlur = false;
+//snowStorm.followMouse = false;
+snowStorm.snowStick = false;
+snowStorm.flakesMaxActive = 36;
+snowStorm.vMaxX = 1;
+snowStorm.vMaxY = 3;
+</script-->
+<script>//<![CDATA[
+var smf_theme_url = "http://45.79.87.129/bbs/Themes/celeste";
+var smf_default_theme_url = "http://45.79.87.129/bbs/Themes/default";
+var smf_images_url = "http://45.79.87.129/bbs/Themes/celeste/images";
+var smf_scripturl = "http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;";
+var smf_iso_case_folding = false;
+var smf_charset = "UTF-8";
+var ajax_notification_text = "读取...";
+var ajax_notification_cancel_text = "取消";
+// ]]></script>
+<script>//
+var smf_avatarMaxWidth = 100;
+var smf_avatarMaxHeight = 100;
+window.addEventListener("load", smf_avatarResize, false);
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQK2WJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQK2WJ');</script>
+<!-- End Google Tag Manager -->
+<div id="header"><div class="frame">
+<div id="top_section">
+<h1 class="forumtitle">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><img src="/bbs/Themes/celeste/images/logo/logo5.png" alt="纯美苹果园"/></a>
+</h1>
+<img id="upshrink" src="Themes/celeste/images/upshrink.png" alt="*" title="收合或展开。" style="display: none;"/>
+<div id="siteslogan" class="align_right"><div style="text-align:right"><h1 style="color:navy;font-size:24pt;text-shadow:2px 2px 2px #fff;">纯美苹果园</h1><b><a style="color:white" href="http://www.goddessfantasy.net/bbs/">www.goddessfantasy.net</a></b></div></div>
+</div>
+<div id="upper_section" class="middletext">
+<div class="user">
+<script src="Themes/default/scripts/sha1.js"></script>
+<form id="guest_form" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, '01e9ae4620a5592b7a0cd731469a3cad');">
+<div class="info">请 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">登录</a> 或 <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">注册帐号</a>.</div>
+<input type="text" name="user" size="10" class="input_text"/>
+<input type="password" name="passwrd" size="10" class="input_password"/>
+<select name="cookielength">
+<option value="60">一小时
+<option value="1440">一天
+<option value="10080">一周
+<option value="43200">一个月
+<option value="-1" selected="selected">永远
+</select>
+<input type="submit" value="登录" class="button_submit"/><br>
+<div class="info">请输入帐号, 密码以及预计登录时间</div>
+<input type="hidden" name="hash_passwrd" value=""/>
+</form>
+</div>
+<div class="news normaltext">
+<form id="search_form" style="margin: 0;" action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=search2" method="post" accept-charset="UTF-8">
+<input type="text" name="search" value="" class="input_text"/>&nbsp;
+<input type="submit" name="submit" value="搜寻" class="button_submit"/>
+<input type="hidden" name="advanced" value="0"/>
+<input type="hidden" name="topic" value="89299"/></form>
+<h2>最新消息: </h2>
+<p><font color="red"><b>本站点内容仅供爱好者学习研究参考，不得作为商业用途</b></font><br><b>果园ＩＰ网址：　　　<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">４５．７９．８７．１２９</a>　　　</b><br><b>ＩＲＣ： </b><a href="https://kiwiirc.com/client/47.104.23.230/?&encoding=gbk#Free">47.104.23.230 （GB－6667/6668/6669）</a><br><b>查看你的订阅：</b><a href="?action=profile;area=notification">点击这里</a>　　　<b>查看最新帖子：</b><a href="?action=recent">点击这里</a><br><b>最新开团寻团：</b><a href="?board=551">招聘广场</a>　　　<b>最新跑团工具：</b><a href="?topic=31715">使用指南</a><br><b>需要注意事项：</b><a href="?topic=84521"><font color="red"><b>果园风纪</b></font></a>　　　<b>便捷路标指示：</b><a href="?topic=102711"><font color="red">果园导航</font></a></p>
+</div>
+</div>
+<script>//
+var oMainHeaderToggle = new smc_Toggle({
+bToggleEnabled: true,
+bCurrentlyCollapsed: false,
+aSwappableContainers: [
+'upper_section'
+],
+aSwapImages: [
+{
+sId: 'upshrink',
+srcExpanded: smf_images_url + '/upshrink.png',
+altExpanded: '收合或展开。',
+srcCollapsed: smf_images_url + '/upshrink2.png',
+altCollapsed: '收合或展开。'
+}
+],
+oThemeOptions: {
+bUseThemeSettings: false,
+sOptionName: 'collapse_header',
+sSessionVar: 'b837d17',
+sSessionId: '01e9ae4620a5592b7a0cd731469a3cad'
+},
+oCookieOptions: {
+bUseCookie: true,
+sCookieName: 'upshrink'
+}
+});
+</script>
+<div id="main_menu">
+<ul class="dropmenu" id="menu_nav">
+<li id="button_home">
+<a class="active firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;">
+<span class="last firstlevel">首页</span>
+</a>
+<li id="button_help">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=help">
+<span class="firstlevel">说明</span>
+</a>
+<li id="button_login">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=login">
+<span class="firstlevel">登录</span>
+</a>
+<li id="button_register">
+<a class="firstlevel" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=register">
+<span class="last firstlevel">注册</span>
+</a>
+</ul>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0"><span>钢之守护神BOSS范例——出自电子前线</span></a>
+</ul>
+</div>
+</div></div>
+<div id="content_section"><div class="frame">
+<div id="main_content_section">
+<a id="top"></a>
+<a id="msg834426"></a>
+<div class="pagesection">
+<div class="nextlinks"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=next#new">下一篇 &raquo;</a></div>
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=89299.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#lastPost"><strong>页底</strong></a></div>
+</div>
+<div id="forumposts">
+<div class="cat_bar">
+<h3 class="catbg">
+<img src="Themes/celeste/images/topic/normal_post.gif" align="bottom" alt=""/>
+<span id="author">作者</span>
+<span id="top_subject">主题: 钢之守护神BOSS范例——出自电子前线 &nbsp;(阅读 5677 次)</span>
+</h3>
+<h3 class="catbg"><span class="left"></span>
+<span id="description">副标题: 纯属尝试</span>
+</h3>
+</div>
+<form action="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=quickmod2;topic=89299.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('01e9ae4620a5592b7a0cd731469a3cad', 'b837d17') : false">
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834426_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834426">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834426#msg834426" rel="nofollow">钢之守护神BOSS范例——出自电子前线</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834426'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834426'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong> 于:</strong> 2017-01-30, 周一 02:19:48 &#187;</div>
+<div id="msg_834426_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834426">啊啊，总之这里是苗木，今晚在洛烙（即前面翻译帖中出现过的“诗织”）的帮助下把这段不知有多少用处的资料给写了出来 <img src="/bbs/Smileys/converted/Lem05.GIF" alt="&#58;em005" title="&#58;em005" border="0" class="smiley"/>……<br>不过至少可以作为新手GM上路的启示，然后吐槽官方双奥丁这种安排方式真是头被打飞 : <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/>，附带那些开场就内尔伽勒的基础套路真不是上来就想要PC的命吗 <img src="/bbs/Smileys/converted/em032.gif" alt="&#58;em032" title="&#58;em032" border="0" class="smiley"/><br>翻译并没有严谨的按照以前出现过的技能名字，如果拍砖的地方请轻一点 <img src="/bbs/Smileys/converted/Lem06.GIF" alt="&#58;em006" title="&#58;em006" border="0" class="smiley"/><br>最后……傻逼FEAR你能不能好好校稿！！这十页纸的东西我都抓出不下20个错误了！！<br>格式之后会再来调整成比较方便阅读的模式，今天先滚去睡了</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834426">
+&#171; <em>上次编辑: 2017-01-30, 周一 02:34:12 由 maodou089</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834427"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834427_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834427">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834427#msg834427" rel="nofollow">超奈落兽</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834427'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834427'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #1 于:</strong> 2017-01-30, 周一 02:21:06 &#187;</div>
+<div id="msg_834427_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834427"><span style="font-size: 12pt;" class="bbc_size">超奈落兽</span><br><strong>【这就是……奈落的力量！！】</strong><br>是为了“保护”奈落之门中形成的奈落兽，由拉夫帝国的奈落科技所创造出的最新型产品。<br>也就是说，将守护神和奈落兽一体化，不仅可以控制奈落兽更可以提升自身的能力，主要是为了从在奈落之门形成的时候不可避免的，来自敌方防御部队（就是指Fortune）的攻击中保护奈落之门。<br><br><strong>能力值</strong><br>种类：奈落兽<br>等级：12&nbsp; &nbsp; &nbsp; 体型：XL<br>体：12/+4&nbsp; &nbsp; &nbsp; 反：15/+5&nbsp; &nbsp; &nbsp; 知：15/+5<br>理：18/+6&nbsp; &nbsp; &nbsp; 意：9/+3&nbsp; &nbsp; &nbsp; &nbsp;幸：6/+2<br>命：10&nbsp; &nbsp; &nbsp; 回：6&nbsp; &nbsp; &nbsp; 炮：10&nbsp; &nbsp; &nbsp; 壁：6<br>移：3&nbsp; &nbsp; &nbsp; &nbsp;行：9&nbsp; &nbsp; &nbsp; FP：210&nbsp; &nbsp; &nbsp;EN：80<br>防：斩12/刺5/殴8/炎3<br>特技：《刚打3》、《齐射3》、《狙击3》、《瞬发行动1》、《攻击强化3》、《攻击扩大1》、《必中强化2》、《☆BOSS属性》<br><br>加护：<br>托尔、海姆达尔、奥丁、赫尔、武御雷、布都御魂、内尔伽勒、埃吉尔、尼奥尔德<br><br>《攻击强化3》<br>时点：次要动作<br>这个主要阶段的伤害骰+3D6<br><br>《必中强化2》<br>时点：次要动作<br>这个主要阶段进行的命中判定的判定值+2<br><br>《攻击扩大1》<br>时点：次要动作<br>这个主要回合进行的攻击的范围+1<br><br>《刚打3》、《齐射3》、《狙击3》<br>时点：主要动作<br>分别对应白兵攻击、射击攻击和远隔攻击。使用对应的武装的攻击，伤害+3D6<br><br>《瞬发行动1》<br>时点：先攻阶段<br>代价：无<br>解说：立刻进行一次追加的主步骤。就算处于行动终了中也可以使用。使用该Enemy特技进行的主步骤不会导致行动终了。<br><br><strong>真实型</strong><br>【为了拉夫帝国的胜利，这是必要的牺牲。】<br>守护神方的连结者将奈落兽纳入控制之中的情况下所拟定的资料。<br>武装1：热能斧<br>攻：&lt;炎&gt;+21/白兵（10） C值：9<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装2：光束机枪<br>攻：&lt;光&gt;+15/射击（10） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：1~2<br>武装3：超级米加粒子炮<br>攻：&lt;光&gt;+35/炮击（10） C值：12<br>对：直线6&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装4：360mm火箭炮<br>攻：&lt;炎&gt;+24/炮击（10） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：3~4<br><br><strong>奈落兽型</strong><br>【嘎哦哦哦哦哦】<br>连结者完全被奈落所占据，化为暴走的怪物的情况下所拟定的资料<br>武装1：高周波爪<br>攻：&lt;斩&gt;+30/白兵（10） C值：11<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：0<br>武装2：冷冻光线<br>攻：&lt;冰&gt;+16/射击（10） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：1~2<br>武装3：大型音波冲击<br>攻：&lt;暗&gt;+15/炮击（10） C值：12<br>对：范围3（自身除外） 射程：0<br>武装4：破坏光线<br>攻：&lt;雷&gt;+20/炮击（10） C值：12<br>对：范围2（选择）&nbsp; &nbsp; &nbsp;射程：3~5<br><br><strong>战斗方针</strong><br>真实型<br>最开始行动的时候使用超级米加粒子炮，尽可能的将多数的目标卷入攻击，没办法将多个目标纳入攻击的话，会使用【内尔伽勒】，并且在伤害投掷时使用【赫尔】。<br>后面会挡在ENEMY和PC的中间，用光束机枪发动攻击，也会以尽可能的将多数PC纳入超级米加粒子炮的攻击范围内而进行移动。<br><br>奈落兽型<br>基本是用在后方用破坏光线对PC进行攻击，如果PC们缩短距离的话就会使用大型音波冲击，基本上不会吝啬使用加护，尽可能的对PC造成损害。<br><br><strong>改造</strong><br>人数少的情况下<br>PC人数为4人的情况下，FP减少50点，消去加护《尼奥尔德》<br>PC人数为3人的情况下，在4人的基础上再消去《埃吉尔》和《布都御魂》。<br><br>在高等级下使用的情况<br>超奈落兽的等级+【PCLv*3】，同时战斗值如下算出（PCLv=PC等级，下同）：<br>命中值：PCLv÷2+10<br>回避值：PCLv÷3+5<br>炮击值：PCLv÷3+10<br>防壁值：PCLv÷2+5<br>行动值：PCLv+6<br>武装攻击力：+（PCLv-4）×3<br>FP：【PCLv×40】+90<br>EN：【PCLv×20】+20<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834427">
+&#171; <em>上次编辑: 2017-01-30, 周一 12:28:52 由 maodou089</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834428"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834428_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834428">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834428#msg834428" rel="nofollow">王牌驾驶员</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834428'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834428'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #2 于:</strong> 2017-01-30, 周一 02:25:03 &#187;</div>
+<div id="msg_834428_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834428"><span style="font-size: 12pt;" class="bbc_size">王牌驾驶员</span><br><strong>【当我的敌人，你还不够格。】</strong><br>王牌驾驶员<br>那在机甲历的世界不单单是个称号或宣传的台词。<br>连结者作为稀有的才能，而守护神也是数量有限的决战兵器，能把那股力量完全使出的王牌驾驶员的存在本身就能构成战略的决定性胜利条件。<br><br><strong>能力值</strong><br>种类：奈落守护神<br>等级：12&nbsp; &nbsp; &nbsp; 体型：-<br>体：6/+2&nbsp; &nbsp; &nbsp; &nbsp;反：18/+6&nbsp; &nbsp; &nbsp; 知：18/+6<br>理：18/+6&nbsp; &nbsp; &nbsp; 意：9/+3&nbsp; &nbsp; &nbsp; &nbsp;幸：6/+2<br>命：16&nbsp; &nbsp; &nbsp; 回：12（6）&nbsp; &nbsp; 炮：10&nbsp; &nbsp; &nbsp; 壁：10（5）<br>移：4&nbsp; &nbsp; &nbsp; 行：11&nbsp; &nbsp; &nbsp; FP：280&nbsp; &nbsp; &nbsp;EN：130<br>防：斩12/刺5/殴12/炎6/雷6/暗10<br>特技：《☆BOSS属性》、《瞬发行动1》、《保护20》、《攻击强化4》、《攻击扩大1》、《深度奈落化》<br><br><strong>加护：</strong><br>尼奥尔德、奥丁、托尔、内尔伽勒、提尔、海姆达尔、赫尔。<br><br>《瞬发行动1》<br>时点：先攻阶段<br>代价：无<br>解说：立刻进行一次追加的主步骤。就算处于行动终了中也可以使用。使用该Enemy特技进行的主步骤不会导致行动终了。<br><br>《深度奈落化》<br>时点：【FP】减少至一半时<br>【回避值】和【防壁值】变为括号内的数值（原本数值的一半），武装【奈落斩破】和【奈落奥拉斩】变为可以使用，同时追加《攻击力增大3》（伤害增加3D6），大小变为XL。<br>这个特技无论以什么效果都是无法阻止发动的。<br><br>《攻击强化4》<br>时点：次要阶段<br>这个主要阶段进行的攻击的伤害骰+4D6<br><br>《攻击扩大1》<br>时点：次要阶段<br>这个主要阶段进行的攻击的范围扩大一级。<br><br>《保护20》<br>时点：伤害判定后立即<br>对象：单体&nbsp; &nbsp; 射程：视界<br>对象所受到的伤害减轻20点。失去20点EN。一回合1次。<br><br><strong>骑士级型</strong><br>【抱歉，坠落吧！】<br>拉夫帝国的王牌驾驶员的拟订资料，稍事改造也可以作为华丽金属来使用，大小为M。155毫米狙击步枪视为【种类：狙击】的攻击，不可以进行掩护。<br><br>武装1：光束军刀<br>攻：&lt;光&gt;+22/白兵（16）&nbsp; C值：11<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装2：92mm机关枪<br>攻：&lt;光？&gt;+25/射击（16）C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp; 射程：1~3<br>武装3：奈落斩破<br>攻：&lt;暗&gt;+15/白兵（16）&nbsp; C值：12<br>对：范围3（选择）&nbsp; &nbsp; &nbsp; 射程：0<br>武装4：155mm狙击步枪<br>攻：&lt;殴&gt;+30/炮击（10） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：3~8<br><br><strong>魔幻级型</strong><br>【作为骑士的我！】<br>魔幻级的拟订资料，稍事改造也可以作为闪电级来使用，大小为S。<br><br>武装1：幻影剑<br>攻：&lt;斩&gt;+25/白兵（16）&nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装2：奈落斩破<br>攻：&lt;暗&gt;+15/白兵（16）&nbsp; C值：12<br>对：范围3（选择）&nbsp; &nbsp; &nbsp; 射程：0<br>武装3：奈落奥拉斩<br>攻：&lt;暗&gt;+28/白兵（16）&nbsp; C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：0<br>武装4：大塌缩<br>攻：&lt;光&gt;+19/炮击（10）&nbsp; C值：11<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：0<br><br><strong>战斗方针</strong><br>骑士级型<br>第一次行动的时候会使用155mm狙击步枪，尽可能的对多数的目标发动攻击，没办法将多个目标纳入攻击的话，会使用【内尔伽勒】，并且在伤害投掷时使用【赫尔】。<br>之后会尽可能的接近并且使用92mm机关枪，可能的情况下会使用光束军刀。<br><br>魔幻级型<br>最初的先攻步骤宣言使用【瞬发行动1】，使用【大塌缩】进行攻击。这个时候使用【内尔伽勒】、【海姆达尔】和【赫尔】，对尽可能多的PC发动攻击。<br>之后为了尽可能的将PC引入同一个方格而进行移动和攻击。<br><br><strong>改造</strong><br>人数少的情况下<br>PC人数为4人的情况下，FP减60点，消去加护《提尔》<br>PC人数为3人的情况下，FP再减低60点，消去《尼奥尔德》。<br><br>在高等级下使用的情况<br>王牌驾驶员的等级+【PCLv*3】，同时战斗值如下算出（PCLv=PC等级，下同）：<br>命中值：PCLv÷2+14<br>回避值：PCLv÷3+5<br>炮击值：PCLv÷3+9<br>防壁值：PCLv÷2+10<br>行动值：PCLv+8<br>武装攻击力：+（PCLv-3）×4<br>FP：【PCLv×40】+160<br>EN：【PCLv×20】+70<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834428">
+&#171; <em>上次编辑: 2017-02-06, 周一 20:33:05 由 maodou089</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834430"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834430_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834430">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834430#msg834430" rel="nofollow">巨大兵器</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834430'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834430'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #3 于:</strong> 2017-01-30, 周一 02:26:19 &#187;</div>
+<div id="msg_834430_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834430"><span style="font-size: 12pt;" class="bbc_size">巨大兵器</span><br><strong>【像蚂蚁一样的守护神，怎么可能比得上这样的巨大身躯！】</strong><br>巨大兵器。<br>以陆上战舰和要塞级为代表的守护神或者是进取级所代表的宇宙战舰。<br>这些巨大的兵器作为PC面前的阻碍可以说是最为合适的吧。<br><br><strong>能力值</strong><br>种类：奈落守护神<br>等级：12&nbsp; &nbsp; &nbsp; 体型：XL<br>体：10/+3&nbsp; &nbsp; &nbsp; &nbsp;反：6/+2&nbsp; &nbsp; &nbsp; 知：18/+6<br>理：15/+5&nbsp; &nbsp; &nbsp; &nbsp;意：15/+5&nbsp; &nbsp; 幸：9/+3<br>命：10&nbsp; &nbsp; &nbsp; 回：1&nbsp; &nbsp; 炮：12&nbsp; &nbsp; &nbsp; 壁：2<br>移：2&nbsp; &nbsp; &nbsp; 行：1&nbsp; &nbsp; FP：250&nbsp; &nbsp; &nbsp;EN：80<br>防：斩15/刺5/殴15/炎15/光10/暗10<br>特技：《☆BOSS属性》、《狙击4》、《瞬发行动2》、《移动狙击》、《攻击强化2》、《攻击扩大1》、《歼灭6》<br><br><strong>加护：</strong><br>不动明王、奥丁、托尔、内尔伽勒、海姆达尔<br><br>《瞬发行动2》<br>时点：本文<br>解说：在设置阶段和先攻阶段都可能使用。立刻进行一次追加的主步骤。就算处于行动终了中也可以使用。使用该Enemy特技进行的主步骤不会导致行动终了。<br><br>《歼灭6》<br>时点：常时<br>对【集群】的对象赋予的攻击+6D6<br><br>《狙击4》<br>时点：主要阶段<br>进行远隔攻击的时候，伤害+4D6<br><br>《移动狙击》<br>时点：次要动作<br>进行了移动的主要回合也可以使用远隔攻击<br><br>《攻击强化2》<br>时点：次要动作<br>那个主要阶段进行的攻击伤害骰+2D6<br><br>攻击扩大1<br>时点：次要动作<br>那个主要阶段进行的攻击的范围扩大一阶。<br><br><strong>要塞级型</strong><br>【大家，都给我消失吧！】<br>被设计为防御据点用的巨大守护神，虽然动作迟钝但是拥有着绝大的火力。<br><br>武装1：电击臂<br>攻：&lt;雷&gt;+16/白兵（10） C值：10<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装2：扩散AL粒子炮<br>攻：&lt;光&gt;+15/炮击（12） C值：12<br>对：范围3（选择）&nbsp; &nbsp; &nbsp;射程：0<br>武装3：集束AL粒子炮<br>攻：&lt;光&gt;+35/炮击（12） C值：12<br>对：直线6&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装4：对空脉冲射线<br>攻：&lt;光&gt;+14/射击（10） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：1~2<br>※对处于飞行状态或者高机动状态的对象造成的伤害+2D6<br><br><strong>进取级型</strong><br>【全体守护神部队，出击！】<br>进取级母舰的拟订形态。这个数据也可以作为帕提亚星间联合王国或者是新沃尔夫的战舰来使用。<br><br>武装1：超收束荷电粒子炮<br>攻：&lt;雷&gt;+24/炮击（12） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：4~8<br>武装2：连装主炮<br>攻：&lt;殴&gt;+18/炮击（12） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：3~6<br>武装3：对空机关炮<br>攻：&lt;殴&gt;+8/射击（10）&nbsp; C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：1~2<br>※对处于飞行状态或者高机动状态的对象造成的伤害+4D6<br>武装4：舰首钻头<br>攻：&lt;刺&gt;+30/白兵（10） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br><br><strong>战斗方针</strong><br>要塞级型<br>最初的行动的时候使用集束AL粒子炮，尽可能的对多数的目标发动攻击，对没办法卷入的目标，会使用【内尔伽勒】。<br>之后会尽可能的接近并且使用扩散AL粒子炮，找到机会就使用收束AL粒子炮力求歼灭。<br><br>进取级型<br>最初的行动会使用超收束荷电粒子炮，对FP最低PC进行攻击。这个时候也会用【内尔伽勒】将其他的PC卷入攻击。<br>之后会尽可能的保持距离作战，如果PC冒冒失失的靠近的话，会将【托尔】加于舰首钻头上发动逆袭。<br><br><strong>改造</strong><br>人数少的情况下<br>PC人数为4人的情况下，FP减低60点，消去加护《奥丁》<br>PC人数为3人的情况下，FP再减低60点，消去《内尔伽勒》。同时《瞬发行动》-1。<br><br>在高等级下使用的情况<br>巨大兵器的等级+【PCLv*3】，同时战斗值如下算出（PCLv=PC等级，下同）：<br>命中值：PCLv÷2+9<br>回避值：PCLv÷5+1<br>炮击值：PCLv÷2+11<br>防壁值：PCLv÷5+1<br>行动值：PCLv+0<br>武装攻击力：+（PCLv-3）×5<br>FP：【PCLv×40】+130<br>EN：【PCLv×20】+20<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834430">
+&#171; <em>上次编辑: 2017-01-30, 周一 03:29:24 由 maodou089</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834432"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834432_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834432">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834432#msg834432" rel="nofollow">观星者</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834432'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834432'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #4 于:</strong> 2017-01-30, 周一 02:27:31 &#187;</div>
+<div id="msg_834432_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834432"><span style="font-size: 12pt;" class="bbc_size">观星者</span><br><strong>【我可是人类的进化形态，像你们这样的……！】</strong><br>被称为观星者的人们是否真正的成为了超过人类成就的存在，仍然不为人知。<br>我们所知道的是，那份力量，只能在AL粒子散布下的战斗操纵着类似超能力、念力一般的兵器部件。<br>但是，只能想象到这个方向这件事本身就令人悲哀。<br>这就是那样的BOSS范例。<br><br><strong>能力值</strong><br>种类：守护神（领主级）<br>等级：12&nbsp; &nbsp; &nbsp; 体型：XL<br>体：9/+3&nbsp; &nbsp; &nbsp; &nbsp; 反：15/+5&nbsp; &nbsp; &nbsp; 知：17/+6<br>理：15/+5&nbsp; &nbsp; &nbsp; &nbsp;意：9/+3&nbsp; &nbsp; &nbsp; 幸：9/+3<br>命：11&nbsp; &nbsp; &nbsp; 回：8&nbsp; &nbsp; 炮：13&nbsp; &nbsp; &nbsp; 壁：8<br>移：4&nbsp; &nbsp; &nbsp; 行：15&nbsp; &nbsp;FP：195&nbsp; &nbsp; &nbsp;EN：100<br>防：斩8/刺2/殴6/炎6<br>特技：《☆BOSS属性》、《移动狙击》、《攻击强化2》、《攻击扩大1》、《体型特效10：小型》、《狙击2》、《瞬发行动1》、《状态获得：高机动》《障壁（光）：20》<br><br><strong>加护：</strong><br>赫尔莫德、赫尔、赫尔、内尔伽勒、提尔、海姆达尔、奥丁、不动明王<br><br>《瞬发行动1》<br>时点：先攻阶段<br>代价：无<br>解说：立刻进行一次追加的主步骤。就算处于行动终了中也可以使用。使用该Enemy特技进行的主步骤不会导致行动终了。<br><br>《狙击2》<br>时点：主要阶段<br>进行远隔攻击的时候，伤害+2D6<br><br>《移动狙击》<br>时点：次要动作<br>进行了移动的主要回合也可以使用远隔攻击<br><br>《攻击强化2》<br>时点：次要动作<br>这个主要阶段的伤害骰+2D6<br><br>《攻击扩大1》<br>时点：次要动作<br>这个主要回合进行的攻击的范围+1<br><br>《障壁20：光》<br>时点：常时<br>受&lt;光&gt;属性的射击攻击或者远隔攻击的伤害-20点。近似于护罩<br><br><br><strong>炎之座型</strong><br>【从我面前消失吧——！】<br>使用攻击终端炎之座作为主体的领主级。<br><br>武装1：手部发射器<br>攻：&lt;光&gt;+17/射击（11） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：1~2<br>武装2：光束军刀<br>攻：&lt;光&gt;+22/白兵（11） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装3：机关炮<br>攻：&lt;殴&gt;+17/射击（11） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：1~2<br>武装4：炎之座<br>攻：&lt;光&gt;+25/炮击（13） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：3~6<br>※无视射线或部分遮蔽<br><br><strong>近战型</strong><br>【见识一下吧，这就是观星者的末路】<br>通过观星者得精神波操纵的无人守护神，以米勒斯炎之座为主体的领主级。<br>这个形态的情况下，消去加护中的【不动明王】<br><br>武装1：散弹枪<br>攻：&lt;殴&gt;+23/射击（11） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：1~2<br>武装2：光束军刀<br>攻：&lt;光&gt;+22/白兵（11） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装3：高级火箭筒<br>攻：&lt;炎&gt;+25/炮击（13） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>武装4：米勒斯炎之座<br>攻：&lt;光&gt;+20/白兵（13） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：0<br>※无视射线或部分遮蔽<br>武装5：卫星加农炮<br>攻：&lt;光&gt;+60/炮击（13） C值：12<br>对：3幅直线10（选择） 射程：0<br>※代价：加护。一模组一回<br><br><strong>战斗方针</strong><br>炎之座型<br>使用炎之座将尽可能多的PC卷入攻击之中。在这种情况下会为了维持6格的距离而不断地后退射击。<br><br>近战型<br>尽可能的接近的同时会使用高级火箭筒和散弹枪进行攻击。当PC们聚集在一起，并且该机体FP低于50%时会使用卫星加农炮。<br><br><strong>改造</strong><br>人数少的情况下<br>PC人数为4人的情况下，FP减低40点，消去加护《提尔》<br>PC人数为3人的情况下，FP再减低40点，消去《赫尔莫德》和《奥丁》。<br><br>在高等级下使用的情况<br>观星者的等级+【PCLv*3】，同时战斗值如下算出（PCLv=PC等级，下同）：<br>命中值：PCLv÷3+11<br>回避值：PCLv÷3+7<br>炮击值：PCLv÷2+12<br>防壁值：PCLv÷2+7<br>行动值：PCLv+12<br>武装攻击力：+（PCLv-3）×4<br>FP：【PCLv×40】+70<br>EN：【PCLv×20】+40<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834432">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg834433"></a>
+<div class="windowbg2">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=78539" title="检视会员资料:  maodou089">maodou089</a>
+</h4>
+<ul class="reset smalltext" id="msg_834433_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 8<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_834433">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg834433#msg834433" rel="nofollow">超越存在</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_834433'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_834433'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #5 于:</strong> 2017-01-30, 周一 02:28:36 &#187;</div>
+<div id="msg_834433_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_834433"><span style="font-size: 14pt;" class="bbc_size">超越存在</span><br><strong>【人类，应当毁灭】</strong><br>机甲历世界的暗影之中所潜藏着的，物如其名的超越人类智慧的存在。<br>沉眠在电子宇宙（Cyberspace）中的电子奈落兽涅墨西斯、从奈落深处而来的奈落超兽或异次元奈落兽。以及连说出名字都被禁止的邪神们。<br>这是为了表现那些令人恐惧的存在而设计的BOSS范例。<br><br><strong>能力值</strong><br>种类：奈落兽<br>等级：12&nbsp; &nbsp; &nbsp; 体型：XL<br>体：21/+7&nbsp; &nbsp; &nbsp; &nbsp;反：12/+4&nbsp; &nbsp; &nbsp; 知：16/+5<br>理：15/+5&nbsp; &nbsp; &nbsp; &nbsp;意：18/+6&nbsp; &nbsp; &nbsp; 幸：9/+3<br>命：13&nbsp; &nbsp; &nbsp; 回：7&nbsp; &nbsp; 炮：12&nbsp; &nbsp; &nbsp; 壁：5<br>移：3&nbsp; &nbsp; &nbsp; 行：6&nbsp; &nbsp; FP：300&nbsp; &nbsp; &nbsp;EN：120<br>防：斩12/刺6/殴10/炎8/冰8/雷5/暗10<br>特技：《☆BOSS属性》、《攻击扩大2》、《攻击强化3》、《体型特效10：大型》、《瞬发行动1》、《状态获得：高机动》、《障壁（光）：20》、《暴走状态》<br><br><strong>加护：</strong><br>托尔、托尔、尼奥尔德、内尔伽勒、提尔、海姆达尔、奥丁、奥丁<br><br>《瞬发行动1》<br>时点：先攻阶段<br>代价：无<br>解说：立刻进行一次追加的主步骤。就算处于行动终了中也可以使用。使用该Enemy特技进行的主步骤不会导致行动终了。<br><br>《暴走状态》<br>时点：本文<br>【FP】下降至50%以下时自动使用。之后所有的防御修正变为0，在所有人的角色都行动完毕的时候每回合1次可以变为未行动状态。<br>并且，所有的攻击伤害+20。<br><br>《体型特效10：大型》<br>时点：常时<br>对【体型：L】以上的对象造成的伤害+10<br>《攻击强化3》<br>时点：次要阶段<br>那个主要阶段进行的攻击伤害骰+3D6<br><br>《攻击扩大2》<br>时点：次要阶段<br>那个主要阶段进行的攻击的范围扩大二阶<br><br><br><strong>邪神型</strong><br>【（人类所无法发出的，侵蚀着精神和理智的咆哮）】<br>人类所不可知的邪恶之神或者是恶魔，超越人智的存在的资料。<br><br>武装1：暗之炎<br>攻：&lt;暗&gt;+25/射击（13） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;射程：1~2<br>武装2：触手<br>攻：&lt;殴&gt;+40/白兵（13） C值：10<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：0<br>武装3：诅咒<br>攻：&lt;暗&gt;+30/炮击（12） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：3~6<br>武装4：灭绝之光<br>攻：&lt;光&gt;+40/炮击（12） C值：12<br>对：3幅直线10（选择） 射程：0<br>※暴走状态发动时才可以使用，消费EN60。<br><br><strong>奈落兽型</strong><br>【キャ——————ス】<br>巨大的怪兽和奈落兽，从物理上就能将世界毁灭掉的存在的类型。<br><br>武装1：格斗<br>攻：&lt;刺&gt;+45/白兵（13） C值：12<br>对：单体&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 射程：0<br>武装2：火焰放射<br>攻：&lt;炎&gt;+30/炮击（12） C值：12<br>对：直线10（选择）&nbsp; &nbsp; 射程：0<br>武装3：生体镭射<br>攻：&lt;光&gt;+25/射击（13） C值：12<br>对：范围1（选择）&nbsp; &nbsp; &nbsp;射程：1~4<br>武装4：大型音波冲击<br>攻：&lt;暗&gt;+30/炮击（12） C值：12<br>对：范围5（选择）&nbsp; &nbsp; &nbsp;射程：0<br>※暴走状态发动时才可以使用，消费EN60。<br><br><br><strong>战斗方针</strong><br>邪神型<br>基本不会移动而用诅咒和触手进行攻击，仅限对方不进入攻击圈的时候才会调整距离并使用暗之炎或者触手。也会使用【托尔】来强硬的破解对方的掩护。<br><br>奈落兽型<br>会利用追加行动来调整适合于释放火焰放射的距离，也会一边积极地前冲一边使用生体镭射。<br><br><strong>改造</strong><br>人数少的情况下<br>PC人数为4人的情况下，FP减低50点，消去加护《提尔》<br>PC人数为3人的情况下，FP再减低50点，消去《尼奥尔德》和《奥丁》。<br><br>在高等级下使用的情况<br>超越存在的等级+【PCLv*3】，同时战斗值如下算出（PCLv=PC等级，下同）：<br>命中值：PCLv÷3+12<br>回避值：PCLv÷3+6<br>炮击值：PCLv÷3+11<br>防壁值：PCLv÷3+4<br>行动值：PCLv+3<br>武装攻击力：+（PCLv-3）×6<br>FP：【PCLv×40】+180<br>EN：【PCLv×20】+60<br></div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_834433">
+&#171; <em>上次编辑: 2017-01-30, 周一 03:30:59 由 maodou089</em> &#187;
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+<a id="msg835125"></a><a id="new"></a>
+<div class="windowbg">
+<span class="topslice"><span></span></span>
+<div class="post_wrapper">
+<div class="poster">
+<h4>
+<img src="Themes/celeste/images/useroff.gif" alt="离线"/>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=64075" title="检视会员资料:  北宫弱羽">北宫弱羽</a>
+</h4>
+<ul class="reset smalltext" id="msg_835125_extra_info">
+<li class="postgroup">Peasant<li class="stars"><li class="postcount">帖子数: 7<li class="karma">苹果币: 0<li class="profile">
+<ul>
+</ul>
+</ul>
+</div>
+<div class="postarea">
+<div class="flow_hidden">
+<div class="keyinfo">
+<div class="messageicon">
+<img src="Themes/celeste/images/post/xx.gif" alt="" border="0"/>
+</div>
+<h5 id="subject_835125">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.msg835125#msg835125" rel="nofollow">Re: 钢之守护神BOSS范例——出自电子前线</a>
+</h5>
+<div class="zh_convert" style="float:right;display:none">
+[<a href="javascript:convertToTraditional(document.getElementById('msg_835125'));undefined;">繁</a>
+<a href="javascript:convertToSimplified (document.getElementById('msg_835125'));undefined;">简</a>]</div>
+<div class="smalltext">&#171; <strong>回帖 #6 于:</strong> 2017-02-06, 周一 10:04:15 &#187;</div>
+<div id="msg_835125_quick_mod"></div>
+</div>
+</div>
+<div class="post">
+<div class="inner" id="msg_835125">感谢分享</div>
+</div>
+</div>
+<div class="moderatorbar">
+<div class="smalltext modified" id="modified_835125">
+</div>
+<div class="smalltext reportlinks">
+<img src="Themes/celeste/images/ip.gif" alt="" border="0"/>
+记录
+</div>
+</div>
+</div>
+<span class="botslice"><span></span></span>
+</div>
+<hr class="post_separator"/>
+</form>
+</div>
+<a id="lastPost"></a>
+<div class="pagesection">
+<div class="buttonlist align_right">
+<ul>
+<li><a class="button_strip_print" href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=printpage;topic=89299.0" rel="new_win nofollow"><span class="last">列印</span></a></ul>
+</div>
+<div class="pagelinks align_left">页:  [<strong>1</strong>]    &nbsp;&nbsp;<a href="#top"><strong>页顶</strong></a></div>
+<div class="nextlinks_bottom"><a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=prev#new">&laquo; 上一篇</a> <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0;prev_next=next#new">下一篇 &raquo;</a></div>
+</div>
+<div class="navigate_section">
+<ul>
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;"><span>纯美苹果园</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;#c12"><span>译文资料区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=44.0"><span>TRPG译文专区</span></a> &#187;
+<li>
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;board=1423.0"><span>钢之守护神RPG</span></a> (版主: <a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=profile;u=73123" title="版主">天道隼人</a>) &#187;
+<li class="last">
+<a href="?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;topic=89299.0"><span>钢之守护神BOSS范例——出自电子前线</span></a>
+</ul>
+</div>
+<div id="moderationbuttons"></div>
+<div class="plainbox" style="text-align: right;" id="display_jump_to">&nbsp;</div>
+<br class="clear"/>
+<script src="Themes/default/scripts/topic.js"></script>
+<script>//<![CDATA[
+var oQuickReply = new QuickReply({
+bDefaultCollapsed: false,
+iTopicId: 89299,
+iStart: 0,
+sScriptUrl: smf_scripturl,
+sImagesUrl: "http://45.79.87.129/bbs/Themes/celeste/images",
+sContainerId: "quickReplyOptions",
+sImageId: "quickReplyExpand",
+sImageCollapsed: "collapse.gif",
+sImageExpanded: "expand.gif",
+sJumpAnchor: "quickreply"
+});
+if ('XMLHttpRequest' in window)
+{
+var oQuickModify = new QuickModify({
+sScriptUrl: smf_scripturl,
+bShowModify: true,
+iTopicId: 89299,
+sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="b837d17" value="01e9ae4620a5592b7a0cd731469a3cad" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="89299" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="保存" tabindex="2" onclick="return oQuickModify.modifySave(\'01e9ae4620a5592b7a0cd731469a3cad\', \'b837d17\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="取消" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateDescriptionEdit: '<input type="text" style="width: 90%;" name="descri' +'ption" value="%descri' +'ption%" size="80" maxlength="80" tabindex="5" class="input_text" />',
+
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr' + 'ef="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;' + '?topic=89299.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: '主题: %subject% &nbsp;(阅读 5677 次)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">前往:<" + "/label> %dropdown_list%",
+							iCurBoardId: 1423,
+							iCurBoardChildLevel: 1,
+							sCurBoardName: "钢之守护神RPG",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "继续"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 1423,
+							iTopicId: 89299,
+							sSessionId: "01e9ae4620a5592b7a0cd731469a3cad",
+							sSessionVar: "b837d17",
+							sLabelIconList: "帖子图示",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright"><strong>Celeste</strong> by <a href="http://www.licuadoscorazones.com.ar/" alt="Licuados Coraznoes" target=_blank><strong>rjckE</strong></a></li>
+			<li class="copyright">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by SMF 2.0 RC3</a> |
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>
+		</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check/referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://45.79.87.129/bbs/index.php?PHPSESSID=36b752c53b0f301795115ca6597f7676&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</body></html>
