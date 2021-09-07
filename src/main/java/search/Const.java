@@ -3,7 +3,7 @@ package search;
 public class Const {
     public static final String ROOT_PATH = "/usr/share/nginx/html/"
 
-    public static final String SAVE_PATH = ROOT_PATH + "trpgsearch/src/main/resources/lucene_db";
+    public static final String SAVE_PATH = ROOT_PATH + "TrpgSearch/src/main/resources/lucene_db";
     public static final String HTML_PATH = ROOT_PATH + "lucene_db/save";
     public static final String INDEX_PATH = ROOT_PATH + "lucene_db";
 
