@@ -1,2 +1,2 @@
-# trpgsearch
+# TrpgSearch
 IR project
